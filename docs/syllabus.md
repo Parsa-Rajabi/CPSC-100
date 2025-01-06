@@ -11,9 +11,10 @@ Department of Computer Science, University of British Columbia
   - Office Hours: Wednesdays 1:30-2:30 in ICSS 249; Or, by appointment.
 
 > [!TIP]
-> Before sending an email, make sure to review this article on [How to email your profs effectively](https://students.ubc.ca/ubclife/inbox-1-email-profs-effectively) for tips on how to effectively communicate with your instructor. **Emails that do not follow these guidelines will be returned to the sender for revision.**
+> Sign up for course discussion board using this link: [Ed Discussion](https://edstem.org/us/join/PH2rqB). Make sure to use your UBC email address to sign up.
 
-Refer to course communication conventions for the best way to reach out to the instructor.
+
+Refer to [course communication conventions](#course-communication-conventions) for the best way to reach out to the instructor.
 
 ## Lectures
 
@@ -96,14 +97,6 @@ If you miss an exam, please contact the instructor as soon as possible. You must
 
 The project is a group assignment that will be completed throughout the term. The project will be graded based on the quality of the final deliverable, the group's ability to work together, and the individual contributions of each group member. Project details will be provided throughout the first few weeks of the course.
 
-### Professionalism
-
-Students are expected to maintain a high level of professionalism in all course activities and communication with the instructor and peers. This includes proper email etiquette, respectful communication in class, and adherence to deadlines. Before sending an email, please ensure that you have included a subject line including the course code (CPSC 100), a greeting, a clear message, **your full name/student ID#** and a closing. Using AI/ChatGPT to generate emails is **not recommended** and **such emails will be returned for revision.**
-
-Before sending an email, make sure to review this article on [How to email your profs effectively](https://students.ubc.ca/ubclife/inbox-1-email-profs-effectively) for tips on how to effectively communicate with your instructor. **Emails that do not follow these guidelines will be returned to the sender for revision.**
-
-> Repeated unprofessional behavior will result in grade deduction from your final grade, with **each violation resulting in a 1% deduction**. Students will be notified of possible deductions after the first official warning.
-
 ### Passing Criteria
 
 If only we could give you all an A+ just for participating. Fortunately or unfortunately, we can't. UBC requires that students are assessed on the learning outcomes of the course. To pass this course, you must:
@@ -170,6 +163,16 @@ We will read articles, view instructional videos, and read chapters from the fol
 - For confidential or personal matters: Talk to or email the instructor(s). Include "[CPSC 100]" in the subject line of any email for a faster response. Emails without this subject line may be missed.
   - Make sure to include your full name and student number in all correspondence.
   - It is recommended to use your UBC email address for all course-related communication to ensure that your message is not marked as spam.
+
+### Professionalism
+
+Students are expected to maintain a high level of professionalism in all course activities and communication with the instructor and peers. This includes proper email etiquette, respectful communication in class, and adherence to deadlines. Before sending an email, please ensure that you have included a subject line including the course code (CPSC 100), a greeting, a clear message, **your full name/student ID#** and a closing. Using AI/ChatGPT to generate emails is **not recommended** and **such emails will be returned for revision.**
+
+> [!WARNING]
+> Before sending an email, make sure to review this article on [How to email your profs effectively](https://students.ubc.ca/ubclife/inbox-1-email-profs-effectively) for tips on how to effectively communicate with your instructor. **Emails that do not follow these guidelines will be returned to the sender for revision.**
+
+> Repeated unprofessional behavior will result in grade deduction from your final grade, with **each violation resulting in a 1% deduction**. Students will be notified of possible deductions after the first official warning.
+
 
 ---
 ## UBC and Course Policies
