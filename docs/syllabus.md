@@ -162,8 +162,11 @@ We will read articles, view instructional videos, and read chapters from the fol
 
 ## Course Communication Conventions
 
-- For anything relevant to the larger group (conceptual questions, logistics issue, etc.): Post public-to-class on the course discussion board, which will be checked daily by course staff, and this way the whole class can benefit. 
-- For personal logistics (project, labs, etc.): Post to course staff on the discussion board.
+> [!TIP]
+> Sign up for course discussion board using this link: [Ed Discussion](https://edstem.org/us/join/PH2rqB). Make sure to use your UBC email address to sign up.
+
+- For anything relevant to the larger group (conceptual questions, logistics issue, etc.): Post public-to-class on the [course discussion board - Ed](https://edstem.org/us/join/PH2rqB), which will be checked daily by course staff, and this way the whole class can benefit. 
+- For personal logistics (project, labs, etc.): Post to course staff on the discussion board, Ed.
 - For confidential or personal matters: Talk to or email the instructor(s). Include "[CPSC 100]" in the subject line of any email for a faster response. Emails without this subject line may be missed.
   - Make sure to include your full name and student number in all correspondence.
   - It is recommended to use your UBC email address for all course-related communication to ensure that your message is not marked as spam.
@@ -243,3 +246,13 @@ For immediate mental health support (evenings AND weekends):
   - Call Crisis Center BC: 1-800-784-2433 (24/7) 
   - Call or visit VGH Access and Assessment Centre: 604-675-3700 (7:30am to 11:00pm)
   - Visit your nearest emergency room
+
+## Privacy
+
+CPSC 100 utilizes Ed Discussion to enhance class discussions and communication. Your personal information is collected and disclosed to Ed Discussion under the authority of section 26(c) of the Freedom of Information and Protection of Privacy Act (FIPPA).
+
+To provide you with access to Ed Discussion, UBC must disclose your name, email, and other course-related information to Ed Discussion which operates and stores information outside of Canada. When activating your account you will have option to use an alias (such as your @student.ubc.ca or @ugrad.cs.ubc.ca emails) to help protect your identity.
+
+For more information on how Ed Discussion handles your data, please refer to their [Privacy Policy](https://edstem.org/au/privacy).
+
+For questions or concerns about how this information is collected, used, or stored, please contact the instructor.
