@@ -1,5 +1,5 @@
 - [Syllabus](syllabus)
-- [AI Policy](ai-policy)
+<!-- - [AI Policy](ai-policy) -->
 <!-- - [Course Schedule](schedule) -->
 <!-- - [Teaching Team](teaching-team) -->
 <!-- - [Lecture Notes](lecture-notes) -->
