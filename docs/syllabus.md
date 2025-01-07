@@ -92,7 +92,6 @@ Following each module, there will be a quiz to help ensure you have followed the
 
 If you miss an exam, please contact the instructor as soon as possible. You must contact [UBC Science](https://science.ubc.ca/students/advising) within 48 hours of your missed final exam to apply for a deferred exam. Further information about deferred exams can be found in [UBC Science's Exam FAQ](https://science.ubc.ca/students/advising/exams).
 
-
 ### Project
 
 The project is a group assignment that will be completed throughout the term. The project will be graded based on the quality of the final deliverable, the group's ability to work together, and the individual contributions of each group member. Project details will be provided throughout the first few weeks of the course.
@@ -106,6 +105,14 @@ If only we could give you all an A+ just for participating. Fortunately or unfor
 - and, in addition, achieve a passing grade (>50%) on the course project
 
 Students who fail to meet these requirements will have a final grade of 45% or less.
+
+### Grade Solicitation Policy
+
+Requests for grade adjustments (especially final course grade) based on non-academic reasons are not appropriate and are considered unprofessional. Examples include, but are not limited to, statements such as "I need this grade," "I deserve a higher grade" or any similar personal circumstances.
+
+Students are expected to meet the academic requirements of the course as outlined in this syllabus. Soliciting grade changes undermines the integrity of the evaluation process and may result in a negative impact on your final grade.
+
+If you have concerns about your performance, you are encouraged to seek feedback early and make use of available resources, such as office hours and course support services, to address any challenges proactively.
 
 ## Learning Resources
 
