@@ -157,8 +157,8 @@ In addition to all university rules, regulations, and academic guidelines, the f
 
 We will read articles, view instructional videos, and read chapters from the following books – all freely available online.
 
-- **[B2B]** Abelson, Hal, Ken Ledeen, and Harry Lewis. 2008. Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion. 1st edition. Upper Saddle River, NJ: Addison-Wesley Professional. [http://www.bitsbook.com/excerpts/](Available for free)
-- **[CSFG]** 'Computer Science Field Guide'. 2020. 19 June 2020. [https://www.csfieldguide.org.nz/en/chapters/](Available for free)
+- **[B2B]** Abelson, Hal, Ken Ledeen, and Harry Lewis. 2008. Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion. 1st edition. Upper Saddle River, NJ: Addison-Wesley Professional. [Available for free](http://www.bitsbook.com/excerpts/)
+- **[CSFG]** 'Computer Science Field Guide'. 2020. 19 June 2020. [Available for free](https://www.csfieldguide.org.nz/en/chapters/)
 
 ## Course Communication Conventions
 
