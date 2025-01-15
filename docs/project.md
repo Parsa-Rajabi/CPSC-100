@@ -69,7 +69,7 @@ You will be assessed based on the deliverables as well as your TA mentors' and t
 
 |         Deliverable          | Weight | Due Date  |
 | :--------------------------: | :----: | :-------: |
-| Milestone 0 - Group Contract |   5%   | Oct. 15th |
+| Milestone 0 - Group Contract |   -    | Oct. 15th |
 |    Milestone 1 - Proposal    |   5%   | Oct. 15th |
 | Milestsone 2 - Data Inquiry  |  10%   | Nov. 12th |
 |  Milestone 3 - Infographic   |  10%   | Dec. 3th  |

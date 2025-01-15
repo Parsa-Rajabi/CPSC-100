@@ -1,4 +1,5 @@
 - [Syllabus](syllabus)
+- [Project](project)
 <!-- - [AI Policy](ai-policy) -->
 <!-- - [Course Schedule](schedule) -->
 <!-- - [Teaching Team](teaching-team) -->
