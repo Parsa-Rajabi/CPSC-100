@@ -73,9 +73,15 @@ You will be assessed based on the deliverables as well as your TA mentors' and t
 |    Milestone 1 - Proposal    |   5%   | Feb. 12  |
 | Milestsone 2 - Data Inquiry  |  10%   | Mar. 12  |
 |  Milestone 3 - Infographic   |  10%   |  Apr. 7  |
+|       Peer Evaluation        |   -    |  Apr. 8  |
 
+Note: Each group only needs to submit one submission for deliverables 1 - 3
 
-Each group only needs to submit one submission for deliverables 1 - 3
+Although all group members will receive the same grade for each deliverable, a peer evaluation will be conducted at the end of the project to ensure fair participation grading. The peer evaluation will determine an individual's participation grade, which factors into the overall project grade. Here is how this participation grade fits into the overall grade of the project:
+
+`Project Grade = Group Grades x Participation Grade`
+
+So, in the end, each student may receive a different grade based on their participation in the project. The teaching team retains the discretion to adjust each group member’s participation grade based on their individual level of engagement and contributions to the team, as evaluated by the teaching team.
 
 ## Overview
 
@@ -216,6 +222,12 @@ The infographic submission must include the following:
 - Interesting Results: Ensure that the results presented are intriguing and relevant to the audience.
 
 --- 
+
+## M3: Peer Evaluation
+
+Each student will evaluate their teammates’ contributions to ensure fair participation grading. These evaluations will determine an individual’s participation grade, which factors into the overall project grade. Evaluations must be completed thoughtfully and on time, as missing or poor-quality submissions may result in penalties. The teaching team may adjust grades based on observed engagement. Further submission instructions will follow.
+
+---
 ## Resources
 
 Here are some software tools that you may find helpful.
