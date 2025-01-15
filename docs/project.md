@@ -17,7 +17,7 @@ The project provides a well-structured format for students to engage deeply with
 
 ## Exploring the Impact of Computing on Relationships
 
-This project involves researching a specific topic and creating an infographic or video to summarize your findings. Topics MUST fall under one of the following themes. Your group can choose to look at the positive or negative impact of computing on social relationships.
+This project involves researching a specific topic and creating an infographic to summarize your findings. Topics MUST fall under one of the following themes. Your group can choose to look at the positive or negative impact of computing on social relationships.
 
 1. Broadening global connections:
 - Digital Humanitarianism: How technology enables global communities to coordinate relief efforts during crises (e.g., natural disasters, pandemics).
