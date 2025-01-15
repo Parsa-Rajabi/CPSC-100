@@ -67,12 +67,12 @@ There are four deliverables for the project. We have spaced the deliverables ove
 
 You will be assessed based on the deliverables as well as your TA mentors' and team members' evaluations.
 
-|         Deliverable          | Weight | Due Date  |
-| :--------------------------: | :----: | :-------: |
-| Milestone 0 - Group Contract |   -    | Oct. 15th |
-|    Milestone 1 - Proposal    |   5%   | Oct. 15th |
-| Milestsone 2 - Data Inquiry  |  10%   | Nov. 12th |
-|  Milestone 3 - Infographic   |  10%   | Dec. 3th  |
+|         Deliverable          | Weight | Due Date |
+| :--------------------------: | :----: | :------: |
+| Milestone 0 - Group Contract |   -    | Jan. 24  |
+|    Milestone 1 - Proposal    |   5%   | Feb. 12  |
+| Milestsone 2 - Data Inquiry  |  10%   | Mar. 12  |
+|  Milestone 3 - Infographic   |  10%   |  Apr. 7  |
 
 
 Each group only needs to submit one submission for deliverables 1 - 3
