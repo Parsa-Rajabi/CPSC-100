@@ -8,7 +8,7 @@ Department of Computer Science, University of British Columbia
 
 - Parsa Rajabi
   - Email: *prajabi at cs`DELETEthisTEXT`.ubc.ca*
-  - Office Hours: Wednesdays 1:30-2:30 in ICSS 249; Or, by appointment.
+  - Office Hours: Wednesdays 1:30-2:30 in ICCS 249; Or, by appointment.
 
 > [!TIP]
 > Sign up for course discussion board using this link: [Ed Discussion](https://edstem.org/us/join/PH2rqB). Make sure to use your UBC email address to sign up.
