@@ -12,7 +12,7 @@
 |   L2A (9-10a)   | **Olamide** Olabiyi  | oolabiyi [at] `DELETEthisTEXT` student.ubc.ca  |   [Booking Link](https://calendly.com/olamideolabiyi/ola-office-hours)    |
 |  L2B (10-11a)   | **Parsa** Seyfourian | parsasey [at] `DELETEthisTEXT` student.ubc.ca  | [Booking Link](https://calendly.com/pseyfourian-bccrc/parsa-office-hours) |
 |  L2C (11-12p)   |     **Kelly** Xi     | kellyxi  [at] `DELETEthisTEXT` student.ubc.ca  |           [Booking Link](https://calendly.com/kellyyyxi/30min)            |
-|   L2D (12-1p)   |  **Abigail** Demian  | ademia01  [at] `DELETEthisTEXT` student.ubc.ca |                                     -                                     |
+|   L2D (12-1p)   |  **Abigail** Demian  | ademia01  [at] `DELETEthisTEXT` student.ubc.ca |  [Booking Link](https://calendly.com/ademian/abby-midterm-office-hours)   |
 |   L2E (5-6p)    |   **Sam** Bakteria   | bakteria  [at] `DELETEthisTEXT` student.ubc.ca |       [Booking Link]( https://calendly.com/bakteria-student/10min)        |
 
 ## Professionalism 
