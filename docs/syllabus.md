@@ -63,14 +63,14 @@ At the highest level, this course has three goals. On completing this course, yo
 
 ## Course Evaluation
 
-|      **Item**      | **Weight** |
-| :----------------: | :--------: |
-|      Clickers      |     2%     |
-|        Labs        |    10%     |
-| Post-class Quizzes |    13%     |
-|      Midterm       |    20%     |
-|   Final Project    |    25%     |
-|     Final Exam     |    30%     |
+|      **Item**      | **Weight** |     **Schedule**      |
+| :----------------: | :--------: | :-------------------: |
+|      Clickers      |     2%     |       In-class        |
+|        Labs        |    10%     |       Thursdays       |
+| Post-class Quizzes |    13%     |        Sundays        |
+|      Midterm       |    20%     |   Fri, Feb 14 at 3p   |
+|   Final Project    |    25%     | [Details](project.md) |
+|     Final Exam     |    30%     |          TBD          |
 
 Note: the course evaluation is subject to change until Friday, January 10, 2025. After this date, the evaluation will be considered final. Any changes will be communicated to the class during the first week of classes.
 
