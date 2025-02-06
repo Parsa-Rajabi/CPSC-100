@@ -1,9 +1,9 @@
 - [Syllabus](syllabus)
 - [Project](project)
-<!-- - [AI Policy](ai-policy) -->
-<!-- - [Course Schedule](schedule) -->
 - [Teaching Team](teaching-team)
-- [Practice Problems](./practice/index.html)
+- [Practice Problems](practice/index.html)
+<!-- - [AI Policy](ai-policy) -->
+<!-- - [Course Schedule](schedule) --> 
 <!-- - [Lecture Notes](lecture-notes) -->
 <!-- - [Assignments & Labs](assignment-lab-details) -->
 <!-- - [Resources](resources) -->
