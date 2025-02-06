@@ -1,0 +1,416 @@
+
+<!-- saved from url=(0061)https://www.ugrad.cs.ubc.ca/~cs100/2017W1/exercises/snap.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <title>Snap Exercises</title>
+	    <!-- Bootstrap Core CSS -->
+	    <link href="./SnapExercises_files/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom CSS -->
+	    <link href="./SnapExercises_files/clean-blog.min.css" rel="stylesheet">
+
+	    <link rel="icon" type="../image/png" href="https://www.ugrad.cs.ubc.ca/~cs100/2017W1/img/favicon.png">
+
+	    <!-- Custom Fonts -->
+	    <link href="./SnapExercises_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href="./SnapExercises_files/css" rel="stylesheet" type="text/css">
+	    <link href="./SnapExercises_files/css(1)" rel="stylesheet" type="text/css">
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    <style>
+	    	img {
+	    		padding-top: 10px;
+	    		padding-bottom: 10px;
+	    	}
+
+	    	img.multipleChoiceAnswer {
+	    		display:inline;
+	    		margin-left:0;
+	    	}
+
+	    	img.explanation {
+	    		display:inline;
+	    		height:80px;
+	    	}
+
+	    	img.singleBlockExplanation {
+	    		display:inline;
+	    		height:60px;
+	    	}
+	   	</style>
+	</head>
+	<body>
+		<!--#include virtual="../../menu.html" -->
+		<div id="container">
+			 <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-1">
+			 	<h1>Reading Snap Code</h1>
+				Most of the exercises have Snap code associated with them. To run the code, download the XML file. Then <a href="http://snap.berkeley.edu/snapsource/snap.html" target="_blank">open Snap</a>. Click on the file menu (it looks like a piece of paper), and choose &quot;Import&quot;. Then choose the XML file that you downloaded.
+				<ol class="list-group">
+	                <li class="list-group-item">
+	                 	What is the output of this program?
+
+	                 	<img src="./SnapExercises_files/q0.png" class="img-responsive">
+
+	                 	<ol type="a">
+	                    	<li>"Yay!"</li>
+	                    	<li>"Yay! Yay!"</li>
+	                    	<li>"Yay! Yay! Yay! Yay!"</li>
+	                    	<li>Nothing</li>
+	                    </ol>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q0">Answer</button>
+
+	                    <div id="snap-read-code-q0" class="collapse">
+	                    	<p>D</p>
+												<a href="./snap/snap-1.xml" download="snap-1.xml">Download the Question code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p>The number beside the <img src="./SnapExercises_files/q0-explanation-1.png" class="img-responsive explanation"> (in this case, 0), states how many times whatever is inside is run. Since we are repeating 0 times, this means that whatever is inside <img src="./SnapExercises_files/q0-explanation-1.png" class="img-responsive explanation"> will not run.</p>
+
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	What is the output of this program?
+
+	                 	<img src="./SnapExercises_files/q1.png" class="img-responsive">
+
+	                 	<ol type="a">
+	                    	<li>"Marco! Marco!"</li>
+	                    	<li>"Marco! Marco! Polo!"</li>
+	                    	<li>"Polo! Marco! Marco!"</li>
+	                    	<li>"Polo!"</li>
+	                    </ol>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q1">Answer</button>
+
+	                    <div id="snap-read-code-q1" class="collapse">
+	                    	<p>D</p>
+												<a href="./snap/snap-2.xml" download="snap-2.xml">Download the Question code.</a>
+
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p>Whatever is inside the <img src="./SnapExercises_files/q1-explanation-1.png" class="img-responsive explanation"> block will be repeated once. If we take a closer look at what is inside <img src="./SnapExercises_files/q1-explanation-1.png" class="img-responsive explanation">, <img src="./SnapExercises_files/q1-explanation-2.png" class="img-responsive explanation">, we see that there are two parts: a <img src="./SnapExercises_files/q0-explanation-1.png" class="img-responsive explanation"> block and a <img src="./SnapExercises_files/q1-explanation-4.png" class="img-responsive singleBlockExplanation"> block. Since whatever is inside the <img src="./SnapExercises_files/q0-explanation-1.png" class="img-responsive explanation"> block runs zero times, only the <img src="./SnapExercises_files/q1-explanation-4.png" class="img-responsive singleBlockExplanation"> block will run. In other words, <img src="./SnapExercises_files/q1-explanation-3.png" class="img-responsive explanation">.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Does the sprite say "Hello!"?
+
+	                 	<img src="./SnapExercises_files/q7.png" class="img-responsive">
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q2">Answer</button>
+
+	                    <div id="snap-read-code-q2" class="collapse">
+	                    	<p>Yes</p>
+												<a href="./snap/snap-3.xml" download="snap-3.xml">Download the Question code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p>When evaluating <img src="./SnapExercises_files/q7-explanation-1.png" class="img-responsive singleBlockExplanation"> blocks, we only need one blank out of the two to be true in order for the whole statement to be true. If at least one of <img src="./SnapExercises_files/q7-explanation-2.png" class="img-responsive singleBlockExplanation"> and <img src="./SnapExercises_files/q7-explanation-3.png" class="img-responsive singleBlockExplanation"> is true, the <img src="./SnapExercises_files/q7-explanation-4.png" class="img-responsive singleBlockExplanation"> block will be true.</p>
+
+	                    	<p>Since we know X = 0 (because <img src="./SnapExercises_files/q7-explanation-5.png" class="img-responsive singleBlockExplanation"> set X = 0), we know that <img src="./SnapExercises_files/q7-explanation-4.png" class="img-responsive singleBlockExplanation"> is true and thus, the sprite will say "Hello!".</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Does the sprite say "Hello!"?
+
+	                 	<img src="./SnapExercises_files/q9.png" class="img-responsive">
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q4">Answer</button>
+
+	                    <div id="snap-read-code-q4" class="collapse">
+	                    	<p>No</p>
+												<a href="./snap/snap-4.xml" download="snap-4.xml">Download the Question code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p>The only time an <img src="./SnapExercises_files/q9-explanation-1.png" class="img-responsive singleBlockExplanation"> block will evaluate to true is when both blanks have statements that evaluate to true. In this question, this means that both <img src="./SnapExercises_files/q9-explanation-2.png" class="img-responsive singleBlockExplanation"> and <img src="./SnapExercises_files/q9-explanation-3.png" class="img-responsive singleBlockExplanation"> have to be true. Since we know that X = 0 (from <img src="./SnapExercises_files/q9-explanation-4.png" class="img-responsive singleBlockExplanation">) and Y = 1 (from <img src="./SnapExercises_files/q9-explanation-6.png" class="img-responsive singleBlockExplanation">), we know that <img src="./SnapExercises_files/q9-explanation-5.png" class="img-responsive singleBlockExplanation"> cannot be true.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Does the sprite say "Hello!"?
+
+	                 	<img src="./SnapExercises_files/q10.png" class="img-responsive">
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q5">Answer</button>
+
+	                    <div id="snap-read-code-q5" class="collapse">
+	                    	<p>Yes</p>
+												<a href="./snap/snap-5.xml" download="snap-5.xml">Download the Question code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p>To evaluate whether or not <img src="./SnapExercises_files/q10-explanation-1.png" class="img-responsive singleBlockExplanation"> is true, we must first look at each statement at each side of the block. The statements on each side of <img src="./SnapExercises_files/q10-explanation-2.png" class="img-responsive singleBlockExplanation"> are <img src="./SnapExercises_files/q10-explanation-4.png" class="img-responsive singleBlockExplanation"> and <img src="./SnapExercises_files/q10-explanation-3.png" class="img-responsive singleBlockExplanation">. We know <img src="./SnapExercises_files/q10-explanation-4.png" class="img-responsive singleBlockExplanation"> is false since <img src="./SnapExercises_files/q10-explanation-5.png" class="img-responsive singleBlockExplanation"> sets Y = 1. We also know that X = 0 from <img src="./SnapExercises_files/q10-explanation-6.png" class="img-responsive singleBlockExplanation">. Therefore, <img src="./SnapExercises_files/q10-explanation-3.png" class="img-responsive singleBlockExplanation"> is true.</p>
+
+	                    	<p>Since one side of <img src="./SnapExercises_files/q10-explanation-1.png" class="img-responsive singleBlockExplanation"> is true, the whole statement will be true.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	If the program above randomly selects the variable "X" equal to 4 at the beginning of the program. Which would be true after we run the program.
+
+	                 	<img src="./SnapExercises_files/q5.png" class="img-responsive">
+
+	                 	<ol type="a">
+	                 		<li>The Sprite would say "Cinq!" for 2 seconds; and the value of X = 5</li>
+	                 		<li>The Sprite would not say anything; and the value of X = 5</li>
+	                 		<li>The Sprite would say "Cinq!" for 2 seconds; and the value of X = 6</li>
+	                 		<li>The Sprite would not say anything; and the value of X = 4</li>
+	                 	</ol>
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q6">Answer</button>
+
+	                    <div id="snap-read-code-q6" class="collapse">
+	                    	<p>B</p>
+												<a href="./snap/snap-6.xml" download="snap-6.xml">Download the Question code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p><img src="./SnapExercises_files/q5-explanation-1.png" class="img-responsive singleBlockExplanation"> will only execute if X=5 (since it is inside the <img src="./SnapExercises_files/q5-explanation-2.png" class="img-responsive explanation"> block. Since the question has already stated that X = 4, this means that whatever is inside the "else" block (<img src="./SnapExercises_files/q5-explanation-3.png" class="img-responsive singleBlockExplanation">) will execute. Therefore, the value of X (currently 4) will be incremented by 1 making it have a value of 5.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                    When does the sprite say "Random is divisible by 5"? Note that <img src="./SnapExercises_files/q2-explanation-4.png" class="img-responsive singleBlockExplanation"> chooses a random number from 1 to 10.
+
+	                    <img src="./SnapExercises_files/q2.png" class="img-responsive">
+
+	                    <br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q7">Answer</button>
+
+	                    <div id="snap-read-code-q7" class="collapse">
+	                    	<p>When the random number chosen is 5 or 10, the sprite will say "Random is divisible by 5".</p>
+												<a href="./snap/snap-7.xml" download="snap-7.xml">Download the Question code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p><img src="./SnapExercises_files/q2-explanation-1.png" class="img-responsive singleBlockExplanation"> is within <img src="./SnapExercises_files/q2-explanation-2.png" class="img-responsive singleBlockExplanation">. This means that <img src="./SnapExercises_files/q2-explanation-1.png" class="img-responsive singleBlockExplanation"> only executes if <img src="./SnapExercises_files/q2-explanation-3.png" class="img-responsive singleBlockExplanation"> is true.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                    When does "Ding" play?
+
+	                    <img src="./SnapExercises_files/q4.png" class="img-responsive">
+
+	                    <br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q8">Answer</button>
+
+	                    <div id="snap-read-code-q8" class="collapse">
+	                    	<p>Always</p>
+												<a href="./snap/snap-8.xml" download="snap-8.xml">Download the Question code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p><img src="./SnapExercises_files/q4-explanation-1.png" class="img-responsive singleBlockExplanation"> is not wrapped within <img src="./SnapExercises_files/q4-explanation-2.png" class="img-responsive singleBlockExplanation"> so regardless of whether or not <img src="./SnapExercises_files/q2-explanation-3.png" class="img-responsive singleBlockExplanation"> is true, <img src="./SnapExercises_files/q4-explanation-1.png" class="img-responsive singleBlockExplanation"> will execute.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	What gets printed in the stage when the above snippet of code is run?<br><br>
+
+	                 	The mod operation finds the remainder after division of one number by another)<br>
+	                    E.g. 10 mod 10 = remainder of 10 / 10 = 0<br>
+	                    E.g. 7 mod 5 =  remainder of 7 / 5 = 2)<br><br>
+
+	                 	<img src="./SnapExercises_files/q3.png" class="img-responsive">
+
+						<ol type="a">
+	                    	<li>"Oh no we need more help! We don't have enough elves!"</li>
+	                    	<li>"Yay! All the toys can be built on time!"</li>
+	                    	<li>"Hmm.. Do we have enough elves?" and "Oh no we need more help! We don't have enough elves!"</li>
+	                    	<li>"Hmm.. Do we have enough elves?" and "Yay! All the toys can be built on time!"</li>
+	                    </ol>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-read-code-q9">Answer</button>
+
+	                    <div id="snap-read-code-q9" class="collapse">
+	                    	<p>C</p>
+												<a href="./snap/snap-9.xml" download="snap-9.xml">Download the Question code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p>The blocks will always execute from top down. Therefore, the first three blocks (<img src="./SnapExercises_files/q3-explanation-1.png" class="img-responsive singleBlockExplanation">, <img src="./SnapExercises_files/q3-explanation-2.png" class="img-responsive singleBlockExplanation">, and <img src="./SnapExercises_files/q3-explanation-3.png" class="img-responsive singleBlockExplanation">) will execute. At this point, <img src="./SnapExercises_files/q3-explanation-3.png" class="img-responsive singleBlockExplanation"> would cause the sprite to say "Hmm. Do we have enough elves?".</p>
+
+	                    	<p>When we get to the <img src="./SnapExercises_files/q3-explanation-4.png" class="img-responsive explanation"> block, we need to determine whether or not the statement next to the "if" is true. If the statement is true, the blocks wrapped inside the "if" block will execute. If the statement is false, then the blocks wrapped inside the "else" block will execute.</p>
+
+	                    	<p>When evaluating a statement for true/false, we work from the inside out. Looking at <img src="./SnapExercises_files/q3-explanation-5.png" class="img-responsive singleBlockExplanation">, we can slowly start to break it down to get to the block that is at the inside (i.e., the block that is contained within all the other blocks). The process of breaking down <img src="./SnapExercises_files/q3-explanation-5.png" class="img-responsive singleBlockExplanation"> would be the following: <img src="./SnapExercises_files/q3-explanation-5.png" class="img-responsive singleBlockExplanation"> → <img src="./SnapExercises_files/q3-explanation-6.png" class="img-responsive singleBlockExplanation"> → <img src="./SnapExercises_files/q3-explanation-7.png" class="img-responsive singleBlockExplanation">. </p>
+
+	                    	<p><img src="./SnapExercises_files/q3-explanation-7.png" class="img-responsive singleBlockExplanation"> asks us for the <b>remainder</b> when dividing numToys by numElves. In this case, this would be 6 because 5006 divided by 100 would be 50 with a remainder of 6.</p>
+
+	                    	<p>Now, we move onto the next smallest block (<img src="./SnapExercises_files/q3-explanation-6.png" class="img-responsive singleBlockExplanation">). This block asks us whether or not it is true that (numToys mod numElves) is equal to 0. Since we know that is not true, this block is false. </p>
+
+	                    	<p>Having solved this block, let's move onto the next smallest block (<img src="./SnapExercises_files/q3-explanation-5.png" class="img-responsive singleBlockExplanation">). This block asks us to negate the result of whatever is contained in it (i.e., make something true into false and make something false into true). This means that we negate the false result that we obtained from <img src="./SnapExercises_files/q3-explanation-6.png" class="img-responsive singleBlockExplanation"> to get true. Since this statement is true, whatever is inside the "if" in <img src="./SnapExercises_files/q3-explanation-4.png" class="img-responsive explanation"> (i.e., <img src="./SnapExercises_files/q3-explanation-8.png" class="img-responsive singleBlockExplanation">) will execute!</p>
+
+	                    </div>
+	                </li>
+	            </ol>
+
+	            <h1>Equivalency in Snap</h1>
+				<ol class="list-group">
+	                <li class="list-group-item">
+	                	Which of the following are the same as:
+	                	<img src="./SnapExercises_files/q1-question.png" class="img-responsive">
+
+	                	<ol type="a">
+	                		<li><img src="./SnapExercises_files/q1-a.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li><img src="./SnapExercises_files/q1-b.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li><img src="./SnapExercises_files/q1-c.png" class="img-responsive multipleChoiceAnswer"></li>
+	                	</ol>
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-equivalence-q1">Answer</button>
+
+	                    <div id="snap-equivalence-q1" class="collapse">
+	                    	<p>C</p>
+												<a href="./snap/snap-10.xml" download="snap-10.xml">Download the Question code.</a>
+												<br> <a href="./snap/snap-10-a.xml" download="snap-10-a.xml">Download the Choice a code.</a>
+												<br> <a href="./snap/snap-10-b.xml" download="snap-10-b.xml">Download the Choice b code.</a>
+												<br> <a href="./snap/snap-10-c.xml" download="snap-10-c.xml">Download the Choice c code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p>In <img src="./SnapExercises_files/q1-question.png" class="img-responsive singleBlockExplanation">, the repeat loop repeats nine times (y = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9). On the nineth repeat (i.e., when y=9), it will stop the condition specified in the repeat until loop has come true. In option A, the repeat loop is set to execute 10 times. In option B, the repeat until loop never runs since we never give y an initial value before running the repeat until loop. In option C, the repeat loop runs 9 times and the code inside the loop is roughly equivalent to the code in our question.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                	Which of the following options is equivalent to the code below?
+	                	<img src="./SnapExercises_files/q4-question.png" class="img-responsive">
+
+	                	<ol type="a">
+	                		<li><img src="./SnapExercises_files/q4-a.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li><img src="./SnapExercises_files/q4-b.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li><img src="./SnapExercises_files/q4-c.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li><img src="./SnapExercises_files/q4-d.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li>All are equivalent</li>
+	                		<li>None are equivalent</li>
+	                	</ol>
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-equivalence-q2">Answer</button>
+
+	                    <div id="snap-equivalence-q2" class="collapse">
+	                    	<p>D</p>
+												<a href="./snap/snap-11.xml" download="snap-11.xml">Download the Question code.</a>
+												<br> <a href="./snap/snap-11-a.xml" download="snap-11-a.xml">Download the Choice a code.</a>
+												<br> <a href="./snap/snap-11-b.xml" download="snap-11-b.xml">Download the Choice b code.</a>
+												<br> <a href="./snap/snap-11-c.xml" download="snap-11-c.xml">Download the Choice c code.</a>
+												<br> <a href="./snap/snap-11-d.xml" download="snap-11-d.xml">Download the Choice d code.</a>
+
+	                    	<hr>
+
+	                    	<h3>Explanation</h3>
+	                    	<p>In the question, the Ding sound only plays when the variable randomNumber is equal to 2 or 8. If randomNumber is any other number, the Aw sound plays.</p>
+
+	                    	<p>In option A, the Ding sound would only play when a number is equal to both 8 and 2 at the same time. This is both impossible (a variable cannot have two different values at the same time) and not equivalent to the code in the question.</p>
+
+	                    	<p>In option B, the Ding sound will only play if randomNumber is 2 or 8. Otherwise, the Aw sound will play. However, in the initial code, Aw will play if 8 is selected, so they are not equivalent</p>
+
+	                    	<p>In option C, the Ding sound will play if randomNumber is 2 or 8. However, the Aw sound will always play (since it is not wrapped inside an if block).</p>
+
+	                    	<p>The only difference between option C and D is when the Aw sound is played. In option C, the Aw sound is always played while in option D, the Aw sound is only played if randomNumber is not 2 or 8. Since that matches our question, option D is also equivalent.</p>
+	                    </div>
+	                </li>
+	                <!--<li class="list-group-item">
+	                	Which of the following options is <strong>not</strong> equivalent to the snippet of code below (i.e., the words that get printed out onto the screen are not the same and the values of the variable(s) will not end up the same)?
+
+	                	<img src="../img/exercises/snap/equivalence/q3-question.png" class="img-responsive">
+
+	                	<ol type="a">
+	                		<li><img src="../img/exercises/snap/equivalence/q3-a.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li><img src="../img/exercises/snap/equivalence/q3-b.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li><img src="../img/exercises/snap/equivalence/q3-c.png" class="img-responsive multipleChoiceAnswer"></li>
+	                		<li>All are equivalent</li>
+	                		<li>None are equivalent</li>
+	                	</ol>
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-equivalence-q3">Answer</button>
+
+	                    <div id="snap-equivalence-q3" class="collapse">
+	                    	D
+	                    </div>
+	                </li>-->
+	            </ol>
+
+	            <h1>Explaining Snap Code</h1>
+				<ol class="list-group">
+	                <li class="list-group-item">
+	                	Give a brief explanation that describes what the following snippet of code is doing.
+
+	                	<img src="./SnapExercises_files/q1(1).png" class="img-responsive">
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-explanation-q1">Answer</button>
+
+	                    <div id="snap-explanation-q1" class="collapse">
+												<a href="./snap/snap-12.xml" download="snap-12.xml">Download the Question code.</a> <br>
+	                    	The snippet of code first chooses a random number between 1 and 10. If that number is even, it says "Perfect! Cut the cake!" for three seconds. If the number is odd, it says "We need a cupcake!" for three seconds.
+	                    </div>
+	                </li>
+	               <!--  <li class="list-group-item">
+	                	What is the relationship between these three blocks of code?
+
+	                	<div class="row">
+							<div class="col-xs-4 col-md-4">(i)<img src="../img/exercises/snap/explanation/q2-a.png" class="img-responsive"/></div>
+							<div class="col-xs-4 col-md-4">(ii)<img src="../img/exercises/snap/explanation/q2-b.png" class="img-responsive"/></div>
+							<div class="col-xs-4 col-md-4">(iii) <img src="../img/exercises/snap/explanation/q2-c.png" class="img-responsive"/></div>
+						</div>
+
+						<ol type="a">
+							<li>The variables &#34;i&#34; and &#34;letter&#34; all return the same output but with different steps.</li>
+							<li>The output of &#34;i&#34; and &#34;letter&#34; are all different.</li>
+							<li>i) and iii) step wise are the same but gives different outputs.</li>
+							<li>i) is an infinite loop with i continuously only increasing by 1 and letter is 2, while ii) and iii) is not in a loop </li>
+						</ol>
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#snap-explanation-q2">Answer</button>
+
+	                    <div id="snap-explanation-q2" class="collapse">
+	                    	A
+	                    </div>
+	                </li> -->
+	            </ol>
+	        </div>
+	    </div>
+
+            <!-- jQuery -->
+	    <script src="./SnapExercises_files/jquery.js.download"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="./SnapExercises_files/bootstrap.min.js.download"></script>
+
+	    <!-- Custom Theme JavaScript -->
+	    <script src="./SnapExercises_files/clean-blog.min.js.download"></script>
+
+	    <script>
+	        $(function(){
+	            $("#header").load("header.html");
+	        });
+    	</script>
+
+
+</body></html>

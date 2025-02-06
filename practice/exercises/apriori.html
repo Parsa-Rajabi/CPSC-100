@@ -1,0 +1,723 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <title>Apriori Exercises</title>
+	    <!-- Bootstrap Core CSS -->
+	    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom CSS -->
+	    <link href="../css/clean-blog.min.css" rel="stylesheet">
+
+	    <link rel="icon" type="../image/png" href="../img/favicon.png">
+
+	    <!-- Custom Fonts -->
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<!--#include virtual="../../menu.html" -->
+		<div id = "container">
+			 <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-1">
+				<ol class="list-group">
+	                <li class="list-group-item">
+	                    Which of these are association rules? Select all that apply. 
+	                    <ol type="a">
+	                    	<li>People who live further from Downtown are more likely to drive.</li>
+	                    	<li>Milk that smells and tastes sour is more likely to go bad.</li>
+	                    	<li>People who tend to eat McDonalds a lot tend to eat at Burger King a lot too.</li>
+	                    	<li>Students who attend class and labs are more likely to score higher marks on the final exam.</li>
+	                    	<li>A stove that has be turned on high for at least 5 minutes is most likely too hot to touch without burning yourself.</li>
+	                    </ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q2">Answer</button>
+
+	                    <div id="apriori-q2" class="collapse">
+	                    	<p>A,C, and D.</p>
+
+	                    	<p>Association rules are relationships that are found by looking for patterns in data. For example, people who buy cereal are likely to buy milk.</p>
+
+	                    	<p>Option B is not an association because milk that tastes and smells sour has already gone bad (as a general fact). Option E is not an association because, unless you are wearing oven gloves or your stove doesn&#39;t work, you are definitely going to burn your fingers.</p>
+	                    </div>
+	                </li>
+
+					<li class="list-group-item">        	           
+	                    Given the dataset below, what is the confidence that someone who likes eating sandwiches also likes to eat it with a fruit juice? Would you bet &#36;20 on the rule Sandwich &#8594; Fruit Juice?<br /><br />
+						T1: Wrap, Coffee.<br />
+						T2: Sandwich, Coffee.<br />
+						T3: Sandwich, Muffin, Fruit juice.<br />
+						T4: Panini, Wrap, Tea.<br />
+						T5: Sandwich, Coffee.<br />
+						T6: Sandwich, Tea.<br />
+						T7: Wrap, Sandwich.<br />
+
+                    	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q3">Answer</button>
+
+	                    <div id="apriori-q3" class="collapse">
+	                        Confidence is <sup>1</sup>&frasl;<sub>5</sub> = 20&#37;. Unless you are feeling risky, you probably shouldn&#39;t bet &#36;20 on that.
+	                    </div>
+	                </li>
+
+					<li class="list-group-item">        	           
+	                    Find the itemsets with two or more items that have a minimum support of 50&#37;.
+	                    <div class="table-responsive">
+							<table class="table table-striped">
+								<thead class="thead-inverse">
+									<tr>
+										<th>Transaction ID</th>
+										<th>Items Bought</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">T1</th>
+										<td>Apple, Pen, Pineapple</td>
+									</tr>
+									<tr>
+										<th scope="row">T2</th>
+										<td>Orange, Apple, Mango, Tomato</td>
+									</tr>
+									<tr>
+										<th scope="row">T3</th>
+										<td>Apple, Pen, Tomato, Cucumber</td>
+									</tr>
+									<tr>
+										<th scope="row">T4</th>
+										<td>Apple, Tomato, Pen, Orange</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+                    	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q4">Answer</button>
+
+	                    <div id="apriori-q4" class="collapse">
+	                    	<ol class="list-group">
+	                    		<li class="list-group-item">
+			                    	Step 1: Count the number of transactions in which each item occurs.&emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q3-p1">Reveal</button>
+
+			                    	<div id="apriori-q3-p1" class="collapse table-responsive">
+				                        <table class="table table-striped">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Item</th>
+													<th>Number of Transactions</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">Apple</th>
+													<td>4</td>
+												</tr>
+												<tr>
+													<th scope="row">Pen</th>
+													<td>3</td>
+												</tr>
+												<tr>
+													<th scope="row">Pineapple</th>
+													<td>1</td>
+												</tr>
+												<tr>
+													<th scope="row">Orange</th>
+													<td>2</td>
+												</tr>
+												<tr>
+													<th scope="row">Mango</th>
+													<td>1</td>
+												</tr>
+												<tr>
+													<th scope="row">Tomato</th>
+													<td>3</td>
+												</tr>
+												<tr>
+													<th scope="row">Cucumber</th>
+													<td>1</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</li>
+
+								<li class="list-group-item">
+									Step 2: Remove all items that have less than 50&#37; support (i.e., we want itemsets that appear in 2/4 transactions).&emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q3-p2">Reveal</button>
+
+			                    	<div id="apriori-q3-p2" class="collapse table-responsive">
+				                        <table class="table table-striped">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Item</th>
+													<th>Number of Transactions</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">Apple</th>
+													<td>4</td>
+												</tr>
+												<tr>
+													<th scope="row">Pen</th>
+													<td>3</td>
+												</tr>
+												<tr>
+													<th scope="row">Orange</th>
+													<td>2</td>
+												</tr>
+												<tr>
+													<th scope="row">Tomato</th>
+													<td>3</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</li>
+								<li class="list-group-item">
+									Step 3: Put the items from the previous table into groups that have one more item than it currently has. For example, since we have itemsets with one item, we now want to create itemsets with two items. Then, count how many times those itemsets appear in the transactions.&emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q3-p3">Reveal</button>
+
+			                    	<div id="apriori-q3-p3" class="collapse table-responsive">
+				                        <table class="table table-striped">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Item</th>
+													<th>Number of Transactions</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">Apple, Pen</th>
+													<td>3</td>
+												</tr>
+												<tr>
+													<th scope="row">Apple, Orange</th>
+													<td>2</td>
+												</tr>
+												<tr>
+													<th scope="row">Apple, Tomato</th>
+													<td>3</td>
+												</tr>
+												<tr>
+													<th scope="row">Pen, Orange</th>
+													<td>1</td>
+												</tr>
+												<tr>
+													<th scope="row">Pen, Tomato</th>
+													<td>2</td>
+												</tr>
+												<tr>
+													<th scope="row">Orange, Tomato</th>
+													<td>2</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</li>
+								<li class="list-group-item">
+									Step 4: Repeat step 2 and 3 until you have itemsets that do not have 50&#37; minimum support.&emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q3-p4">Reveal</button>
+
+			                    	<div id="apriori-q3-p4" class="collapse table-responsive">
+				                        <table class="table table-striped">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Item</th>
+													<th>Number of Transactions</th>
+												</tr>
+											</thead>
+											<tbody>
+																						<tr>
+													<th scope="row">Apple, Pen, Tomato</th>
+													<td>2</td>
+												</tr>
+												<tr>
+													<th scope="row">Apple, Orange, Tomato</th>
+													<td>2</td>
+												</tr>
+											</tbody>
+										</table>
+
+										<b>Note</b>: We do not have to check {Apple, Pen, Orange} because {Pen, Orange} has support of 1, so {Apple, Pen, Orange} cannot be frequent.
+									</div>
+								</li>
+								<li class="list-group-item">
+									Step 5: When we get to itemsets that have four items in them, all of those itemsets have less than 50&#37; minimum support. Therefore, we stop repeating step 2 and 3.&emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q3-p5">Reveal</button>
+
+			                    	<div id="apriori-q3-p5" class="collapse table-responsive">
+				                        <table class="table table-striped">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Item</th>
+													<th>Number of Transactions</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row">Apple, Pen, Orange, Tomato</th>
+													<td>1</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</li>
+								<li class="list-group-item">
+									Step 6: All itemsets with 50&#37; support are: &emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q3-p6">Reveal</button>
+
+			                    	<div id="apriori-q3-p6" class="collapse">
+				                        <ul>
+				                        	<li>{Apple, Pen}</li>
+				                        	<li>{Apple, Orange}</li>
+				                        	<li>{Apple, Tomato}</li>
+				                        	<li>{Pen, Tomato}</li>
+				                        	<li>{Orange, Tomato}</li>
+				                        	<li>{Apple, Pen, Tomato}</li>
+				                        	<li>{Apple, Orange, Tomato}</li>
+				                        </ul>
+									</div>
+								</div>
+							</li>
+	                	</li>
+	                <li class="list-group-item">
+	                	<div id="apriori-q4" class="table-responsive">
+	                		Given the following dataset:
+
+		                        <table class="table table-striped">
+									<tbody>
+										<tr>
+											<th scope="row">T1</th>
+											<td>A&emsp;B&emsp;C&emsp;D</td>
+										</tr>
+										<tr>
+											<th scope="row">T2</th>
+											<td>A&emsp;B&emsp;E&emsp;F</td>
+										</tr>
+										<tr>
+											<th scope="row">T3</th>
+											<td>B&emsp;C&emsp;E&emsp;F</td>
+										</tr>
+										<tr>
+											<th scope="row">T4</th>
+											<td>C&emsp;D&emsp;E&emsp;F</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							For an item to be considered a frequent dataset, it must have a minimum of 75&#37; support.
+
+							<ol class="list-group">
+								<li class="list-group-item">
+									Is {E, F} a frequent itemset? &emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q4-p1">Reveal</button>
+
+	                    			<div id="apriori-q4-p1" class="collapse">
+	                    				Yes
+	                    			</div>
+								</li>
+								<li class="list-group-item">
+									Is {A, B} a frequent itemset? &emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q4-p2">Reveal</button>
+
+	                    			<div id="apriori-q4-p2" class="collapse">
+	                    				No
+	                    			</div>
+								</li>
+								<li class="list-group-item">
+									Explain why we do not need to consider the itemset {A, B, C} when we are constructing frequent itemsets of size 3 with the a priori algorithm. &emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q4-p3">Reveal</button>
+
+	                    			<div id="apriori-q4-p3" class="collapse">
+	                    				For {A, B, C} to occur, we need {A, B} to occur. Therefore, because {A, B} is not a frequent itemset, {A, B, C} can not be a frequent itemset.
+	                    			</div>
+								</li>
+							</ol>
+		                </li>
+		                <li class="list-group-item">        	           
+		                    Why do we use an apriori algorithm as opposed to just calculating the association rule support on given datasets? &emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q5">Answer</button>
+
+				             <div id="apriori-q5" class="collapse">
+				             	Calculating the association rule support on large datasets (~terabytes of data) can be very time consuming. The apriori algorithm is a much smarter approach.
+				             </div>
+		                </li>
+		                <li class="list-group-item">
+		                    Given the following table of transactions:
+
+		                    <div class="table-responsive">
+								<table class="table table-striped">
+									<thead class="thead-inverse">
+										<tr>
+											<th>Transaction</th>
+											<th>Items Bought</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th scope="row">T<sub>1</sub></th>
+											<td>Spaghetti, milk, cake, ice cream</td>
+										</tr>
+										<tr>
+											<th scope="row">T<sub>2</sub></th>
+											<td>Ice cream, cake, milk, fried rice, spaghetti</td>
+										</tr>
+										<tr>
+											<th scope="row">T<sub>3</sub></th>
+											<td>Spaghetti, fried rice, stir fry veggies, durian, ice cream</td>
+										</tr>
+										<tr>
+											<th scope="row">T<sub>4</sub></th>
+											<td>Stir fry veggies, fried rice, cake, ice cream</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							Find the following values using an apriori algorithm, with minimum support = 75&#37;. F<sub>k</sub> denotes frequent itemsets of size k. C<sub>k</sub> denotes all the possible itemsets of size k, given that the itemsets in F<sub>k-1</sub> are subsets of the itemsets in C<sub>k</sub>.
+
+							<ol type="a">
+								<li>F<sub>1</sub></li>
+								<li>Support<sub>2</sub> (support step of C<sub>2</sub>)</li>
+								<li>C<sub>3</sub></li>
+								<li>F<sub>6</sub></li>
+								<li>What is the final list that the apriori algorithm returns?</li>
+							</ol>
+
+		                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q6">Answer</button>
+
+				             <div id="apriori-q6" class="collapse">
+				             	<ol type="a">
+				             		<li>F<sub>1</sub> = { {spaghetti} , {cake} , {ice cream} , {fried rice} }</li>
+				             		<li>Support<sub>2</sub> :
+				             			<ul>
+				             				<li>{spaghetti, cake} = 0.5</li>
+				             				<li>{{spaghetti, ice cream} = 0.75</li>
+				             				<li>{{spaghetti, fried rice} = 0.5</li>
+				             				<li>{{cake, ice cream} = 0.75</li>
+				             				<li>{{cake, fried rice} = 0.5</li>
+				             				<li>{{ice cream, fried rice} = 0.75</li>
+				             			</ul>
+				             		<li>C<sub>3</sub> = {} 
+				             		<li>No such step; the algorithm stops at k = 3.</li>
+				             		<li>{ {spaghetti} , {cake} , {ice cream} , {fried rice} , {spaghetti, ice cream} , {cake, ice cream} , {ice cream, fried rice} }</li>
+				             	</ol>
+
+				             	<h3>Step by step solution</h3>
+				             	<b>K = 1</b> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q6-p1">Reveal</button>
+
+				             	<div id="apriori-q6-p1" class="collapse">
+					             	<p>C<sub>1</sub> = { {spaghetti} , {milk} , {cake} , {ice cream} , {fried rice} , {stir fry veggies} , {durian} }</p>
+
+					             	<p>Support<sub>1</sub> :
+						             	<ul>
+											<li>{spaghetti} = 0.75</li>
+											<li>{milk} = 0.5</li>
+											<li>{cake} = 0.75</li>
+											<li>{ice cream} = 1</li>
+											<li>{fried rice} = 0.75</li>
+											<li>{stir fry veggies} = 0.5</li>
+											<li>{durian} = 0.25</li>
+										</ul>
+									</p>
+
+									<p>F<sub>1</sub> = { {spaghetti} , {cake} , {ice cream} , {fried rice} }</p>
+								</div>
+
+								<br /><br />
+
+								<b>K = 2</b> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q6-p2">Reveal</button>
+
+				             	<div id="apriori-q6-p2" class="collapse">
+					             	<p>C<sub>2</sub> = { {spaghetti, cake} , {spaghetti, ice cream} , {spaghetti, fried rice} , {cake, ice cream} , {cake, fried rice} , {ice cream, fried rice} }</p>
+
+					             	<p>Support<sub>2</sub> :
+						             	<ul>
+											<li>{{spaghetti, cake} = 0.5</li>
+											<li>{spaghetti, ice cream} = 0.75</li>
+											<li>{spaghetti, fried rice} = 0.5</li>
+											<li>{cake, ice cream} = 0.75</li>
+											<li>{{cake, fried rice} = 0.5</li>
+											<li>{ice cream, fried rice} = 0.75</li>
+										</ul>
+									</p>
+
+									<p>F<sub>2</sub> = { {spaghetti, ice cream} , {cake, ice cream} , {ice cream, fried rice} }</p>
+								</div>
+
+								<br /><br />
+
+								<b>K = 3</b> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q6-p3">Reveal</button>
+
+				             	<div id="apriori-q6-p3" class="collapse">
+					             	<p>C<sub>3</sub> = { }
+							  because 
+							  {spaghetti, cake} is
+							  not in F<sub>2</sub>,
+							  so {spaghetti, ice
+							  cream, cake} is not
+							  in
+							  C<sub>3</sub>. <p>{spaghetti,
+							  ice cream, fried
+							  rice} is not in
+							  C<sub>3</sub> because
+							  {spaghetti, fried
+							  rice} is not in
+							  F<sub>2</sub>. <p>{cake,
+							  ice cream, fried
+							  rice}, is not in
+							  C<sub>3</sub> because
+							  {cake, fried rice} is
+							  not in
+							  F<sub>2</sub>. So
+							  C<sub>3</sub> is
+							  empty and thus
+							  F<sub>3</sub> is empty.
+
+
+									<p>F<sub>1</sub> + F<sub>2</sub> + F<sub>3</sub> = { {spaghetti} , {cake} , {ice cream} , {fried rice} } + { {spaghetti, ice cream} , {cake, ice cream} , {ice cream, fried rice} } + { } = { {spaghetti} , {cake} , {ice cream} , {fried rice} , {spaghetti, ice cream} , {cake, ice cream} , {ice cream, fried rice} }</p>
+								</div>
+				             </div>
+		                </li>
+		                <li class="list-group-item">        	           
+		                   Describe the steps for an apriori algorithm. It can be in point form. &emsp;<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q7">Answer</button>
+
+				             <div id="apriori-q7" class="collapse">
+				             	<ol>
+				             		<li>Start with k = 1, support = n.</li>
+				             		<li>C<sub>k</sub> = list of itemsets of size k as long as the items are previously determined frequent itemsets.</li>
+				             		<li>Determine the support of each itemset in C<sub>k</sub>.</li>
+				             		<li>F<sub>k</sub> = frequent itemsets determined by step 3.</li>
+				             		<li>Repeat steps 2-4 until F<sub>k</sub> becomes an empty set.</li>
+				             		<li>The final output of the algorithm is a large frequent itemset list that combines of all the F<sub>k</sub>’s found.</li>
+				             	</ol>
+				             </div>
+		                </li>
+		                <li class="list-group-item">        	           
+							T1: Desktop, Mouse, Keyboard, Monitor<br />
+							T2: Laptop, Keyboard<br />
+							T3: Keyboard, Mouse, Monitor<br />
+							T4: Desktop, Monitor<br />
+							T5: Laptop, Keyboard, Mouse<br /><br />
+							From the lists above, what is the confidence of Keyboard &#8594; Mouse
+
+							<br /><br />
+
+							<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q8">Answer</button>
+
+				             <div id="apriori-q8" class="collapse">
+				             	3/4. From the lists, Keyboard appears 4 times. The lists that contain Keyboard also contain Mouse appears 3 times.
+				             </div>
+		                </li>
+		                <li class="list-group-item">        	           
+							Which of the following statements are true if {apple, orange, pear} is a frequent itemset with 50% support in a list of grocery store transactions? &#8594; Mouse<br />
+
+							<ol type="a">
+								<li>{apple, pear} is also a frequent itemset in this set of data</li>
+								<li>{apple, orange, pear} does not meet the minimum support threshold</li>
+								<li>50% of transactions in the list contain apples, oranges, and pears</li>
+								<li>All of the above</li>
+								<li>a) and c) only </li>
+							</ol>
+							
+							<br />
+							<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q9">Answer</button>
+
+				             <div id="apriori-q9" class="collapse">
+				             	<p>A is true. Each subset of a frequent itemset must also be a frequent itemset; {apple, pear} is subset of the frequent itemset {apple, orange, pear}, so {apple, pear} must also be a frequent itemset.</p>
+ 
+				             	<p>B is false. A frequent itemset it a set of items that has at least minimum support; since {apple, orange, pear} is a frequent itemset, we know that it has at least minimum support.</p>
+ 
+				             	<p>C is true. % support (X, Y, Z) = % of transactions that contain X, Y, and Z.</p>
+				             </div>
+		                </li>
+		                <li class="list-group-item">        	           
+							List 1: Dogs, Parrots, Bunnies<br />
+							List 2: Parrots, Frogs<br />
+							List 3: Dogs, Horses, Bunnies<br />
+							List 4: Bunnies, Frogs, Parrots, Dogs<br />
+							List 5: Parrots, Frogs<br /><br />
+
+							What are the Frequent Item Sets with the support of 50&#37; or more?
+
+							<ol type="a">
+								<li>{Parrots, Dogs}</li>
+								<li>{Dogs, Bunnies}</li>
+								<li>{Parrots, Frogs}</li>
+								<li>B and C</li>
+								<li>None of the above</li>
+							</ol>
+
+							<br />
+
+							<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q10">Answer</button>
+
+				             <div id="apriori-q10" class="collapse">
+				             	{Dogs, Bunnies} and {Parrots, Frogs} both occur more than 50&#37; of the time, while {Parrots, Dogs} only occur 2 out of 5 times, under 50&#37;.
+				             </div>
+		                </li>
+		                 <li class="list-group-item">        	           
+							How does the Apriori Algorithm work to mine frequent itemsets and learn association rule over databases?
+
+
+	                	<ol type="a">
+	                		<li>The algorithm sorts the items into pairs or triplets and eliminates all but itemsets that appear together the least.</li>
+	                		<li>The algorithm reduces the number of items being considered by eliminating all but itemsets whose support count is greater than the minimum support count.</li>
+	                		<li>The algorithm orders the items in alphabetical order and then picks the itemset that starts with "A" or is closest to the beginning of the alphabet.</li>
+	                		<li>The algorithm picks out 2 items randomly until they find an itemset with 0% confidence count.</li>
+	                		<li>None of the above.</li>
+	                	</ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q11">Answer</button>
+
+	                    <div id="apriori-q11" class="collapse">
+	                    	The algorithm reduces the number of items being considered by eliminating all but itemsets whose support count is greater than the minimum support count.
+	                    </div>
+		                </li>
+		                <li class="list-group-item">
+	                	<p>Which of the options is/are frequent itemsets of size 2 with minimum support of 60% from the list of items below?</p>
+
+	                	T1 = Nike, Under Armour, Puma<br />
+	                	T2 = Puma, New Balance<br />
+	                	T3 = Adidas, Nike<br />
+	                	T4 = Under Armour, Puma, Adidas, New Balance, Nike<br />
+	                	T5 = Adidas, Puma, Nike<br /><br />
+
+
+	                	<ol type="a">
+	                		<li>{Nike, Puma}</li>
+	                		<li>{New Balance, Puma}</li>
+	                		<li>{Addidas, Puma}</li>
+	                		<li>{Nike, Adidas}</li>
+	                		<li>A and D</li>
+	                	</ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q12">Answer</button>
+
+	                    <div id="apriori-q12" class="collapse">
+	                    	<p>E</p>
+
+	                    	<p>Support for each item:</p>
+	                    	<ul>
+	                    		<li>Adidas = 3/5</li>
+	                    		<li>Nike = 4/5</li>
+	                    		<li>Puma = 4/5</li>
+	                    		<li>New Balance = 2/5</li>
+	                    		<li>Under Armour = 2/5</li>
+	                    	</ul>
+
+	                    	<p>There are three frequent itemsets of size 2 with their support:</p>
+	                    	<ul>
+	                    		<li>{Nike, Adidas} = 3/5</li>
+	                    		<li>{Puma, Nike} = 2/5</li>
+	                    		<li>{Puma, Adidas} = 2/5</li>
+	                    	</ul>
+
+	                    	<p>So option D is correct.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                	<p>Find the item set(s) with a support of 33&#37; and a confidence of 100&#37;.</p>
+
+	                	T1 = tree, cup, paper<br />
+	                	T2 = book, tomato, pen<br />
+	                	T3 = pen, book, tree<br />
+	                	T4 = tomato, pen, cup<br />
+	                	T5 = tree, paper, book<br />
+	                	T6 = pen, book<br /><br />
+
+	                	<ol type="a">
+	                		<li>{tree, paper}</li>
+	                		<li>{tomato, pen}</li>
+	                		<li>{pen, book}</li>
+	                		<li>{tree, paper}, {tomato, pen}, {pen, book}</li>
+	                		<li>None of the above</li>
+	                	</ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#apriori-q13">Answer</button>
+
+	                    <div id="apriori-q13" class="collapse">
+							<p>Support: 33% = 2/6</p>
+
+							<p>Support for 1-item itemsets:</p>
+							<ul>
+								<li>Tree = 3/6</li>
+								<li>Cup = 2/6</li>
+								<li>Paper = 2/6</li>
+								<li>Book = 4/6</li>
+								<li>Tomato = 2/6</li>
+								<li>Pen = 4/6</li>
+							</ul>
+
+							<p>Support for 2-item itemsets:</p>
+							<ul>
+								<li>{Tree, Cup} = 1/6</li>
+								<li>{Tree, Paper} = 2/6</li>
+								<li>{Tree, Book} = 2/6</li>
+								<li>{Tree, Tomato} = 0/6</li>
+								<li>{Tree, Pen} = 1/6</li>
+								<li>{Cup, Paper} = 1/6</li>
+								<li>{Cup, Book} = 0/6</li>
+								<li>{Cup, Tomato} = 1/6</li>
+								<li>{Cup, Pen} = 1/6</li>
+								<li>{Paper, Book} = 1/6</li>
+								<li>{Paper, Tomato} = 0/6</li>
+								<li>{Paper, Pen} = 0/6</li>
+								<li>{Book, Tomato} = 1/6</li>
+								<li>{Book, Pen} = 3/6</li>
+								<li>{Tomato, Pen} = 2/6</li>
+							</ul>
+
+							<p>Out of the itemsets that have 33% support, the confidence is:</p>
+							<ul>
+								<li>{Tree, Paper} = 2/3</li>
+								<li>{Tree, Book} = 2/3</li>
+								<li>{Book, Pen} = 3/4</li>
+								<li>{Tomato, Pen} = 2/2</li>
+							</ul>
+
+							<p>Support for 3-item itemsets:</p>
+							<ul>
+								<li>{Tree, Paper, Book} = 1/6</li>
+								<li>{Book, Tree, Pen} = 1/6</li>
+								<li>{Book, Tomato, Pen} = 1/6</li>
+							</ul>
+
+							<p>Therefore, the only itemset that satisfies 33&#37; support and 100&#37; confidence is B.</p>
+	                    </div>
+	                </li>
+		            </ol>
+		        </div>
+		    </div>
+		</div>
+
+	        <!-- jQuery -->
+	    <script src="../js/jquery.js"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="../js/bootstrap.min.js"></script>
+
+	    <!-- Custom Theme JavaScript -->
+	    <script src="../js/clean-blog.min.js"></script>
+
+	    <script>
+	        $(function(){
+	            $("#header").load("header.html");
+	        });
+		</script>
+	</body>
+</html>

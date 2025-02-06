@@ -1,0 +1,576 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <title>Image Representation Questions</title>
+
+	    <!-- Bootstrap Core CSS -->
+	    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom CSS -->
+
+	    <link href="../css/clean-blog.min.css" rel="stylesheet">
+        <link rel="icon" type="../image/png" href="../img/favicon.png">
+
+	    <!-- Custom Fonts -->
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+    </head>
+
+	<body>
+		<!--#include virtual="../../menu.html" -->
+		<div id = "container">
+			 <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-1">
+			 	<h1>Image Representation Questions</h1>
+                <h2>RGB Questions</h2>
+	            <ol class="list-group">
+	                <li class="list-group-item">What does RGB stand for?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q1">Answer</button>
+
+                        <div id="image-representation-q1" class="collapse">
+                             RGB stands for red, green, and blue.
+                        </div>
+                    </li>
+                   
+                    <li class="list-group-item"> How many bits does each color (RGB) represent? How many bits represent all 3 of them in total? In bytes?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q2">Answer</button>
+
+                        <div id="image-representation-q2" class="collapse">
+                            Each of R, G, and B is 8 bits so RGB together would be 24 bits. 1 byte is 8 bits so 24 bits is 3 bytes.
+                        </div>
+                    </li>
+                    
+                     <li class="list-group-item">What is the basis of the RGB colour specification?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q3">Answer</button>
+
+                        <div id="image-representation-q3" class="collapse">
+                             RGB is based on 256 intensified for each of the red, green and blue. The shades of white and black can be represented in binary and hex.
+                        </div>
+                    </li>
+                     
+                    <li class="list-group-item">What colour is represented by 0b000000001111111100000000?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q4">Answer</button>
+
+                        <div id="image-representation-q4" class="collapse">
+                            <p>Green.</p> 
+
+                            <p>Colours are represented as 24 bits with the first 8 bits representing the amount of red, the next 8 bits representing the amount of green, and the last 8 bits representing the amount of blue. The 0b in front of 000000001111111100000000 indicates that a number is in binary form and does not affect the RGB value. Looking at 000000001111111100000000, we see that the first and last 8 bits are all 0 meaning that there is no red or blue in the colour. The middle 8 bits are all 1&#39;s meaning that there is as much green in the colour as possible.</p>
+                        </div>
+                    </li>
+                    
+                     <li class="list-group-item">How do various device screens make all the colors they show?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q5">Answer</button>
+
+                        <div id="image-representation-q5" class="collapse">
+                           They mix red, green, and blue light.
+                        </div>
+                    </li>
+                </ol>
+                
+                <h2>Bitmap, Vectors and Pixel Questions</h2>    
+                <ol class="list-group">
+                    <li class="list-group-item">What are two ways to represent images?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q6">Answer</button>
+
+                        <div id="image-representation-q6" class="collapse">
+                            Bitmaps and vectors
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">How do vector images differ from bitmaps? What is an advantage of vector images over bitmaps?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q7">Answer</button>
+
+                        <div id="image-representation-q7" class="collapse">
+                            While bitmaps define images as grids of pixels, vectors describe them based on points and how they&#39;re connected. An advantage of this is that vector images don&#39;t pixelate when you zoom in on them.
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">What is the definition of bitmap image?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#module2-additional-exercise-q8">Answer</button>
+
+                        <div id="module2-additional-exercise-q8" class="collapse">
+                              Bitmap is a method of storing images as pixels.
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">What is a pixel?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#module2-additional-exercise-q9">Answer</button>
+
+                        <div id="module2-additional-exercise-q9" class="collapse">
+                             Pixels are little components of an image. Each pixel&#39;s colour is represented in RGB.
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">How do you construct a bitmap image representation?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q10">Answer</button>
+
+                        <div id="image-representation-q10" class="collapse">
+                              To construct a bitmap image, you will need the dimensions of the image as well as the image&#39;s pixels.
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">How do you construct a vector image representation?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q11">Answer</button>
+
+                        <div id="image-representation-q11" class="collapse">
+                           Use a number sequence to make up the dots that construct the object.
+                        </div>
+                    </li> 
+                </ol>                 
+                       
+                <h2>True or False Questions</h2>
+                <ol class="list-group">
+                     <li class="list-group-item">True or false: Lossy compression modifies similar colours to the same colour.
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q12">Answer</button>
+
+                        <div id="image-representation-q12" class="collapse">
+                              True
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">True or false: Vector images describe objects as a sequence of lines and simple shapes.
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q13">Answer</button>
+
+                        <div id="image-representation-q13" class="collapse">
+                              False
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">True or false: RGB cannot show shades of black and white.
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q14">Answer</button>
+
+                        <div id="image-representation-q14" class="collapse">
+                             False
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">True or false: Black is the full intensity of each colour of light.
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q15">Answer</button>
+
+                        <div id="image-representation-q15" class="collapse">
+                             False. Black is the absence of light. In RGB representation, black is represented as 0b000000000000000000000000 (0 for R, 0 for G, and 0 for B).
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        True or false: White is represented by 000000000000000000000000 (24 zeroes) in Binary and 000000 in hex.
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q16">Answer</button>
+
+                        <div id="image-representation-q16" class="collapse">
+                            False. White is the presence of all light and is represented by (11111111 11111111 11111111)<sub>2</sub> or 0xFFFFFF. Note that the spaces in the binary number are for you to quickly discern the number of digits and are not generally included when presenting binary numbers.
+                        </div>
+                    </li>
+                </ol>
+                
+                <h2>Facts and Conceptual Image Questions</h2>
+                <ol class="list-group">
+                    <li class="list-group-item">What is the difference between lossless and lossy compression?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q17">Answer</button>
+
+                        <div id="image-representation-q17" class="collapse">
+                            <p>Lossless compression only collapses &#34;runs&#34; of identical intensities so that the image looks unchanged whereas lossy compression modifies areas with similar colours to be the same colour altering the appearance of the image.</p>
+
+                            <p>If you use lossless compression, you can obtain your original image at its original quality if you decompress the file. If you use lossy compression, you will lose data so you cannot revert back to the image&#39;s original quality.</p>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">How do computers store images?
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q18">Answer</button>
+
+                        <div id="image-representation-q18" class="collapse">
+                             Computers commonly store images as bitmaps. However, they also sometimes store images as vectors.
+                        </div>
+                    </li>
+
+                    
+                    <li class="list-group-item">
+                        1 gigabyte is equal to _______
+
+                        <ol type="a">
+                            <li>1024 kilobytes</li>
+                            <li>1024 megabytes</li>
+                            <li>512 kilobytes</li>
+                            <li>512 megabytes</li>
+                            <li>1024 bytes</li>
+                        </ol>
+
+                       <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#image-representation-q19">Answer</button>
+
+                        <div id="image-representation-q19" class="collapse">
+                            B
+                        </div>
+                    </li>
+                    
+
+                    <li class="list-group-item">
+                        What color do you think 15E113 represents?  Suggest a method to make this color darker. 
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#module2-additional-exercises-q20">Answer</button>
+
+                        <div id="module2-additional-exercises-q20" class="collapse">
+                            <p>Since &#34;E1&#34; is (relatively) much bigger when compared to &#34;15&#34; and &#34;13&#34;, this is probably a shade of green. I can make this darker by decreasing the numbers to subtract light. To keep it balanced, I'd try to decrease them in the same propotions.</p>
+
+                            <p>Another way of thinking about this is move each colour closer to black. Since we know that black is the absence of light (black results when R, G, and B values are 0), we want each R, G, and B value to move closer to 0 (i.e., decrease).</p>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        What is shown in the picture? <br />
+
+                        <img src="../img/exercises/data_representation/snow_trees.jpg" class="img-responsive" alt="Picture and its pixelated form">
+
+                        <ol type="a">
+                            <li>Pixels</li> 
+                            <li>Boxes</li> 
+                            <li>Graphics</li> 
+                            <li>Inappropriate image</li>        
+                        </ol>
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#module2-additional-exercises-q21">Answer</button>
+
+                        <div id="module2-additional-exercises-q21" class="collapse">
+                            A
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        Which of the following statements is true?
+
+                        <ol type="a">
+                            <li>0b10011101101 equals 2520 in decimal</li>
+                            <li>0x0080FF is a shade of blue</li>
+                             <li>0b11110010 is equal to 0xF3 in hex</li>        
+                        </ol>
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#module2-additional-exercises-q22">Answer</button>
+
+                        <div id="module2-additional-exercises-q22" class="collapse">
+                            <p>A is incorrect because 0b10011101101 equals 1261 in decimal.</p>
+
+                            <p>B. The numbers representing R and G are 0 and 80, which are relatively small compared to FF, the maximum intensity for blue. Therefore, 0080FF is a shade of blue.</p>
+
+                            <p>C is incorrect because 0b11110010 is equal to 0xF2 in hex.</p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        Which of the following statements is false?
+
+                        <ol type="a">
+                            <li>A colour with an RGB value of &#35;0114FF will be Blue</li>
+                            <li>Vector images describe images based on how different points are connected</li>
+                            <li>A run of identical colours can be compressed into a lossy compression</li>
+                            <li>The colour white is represented by an RGB value of &#35;FFFFFF</li>
+                            <li>A colour with an RGB value of &#35;FF01FE will be purple</li>        
+                        </ol>
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#module2-additional-exercises-q23">Answer</button>
+
+                        <div id="module2-additional-exercises-q23" class="collapse">
+                            <p>A is true because in the RGB value 0114FF, the value of R = 01, the value of G = 14, and the value of B = FF. The value of B is much larger than the values of R and G and overshadows the other two shades.</p>
+
+                            <p>B is true. It is how vector images work.</p>
+
+                            <p>C is false. A run of identical colours can be compressed into a <b>loseless</b> compression. Lossy compression takes areas with similar colours and compresses it by making it all the same colour.</p>
+
+                            <p>D is true. While black is the absence of all light, white is the presence of all light.</p>
+
+                            <p>E is true. In the RGB value FF01FE, both R and B have high values meaning the resulting colour has a lot of red and blue. Since FF and FE are roughly the similar, we can consider the resulting colour to be a fairly even mix of red and blue which makes purple.</p>
+                        </div>
+                    </li>
+                </ol>
+
+			 	<h2>Bitmap Images</h2>
+
+				<p>Learning Goal: Define &#34;bitmap image&#34; and &#34;pixel&#34; and explain how to construct a bitmap image representation. Also be familiar with techniques used for reducing the size of bitmap images.</p>
+
+	            <ol class="list-group">
+	                <li class="list-group-item">
+	                    What are bitmap images made of?   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-pixel-q1">Answer</button>
+
+	                    <div id="bitmap-pixel-q1" class="collapse">Pixels</div>
+	                </li>
+
+	                 <li class="list-group-item">
+	                    Is it possible to edit each individual pixel in a bitmap image?  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-pixel-q2">Answer</button>
+
+	                    <div id="bitmap-pixel-q2" class="collapse">
+                            Yes
+                        </div>
+	                </li>
+
+	                 <li class="list-group-item">
+	                    True or False: Bitmap images maintain picture quality even when zoomed up in size   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-pixel-q3">Answer</button>
+
+	                    <div id="bitmap-pixel-q3" class="collapse">
+                            False
+                        </div>
+	                </li>
+
+	                <li class="list-group-item">
+	                    Do you have any methods to reduce the size of the image in the previous problem? (Hint: observe the zoomed image on right hand side) 
+                        <img src="../img/exercises/data_representation/snow_trees.jpg" class="img-responsive" alt="Picture and its pixelated form">
+                        
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-pixel-q4">Answer</button>
+
+	                    <div id="bitmap-pixel-q4" class="collapse">
+	                    	Sky, tree, snow, etc. all have similar colours. You can reduce the number of colours that are used to represent them and then compress each of the remaining colours.
+	                    </div>
+	                </li>
+
+	                <li class="list-group-item">
+	                    What is required for full bitmap specification?   
+
+	                    <ol type="a">
+							<li>Width and height of the image</li>
+							<li>Pixel intensities of each grid cell</li>
+	                    	<li>Sequencing of dots</li>
+	                    	<li>Both A and B are correct</li>
+	                    	<li>None of the above</li>
+	                    </ol>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-pixel-q5">Answer</button>
+
+	                    <div id="bitmap-pixel-q5" class="collapse">
+	                    	D
+	                    </div>
+	                </li>
+	            </ol>
+
+	            <h2>Bitmap and Vector Images</h2>
+
+	            <p>Learning Goal: Compare and contrast the suitability of bitmap and vector representations for different uses of images</p>
+
+	            <ol class="list-group">
+	                <li class="list-group-item">
+	                    Which of the following is true about vector image representation?
+
+	                    <ol type="a">
+	                        <li>Divided into little squares called pixels</li>
+	                        <li>Compression results in loss of image quality </li>
+	                        <li>Can be saved as a JPEG file</li>
+	                        <li>Represented by a sequence of numbers</li>  
+	                    </ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-vector-q2">Answer</button>
+
+	                    <div id="bitmap-vector-q2" class="collapse">
+	                       D. Vector images can be described as a sequence of dots connected by lines. The location of the dots can be specified using numbers by listing the x and y coordinates.
+	                    </div>
+	                </li>
+                    
+	                <li class="list-group-item">
+	                    Which of the following is true about vector image representation?
+
+	                    <ol type="a">
+	                        <li>Vector images are usually significantly bigger in size than bitmap images, even in compressed forms</li>
+	                        <li>It is harder for a computer to convert a bitmap image to a vector image than it is to convert a vector image to a bitmap image</li>
+	                        <li>Shading effects, shadows and colors cannot be added in vector images</li>
+	                        <li>Vector images support special effects filters that posterize and blur an image</li>  
+	                    </ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-vector-q3">Answer</button>
+
+	                    <div id="bitmap-vector-q3" class="collapse">
+                            <p>A is false. Bitmap images are usually bigger than vector images. (Art and Images, p. 9)</p>
+
+                            <p>B is true. (Art and Images, p. 10)</p>
+
+                            <p>C is false. Colors, shading effects, and shadows can be added to shapes and regions that are fully enclosed by lines. Backgrounds can be filled or transparent. (Art and Images, p. 7)</p>
+
+                            <p>D is false. Bitmap images can be edited using special effects that change the overall color balance of the image. Vector images do not support such operations. (Art and Images, p. 9)</p>
+	                    </div>
+	                </li>
+                    
+                    <li class="list-group-item">
+	                    Suppose you have two images of the same size but one is in bitmap form while the other is a vector representation.
+
+	                    <ol type="a">
+	                        <li>You want to try to enlarge the size of both your images. In which image will there be less loss of quality and why?</li>
+	                        <li>The size of the vector graphics files depends on the size of the image. True or false?</li>
+	                        <li>Assume you have no constraints in image file size. Which of your two images (bitmap or vector) would you choose to store photorealistic images and why? </li>
+	                        <li>Assume you try to lay one non-rectangular image over another. What problems would you face when using bitmap? Can these problems be solved using vector graphics? </li>
+	                    </ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-vector-q1">Answer</button>
+
+	                    <div id="bitmap-vector-q1" class="collapse">
+	                        <ol type="a">
+	                            <li>Because the vector image is comprised of mathematically defined objects, rather than by a pre-ordered pattern of pixels, its size can be easily manipulated with little to no loss in the quality of the image</li>
+	                            <li>False</li>
+	                            <li>Because each pixel can represent any one of the more than 16 million different colors that can be displayed by most computer monitors, the bitmap image is able to imitate the subtle color variations of a photograph</li>
+	                            <li>(Since bitmap has a rectangular nature, in case you have
+	                              different background colours, your image&#39;s background won&#39;t be transparent.  However, you can avoid this problem using GIF bitmaps).  (Yes, since vector images can be any shape.)</li>
+	                        </ol>
+	                    </div>
+	                </li>
+
+	                <li class="list-group-item">
+	                    Are PDF documents examples of vector image representation or the bitmap image representation?
+
+	                    <ol type="a">
+	                        <li>Bitmap</li>
+	                        <li>Vector</li>
+	                        <li>It depends</li>  
+	                    </ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-vector-q4">Answer</button>
+
+	                    <div id="bitmap-vector-q4" class="collapse">
+	                       C
+	                    </div>
+	                </li>
+	            </ol>
+
+                <!--  <h2>External Reading Module: Art and Images</h2>
+                 <p>These questions are based on the reading notes found <a href="../readings/art_and_images.pdf" target="_blank">here</a>.</li>
+
+                 <ol class="list-group">
+                    <li class="list-group-item">
+                        In terms of size, which representation is bigger, bitmap or vector?
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#reading-notes-q1">Answer</button>
+
+                        <div id="reading-notes-q1" class="collapse">
+                           Bitmap
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        True or false: When bitmap image is compressed to jpg, the image is smaller than its vector representation?
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#reading-notes-q2">Answer</button>
+
+                        <div id="reading-notes-q2" class="collapse">
+                           False
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        What are some common uses of vector representation? What is the advantage of vector representation?
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#reading-notes-q3">Answer</button>
+
+                        <div id="reading-notes-q3" class="collapse">
+                            <ul>
+                                <li>Comic artist</li>
+                                <li>Graphic design</li>
+                                <li>PDF file (not scanned)</li>
+                                <li>Advantageous because able to rescale image without compromising quality of image</li>
+                                <li>Able to search through text in vector image (e.g., pdf textbooks)</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        How do you print a vector image using a printer?
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#reading-notes-q4">Answer</button>
+
+                        <div id="reading-notes-q4" class="collapse">
+                            Convert vector image to bitmap format because printers only recognize bitmap.
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                       Is it possible to convert bitmap image to vector image?
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#reading-notes-q5">Answer</button>
+
+                        <div id="reading-notes-q5" class="collapse">
+                             Yes, but much harder.
+                        </div>
+                    </li>
+                </ol> -->
+
+	            <h2>Other</h2>
+
+	             <ol class="list-group">
+                    <li class="list-group-item">
+	                    Which of the following is impossible after you have desaturated an image?  
+
+	                    <ol type="a">
+							<li>Estimating size of the new image</li>
+							<li>Changing the file extension</li>
+	                    	<li>Going back to the original (saturated) image</li>
+	                    	<li>Copying image into a new directory</li>
+	                    	<li>Renaming the image file</li>
+	                    </ol>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bitmap-pixel-q6">Answer</button>
+
+	                    <div id="bitmap-pixel-q6" class="collapse">
+	                    	C
+	                    </div>
+	                </li>
+	            </ol>
+	        </div>
+	    </div>
+
+        <!-- jQuery -->
+	    <script src="../js/jquery.js"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="../js/bootstrap.min.js"></script>
+
+	    <!-- Custom Theme JavaScript -->
+	    <script src="../js/clean-blog.min.js"></script>
+
+	    <script>
+	        $(function(){
+	            $("#header").load("header.html");
+	        });
+    	</script>
+
+	</body>
+
+</html>
+

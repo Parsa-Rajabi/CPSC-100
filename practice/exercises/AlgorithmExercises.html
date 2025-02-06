@@ -1,0 +1,431 @@
+
+<!-- saved from url=(0072)https://www.ugrad.cs.ubc.ca/~cs100/2017W1/exercises/algorithms-snap.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <title>Algorithm Exercises</title>
+	    <!-- Bootstrap Core CSS -->
+	    <link href="./AlgorithmExercises_files/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom CSS -->
+	    <link href="./AlgorithmExercises_files/clean-blog.min.css" rel="stylesheet">
+
+	    <link rel="icon" type="../image/png" href="https://www.ugrad.cs.ubc.ca/~cs100/2017W1/img/favicon.png">
+
+	    <!-- Custom Fonts -->
+	    <link href="./AlgorithmExercises_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href="./AlgorithmExercises_files/css" rel="stylesheet" type="text/css">
+	    <link href="./AlgorithmExercises_files/css(1)" rel="stylesheet" type="text/css">
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    <style>
+	    	img {
+	    		padding-top: 10px;
+	    		padding-bottom: 10px;
+	    	}
+
+	    	img.multipleChoiceAnswer {
+	    		display:inline;
+	    		margin-left:0;
+	    	}
+	   	</style>
+	</head>
+	<body>
+		<!--#include virtual="../../menu.html" -->
+		<div id="container">
+			 <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-1">
+			 	<h1>Algorithms</h1>
+
+			 	<p>For each of the following questions, write down the algorithm (i.e., write down the steps) you would use to solve the problem. If you feel up to it, you can then try creating your algorithm in <a href="http://snap.berkeley.edu/snapsource/snap.html" target="_blank">Snap!</a>. However, please remember that in this class, we will not be asking you to write such Snap! programs as part of your coursework (although you are free to do so for your projects). We do expect that given a code snippet like the ones in the questions, you can figure out what the snippet is trying to do.</p>
+<p>				Most of the exercises have Snap code associated with them. To run the code, download the XML file. Then <a href="http://snap.berkeley.edu/snapsource/snap.html" target="_blank">open Snap</a>. Click on the file menu (it looks like a piece of paper), and choose &quot;Import&quot;. Then choose the XML file that you downloaded.</p>
+
+			 	<p>Note that the answers here are not the only way to solve the problem; you can solve each of these problems in many different ways.</p>
+
+				<ol class="list-group">
+	                <li class="list-group-item">
+	                    Print each number from 1 to 100. For each number that is a multiple of 3, print "Fizz" instead of the number. For each number that is a multiple of 5, print "Buzz" instead of the number. For each number that is a multiple of 3 and 5, print out "FizzBuzz".
+
+	                    <br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q1">Answer</button>
+
+	                    <div id="algorithms-q1" class="collapse">
+	                    	<p>For each number from 1 to 100:</p>
+	                    	<ol>
+	                    		<li>See if the number is divisible by both 3 and 5. If it is, print "FizzBuzz". Then, ignore the rest of the following steps and move on to the next number.</li>
+	                    		<li>See if the number is divisble by 3. If it is, print "Fizz". Then, ignore the rest of the following steps and move on to the next number.</li>
+	                    		<li>See if the number is divisble by 5. If it is, print "Buzz". Then, ignore the rest of the following steps and move on to the next number.</li>
+	                    		<li>Print out the number.</li>
+	                    	</ol>
+
+	                    	<p>Note that steps 2 and 3 can be switched with each other (i.e., you can test to see if the number is divisble by 5 first rather than 3).
+	                    </p></div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q1-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q1-snap" class="collapse">
+												 <a href="./algo/algo-1.xml" download="algo-1.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q1.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Given a word, output "True" if the number of characters in the word is even and "False" otherwise.
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q2">Answer</button>
+
+	                    <div id="algorithms-q2" class="collapse">
+	                    	<ol>
+	                    		<li>Ask for the word.</li>
+	                    		<li>Count the number of characters in the word.</li>
+	                    		<li>Divide the number by 2.</li>
+	                    		<li>If the number divided by 2 leaves no remainder, output "True". Otherwise, output "False".</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q2-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q2-snap" class="collapse">
+												<a href="./algo/algo-2.xml" download="algo-2.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q2.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Given a word, check to see if it is a palindrome. Note: a palindrome is a word which reads the same forwards and backwards (e.g., racecar).
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q3">Answer</button>
+
+	                    <div id="algorithms-q3" class="collapse">
+	                    	<ol>
+	                    		<li>Ask for the word to check.</li>
+	                    		<li>Take a marker (let's call it marker A) and point it at the first character of the word.</li>
+	                    		<li>Take another marker (let's call it marker B) and point it at the last character of the world.</li>
+	                    		<li>While the two markers are not pointing at the same character OR marker B is not pointing at a character that occurs before the character marker A is pointing at, repeat the following:</li>
+	                    		<ol>
+	                    			<li>Check to see if the characters marker A and B are pointing at are the same.</li>
+	                    			<li>If the characters are the same, move marker A forward to the next character and marker B backwards to the character that occurs prior to the character it is pointing at.</li>
+	                    			<li>If the characters are not the same, stop checking right away (since it will never be a palindrome).</li>
+	                    		</ol>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q3-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q3-snap" class="collapse">
+												<a href="./algo/algo-3.xml" download="algo-3.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q3.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Print the odd characters of a given string/word. For example, given the word "eggplant", print out the letters e, g, l, and n.
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q4">Answer</button>
+
+	                    <div id="algorithms-q4" class="collapse">
+	                    	<ol>
+	                    		<li>Ask for the word to check.</li>
+	                    		<li>Take a marker and point it at the first character of the word.</li>
+	                    		<li>Have a variable be in charge of knowing the index of the character you are currently pointing at. I.e., if you are at the first character of the word, the variable will be 1, if you are at the second character, it will be 2, etc.</li>
+	                    		<li>While the marker is not pointing past the last character in the word:</li>
+	                    			<ol>
+	                    				<li>Check to see if the variable is divisble by 2. If it is not, then print out the word.</li>
+	                    				<li>Move the marker to the next character in the word. Increment the variable by 1.</li>
+	                    			</ol>
+
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q4-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q4-snap" class="collapse">
+												<a href="./algo/algo-4.xml" download="algo-4.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q4.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Given a number, find the smallest divisor of that number (where the divisor is not 1).
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q5">Answer</button>
+
+	                    <div id="algorithms-q5" class="collapse">
+	                    	<ol>
+	                    		<li>Ask for the number to check.</li>
+	                    		<li>Start from 2 and check if the number is completely divisible.</li>
+	                    		<li>If it is, you are done. If it is not, then check to see if the next number (i.e., 3) is completely divisible.</li>
+	                    		<li>Keep repeating the above step while incrementing the number you check each time.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q5-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q5-snap" class="collapse">
+												<a href="./algo/algo-5.xml" download="algo-5.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q5.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	You only have one and five dollar bills. How do you figure out how many of each to give someone when they come to you to get some change?
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q6">Answer</button>
+
+	                    <div id="algorithms-q6" class="collapse">
+	                    	<ol>
+	                    		<li>Ask for the amount to change.</li>
+	                    		<li>Take the amount and subtract it by five repeatedly until the remainder is less than five. Keep track of how many times you subtracted five.</li>
+	                    		<li>Give the remaining amount in ones.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q6-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q6-snap" class="collapse">
+												<a href="./algo/algo-6.xml" download="algo-6.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q6.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Given a list of numbers, find the largest number in the list.
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q7">Answer</button>
+
+	                    <div id="algorithms-q7" class="collapse">
+	                    	<ol>
+	                    		<li>Start at the first number in the list and store it as the largest number you have seen so far.</li>
+	                    		<li>Move on to the next number in the list. Check to see if that number is greater than the number you have stored as the largest number so far. If it is, replace the stored number with the current number. If it is not, move on to the next number.</li>
+	                    		<li>Stop when you have gone through the whole list of numbers.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q7-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q7-snap" class="collapse">
+												<a href="./algo/algo-7.xml" download="algo-7.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q7.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Find all the prime numbers from 1 to 100. Reminder: a prime number is a number that is only divisible by 1 and itself. One is not a prime number.
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q8">Answer</button>
+
+	                    <div id="algorithms-q8" class="collapse">
+	                    	<ol>
+	                    		<li>Start at the number 2 (since we know 1 is not a prime number).</li>
+	                    		<li>Keep a list of all the prime numbers found so far (right now the list is empty).</li>
+	                    		<li>Check to see if our current number is completely divisible by anything in the prime number list. If it is, it is not a prime number. If the list is empty or there is no number in the list that can divide our current number with no remainders, our current number is a prime number.</li>
+	                    		<li>Stop when we get to 100.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q8-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q8-snap" class="collapse">
+												<a href="./algo/algo-8.xml" download="algo-8.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q8.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Pig Latin is a way to obscure words by taking the first letter of a word, moving it to the end of the word, and adding "AY" after it. For example, the word "PIG" would turn into "IGPAY". Given a word in Pig Latin, convert it back to its English form.
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q9">Answer</button>
+
+	                    <div id="algorithms-q9" class="collapse">
+	                    	<ol>
+	                    		<li>Ask for the word in Pig Latin.</li>
+	                    		<li>Count how many characters are in the word.</li>
+	                    		<li>Subtract 2 from the total number of characters and go to the character at that location. Output the character.</li>
+	                    		<li>Go to the first character of the word and output it. Move on to the next character until you reach the character right before where you found the first character.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q9-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q9-snap" class="collapse">
+												<a href="./algo/algo-9.xml" download="algo-9.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q9.png" class="img-responsive">
+	                    </div>
+	                </li>
+<!--	                <li class="list-group-item">
+	                 	Convert a binary number back to its decimal value. For example, if given 101, you should output 5.
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q10">Answer</button>
+
+	                    <div id="algorithms-q10" class="collapse">
+	                    	<ol>
+	                    		<li>Ask for the number.</li>
+	                    		<li>Keep a running total that tracks the digits you have dealt with so far. At this point, the running total is 0 because we haven&#39;t looked at any digits in the binary number yet.</li>
+	                    		<li>Start at the rightmost digit of the number.</li>
+	                    		<li>Multiply that digit by the correct factor of two and add it to the running total. For example, for the rightmost digit, we would multiply it by 2<sup>0</sup> whereas the digit immediately to the left of it would be multiplied by 2<sup>1</sup>.</li>
+	                    		<li>Move one place to the left.</li>
+	                    		<li>Repeat the above two steps until there are no more digits to consider.</li>
+	                    		<li>Output the running total.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br /><br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q10-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q10-snap" class="collapse">
+	                    	 <img src="../img/exercises/snap/algorithms/q10.png" class="img-responsive">
+	                    </div>
+	                </li>
+-->	                <li class="list-group-item">
+	                 	Create an algorithm to swap the value of two variables without a third variable.
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q11">Answer</button>
+
+	                    <div id="algorithms-q11" class="collapse">
+	                    	<ol>
+	                    		<li>Let's say that the two variables in question are called A and B.</li>
+	                    		<li>Set variable A to the value of A (itself) added to B.</li>
+	                    		<li>Set variable B to the value of A minus B (itself).</li>
+	                    		<li>Set variable A to the value of A (itself) minus B.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q11-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q11-snap" class="collapse">
+												<a href="./algo/algo-10.xml" download="algo-10.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q11.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	Create an algorithm to add up all the integers between 1 to 1000.
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q12">Answer</button>
+
+	                    <div id="algorithms-q12" class="collapse">
+	                    	<ol>
+	                    		<li>Use a variable to keep track of the running total.</li>
+	                    		<li>For each number from 1 to 1000, add it to the running total.</li>
+	                    		<li>Output the running total.</li>
+	                    	</ol>
+
+	                    	<br>
+
+	                    	Alternatively, you can use a mathematical formula [n*(n-1)]/2 to calculate the sum of all numbers between 1 to 1000.
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q12-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q12-snap" class="collapse">
+	                    	Option 1:
+												<a href="./algo/algo-11-1.xml" download="algo-11-1.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q12a.png" class="img-responsive">
+
+	                    	 <br>
+
+	                    	 Option 2:
+												 <a href="./algo/algo-11-2.xml" download="algo-11-2.xml">Download the following code.</a>
+	                    	 <img src="./AlgorithmExercises_files/q12b.png" class="img-responsive">
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>You are responsible for designing an algorithm that plays a number guessing game with the user. The algorithm will choose a random number from 1 to 100 and the user will guess a number. While the user has not guessed the correct number, the algorithm will keep asking the user for his/her next guess.</p>
+
+	                 	<p>If the user has guessed the correct number, the algorithm should output "Correct!" and stop asking the user for more guesses.</p>
+
+	                 	<p>If the user has guessed a number that is smaller than the number the algorithm has chosen, the algorithm should tell the user "The chosen number is larger!".</p>
+
+	                 	<p>If the user has guessed a number that is larger than the number the algorithm has chosen, the algorithm should tell the user "The chosen number is smaller!".</p>
+
+	                 	<p>If the user has guessed a number that is smaller than 1 or larger than 100, the algorithm should ask the user to "Please pick a number between 1 and 100".</p>
+
+	                 	<br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q13">Answer</button>
+
+	                    <div id="algorithms-q13" class="collapse">
+	                    	<ol>
+	                    		<li>Pick a random number between 1 and 100.</li>
+	                    		<li>Ask the user for a guess.</li>
+	                    		<li>Check the guess to see if it is outside of the 1 to 100 range (if it is outside the range). If the guess is outside the range, go back to the above step.</li>
+	                    		<li>Check to see if the guess is equal to the random number. If it is, go to the end of these steps.</li>
+	                    		<li>Check to see if the guess is smaller than the random number. If it is, output "The chosen number is larger!". If it is not, output "The chosen number is smaller!". Go back to step 2.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br><br>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q13-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q13-snap" class="collapse">
+												<a href="./algo/algo-12.xml" download="algo-12.xml">Download the following code.</a>
+	                    	<img src="./AlgorithmExercises_files/q13.png" class="img-responsive">
+	                    </div>
+	                </li>
+	            </ol>
+	        </div>
+	    </div>
+
+            <!-- jQuery -->
+	    <script src="./AlgorithmExercises_files/jquery.js.download"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="./AlgorithmExercises_files/bootstrap.min.js.download"></script>
+
+	    <!-- Custom Theme JavaScript -->
+	    <script src="./AlgorithmExercises_files/clean-blog.min.js.download"></script>
+
+	    <script>
+	        $(function(){
+	            $("#header").load("header.html");
+	        });
+    	</script>
+
+
+</body></html>

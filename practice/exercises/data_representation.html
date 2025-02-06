@@ -1,0 +1,463 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <title>Data Representation Questions</title>
+	    <!-- Bootstrap Core CSS -->
+	    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom CSS -->
+	    <link href="../css/clean-blog.min.css" rel="stylesheet">
+
+	    <link rel="icon" type="../image/png" href="../img/favicon.png">
+
+	    <!-- Custom Fonts -->
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<!--#include virtual="../../menu.html" -->
+		<div id = "container">
+			 <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-1">
+                <h1>Data Representation Questions</h1>
+
+                <h2>Hexadecimial, Decimal, Binary Conversions</h2>
+                <div class="alert alert-dismissable alert-warning">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <p class="lead">Sometimes you may see 0b or 0x in front of a number. This is a way to indicate what base a number is in. For example, if you see a number like 1001, it can be unclear whether it is in decimal, binary, or hexadecimal form.</p><br />
+
+                    <p class="lead">By putting 0b in front of a number, we can clearly indicate that a number is in binary form. <!--You may also see numbers with a subscript 2 after it (e.g., (10001000)<sub>2</sub>); this is another way to indicate that a number is in binary form.--></p><br />
+
+                     <p class="lead">0x in front of a number means that a number is in hexadecimal form. <!--You may also see hexadecimal numbers with a subscript 16 after it (e.g., (16A3)<sub>16</sub>)-->.</p>
+                </div>
+
+				<ol class="list-group">
+                    <li class="list-group-item">
+                        What bases do decimal, hex, and binary use respectively?
+
+                        <ol type="a">
+                            <li>16, 2, 10</li>
+                            <li>10, 2, 16</li>
+                            <li>10, 16, 2</li>
+                            <li>2, 16, 10</li>
+                            <li>16, 10, 2</li>
+                        </ol>
+
+                       <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q1">Answer</button>
+
+                        <div id="data-representation-q1" class="collapse">
+                            C. Decimal uses base 10, hex uses base 16, and binary uses base 2.
+                        </div>
+                    </li>
+                    
+					<li class="list-group-item">Convert 200 (in decimal) to binary.
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q2">Answer</button>
+
+                        <div id="data-representation-q2" class="collapse">
+                            11001000
+                        </div>
+	                </li>
+	                
+	                <li class="list-group-item">Convert 10010111 to decimal.
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q3">Answer</button>
+
+                        <div id="data-representation-q3" class="collapse">
+                            151
+                        </div>
+	                </li>
+
+	                <li class="list-group-item">Convert 0b1010010101101001 to hexadecimal. 
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q4">Answer</button>
+
+                        <div id="data-representation-q4" class="collapse">
+                            A569
+                        </div>
+	                </li>
+
+	                <li class="list-group-item">Convert 0xFADE to binary. 
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q5">Answer</button>
+
+                        <div id="data-representation-q5" class="collapse">
+                            0b1111101011011110
+                        </div>
+	                </li>
+
+	                <li class="list-group-item">Convert 0x82 to decimal.
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q6">Answer</button>
+
+                        <div id="data-representation-q6" class="collapse">
+                            130
+                        </div>
+	                </li>
+
+	                <li class="list-group-item">Convert 314 to hexadecimal.
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q7">Answer</button>
+
+                        <div id="data-representation-q7" class="collapse">
+                            0x13A
+                        </div>
+	                </li>
+
+
+                    <li class="list-group-item">What is 0b00001011 in decimal form?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q8">Answer</button>
+
+                        <div id="data-representation-q8" class="collapse">
+                            2<sup>0</sup> + 2<sup>1</sup> + 2<sup>3</sup> = 1 + 2 + 8 = 11.
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">What is 23 in binary form?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q9">Answer</button>
+
+                        <div id="data-representation-q9" class="collapse">
+                            0b00010111 = 2<sup>4</sup> + 2<sup>2</sup> + 2<sup>1</sup> + 2<sup>0</sup> = 16 + 4 + 2 + 1 = 23
+                        </div>
+                    </li>
+        
+                    <li class="list-group-item">What is 0xA3FF in decimal?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q10">Answer</button>
+
+                        <div id="data-representation-q10" class="collapse">
+                            41983
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">What is 304 in hexadecimal?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q11">Answer</button> 
+                        <div id="data-representation-q11" class="collapse">
+                            0x130
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">What is 0xF339 in binary?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q12">Answer</button>
+
+                        <div id="data-representation-q12" class="collapse">
+                            0b1111001100111001
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">What is 0b1101001100011100 in hexadecimal?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q13">Answer</button>
+
+                        <div id="data-representation-q13" class="collapse">
+                            0xD31C
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        What are is 78 in binary if 0b1001101 is binary for 77?
+
+                        <ol type="a">
+                            <li>0b1001102</li>
+                            <li>0b1001100</li>
+                            <li>0b1001110</li>
+                            <li>0b1001010</li>
+                        </ol>
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q14">Answer</button>
+
+                        <div id="data-representation-q14" class="collapse">
+                            C
+                        </div>
+                    </li>
+                  
+                    <li class="list-group-item">
+                        Convert the following binary number to hexadecimal:<br /> 0b1 0101 0000 0001 1101 1101 1110 1100 1010 1111<br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q15">Answer</button>
+
+                        <div id="data-representation-q15" class="collapse">
+                             0x1501DDECAF<br />(Be careful of the 1 when we group the binary values into fours starting from the right to left, instead of from the left to right) 
+
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        Convert the following hexadecimal to binary: 0xD3C0DE7415
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q16">Answer</button>
+
+                        <div id="data-representation-q16" class="collapse">
+                            0b1101 0011 1100 0000 1101 1110 0111 0100 0001 0101
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        What is 0b111010101111111110 in hexadecimal? <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q17">Answer</button>
+
+                        <div id="data-representation-q17" class="collapse">0x3ABFE</div>
+                    </li>
+                                 
+                    
+                    <li class="list-group-item">
+                        Transform decimal 333 in binary. 
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q18">Answer</button>
+                        <div id="data-representation-q18" class="collapse">0b101001101</div>
+                    </li>
+                   
+                    <li class="list-group-item">
+                        When the 8-bit binary representation of 55 is 0b00110111, what is the representation of 56?
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q19">Answer</button>
+
+                        <div id="data-representation-q19" class="collapse">
+                            0b0011 1000
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        Which of the following is the conversion to decimal of the hex number 0xAF6E?
+
+                        <ol type="a">
+                            <li>22340</li>
+                            <li>32450</li>
+                            <li>44910</li>
+                            <li>32320</li>
+                            <li>24350</li>
+                        </ol>
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q20">Answer</button>
+
+                        <div id="data-representation-q20" class="collapse">
+                            C
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        Which of the following is the correct representation of the number ten in binary?
+
+                        <ol type="a">
+                            <li>ten</li>
+                            <li>10</li>
+                            <li>0b1010</li>
+                            <li>0b000010</li>
+                        </ol>
+                        <br />
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q21">Answer</button>
+
+                        <div id="data-representation-q21" class="collapse">
+                            C
+                        </div>
+                    </li>
+                </ol>
+
+	                <li class="list-group-item">
+	                 	Write an algorithm to convert a binary number back to its decimal value. For example, if given 101, you should output 5.
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q10">Answer</button>
+
+	                    <div id="algorithms-q10" class="collapse">
+	                    	<ol>
+	                    		<li>Ask for the number.</li>
+	                    		<li>Keep a running total that tracks the digits you have dealt with so far. At this point, the running total is 0 because we haven&#39;t looked at any digits in the binary number yet.</li>
+	                    		<li>Start at the rightmost digit of the number.</li>
+	                    		<li>Multiply that digit by the correct factor of two and add it to the running total. For example, for the rightmost digit, we would multiply it by 2<sup>0</sup> whereas the digit immediately to the left of it would be multiplied by 2<sup>1</sup>.</li>
+	                    		<li>Move one place to the left.</li>
+	                    		<li>Repeat the above two steps until there are no more digits to consider.</li>
+	                    		<li>Output the running total.</li>
+	                    	</ol>
+	                    </div>
+
+	                    <br /><br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q10-snap">Algorithm in Snap</button>
+
+	                    <div id="algorithms-q10-snap" class="collapse">
+	                    	 <img src="../img/exercises/snap/algorithms/q10.png" class="img-responsive">
+	                    </div>
+	                </li>
+
+
+				<!--				
+                 <h2>Arithmetic Questions</h2>
+                 <ol class="list-group">
+                    <li class="list-group-item">What is (0110 0100)<sub>2</sub> + (0000 0001)<sub>2</sub>?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q22">Answer</button>
+
+                        <div id="data-representation-q22" class="collapse">
+                            (0110 0101)<sub>2</sub>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">What is (0110 0100)<sub>2</sub> - (0000 0001)<sub>2</sub>?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q23">Answer</button>
+
+                        <div id="data-representation-q23" class="collapse">
+                            (0110 0011)<sub>2</sub>
+                        </div>
+                    </li> 
+                    
+                     <li class="list-group-item">
+                        What is (110011)<sub>2</sub> + (110110)<sub>2</sub> in Binary? <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q24">Answer</button>
+
+                        <div id="data-representation-q24" class="collapse">(1101001)<sub>2</sub></div>
+                    </li>
+                </ol>
+    -->              
+                    
+                <h2>Conceptual Data Questions</h2>
+                <ol class="list-group">
+                    <li class="list-group-item">How is data represented in a computer?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q25">Answer</button>
+
+                        <div id="data-representation-q25" class="collapse">
+                            Bits (0&#39;s and 1&#39;s))
+                        </div>
+                    </li>
+
+                    
+                    <li class="list-group-item">What does each bit mean?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q26">Answer</button>
+
+                        <div id="data-representation-q26" class="collapse">
+                            It has no meaning until we give it meaning (e.g., 1=on, 0=off; 1=true, 0=false).
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">How many bits does one hexadecimal digit represent?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q27">Answer</button>
+
+                        <div id="data-representation-q27" class="collapse">
+                            4 bits. To represent 16 numbers in binary, you need 4 digits.
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">How many hexadecimal digits do you need for 1 byte?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q28">Answer</button>
+
+                        <div id="data-representation-q28" class="collapse">
+                            2 hexadecimal digits
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">What values can each bit represent?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q29">Answer</button>
+
+                        <div id="data-representation-q29" class="collapse">
+                            0 or 1
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item"> If we designed an algorithm that looks for a number less than 64, how would converting it to a binary number help make it easier to check?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q31">Answer</button>
+
+                        <div id="data-representation-q31" class="collapse">
+                            We know that the 7th binary digit from the right represents 2<sup>6</sup> = 64, so as long as the leftmost 2 digits are 0 we know that it cannot be more than 64. &#8594; 00xx xxxx, where x is either 0 or 1.
+                        </div>
+                    </li>
+                    
+                     
+                    <li class="list-group-item">                       
+                        You are given the binary number 0b1 1110 0011 1101. Answer the following without converting to decimal:
+
+                        <ol type="a">
+                            <li>Can you divide this number by two?</li>
+                            <li>Is this number larger than 1000?</li>
+                            <li>How many digits long would the number be if you added 0b1 1100 0011?</li>
+                            <li>What is this number in hex?</li>
+                        </ol>
+
+                        <br />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#module2-additional-exercises-q32">Answer</button>
+
+                        <div id="module2-additional-exercises-q32" class="collapse">
+                            <ol type="a">
+                                <li>No</li>
+                                <li>Yes</li>
+                                <li>14</li>
+                                <li>0x1E3D</li>
+                            </ol>
+                        </div>
+                    </li>
+                </ol>
+
+                <h2>ASCII Questions</h2>
+                <ol class="list-group">
+                    <li class="list-group-item">Using the ASCII table below, convert the decode the following ASCII representation: 0x48334C316F35
+
+                        <img src="../img/exercises/data_representation/new_ASCII_table.png" alt="ASCII table from the 2016W2 number representation slides (slide 21)" class="img-responsive" />
+
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q33">Answer</button>
+
+                        <div id="data-representation-q33" class="collapse">
+                            <p>H3L1o5</p>
+
+                            <p>To approach this quesiton, first separate 0x48334C316F35 into groups of two hexadecimal digits starting from the right. This will give you 48 33 4C 31 6F 35. Now, look at the ASCII table to see which letters correspond to that group of two hexadecimal digits. You can see that 48 corresponds to H. Do this for each group of two hexadecimal digits and you will get the answer H3L1o5.</p>
+                        </div>
+	                </li>
+
+                    <li class="list-group-item">What is ASCII &#34;HelLo&#34; in hexadecimal. 
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q34">Answer</button>
+
+                        <div id="data-representation-q34" class="collapse">
+                            <p>48 65 6C 4C 6F</p>
+
+                            <p>By looking at the table above, we can find what hexadecimal digit each ASCII character corresponds to. H = 48, e = 65, l = 6C, L = 4c, o = 6F. </p>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">How many bits does regular ASCII represent? How many values can this number of bits represent?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q36">Answer</button>
+
+                        <div id="data-representation-q36" class="collapse">
+                            7 bits. Since each bit is either 0 or 1 (i.e., it can only represent 2 values), we can calculate the total number of values that can be represented by 2x2x2x2x2x2x2 = 2<sup>7</sup> = 128.
+                        </div>
+                    </li>
+
+                    <li class="list-group-item"> How many values can ASCII represent if it only used 6 bits?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q37">Answer</button>
+
+                        <div id="data-representation-q37" class="collapse">
+                            2<sup>6</sup> = 64 values
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">How can you extend regular ASCII to represent more character values?
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#data-representation-q38">Answer</button>
+
+                        <div id="data-representation-q38" class="collapse">
+                            Have it represent 8 bits, so that it can represent 2<sup>8</sup> = 256 characters.
+                        </div>
+                    </li>
+	        	</ol>
+	        </div>
+	    </div>
+
+            <!-- jQuery -->
+	    <script src="../js/jquery.js"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="../js/bootstrap.min.js"></script>
+
+	    <!-- Custom Theme JavaScript -->
+	    <script src="../js/clean-blog.min.js"></script>
+
+	    <script>
+	        $(function(){
+	            $("#header").load("header.html");
+	        });
+    	</script>
+	</body>
+</html>

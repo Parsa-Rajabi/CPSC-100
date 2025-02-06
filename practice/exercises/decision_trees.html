@@ -1,0 +1,840 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <title>Decision Tree Exercises</title>
+	    <!-- Bootstrap Core CSS -->
+	    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom CSS -->
+	    <link href="../css/clean-blog.min.css" rel="stylesheet">
+
+	    <link rel="icon" type="../image/png" href="../img/favicon.png">
+
+	    <!-- Custom Fonts -->
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    <style>
+	    	.table td, th {
+	    		text-align:center;
+	    	}
+	    </style>
+	</head>
+	<body>
+		<div id = "container">
+			 <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-1">
+				<ol class="list-group">
+	                <li class="list-group-item">
+	                	What is the purpose of a decision tree? <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q1">Answer</button>
+
+	                    <div id="decision-trees-q1" class="collapse">
+	                    	The purpose of a decision tree is to decide which class(es) a set of objects belong to.
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                	<img src="../img/exercises/decision_trees/q2-tree.png" alt="A binary tree" class="img-responsive center-block" > <br />
+
+	                	How many leaves does the above tree have?
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q2">Answer</button>
+
+	                    <div id="decision-trees-q2" class="collapse">
+	                    	<p>4</p>
+
+	                    	<p>Reminder: A leaf is a node without any children. Therefore, the leaves in the above tree would be:</p>
+	                    	<img src="../img/exercises/decision_trees/q2-tree-answer.png" class="img-responsive center-block" />
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                	True or false: A decision tree is a tree where nodes are conditions and edges are attributes that have to be met:
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q3">Answer</button>
+
+	                    <div id="decision-trees-q3" class="collapse">
+	                    	<p>False</p>
+
+	                    	<p>A decision tree has the nodes as attributes and edges as conditions. Whether you follow an edge depends on what the condition of the situation you are considering is. For example, if you had a node that had an attribute of &#34;Shirt Colour&#34; with outgoing edges labeled &#34;Blue&#34;, &#34;Red&#34;, and &#34;Yellow&#34;, which edge you follow to the next node would depend on your current shirt colour (i.e., it is conditional).</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                	True or false: In a rooted tree data structure in computer science, nodes must be labelled for it to be a valid tree.
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q5">Answer</button>
+
+	                    <div id="decision-trees-q5" class="collapse">
+	                    	<p>False.</p>
+
+	                    	<p>The following conditions must be met in order for a data structure to be considered as a rooted tree:</p>
+	                    	<ul>
+	                    		<li>There is only one root node (i.e., there is only one node in the tree that has no parent)</li>
+	                    		<li>Each node can have zero or more children</li>
+	                    		<li>All nodes (except for the root node) only have one parent</li>
+	                    		<li>Edges between two nodes represent a parent/child relationship</li>
+	                    		<li>Nodes and edges <strong>may</strong> be labelled (not a necessity)</li>
+	                    	</ul>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                	True or false: In a root tree data structure in computer science, there can only be one root.
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q6">Answer</button>
+
+	                    <div id="decision-trees-q6" class="collapse">
+	                    	<p>True.</p>
+
+	                    	<p>The following conditions must be met in order for a data structure to be considered as a rooted tree:</p>
+	                    	<ul>
+	                    		<li>There is only one root node (i.e., there is only one node in the tree that has no parent)</li>
+	                    		<li>Each node can have zero or more children</li>
+	                    		<li>All nodes (except for the root node) only have one parent</li>
+	                    		<li>Edges between two nodes represent a parent/child relationship</li>
+	                    		<li>Nodes and edges <strong>may</strong> be labelled (not a necessity)</li>
+	                    	</ul>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                	You have been hired by a biology professor to create a decision tree based on whether a mushroom is poisonous, and have been given the following chart of data:
+
+	                	<div class="table-responsive">
+							<table class="table">
+								<thead class="thead-inverse">
+									<tr>
+										<th>Colour</th>
+										<th>Height</th>
+										<th>Stripes</th>
+										<th>Texture</th>
+										<th>Poisonous?</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Purple</td>
+										<td>Tall</td>
+										<td>Yes</td>
+										<td>Rough</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Purple</td>
+										<td>Tall</td>
+										<td>Yes</td>
+										<td>Smooth</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Red</td>
+										<td>Short</td>
+										<td>Yes</td>
+										<td>Hairy</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Blue</td>
+										<td>Short</td>
+										<td>No</td>
+										<td>Smooth</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Blue</td>
+										<td>Short</td>
+										<td>Yes</td>
+										<td>Hairy</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Red</td>
+										<td>Tall</td>
+										<td>No</td>
+										<td>Hairy</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Blue</td>
+										<td>Tall</td>
+										<td>Yes</td>
+										<td>Smooth</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Blue</td>
+										<td>Short</td>
+										<td>Yes</td>
+										<td>Smooth</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Blue</td>
+										<td>Tall</td>
+										<td>No</td>
+										<td>Hairy</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Blue</td>
+										<td>Short</td>
+										<td>Yes</td>
+										<td>Rough</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Red</td>
+										<td>Short</td>
+										<td>No</td>
+										<td>Smooth</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Purple</td>
+										<td>Short</td>
+										<td>No</td>
+										<td>Hairy</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Red</td>
+										<td>Tall</td>
+										<td>Yes</td>
+										<td>Hairy</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Purple</td>
+										<td>Tall</td>
+										<td>Yes</td>
+										<td>Hairy</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Purple</td>
+										<td>Tall</td>
+										<td>No</td>
+										<td>Rough</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Purple</td>
+										<td>Tall</td>
+										<td>No</td>
+										<td>Smooth</td>
+										<td>No</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<ol class="list-group">
+							<li class="list-group-item">
+								What should you split on first to reduce the most entropy? Color, height, stripes, or texture?
+
+								<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q7-p1">Answer</button>
+
+			                    <div id="decision-trees-q7-p1" class="collapse">
+			                    	<b>If we split on colour:</b>
+			                    	<div class="table-responsive">
+										<table class="table">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Purple</th>
+													<th>Red</th>
+													<th>Blue</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td>No</td>
+													<td></td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>No</td>
+													<td></td>
+													<td>Yes</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									Splitting on colour results in an overall entropy of 12(6+0+6). The first and last columns are mixed yes and no answers. <br /><br />
+
+									<b>If we split on height:</b>
+			                    	<div class="table-responsive">
+										<table class="table">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Short</th>
+													<th>Tall</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>No</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td>No</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>No</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td></td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td></td>
+													<td>No</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									Splitting on height results in an overall entropy of 16(7+9). All columns are mixed yes and no answers. <br /><br />
+
+									<b>If we split on stripes:</b>
+			                    	<div class="table-responsive">
+										<table class="table">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Yes</th>
+													<th>No</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>No</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>No</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									Splitting on stripes results in an overall entropy of 16(9+7). All columns are mixed yes and no answers. <br /><br />
+
+									<b>If we split on texture:</b>
+			                    	<div class="table-responsive">
+										<table class="table">
+											<thead class="thead-inverse">
+												<tr>
+													<th>Rough</th>
+													<th>Smooth</th>
+													<th>Hairy</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Yes</td>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td>Yes</td>
+													<td>No</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td>No</td>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td></td>
+													<td>Yes</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td></td>
+													<td>No</td>
+													<td>Yes</td>
+												</tr>
+												<tr>
+													<td></td>
+													<td>No</td>
+													<td>No</td>
+												</tr>
+												<tr>
+													<td></td>
+													<td></td>
+													<td>Yes</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									Splitting on texture results in an overall entropy of 16(3+6+7). To reduce the most entropy, split on colour.
+			                    </div>
+
+							</li>
+							<li class="list-group-item">
+								Disregarding our definition of entropy, is splitting on height or stripes better?
+
+								<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q7-p2">Answer</button>
+
+			                    <div id="decision-trees-q7-p2" class="collapse">
+			                    	Though with our definition of entropy, both splitting on height or stripes gives you an entropy of 16, splitting on stripes is better as the mixed yes and no answers are &#34;less mixed&#34;.
+			                    </div>
+
+							</li>
+							<li class="list-group-item">
+								Now, finish off the tree by splitting on attributes that reduce that most entropy. 
+
+								<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q7-p3">Answer</button>
+
+			                    <div id="decision-trees-q7-p3" class="collapse">
+			                    	<img src="../img/exercises/decision_trees/q3-tree-v1.png" alt="A binary tree" class="img-responsive center-block" > <br />
+
+			                    	Or another acceptable answer:
+
+			                    	<img src="../img/exercises/decision_trees/q3-tree-v2.png" alt="A binary tree" class="img-responsive center-block" > <br />
+			                    </div>
+							</li>
+							
+						</ol>
+	                </li>
+	                <li class="list-group-item">
+						True or false: this is a valid tree data structure.
+						<img src="../img/exercises/decision_trees/q8-tree.png" alt="A binary tree" class="img-responsive center-block" > <br />
+
+						<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q8">Answer</button>
+
+	                    <div id="decision-trees-q8" class="collapse">
+	                    	<p>False. There is no root node in this structure.</p>
+	                    </div>
+					</li>
+					<li class="list-group-item">
+						True or false: this tree has 4 leaves.
+						<img src="../img/exercises/decision_trees/q9-tree.png" alt="A binary tree" class="img-responsive center-block" > <br />
+
+						<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q9">Answer</button>
+
+	                    <div id="decision-trees-q9" class="collapse">
+	                    	<p>True. A leaf node has no children. In this tree, the four leaf nodes would be 12, 16, 23 (the one closer to the bottom of the tree), and 41.</p>
+	                    </div>
+					</li>
+					<li class="list-group-item">
+						How many nodes and how many edges does the following tree have?
+						<img src="../img/exercises/decision_trees/q10-tree.png" alt="A binary tree" class="img-responsive center-block" > <br />
+
+						<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q10">Answer</button>
+
+	                    <div id="decision-trees-q10" class="collapse">
+	                    	Nine nodes and eight edges.
+	                    </div>
+					</li>
+					<li class="list-group-item">
+						You have been hired by the local police force to check their work on a decision tree they created to determine whether they should pull someone over. You have been given the following data and decision tree.
+
+						<div class="table-responsive">
+							<table class="table">
+								<thead class="thead-inverse">
+									<tr>
+										<th>Using Phone</th>
+										<th>Lights</th>
+										<th>Speed</th>
+										<th>Driving</th>
+										<th>Pull Over?</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Yes</td>
+										<td>Working</td>
+										<td>Slow</td>
+										<td>Risky</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Burnt out</td>
+										<td>Fast</td>
+										<td>Hazardous</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Burnt out</td>
+										<td>Slow</td>
+										<td>Safe</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Working</td>
+										<td>Fast</td>
+										<td>Risky</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Yes</td>
+										<td>Working</td>
+										<td>Normal</td>
+										<td>Hazardous</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Yes</td>
+										<td>Working</td>
+										<td>Fast</td>
+										<td>Hazardous</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Burnt out</td>
+										<td>Slow</td>
+										<td>Safe</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Yes</td>
+										<td>Burnt out</td>
+										<td>Fast</td>
+										<td>Risky</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Working</td>
+										<td>Normal</td>
+										<td>Safe</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Yes</td>
+										<td>Burnt out</td>
+										<td>Normal</td>
+										<td>Risky</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Yes</td>
+										<td>Burnt out</td>
+										<td>Slow</td>
+										<td>Risky</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Working</td>
+										<td>Slow</td>
+										<td>Safe</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Burnt out</td>
+										<td>Slow</td>
+										<td>Risky</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Yes</td>
+										<td>Working</td>
+										<td>Normal</td>
+										<td>Safe</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Working</td>
+										<td>Normal</td>
+										<td>Risky</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Working</td>
+										<td>Slow</td>
+										<td>Hazardous</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>No</td>
+										<td>Working</td>
+										<td>Fast</td>
+										<td>Safe</td>
+										<td>No</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<img src="../img/exercises/decision_trees/q12-tree.png" alt="Decision tree for q12" class="img-responsive center-block" > <br />
+					
+	                	<ol class="list-group">
+	                		<li class="list-group-item">
+	                			Is the decision tree they created optimized? &emsp; <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q12-p1">Reveal</button>
+
+	                			<div id="decision-trees-q12-p1" class="collapse">
+	                				No. It is much bigger and more complicated than it needs to be.
+	                			</div>
+
+	                		</li>
+	                		<li class="list-group-item">
+	                			By inspection, which attribute should they split on first to reduce the most entropy? &emsp; <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q12-p2">Reveal</button>
+
+	                			<div id="decision-trees-q12-p2" class="collapse">
+	                				Lights, as anyone with burnt out lights gets pulled over. By splitting on lights first, we can reduce the most amount of entropy
+	                			</div>
+	                			
+	                		</li>
+	                		<li class="list-group-item">
+	                			Revise their decision tree by splitting on attributes that reduce the most entropy &emsp; <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q12-p3">Reveal</button>
+
+	                			<div id="decision-trees-q12-p3" class="collapse">
+	                				<img src="../img/exercises/decision_trees/q12-p3-tree.png" class="img-responsive center-block" >
+	                			</div>
+	                		</li>
+	                	</ol>
+					</li>
+					<li class="list-group-item">
+	        			Which of the following is true about the decision trees?
+
+	        			<ol type="a">
+	        				<li>One of the common methods for deciding which attributes to split on is to try to reduce entropy</li>
+	        				<li>In decision tree, the more you reduce entropy, the lower the information gain</li>
+	        				<li>Decision tree is a tree where nodes are conditions and the edges are attributes that have to be met</li>
+	        				<li>When we split the decision tree, we should make the resulting groups more heterogenous</li>
+	        				<li>It doesn&#39;t make any difference whether we reduce entropy or enlarge entropy. the decision tree will look exactly the same</li>
+	        			</ol>
+
+	        			<br />
+
+	        			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q13">Reveal</button>
+
+	        			<div id="decision-trees-q13" class="collapse">
+	        				<p>A is right. chosing to reduce entropy will make the decision tree easier to work on and simpler.</p>
+
+	        				<p>B is wrong because the more you reduce the entropy, the higher the information gain.</p>
+
+							<p>C is wrong because in decision tree, the nodes are attributes and the edges are conditions.</p>
+
+							<p>D is wrong because we should make the resulting groups more homogeneous when we split the decision tree. it will make the decision tree simpler and easier to observe, thus reducing the work that we have to do.</p>
+							
+							<p>E is wrong because reduce entropy is better than enlarge entropy. reduce entropy will make it easier to make and observe, while enlarge entropy will make it more complicated since we have to observe more nodes and edges in the decision tree.</p>
+	        			</div>
+	        		</li>
+					<li class="list-group-item">
+	        			<p>False windy weather had 3 yes&#39;s and 2 no&#39;s. True windy weather had 2 yes&#39;s and 5 no&#39;s. False sunny weather has 1 yes and 3 no&#39;s. True sunny weather has 4 yes&#39;s and 4 no&#39;s.</p>
+
+	        			<p>Which type of weather has the most entropy?</p>
+
+	        			<ol type="a">
+	        				<li>False windy weather</li>
+	        				<li>True sunny weather</li>
+	        				<li>False sunny weather</li>
+	        				<li>True windy weather</li>
+	        			</ol>
+
+	        			<br />
+
+	        			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q14">Reveal</button>
+
+	        			<div id="decision-trees-q14" class="collapse">
+	        				<p>The entropy is the amount of disorder:</p>
+	        				<ul>
+	        					<li>A &#8594; 3 +2 = 5 - less than 8</li>
+	        					<li>B &#8594; 4 + 4 = 8 - greatest entropy (because there are 8 yes&#39;s and no&#39;s)</li>
+	        					<li>C &#8594; 1 + 3 = 4 - less than 8</li>
+	        					<li>D &#8594; 2 + 5 = 7 - less than 8</li>
+	        				</ul>
+	        			</div>
+	        		</li>
+	        		<li class="list-group-item">
+	                	<div class="table-responsive">
+							<table class="table">
+								<thead class="thead-inverse">
+									<tr>
+										<th>Temperature</th>
+										<th>Mood</th>
+										<th>Windy</th>
+										<th>Run?</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Hot</td>
+										<td>Ambivalent</td>
+										<td>No</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Hot</td>
+										<td>Happy</td>
+										<td>Yes</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Warm</td>
+										<td>Happy</td>
+										<td>Yes</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Warm</td>
+										<td>Bad</td>
+										<td>No</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Warm</td>
+										<td>Ambivalent</td>
+										<td>No</td>
+										<td>Yes</td>
+									</tr>
+									<tr>
+										<td>Hot</td>
+										<td>Happy</td>
+										<td>No</td>
+										<td>No</td>
+									</tr>
+									<tr>
+										<td>Cold</td>
+										<td>Happy</td>
+										<td>No</td>
+										<td>Yes</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<ol class="list-group">
+							<li class="list-group-item">
+								Create a decision tree from the above table.
+
+								<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q15-p1">Reveal</button>
+
+			        			<div id="decision-trees-q15-p1" class="collapse">
+			        				<img src="../img/exercises/decision_trees/q15.png" class="img-responsive">
+			        			</div>
+			        		</li>
+			        		<li class="list-group-item">
+			        			Is the following Snap! snippet of code an accurate representation of the decision tree above?
+
+			        			<img src="../img/exercises/decision_trees/q15-snap.png" class="img-responsive">
+
+			        			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q15-p2">Reveal</button>
+
+			        			<div id="decision-trees-q15-p2" class="collapse">
+			        				<p>No. We only ask if it is windy if the temperature is hot.</p>
+
+			        				<img src="../img/exercises/decision_trees/q15-snap-answer.png" class="img-responsive">
+			        			</div>
+			        		</li>
+			        	</ol>
+					</li>
+					<li class="list-group-item">
+						Draw the decision tree that the following snippet of Snap! code represents.
+
+						<img src="../img/exercises/decision_trees/q16.png" class="img-responsive">
+
+						<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#decision-trees-q16">Reveal</button>
+
+	        			<div id="decision-trees-q16" class="collapse">
+	        				<img src="../img/exercises/decision_trees/q16-answer.png" class="img-responsive">
+	        			</div>
+					</li>
+	            </ol>
+	        </div>
+	    </div>
+
+            <!-- jQuery -->
+	    <script src="../js/jquery.js"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="../js/bootstrap.min.js"></script>
+
+	    <!-- Custom Theme JavaScript -->
+	    <script src="../js/clean-blog.min.js"></script>
+
+	    <script>
+	        $(function(){
+	            $("#header").load("header.html");
+	        });
+    	</script>
+	</body>
+</html>

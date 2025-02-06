@@ -1,0 +1,18 @@
+M140 S[first_layer_bed_temperature];   Heat bed up to first layer temperature
+M104 S[first_layer_temperature_0] T0;   Set nozzle temperature of Right extruder to first layer temperature
+M104 S[first_layer_temperature_0] T1;   Set nozzle temperature of Left extruder to first layer temperature
+M107;   Fan off
+G90;   Absolute Programming
+G28;   Move to Home position 
+M132 X Y Z A B;   Load current home position from EEPROM
+G1 Z50 F600;   Move bed down to allow safe movement of nozzles lo left front
+G1 X-110.5 Y-74 F6000;   Move nozzles to left front
+M7;   Wait For Platform to reach target temperature
+M6 T0;   Wait For Right nozzle to reach target temperature
+M6 T1;   Wait For Left nozzle to reach target temperature
+; M106 enable cooling fan
+M907 X100 Y100 Z40 A100 B100;   Set digital potentiometer value. A and B typically 100 for tough filament like ABS and 80 for brittle like PLA. A is Right B is Left.
+G1 Z0.6 F3300; Go to start height
+G4 P2000;   Dwell time
+G1 Z[first_layer_height] F7200.000;   Move to first layer height
+M108 T[current_extruder];   Tool change to current extruder   

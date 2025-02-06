@@ -1,0 +1,413 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+
+	    <title>Algorithms Questions</title>
+	    <!-- Bootstrap Core CSS -->
+	    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom CSS -->
+	    <link href="../css/clean-blog.min.css" rel="stylesheet">
+
+	    <link rel="icon" type="../image/png" href="../img/favicon.png">
+
+	    <!-- Custom Fonts -->
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<!--#include virtual="../../menu.html" -->
+		<div id = "container">
+			 <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-1">
+			 	<h2>General Algorithm Questions</h2>
+				<ol class="list-group">
+	                <!-- <li class="list-group-item">
+	                    Which of the following is <b>NOT</b> considered to be an example of a biased algorithm? 
+	                    
+	                    <ol type="a">
+	                    	<li>An AI company decides to train a robot to rate puppies based on their cuteness using data sampled from real people. Due to budget and time constraints, the data is sampled only from male students in the faculty of science attending UBC.</li>
+	                    	<li>Bioinformaticians at XYZ Super Genome Company are doing research to design an algorithm that can mathematically compute the shape of a protein based on the DNA sequence input.</li>
+	                    	<li>A popular online marketplace that sells products from their own brand and also other brands uses a &#34;customer-centric&#34; algorithm that decides which products get placed on their main page. The algorithm doesn&#39;t take into account the shipping cost for the products of their own brand. </li>
+	                    	<li>A social media site decides to design an algorithm that uses users profile information to serve ads that would be relevant to each user. Users with more feminine sounding names were found to receive ads about home cooking more often than users with masculine sounding names.</li>
+	                    </ol>
+
+	                    <br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q1">Answer</button>
+
+	                    <div id="algorithms-q1" class="collapse">
+	                    	B
+	                    </div>
+	                </li>
+					<li class="list-group-item">
+	                 	<p>Stephanie has a pie that she needs to finish by today. Since she can&#39;t finish eating it by herself, she decides to split the pie up into thirds and give the other two parts to some friends. Her friends also cannot finish the pie they were given, so each of them splits the pie up into smaller pieces and gives it to their friends.</p>
+
+	                 	<p>What type of solution did Stephanie and her friends use to eat the whole pie?</p>
+
+	                 	<br />
+
+	                 	<ol type="a">
+	                 		<li>Divide and Conquer</li>
+	                 		<li>Greedy</li>
+	                 		<li>Randomized</li>
+	                 		<li>Brute Force</li>
+	                 	</ol>
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q2">Answer</button>
+
+	                    <div id="algorithms-q2" class="collapse">
+	                    	<p>Divide and conquer.</p>
+
+	                    	<p>Divide and conquer problems involve taking your problem, in its entirety, and splitting it into smaller, similar problems. By repeatedly doing this, you eventually come to a point where your problem is small enough to solve. You solve each of the small problems and put those answers together to solve your big problem.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>Lucy runs a business that breaks bills (i.e., people give her money and she gives them the equivalent amount in smaller denominations). For example, someone may give her &#36;60 and she might give them two &#36;20s and two &#36;10s. Her business has the following bills available for creating change: &#36;1, &#36;5, &#36;10, &#36;20, &#36;25, &#36;50, and &#36;100. To avoid having to always go to the bank to get more bills, Lucy wants to give each customer the least amount of bills possible.</p>
+
+	                 	<p>The algorithm Lucy uses to calculate what change to give is the following:</p>
+	                 	<ol>
+	                 		<li>Count the total amount of money she have to make change for (e.g., &#36;30).</li>
+	                 		<li>Find the largest denomination (i.e., the value of the bill) she can give without exceeding the total amount of money and give one bill of that denomination.</li>
+	                 		<li>Subtract the value of the bill given in Step 2 from the total amount of money she has to make change for.</li>
+	                 		<li>Repeat steps 1-3 until the total amount of money she has to make change for is &#36;0.</li>  
+	                 	</ol>
+
+	                 	<p>What type of algorithm is Lucy using to calculate the denominations she needs to return?</p>
+
+	                 	<br />
+
+	                 	<ol type="a">
+	                 		<li>Divide and Conquer</li>
+	                 		<li>Greedy</li>
+	                 		<li>Randomized</li>
+	                 		<li>Brute Force</li>
+	                 	</ol>
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q3">Answer</button>
+
+	                    <div id="algorithms-q3" class="collapse">
+	                    	<p>Greedy</p>
+
+	                    	<p>Greedy algorithms are when you choose the best solution for your current situation regardless of whether or not that leads to the most optimal solution. Sometimes the solution that a greedy algorithm comes up with is the same as the optimal solution, and sometimes it is not. For example, if Lucy wanted to make change for &#36;30, returning one &#36;25 bill and one &#36;5 bill would be the best solution and it would also be the solution that our greedy algorithm leads us to. Now, consider the case where someone gave Lucy &#36;40. The greedy algorithm would tell Lucy to give one &#36;25 bill, one &#36;10 bill, and one &#36;5 bill. However, the best solution in this case would be to break the &#36;40 into two &#36;20 bills.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>Morty is trying to solve a jigsaw puzzle. He decides to randomly pick one piece to start and then pick up every other piece in the box to try and connect it to the piece he is holding.</p>
+
+	                 	<p>What type of algorithm is Morty using to put together his jigsaw puzzle?</p>
+
+	                 	<br />
+
+	                 	<ol type="a">
+	                 		<li>Divide and Conquer</li>
+	                 		<li>Greedy</li>
+	                 		<li>Randomized</li>
+	                 		<li>Brute Force</li>
+	                 	</ol>
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q4">Answer</button>
+
+	                    <div id="algorithms-q4" class="collapse">
+	                    	<p>Brute Force</p>
+
+	                    	<p>When you brute force a solution, it basically means you try every possible solution until you find an answer.</p>
+	                    </div>
+	                </li>
+
+	                <li class="list-group-item">
+	                	True or false: an algorithm that does not terminate is not an algorithm.
+
+	                	<br />
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q4">Answer</button>
+
+	                    <div id="algorithms-q4" class="collapse">
+	                    	False. An algorithm is just a set of instructions that solve a particular problem. Whether or not the instructions terminate has nothing to do with the definition of algorithm. 
+	                    </div>
+	                </li>
+
+	                <li class="list-group-item">
+	                	True or false: when evaluating the cost of an algorithm, you should only consider the time cost.
+
+	                	<br />
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q5">Answer</button>
+
+	                    <div id="algorithms-q5" class="collapse">
+	                    	False. How long an algorithm takes to execute is definitely an important consideration but depending on the circumstances, you may also have to consider issues like the amount of memory the algorithm needs.
+	                    </div>
+	                </li>
+
+	                <li class="list-group-item">
+	                	True or false: divide and conquer algorithms are generally preferred over brute force algorithms.
+
+	                	<br />
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q6">Answer</button>
+
+	                    <div id="algorithms-q6" class="collapse">
+	                    	<p>True.</p>
+
+	                    	<p>A brute force algorithm should be a last resort to solving a problem. While there is a time and place to use brute force algorithms, we generally try to avoid it because it almost always takes longer to find a solution than other types of algorithm. Taking the time to create an algorithm that could discard some potential solutions solutions to check will save you time in the long run.</p>
+	                    </div>
+	                </li> -->
+
+	                <li class="list-group-item">
+	                	<p>I want to find the smallest number in a group of ten numbers (let&#39;s say the set of numbers is 10, 9, 8, 7, 6, 5, 4, 3, 2, 1). To accomplish this task, I wrote two algorithms. Which algorithm has a lower cost?</p>
+
+	                	<p><b>Algorithm A:</b></p>
+	                	<ol>
+	                		<li>Start by pointing a marker at the first number in the list. The marker will tell you which number you are currently looking at.</li>
+	                		<li>Compare the number marker A is pointing at to every number to its right.</li>
+	                		<li>If there is no number that is smaller than the one marker A is pointing at or there are no more numbers to the right marker A, we&#39;ve found the smallest number in the list! Go to step 5.</li>
+	                		<li>If there is a number that is smaller than the number marker A is pointing at, move the marker to one number to the right and repeat steps 2 to 4.</li>
+	                		<li>Stop. Marker A should be pointing to the smallest number in the list.</li>
+	                	</ol>
+
+	                	<p><b>Algorithm B:</b></p>
+	                	<ol>
+	                		<li>Start by taking two markers (let&#39;s say marker A and marker B) and pointing it at the first number in the list. We will use marker A to tell us which number we are looking at and marker B to tell us which is the smallest number we've seen so far.</li>
+	                		<li>Move marker A one number to the right.</li>
+	                		<li>Compare the number that marker A is pointing at to the number that marker B is pointing at.</li>
+	                		<li> If marker A&#39;s number is smaller than marker B&#39;s number, move marker B to point at the number marker A is pointing at.</li>
+	                		<li>Continue steps 2 and 3 until there are no more numbers for marker A to point at. Marker B should be pointing at the smallest number in the list</li>
+	                	</ol>
+
+	                	<br />
+
+	                	<ol type="a">
+	                		<li>Algorithm A</li>
+	                		<li>Algorithm B</li>
+	                		<li>Algorithm A and B are both the same</li>
+	                		<li>Algorithm A and B are not comparable</li>
+	                	</ol>
+
+	                	<br />
+
+	                	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#algorithms-q7">Answer</button>
+
+	                    <div id="algorithms-q7" class="collapse">
+	                    	<p>Algorithm B</p>
+
+	                    	<p>When considering which algorithm has a lower cost, we consider how long it takes an algorithm to find an answer. When we talk about &#34;how long&#34;, we are not actually referring to the time a computer takes to solve the problem&ndash; we are referring to how many steps an algorithm takes to find an answer in the worst case scenario.</p>
+
+	                    	<p>With Algorithm A, we need to scan the list of numbers repeatedly until we find the answer. Given our example list (10, 9, 8, 7, 6, 5, 4, 3, 2, 1), we need to scan the list of numbers ten times. With Algorithm B, we only need to scan the list of numbers once to find the answer.</p> 
+
+	                    	<p>In our example, our list only has ten numbers so taking longer to solve the problem isn&#39;t much of an issue. However, imagine we had a list of numbers that was a hundred thousand or a million numbers long. In that situation, the difference in the number of steps between Algorithm A and B would be huge. Algorithm A would start to take longer and longer to find an answer.</p>
+	                    </div>
+	                </li>
+	            </ol>
+
+	            <h2>Sorting</h2>
+	            <ol class="list-group">
+	                <li class="list-group-item">
+	                 	<p>What type of algorithmic sorting does not require a divider to keep position?</p>
+
+	                 	<ol type="a">
+	                 		<li>Markerless Sort</li>
+	                 		<li>Simple Sort</li>
+	                 		<li>Insertion Sort</li>
+	                 		<li>Selection Sort</li>
+	                 	</ol>
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q1">Answer</button>
+
+	                    <div id="sorting-q1" class="collapse">
+	                    	<p>B. Selection sort and insertion sort need dividers to track their position in order to tell the algorithm which section needs sorting. Markerless sort is not a type of sorting algorithm. Simple sort just needs an extra field to sort things into and filler variables.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>Everything listed below is involved in card swapping algorithms. Which of the following does not require extra storage space?</p>
+
+	                 	<ol type="a">
+	                 		<li>Swapping two cards</li>
+	                 		<li>The location of the marker</li>
+	                 		<li>The max value used in simple sort</li>
+	                 		<li>Comparing the value of two cards</li>
+	                 	</ol>
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q2">Answer</button>
+
+	                    <div id="sorting-q2" class="collapse">
+	                    	<p>D is the correct answer, as comparing the value of two cards doesn't require any storage space</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>When judging which of two algorithms to determine which is &#34;better&#34;, which of the following should one take into account?</p>
+
+	                 	<ol type="a">
+	                 		<li>How long the algorithm takes</li>
+	                 		<li>How much memory the algorithm takes</li>
+	                 		<li>A and B</li>
+	                 		<li>None of the above</li>
+	                 	</ol>
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q3">Answer</button>
+
+	                    <div id="sorting-q3" class="collapse">
+	                    	<p>C. In general, we consider both time taken and how much memory an algorithm takes. However, a lot of the time, this is dependent on your situation. For example, if you have limited hardware and RAM, you would want to prioritize memory usage over time taken whereas if you have limited time, you would want to prioritize time. Sometimes, you may want to priotize a certain method of solving a problem and disregard any memory or time penalities it may obtain.</p>
+	                    </div>
+	                </li>
+	                <!-- <li class="list-group-item">
+	                 	<p>If you have a list of numbers and you want to use binary search to see if a number is in that list, the list of numbers must be sorted. True or false?</p>
+
+	                 	<ol type="a">
+	                 		<li>True</li>
+	                 		<li>False</li>
+	                 	</ol>
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q4">Answer</button>
+
+	                    <div id="sorting-q4" class="collapse">
+	                    	<p>True. Binary search essentially &#34;throws away&#34; half the list each time it runs. If the list was not sorted, you cannot guarantee anything about the numbers you are &#34;throwing away&#34; each time-- you might be throwing away the number you are looking for!</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>If you have a list of numbers and you want to use linear search to see if a number exists in that list, the list of numbers must be sorted. True or false?</p>
+
+	                 	<ol type="a">
+	                 		<li>True</li>
+	                 		<li>False</li>
+	                 	</ol>
+
+	                 	<br />
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q5">Answer</button>
+
+	                    <div id="sorting-q5" class="collapse">
+	                    	<p>False. Linear search will have to look at each and every number in the list until it finds the number or reaches the end of the list so it does not matter whether the numbers are sorted.</p>
+	                    </div>
+	                </li> -->
+	                <li class="list-group-item">
+	                 	<p>Give unsorted set of numbers {7,4,6,3,9}, sort from smallest to biggest in selection sort. Show all your steps.</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q6">Answer</button>
+
+	                    <div id="sorting-q6" class="collapse">
+	                    	<img src="../img/exercises/algorithms/selection_sort_q7.png" class="img-responsive" />
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>Give unsorted set of numbers {9,3,7,3,1}, sort from smallest to biggest in selection sort. Show all your steps.</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q7">Answer</button>
+
+	                    <div id="sorting-q7" class="collapse">
+	                    	<img src="../img/exercises/algorithms/selection_sort_q8.png" class="img-responsive" />
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>Give unsorted set of numbers {7,4,6,3,9}, sort from smallest to biggest in insertion sort. Show all your steps.</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q8">Answer</button>
+
+	                    <div id="sorting-q8" class="collapse">
+	                    	<img src="../img/exercises/algorithms/insertion_sort_q9.png" class="img-responsive" />
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>Give unsorted set of numbers {9,3,7,3,1}, sort from smallest to biggest in insertion sort. Show all your steps.</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q9">Answer</button>
+
+	                    <div id="sorting-q9" class="collapse">
+	                    	<img src="../img/exercises/algorithms/insertion_sort_q10.png" class="img-responsive" />
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>Give unsorted set of numbers {7,4,6,3,9}, sort from smallest to biggest in simple sort. Show all your steps.</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q10">Answer</button>
+
+	                    <div id="sorting-q10" class="collapse">
+	                    	<img src="../img/exercises/algorithms/simple_sort_q11.png" class="img-responsive" />
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>Give unsorted set of numbers {9,3,7,3,1}, sort from smallest to biggest in simple sort. Show all your steps.</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q11">Answer</button>
+
+	                    <div id="sorting-q11" class="collapse">
+	                    	<img src="../img/exercises/algorithms/simple_sort_q12.png" class="img-responsive" />
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>How many memory slots are needed for the above selection sorts?</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q12">Answer</button>
+
+	                    <div id="sorting-q12" class="collapse">
+	                    	<p>Each of the selection sort questions use five memory slots to hold the cards you will need an extra memory slot to do the number swapping.</p>
+
+	                    	<p>However, you should consider that things like the divider, the marker that tells you which is the smallest card (out of the ones you have currently encountered), and the marker that tells you which number you are currently looking at all need to be stored in memory along with your cards.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>How many memory slots are needed for the above insertion sorts?</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q13">Answer</button>
+
+	                    <div id="sorting-q13" class="collapse">
+	                    	<p>We can do insertion sort for five numbers with five slots plus an extra slot for number swapping. You should also consider that things like the divider also need to be stored in memory.</p>
+	                    </div>
+	                </li>
+	                <li class="list-group-item">
+	                 	<p>How many memory slots are needed for the above simple sorts?</p>
+
+	                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sorting-q14">Answer</button>
+
+	                    <div id="sorting-q14" class="collapse">
+	                    	<p>10 slots (each for holding the cards).</p>
+
+	                    	<p>Something you might want to consider (although not part of the official answer) is the marker that tells us which card (out of the ones we have encountered) is the smallest also takes up memory.</p>
+
+	                    	<p>As both simple sort questions above sort 5 numbers, each question uses 10 slots.</p>
+	                    </div>
+	                </li>
+		        </ol>
+		    </div>
+		</div>
+
+            <!-- jQuery -->
+	    <script src="../js/jquery.js"></script>
+
+	    <!-- Bootstrap Core JavaScript -->
+	    <script src="../js/bootstrap.min.js"></script>
+
+	    <!-- Custom Theme JavaScript -->
+	    <script src="../js/clean-blog.min.js"></script>
+
+	    <script>
+	        $(function(){
+	            $("#header").load("header.html");
+	        });
+    	</script>
+	</body>
+</html>

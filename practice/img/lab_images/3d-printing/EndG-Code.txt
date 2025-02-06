@@ -1,0 +1,10 @@
+;End Gcode
+M107;   Disable cooling fan
+M104 S0 T0;  Set Nozzle temperature of Right nozzle to zero
+M104 S0 T1;  Set Nozzle temperature of Left nozzle to zero
+M140 S0;   Turn bed heating off
+G162 Z;    Home positive for Z axis
+G28 X0 Y0;   Return X and Y to home position
+M132 X Y Z A B
+G91;   Set to relative positioning
+M18;   Disable stepper motors for all axes
