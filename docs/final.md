@@ -28,7 +28,7 @@ The exam will include the following types of questions:
 - MCQ/TF questions 
 - Short answer questions 
 - Long answer questions 
-  
+
 ## Details
 
 - The exam is closed book, with the exception of one letter-sized, double-sided cheatsheet (can be handwritten or typed/with screenshots)
@@ -141,7 +141,7 @@ The following is a list of learning goals covered this term:
   - Understand the difference between infographic vs. visualization
 - Recognize, define and apply high-level principles of infographic design
 - Identify strengths and weaknesses in infographic designs based on high-level principles.
-  
+
 ### Week 11
 - Understand, define, name Gestalt Principles and explain their role in visualization 
   - Demonstrate how these principles appear in real life—such as recognizing how proximity is used in store displays or how logos use closure to create memorable designs.
