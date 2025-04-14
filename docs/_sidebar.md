@@ -1,6 +1,6 @@
 - [Syllabus](syllabus)
 - [Project](project)
-- [Midterm Details](midterm) 
+- [Final Details](final) 
 - [Teaching Team](teaching-team)
 - [Practice Problems](practice/index.html)
 <!-- - [AI Policy](ai-policy) -->
