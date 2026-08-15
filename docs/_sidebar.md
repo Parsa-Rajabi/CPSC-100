@@ -1,19 +1,13 @@
-- [Syllabus](syllabus)
-- [Project](project)
-- [Final Details](final) 
-- [Teaching Team](teaching-team)
-- [Practice Problems](practice/index.html)
-<!-- - [AI Policy](ai-policy) -->
-<!-- - [Course Schedule](schedule) --> 
-<!-- - [Lecture Notes](lecture-notes) -->
-<!-- - [Assignments & Labs](assignment-lab-details) -->
-<!-- - [Project](project) -->
-<!-- - [Resources](resources) -->
-<!-- - [Feedback](feedback) -->
-<!-- - **LMS Links**
-- [![Calendar Icon](https://icongr.am/fontawesome/calendar.svg?size=16&color=808080)Calendar](https://canvas.sfu.ca/courses/44038/calendar)
-- [![Assignments Icon](https://icongr.am/fontawesome/pencil.svg?size=16&color=808080)Assignments](https://canvas.sfu.ca/courses/44038/assignments )
-- [![Quizzes Icon](https://icongr.am/fontawesome/check-circle.svg?size=16&color=808080)Quizzes](https://canvas.sfu.ca/courses/44038/quizzes)
-- [![Class Discussions Icon](https://icongr.am/fontawesome/comments-o.svg?size=16&color=808080)Class Discussions](https://canvas.sfu.ca/courses/44038/discussion_topics)
-- [![Grades Icon](https://icongr.am/fontawesome/calculator.svg?size=16&color=808080)Grades](https://canvas.sfu.ca/courses/44038/gradebook)
-- [![Syllabus Icon](https://icongr.am/fontawesome/list.svg?size=16&color=808080)Syllabus](https://canvas.sfu.ca/courses/44038/assignments/syllabus) -->
+- [Syllabus](syllabus.md)
+- [Project](project.md)
+
+- **Exams &amp; Practice**
+  - [Midterm](midterm.md)
+  - [Final](final.md)
+  - [Practice Problems](practice/index.html)
+
+- **Support**
+  - [Teaching Team](teaching-team.md)
+  - [Email Etiquette](email-etiquette.md)
+  - [Code of Conduct](code-of-conduct.md)
+  - [Feedback](feedback.md)

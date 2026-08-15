@@ -180,6 +180,10 @@ Students are expected to maintain a high level of professionalism in all course 
 
 > Repeated unprofessional behavior will result in grade deduction from your final grade, with **each violation resulting in a 1% deduction**. Students will be notified of possible deductions after the first official warning.
 
+### Code of Conduct
+
+CPSC 100 has a [Code of Conduct](code-of-conduct.md) covering respectful conduct, teamwork and accountability, and academic integrity. By remaining enrolled in this course, you agree to uphold it. Please read it in full.
+
 
 ---
 ## UBC and Course Policies

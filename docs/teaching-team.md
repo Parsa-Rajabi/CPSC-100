@@ -15,10 +15,20 @@
 |   L2D (12-1p)   |  **Abigail** Demian  | ademia01  [at] `DELETEthisTEXT` student.ubc.ca |     ad-hoc      |  [Booking Link](https://calendly.com/ademian/abby-midterm-office-hours)   |
 |   L2E (5-6p)    |   **Sam** Bakteria   | bakteria  [at] `DELETEthisTEXT` student.ubc.ca |  Fridays; 2-3   |        [Booking Link](https://calendly.com/bakteria-student/10min)        |
 
-## Professionalism 
+## Before You Email Us
 
-Students are expected to maintain a high level of professionalism in all course activities and communication with the instructor and peers. This includes proper email etiquette, respectful communication in class, and adherence to deadlines. Before sending an email, please ensure that you have included a subject line including the course code (CPSC 100), a greeting, a clear message, **your full name/student ID#** and a closing. Using AI/ChatGPT to generate emails/slack messages is **not recommended** and **such emails will be returned for revision.**
+Office hours and the discussion board are the fastest way to get help. Reserve email for personal or confidential matters.
 
-Before sending an email, make sure to review this article on [email etiquette](email-etiquette.md) and/or [How To Email Your Professor](https://personal.math.ubc.ca/~ilaba/teaching/email.html) for tips on how to effectively communicate with your instructor. **Emails that do not follow these guidelines will be returned to the sender for revision.**
+When you do email, include:
 
-> Repeated unprofessional behavior will result in grade deduction from your final grade, with **each violation resulting in a 1% deduction**. Students will be notified of possible deductions after the first official warning.
+- A subject line with the course code, e.g. `[CPSC 100] Question about Milestone 2`
+- A greeting and a clear, specific message
+- **Your full name and student number**
+- A closing
+
+Using AI/ChatGPT to generate emails or discussion board posts is **not recommended**, and such messages will be returned for revision.
+
+> [!WARNING]
+> Before sending an email, review our [email etiquette guide](email-etiquette.md) and/or [How To Email Your Professor](https://personal.math.ubc.ca/~ilaba/teaching/email.html). **Emails that do not follow these guidelines will be returned to the sender for revision.**
+
+For the full expectations, including the deduction that applies to repeated unprofessional behavior, see [Professionalism](syllabus.md#professionalism) in the syllabus and the [Code of Conduct](code-of-conduct.md).
