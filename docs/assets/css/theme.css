@@ -71,6 +71,19 @@
   text-decoration: none !important;
 }
 
+.markdown-section .button-admin {
+  background-color: #6b4fb5;
+}
+
+.markdown-section .button-staff {
+  background-color: #1f7a6b;
+}
+
+.markdown-section a.button-admin,
+.markdown-section a.button-staff {
+  color: #ffffff;
+}
+
 .markdown-section .navpill {
   cursor: pointer;
   color: var(--base-color);
