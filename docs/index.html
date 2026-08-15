@@ -158,14 +158,17 @@
       return exists;
     }
 
+    var hideChrome = getURLParameterByName(['standalone', 'embedded']) || standalone;
+    var showNavbar = !(hideChrome && !(getURLParameterByName('navbar') || navbar));
+
     // Docsify
     window.$docsify = {
       // GENERAL SETTINGS
       // -----------------------------------------------------------------
       name: 'CPSC 100',
       homepage: 'syllabus.md',
-      loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
-      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar ||false),
+      loadSidebar: hideChrome ? false : '_sidebar.md',
+      loadNavbar: showNavbar ? '_navbar.md' : false,
       externalLinkTarget: (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       loadFooter: (getURLParameterByName('footer') || footer || false),
 
@@ -175,7 +178,7 @@
       maxLevel: 3,
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 3,
-      hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
+      hideSidebar: hideChrome,
 
       // PLUGIN SETTINGS
       // -----------------------------------------------------------------
@@ -194,6 +197,13 @@
 
       flexibleAlerts: {
         style: 'flat'
+      },
+
+      search: {
+        placeholder: 'Search the course site',
+        noData: 'No results found.',
+        depth: 3,
+        hideOtherSidebarContent: false,
       },
 
       // CUSTOM PLUGINS
@@ -373,6 +383,9 @@
       document.body.appendChild(editCSS);
     }
   </script>
+
+  <!-- Full-text Search Plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 
   <!-- docsify-plugin-flexible-alerts -->
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
