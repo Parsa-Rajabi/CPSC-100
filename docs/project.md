@@ -3,7 +3,6 @@
 The project provides a well-structured format for students to engage deeply with the material.
 
 ## Table of Contents
-- [Project Overview](#project-overview)
 - [Exploring the Impact of Computing on Relationships](#exploring-the-impact-of-computing-on-relationships)
 - [Group Size](#group-size)
 - [Assessment + Deadlines](#assessment)
@@ -12,6 +11,7 @@ The project provides a well-structured format for students to engage deeply with
 - [M1: Proposal](#m1-proposal)
 - [M2: Data Inquiry](#m2-data-inquiry)
 - [M3: Infographic](#m3-infographic)
+- [Peer Evaluation](#peer-evaluation)
 - [Resources](#resources)
 
 
@@ -71,7 +71,7 @@ You will be assessed based on the deliverables as well as your TA mentors' and t
 | :--------------------------: | :----: | :------: |
 | Milestone 0 - Group Contract |   -    | Jan. 24  |
 |    Milestone 1 - Proposal    |   5%   | Feb. 12  |
-| Milestsone 2 - Data Inquiry  |  10%   | Mar. 12  |
+| Milestone 2 - Data Inquiry   |  10%   | Mar. 12  |
 |  Milestone 3 - Infographic   |  10%   |  Apr. 7  |
 |       Peer Evaluation        |   -    |  Apr. 8  |
 
@@ -223,7 +223,7 @@ The infographic submission must include the following:
 
 --- 
 
-## M3: Peer Evaluation
+## Peer Evaluation
 
 Each student will evaluate their teammates’ contributions to ensure fair participation grading. These evaluations will determine an individual’s participation grade, which factors into the overall project grade. Evaluations must be completed thoughtfully and on time, as missing or poor-quality submissions may result in penalties. The teaching team may adjust grades based on observed engagement. Further submission instructions will follow.
 
