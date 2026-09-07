@@ -10,9 +10,9 @@ Because this course includes substantial team-based project work, project peer e
      once docs/project.md is finalized. The CPSC 344 model uses one ungraded practice
      round on an early milestone, then graded rounds on the two heaviest milestones. -->
 
-- **A practice round on an early milestone** — *milestone to be confirmed*
-- **A graded round on a mid-term milestone** — *milestone to be confirmed*
-- **A graded round on the final milestone** — *milestone to be confirmed*
+- **A practice round on an early milestone**: *milestone to be confirmed*
+- **A graded round on a mid-term milestone**: *milestone to be confirmed*
+- **A graded round on the final milestone**: *milestone to be confirmed*
 
 The practice round will be used to make sure the peer evaluation tools are working as expected and that everyone understands the process before peer evaluations are applied for marks. The graded rounds will be used for marks and will apply a peer evaluation multiplier to each student's milestone grade.
 

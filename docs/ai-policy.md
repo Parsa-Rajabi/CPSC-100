@@ -40,4 +40,4 @@ Until the course policy is published, the university's expectations still apply.
 
 ## Questions
 
-If you have questions about AI use before the policy is published, ask on the course discussion board or bring them to the in-class activity — the activity is the right place for them, and questions raised there will shape the policy.
+If you have questions about AI use before the policy is published, ask on the course discussion board or bring them to the in-class activity. That is the right place for them, and questions raised there will shape the policy.

@@ -21,7 +21,6 @@
        - the week with no labs (first week of classes)
        - Midterm Break
        - statutory holidays (Truth and Reconciliation Day, Thanksgiving, Remembrance Day)
-       - the midterm exam date
        - the last day of classes -->
 
 | **Week** | **Dates** | **Lecture Topics** | **Lab** | **Deliverable** (due 11:59pm PT unless noted) |
@@ -33,7 +32,7 @@
 |    5     |  *TBC*    | *TBC*              | Lab 4   | |
 |    6     |  *TBC*    | *TBC*              | Lab 5   | |
 |    7     |  *TBC*    | *TBC*              | Lab 6   | |
-|    -     |  *TBC*    | **Midterm Break — no classes** | No labs | |
+|    -     |  *TBC*    | **Midterm Break: no classes** | No labs | |
 |    8     |  *TBC*    | *TBC*              | Lab 7   | |
 |    9     |  *TBC*    | *TBC*              | Lab 8   | |
 |    10    |  *TBC*    | *TBC*              | Lab 9   | |
@@ -52,7 +51,6 @@ These are repeated from the [syllabus](syllabus.md#important-dates) for convenie
 | AI policy in-class activity | *to be confirmed* |
 | AI policy published | *before the add/drop deadline* |
 | Last day to drop without a W | *to be confirmed* |
-| [Midterm](midterm.md) | *to be confirmed* |
 | Midterm Break | *to be confirmed* |
 | Last day of classes | *to be confirmed* |
 | [Final exam period](final.md) | *to be confirmed* |
@@ -62,4 +60,4 @@ These are repeated from the [syllabus](syllabus.md#important-dates) for convenie
 - **Before each lecture**, check the topic so you know what the class will cover.
 - **Before each lab**, check whether there is pre-work listed. Labs are hands-on and assume you arrive ready.
 - **Deliverables** are listed in the week they are due, not the week they are assigned. Give yourself more than the final week to work on anything project-related.
-- Deadlines here are a convenience copy. If this page and an assignment page ever disagree, the assignment page wins — and please tell the teaching team so it can be fixed.
+- Deadlines here are a convenience copy. If this page and an assignment page ever disagree, the assignment page wins, and please tell the teaching team so it can be fixed.
