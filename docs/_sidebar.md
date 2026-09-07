@@ -1,9 +1,14 @@
 - [Syllabus](syllabus.md)
-- [Project](project.md)
+- [Schedule](schedule.md)
+- [AI Policy](ai-policy.md)
+
+- **Course Project**
+  - [Project Overview](project.md)
+  - [Group Work Resources](group-work-resources.md)
+  - [Peer Evaluation](project-peer-evaluation.md)
 
 - **Exams &amp; Practice**
-  - [Midterm](midterm.md)
-  - [Final](final.md)
+  - [Final Exam](final.md)
   - [Practice Problems](practice/index.html)
 
 - **Support**
