@@ -1,19 +1,32 @@
 # Teaching Team
 
+> [!NOTE]
+> The TA roster for Fall 2026 is not finalized. This page will be updated with names,
+> emails, and office hours once lab assignments are confirmed.
+
 ## Instructor
-|               **Name**               |       **Email** :fas fa-envelope fa-fw:       | **Office Hours**     :fas fa-house-medical: |                                 **Location**                                 |
-| :----------------------------------: | :-------------------------------------------: | :-----------------------------------------: | :--------------------------------------------------------------------------: |
-|    **Parsa** Rajabi      |    prajabi [at] `DELETEthisTEXT` cs.ubc.ca    |            Wednesdays 1:30-2:30             |                                   ICCS 249                                   |
+
+| **Name** | **Email** :fas fa-envelope fa-fw: | **Office Hours** :fas fa-house-medical: | **Location** |
+| :------: | :-------------------------------: | :-------------------------------------: | :----------: |
+| **Parsa** Rajabi | prajabi [at] `DELETEthisTEXT` cs.ubc.ca | *to be confirmed* | *to be confirmed* |
+
+<!-- TODO: instructor decision required - office hour day, time, and room. This also
+     appears in docs/syllabus.md under Course Instructor. Update both. -->
 
 ## Teaching Assistants
 
-| **Lab Section** |       **Name**       |       **Email** :fas fa-envelope fa-fw:        |  **Schedule**   |                           **Book Office Hours**                           |
-| :-------------: | :------------------: | :--------------------------------------------: | :-------------: | :-----------------------------------------------------------------------: |
-|   L2A (9-10a)   | **Olamide** Olabiyi  | oolabiyi [at] `DELETEthisTEXT` student.ubc.ca  |     ad-hoc      |   [Booking Link](https://calendly.com/olamideolabiyi/ola-office-hours)    |
-|  L2B (10-11a)   | **Parsa** Seyfourian | parsasey [at] `DELETEthisTEXT` student.ubc.ca  | Saturdays; 12-3 | [Booking Link](https://calendly.com/pseyfourian-bccrc/parsa-office-hours) |
-|  L2C (11-12p)   |     **Kelly** Xi     | kellyxi  [at] `DELETEthisTEXT` student.ubc.ca  |  Mondays; 4-5   |           [Booking Link](https://calendly.com/kellyyyxi/30min)            |
-|   L2D (12-1p)   |  **Abigail** Demian  | ademia01  [at] `DELETEthisTEXT` student.ubc.ca |     ad-hoc      |  [Booking Link](https://calendly.com/ademian/abby-midterm-office-hours)   |
-|   L2E (5-6p)    |   **Sam** Bakteria   | bakteria  [at] `DELETEthisTEXT` student.ubc.ca |  Fridays; 2-3   |        [Booking Link](https://calendly.com/bakteria-student/10min)        |
+<!-- TODO: instructor decision required - TA names, emails, office hour schedules, and
+     booking links, once lab assignments are confirmed. Lab times are set. -->
+
+| **Lab Section** | **Time** | **Name** | **Email** :fas fa-envelope fa-fw: | **Office Hours** |
+| :-------------: | :------- | :------- | :-------------------------------- | :--------------- |
+| A | Wednesday 10:00-11:00 | *to be confirmed* | | |
+| B | Wednesday 11:00-12:00 | *to be confirmed* | | |
+| C | Wednesday 12:00-13:00 | *to be confirmed* | | |
+| D | Wednesday 16:00-17:00 | *to be confirmed* | | |
+| E | Thursday 14:00-15:00  | *to be confirmed* | | |
+
+TAs are also available during your scheduled lab time. Note that during lab, TAs prioritize helping students with that week's lab work.
 
 ## Before You Email Us
 
@@ -21,7 +34,7 @@ Office hours and the discussion board are the fastest way to get help. Reserve e
 
 When you do email, include:
 
-- A subject line with the course code, e.g. `[CPSC 100] Question about Milestone 2`
+- A subject line with the course code, e.g. `[CPSC 100] Question about the group contract`
 - A greeting and a clear, specific message
 - **Your full name and student number**
 - A closing
