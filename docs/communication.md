@@ -87,11 +87,6 @@ flowchart TD
 | Something specific to you, but not sensitive: your group, your lab section, a submission question | **Ed Discussion, private post** (visible only to course staff) **and/or** email `cpsc100-staff@cs.ubc.ca` |
 | Something sensitive or confidential: academic concessions, accessibility arrangements, personal or medical circumstances, academic integrity, conduct concerns | **Email `cpsc100-admin@cs.ubc.ca`** |
 
-<!-- TODO: instructor decision required - confirm the staff vs admin split above. The
-     sensitive-category examples are inferred from the syllabus and the CPSC 344
-     precedent, where the -admin alias handled Centre for Accessibility exam
-     arrangements. Misrouting a concession request has real consequences, so this list
-     should be reviewed before the term starts. -->
 
 </details>
 

@@ -72,7 +72,7 @@ Lab work is submitted separately, through PrairieLearn and occasionally Canvas. 
 Each part is submitted separately, in its own week. Neither project has a single end-of-project submission.
 
 > [!TIP]
-> Every project deadline is a Thursday at 11:59pm Pacific. 2 exceptions: the group formation survey is Friday Sep 18, and the viva voce is a booked appointment on Dec 2.
+> Project **parts** are due Thursday at 11:59pm Pacific. Three things sit outside that: the group formation survey is Friday Sep 18, weekly stand-ups are Friday at 4:00pm, and the viva voce is a booked appointment on Dec 2 or 3.
 
 | Week | Due date | What is due |
 | :--: | :------- | :---------- |
@@ -88,11 +88,8 @@ Each part is submitted separately, in its own week. Neither project has a single
 | 13 | Wed Dec 2 | [Project 2C](project-2.md), your viva voce appointment |
 | 13 | Thu Dec 3 | Project 2 retrospective + iPeer 2 |
 
-Weekly stand-ups run every week from Week 2 to Week 13.
+Weekly stand-ups run every week from Week 2 to Week 13, due **Friday at 4:00pm**, right after the Friday lecture.
 
-<!-- TODO: instructor decision required - confirm the weekly stand-up deadline. Thursday
-     11:59pm matches everything else, but a stand-up landing the same night as a project
-     part in Weeks 4 to 9 may be worth staggering (e.g. Monday) so the two do not collide. -->
 
 Notes on the schedule:
 
@@ -136,7 +133,7 @@ Your contract sets out roles, expectations, how you communicate, and how you res
 
 ### Weekly stand-ups
 
-- Posted by each student on **Ed Discussion**, every week from Week 2 to Week 13.
+- Posted by each student on **Ed Discussion**, every week from Week 2 to Week 13, by **Friday 4:00pm**.
 - 3 or 4 sentences: what you did, what is next, what is blocking you.
 - Graded as part of your project mark.
 - Posting on Ed means your group and your TA can see them, so use it to flag blockers early.

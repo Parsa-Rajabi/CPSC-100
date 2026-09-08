@@ -14,13 +14,13 @@
 
 ### Set up iClicker before your second lecture
 
-1. Install iClicker and join the CPSC 100 course.
-2. Use the first lecture, Sep 9, to check it works. That session is not graded.
+1. **Install the iClicker app** on your phone. This course is **app-only**; physical remotes are not supported.
+2. **Join CPSC 100** using this link: [join.iclicker.com/MGAK](https://join.iclicker.com/MGAK)
+3. Use the first lecture, **Sep 9**, to check it works. That session is not graded.
 
-<!-- TODO: instructor decision required - iClicker setup details students need in Week 1:
-       - the join link or course code for CPSC 100
-       - whether students need a paid iClicker subscription, and if so the cost
-       - whether a physical remote is supported or it is app-only -->
+<!-- TODO: instructor decision required - whether students need a paid iClicker
+     subscription, and if so the cost. This is a student cost disclosure, so it should
+     appear here before the first graded session on Sep 11. -->
 
 ### How many lectures can I miss?
 
