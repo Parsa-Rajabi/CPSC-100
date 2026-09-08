@@ -19,25 +19,26 @@
        - whether a best-N-of-total policy applies (this is the natural home for
          built-in flexibility on this component)
 
-     Note: Sept 30 (Truth and Reconciliation) and Nov 11 (inside Midterm Break, Nov 9-11)
-     are both Wednesdays, so L1A-L1D each lose two sessions while L1E on Thursday loses
-     none. Sections will not have equal session counts unless that is handled. -->
+     The lab-section asymmetry from Wednesday closures is tracked in
+     docs/participation.md, where the participation math is decided. -->
 
 ## Lab Sections
 
 All sections meet in **ICCS X050**.
 
-| Section | Day | Time | Lead TA | Support TA |
-| :-----: | :-- | :--- | :------ | :--------- |
-| L1A | Wednesday | 10:00 - 11:00 | **Parsa** Seyfourian | **Jessica** He |
-| L1B | Wednesday | 11:00 - 12:00 | **Kate** Manskaia | **Parsa** Seyfourian |
-| L1C | Wednesday | 12:00 - 13:00 | **Tarvin** Arora | **Kate** Manskaia |
-| L1D | Wednesday | 4:00 - 5:00 | **Sally** Han | **Tarvin** Arora |
-| L1E | Thursday | 2:00 - 3:00 | **Jessica** He | **Sally** Han |
+| Section | Day | Time |
+| :-----: | :-- | :--- |
+| L1A | Wednesday | 10:00 - 11:00 |
+| L1B | Wednesday | 11:00 - 12:00 |
+| L1C | Wednesday | 12:00 - 13:00 |
+| L1D | Wednesday | 4:00 - 5:00 |
+| L1E | Thursday | 2:00 - 3:00 |
+
+Which TA leads and supports each section is on the [Teaching Team](teaching-team.md) page.
 
 Labs **begin the second week of classes** (September 16 and 17), not the first, and run through **December 2** (Wednesday sections) and **December 3** (Thursday section).
 
-Attend the section you are registered in. For questions about your own lab, contact its **lead TA** first.
+Attend the section you are registered in.
 
 ## What Labs Are For
 

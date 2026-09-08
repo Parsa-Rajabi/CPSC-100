@@ -15,7 +15,7 @@
 
 ## Weekly Schedule
 
-Lectures are Monday/Wednesday/Friday 14:00-15:00 in SWNG 222. Labs are in ICCS X050.
+Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and the [Labs](labs.md) page.
 
 <!-- TODO: instructor decision required - fill in lecture topics, lab activities, and
      deliverables. Week dates are derived from the registrar's course dates
@@ -24,14 +24,11 @@ Lectures are Monday/Wednesday/Friday 14:00-15:00 in SWNG 222. Labs are in ICCS X
      Still to confirm against the UBC academic calendar:
        - Midterm Break placement. It most likely falls in the week of Nov 9-13, which
          contains Remembrance Day, but this is NOT confirmed.
-       - Whether UBC closes for Sept 30 (Truth and Reconciliation), Oct 12
-         (Thanksgiving), and Nov 11 (Remembrance Day). All three are marked below.
-       - Whether week 1 labs run at all (see the note in the syllabus).
+       - Whether UBC closes for Sept 30 (Truth and Reconciliation) and Oct 12
+         (Thanksgiving). Both are marked below.
 
-     Note that Sept 30 and Nov 11 are both Wednesdays, so they hit four of the five lab
-     sections (L1A-L1D) while L1E on Thursday is unaffected. That asymmetry matters for
-     the participation session count and for keeping lab content aligned across
-     sections. -->
+     The lab-section asymmetry caused by Wednesday closures is tracked in
+     docs/participation.md, where the participation math is decided. -->
 
 | **Week** | **Dates** | **Lecture Topics** | **Lab** | **Deliverable** (due 11:59pm PT unless noted) |
 | :------: | :-------- | :----------------- | :------ | :-------------------------------------------- |
@@ -49,22 +46,11 @@ Lectures are Monday/Wednesday/Friday 14:00-15:00 in SWNG 222. Labs are in ICCS X
 | 12 | Nov 23 - 27 | *TBC* | Lab 10 | |
 | 13 | Nov 30 - Dec 4 | *TBC* | Lab 11 — last labs Dec 2 / Dec 3 | |
 | - | Dec 7 | **Last lecture** | | |
-| - | Dec 11 - 22 | **Final Exam Period** | | [Final Exam](final.md) |
+| - | see [important dates](syllabus.md#important-dates) | **Final Exam Period** | | [Final Exam](final.md) |
 
-## Key Dates at a Glance
+## Key Dates
 
-These are repeated from the [syllabus](syllabus.md#important-dates) for convenience. The syllabus is the authoritative version.
-
-| Event | Date |
-| :---- | :--- |
-| First day of classes | Wednesday, September 9, 2026 |
-| AI policy in-class activity | *to be confirmed* |
-| AI policy published | *before the add/drop deadline* |
-| Last day to drop without a W | Monday, September 21, 2026 |
-| Midterm Break | November 9 - 11, 2026 |
-| Last lab | December 2 (Wed) / December 3 (Thu) |
-| Last lecture | Monday, December 7, 2026 |
-| [Final exam period](final.md) | December 11 - 22, 2026 |
+Term dates, the drop deadline, Midterm Break, and the final exam period are on the [syllabus](syllabus.md#important-dates). The AI policy activity date will be added to the weekly table above once scheduled.
 
 ## How to Use This Page
 

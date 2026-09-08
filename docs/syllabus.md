@@ -4,19 +4,17 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
 
 **Fall 2026, Term 1 - CPSC 100 (Section 101) || Computational Thinking (3)**
 
-> [!NOTE]
-> This syllabus is being finalized for the Fall 2026 (2026W1) offering. Anything marked
-> *to be confirmed* will be settled before the first day of classes, and the course
-> evaluation will be final by the end of the first week.
-
 ## Course Instructor
 
-- Parsa Rajabi
+- Parsa Rajabi (he/him)
   - Email: refer to [Course Communication](communication.md) for details.
+  - Office: ICCS 255 
 - Office Hours:
   - Mondays 2:50-3:50pm SWING 110
   - Wednesdays 2:50-3:50pm SWING 110
   - Fridays 2:50-3:20pm SWING 110
+
+Not sure where ICCS 255 or SWING 110 is? Check the [UBC Map](https://maps.ubc.ca/?code=SWNG).
 
 > [!TIP]
 > **Read [Course Communication](communication.md) first.** It has the Ed Discussion sign-up link, a flowchart showing where each kind of question should go, and every email address for the teaching team.
@@ -38,24 +36,9 @@ We acknowledge that the land on which we gather is the traditional, ancestral an
 
 ## Labs
 
-CPSC 100 has the following lab sections. These sessions are designed to be hands-on and interactive, and **labs are built to support your project work**. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are only conducted in-person at their designated times.
+Labs are hands-on and interactive, and **built to support your project work**. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are in-person only.
 
-All lab sections meet in **ICCS X050** (Institute for Computing, Information and Cognitive Systems / Computer Science Building, Basement floor) — [UBC Map](https://maps.ubc.ca/?code=ICCS).
-
-| Section | Day       | Time          |
-| :-----: | :-------- | :------------ |
-|   L1A   | Wednesday | 10:00 - 11:00 |
-|   L1B   | Wednesday | 11:00 - 12:00 |
-|   L1C   | Wednesday | 12:00 - 13:00 |
-|   L1D   | Wednesday | 4:00 - 5:00   |
-|   L1E   | Thursday  | 2:00 - 3:00   |
-
-Labs run through **December 2** (Wednesday sections) and **December 3** (Thursday section).
-
-There will be no labs the first week of classes (e.g., September 9-11, 2026). Labs begin the second week of classes (e.g., September 16-17, 2026).
-
-
-More information about the instructor and TAs is available on the [Teaching Team](teaching-team.md) page.
+**Section times, room, and which TA leads each section are on the [Labs](labs.md) page.**
 
 ## Important Dates
 
@@ -129,35 +112,13 @@ Note: the course evaluation is subject to change until the end of the first week
 
 **Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.**
 
-### Course Participation
-
-Participation covers **both lecture and lab**, tracked using iClicker, and a set number of your lowest scores are dropped automatically so ordinary absences are absorbed without paperwork.
-
-Full details, including the buffer size and how to report an error: **[Course Participation](participation.md)**.
-
-### Labs
-
-Labs are where you practice what class introduced and turn it into project progress. Lab work feeds directly into your [project](project.md) milestones, and is graded on completion.
-
-Full details, including section times, lead and support TAs, and what to do if you miss one: **[Labs](labs.md)**.
-
-### Quizzes
-
-There are **eight quizzes** this term, delivered through CBTF/ORCA. They replace the midterm, and focus on reasoning, interpretation, and tracing rather than memorization.
-
-Full details, including format, preparation advice, and accessibility arrangements: **[Quizzes](quizzes.md)**.
-
 ### Exams
 
-If you miss an exam, please contact the instructor as soon as possible. You must contact [UBC Science](https://science.ubc.ca/students/advising) within 48 hours of your missed final exam to apply for a deferred exam. Further information about deferred exams can be found in [UBC Science's Exam FAQ](https://science.ubc.ca/students/advising/exams).
-
-There is no midterm this term. The eight quizzes take its place as the recurring individual checkpoints, and the [Final Exam](final.md) is the cumulative synthesis assessment. See the [Final Exam](final.md) page for logistics, format, and topic coverage.
+There is no midterm this term. The [Final Exam](final.md) page has logistics, format, topic coverage, and what to do if you cannot attend.
 
 ### Project
 
-The project is a group assignment that will be completed throughout the term. The project will be graded based on the quality of the final deliverable, the group's ability to work together, and the individual contributions of each group member. Full details are on the [Project](project.md) page.
-
-Individual grades on selected group milestones are adjusted using a peer evaluation multiplier. See [Project Peer Evaluation](project-peer-evaluation.md) for the formula, the late and quality policies, and the evaluation criteria.
+The project is a term-long group assignment. Full details are on the [Project](project.md) page, and the peer evaluation mechanism is on the [Project Peer Evaluation](project-peer-evaluation.md) page.
 
 ### Passing Criteria
 
@@ -246,21 +207,11 @@ We will read articles, view instructional videos, and read chapters from the fol
 
 ## Course Communication Conventions
 
-Full details, including the Ed Discussion sign-up link, a routing flowchart, and every teaching team email address, are on the [Course Communication](communication.md) page. In short:
-
-| Your situation | Where it goes |
-| :------------- | :------------ |
-| Anything relevant to the class: concepts, logistics, deadlines | **Ed Discussion, public post.** Checked daily by course staff, and the whole class benefits from the answer |
-| Something specific to you, but not sensitive | **Ed Discussion, private post** and/or the course staff address |
-| Something sensitive or confidential | The course admin address |
-
-Both addresses are listed on the [Course Communication](communication.md) page, which is the single place email addresses are published.
-
-Include "[CPSC 100]" in the subject line of any email for a faster response; emails without it may be missed. Always include your full name and student number, and use your UBC email address so your message is not marked as spam.
+All of it lives on one page: **[Course Communication](communication.md)**. That page has the Ed Discussion sign-up link, a flowchart showing where each kind of question belongs, every teaching team email address, and what to include in an email.
 
 ### Professionalism
 
-Students are expected to maintain a high level of professionalism in all course activities and communication with the instructor and peers. This includes proper email etiquette, respectful communication in class, and adherence to deadlines. Before sending an email, please ensure that you have included a subject line including the course code (CPSC 100), a greeting, a clear message, **your full name/student ID#** and a closing. Using AI/ChatGPT to generate emails is **not recommended** and **such emails will be returned for revision.**
+Students are expected to maintain a high level of professionalism in all course activities and communication with the instructor and peers. This includes proper email etiquette, respectful communication in class, and adherence to deadlines. See [Course Communication](communication.md) for what to include in an email.
 
 > [!WARNING]
 > Before sending an email, make sure to review this article on [email etiquette](email-etiquette.md) and/or [How To Email Your Professor](https://personal.math.ubc.ca/~ilaba/teaching/email.html) for tips on how to effectively communicate with your instructor. **Emails that do not follow these guidelines will be returned to the sender for revision.**

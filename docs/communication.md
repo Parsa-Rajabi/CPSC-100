@@ -78,25 +78,23 @@ flowchart TD
 
 ### Instructor
 
-| Name | Email | Office Hours | Location |
-| :--- | :---- | :----------- | :------- |
+| Name             | Email                                   | Office Hours                                        | Location  |
+| :--------------- | :-------------------------------------- | :-------------------------------------------------- | :-------- |
 | **Parsa** Rajabi | prajabi [at] `DELETEthisTEXT` cs.ubc.ca | Mon 2:50-3:50pm · Wed 2:50-3:50pm · Fri 2:50-3:20pm | SWING 110 |
 
 ### Teaching Assistants
 
-Each lab has a **lead TA** who runs the session and a **support TA** who assists. Every TA leads one lab and supports another.
+Please avoid emailing TAs unless absolutely necessary; use Ed Discussion first. If you do email, include your full name and student number, and use your UBC email address.
 
-| Name | Email | Leads | Supports |
-| :--- | :---- | :---: | :------: |
-| **Parsa** Seyfourian | parsa.seyfourian [at] `DELETEthisTEXT` ubc.ca | L1A | L1B |
-| **Kate** Manskaia | emanskai [at] `DELETEthisTEXT` student.ubc.ca | L1B | L1C |
-| **Tarvin** Arora | tarora13 [at] `DELETEthisTEXT` student.ubc.ca | L1C | L1D |
-| **Jessica** He | xhe42 [at] `DELETEthisTEXT` student.ubc.ca | L1E | L1A |
-| **Sally** Han | shan31 [at] `DELETEthisTEXT` student.ubc.ca | L1D | L1E |
+| Name | Email |
+| :--- | :---- |
+| **Parsa** Seyfourian | parsa.seyfourian [at] `DELETEthisTEXT` ubc.ca |
+| **Kate** Manskaia | emanskai [at] `DELETEthisTEXT` student.ubc.ca |
+| **Tarvin** Arora | tarora13 [at] `DELETEthisTEXT` student.ubc.ca |
+| **Jessica** He | xhe42 [at] `DELETEthisTEXT` student.ubc.ca |
+| **Sally** Han | shan31 [at] `DELETEthisTEXT` student.ubc.ca |
 
-For questions about your own lab, contact the **lead TA** for that section first.
-
-Full profiles, lab times, and TA office hours are on the [Teaching Team](teaching-team.md) page.
+Which lab each TA leads and supports, and their office hours, are on the [Teaching Team](teaching-team.md) page. For questions about your own lab, contact its lead TA first.
 
 > [!NOTE]
 > There are two people named Parsa in this course: your instructor (Parsa Rajabi) and one of your TAs (Parsa Seyfourian). Please use full names in messages so we can route them correctly.
