@@ -5,8 +5,10 @@
 
 ## Overview
 
-- 11 labs, Lab 0 through Lab 10.
+- 10 labs, Lab 1 to Lab 10, plus Lab 0.
+- Lab 0 is homework rather than a session. It is the pre-lab for Lab 1.
 - Labs 1 to 9 are graded, 1 mark each. Your best 8 count.
+- Lab 10 is the viva voce, graded as part of [Project 2](project-2.md).
 - In person only, in your registered section.
 - Marked individually, but much of the work is with your project group.
 - Labs build the pieces your [project](project.md) needs.
