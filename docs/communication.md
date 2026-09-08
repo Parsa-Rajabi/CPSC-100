@@ -7,6 +7,10 @@ Everything about how to reach the teaching team lives on this page. When in doub
 >
 > Sign up with your **UBC email address** so you are matched to the course roster.
 
+**Get Ed on your phone.** Ed has no App Store or Play Store app. You add it to your home screen straight from your phone's browser, which also lets you turn on push notifications so replies and announcements reach you without checking manually. Ed's guide has the steps for iOS and Android: [Push notifications](https://edstem.org/us/help/push-notifications).
+
+That guide opens inside Ed and requires you to be logged in, so **join the course first** using the link above.
+
 ## Where Should This Go?
 
 ```mermaid
