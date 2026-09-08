@@ -13,14 +13,44 @@ Everything about how to reach the teaching team lives on this page. When in doub
 
 ```mermaid
 flowchart TD
-    Q["Something to ask or raise"] --> P{"Is it a personal matter?"}
-    P -- No --> PUB["Ed Discussion: public post<br/>All course inquiries go here"]
-    P -- Yes --> S{"Is it sensitive or confidential?"}
-    S -- No --> STAFF["Ed Discussion: private post<br/>and / or email<br/>cpsc100-staff@cs.ubc.ca"]
-    S -- Yes --> ADMIN["Email the course admin<br/>cpsc100-admin@cs.ubc.ca"]
+    accTitle: CPSC 100 communication routing
+    accDescr {
+      A decision chart with three outcomes. Start with anything you need to ask or raise.
+      If it is not personal to you, post publicly on Ed Discussion, which is where all
+      course inquiries go. If it is personal but not sensitive, use a private Ed
+      Discussion post and/or email the course staff address. If it is sensitive or
+      confidential, email the course admin address instead.
+    }
+
+    Q["fa:fa-circle-question Something to ask or raise"] --> P{"Is it personal<br/>to you?"}
+
+    P -- No --> PUB["fa:fa-comments <b>Ed Discussion, public post</b><br/>All course inquiries go here"]
+    P -- Yes --> S{"Is it sensitive or<br/>confidential?"}
+
+    S -- No --> STAFF["fa:fa-user-lock <b>Ed Discussion, private post</b><br/>and / or email<br/>cpsc100-staff@cs.ubc.ca"]
+    S -- Yes --> ADMIN["fa:fa-shield-halved <b>Email the course admin</b><br/>cpsc100-admin@cs.ubc.ca"]
+
+    classDef startNode fill:#002145,stroke:#002145,color:#FFFFFF
+    classDef decision  fill:#E8EAEC,stroke:#5E6A71,color:#20272B
+    classDef public    fill:#D6E6F7,stroke:#0055B7,color:#00305F
+    classDef personal  fill:#FCEBC7,stroke:#A97400,color:#553900
+    classDef sensitive fill:#F6D8DC,stroke:#B0202C,color:#67121C
+
+    class Q startNode
+    class P,S decision
+    class PUB public
+    class STAFF personal
+    class ADMIN sensitive
 ```
 
-## The Same Thing in Words
+<span style="color:#0055B7">&#9632;</span> **Blue** is the default: public, and where almost everything belongs. &nbsp;
+<span style="color:#A97400">&#9632;</span> **Amber** is personal to you. &nbsp;
+<span style="color:#B0202C">&#9632;</span> **Red** is confidential.
+
+**Why public first?** Most questions are not unique. Posting publicly means you get an answer faster, and the next person with the same question finds it already answered.
+
+<details>
+<summary><strong>The same thing in words, with examples</strong></summary>
 
 | Your situation | Where it goes |
 | :------------- | :------------ |
@@ -34,7 +64,7 @@ flowchart TD
      arrangements. Misrouting a concession request has real consequences, so this list
      should be reviewed before the term starts. -->
 
-**Why public first?** Most questions are not unique. Posting publicly means you get an answer faster, and the next person with the same question finds it already answered.
+</details>
 
 ## Email Addresses
 
@@ -50,7 +80,7 @@ flowchart TD
 
 | Name | Email | Office Hours | Location |
 | :--- | :---- | :----------- | :------- |
-| **Parsa** Rajabi | prajabi [at] `DELETEthisTEXT` cs.ubc.ca | Mon 2:50-3:50pm · Wed 2:50-3:50pm · Fri 2:50-3:30pm | SWING 110 |
+| **Parsa** Rajabi | prajabi [at] `DELETEthisTEXT` cs.ubc.ca | Mon 2:50-3:50pm · Wed 2:50-3:50pm · Fri 2:50-3:20pm | SWING 110 |
 
 ### Teaching Assistants
 
