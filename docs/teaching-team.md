@@ -22,7 +22,7 @@ Looking for **where to send a question**? See [Course Communication](communicati
      then add an image cell to the table below. The CPSC 344 site used the same
      convention, e.g. docs/assets/teaching-team/jessica-picture.png -->
 
-<!-- TODO: instructor decision required - map each TA to a lab section (A-E) and add their
+<!-- TODO: instructor decision required - map each TA to a lab section (L1A-L1E) and add their
      office hours. This roster is mirrored in docs/communication.md; update both. -->
 
 | **Lab Section** | **Name** | **Pronouns** | **Email** :fas fa-envelope fa-fw: | **Office Hours** |
@@ -38,13 +38,15 @@ Looking for **where to send a question**? See [Course Communication](communicati
 
 ## Lab Sections
 
-| Section | Time | Location |
-| :-----: | :--- | :------- |
-| A | Wednesday 10:00-11:00 | *to be confirmed* |
-| B | Wednesday 11:00-12:00 | *to be confirmed* |
-| C | Wednesday 12:00-13:00 | *to be confirmed* |
-| D | Wednesday 16:00-17:00 | *to be confirmed* |
-| E | Thursday 14:00-15:00  | *to be confirmed* |
+All sections meet in **ICCS X050** ([UBC Map](https://maps.ubc.ca/?code=ICCS)).
+
+| Section | Day | Time |
+| :-----: | :-- | :--- |
+| L1A | Wednesday | 10:00 - 11:00 |
+| L1B | Wednesday | 11:00 - 12:00 |
+| L1C | Wednesday | 12:00 - 13:00 |
+| L1D | Wednesday | 16:00 - 17:00 |
+| L1E | Thursday  | 14:00 - 15:00 |
 
 TAs are also available during your scheduled lab time. Note that during lab, TAs prioritize helping students with that week's lab work.
 

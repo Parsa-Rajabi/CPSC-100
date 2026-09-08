@@ -128,7 +128,7 @@ Everything about how to reach the teaching team lives on this page. When in doub
 | *TBC* | **Jessica** He | xhe42 [at] `DELETEthisTEXT` student.ubc.ca |
 | *TBC* | **Sally** Han | shan31 [at] `DELETEthisTEXT` student.ubc.ca |
 
-<!-- TODO: instructor decision required - map each TA to their lab section (A-E). This
+<!-- TODO: instructor decision required - map each TA to their lab section (L1A-L1E). This
      table mirrors docs/teaching-team.md; update both. -->
 
 Full profiles and office hours are on the [Teaching Team](teaching-team.md) page.
