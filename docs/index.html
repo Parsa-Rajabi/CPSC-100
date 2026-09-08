@@ -206,6 +206,29 @@
         hideOtherSidebarContent: false,
       },
 
+      // Turn ```mermaid fenced blocks into <div class="mermaid"> so Mermaid can render
+      // them. Rendering itself happens in the doneEach hook below.
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            if (lang === 'mermaid') {
+              // Store the definition in a data-src attribute here, at markdown-render
+              // time, so it is captured before Mermaid can rewrite the element. Reading
+              // it back off the DOM later is unsafe: Mermaid replaces the contents with
+              // SVG and injects its own <style>, so a second read picks up that CSS
+              // instead of the diagram source.
+              var attr = code
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+              return '<div class="mermaid" data-src="' + attr + '"></div>';
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      },
+
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
@@ -319,6 +342,8 @@
 
           // Invoked on each page load after new HTML has been appended to the DOM
           hook.doneEach(function () {
+            renderMermaid();
+
             var hasEmbedly = document.getElementsByClassName('embedly-card');
             if (hasEmbedly.length > 0) {
                 // elements with class "embedly-card" exist
@@ -370,6 +395,93 @@
 
         }
       ]
+    }
+  </script>
+
+  <!-- Mermaid diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <script>
+    // Mermaid re-themed to the UBC palette, matching assets/css/custom.css.
+    // Mermaid replaces the source text with SVG when it renders, so the original
+    // definition is stashed in data-src and restored before every re-render. That is
+    // what makes light/dark switching work without a page reload.
+    function mermaidThemeVariables(dark) {
+      return dark
+        ? {
+            background:        '#1B1F24',
+            primaryColor:      '#1F2A33',
+            primaryBorderColor:'#6FB1E7',
+            primaryTextColor:  '#E8EDF2',
+            secondaryColor:    '#262D34',
+            tertiaryColor:     '#262D34',
+            lineColor:         '#B2B4B4',
+            textColor:         '#E8EDF2',
+            nodeBorder:        '#6FB1E7',
+          }
+        : {
+            background:        '#FFFFFF',
+            primaryColor:      '#E6EEF7',
+            primaryBorderColor:'#0055B7',
+            primaryTextColor:  '#002145',
+            secondaryColor:    '#F2F6FA',
+            tertiaryColor:     '#F2F6FA',
+            lineColor:         '#5E6A71',
+            textColor:         '#002145',
+            nodeBorder:        '#0055B7',
+          };
+    }
+
+    var mermaidRendering = false;
+
+    function renderMermaid() {
+      if (typeof mermaid === 'undefined') return;
+      // Guard against overlapping runs. mermaid.run() is async, and both the docsify
+      // doneEach hook and the colour-scheme listener can fire close together; letting
+      // two runs touch the same node corrupts it.
+      if (mermaidRendering) return;
+
+      // Only ever render nodes that still carry their original definition.
+      var nodes = Array.prototype.slice
+        .call(document.querySelectorAll('.mermaid'))
+        .filter(function (el) { return el.dataset.src; });
+      if (!nodes.length) return;
+
+      var dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+      nodes.forEach(function (el) {
+        // Clear Mermaid's "already rendered" marker and restore the pristine
+        // definition from the attribute captured at markdown-render time.
+        el.removeAttribute('data-processed');
+        el.textContent = el.dataset.src;
+      });
+
+      mermaidRendering = true;
+
+      mermaid.initialize({
+        startOnLoad: false,
+        // 'loose' is required for htmlLabels, which is what makes <br/> inside node
+        // labels produce real line breaks. Safe here: every diagram is authored in this
+        // repository, never supplied by a reader.
+        securityLevel: 'loose',
+        theme: 'base',
+        themeVariables: mermaidThemeVariables(dark),
+        flowchart: { htmlLabels: true, useMaxWidth: true, padding: 12 },
+      });
+
+      Promise.resolve(mermaid.run({ nodes: nodes }))
+        .catch(function (e) { console.error('Mermaid render failed:', e); })
+        .then(function () { mermaidRendering = false; });
+    }
+
+    // Re-render on OS light/dark change so the diagram never desyncs from the page
+    if (window.matchMedia) {
+      var schemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      var onSchemeChange = function () { renderMermaid(); };
+      if (schemeQuery.addEventListener) {
+        schemeQuery.addEventListener('change', onSchemeChange);
+      } else if (schemeQuery.addListener) {
+        schemeQuery.addListener(onSchemeChange);
+      }
     }
   </script>
 
