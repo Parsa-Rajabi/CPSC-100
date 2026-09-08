@@ -126,20 +126,18 @@ All lab content runs on PrairieLearn. Login links posted before Week 2.
 | 7 | Nov 4 / 5 | Convert a Snap! program to Python |
 | 8 | Nov 18 / 19 | Write Python with AI help, for [Project 2B](project-2.md#part-b-snap-to-python-translation) |
 | 9 | Nov 25 / 26 | Work session on [Project 2](project-2.md), plus your group retrospective |
-| 10 | Dec 2 | [Viva voce](project-2.md#part-c-viva-voce): a short oral exam on your code |
+| 10 | Dec 2 / 3 | [Viva voce](project-2.md#part-c-viva-voce): a short oral exam on your code |
 
 Notes on the schedule:
 
 - Labs start in Week 2, Sep 16 and 17. No lab session in Week 1.
 - No lab in Week 4 (Truth and Reconciliation Day) or Week 10 (Midterm Break). All sections lose the same weeks.
+- **Each lab runs as a Wednesday/Thursday pair.** If one half of a pair is cancelled, the other is cancelled too, so all five sections always sit the same number of labs. That is what keeps the 7-of-9 attendance requirement fair across sections.
 - Lab 10 works differently from the rest:
   - Attendance is mandatory.
   - No lab mark. It is graded as [Project 2C](project-2.md#part-c-viva-voce).
-  - Book a slot at [us.prairietest.com](https://us.prairietest.com) instead of attending your usual section.
+  - Book a slot at [us.prairietest.com](https://us.prairietest.com) instead of attending your usual section. The booking window covers **Dec 2 and Dec 3**, so you are not tied to your usual day.
   - Details posted in November.
-
-<!-- TODO: instructor decision required - whether the Dec 2 viva booking window extends
-     to Dec 3 for the Thursday section. -->
 
 ## Late Submission
 

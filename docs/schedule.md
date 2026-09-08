@@ -36,13 +36,7 @@ Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and 
 | **14** | Dec 7 | W14A: Course wrap-up. Last day of class. | | | |
 | - | see [important dates](syllabus.md#important-dates) | **Final Exam Period** | | | [Final Exam](final.md) |
 
-<!-- TODO: instructor decision required - remaining schedule gaps:
-       - Whether the Thursday section (L1E) runs on Thursday Oct 1 and Thursday Nov 12.
-         Both weeks are marked "no lab" above, which cancels L1E on days that are not
-         themselves holidays. That keeps all five sections on the same number of graded
-         labs, which the 7-of-9 attendance rule needs, so it is probably intended.
-       - Per-quiz session coverage, tracked on docs/quizzes.md.
-     Lab and viva scheduling questions are tracked on docs/labs.md. -->
+**Labs run as a Wednesday/Thursday pair.** When a pair is cancelled, both halves are cancelled, so L1E does not meet on Thursday Oct 1 or Thursday Nov 12 even though those days are not holidays. All five sections sit the same number of labs, which is what the 7-of-9 attendance requirement assumes.
 
 ## Key Dates
 

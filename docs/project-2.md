@@ -57,8 +57,7 @@ Notes on the schedule:
 - Lab 9 in Week 12 is your last working session before the viva.
 - The Dec 2 viva voce is mandatory and a [passing requirement](syllabus.md#passing-criteria).
 
-<!-- TODO: instructor decision required - whether the Dec 2 viva booking window
-     extends to Dec 3 for the Thursday section. -->
+The booking window covers **Dec 2 and Dec 3**. You are not tied to your usual lab day.
 
 ## Late Submission
 

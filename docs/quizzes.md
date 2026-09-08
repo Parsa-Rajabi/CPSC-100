@@ -145,16 +145,6 @@ Notes on the schedule:
 - The Dec 2 viva voce is not a quiz. Booked the same way, but graded as [Project 2C](project-2.md#part-c-viva-voce).
 - Which lectures each quiz covers is announced in class beforehand. That cutoff is also where the slides available inside ORCA stop.
 
-<!-- TODO: instructor decision required - publish the per-quiz session coverage. Students
-     will ask, because the coverage cutoff is also the slide cutoff set in ORCA. The
-     earlier redesign draft had this mapping, translated to session codes, and it lines
-     up with the current quiz weeks again:
-       Quiz 1: W1C, W2A, W2B, W2C      Quiz 5: W6C, W7A, W7B
-       Quiz 2: W3A, W3B, W3C           Quiz 6: W8A, W8B, W8C
-       Quiz 3: W4A, W4C                Quiz 7: W9A, W9B, W9C
-       Quiz 4: W5A, W5B, W5C           Quiz 8: W10C, W11A, W11B, W11C
-     Confirm before publishing. Note it leaves W6B (Algorithmic Bias) and W7C (Python 1,
-     intro to Jupyter) outside every quiz. -->
 
 ## How to Prepare
 

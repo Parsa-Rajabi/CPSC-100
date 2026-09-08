@@ -189,7 +189,7 @@ Fabrication means presenting something as true when it is not:
 A wrong page number or a broken link is an error, not fabrication.
 
 > [!WARNING]
-> Fabrication means **0 on the project** for the student responsible, and 0 on the affected part for the rest of the group.
+> Fabrication means **0 on the project** for the student responsible, and 0 on the affected part for the rest of the group. If it is not possible to establish who fabricated it, the **0 on the project applies to every member of the group**, since the work was submitted jointly.
 
 - Open every source before you submit and confirm it exists and says what you say it says.
 - [Lab 5](labs.md) includes a verification step for this.
@@ -197,10 +197,12 @@ A wrong page number or a broken link is an error, not fabrication.
 - An AI usage disclosure is required in both project submissions.
 - You remain responsible for the accuracy of what you submit, and you should be able to explain any work submitted under your name.
 
-<!-- TODO: instructor decision required - two things before the fabrication policy goes
-     live: (1) the default when it is impossible to attribute who fabricated, and
-     (2) confirmation that a penalty this size can be applied by the instructor directly
-     rather than through the academic integrity process. -->
+<!-- TODO: instructor decision required - confirm with the department or Faculty of
+     Science that a zero on a 30% course component can be applied directly by the
+     instructor, rather than requiring referral to the academic integrity process. This
+     is the one part of the fabrication rule still unverified; the wording currently
+     states it as a direct penalty.
+     Resolved: where attribution is impossible, the zero applies to the whole group. -->
 
 ## Related
 
