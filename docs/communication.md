@@ -7,9 +7,32 @@ Everything about how to reach the teaching team lives on this page. When in doub
 >
 > Sign up with your **UBC email address** so you are matched to the course roster.
 
-**Get Ed on your phone.** Ed has no App Store or Play Store app. You add it to your home screen straight from your phone's browser, which also lets you turn on push notifications so replies and announcements reach you without checking manually. Ed's guide has the steps for iOS and Android: [Push notifications](https://edstem.org/us/help/push-notifications).
+<details>
+<summary><strong>Get Ed on your phone (recommended)</strong></summary>
 
-That guide opens inside Ed and requires you to be logged in, so **join the course first** using the link above.
+Ed has no App Store or Play Store app. It is a Progressive Web App, so you add it to your home screen from your browser and it then behaves like an installed app. Doing this is also what makes push notifications possible, so replies and announcements reach you without checking manually.
+
+**On iPhone or iPad**
+
+1. Open [edstem.org](https://edstem.org/) in **Safari**.
+2. Tap **Share**, then **Add to Home Screen**.
+3. Tap **Add**.
+
+**On Android**
+
+1. Open [edstem.org](https://edstem.org/) in **Chrome**.
+2. Tap the **⋮** menu, then **Add to Home Screen**. Newer versions of Chrome label this **Install app**.
+
+**Then turn on notifications**
+
+Open Ed from the **home screen icon** rather than your browser, then enable Push Notifications in your [Ed notification settings](https://edstem.org/settings/notifications).
+
+> [!NOTE]
+> On iOS, push notifications require **iOS 18.4 or newer**, and you must add Ed to your home screen **before** you can enable them.
+
+Ed's own guide, with screenshots, is at [Push Notifications](https://edstem.org/us/help/push-notifications). It opens inside Ed, so log in first.
+
+</details>
 
 ## Where Should This Go?
 
