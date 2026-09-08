@@ -7,7 +7,8 @@
 
 - 2 projects, equally weighted.
 - Group work. Groups are 4 to 5 students, assigned by the instructor.
-- Groups form in Lab 1, Week 2. Your group formation survey is due Sep 18.
+- Groups are formed from the **group formation activity in Lab 1** and the **group formation survey**, due Sep 18.
+- **Groups do not span lab sections.** Everyone in your group attends the same section, so you share lab time and have the same lead TA.
 
 | | Project | Weeks | Ends with |
 | :-: | :------ | :---: | :-------- |
