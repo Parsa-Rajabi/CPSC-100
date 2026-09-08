@@ -19,10 +19,10 @@
 | Item | Details |
 | :--- | :------ |
 | Date | *to be confirmed* |
-| Exam period | *to be confirmed* |
+| Exam period | December 11-22, 2026 |
 | Time | *to be confirmed* |
 | Location | *to be confirmed* |
-| Weight | *to be confirmed* |
+| Weight | 20% of the final grade |
 | Format | In person, on paper |
 | Required ID | UBC student ID |
 | Handwritten cheat sheet | *to be confirmed* |

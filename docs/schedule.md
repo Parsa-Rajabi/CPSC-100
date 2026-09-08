@@ -44,12 +44,12 @@ Lectures are Monday/Wednesday/Friday 14:00-15:00 in SWNG 222. Labs are in ICCS X
 | 7 | Oct 19 - 23 | *TBC* | Lab 6 | |
 | 8 | Oct 26 - 30 | *TBC* | Lab 7 | |
 | 9 | Nov 2 - 6 | *TBC* | Lab 8 | |
-| 10 | Nov 9 - 13 | *TBC* — **Nov 11: no class**, Remembrance Day. Midterm Break likely falls this week | *TBC* | |
+| 10 | Nov 9 - 13 | **Midterm Break Nov 9 - 11: no classes** | No Wed labs Nov 11; L1E runs Nov 12 | |
 | 11 | Nov 16 - 20 | *TBC* | Lab 9 | |
 | 12 | Nov 23 - 27 | *TBC* | Lab 10 | |
 | 13 | Nov 30 - Dec 4 | *TBC* | Lab 11 — last labs Dec 2 / Dec 3 | |
 | - | Dec 7 | **Last lecture** | | |
-| - | *TBC* | **Final Exam Period** | | [Final Exam](final.md) |
+| - | Dec 11 - 22 | **Final Exam Period** | | [Final Exam](final.md) |
 
 ## Key Dates at a Glance
 
@@ -60,11 +60,11 @@ These are repeated from the [syllabus](syllabus.md#important-dates) for convenie
 | First day of classes | Wednesday, September 9, 2026 |
 | AI policy in-class activity | *to be confirmed* |
 | AI policy published | *before the add/drop deadline* |
-| Last day to drop without a W | *to be confirmed* |
-| Midterm Break | *to be confirmed* |
+| Last day to drop without a W | Monday, September 21, 2026 |
+| Midterm Break | November 9 - 11, 2026 |
 | Last lab | December 2 (Wed) / December 3 (Thu) |
 | Last lecture | Monday, December 7, 2026 |
-| [Final exam period](final.md) | *to be confirmed* |
+| [Final exam period](final.md) | December 11 - 22, 2026 |
 
 ## How to Use This Page
 
