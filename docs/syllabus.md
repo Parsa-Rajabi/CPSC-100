@@ -2,7 +2,7 @@
 
 Department of Computer Science, University of British Columbia (Vancouver, Point Grey Campus)
 
-**Winter 2026, Term 1 - CPSC 100 (Section 101) || Computational Thinking (3)**
+**Fall 2026, Term 1 - CPSC 100 (Section 101) || Computational Thinking (3)**
 
 > [!NOTE]
 > This syllabus is being finalized for the Fall 2026 (2026W1) offering. Anything marked
@@ -16,7 +16,7 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
 - Office Hours:
   - Mondays 2:50-3:50pm SWING 110
   - Wednesdays 2:50-3:50pm SWING 110
-  - Fridays 2:50-3:30pm SWING 110
+  - Fridays 2:50-3:20pm SWING 110
 
 > [!TIP]
 > **Read [Course Communication](communication.md) first.** It has the Ed Discussion sign-up link, a flowchart showing where each kind of question should go, and every email address for the teaching team.
@@ -27,10 +27,10 @@ For teaching team profiles, lab section assignments, and TA office hours, see th
 
 Delivery Method: In-person
 
-- **Monday, Wednesday, Friday 14:00-15:00**
+- **Monday, Wednesday, Friday 2:00-3:00pm**
 - **West Mall Swing Space Building (SWNG), Floor 2, Room 222** — [UBC Map](https://maps.ubc.ca/?code=SWNG)
 
-Lectures run **September 9 to December 7, 2026**. The first CPSC 100 lecture is **Wednesday, September 9, 2026 at 14:00**.
+Lectures run **September 9 to December 7, 2026**. The first CPSC 100 lecture is **Wednesday, September 9, 2026 at 2:00pm**.
 
 #### Land Acknowledgement
 
@@ -40,25 +40,20 @@ We acknowledge that the land on which we gather is the traditional, ancestral an
 
 CPSC 100 has the following lab sections. These sessions are designed to be hands-on and interactive, and **labs are built to support your project work**. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are only conducted in-person at their designated times.
 
-All lab sections meet in **ICCS X050** (Institute for Computing, Information and Cognitive Systems / Computer Science Building, Floor -1) — [UBC Map](https://maps.ubc.ca/?code=ICCS).
+All lab sections meet in **ICCS X050** (Institute for Computing, Information and Cognitive Systems / Computer Science Building, Basement floor) — [UBC Map](https://maps.ubc.ca/?code=ICCS).
 
 | Section | Day       | Time          |
 | :-----: | :-------- | :------------ |
 |   L1A   | Wednesday | 10:00 - 11:00 |
 |   L1B   | Wednesday | 11:00 - 12:00 |
 |   L1C   | Wednesday | 12:00 - 13:00 |
-|   L1D   | Wednesday | 16:00 - 17:00 |
-|   L1E   | Thursday  | 14:00 - 15:00 |
+|   L1D   | Wednesday | 4:00 - 5:00   |
+|   L1E   | Thursday  | 2:00 - 3:00   |
 
 Labs run through **December 2** (Wednesday sections) and **December 3** (Thursday section).
 
-There will be no labs the first week of classes.
+There will be no labs the first week of classes (e.g., September 9-11, 2026). Labs begin the second week of classes (e.g., September 16-17, 2026).
 
-<!-- TODO: instructor decision required - the registrar's lab date range starts Sept 9/10,
-     which is the first week of classes. That conflicts with "no labs the first week"
-     above. Note that L1A-L1C would meet 10:00-13:00 on Sept 9, before the first lecture
-     at 14:00 that same day. Confirm whether week 1 labs are cancelled, and if so make
-     sure students are told, since Workday will show a meeting. -->
 
 More information about the instructor and TAs is available on the [Teaching Team](teaching-team.md) page.
 
@@ -66,19 +61,14 @@ More information about the instructor and TAs is available on the [Teaching Team
 
 Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
 
-<!-- TODO: instructor decision required - confirm the remaining rows against the UBC
-     academic calendar for 2026W1: last day to drop without a W, Midterm Break dates,
-     statutory holiday closures, and the final exam period. The course meeting dates below
-     come from the registrar's section details. -->
-
-| Event                        | Date                                |
-| ---------------------------- | ----------------------------------- |
-| First day of classes         | Wednesday, September 9, 2026        |
-| Last day to drop without a W | *to be confirmed*                   |
-| Midterm Break                | *to be confirmed*                   |
-| Last lab                     | December 2 (Wed) / December 3 (Thu) |
-| Last lecture                 | Monday, December 7, 2026            |
-| Final exam period            | *to be confirmed*                   |
+|            Event             |           Date            |
+| :--------------------------: | :-----------------------: |
+|     First day of classes     |  Wednesday, Sept 9, 2026  |
+| Last day to drop without a W |   Monday, Sept 21, 2026   |
+|        Midterm Break         |     Nov 9 – 11, 2026      |
+|           Last lab           | Dec 2 (Wed) / Dec 3 (Thu) |
+|         Last lecture         |    Monday, Dec 7, 2026    |
+|      Final exam period       |      Dec 11-22, 2026      |
 
 A week-by-week view of lecture topics, labs, and deliverables is on the [Schedule](schedule.md) page.
 
@@ -124,103 +114,38 @@ Each of these is practiced in class and in lab, and assessed through the quizzes
 
 ## Course Evaluation
 
-> [!WARNING]
-> **Not final.** The Fall 2026 evaluation table below is still being set. The 2024W2
-> table is included underneath it for reference only and will be removed before the term
-> begins.
+Each component has its own page with the full details. Click through for format, grading, and what to do if you miss something.
 
-### Fall 2026 Evaluation
+| **Item**                                      | **Weight** |      **Schedule**      |
+| :-------------------------------------------- | :--------: | :--------------------: |
+| [Quizzes](quizzes.md)                         |    40%     | Wednesdays + Thursdays |
+| [Labs](labs.md)                               |     7%     | Wednesdays + Thursdays |
+| [Project](project.md)                         |    30%     |        On-going        |
+| [Course Participation](participation.md)      |     3%     |        In-class        |
+| [Final Exam](final.md)                        |    20%     |          TBD           |
+| **Total**                                     |  **100%**  |                        |
 
-<!-- TODO: instructor decision required - fill in weights and schedule, then delete the
-     2024W2 reference table below. Confirm the weights total 100%.
-
-     The Item column is pre-filled with the five required components for this offering:
-     eight CBTF/ORCA quizzes, labs that support the project, the project, in-class
-     activities/attendance, and the final exam.
-
-     There is no midterm this term; the eight quizzes replace it.
-
-     Note that "Clickers" is replaced by "Course Participation", which now covers both
-     lecture and lab attendance. See the Course Participation section below. -->
-
-| **Item** | **Weight** | **Schedule** |
-| :------- | :--------: | :----------- |
-| Quizzes (8 × CBTF/ORCA) |  | |
-| Labs |  | |
-| [Project](project.md) |  | |
-| Course Participation (in-class activities + attendance) |  | |
-| [Final Exam](final.md) |  | |
-| **Total** | **100%** | |
-
-### 2024W2 Evaluation (reference only, to be removed)
-
-|      **Item**      | **Weight** |     **Schedule**      |
-| :----------------: | :--------: | :-------------------: |
-|      Clickers      |     2%     |       In-class        |
-|        Labs        |    10%     |       Thursdays       |
-| Post-class Quizzes |    13%     |        Sundays        |
-|      Midterm       |    20%     |   Fri, Feb 14 at 3p   |
-|   Final Project    |    25%     | [Details](project.md) |
-|     Final Exam     |    30%     |          TBD          |
-
-Note: the course evaluation is subject to change until the end of the first week of classes. After this date, the evaluation will be considered final. Any changes will be communicated to the class during the first week of classes.
-
-<!-- TODO: instructor decision required - confirm the exact date after which the
-     evaluation is final, once the 2026W1 first day of classes is known. -->
+Note: the course evaluation is subject to change until the end of the first week of classes. After this date, the evaluation will be considered final. Any changes will be communicated using a changelog. 
 
 **Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.**
 
 ### Course Participation
 
-**Why this exists.** Lectures and labs in this course are built around things you do: in-class activities, clicker questions, discussion, and hands-on lab work that feeds your project. Those only work if you are in the room. Participation marks are for taking part in that work, not for occupying a seat.
+Participation covers **both lecture and lab**, tracked using iClicker, and a set number of your lowest scores are dropped automatically so ordinary absences are absorbed without paperwork.
 
-**The rule.** Participation covers **both lecture and lab**, and is tracked using iClicker. This is a change from previous offerings, which counted lectures only.
-
-**You do not need perfect attendance to succeed in this course.** A set number of your lowest participation scores are dropped automatically, which absorbs ordinary short-term absences. You do not need to email us about a normal missed session.
-
-<!-- TODO: instructor decision required - the participation math. Needed:
-       - total number of graded participation sessions (lectures + labs)
-       - size of the buffer (how many lowest scores are dropped)
-       - whether lecture and lab sessions are weighted equally or pooled separately
-       - whether the buffer is shared across lectures and labs or separate for each
-     2024W2 dropped the lowest 3 iClicker scores, lectures only. -->
-
-| Participation | Count |
-| :------------ | :---- |
-| Graded sessions this term | *to be confirmed* |
-| Lowest scores dropped | *to be confirmed* |
-
-**After the buffer is used.** Additional missed sessions score zero. The drops are there for the unexpected, so it is worth saving them rather than spending them early. Missing class also costs you the content, which no policy can give back.
-
-**If something serious happens.** If an ongoing or serious circumstance affects several parts of the course, do not try to solve it with the buffer. Follow the [academic concession](#academic-concessions) process and let the teaching team know.
-
-iClicker grades will be released after each session. You have **48 hours** from grade posting to tell us about any error in your participation record.
+Full details, including the buffer size and how to report an error: **[Course Participation](participation.md)**.
 
 ### Labs
 
-Labs are where you practice what class introduced and turn it into project progress. They are not a parallel stream of unrelated exercises: lab work feeds directly into your project milestones.
+Labs are where you practice what class introduced and turn it into project progress. Lab work feeds directly into your [project](project.md) milestones, and is graded on completion.
 
-We expect you to attend your registered lab section on time each week. Many of the labs are dependent on group work, and showing up late will negatively impact other students. Lab attendance is part of your [Course Participation](#course-participation) grade, which includes a built-in buffer for ordinary absences.
-
-<!-- TODO: instructor decision required - lab grading. Needed:
-       - number of labs
-       - whether labs are completion-based
-       - whether a best-N-of-total policy applies -->
-
+Full details, including section times, lead and support TAs, and what to do if you miss one: **[Labs](labs.md)**.
 
 ### Quizzes
 
-There are **eight quizzes** this term, delivered through CBTF/ORCA. They exist to give you individual evidence of your own learning at a steady pace, rather than concentrating everything into one high-stakes exam at the end.
+There are **eight quizzes** this term, delivered through CBTF/ORCA. They replace the midterm, and focus on reasoning, interpretation, and tracing rather than memorization.
 
-Quizzes focus on reasoning, interpretation, tracing, and applying ideas to unfamiliar examples. They are not memorization tests.
-
-<!-- TODO: instructor decision required - quiz logistics. Needed:
-       - whether all 8 count or a best-N-of-8 policy applies (a dropped quiz would be the
-         built-in flexibility here)
-       - CBTF/ORCA booking and sitting procedure for students
-       - make-up policy, if any, beyond the formal academic concession route -->
-
-Quiz scheduling and booking details will be posted on the [Schedule](schedule.md) page.
+Full details, including format, preparation advice, and accessibility arrangements: **[Quizzes](quizzes.md)**.
 
 ### Exams
 
