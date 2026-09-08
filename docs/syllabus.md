@@ -31,17 +31,12 @@ Delivery Method: In-person
 > [!WARNING]
 > This course requires significant commitment for both the teaching team and the students! See below:
 
-The course is designed to be interactive, with a focus on hands-on learning and practical applications of introductory computing concepts. Students are expected to actively engage in **group work outside of class time** and to collaborate with their peers on a semester-long project. **A lighter course load is strongly recommended** to ensure active participation, high-quality work, and the potential to earn a good grade in the course. Students who are working full-time or have other significant commitments should carefully consider whether they can meet the demands of this course. If in doubt, please reach out to the instructor to discuss before the add/drop deadline.
+The course is designed to be interactive, with a focus on hands-on learning and practical applications of introductory computing concepts. Students are expected to actively engage in **group work outside of class time** and to collaborate with their peers on a semester-long project. **A lighter course load is strongly recommended** to ensure active participation, high-quality work, and the potential to earn a good grade in the course. Students who are working alongside their studies or have other significant commitments should carefully consider whether they can meet the demands of this course. If in doubt, please reach out to the instructor to discuss before the add/drop deadline.
 
 #### Land Acknowledgement
 
 We acknowledge that the land on which we gather is the traditional, ancestral and unceded territory of the Coast Salish Peoples, including the territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səl̓ílwətaɬ (Tsleil-Waututh) Nations.
 
-## Labs
-
-Labs are hands-on and interactive, and **built to support your project work**. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are in-person only.
-
-**Section times, room, and which TA leads each section are on the [Labs](labs.md) page.**
 
 ## Course Description
 
@@ -89,8 +84,8 @@ Each component has its own page with the full details. Click through for format,
 
 | **Item**                                 | **Weight** |      **Schedule**      |
 | :--------------------------------------- | :--------: | :--------------------: |
-| [Course Participation](participation.md) |     3%     |        In-class        |
-| [Labs](labs.md)                          |     7%     | Wednesdays + Thursdays |
+| [Course Participation](participation.md) |     2%     |        In-class        |
+| [Labs](labs.md)                          |     8%     | Wednesdays + Thursdays |
 | [Project](project.md)                    |    30%     |  Throughout Semester   |
 | [Quizzes](quizzes.md)                    |    40%     | Wednesdays + Thursdays |
 | [Final Exam](final.md)                   |    20%     |          TBD           |
@@ -114,6 +109,12 @@ Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
 
 A week-by-week view of lecture topics, labs, and deliverables is on the [Schedule](schedule.md) page.
 
+## Labs
+
+Labs are hands-on and interactive, and **built to support your project work**. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are in-person only.
+
+**Section times, room, and which TA leads each section are on the [Labs](labs.md) page.**
+
 ### Exams
 
 There is no midterm this term. Refer to [Final Exam](final.md) and [Quizzes](quizzes.md) page for more details.
@@ -124,12 +125,13 @@ The project is a semester-long group assignment. Full details are on the [Projec
 
 ### Passing Criteria
 
-To pass this course, you must:
+To pass this course, student must:
 
-- obtain at least a 50% overall grade based on the weighted average of all course components
+- attend at least 7 out of 9 labs in-person 
 - achieve a passing grade (>50%) on the final exam
 - achieve a passing grade (>50%) on the course project
-- achieve a passing grade (>50%) on the course participation component
+- attend and participate in project viva voce in-person
+- obtain at least a 50% overall grade based on the weighted average of all course components
 
 Students who fail to meet these requirements will have a final grade of 45% or less.
 
