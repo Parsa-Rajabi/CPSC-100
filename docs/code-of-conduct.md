@@ -22,7 +22,7 @@ Speaking up early or asking for help when facing difficulties is a sign of profe
 
 For expectations around group participation, peer resolution, and how non-participation is handled, see the [Importance of Group Work and Participation Policy](syllabus.md#importance-of-group-work-and-participation-policy) in the syllabus.
 
-Academic integrity is essential. All submitted work must be honest and appropriately attributed. This includes citing the articles, datasets, and images you use in your project deliverables, and disclosing your use of AI tools as required by the course AI policy.
+Academic integrity is essential. All submitted work must be honest and appropriately attributed. This includes citing the articles, datasets, and images you use in your project deliverables, and disclosing your use of AI tools as required by the [course AI policy](ai-policy.md).
 
 Be mindful of privacy when researching and presenting. Your project work may involve data about real people; do not include personal information about classmates, peer reviewers, or third parties in your submissions or in any tool you use to prepare them.
 

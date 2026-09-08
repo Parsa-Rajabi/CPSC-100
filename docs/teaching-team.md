@@ -1,34 +1,42 @@
 # Teaching Team
 
+> [!NOTE]
+> Pronouns and photos are still being added as each TA supplies them.
+
+> [!TIP]
+> **Looking for how to reach us?** Email addresses, the Ed Discussion link, and a flowchart showing where each kind of question belongs are all on [Course Communication](communication.md).
+
 ## Instructor
-|               **Name**               |       **Email** :fas fa-envelope fa-fw:       | **Office Hours**     :fas fa-house-medical: |                                 **Location**                                 |
-| :----------------------------------: | :-------------------------------------------: | :-----------------------------------------: | :--------------------------------------------------------------------------: |
-|    **Parsa** Rajabi      |    prajabi [at] `DELETEthisTEXT` cs.ubc.ca    |            Wednesdays 1:30-2:30             |                                   ICCS 249                                   |
+
+**Parsa Rajabi** — pronouns, office, drop-in hours, and email are on the [syllabus](syllabus.md#course-instructor) and [Course Communication](communication.md).
 
 ## Teaching Assistants
 
-| **Lab Section** |       **Name**       |       **Email** :fas fa-envelope fa-fw:        |  **Schedule**   |                           **Book Office Hours**                           |
-| :-------------: | :------------------: | :--------------------------------------------: | :-------------: | :-----------------------------------------------------------------------: |
-|   L2A (9-10a)   | **Olamide** Olabiyi  | oolabiyi [at] `DELETEthisTEXT` student.ubc.ca  |     ad-hoc      |   [Booking Link](https://calendly.com/olamideolabiyi/ola-office-hours)    |
-|  L2B (10-11a)   | **Parsa** Seyfourian | parsasey [at] `DELETEthisTEXT` student.ubc.ca  | Saturdays; 12-3 | [Booking Link](https://calendly.com/pseyfourian-bccrc/parsa-office-hours) |
-|  L2C (11-12p)   |     **Kelly** Xi     | kellyxi  [at] `DELETEthisTEXT` student.ubc.ca  |  Mondays; 4-5   |           [Booking Link](https://calendly.com/kellyyyxi/30min)            |
-|   L2D (12-1p)   |  **Abigail** Demian  | ademia01  [at] `DELETEthisTEXT` student.ubc.ca |     ad-hoc      |  [Booking Link](https://calendly.com/ademian/abby-midterm-office-hours)   |
-|   L2E (5-6p)    |   **Sam** Bakteria   | bakteria  [at] `DELETEthisTEXT` student.ubc.ca |  Fridays; 2-3   |        [Booking Link](https://calendly.com/bakteria-student/10min)        |
+Each lab has a **lead TA** who runs the session and a **support TA** who assists. Every TA leads one lab and supports another, so you will see two familiar faces each week.
 
-## Before You Email Us
+For questions about your own lab, contact its **lead TA** first.
 
-Office hours and the discussion board are the fastest way to get help. Reserve email for personal or confidential matters.
+<!-- TODO: TA action required - each TA to supply their pronouns and a photo.
+     Photos go in docs/assets/teaching-team/ named <firstname>-picture.png (or .jpg),
+     then add an image cell to the table below. The CPSC 344 site used the same
+     convention, e.g. docs/assets/teaching-team/jessica-picture.png -->
 
-When you do email, include:
+<!-- TODO: instructor decision required - TA drop-in hours, once scheduled. -->
 
-- A subject line with the course code, e.g. `[CPSC 100] Question about Milestone 2`
-- A greeting and a clear, specific message
-- **Your full name and student number**
-- A closing
+| **Name** | **Pronouns** | **Leads** | **Supports** | **Drop-in Hours** |
+| :------- | :----------- | :-------: | :----------: | :--------------- |
+| **Parsa** Seyfourian | *to be confirmed* | L1A | L1B | *to be confirmed* |
+| **Kate** Manskaia | *to be confirmed* | L1B | L1C | *to be confirmed* |
+| **Tarvin** Arora | *to be confirmed* | L1C | L1D | *to be confirmed* |
+| **Jessica** He | *to be confirmed* | L1E | L1A | *to be confirmed* |
+| **Sally** Han | *to be confirmed* | L1D | L1E | *to be confirmed* |
 
-Using AI/ChatGPT to generate emails or discussion board posts is **not recommended**, and such messages will be returned for revision.
+Lab section times and the room are on the [Labs](labs.md) page.
 
-> [!WARNING]
-> Before sending an email, review our [email etiquette guide](email-etiquette.md) and/or [How To Email Your Professor](https://personal.math.ubc.ca/~ilaba/teaching/email.html). **Emails that do not follow these guidelines will be returned to the sender for revision.**
+TAs are also available during your scheduled lab time. Note that during lab, TAs prioritize helping students with that week's lab work.
 
-For the full expectations, including the deduction that applies to repeated unprofessional behavior, see [Professionalism](syllabus.md#professionalism) in the syllabus and the [Code of Conduct](code-of-conduct.md).
+## Related
+
+- [Course Communication](communication.md) — email addresses and where to send what
+- [Labs](labs.md) — section times, room, and how labs are graded
+- [Code of Conduct](code-of-conduct.md)

@@ -1,263 +1,213 @@
 # Project
 
-The project provides a well-structured format for students to engage deeply with the material.
-
-## Table of Contents
-- [Exploring the Impact of Computing on Relationships](#exploring-the-impact-of-computing-on-relationships)
-- [Group Size](#group-size)
-- [Assessment + Deadlines](#assessment)
-- [Overview](#overview)
-- [M0: Group Contract](#m0-group-contract)
-- [M1: Proposal](#m1-proposal)
-- [M2: Data Inquiry](#m2-data-inquiry)
-- [M3: Infographic](#m3-infographic)
-- [Peer Evaluation](#peer-evaluation)
-- [Resources](#resources)
-
-
-## Exploring the Impact of Computing on Relationships
-
-This project involves researching a specific topic and creating an infographic to summarize your findings. Topics MUST fall under one of the following themes. Your group can choose to look at the positive or negative impact of computing on social relationships.
-
-1. Broadening global connections:
-- Digital Humanitarianism: How technology enables global communities to coordinate relief efforts during crises (e.g., natural disasters, pandemics).
-- Remote Work Cultures: Examining how computing has enabled cross-border employment and fostered global workplace diversity.
-- Virtual Tourism: The role of virtual and augmented reality in connecting people to international destinations without leaving their homes.
-- Cultural Preservation Through Technology: How computing helps document and preserve endangered languages and cultural practices.
-- Topics can also focus on accessibility, usability, cost, and equality.
-
-2. Relationships benefits:
-- Parent-Child Relationships: How family apps (e.g., shared calendars, communication platforms) impact parental engagement in children’s lives.
-- Long-Distance Friendships: How social media and video conferencing help sustain friendships across geographic distances.
-- Online Therapy Communities: The role of digital platforms in fostering mental health support and reducing stigma around seeking help.
-- Elderly Socialization: Apps and platforms designed for senior citizens to maintain relationships and combat isolation.
-- Gaming as Connection: The impact of multiplayer online games on building friendships and teamwork
-
-3. Decrease in-person interaction:
-- Tech-Free Movements: The rise of digital detox initiatives and their impact on fostering deeper in-person relationships
-- AI in Communication: How reliance on AI tools (e.g., chatbots, virtual assistants) affects interpersonal communication skills.
-- Online interactions can yield shallow relationships with limited emotional intimacy.
-- Digital addiction causing neglect of real-world relationships.
-- Generation Gap in Tech Use: The widening digital divide between generations and its impact on family communication
-- Distracted face-to-face interactions, reducing the quality of conversations and connections.
-- Constant comparisons online breed inadequacy, hurting self-esteem, creating envy
-- Social Media Echo Chambers: How curated online experiences reduce exposure to diverse perspectives and real-world interactions.
-- Lack of nonverbal cues leading to misunderstandings and misinterpretations of messages
-
-4. Crimes:
-- Deepfakes: The rise of AI-generated fake media and its implications for trust and authenticity in relationships
-- Digital Identity Theft: How stolen online identities are used to manipulate social circles for financial or personal gain.
-- Phishing Scams: How social engineering exploits relationships and trust online to commit fraud
-- Data Privacy: How breaches in data security can lead to the exploitation of personal information and relationships
-
-You can focus on any of these topics through the lens of familial, romantic, causal, and friend relationships.
-
-Some of these topics may be covered in class. If they are, please remember you are **responsible** for finding content outside of class material for your project.
-
-## Group Size
-All students will work in groups of three (unless not feasible due to lab size). You MUST work with 2 other people from your lab section. The teaching team reserves the right to re-group students to ensure that all students in a lab have team members. 
-
-Collaboration with anyone outside your group besides the course staff is NOT allowed and is a form of academic misconduct.
-
-The work you do should be your group's work, but assistance in reasonable forms (like cited quotations or resources, critical feedback, etc.) is encouraged!
-
-## Assessment
-
-There are four deliverables for the project. We have spaced the deliverables over the term to ensure that students have sufficient knowledge, preparation and time to complete each deliverable.
-
-You will be assessed based on the deliverables as well as your TA mentors' and team members' evaluations.
-
-|         Deliverable          | Weight | Due Date |
-| :--------------------------: | :----: | :------: |
-| Milestone 0 - Group Contract |   -    | Jan. 24  |
-|    Milestone 1 - Proposal    |   5%   | Feb. 12  |
-| Milestone 2 - Data Inquiry   |  10%   | Mar. 12  |
-|  Milestone 3 - Infographic   |  10%   |  Apr. 7  |
-|       Peer Evaluation        |   -    |  Apr. 8  |
-
-Note: Each group only needs to submit one submission for deliverables 1 - 3
-
-Although all group members will receive the same grade for each deliverable, a peer evaluation will be conducted at the end of the project to ensure fair participation grading. The peer evaluation will determine an individual's participation grade, which factors into the overall project grade. Here is how this participation grade fits into the overall grade of the project:
-
-`Project Grade = Group Grades x Participation Grade`
-
-So, in the end, each student may receive a different grade based on their participation in the project. The teaching team retains the discretion to adjust each group member’s participation grade based on their individual level of engagement and contributions to the team, as evaluated by the teaching team.
+> [!NOTE]
+> This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
 ## Overview
 
-The CPSC 100 project is a comprehensive assignment divided into three milestones, each focusing on exploring technology's impact on relationships. Here's a high-level summary of each milestone:
+- 2 projects, equally weighted.
+- Group work. Groups are 4 to 5 students, assigned by the instructor.
+- Groups are formed from the **group formation activity in Lab 1** and the **group formation survey**, due Sep 18.
+- **Groups do not span lab sections.** Everyone in your group attends the same section, so you share lab time and have the same lead TA.
 
-### Group Contract:
+| | Project | Weeks | Ends with |
+| :-: | :------ | :---: | :-------- |
+| 1 | [Signal or Noise?](project-1.md) | 2 to 7 | 3 submitted parts |
+| 2 | [From Blocks to Code](project-2.md) | 8 to 13 | A viva voce on Dec 2 |
 
-Task: Students will develop a group contract that outlines the roles, responsibilities, and expectations for each group member. The contract will establish group norms, decision-making processes, communication strategies, and meeting schedules. It will also include a high-level overview of the group's goals, communication styles, personality profiles, and processes.
+Your project grade covers 4 things:
 
-### Project Proposal:
+| Component | What it is |
+| :-------- | :--------- |
+| Project parts | The documents you submit, graded in 5 bands |
+| Weekly stand-ups | 3 or 4 sentences each week: what you did, what is next, what is blocking you |
+| Retrospectives | A short group write-up after each project: what worked, what you would change |
+| Peer evaluation | A multiplier on your group's mark, so group members can get different grades |
 
-Task: Students choose one of the specified themes. They are required to formulate 2 to 3 specific questions to guide their exploration of the selected topic. Additionally, they must identify at least three online sources (URLs) that will provide data or information relevant to their topic.
+<!-- TODO: instructor decision required - how the project 30% divides across parts,
+     stand-ups, and retrospectives. Stand-ups and retrospectives are now graded project
+     components rather than penalty-only items, which supersedes the earlier
+     "missing retrospective costs 1% of the course grade" decision. Confirm whether that
+     penalty is replaced or kept alongside the mark. -->
 
-### Data Inquiry:
+> [!WARNING]
+> To pass this course you must achieve at least **50% on the course project**. See [Course Evaluation](syllabus.md#course-evaluation) for how much the project is worth.
 
-Task: This milestone involves a detailed presentation of the articles they have summarized and data they have found related to their specific questions. Students will delve into their research, summarizing the findings and examining how they address the questions they were interested in. This milestone also requires students to create an outline for an infographic that will visually represent their findings.
+### The 5 bands
 
-### Infographic Creation:
+| Band | Mark | What it means |
+| :--- | :--: | :------------ |
+| Incomplete | 0 to 40 | Not there, or too fragmentary to assess |
+| Developing | 65 | Present, but does not answer what was asked |
+| Meets requirements | 80 | Does what was asked, accurately |
+| Exceeds requirements | 90 | Meets, plus you noticed something nobody asked for |
+| Exceptional | 100 | Exceeds, plus you pursued it |
 
-Task: Students will design an infographic based on their research and analysis. This infographic should effectively summarize two main themes or findings from their research, presenting the information visually engaging and informative.
+- Doing everything correctly earns 80. At UBC, 80 is an A-.
+- Exceeds requires Meets first. A good tangent does not offset a missing section.
+- The top 2 bands are for noticing something, not for polish.
 
----
+## Platform
 
-## M0: Group Contract 
+| What | Where | Notes |
+| :--- | :---- | :---- |
+| Peer evaluation | iPeer | UBC's tool for rating teammates' contribution |
+| Group contract | [Template and info](group-work-resources.md) | |
+| Snap! work | [snap.berkeley.edu](https://snap.berkeley.edu) | Browser-based, nothing to install |
+| Python work | Jupyter | |
+| Viva voce booking | [us.prairietest.com](https://us.prairietest.com) | Same place you book a [quiz](quizzes.md#booking-your-seat) |
 
-Define the roles, responsibilities, and expectations for each group member. Establish group norms and decision-making processes. Outline communication strategies and meeting schedules. How will your group operate, which grade bucket are you shooting for, how will you communicate, and how will you resolve conflict? The contract must provide a high-level overview of your goals, communication styles, personality profiles, and processes.
+### Where to submit
 
-The group charter is NOT for us, it is for you. So, the more detailed the project, the easier it will be when issues arrive later.
+| What | Where |
+| :--- | :---- |
+| Project parts | **Canvas** |
+| Retrospectives | **Canvas** |
+| Weekly stand-ups | **Ed Discussion** |
+| Peer evaluation | iPeer |
 
-### Group Goal and Commitment
+Lab work is submitted separately, through PrairieLearn and occasionally Canvas. See the [Labs](labs.md) page.
 
-Which grade range do you aim for? Choose a performance level for the group. All group members must agree to the same range. If you have six courses and are in your last semester and don't need this course, then make sure you are NOT in a group with individuals who plan to demonstrate mastery of the course content (i.e. "nothing but A+").
+## Schedule
 
-- **Time Commitment**: Decide how much time each group member commits to the project over the next weeks.
-Include a plan to track and manage time spent on the project to ensure adherence to the chosen performance level.
+Each part is submitted separately, in its own week. Neither project has a single end-of-project submission.
 
---- 
+> [!TIP]
+> Project **parts** are due Thursday at 11:59pm Pacific. Three things sit outside that: the group formation survey is Friday Sep 18, weekly stand-ups are Friday at 4:00pm, and the viva voce is a booked appointment on Dec 2 or 3.
 
-## M1: Proposal
+| Week | Due date | What is due |
+| :--: | :------- | :---------- |
+| 2 | Fri Sep 18 | Group formation survey |
+| 3 | Thu Sep 24 | Group contract |
+| 4 | Thu Oct 1 | [Project 1B](project-1.md) dataset selection<br>Project 0 retrospective + iPeer 0 *(practice, ungraded)* |
+| 5 | Thu Oct 8 | [Project 1A](project-1.md), digital footprint |
+| 6 | Thu Oct 15 | [Project 1B](project-1.md), AI detector experiment |
+| 7 | Thu Oct 22 | [Project 1C](project-1.md), algorithmic bias case study |
+| 8 | Thu Oct 29 | Project 1 retrospective + iPeer 1 |
+| 9 | Thu Nov 5 | [Project 2A](project-2.md), Snap! program and annotations |
+| 11 | Thu Nov 19 | [Project 2B](project-2.md), Snap! to Python translation |
+| 13 | Wed Dec 2 | [Project 2C](project-2.md), your viva voce appointment |
+| 13 | Thu Dec 3 | Project 2 retrospective + iPeer 2 |
 
-### Motivation
-
-Those who fail to plan, plan to fail. It is important to understand the specifications and the group's objectives clearly.
-
-### Overview
-
-Groups will be required to provide the following:
-
-- **Theme**: One of the themes mentioned above
-- **Title**: The proposed title of your project - You should create a compelling and descriptive title.
-- **Description**: A 50-100 word summary that briefly describes the purpose/goal of your project. It really does not need to be longer than five sentences. It must clearly state what sub-topic you will be exploring.
-- **Questions**: What questions do you hope to answer? You must have at least 2 questions that align with your theme. Formulate 2 to 3 specific research questions related to the theme. (e.g. How much energy is required to create something like ChatGPT 4? What are the implications of using visualizations to encourage climate action?)
-- **Audience**: Identify the target audience for your infographic. Who is your intended audience? Be as specific as possible, as your infographic will target that audience
-Options include, but are not limited to:
-- Teens (ages 13 - 18)
-- Youth (ages 19 - 25)
-- Young Adults (ages 25 - 40)
-- Mature Adults (ages 40 - 65)
-- Public Health Decision Makers
-- Government Policymakers
-- Senior Citizens (ages 65 and above)
-- **News Agencies**: Choose three news agencies from which you expect to gather relevant articles (e.g., CBC, Associated Press, Al Jazeera, Wired).
-- **Data Sources**: Select two platforms where you will search for relevant articles or datasets (e.g., StatCan, OpenData, OurWorldInData).
-
-### Timeline & Next Steps:
-
-What is your process for looking for resources? Remember you are required to find at least 3 articles and 1 dataset that you will use for each question. What process will you use to decide if a resource is legitimate?
-
-- **Task List**: Create a detailed list of tasks required for the next deliverable, including research, data collection, analysis, and initial design ideas for the infographic.
-- **Due Dates**: Assign specific due dates for each task.
-- **Group Responsibilities**: Allocate tasks and due dates to different group members, ensuring a balanced workload.
-- **Details to include**: Include minimum hours for each deliverable.
-
----
-
-## M2: Data Inquiry
-
-### Motivation
-
-It is crucial to map out the data you will be working with and your project's scope. This intermediary delivery will help narrow your project's focus, ensure you have credible information/data to work with, and help your TAs gauge your progress.
-
-### Requirements
-- For each of your **two** questions, provide the following
-    - **Two** articles from reputable agencies. (wired.com, AP, etc)
-    - **One** government or non-profit dataset or report with visualizations. (e.g. OurWorldInData)
-    - **One** article that offers an opposing or different viewpoint.
-
-### Part 1: Data Gathering Process Assessment
-
-1. **Process Overview**: Describe the method used for data search and selection. Include criteria for choosing data sources.
-2. **Search Details**: Keywords/Phrases: List used for data retrieval. Search Timeline: Indicate dates or timeframes of searches. Platforms: Specify online services or platforms used.
-3. **Source Evaluation**: Discuss the selection or exclusion of certain sources, including the three news agencies and 2 data sites identified in the first deliverable. Address their usefulness.
-
-### Part 2: Assessment of the Data Collected
-
-1. **Source Details**: For each data item, include: Publication date, Author(s), Title, date you last accessed it, URL (should not be behind a paywall; if it is, then you must submit a pdf so TAs can access (e.g. using New York Times))
-2. **Data Quality Veracity Assessment**: Evaluate the credibility and reliability of each source. Address accuracy, completeness, and biases across all data types.
-3. **Data Categorization and Analysis**: Datasets: Quality assessment, relevance, and challenges. News Articles/Media: Quality, reliability, and relevancy evaluation. Summarize critical insights or issues.
-4. **Reflection and Improvement**: Summarize the data collection steps and decisions.
-5. **Discussing Data Deficits**: Identify limitations in datasets, such as incompleteness or bias. Explain the impact of these deficits on project conclusions.
-
-### Part 3: Infographic Outline
-
-For the rough outline of the infographic, students should submit a document that includes the following elements:
-- Title of the Infographic: A provisional title that encapsulates the central theme or message.
-- Introduction: A brief overview or introduction that sets the context for the infographic. (< 100 words)
-- Section Headings: List the planned headings for each section of the infographic. Under each heading, briefly describe what that section will cover. You need at least 3 or 4 section headings with the idea that your final infographic will only have 2 or 3.
-- Data Visualizations: A description of the data visualizations planned (e.g., bar graph, pie chart) and what data each will represent. Indicate where these will be placed in relation to the section headings.
-- Graphic Elements: Outline the types of non-data visual graphics or images they plan to include and their purpose (e.g., to illustrate a point or add visual interest).
-- Feedback Points: List three areas where they would like feedback or have uncertainties. The more specific you are, the better your feedback.
-
---- 
-## M3: Infographic
-
-### Motivation
-Papers suck. No, but let's be serious: when was the last time you read an article for fun? Communicating your findings in a way that will be accessible to your audience is important.
-
-### Requirements
-
-The infographic submission must include the following:
-
-- Size Specifications: The infographic should be 8.5 by 11 inches, either landscape or portrait orientation.
-- Graphics: Include at least two graphics. These should be distinct from data visualizations.
-- Audience Appropriateness: The design and content should be tailored to the intended audience, such as teens or senior citizens.
-- Data Visualizations: Incorporate at least 2 data visualizations based on the datasets used in the research. These could be visualizations you got from the articles and datasets.
-- Infographic Principles: Adhere to critical principles of infographic design, including Consistency, Simplicity, Suitability, Navigability, and Visibility.
-- References: Include references on the infographic to articles or datasets used.
-- So What Messaging: At the bottom, include a "So What"/"Action" messaging section guiding the audience on the next steps or actions.
+Weekly stand-ups run every week from Week 2 to Week 13, due **Friday at 4:00pm**, right after the Friday lecture.
 
 
-### Tips in Visual Representation
-- Efficient Use of Space: Ensure the layout is balanced and space is used efficiently.
-- Alignment and Graphics: Graphics should be well-aligned and appropriate for the content and audience.
-- Innovative Data Representation: Go beyond standard visualizations (bar, line, pie, scatter, etc.) and employ thematic or novel data representations. Include more than 2 data visualizations for a comprehensive representation.
-- Tips for Presentation of Ideas
-- Engaging Title: The title should be captivating and informative, tailored to the audience.
-- Effective Storytelling: Convey your research's story or main themes effectively and engagingly.
-- Interesting Results: Ensure that the results presented are intriguing and relevant to the audience.
+Notes on the schedule:
 
---- 
+- "Project 0" is not a project. It is the label for the setup phase in Weeks 2 to 4: forming your group and writing your contract. Its retrospective and iPeer round are a practice run and are not graded.
+- Your first deadline is the group formation survey. Everything else depends on groups existing.
+- Weeks 4 through 7 have a project deadline every week, and most also have a lab and a quiz. Your Part B dataset selection lands in Week 4, which has no lab, so Lab 2 in Week 3 is your last scheduled group time before it.
+- The last deadline is the Dec 2 viva voce. It is mandatory and a [passing requirement](syllabus.md#passing-criteria).
 
-## Peer Evaluation
+## Late Submission
 
-Each student will evaluate their teammates’ contributions to ensure fair participation grading. These evaluations will determine an individual’s participation grade, which factors into the overall project grade. Evaluations must be completed thoughtfully and on time, as missing or poor-quality submissions may result in penalties. The teaching team may adjust grades based on observed engagement. Further submission instructions will follow.
+> [!ATTENTION]
+> Late work is not accepted on the project. Nothing submitted after a deadline is marked.
 
----
-## Resources
+- Submit a partial document rather than nothing. An incomplete submission earns marks; a missing one does not.
+- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process, and tell us early.
 
-Here are some software tools that you may find helpful.
+### Grading Guide
 
-### Writing
-- [Grammarly](https://www.grammarly.com/): Note that we will be grading you, among other things, on your quality of writing. If you struggle with grammar, you may find Grammarly to be helpful. Do review Grammarly's terms and conditions beforehand to check their content ownership laws. Many services will often include a clause stating the service can use submitted work however they wish without seeking additional consent.
-- [Mendeley](https://www.mendeley.com/): supports the management of references
-- [Zotero](https://www.zotero.org/): supports the management of references
+| Situation | Result |
+| :-------- | :----- |
+| Complete and accurate work | 80, the Meets band |
+| Anything submitted late | 0 for that part |
+| Missing a weekly stand-up | Deduction from your project grade |
+| Missing a retrospective | Deduction, applied to every member of the group |
+| Group contract, second revision onward | 1% of your course grade per resubmission |
+| Peer evaluation below your group's average | Your individual mark is adjusted down |
+| Fabricated source or result | 0 on the project for the student responsible |
 
-### Infographics
+## Group Process
 
-These two articles from [Creative Bloq](https://www.creativebloq.com/infographic/tools-2131971) and [Buffer](https://buffer.com/library/infographic-makers/) provides lists of free and paid tools that you can use to create Infographics. We strongly recommend that during the first month your team decides which tool will be used. Please note that whatever tool you use, you should be able to **download an image or pdf of the infographic for submission**. Test the tool before you start creating the infographic to ensure it meets your needs.
+### Group contract
 
+Your contract sets out roles, expectations, how you communicate, and how you resolve conflict. Name specific behaviours, timelines, and consequences. "We will communicate well" is not a contract.
 
-### Resources for working in teams
+> [!ATTENTION]
+> Every contract is rejected on the first round, by design. It is how the exercise works, not a comment on your group.
 
-Though your TAs and instructors will be available to help you with difficult issues, we encourage you first to try to resolve problems with your partner through mature and active communication.
+- 1 free revision.
+- Each resubmission after that costs 1% of your course grade.
+- Template and guidance: [Group Work Resources](group-work-resources.md).
 
-In the past, groups have broken down due to poor communication and decision-making strategies. Understanding the benefits of group work and creating a group charter can enhance group interactions.
+### Weekly stand-ups
 
-- [Communicating Effectively](https://learningcommons.ubc.ca/student-toolkits/working-in-groups/communicating-effectively/)
-- [Working in Groups](https://learningcommons.ubc.ca/student-toolkits/working-in-groups/)
-- [Working in Groups (Video)](https://youtu.be/CIp_kFR5_jc)
-- [Group Work (Video)](https://youtu.be/2yvNngrj1jo)
-- [Group Work: Can't We All Just Get Along? (Video)](https://youtu.be/Q3dbftkeWPY)
-- [How to Excel at Teamwork](https://learningcommons.ubc.ca/how-to-excel-at-teamwork/)
-- [Group Process](https://learningcommons.ubc.ca/student-toolkits/working-in-groups/group-process/)
-- [Resolving Conflict](https://learningcommons.ubc.ca/student-toolkits/working-in-groups/resolving-conflict/)
-- [How to navigate group projects](https://students.ubc.ca/ubclife/navigate-group-projects)
-- [Teamwork Skills: Being an Effective Group Member](https://uwaterloo.ca/centre-for-teaching-excellence/teaching-resources/teaching-tips/tips-students/being-part-team/teamwork-skills-being-effective-group-member)
-- [Scaffolding student understanding in small-group work: Students’ uptake of teacher support in subsequent small-group interaction. The Journal of the Learning Sciences](http://tinyurl.com/y3lks2oe)
-- [Team dynamics feedback for post-secondary student learning teams: Introducing the “Bare CARE” assessment and report. Assessment and Evaluation in Higher Education](http://tinyurl.com/y6bybyqo)
-- [Rapport building in student online group work. Journal of Pragmatics](http://tinyurl.com/y46d7kl9)
+- Posted by each student on **Ed Discussion**, every week from Week 2 to Week 13, by **Friday 4:00pm**.
+- 3 or 4 sentences: what you did, what is next, what is blocking you.
+- Graded as part of your project mark.
+- Posting on Ed means your group and your TA can see them, so use it to flag blockers early.
+
+### Retrospectives
+
+A retrospective is a short group write-up after finishing something: what worked, what did not, what you would change. Your group submits 3.
+
+| Retrospective | Week | Covers |
+| :------------ | :--: | :----- |
+| Project 0 | 4 | Forming your group and writing the contract |
+| Project 1 | 8 | [Signal or Noise?](project-1.md) |
+| Project 2 | 13 | [From Blocks to Code](project-2.md) |
+
+### Peer evaluation
+
+Peer evaluations run in iPeer and act as a multiplier on your group's mark.
+
+| Round | Week | Graded |
+| :---- | :--: | :----- |
+| iPeer 0 | 4 | No. Practice round. |
+| iPeer 1 | 8 | Yes |
+| iPeer 2 | 13 | Yes |
+
+See [Project Peer Evaluation](project-peer-evaluation.md) for the formula and criteria.
+
+### If contribution is uneven
+
+By default everyone in a group receives the same grade. If lab records and peer evaluations agree that somebody contributed significantly less, that person's grade may be adjusted down.
+
+Raise problems early:
+
+1. Talk to your teammates, using the process in your contract. Keep a record of what you tried.
+2. Bring it to your TA with that record if talking did not fix it.
+3. Ask us to step in if the TA cannot resolve it. Contact us at least 12 days before the deadline, and set up a meeting at least 9 days before it with everyone present.
+
+Those windows exist because fixing a group takes 1 to 2 weeks to work.
+
+Full details: [syllabus](syllabus.md#importance-of-group-work-and-participation-policy) and [Group Work Resources](group-work-resources.md#conflict-resolution).
+
+## Academic Integrity and AI
+
+Fabrication means presenting something as true when it is not:
+
+- citing a source that does not exist;
+- reporting results you did not obtain;
+- describing events that did not happen;
+- misrepresenting what a real source says.
+
+A wrong page number or a broken link is an error, not fabrication.
+
+> [!WARNING]
+> Fabrication means **0 on the project** for the student responsible, and 0 on the affected part for the rest of the group. If it is not possible to establish who fabricated it, the **0 on the project applies to every member of the group**, since the work was submitted jointly.
+
+- Open every source before you submit and confirm it exists and says what you say it says.
+- [Lab 5](labs.md) includes a verification step for this.
+- AI use is governed by the [AI Policy](ai-policy.md).
+- An AI usage disclosure is required in both project submissions.
+- You remain responsible for the accuracy of what you submit, and you should be able to explain any work submitted under your name.
+
+<!-- TODO: instructor decision required - confirm with the department or Faculty of
+     Science that a zero on a 30% course component can be applied directly by the
+     instructor, rather than requiring referral to the academic integrity process. This
+     is the one part of the fabrication rule still unverified; the wording currently
+     states it as a direct penalty.
+     Resolved: where attribution is impossible, the zero applies to the whole group. -->
+
+## Related
+
+- [Project 1: Signal or Noise?](project-1.md)
+- [Project 2: From Blocks to Code](project-2.md)
+- [Project Peer Evaluation](project-peer-evaluation.md) - the multiplier and criteria
+- [Group Work Resources](group-work-resources.md) - contract template, roles, conflict
+- [Labs](labs.md) - where most project work happens
+- [Schedule](schedule.md) - deadlines in context
+- [Course Evaluation](syllabus.md#course-evaluation) - the whole grade breakdown

@@ -1,4 +1,7 @@
 - [Syllabus](syllabus.md)
+- [Schedule](schedule.md)
 - [Project](project.md)
+- [AI Policy](ai-policy.md)
 - [Final](final.md)
+- [Communication](communication.md)
 - [Teaching Team](teaching-team.md)
