@@ -19,15 +19,15 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
     <!-- TODO: instructor decision required - office hour day, time, and room. Also update
          docs/teaching-team.md, which lists office hours a second time. -->
 
+Course email addresses:
+
+| Address | Use it for |
+| :------ | :--------- |
+| `cpsc100-staff@cs.ubc.ca` | Personal course matters that are not sensitive |
+| `cpsc100-admin@cs.ubc.ca` | Sensitive or confidential matters |
+
 > [!TIP]
-> Sign up for the course discussion board using this link: *to be confirmed*. Make sure to use your UBC email address to sign up.
-
-<!-- TODO: instructor decision required - Ed Discussion join link. A new join link is
-     generated for each course instance; the 2024W2 link was
-     https://edstem.org/us/join/PH2rqB and must not be reused. This link appears twice on
-     this page: here and under Course Communication Conventions. -->
-
-Refer to [course communication conventions](#course-communication-conventions) for the best way to reach out to the instructor.
+> **Read [Course Communication](communication.md) first.** It has the Ed Discussion sign-up link, a flowchart showing where each kind of question should go, and every email address for the teaching team.
 
 For teaching team profiles, lab section assignments, and TA office hours, see the [Teaching Team](teaching-team.md) page.
 
@@ -322,16 +322,15 @@ We will read articles, view instructional videos, and read chapters from the fol
 
 ## Course Communication Conventions
 
-> [!TIP]
-> Sign up for the course discussion board using this link: *to be confirmed*. Make sure to use your UBC email address to sign up.
+Full details, including the Ed Discussion sign-up link, a routing flowchart, and every teaching team email address, are on the [Course Communication](communication.md) page. In short:
 
-<!-- TODO: instructor decision required - Ed Discussion join link (second occurrence). -->
+| Your situation | Where it goes |
+| :------------- | :------------ |
+| Anything relevant to the class: concepts, logistics, deadlines | **Ed Discussion, public post.** Checked daily by course staff, and the whole class benefits from the answer |
+| Something specific to you, but not sensitive | **Ed Discussion, private post** and/or `cpsc100-staff@cs.ubc.ca` |
+| Something sensitive or confidential | `cpsc100-admin@cs.ubc.ca` |
 
-- For anything relevant to the larger group (conceptual questions, logistics issue, etc.): Post public-to-class on the course discussion board, which will be checked daily by course staff, and this way the whole class can benefit. 
-- For personal logistics (project, labs, etc.): Post to course staff on the discussion board.
-- For confidential or personal matters: Talk to or email the instructor(s). Include "[CPSC 100]" in the subject line of any email for a faster response. Emails without this subject line may be missed.
-  - Make sure to include your full name and student number in all correspondence.
-  - It is recommended to use your UBC email address for all course-related communication to ensure that your message is not marked as spam.
+Include "[CPSC 100]" in the subject line of any email for a faster response; emails without it may be missed. Always include your full name and student number, and use your UBC email address so your message is not marked as spam.
 
 ### Professionalism
 
