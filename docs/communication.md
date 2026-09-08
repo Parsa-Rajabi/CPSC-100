@@ -11,80 +11,14 @@ Everything about how to reach the teaching team lives on this page. When in doub
 
 ## Where Should This Go?
 
-<div class="cpsc-flow">
-<svg viewBox="0 0 880 530" width="100%" role="img" aria-labelledby="flowTitle flowDesc" xmlns="http://www.w3.org/2000/svg">
-  <title id="flowTitle">CPSC 100 communication routing flowchart</title>
-  <desc id="flowDesc">Start with a question or concern. If it is not a personal matter, post publicly on Ed Discussion. If it is personal but not sensitive, use a private Ed Discussion post and/or email cpsc100-staff at cs.ubc.ca. If it is sensitive or confidential, email cpsc100-admin at cs.ubc.ca.</desc>
-
-  <style>
-    .cpsc-flow svg { --fl-ink: #002145; --fl-line: #5E6A71; --fl-fill: #F2F6FA; --fl-accent: #0055B7; --fl-accent-fill: #E6EEF7; }
-    @media (prefers-color-scheme: dark) {
-      .cpsc-flow svg { --fl-ink: #E8EDF2; --fl-line: #B2B4B4; --fl-fill: #262D34; --fl-accent: #6FB1E7; --fl-accent-fill: #1F2A33; }
-    }
-    .cpsc-flow .bx { fill: var(--fl-fill); stroke: var(--fl-line); stroke-width: 1.5; }
-    .cpsc-flow .out { fill: var(--fl-accent-fill); stroke: var(--fl-accent); stroke-width: 2; }
-    .cpsc-flow .dia { fill: none; stroke: var(--fl-line); stroke-width: 1.5; }
-    .cpsc-flow .ln { stroke: var(--fl-line); stroke-width: 1.5; fill: none; }
-    .cpsc-flow .ah { fill: var(--fl-line); stroke: none; }
-    .cpsc-flow text { fill: var(--fl-ink); font-family: inherit; }
-    .cpsc-flow .t  { font-size: 15px; }
-    .cpsc-flow .tb { font-size: 15px; font-weight: 700; }
-    .cpsc-flow .tm { font-size: 13.5px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
-    .cpsc-flow .lbl { font-size: 12.5px; fill: var(--fl-line); font-weight: 700; }
-    .cpsc-flow .hd { font-size: 12px; fill: var(--fl-accent); font-weight: 700; letter-spacing: .06em; }
-  </style>
-
-  <defs>
-    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path class="ah" d="M 0 0 L 10 5 L 0 10 z"/>
-    </marker>
-  </defs>
-
-  <!-- start -->
-  <rect class="bx" x="150" y="14" width="260" height="50" rx="8"/>
-  <text class="tb" x="280" y="44" text-anchor="middle">Something to ask or raise</text>
-  <path class="ln" marker-end="url(#ar)" d="M 280 64 L 280 100"/>
-
-  <!-- decision A -->
-  <polygon class="dia" points="280,102 424,156 280,210 136,156"/>
-  <text class="t" x="280" y="152" text-anchor="middle">Is it a personal</text>
-  <text class="t" x="280" y="170" text-anchor="middle">matter?</text>
-
-  <!-- A: No -> public Ed -->
-  <path class="ln" marker-end="url(#ar)" d="M 424 156 L 512 156"/>
-  <text class="lbl" x="462" y="146" text-anchor="middle">NO</text>
-  <rect class="out" x="516" y="116" width="352" height="80" rx="8"/>
-  <text class="hd" x="536" y="140">DEFAULT</text>
-  <text class="tb" x="536" y="162">Ed Discussion, public post</text>
-  <text class="t" x="536" y="182">All course inquiries go here</text>
-
-  <!-- A: Yes -> decision B -->
-  <path class="ln" marker-end="url(#ar)" d="M 280 210 L 280 250"/>
-  <text class="lbl" x="296" y="234" text-anchor="start">YES</text>
-
-  <!-- decision B -->
-  <polygon class="dia" points="280,252 424,306 280,360 136,306"/>
-  <text class="t" x="280" y="302" text-anchor="middle">Is it sensitive or</text>
-  <text class="t" x="280" y="320" text-anchor="middle">confidential?</text>
-
-  <!-- B: No -> Ed private / staff -->
-  <path class="ln" marker-end="url(#ar)" d="M 424 306 L 512 306"/>
-  <text class="lbl" x="462" y="296" text-anchor="middle">NO</text>
-  <rect class="out" x="516" y="256" width="352" height="100" rx="8"/>
-  <text class="hd" x="536" y="280">PERSONAL</text>
-  <text class="tb" x="536" y="302">Ed Discussion, private post</text>
-  <text class="t" x="536" y="322">and / or email</text>
-  <text class="tm" x="536" y="342">cpsc100-staff@cs.ubc.ca</text>
-
-  <!-- B: Yes -> admin -->
-  <path class="ln" marker-end="url(#ar)" d="M 280 360 L 280 402"/>
-  <text class="lbl" x="296" y="386" text-anchor="start">YES</text>
-  <rect class="out" x="104" y="404" width="352" height="86" rx="8"/>
-  <text class="hd" x="124" y="428">SENSITIVE</text>
-  <text class="tb" x="124" y="450">Email the course admin</text>
-  <text class="tm" x="124" y="472">cpsc100-admin@cs.ubc.ca</text>
-</svg>
-</div>
+```mermaid
+flowchart TD
+    Q["Something to ask or raise"] --> P{"Is it a personal matter?"}
+    P -- No --> PUB["Ed Discussion: public post<br/>All course inquiries go here"]
+    P -- Yes --> S{"Is it sensitive or confidential?"}
+    S -- No --> STAFF["Ed Discussion: private post<br/>and / or email<br/>cpsc100-staff@cs.ubc.ca"]
+    S -- Yes --> ADMIN["Email the course admin<br/>cpsc100-admin@cs.ubc.ca"]
+```
 
 ## The Same Thing in Words
 
@@ -109,29 +43,30 @@ Everything about how to reach the teaching team lives on this page. When in doub
 | `cpsc100-staff@cs.ubc.ca` | Personal course matters that are not sensitive. Reaches the teaching team. |
 | `cpsc100-admin@cs.ubc.ca` | Sensitive or confidential matters. |
 
+> [!NOTE]
+> This is the **only** page on the course site where email addresses are published. Every other page links here instead, so there is one place to keep current.
+
 ### Instructor
 
 | Name | Email | Office Hours | Location |
 | :--- | :---- | :----------- | :------- |
-| **Parsa** Rajabi | prajabi [at] `DELETEthisTEXT` cs.ubc.ca | *to be confirmed* | *to be confirmed* |
-
-<!-- TODO: instructor decision required - office hour day, time, and room. Also appears in
-     docs/syllabus.md and docs/teaching-team.md. -->
+| **Parsa** Rajabi | prajabi [at] `DELETEthisTEXT` cs.ubc.ca | Mon 2:50-3:50pm · Wed 2:50-3:50pm · Fri 2:50-3:30pm | SWING 110 |
 
 ### Teaching Assistants
 
-| Lab Section | Name | Email |
-| :---------: | :--- | :---- |
-| *TBC* | **Parsa** Seyfourian | parsa.seyfourian [at] `DELETEthisTEXT` ubc.ca |
-| *TBC* | **Kate** Manskaia | emanskai [at] `DELETEthisTEXT` student.ubc.ca |
-| *TBC* | **Tarvin** Arora | tarora13 [at] `DELETEthisTEXT` student.ubc.ca |
-| *TBC* | **Jessica** He | xhe42 [at] `DELETEthisTEXT` student.ubc.ca |
-| *TBC* | **Sally** Han | shan31 [at] `DELETEthisTEXT` student.ubc.ca |
+Each lab has a **lead TA** who runs the session and a **support TA** who assists. Every TA leads one lab and supports another.
 
-<!-- TODO: instructor decision required - map each TA to their lab section (L1A-L1E). This
-     table mirrors docs/teaching-team.md; update both. -->
+| Name | Email | Leads | Supports |
+| :--- | :---- | :---: | :------: |
+| **Parsa** Seyfourian | parsa.seyfourian [at] `DELETEthisTEXT` ubc.ca | L1A | L1B |
+| **Kate** Manskaia | emanskai [at] `DELETEthisTEXT` student.ubc.ca | L1B | L1C |
+| **Tarvin** Arora | tarora13 [at] `DELETEthisTEXT` student.ubc.ca | L1C | L1D |
+| **Jessica** He | xhe42 [at] `DELETEthisTEXT` student.ubc.ca | L1E | L1A |
+| **Sally** Han | shan31 [at] `DELETEthisTEXT` student.ubc.ca | L1D | L1E |
 
-Full profiles and office hours are on the [Teaching Team](teaching-team.md) page.
+For questions about your own lab, contact the **lead TA** for that section first.
+
+Full profiles, lab times, and TA office hours are on the [Teaching Team](teaching-team.md) page.
 
 > [!NOTE]
 > There are two people named Parsa in this course: your instructor (Parsa Rajabi) and one of your TAs (Parsa Seyfourian). Please use full names in messages so we can route them correctly.

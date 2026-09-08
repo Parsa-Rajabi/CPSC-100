@@ -12,17 +12,11 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
 ## Course Instructor
 
 - Parsa Rajabi
-  - Email: *prajabi at cs`DELETEthisTEXT`.ubc.ca*
-  - Office Hours: *to be confirmed*
-    <!-- TODO: instructor decision required - office hour day, time, and room. Also update
-         docs/teaching-team.md, which lists office hours a second time. -->
-
-Course email addresses:
-
-| Address | Use it for |
-| :------ | :--------- |
-| `cpsc100-staff@cs.ubc.ca` | Personal course matters that are not sensitive |
-| `cpsc100-admin@cs.ubc.ca` | Sensitive or confidential matters |
+  - Email: refer to [Course Communication](communication.md) for details.
+- Office Hours:
+  - Mondays 2:50-3:50pm SWING 110
+  - Wednesdays 2:50-3:50pm SWING 110
+  - Fridays 2:50-3:30pm SWING 110
 
 > [!TIP]
 > **Read [Course Communication](communication.md) first.** It has the Ed Discussion sign-up link, a flowchart showing where each kind of question should go, and every email address for the teaching team.
@@ -332,8 +326,10 @@ Full details, including the Ed Discussion sign-up link, a routing flowchart, and
 | Your situation | Where it goes |
 | :------------- | :------------ |
 | Anything relevant to the class: concepts, logistics, deadlines | **Ed Discussion, public post.** Checked daily by course staff, and the whole class benefits from the answer |
-| Something specific to you, but not sensitive | **Ed Discussion, private post** and/or `cpsc100-staff@cs.ubc.ca` |
-| Something sensitive or confidential | `cpsc100-admin@cs.ubc.ca` |
+| Something specific to you, but not sensitive | **Ed Discussion, private post** and/or the course staff address |
+| Something sensitive or confidential | The course admin address |
+
+Both addresses are listed on the [Course Communication](communication.md) page, which is the single place email addresses are published.
 
 Include "[CPSC 100]" in the subject line of any email for a faster response; emails without it may be missed. Always include your full name and student number, and use your UBC email address so your message is not marked as spam.
 

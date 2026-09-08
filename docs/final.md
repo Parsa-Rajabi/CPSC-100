@@ -125,9 +125,7 @@ If a non-permitted device is found, the student must put it away with their belo
 
 Students registered with the Centre for Accessibility are responsible for arranging their exam accommodations through the Centre for Accessibility office.
 
-You must also confirm your exam arrangement by emailing the course admin address:
-
-<p><a class="button button-admin" href="mailto:cpsc100-admin@cs.ubc.ca"><i class="fa-solid fa-envelope"></i> cpsc100-admin@cs.ubc.ca</a></p>
+You must also confirm your exam arrangement by emailing the **course admin address**, listed on the [Course Communication](communication.md) page.
 
 Contact the teaching team **10 to 7 days before the final exam** once the final exam date is announced.
 
@@ -165,7 +163,7 @@ If an emergency or serious unexpected situation prevents you from taking the fin
 
 You must contact [UBC Science](https://science.ubc.ca/students/advising) within **48 hours** of a missed final exam to apply for a deferred exam.
 
-Email `cpsc100-staff@cs.ubc.ca` if you cannot attend, may be running late, or are dealing with an emergency that affects the exam. Include your full name, student number, what is happening, and whether you have already contacted your faculty advising office.
+Email the **course staff address**, listed on the [Course Communication](communication.md) page, if you cannot attend, may be running late, or are dealing with an emergency that affects the exam. Include your full name, student number, what is happening, and whether you have already contacted your faculty advising office.
 
 The sooner you reach out, the more options may be available, within reason and depending on the situation.
 
