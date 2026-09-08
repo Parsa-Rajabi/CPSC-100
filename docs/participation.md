@@ -1,68 +1,96 @@
 # Course Participation
 
-**3% of your final grade.** Small on paper, but it covers every lecture and every lab.
+> [!NOTE]
+> This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
-## Quick Facts
+## Overview
 
-| Item | Details |
-| :--- | :------ |
-| Weight | 3% of the final grade |
-| Covers | Lectures **and** labs |
-| Tracked with | iClicker |
-| Graded sessions this term | *to be confirmed* |
-| Lowest scores dropped | *to be confirmed* |
-| Time to report an error | 48 hours from grade posting |
+- Individual, and in lecture only.
+- Tracked with iClicker, with paper activities as backup.
+- 35 lecture sessions. 33 are graded, 1 mark each.
+- Your 6 lowest sessions are dropped. 27 marks count.
+- Marks are for taking part in in-class activities, not for attendance alone.
+- Labs are not part of this component. Lab attendance is graded on the [Labs](labs.md) page.
 
-<!-- TODO: instructor decision required - the participation math is still open:
-       - total number of graded participation sessions (lectures + labs)
-       - size of the buffer (how many lowest scores are dropped)
-       - whether lecture and lab sessions are weighted equally or pooled separately
-       - whether the buffer is shared across lectures and labs or separate for each
+### Set up iClicker before your second lecture
 
-     Note the asymmetry to resolve: Sept 30 (Truth and Reconciliation) and Nov 11
-     (inside Midterm Break, Nov 9-11) are both Wednesdays, so those closures remove two
-     sessions from L1A-L1D but none from L1E on Thursday. Sections will not have the same
-     number of graded lab sessions unless that is handled.
+1. Install iClicker and join the CPSC 100 course.
+2. Use the first lecture, Sep 9, to check it works. That session is not graded.
 
-     2024W2 dropped the lowest 3 iClicker scores, lectures only. -->
+<!-- TODO: instructor decision required - iClicker setup details students need in Week 1:
+       - the join link or course code for CPSC 100
+       - whether students need a paid iClicker subscription, and if so the cost
+       - whether a physical remote is supported or it is app-only -->
 
-## Why This Exists
+### How many lectures can I miss?
 
-Lectures and labs in this course are built around things you **do**: in-class activities, clicker questions, discussion, and hands-on lab work that feeds your project. Those only work if you are in the room.
+- 6, with no effect on your grade. That is 2 full weeks.
+- No attendance floor for lectures.
+- No permission to ask for, and no email needed.
+- After the 6 drops, further missed sessions score 0.
+- Missing lectures will not fail you outright, unlike [missing labs](labs.md#how-many-labs-can-i-miss).
+- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process. See [Course Communication](communication.md) for the right address.
 
-Participation marks are for taking part in that work, not for occupying a seat.
+## Platform
 
-## The Rule
+- iClicker, an app you answer in-class questions on.
+- Paper activities are collected as a backup and for auditing, so a failed app does not cost you the session.
+- Grades are released after each session.
+- You have 48 hours from posting to report an error in your record.
+- If iClicker and the paper backup disagree, come to drop-in hours to sort it out. No response or no show means that session is recorded as 0.
 
-Participation covers **both lecture and lab**, tracked using iClicker. This is a change from previous offerings, which counted lectures only.
+Check your grades as they come in. A missing score is easy to fix in the same week and hard to reconstruct in December.
 
-Labs are group-dependent and feed directly into project milestones, so showing up to them is part of participating in the course rather than a separate expectation.
+## Schedule
 
-## You Do Not Need Perfect Attendance
+- Recorded at every lecture, 3 times a week.
+- Times and room are on the [syllabus](syllabus.md#lectures).
+- Which sessions run is on the [Schedule](schedule.md).
 
-A set number of your lowest participation scores are **dropped automatically**. That absorbs ordinary short-term absences: a cold, a conflicting appointment, a bad week.
+| | Sessions |
+| :--- | :---: |
+| Lectures this term | 35 |
+| Not graded | 2 |
+| Graded sessions | 33 |
+| Lowest dropped | 6 |
+| Marks that count | 27 |
 
-**You do not need to email us about a normal missed session.** The drop happens on its own.
+Not graded:
 
-## After the Buffer Is Used
+- Wednesday Sep 9, the first day. Used to test iClicker.
+- Monday Dec 7, the course wrap-up and last day of class.
 
-Additional missed sessions score zero.
+Everything in between counts, including the project work day on Nov 25. It is a scheduled lecture session.
 
-The drops exist for the unexpected, so it is worth saving them rather than spending them early in the term. And missing class costs you the content, which no grading policy can give back.
+## Late Arrival
 
-## If Something Serious Happens
+- No free late arrival for lectures.
+- [Labs](labs.md) give you one, because a late arrival there holds up your teammates.
+- The drops cover ordinary short-term absences. Save them for when you need them.
 
-If an ongoing or serious circumstance affects several parts of the course, do not try to solve it with the buffer. Follow the [academic concession](syllabus.md#academic-concessions) process and let the teaching team know. See [Course Communication](communication.md) for which address to use for sensitive matters.
+### Grading Guide
 
-## Checking Your Record
+| Situation | Cost |
+| :-------- | :--- |
+| Arriving too late for the first clicker question | 0.25 mark |
+| Arriving more than 10 minutes late | Session capped at 0.5 marks |
+| Missing a session | 0, absorbed by your 6 drops |
 
-iClicker grades are released after each session. You have **48 hours** from grade posting to tell us about any error in your participation record.
+Where that leaves you:
 
-Check them as they come in rather than at the end of term. A missing score is easy to fix in the same week and much harder to reconstruct in December.
+| Sessions missed | Marks |
+| :-------------: | :---: |
+| 0 to 6 | 27/27, full marks |
+| 7 | 26/27 |
+| 8 | 25/27 |
+| 10 | 23/27 |
+
+<!-- TODO: instructor decision required - confirm the lecture/lab asymmetry on late
+     arrivals is intended. Labs grant one free late arrival per term; lectures grant none.
+     Flagged during the assessment review as defensible but slightly inconsistent. -->
 
 ## Related
 
-- [Labs](labs.md) — the completion side of lab work, graded separately
-- [Schedule](schedule.md) — which sessions run, and which are cancelled for holidays
-- [Course Evaluation](syllabus.md#course-evaluation) — how participation fits the whole grade
-- [Academic Concessions](syllabus.md#academic-concessions) — for serious circumstances
+- [Labs](labs.md) - graded separately, with its own attendance requirement
+- [Schedule](schedule.md) - which sessions run, and holiday cancellations
+- [Course Evaluation](syllabus.md#course-evaluation) - the whole grade breakdown
