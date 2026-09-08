@@ -2,9 +2,7 @@
 
 Department of Computer Science, University of British Columbia (Vancouver, Point Grey Campus)
 
-**Winter 2026, Term 1 - CPSC 100 (Section TBC) || Computational Thinking (3)**
-
-<!-- TODO: instructor decision required - confirm section number for 2026W1 -->
+**Winter 2026, Term 1 - CPSC 100 (Section 101) || Computational Thinking (3)**
 
 > [!NOTE]
 > This syllabus is being finalized for the Fall 2026 (2026W1) offering. Anything marked
@@ -35,12 +33,10 @@ For teaching team profiles, lab section assignments, and TA office hours, see th
 
 Delivery Method: In-person
 
-- **Monday, Wednesday, Friday 14:00-15:00**, room *to be confirmed*
+- **Monday, Wednesday, Friday 14:00-15:00**
+- **West Mall Swing Space Building (SWNG), Floor 2, Room 222** — [UBC Map](https://maps.ubc.ca/?code=SWNG)
 
-The first CPSC 100 lecture is **Wednesday, September 9, 2026 at 14:00**.
-
-<!-- TODO: instructor decision required - lecture room for 2026W1. Days and times are
-     confirmed (MWF 14:00-15:00). -->
+Lectures run **September 9 to December 7, 2026**. The first CPSC 100 lecture is **Wednesday, September 9, 2026 at 14:00**.
 
 #### Land Acknowledgement
 
@@ -50,18 +46,25 @@ We acknowledge that the land on which we gather is the traditional, ancestral an
 
 CPSC 100 has the following lab sections. These sessions are designed to be hands-on and interactive, and **labs are built to support your project work**. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are only conducted in-person at their designated times.
 
-<!-- TODO: instructor decision required - lab section codes and room for 2026W1. Times are
-     confirmed. 2024W2 ran five sections in ICCS X050. -->
+All lab sections meet in **ICCS X050** (Institute for Computing, Information and Cognitive Systems / Computer Science Building, Floor -1) — [UBC Map](https://maps.ubc.ca/?code=ICCS).
 
-| Section | Time                  | Location          |
-| :-----: | --------------------- | ----------------- |
-|    A    | Wednesday 10:00-11:00 | *to be confirmed* |
-|    B    | Wednesday 11:00-12:00 | *to be confirmed* |
-|    C    | Wednesday 12:00-13:00 | *to be confirmed* |
-|    D    | Wednesday 16:00-17:00 | *to be confirmed* |
-|    E    | Thursday 14:00-15:00  | *to be confirmed* |
+| Section | Day       | Time          |
+| :-----: | :-------- | :------------ |
+|   L1A   | Wednesday | 10:00 - 11:00 |
+|   L1B   | Wednesday | 11:00 - 12:00 |
+|   L1C   | Wednesday | 12:00 - 13:00 |
+|   L1D   | Wednesday | 16:00 - 17:00 |
+|   L1E   | Thursday  | 14:00 - 15:00 |
+
+Labs run through **December 2** (Wednesday sections) and **December 3** (Thursday section).
 
 There will be no labs the first week of classes.
+
+<!-- TODO: instructor decision required - the registrar's lab date range starts Sept 9/10,
+     which is the first week of classes. That conflicts with "no labs the first week"
+     above. Note that L1A-L1C would meet 10:00-13:00 on Sept 9, before the first lecture
+     at 14:00 that same day. Confirm whether week 1 labs are cancelled, and if so make
+     sure students are told, since Workday will show a meeting. -->
 
 More information about the instructor and TAs is available on the [Teaching Team](teaching-team.md) page.
 
@@ -69,16 +72,18 @@ More information about the instructor and TAs is available on the [Teaching Team
 
 Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
 
-<!-- TODO: instructor decision required - fill from the UBC academic calendar for 2026W1.
-     Needed: first day of classes, last day to drop without a W, Midterm Break dates,
-     statutory holidays falling in term, last day of classes, and the final exam period. -->
+<!-- TODO: instructor decision required - confirm the remaining rows against the UBC
+     academic calendar for 2026W1: last day to drop without a W, Midterm Break dates,
+     statutory holiday closures, and the final exam period. The course meeting dates below
+     come from the registrar's section details. -->
 
 | Event                        | Date                                |
 | ---------------------------- | ----------------------------------- |
-| First CPSC 100 lecture       | Wednesday, September 9, 2026, 14:00 |
+| First day of classes         | Wednesday, September 9, 2026        |
 | Last day to drop without a W | *to be confirmed*                   |
 | Midterm Break                | *to be confirmed*                   |
-| Last day of classes          | *to be confirmed*                   |
+| Last lab                     | December 2 (Wed) / December 3 (Thu) |
+| Last lecture                 | Monday, December 7, 2026            |
 | Final exam period            | *to be confirmed*                   |
 
 A week-by-week view of lecture topics, labs, and deliverables is on the [Schedule](schedule.md) page.
