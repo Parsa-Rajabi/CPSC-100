@@ -68,10 +68,10 @@ Useful UBC support links:
 
 Registration, Letters of Accommodation, and the Centre's own booking deadlines are covered in the syllabus: [Academic Accommodations and the Centre for Accessibility](syllabus.md#academic-accommodations-and-the-centre-for-accessibility).
 
-Two things are specific to this exam:
+Specific to this exam:
 
-- Book your accommodated sitting with the Centre **at least 7 days before the start of the examination period**. Late requests are not accepted by their system.
-- Also confirm your arrangement with us **10 days before the final exam**, by emailing the course admin address listed on [Course Communication](communication.md).
+- Confirm your arrangement with us **10 days before the final exam**, by emailing the course admin address listed on [Course Communication](communication.md).
+- The booking process for accommodated sittings is still being confirmed, since this exam runs in ORCA. We will publish it once settled. Contact us early rather than waiting.
 
 If you do not make and confirm arrangements, the teaching team will assume that you are writing the final exam with the rest of the class and no special accommodations will be made.
 

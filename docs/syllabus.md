@@ -291,32 +291,29 @@ Students with a disability or ongoing medical condition can arrange academic acc
 1. **Register with the Centre for Accessibility.** You must be registered before you can request accommodations.
 2. **Send your Letter of Accommodation (LOA).** Once registered, you send your LOA to your instructors through [Clockwork](https://students.ubc.ca/about-student-services/centre-for-accessibility/after-registering-with-the-centre-for-accessibility), the Centre's online portal. Do this **as soon as possible, and preferably within the first two weeks of class**. Sending your LOA is also what unlocks exam booking and note-taker services.
 3. **Upload a copy of your LOA to Canvas.** Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
-4. **Book your own accommodated assessments.** The Centre does not book them for you.
+4. **Expect to arrange your own accommodated sittings.** Exactly where you book depends on the assessment, and we will confirm the process for quizzes and the final exam early in the term.
 
 <!-- TODO: instructor decision required - two things:
        - the exact Canvas location for LOA uploads (a dedicated assignment? a
          submission folder?). The concession form above also says "via Canvas" without
          naming a location, so both need the same answer.
-       - whether quiz accommodations for CPSC 100 run through the Centre for
-         Accessibility or through ORCA/CBTF directly. ORCA administers our quizzes and
-         handles accommodated sittings for other CPSC courses through PrairieTest, so
-         students may not need a Centre booking for quizzes at all. docs/quizzes.md
-         currently tells them to arrange through the Centre first. Confirm which is
-         right before term, since a wrong instruction here costs a student a quiz. -->
+       - how accommodated sittings actually work for our ORCA assessments. Unresolved
+         as of Sept 2026: whether ORCA can host CfA accommodations itself, or whether
+         students book through the Centre instead. Booking deadlines and check-in times
+         differ between the two (the Centre's exam centre asks for 15 minutes early,
+         ORCA asks for 10), so publishing either version before this is settled risks
+         costing a student a quiz. All three pages now say only that the process is
+         being confirmed. Publish the detail before Quiz 1 in Week 3. -->
 
-#### Booking deadlines
+#### Booking
 
-Booking is your responsibility, and the deadlines are set by the Centre rather than by this course:
-
-| Assessment | Book at least |
-| :--------- | :------------ |
-| Quizzes and in-term assessments | **7 days** before the assessment date |
-| Final exam | **7 days** before the start of the formal examination period |
+Booking an accommodated sitting is your responsibility, and the deadlines are set by the facility rather than by this course. They are measured in days, not hours, so treat this as something to sort out well ahead of an assessment rather than in the same week.
 
 > [!WARNING]
-> Late requests are not accepted by the Centre's booking system, and **if you have not booked, the instructor is not obligated to provide the accommodation.** Book as soon as the window opens.
+> Late booking requests are generally not accepted, and **if you have not booked, the accommodation may not be available to you.** Arrange it as early as you can.
 
-On the day, arrive **15 minutes early** and check in with your UBC card.
+> [!NOTE]
+> Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), which has its own booking system. We are confirming how accommodated sittings work there, and will publish the exact process and deadlines before the first quiz. If you are registered with the Centre, contact us early so we can sort it out with you individually.
 
 #### Where to go with questions
 
