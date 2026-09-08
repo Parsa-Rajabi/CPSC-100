@@ -9,7 +9,7 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
 - Parsa Rajabi (he/him)
   - Email: refer to [Course Communication](communication.md) for details.
   - Office: ICCS 255 
-- Drop-in Hours:
+- Office Hours/Drop-in Hours:
   - Mondays 2:50-3:50pm SWING 110
   - Wednesdays 2:50-3:50pm SWING 110
   - Fridays 2:50-3:20pm SWING 110
@@ -20,7 +20,6 @@ Not sure where ICCS 255 or SWING 110 is? Check the [UBC Map](https://maps.ubc.ca
 > **Read [Course Communication](communication.md) first.** It has the Ed Discussion sign-up link, a flowchart showing where each kind of question should go, and every email address for the teaching team.
 
 For teaching team profiles, lab section assignments, and TA drop-in hours, see the [Teaching Team](teaching-team.md) page.
-
 
 ## Lectures
 
@@ -44,7 +43,6 @@ Labs are hands-on and interactive, and **built to support your project work**. T
 
 **Section times, room, and which TA leads each section are on the [Labs](labs.md) page.**
 
-
 ## Course Description
 
 > Meaning and impact of computational thinking. Solving problems using computational thinking, testing, debugging. How computers work. No prior computing experience required. Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160. [3-1-0]
@@ -58,13 +56,13 @@ This term the course is organized around one question:
 
 We follow the life of data from the moment it is created to the consequences it has, in three parts:
 
-| Part | Theme | What we cover |
-| :--: | :---- | :------------ |
-| I | **Digital Birth** | Data representation, data storage, privacy, block programming |
-| II | **Digital Adolescence** | Algorithms, decision and pricing systems, data mining, recommender systems, algorithmic bias |
-| III | **Digital Adulthood** | Python, AI, consent, responsible use, digital legacy and digital traces, computers and society |
+| Part |          Theme          |                                         What we cover                                          |
+| :--: | :---------------------: | :--------------------------------------------------------------------------------------------: |
+|  I   |    **Digital Birth**    |                 Data representation, data storage, privacy, block programming                  |
+|  II  | **Digital Adolescence** |  Algorithms, decision and pricing systems, data mining, recommender systems, algorithmic bias  |
+| III  |  **Digital Adulthood**  | Python, AI, consent, responsible use, digital legacy and digital traces, computers and society |
 
-CPSC 100 is not a programming course in the way CPSC 110 is, but you will write programs. We start in a visual block language (Snap!) so you can see the structure of a program without fighting syntax, and move to Python later in the term.
+CPSC 100 is not a programming course in the way CPSC 110 is, but you *will* write programs. We start in a visual block language (Snap!) so you can see the structure of a program without fighting syntax, and move to Python later in the term.
 
 CPSC 100 is targeted for first-year students, but is open to all UBC students. You cannot get credit for CPSC 100 if you have credit for CPSC 110.
 
@@ -89,16 +87,15 @@ Each of these is practiced in class and in lab, and assessed through the quizzes
 
 Each component has its own page with the full details. Click through for format, grading, and what to do if you miss something.
 
-| **Item**                                      | **Weight** |      **Schedule**      |
-| :-------------------------------------------- | :--------: | :--------------------: |
-| [Quizzes](quizzes.md)                         |    40%     | Wednesdays + Thursdays |
-| [Labs](labs.md)                               |     7%     | Wednesdays + Thursdays |
-| [Project](project.md)                         |    30%     |        On-going        |
-| [Course Participation](participation.md)      |     3%     |        In-class        |
-| [Final Exam](final.md)                        |    20%     |          TBD           |
-| **Total**                                     |  **100%**  |                        |
+| **Item**                                 | **Weight** |      **Schedule**      |
+| :--------------------------------------- | :--------: | :--------------------: |
+| [Course Participation](participation.md) |     3%     |        In-class        |
+| [Labs](labs.md)                          |     7%     | Wednesdays + Thursdays |
+| [Project](project.md)                    |    30%     |  Throughout Semester   |
+| [Quizzes](quizzes.md)                    |    40%     | Wednesdays + Thursdays |
+| [Final Exam](final.md)                   |    20%     |          TBD           |
 
-Note: the course evaluation is subject to change until the end of the first week of classes. After this date, the evaluation will be considered final. Any changes will be communicated using a changelog. 
+*Note: the course evaluation is subject to change until the end of the first week of classes. After this date, the evaluation will be considered final. Any changes will be communicated using a changelog.*
 
 **Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.**
 
@@ -119,7 +116,8 @@ A week-by-week view of lecture topics, labs, and deliverables is on the [Schedul
 
 ### Exams
 
-There is no midterm this term. Refer to [Final Exam](final.md) page for more details.
+There is no midterm this term. Refer to [Final Exam](final.md) and [Quizzes](quizzes.md) page for more details.
+
 ### Project
 
 The project is a semester-long group assignment. Full details are on the [Project](project.md) page, and the peer evaluation mechanism is on the [Project Peer Evaluation](project-peer-evaluation.md) page.
@@ -202,10 +200,7 @@ In addition to all university rules, regulations, and academic guidelines, the f
 
 ## Course Textbook/Material
 
-We will read articles, view instructional videos, and read chapters from the following books – all freely available online.
-
-- **[B2B]** Abelson, Hal, Ken Ledeen, and Harry Lewis. 2008. Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion. 1st edition. Upper Saddle River, NJ: Addison-Wesley Professional. [Available for free](http://www.bitsbook.com/excerpts/)
-- **[CSFG]** 'Computer Science Field Guide'. 2020. 19 June 2020. [Available for free](https://www.csfieldguide.org.nz/en/chapters/)
+We will read articles, watch videos, and explore other resources as a class. There is no required textbook for this course. All required readings and materials will be provided on the course website or through the UBC library.
 
 ## Course Communication Conventions
 
@@ -218,7 +213,7 @@ Students are expected to maintain a high level of professionalism in all course 
 > [!WARNING]
 > Before sending an email, make sure to review this article on [email etiquette](email-etiquette.md) and/or [How To Email Your Professor](https://personal.math.ubc.ca/~ilaba/teaching/email.html) for tips on how to effectively communicate with your instructor. **Emails that do not follow these guidelines will be returned to the sender for revision.**
 
-> Repeated unprofessional behavior will result in grade deduction from your final grade, with **each violation resulting in a 1% deduction**. Students will be notified of possible deductions after the first official warning.
+> Repeated unprofessional behavior will result in grade deduction from your final grade, with **each violation resulting in a 1% deduction from your final grade**. Students will be notified of possible deductions after the first official warning.
 
 ### Code of Conduct
 
@@ -241,13 +236,7 @@ A more detailed description of academic integrity, including the University's po
 
 ### Artificial Intelligence (AI) Policy
 
-CPSC 100 is a course about how computing shapes the world you live in, and generative AI is one of the clearest live examples of that. Rather than handing you a policy on day one, **we will develop the course AI policy together during an in-class activity** early in the term, in which students identify which uses of AI tools they consider acceptable in this course and which they consider unacceptable.
-
-The teaching team will consolidate the class's input into a single policy, consistent with UBC, Faculty of Science, and department policy. The finalized policy will be posted on the [AI Policy](ai-policy.md) page and linked from this syllabus **before the add/drop deadline**, so that you can read it while you still have the option to drop the course.
-
-**By remaining enrolled in this course after the policy is published, you agree to abide by it.**
-
-Until the policy is published, the [Academic Integrity](#academic-integrity) expectations above apply.
+See the [Artificial Intelligence Use Policy](ai-policy.md) page for details on how AI tools may be used in this course.
 
 ### Course Waitlist
 
@@ -257,9 +246,9 @@ Until the policy is published, the [Academic Integrity](#academic-integrity) exp
 
 ### Late Deliverables 
 
-All course items (e.g. labs, projects, etc.) have a specific due date and time. Your work is late if it is not turned in by the deadline. Labs can be submitted up to 24 hours after the due date with a 25% penalty (unless explicitly stated otherwise). After 24 hours, the submission will not be accepted and a score of zero will be assigned. 
+All course items (e.g. labs, projects, etc.) have a specific due date and time. Your work is late if it is not turned in by the deadline. Labs and projects can be submitted up to 24 hours after the due date with a 25% penalty (unless explicitly stated otherwise). After 24 hours, the submission will not be accepted and a score of zero will be assigned. 
 
-Quizzes, the final exam, and course project milestones have fixed deadlines and cannot be submitted late. 
+Exams including quizzes and the final exam must be taken at the scheduled time. No make-up exams will be given except in cases of documented medical or compassionate reasons.
 
 Make-up assessments (including participation, labs, quizzes, project, exams) will not be given. Sometimes life gets in the way of schedules. Sickness or other unplanned or extraordinary events happen and will be dealt with individually. It is your responsibility to ensure your situation is known to the instructor as soon as reasonably possible. You are accountable for being heard, which means you need to ensure that the instructor heard you.
  
@@ -273,7 +262,7 @@ UBC Faculty of Science recognizes that experiencing a challenging emergency or u
 
 If you experience an emergency or unanticipated event that is impacting your ability to meet academic commitments, please refer to the [Science Academic Concessions Process](https://students.ubc.ca/enrolment/academic-learning-resources/academic-concessions/) for guidance on how to proceed. This resource provides information on the types of support available, the process for requesting concessions, and the documentation required.
 
-For in-term concessions, please complete this [Student Declaration of Academic Concession Form](assets/academic-concession.pdf) and submit it via email alongside any supporting documentation. 
+For in-term concessions, please complete this [Student Declaration of Academic Concession Form](assets/academic-concession.pdf) and submit it via Canvas alongside any supporting documentation. 
 
 ### Remarking Policy
 
@@ -300,9 +289,6 @@ In order to protect the integrity of exam questions, exams will not be returned 
 
 - Students may request an in-person viewing of their [final exam](final.md). The exact date and time will be announced.
 - During an exam viewing, students may review their exam with a member of the teaching team. However, students may not take photos, make copies, or otherwise reproduce any part of the exam.
-
-<!-- TODO: instructor decision required - confirm the final exam viewing window once the
-     2026W1 calendar is set. -->
 
 ### Wellness and Mental Health
 
