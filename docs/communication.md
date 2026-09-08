@@ -3,11 +3,9 @@
 Everything about how to reach the teaching team lives on this page. When in doubt, start with Ed Discussion.
 
 > [!TIP]
-> Sign up for the course discussion board using this link: *to be confirmed*. Make sure to use your UBC email address to sign up.
-
-<!-- TODO: instructor decision required - Ed Discussion join link. A new join link is
-     generated for each course instance; the 2024W2 link was
-     https://edstem.org/us/join/PH2rqB and must not be reused. -->
+> **Join the course discussion board:** [edstem.org/us/join/SbFf63](https://edstem.org/us/join/SbFf63)
+>
+> Sign up with your **UBC email address** so you are matched to the course roster.
 
 ## Where Should This Go?
 
