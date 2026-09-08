@@ -23,7 +23,7 @@ Lab 0 is the pre-lab for Lab 1. It asks you to:
 1. **Activate your CS account** at [cs.ubc.ca/getacct](https://www.cs.ubc.ca/getacct/), using your CWL. You need it to log in to the lab computers.
 2. **Sign up for Ed Discussion**, the course discussion board. The join link is on [Course Communication](communication.md).
 3. **Reply to the Lab 0 discussion post** on Ed.
-4. **Complete the survey.** It feeds group formation, so do it before Lab 1.
+4. **Complete the welcome survey.**
 
 Also worth doing:
 
@@ -115,7 +115,7 @@ All lab content runs on PrairieLearn. Login links posted before Week 2.
 
 | Lab | Wed / Thu | What you do |
 | :-: | :-------- | :---------- |
-| 0 | *before Sep 16* | Pre-lab for Lab 1: CS account, Ed sign-up, discussion post reply, survey |
+| 0 | *before Sep 16* | Pre-lab for Lab 1: CS account, Ed sign-up, discussion post reply, welcome survey |
 | 1 | Sep 16 / 17 | [Project 1](project-1.md) intro, group formation, Markdown |
 | 2 | Sep 23 / 24 | Draw shapes in Snap! using loops and variables |
 | 3 | Oct 7 / 8 | Exposure score calculator for [Project 1A](project-1.md#part-a-your-digital-footprint). TA signs off your Part B dataset |
