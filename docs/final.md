@@ -1,8 +1,9 @@
 # Final Exam
 
 > [!NOTE]
-> Final exam dates are set by the university and are published partway through the term.
-> This page will be updated as soon as the date, time, and room are announced.
+> **This page is still in development.** Final exam dates are set by the university and
+> are published partway through the term. This page will be updated as soon as the date,
+> time, and room are announced.
 
 ## Changelog
 
