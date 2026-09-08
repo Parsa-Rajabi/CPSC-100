@@ -6,7 +6,8 @@
 ## Overview
 
 - 8 quizzes, Quiz 1 to Quiz 8, plus Quiz 0.
-- Quiz 0 is online and covers the syllabus and Code of Conduct. Quizzes 1 to 8 are sat in the ORCA facility.
+- All nine are sat in person in the ORCA facility. Quiz 0 covers the syllabus and Code of Conduct.
+- Each quiz is **50 minutes**.
 - Your lowest of the 9 is dropped automatically. The other 8 count equally.
 - All quizzes are individual work.
 - No midterm in this course. The quizzes replace it.
@@ -14,11 +15,16 @@
 
 ### Start with Quiz 0
 
-- Opens Wednesday Sep 9, due Friday Sep 18.
+Quiz 0 is your practice run at the whole ORCA process, on content you can revise from this website.
+
 - Covers this syllabus and the [Code of Conduct](code-of-conduct.md).
-- Online, on your own time.
-- 3 attempts. Highest score counts.
+- **Sitting window: Monday Sep 14 to Friday Sep 18.** A longer window than later quizzes, so you have room to find the facility.
+- **Reservations open Friday Sep 11 at 10:00am.** Note this is a Friday, not the Tuesday used for every later quiz.
+- 50 minutes, sat in ORCA like every other quiz.
 - Counts toward your quiz grade like any other quiz.
+
+> [!WARNING]
+> Book your Quiz 0 seat as soon as reservations open. It is also your first chance to learn the booking system, and a quiz you never book scores 0.
 
 ### How many quizzes can I miss?
 
@@ -54,14 +60,7 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 
 ## Platform
 
-### Quiz 0
-
-Online, on your own time, from anywhere.
-
-<!-- TODO: instructor decision required - where Quiz 0 is hosted (PrairieLearn? Canvas?)
-     and whether the three attempts have a time limit each. -->
-
-### Quizzes 1 to 8
+### All quizzes, including Quiz 0
 
 - Sat in person at ORCA, the Open Resource Centre for Assessments.
 - Formerly called the CBTF, the Computer-Based Testing Facility. Same place.
@@ -104,10 +103,10 @@ Results:
 
 - You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobody assigns you one.
 - A quiz you never booked scores 0.
-- Pick a session on the Wednesday or Thursday of that quiz's week.
-- Quiz 2 is the exception: Thursday or Friday.
+- Most quizzes run **Wednesday or Thursday** of that quiz's week. Two exceptions: Quiz 0 runs Monday to Friday, and Quiz 2 runs Thursday or Friday.
+- Reservations open the **Tuesday of the week before**, at 10:00am. Quiz 0 is the exception: Friday Sep 11.
 - First come, first served. Cancelling and rebooking is covered in [Self-Scheduled Assessments in ORCA](#self-scheduled-assessments-in-orca) above.
-- New to the facility? Watch the orientation video on ORCA's [Getting Started page](https://orca.ubc.ca/students/getting-started/) before Quiz 1.
+- New to the facility? Watch the orientation video on ORCA's [Getting Started page](https://orca.ubc.ca/students/getting-started/) before Quiz 0.
 
 > [!WARNING]
 > Book early. Seats are shared with other courses and they do run out, especially midday.
@@ -124,7 +123,7 @@ Results:
 
 | Quiz | Week | When |
 | :--: | :--: | :--- |
-| 0 | 1 to 2 | Opens Wed Sep 9, due Fri Sep 18. Online. |
+| 0 | 2 | Mon Sep 14 to Fri Sep 18. Reservations open Fri Sep 11, 10:00am |
 | 1 | 3 | Sep 23 or 24 |
 | 2 | 4 | Oct 1 or 2, Thursday or Friday |
 | 3 | 5 | Oct 7 or 8 |
@@ -138,7 +137,7 @@ Results:
 
 Notes on the schedule:
 
-- Quiz 1 in Week 3 is your first quiz in the facility. Find the room before then.
+- Quiz 0 in Week 2 is your first quiz in the facility. Give yourself time to find it.
 - Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day. Check that booking twice.
 - No quiz in Week 7 (Project 1C is due) or Week 10 (Midterm Break).
 - Quiz 8 in Week 12 is the last one. No quiz in Week 13.
@@ -170,7 +169,6 @@ Notes on the schedule:
 | Situation | Result |
 | :-------- | :----- |
 | Your lowest of the 9 | Dropped automatically |
-| Quiz 0, 3 attempts | Highest score counts |
 | Missed quiz | 0, absorbed by your dropped quiz |
 | Second missed quiz | 0, no further flexibility |
 | Seat never booked | 0, same as a missed quiz |
