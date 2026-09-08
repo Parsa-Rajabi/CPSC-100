@@ -12,6 +12,7 @@
   - [Practice Problems](practice/index.html)
 
 - **Support**
+  - [Communication](communication.md)
   - [Teaching Team](teaching-team.md)
   - [Email Etiquette](email-etiquette.md)
   - [Code of Conduct](code-of-conduct.md)
