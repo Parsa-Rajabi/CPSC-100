@@ -1,139 +1,205 @@
 # Project
 
 > [!NOTE]
-> **The Fall 2026 project specification is still being finalized.** The structure,
-> policies, and resources on this page are settled. The task itself, the milestones, and
-> the weights will be published in the first few weeks of the course.
+> This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
-The project is where the ideas from lecture stop being abstract. You work in a team across the whole term, and your lab sessions are built to move it forward.
+## Overview
 
-## Learning Goals
+- 2 projects, equally weighted.
+- Group work. Groups are 4 to 5 students, assigned by the instructor.
+- Groups form in Lab 1, Week 2. Your group formation survey is due Sep 18.
 
-The project is how the following [course learning goals](syllabus.md#learning-goals) are practiced and assessed:
+| | Project | Weeks | Ends with |
+| :-: | :------ | :---: | :-------- |
+| 1 | [Signal or Noise?](project-1.md) | 2 to 7 | 3 submitted parts |
+| 2 | [From Blocks to Code](project-2.md) | 8 to 13 | A viva voce on Dec 2 |
 
-<!-- TODO: instructor decision required - confirm which of the six course learning goals
-     the project assesses once the task is defined. The list below is the likely set given
-     the "life of data" narrative, but it should match the final task. -->
+Your project grade covers 4 things:
 
-- **Trace** personal data across systems, from where it is created to where it ends up.
-- **Evaluate** the impacts of computational systems on people and communities.
-- **Reason** about responsibility and agency, as a user and as a creator.
-- **Identify** the ethical stakes embedded in technical decisions.
+| Component | What it is |
+| :-------- | :--------- |
+| Project parts | The documents you submit, graded in 5 bands |
+| Weekly stand-ups | 3 or 4 sentences each week: what you did, what is next, what is blocking you |
+| Retrospectives | A short group write-up after each project: what worked, what you would change |
+| Peer evaluation | A multiplier on your group's mark, so group members can get different grades |
 
-## Your Task
+<!-- TODO: instructor decision required - how the project 30% divides across parts,
+     stand-ups, and retrospectives. Stand-ups and retrospectives are now graded project
+     components rather than penalty-only items, which supersedes the earlier
+     "missing retrospective costs 1% of the course grade" decision. Confirm whether that
+     penalty is replaced or kept alongside the mark. -->
 
-*To be confirmed.*
+> [!WARNING]
+> To pass this course you must achieve at least **50% on the course project**. See [Course Evaluation](syllabus.md#course-evaluation) for how much the project is worth.
 
-<!-- TODO: instructor decision required - the project task. Two concepts exist from the
-     2026 redesign work; pick one, combine, or write a new one:
+### The 5 bands
 
-       1. "Signal or Noise?" - three connected components:
-          - Digital Footprint: students trace their own online presence and calculate a
-            personal exposure index
-          - AI Detector Experiment: students build a small dataset of real vs AI-generated
-            content and test multiple AI-detection tools
-          - Algorithmic Bias Case Study: students investigate a documented real-world case
-            of algorithmic bias using a structured template
+| Band | Mark | What it means |
+| :--- | :--: | :------------ |
+| Incomplete | 0 to 40 | Not there, or too fragmentary to assess |
+| Developing | 65 | Present, but does not answer what was asked |
+| Meets requirements | 80 | Does what was asked, accurately |
+| Exceeds requirements | 90 | Meets, plus you noticed something nobody asked for |
+| Exceptional | 100 | Exceeds, plus you pursued it |
 
-       2. "From Blocks to Code" - staged translation project:
-          build/annotate a Snap! program, connect it to course concepts, translate it to
-          Python, document the translation decisions, then complete a viva/demo explaining
-          the code and the reasoning
+- Doing everything correctly earns 80. At UBC, 80 is an A-.
+- Exceeds requires Meets first. A good tangent does not offset a missing section.
+- The top 2 bands are for noticing something, not for polish.
 
-     Note: the earlier redesign document assumed two projects. That is not confirmed. This
-     page is written for a single project; adjust if there are two.
+## Platform
 
-     Prior art: archive/2024w2/project.md is the "Impact of Computing on Relationships"
-     infographic project (M0 contract, M1 proposal, M2 data inquiry, M3 infographic). -->
+| What | Where | Notes |
+| :--- | :---- | :---- |
+| Peer evaluation | iPeer | UBC's tool for rating teammates' contribution |
+| Group contract | [Template and info](group-work-resources.md) | |
+| Snap! work | [snap.berkeley.edu](https://snap.berkeley.edu) | Browser-based, nothing to install |
+| Python work | Jupyter | |
+| Viva voce booking | [us.prairietest.com](https://us.prairietest.com) | Same place you book a [quiz](quizzes.md#booking-your-seat) |
 
-## Group Size
+<!-- TODO: instructor decision required - where project parts, weekly stand-ups, and
+     retrospectives are submitted (Canvas? PrairieLearn? Ed?). Students will ask in
+     Week 2 when the group formation survey goes out. -->
 
-*To be confirmed.*
+## Schedule
 
-<!-- TODO: instructor decision required - group size, and whether groups must form within
-     a single lab section. With five lab sections and ~150 students, forming within a
-     section keeps TA oversight and in-lab collaboration workable. -->
+Each part is submitted separately, in its own week. Neither project has a single end-of-project submission.
 
-## Milestones
+> [!TIP]
+> Every project deadline is a Thursday at 11:59pm Pacific. 2 exceptions: the group formation survey is Friday Sep 18, and the viva voce is a booked appointment on Dec 2.
 
-The project is broken into milestones rather than one final submission, so you get feedback while you can still act on it.
+| Week | Due date | What is due |
+| :--: | :------- | :---------- |
+| 2 | Fri Sep 18 | Group formation survey |
+| 3 | Thu Sep 24 | Group contract |
+| 4 | Thu Oct 1 | [Project 1B](project-1.md) dataset selection<br>Project 0 retrospective + iPeer 0 *(practice, ungraded)* |
+| 5 | Thu Oct 8 | [Project 1A](project-1.md), digital footprint |
+| 6 | Thu Oct 15 | [Project 1B](project-1.md), AI detector experiment |
+| 7 | Thu Oct 22 | [Project 1C](project-1.md), algorithmic bias case study |
+| 8 | Thu Oct 29 | Project 1 retrospective + iPeer 1 |
+| 9 | Thu Nov 5 | [Project 2A](project-2.md), Snap! program and annotations |
+| 11 | Thu Nov 19 | [Project 2B](project-2.md), Snap! to Python translation |
+| 13 | Wed Dec 2 | [Project 2C](project-2.md), your viva voce appointment |
+| 13 | Thu Dec 3 | Project 2 retrospective + iPeer 2 |
 
-<!-- TODO: instructor decision required - milestone names, artifacts, weights, and due
-     dates. Then update:
-       - the Course Evaluation table in docs/syllabus.md
-       - the Deliverable column in docs/schedule.md
-       - the milestone list in docs/project-peer-evaluation.md -->
+Weekly stand-ups run every week from Week 2 to Week 13.
 
-| # | Milestone | What you submit | Weight | Due |
-| :-: | :-------- | :-------------- | :----: | :-- |
-| 0 | Group Contract | Signed contract | | |
-| 1 | *to be confirmed* | | | |
-| 2 | *to be confirmed* | | | |
-| 3 | *to be confirmed* | | | |
+<!-- TODO: instructor decision required - confirm the weekly stand-up deadline. Thursday
+     11:59pm matches everything else, but a stand-up landing the same night as a project
+     part in Weeks 4 to 9 may be worth staggering (e.g. Monday) so the two do not collide. -->
 
-## Labs and the Project
+Notes on the schedule:
 
-Labs are not a separate stream of work. Each lab builds a piece of what your project needs, and gives you TA time to check that piece before it becomes a milestone submission.
+- "Project 0" is not a project. It is the label for the setup phase in Weeks 2 to 4: forming your group and writing your contract. Its retrospective and iPeer round are a practice run and are not graded.
+- Your first deadline is the group formation survey. Everything else depends on groups existing.
+- Weeks 4 through 7 have a project deadline every week, and most also have a lab and a quiz. Your Part B dataset selection lands in Week 4, which has no lab, so Lab 2 in Week 3 is your last scheduled group time before it.
+- The last deadline is the Dec 2 viva voce. It is mandatory and a [passing requirement](syllabus.md#passing-criteria).
 
-Come to lab having done any listed pre-work. Your team gets much more out of the session when nobody is starting from zero.
+## Late Submission
 
-## Group Contract
+> [!ATTENTION]
+> Late work is not accepted on the project. Nothing submitted after a deadline is marked.
 
-Your first milestone is a group contract. It is not paperwork: it is where you decide, in writing and before there is any pressure, how your team will actually operate.
+- Submit a partial document rather than nothing. An incomplete submission earns marks; a missing one does not.
+- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process, and tell us early.
 
-- [Group Contract Template](assets/group-resources/group-contract-template.pdf)
-- [Group Contract Info](assets/group-resources/group-contract-info.pdf)
-- [Group Work Resources](group-work-resources.md): how to prepare for the contract meeting, assign roles, and handle conflict
+### Grading Guide
 
-A useful contract names specific behaviours, timelines, tools, roles, and consequences. "We will communicate well" is not a contract.
+| Situation | Result |
+| :-------- | :----- |
+| Complete and accurate work | 80, the Meets band |
+| Anything submitted late | 0 for that part |
+| Missing a weekly stand-up | Deduction from your project grade |
+| Missing a retrospective | Deduction, applied to every member of the group |
+| Group contract, second revision onward | 1% of your course grade per resubmission |
+| Peer evaluation below your group's average | Your individual mark is adjusted down |
+| Fabricated source or result | 0 on the project for the student responsible |
 
-## Peer Evaluation
+## Group Process
 
-Milestones are graded at the group level, but your individual grade on selected milestones is adjusted by a peer evaluation multiplier.
+### Group contract
 
-See [Project Peer Evaluation](project-peer-evaluation.md) for the formula, worked examples, the late and quality policies, and the evaluation criteria.
+Your contract sets out roles, expectations, how you communicate, and how you resolve conflict. Name specific behaviours, timelines, and consequences. "We will communicate well" is not a contract.
 
-## Individual Accountability
+> [!ATTENTION]
+> Every contract is rejected on the first round, by design. It is how the exercise works, not a comment on your group.
 
-Group work should not hide what any one person understands. Whatever the final artifact looks like, you should be able to explain your team's decisions and your own contribution to them.
+- 1 free revision.
+- Each resubmission after that costs 1% of your course grade.
+- Template and guidance: [Group Work Resources](group-work-resources.md).
 
-If you submit it, you should be able to explain it. That applies whether the work came from a teammate, a tutorial, documentation, or an AI tool.
+### Weekly stand-ups
 
-## If Something Goes Wrong in Your Team
+- Posted by each student, every week from Week 2 to Week 13.
+- 3 or 4 sentences: what you did, what is next, what is blocking you.
+- Graded as part of your project mark.
 
-Raise it early. The teaching team can help much more effectively during the project than after the final submission.
+### Retrospectives
 
-1. **Try to resolve it within the team first**, using the process in your group contract. Document what you tried.
-2. **If that does not work, bring it to your TA** with your documentation.
-3. **The teaching team will decide next steps** if TA-level resolution is not enough.
+A retrospective is a short group write-up after finishing something: what worked, what did not, what you would change. Your group submits 3.
 
-Full details are in the [syllabus](syllabus.md#importance-of-group-work-and-participation-policy) and the [Group Work Resources](group-work-resources.md#conflict-resolution).
+| Retrospective | Week | Covers |
+| :------------ | :--: | :----- |
+| Project 0 | 4 | Forming your group and writing the contract |
+| Project 1 | 8 | [Signal or Noise?](project-1.md) |
+| Project 2 | 13 | [From Blocks to Code](project-2.md) |
 
-## Late Work
+### Peer evaluation
 
-Project milestones follow the [Late Deliverables](syllabus.md#late-deliverables) policy in the syllabus.
+Peer evaluations run in iPeer and act as a multiplier on your group's mark.
 
-## Resources
+| Round | Week | Graded |
+| :---- | :--: | :----- |
+| iPeer 0 | 4 | No. Practice round. |
+| iPeer 1 | 8 | Yes |
+| iPeer 2 | 13 | Yes |
 
-### Writing
+See [Project Peer Evaluation](project-peer-evaluation.md) for the formula and criteria.
 
-- [Grammarly](https://www.grammarly.com/): We grade you, among other things, on the quality of your writing. Do review Grammarly's terms and conditions beforehand to check their content ownership terms. Many services include a clause stating the service can use submitted work however they wish without seeking additional consent.
-- [Mendeley](https://www.mendeley.com/): supports the management of references
-- [Zotero](https://www.zotero.org/): supports the management of references
+### If contribution is uneven
 
-### Working in Teams
+By default everyone in a group receives the same grade. If lab records and peer evaluations agree that somebody contributed significantly less, that person's grade may be adjusted down.
 
-Your TAs and the instructor are available to help with difficult issues, but we encourage you to first try to resolve problems with your teammates through mature and active communication.
+Raise problems early:
 
-In the past, groups have broken down due to poor communication and decision-making strategies. Understanding the benefits of group work and creating a group contract can enhance group interactions.
+1. Talk to your teammates, using the process in your contract. Keep a record of what you tried.
+2. Bring it to your TA with that record if talking did not fix it.
+3. Ask us to step in if the TA cannot resolve it. Contact us at least 12 days before the deadline, and set up a meeting at least 9 days before it with everyone present.
 
-- [Communicating Effectively](https://learningcommons.ubc.ca/student-toolkits/working-in-groups/communicating-effectively/)
-- [Working in Groups](https://learningcommons.ubc.ca/student-toolkits/working-in-groups/)
-- [Working in Groups (Video)](https://youtu.be/CIp_kFR5_jc)
-- [Group Work (Video)](https://youtu.be/2yvNngrj1jo)
-- [Group Work: Can't We All Just Get Along? (Video)](https://youtu.be/Q3dbftkeWPY)
-- [How to Excel at Teamwork](https://learningcommons.ubc.ca/how-to-excel-at-teamwork/)
-- [Group Process](https://learningcommons.ubc.ca/student-toolkits/working-in-groups/group-process/)
-- [Resolving Conflict](https://learningcommons.ubc.ca/student-toolkits/working-in-groups/resolving-conflict/)
-- [How to navigate group projects](https://students.ubc.ca/ubclife/navigate-group-projects)
-- [Teamwork Skills: Being an Effective Group Member](https://uwaterloo.ca/centre-for-teaching-excellence/teaching-resources/teaching-tips/tips-students/being-part-team/teamwork-skills-being-effective-group-member)
+Those windows exist because fixing a group takes 1 to 2 weeks to work.
+
+Full details: [syllabus](syllabus.md#importance-of-group-work-and-participation-policy) and [Group Work Resources](group-work-resources.md#conflict-resolution).
+
+## Academic Integrity and AI
+
+Fabrication means presenting something as true when it is not:
+
+- citing a source that does not exist;
+- reporting results you did not obtain;
+- describing events that did not happen;
+- misrepresenting what a real source says.
+
+A wrong page number or a broken link is an error, not fabrication.
+
+> [!WARNING]
+> Fabrication means **0 on the project** for the student responsible, and 0 on the affected part for the rest of the group.
+
+- Open every source before you submit and confirm it exists and says what you say it says.
+- [Lab 5](labs.md) includes a verification step for this.
+- AI use is governed by the [AI Policy](ai-policy.md).
+- An AI usage disclosure is required in both project submissions.
+- You remain responsible for the accuracy of what you submit, and you should be able to explain any work submitted under your name.
+
+<!-- TODO: instructor decision required - two things before the fabrication policy goes
+     live: (1) the default when it is impossible to attribute who fabricated, and
+     (2) confirmation that a penalty this size can be applied by the instructor directly
+     rather than through the academic integrity process. -->
+
+## Related
+
+- [Project 1: Signal or Noise?](project-1.md)
+- [Project 2: From Blocks to Code](project-2.md)
+- [Project Peer Evaluation](project-peer-evaluation.md) - the multiplier and criteria
+- [Group Work Resources](group-work-resources.md) - contract template, roles, conflict
+- [Labs](labs.md) - where most project work happens
+- [Schedule](schedule.md) - deadlines in context
+- [Course Evaluation](syllabus.md#course-evaluation) - the whole grade breakdown
