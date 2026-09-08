@@ -55,7 +55,7 @@ Studying by re-reading slides tends not to work well for this. Working problems 
 | Redo lab and in-class activities without looking at the answers | The quiz rewards reasoning you can reproduce, not answers you recognize |
 | Explain a concept out loud to someone else | Explaining exposes the gaps that re-reading hides |
 | Work the [practice problems](practice/index.html) | Extra reps on the same kinds of reasoning |
-| Bring what you cannot work out to office hours or lab | A five-minute conversation often beats an hour of re-reading |
+| Bring what you cannot work out to drop-in hours or lab | A five-minute conversation often beats an hour of re-reading |
 
 ## If You Miss a Quiz
 

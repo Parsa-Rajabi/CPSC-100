@@ -8,11 +8,7 @@
 
 ## Instructor
 
-**Parsa Rajabi** — office hours and email are on the [syllabus](syllabus.md#course-instructor) and [Course Communication](communication.md).
-
-<!-- TODO: instructor decision required - your pronouns. -->
-
-Pronouns: *to be confirmed*
+**Parsa Rajabi** — pronouns, office, drop-in hours, and email are on the [syllabus](syllabus.md#course-instructor) and [Course Communication](communication.md).
 
 ## Teaching Assistants
 
@@ -25,9 +21,9 @@ For questions about your own lab, contact its **lead TA** first.
      then add an image cell to the table below. The CPSC 344 site used the same
      convention, e.g. docs/assets/teaching-team/jessica-picture.png -->
 
-<!-- TODO: instructor decision required - TA office hours, once scheduled. -->
+<!-- TODO: instructor decision required - TA drop-in hours, once scheduled. -->
 
-| **Name** | **Pronouns** | **Leads** | **Supports** | **Office Hours** |
+| **Name** | **Pronouns** | **Leads** | **Supports** | **Drop-in Hours** |
 | :------- | :----------- | :-------: | :----------: | :--------------- |
 | **Parsa** Seyfourian | *to be confirmed* | L1A | L1B | *to be confirmed* |
 | **Kate** Manskaia | *to be confirmed* | L1B | L1C | *to be confirmed* |

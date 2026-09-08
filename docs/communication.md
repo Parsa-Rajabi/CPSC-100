@@ -78,7 +78,7 @@ flowchart TD
 
 ### Instructor
 
-| Name             | Email                                   | Office Hours                                        | Location  |
+| Name             | Email                                   | Drop-in Hours                                       | Location  |
 | :--------------- | :-------------------------------------- | :-------------------------------------------------- | :-------- |
 | **Parsa** Rajabi | prajabi [at] `DELETEthisTEXT` cs.ubc.ca | Mon 2:50-3:50pm · Wed 2:50-3:50pm · Fri 2:50-3:20pm | SWING 110 |
 
@@ -94,10 +94,31 @@ Please avoid emailing TAs unless absolutely necessary; use Ed Discussion first. 
 | **Jessica** He | xhe42 [at] `DELETEthisTEXT` student.ubc.ca |
 | **Sally** Han | shan31 [at] `DELETEthisTEXT` student.ubc.ca |
 
-Which lab each TA leads and supports, and their office hours, are on the [Teaching Team](teaching-team.md) page. For questions about your own lab, contact its lead TA first.
+Which lab each TA leads and supports, and their drop-in hours, are on the [Teaching Team](teaching-team.md) page. For questions about your own lab, contact its lead TA first.
 
 > [!NOTE]
 > There are two people named Parsa in this course: your instructor (Parsa Rajabi) and one of your TAs (Parsa Seyfourian). Please use full names in messages so we can route them correctly.
+
+## Drop-in Hours
+
+They are called drop-in hours because you can just drop in. No appointment, no sign-up, and **no need to arrive with a question**.
+
+If you are wondering whether your reason is good enough: it is. Here is what students actually use them for.
+
+| Come to... | |
+| :--------- | :-- |
+| Work on a lab or the project | with someone nearby to ask when you get stuck |
+| Check that you understood something | far cheaper than discovering it on a quiz |
+| Go over a quiz question you got wrong | understanding the mistake is where the learning is |
+| Ask what a concept is actually *for* | a fair question, and often the most interesting one |
+| Ask about CS, research, courses, co-op | not everything has to be about CPSC 100 |
+| Just say hello | genuinely fine |
+
+A half-formed question is normal and useful. So is sitting quietly and working while other people ask things. You will often learn something from a question you would never have thought to ask.
+
+**If you need something private or longer** — a grade concern, personal circumstances, or a conversation that needs proper time — email to arrange a separate meeting instead. See the routing chart above for which address to use.
+
+Times and locations: the instructor's are in the table above and on the [syllabus](syllabus.md#course-instructor); TA drop-in hours are on the [Teaching Team](teaching-team.md) page.
 
 ## Writing an Email That Gets a Fast Reply
 
@@ -123,7 +144,7 @@ Using AI/ChatGPT to generate emails is **not recommended**, and such emails will
 
 ## A Note on Email vs. Conversation
 
-Many course-related questions need back-and-forth, and email is a slow way to have a conversation. Office hours, lab time, and the discussion board will usually get you unstuck faster. Save email for things that are genuinely personal.
+Many course-related questions need back-and-forth, and email is a slow way to have a conversation. Drop-in hours, lab time, and the discussion board will usually get you unstuck faster. Save email for things that are genuinely personal.
 
 ## Related
 

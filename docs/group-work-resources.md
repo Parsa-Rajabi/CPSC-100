@@ -330,7 +330,7 @@ Before contacting the TA, prepare:
 
 Useful message template:
 
-> Hi [TA name], our group has tried to resolve a project participation issue internally, but it is still affecting our progress. We have documented the issue and our attempted resolution steps. Could we schedule a meeting during your office hours or another available time? We are looking for guidance on [specific issue].
+> Hi [TA name], our group has tried to resolve a project participation issue internally, but it is still affecting our progress. We have documented the issue and our attempted resolution steps. Could we schedule a meeting during your drop-in hours or another available time? We are looking for guidance on [specific issue].
 
 </details>
 

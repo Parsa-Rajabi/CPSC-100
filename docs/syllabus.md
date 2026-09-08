@@ -9,17 +9,18 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
 - Parsa Rajabi (he/him)
   - Email: refer to [Course Communication](communication.md) for details.
   - Office: ICCS 255 
-- Office Hours:
+- Drop-in Hours:
   - Mondays 2:50-3:50pm SWING 110
   - Wednesdays 2:50-3:50pm SWING 110
   - Fridays 2:50-3:20pm SWING 110
 
-Not sure where ICCS 255 or SWING 110 is? Check the [UBC Map](https://maps.ubc.ca/?code=SWNG).
+Not sure where ICCS 255 or SWING 110 is? Check the [UBC Map](https://maps.ubc.ca/).
 
 > [!TIP]
 > **Read [Course Communication](communication.md) first.** It has the Ed Discussion sign-up link, a flowchart showing where each kind of question should go, and every email address for the teaching team.
 
-For teaching team profiles, lab section assignments, and TA office hours, see the [Teaching Team](teaching-team.md) page.
+For teaching team profiles, lab section assignments, and TA drop-in hours, see the [Teaching Team](teaching-team.md) page.
+
 
 ## Lectures
 
@@ -28,7 +29,10 @@ Delivery Method: In-person
 - **Monday, Wednesday, Friday 2:00-3:00pm**
 - **West Mall Swing Space Building (SWNG), Floor 2, Room 222** — [UBC Map](https://maps.ubc.ca/?code=SWNG)
 
-Lectures run **September 9 to December 7, 2026**. The first CPSC 100 lecture is **Wednesday, September 9, 2026 at 2:00pm**.
+> [!WARNING]
+> This course requires significant commitment for both the teaching team and the students! See below:
+
+The course is designed to be interactive, with a focus on hands-on learning and practical applications of introductory computing concepts. Students are expected to actively engage in **group work outside of class time** and to collaborate with their peers on a semester-long project. **A lighter course load is strongly recommended** to ensure active participation, high-quality work, and the potential to earn a good grade in the course. Students who are working full-time or have other significant commitments should carefully consider whether they can meet the demands of this course. If in doubt, please reach out to the instructor to discuss before the add/drop deadline.
 
 #### Land Acknowledgement
 
@@ -40,20 +44,6 @@ Labs are hands-on and interactive, and **built to support your project work**. T
 
 **Section times, room, and which TA leads each section are on the [Labs](labs.md) page.**
 
-## Important Dates
-
-Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
-
-|            Event             |           Date            |
-| :--------------------------: | :-----------------------: |
-|     First day of classes     |  Wednesday, Sept 9, 2026  |
-| Last day to drop without a W |   Monday, Sept 21, 2026   |
-|        Midterm Break         |     Nov 9 – 11, 2026      |
-|           Last lab           | Dec 2 (Wed) / Dec 3 (Thu) |
-|         Last lecture         |    Monday, Dec 7, 2026    |
-|      Final exam period       |      Dec 11-22, 2026      |
-
-A week-by-week view of lecture topics, labs, and deliverables is on the [Schedule](schedule.md) page.
 
 ## Course Description
 
@@ -112,26 +102,38 @@ Note: the course evaluation is subject to change until the end of the first week
 
 **Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.**
 
+## Important Dates
+
+Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
+
+|            Event             |           Date            |
+| :--------------------------: | :-----------------------: |
+|     First day of classes     |  Wednesday, Sept 9, 2026  |
+| Last day to drop without a W |   Monday, Sept 21, 2026   |
+|        Midterm Break         |     Nov 9 – 11, 2026      |
+|           Last lab           | Dec 2 (Wed) / Dec 3 (Thu) |
+|         Last lecture         |    Monday, Dec 7, 2026    |
+|      Final exam period       |      Dec 11-22, 2026      |
+
+A week-by-week view of lecture topics, labs, and deliverables is on the [Schedule](schedule.md) page.
+
 ### Exams
 
-There is no midterm this term. The [Final Exam](final.md) page has logistics, format, topic coverage, and what to do if you cannot attend.
-
+There is no midterm this term. Refer to [Final Exam](final.md) page for more details.
 ### Project
 
-The project is a term-long group assignment. Full details are on the [Project](project.md) page, and the peer evaluation mechanism is on the [Project Peer Evaluation](project-peer-evaluation.md) page.
+The project is a semester-long group assignment. Full details are on the [Project](project.md) page, and the peer evaluation mechanism is on the [Project Peer Evaluation](project-peer-evaluation.md) page.
 
 ### Passing Criteria
 
-If only we could give you all an A+ just for participating. Fortunately or unfortunately, we can't. UBC requires that students are assessed on the learning outcomes of the course. To pass this course, you must:
+To pass this course, you must:
 
-- obtain at least a 50% overall grade
-- and, in addition, achieve a passing grade (>50%) on the final exam
-- and, in addition, achieve a passing grade (>50%) on the course project
+- obtain at least a 50% overall grade based on the weighted average of all course components
+- achieve a passing grade (>50%) on the final exam
+- achieve a passing grade (>50%) on the course project
+- achieve a passing grade (>50%) on the course participation component
 
 Students who fail to meet these requirements will have a final grade of 45% or less.
-
-<!-- TODO: instructor decision required - confirm the passing criteria still match the
-     Fall 2026 evaluation structure once weights are set. -->
 
 > [!WARNING]
 > Course grades are considered final on a rolling basis (e.g. as we progress through the semester). After the regrading request deadline (e.g., 5 business days or deadline set by TA/instructor), grades will be considered final and no further requests will be accepted. Students are encouraged to review their grades and ask questions within the specified time frame. Inquiries after the deadline will not be considered.
@@ -144,7 +146,7 @@ Requests for grade adjustments (especially final course grade) based on non-acad
 
 Students are expected to meet the academic requirements of the course as outlined in this syllabus. Soliciting grade changes undermines the integrity of the evaluation process and may result in a negative impact on your final grade.
 
-If you have concerns about your performance, you are encouraged to seek feedback early and make use of available resources, such as office hours and course support services, to address any challenges proactively.
+If you have concerns about your performance, you are encouraged to seek feedback early and make use of available resources, such as drop-in hours and course support services, to address any challenges proactively.
 
 ### Review of Assigned Standing (RAS)
 
@@ -158,14 +160,14 @@ More details here: https://students.ubc.ca/enrolment/courses/grades/
 
 Students in CPSC 100 have diverse backgrounds and learning needs. Various resources are available to help you explore topics of interest in depth. Many students find that just attending lectures and labs is not enough, and you are strongly advised to use the available resources. Note that you should not take needing to seek extra ways to practice what you've learned as a sign that you're "not good at" the material; it's simply that you need more practice. The people in the class who you see who seem to be having no trouble at all have almost certainly had more practice than you (or they're having trouble and don't show it - or both!). Don't freak out. Ask questions and use the help resources: that's what they're for.
 
-TAs and your instructor have office hours. If you require an appointment, contact us with at least a few days notice. TAs are also available during scheduled lab times. (Note that the TAs must prioritize helping students with the scheduled lab assignment.)
+TAs and your instructor hold **drop-in hours**. No appointment is needed and you do not need to arrive with a question. See [what drop-in hours are for](communication.md#drop-in-hours). If you need a longer or private meeting instead, email to arrange one with a few days notice. TAs are also available during scheduled lab times, though during lab they prioritize helping students with that week's lab work.
 
 Your classmates are an excellent resource for discussion and peer support. In addition to opportunities to chat before and after class, the discussion board is also available.
 
 [Practice problems](practice/index.html) from previous offerings are available for exam preparation.
 
 > [!TIP]
-> A note about e-mail support: Many course-related questions require two-way discussion, so e-mail is sometimes not the most efficient way to get help. Office hours and the discussion board should be your first resort for rapid assistance. Please limit e-mail to requests of a personal nature—you'll get faster responses on the discussion board!
+> A note about e-mail support: Many course-related questions require two-way discussion, so e-mail is sometimes not the most efficient way to get help. Drop-in hours and the discussion board should be your first resort for rapid assistance. Please limit e-mail to requests of a personal nature—you'll get faster responses on the discussion board!
 
 ## General Advice
 
