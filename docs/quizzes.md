@@ -5,8 +5,9 @@
 
 ## Overview
 
-- 9 quizzes, Quiz 0 through Quiz 8.
-- Your lowest quiz is dropped automatically. The other 8 count equally.
+- 8 quizzes, Quiz 1 to Quiz 8, plus Quiz 0.
+- Quiz 0 is online and covers the syllabus and Code of Conduct. Quizzes 1 to 8 are sat in the ORCA facility.
+- Your lowest of the 9 is dropped automatically. The other 8 count equally.
 - All quizzes are individual work.
 - No midterm in this course. The quizzes replace it.
 - Quizzes test reasoning, tracing, and applying ideas to unfamiliar examples, not memorization.
