@@ -258,7 +258,54 @@ While "life happens," poor planning by you does not count. And definitely do not
 
 In all cases, exceptional situations are considered on an individual basis, subject to the approval of the instructor and supported by legitimate and verified documentation. Refer to the academic concessions section below for more details.
 
+### Academic Accommodations and the Centre for Accessibility
+
+Students with a disability or ongoing medical condition can arrange academic accommodations through the [Centre for Accessibility](https://students.ubc.ca/about-student-services/centre-for-accessibility). Accommodations are arranged through the Centre, not through the teaching team, and they are available to you for the whole term rather than case by case.
+
+**Start early.** Registration with the Centre is a multi-step process and can take some time, so begin as soon as you can rather than in the week of an assessment.
+
+#### What you need to do
+
+1. **Register with the Centre for Accessibility.** You must be registered before you can request accommodations.
+2. **Send your Letter of Accommodation (LOA).** Once registered, you send your LOA to your instructors through [Clockwork](https://students.ubc.ca/about-student-services/centre-for-accessibility/after-registering-with-the-centre-for-accessibility), the Centre's online portal. Do this **as soon as possible, and preferably within the first two weeks of class**. Sending your LOA is also what unlocks exam booking and note-taker services.
+3. **Upload a copy of your LOA to Canvas.** Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
+4. **Book your own accommodated assessments.** The Centre does not book them for you.
+
+<!-- TODO: instructor decision required - two things:
+       - the exact Canvas location for LOA uploads (a dedicated assignment? a
+         submission folder?). The concession form above also says "via Canvas" without
+         naming a location, so both need the same answer.
+       - whether quiz accommodations for CPSC 100 run through the Centre for
+         Accessibility or through ORCA/CBTF directly. ORCA administers our quizzes and
+         handles accommodated sittings for other CPSC courses through PrairieTest, so
+         students may not need a Centre booking for quizzes at all. docs/quizzes.md
+         currently tells them to arrange through the Centre first. Confirm which is
+         right before term, since a wrong instruction here costs a student a quiz. -->
+
+#### Booking deadlines
+
+Booking is your responsibility, and the deadlines are set by the Centre rather than by this course:
+
+| Assessment | Book at least |
+| :--------- | :------------ |
+| Quizzes and in-term assessments | **7 days** before the assessment date |
+| Final exam | **7 days** before the start of the formal examination period |
+
+> [!WARNING]
+> Late requests are not accepted by the Centre's booking system, and **if you have not booked, the instructor is not obligated to provide the accommodation.** Book as soon as the window opens.
+
+On the day, arrive **15 minutes early** and check in with your UBC card.
+
+#### Where to go with questions
+
+- **About your accommodations, registration, or booking:** contact the Centre for Accessibility directly at **info.accessibility@ubc.ca** or **604-822-5844**.
+- **About how an accommodation applies to a specific CPSC 100 assessment:** see [Course Communication](communication.md) for the right address. Accommodation matters are confidential and should not be posted on the discussion board.
+
+Arrangements specific to individual assessments are on the [Quizzes](quizzes.md) and [Final Exam](final.md) pages.
+
 ### Academic Concessions
+
+Accommodations and concessions are different things. Accommodations, above, are ongoing and arranged through the Centre for Accessibility. Concessions, below, are for short-term unanticipated events.
 
 UBC Faculty of Science recognizes that experiencing a challenging emergency or unanticipated event is impactful on a student's ability to fulfill close in time academic commitments. In such circumstances, we want to ensure that you are well connected to support resources and to help you navigate your academic options.
 
