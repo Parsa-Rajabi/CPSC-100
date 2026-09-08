@@ -45,11 +45,15 @@ We acknowledge that the land on which we gather is the traditional, ancestral an
 
 How have computers impacted the world around you, and how do they do it? CPSC 100 (Computational Thinking) covers related topics, including what businesses can do with your personal information such as your phone number, how the Internet works, how recommendation and decision systems shape what you see, and what artificial intelligence can and cannot actually do.
 
-This term the course is organized around one question:
+CPSC 100 is not a programming course in the way CPSC 110 is, but you *will* write programs. We start in a visual block language (Snap!) so you can see the structure of a program without fighting syntax, and move to Python later in the term.
 
-> **What is a computer, how does it work, and what does it mean to be responsible for it?**
+CPSC 100 is targeted for first-year students, but is open to all UBC students. You cannot get credit for CPSC 100 if you have credit for CPSC 110.
 
-We follow the life of data from the moment it is created to the consequences it has, in three parts:
+## Course Theme
+
+This course explores what a computer is, how it works, and what it means to be responsible for it, by tracing the life of our own data from its creation to its consequences.
+
+We follow that life in three parts:
 
 | Part |          Theme          |                                         What we cover                                          |
 | :--: | :---------------------: | :--------------------------------------------------------------------------------------------: |
@@ -57,24 +61,20 @@ We follow the life of data from the moment it is created to the consequences it 
 |  II  | **Digital Adolescence** |  Algorithms, decision and pricing systems, data mining, recommender systems, algorithmic bias  |
 | III  |  **Digital Adulthood**  | Python, AI, consent, responsible use, digital legacy and digital traces, computers and society |
 
-CPSC 100 is not a programming course in the way CPSC 110 is, but you *will* write programs. We start in a visual block language (Snap!) so you can see the structure of a program without fighting syntax, and move to Python later in the term.
-
-CPSC 100 is targeted for first-year students, but is open to all UBC students. You cannot get credit for CPSC 100 if you have credit for CPSC 110.
-
 ## Pre-requisites (unofficial)
 
 A strong attention to detail, a willingness to learn new problem-solving techniques, and a desire to work collaboratively with others. No prior computing experience is required.
 
-## Learning Goals
+## High-Level Learning Outcomes
 
 On completing this course, you will be able to:
 
-1. **Explain** how computers represent, store, and process information.
-2. **Trace** personal data across systems, from where it is created to where it ends up.
-3. **Evaluate** the impacts of computational systems on people and communities.
-4. **Reason** about responsibility and agency, both as a user of these systems and as someone who builds them.
-5. **Identify** the ethical stakes embedded in technical decisions, rather than treating ethics as a separate topic.
-6. **Translate** computational ideas into working programs, moving from Snap! to Python.
+1. **Explain** what a computer is and how it represents, stores, and processes information, from bits to hardware to software: the conditions under which digital data comes into being.
+2. **Trace** how a piece of personal data moves and transforms as it is collected, shared, and repurposed across systems and time: how it grows up.
+3. **Evaluate** the real-world impact of computational systems (algorithms, platforms, AI) on individuals and society, including who benefits and who bears risk.
+4. **Reason** about your own responsibilities and agency as both a user and a creator of technology: what it means to act as a digital adult, and to build systems others will live inside of.
+5. **Identify** the ethical stakes embedded in a technical decision at the moment it is made, not after the fact.
+6. **Translate** computational ideas into working programs, progressing from visual, block-based programming (Snap!) to textual programming (Python) as your command of computational structure matures.
 
 Each of these is practiced in class and in lab, and assessed through the quizzes, the project, and the final exam.
 
