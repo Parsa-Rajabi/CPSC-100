@@ -104,6 +104,28 @@ Labs are hands-on and interactive, and **built to support your project work**. T
 
 There is no midterm this term. Refer to [Final Exam](final.md) and [Quizzes](quizzes.md) page for more details.
 
+### Self-Scheduled Assessments in ORCA
+
+In this course, quizzes and the final exam will be held in UBC's **ORCA** (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
+
+Your assessments in this course will be **self-scheduled** in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available between the hours of **11 AM to 6 PM, Monday to Sunday** (Saturdays and Sundays have reduced availability).
+
+Reservations for assessments typically open **2 weeks before your assessment, on a Tuesday at 10 AM**. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
+
+#### Enrolling in PrairieTest
+
+To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started page for students](https://orca.ubc.ca/students/getting-started/), which includes a video walking you through the setup process.
+
+#### Booking your first assessment
+
+1. Go to our course in Canvas and, on the left sidebar, click **ORCA Reservations**.
+2. Open the link in a new tab.
+3. Click **Enrol** to join the PrairieTest course.
+4. Click **Home**. Your course now shows up on the PrairieTest home page.
+5. At the moment, you will likely see the message: "You don't currently have any exams available for reservations".
+6. Once we make your first quiz visible for reservations, you will be able to book a session for the assessment.
+7. You are able to cancel or change your reservation at any time, up to **30 minutes before** your reservation, during the assessment window.
+
 ### Project
 
 The project is a semester-long group assignment. Full details are on the [Project](project.md) page, and the peer evaluation mechanism is on the [Project Peer Evaluation](project-peer-evaluation.md) page.

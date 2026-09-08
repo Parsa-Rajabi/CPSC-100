@@ -30,6 +30,28 @@
 - No email needed for 1 missed quiz.
 - Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process.
 
+## Self-Scheduled Assessments in ORCA
+
+In this course, quizzes and the final exam will be held in UBC's **ORCA** (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
+
+Your assessments in this course will be **self-scheduled** in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available between the hours of **11 AM to 6 PM, Monday to Sunday** (Saturdays and Sundays have reduced availability).
+
+Reservations for assessments typically open **2 weeks before your assessment, on a Tuesday at 10 AM**. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
+
+#### Enrolling in PrairieTest
+
+To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started page for students](https://orca.ubc.ca/students/getting-started/), which includes a video walking you through the setup process.
+
+#### Booking your first assessment
+
+1. Go to our course in Canvas and, on the left sidebar, click **ORCA Reservations**.
+2. Open the link in a new tab.
+3. Click **Enrol** to join the PrairieTest course.
+4. Click **Home**. Your course now shows up on the PrairieTest home page.
+5. At the moment, you will likely see the message: "You don't currently have any exams available for reservations".
+6. Once we make your first quiz visible for reservations, you will be able to book a session for the assessment.
+7. You are able to cancel or change your reservation at any time, up to **30 minutes before** your reservation, during the assessment window.
+
 ## Platform
 
 ### Quiz 0
@@ -49,8 +71,9 @@ Online, on your own time, from anywhere.
 | Link | For |
 | :--- | :-- |
 | [us.prairietest.com](https://us.prairietest.com) | Booking your seat |
-| [Reservation help](https://cbtf.ubc.ca/students/reservations) | How booking works, plus an orientation video |
-| [Rules and procedures](https://cbtf.ubc.ca/students/procedures) | Exact room, check-in, what you can bring |
+| [Getting Started](https://orca.ubc.ca/students/getting-started/) | Enrolling in PrairieTest, plus an orientation video |
+| [Policies and procedures](https://orca.ubc.ca/students/policies/) | Check-in, what you can bring, missed reservations |
+| [Room list](https://orca.ubc.ca/about/rooms/) | Which ORCA rooms exist and where they are |
 
 On the day:
 
@@ -70,12 +93,10 @@ Results:
 - Not emailed and not posted.
 
 <!-- TODO: instructor decision required - remaining ORCA details:
-       - the exact room number for CPSC 100 quizzes (ICCS 008 and 014 are the CBTF rooms
-         used by other CPSC courses; confirm ours)
        - how long each quiz is
-       - orca.ubc.ca is the new front door for the facility but rendered no content when
-         checked in Sept 2026, so this page links cbtf.ubc.ca instead. Confirm which URL
-         to send students to. -->
+     Resolved: orca.ubc.ca is live and is now the front door this page links to.
+     Room number is no longer a course-level question: sessions are self-scheduled and
+     the room is shown when a student books. The full room list is linked above. -->
 
 ## Schedule
 
@@ -85,18 +106,19 @@ Results:
 - A quiz you never booked scores 0.
 - Pick a session on the Wednesday or Thursday of that quiz's week.
 - Quiz 2 is the exception: Thursday or Friday.
-- First come, first served. You can cancel and rebook up to 30 minutes before your slot.
-- New to the facility? Watch the orientation video on the [reservations page](https://cbtf.ubc.ca/students/reservations) before Quiz 1.
+- First come, first served. Cancelling and rebooking is covered in [Self-Scheduled Assessments in ORCA](#self-scheduled-assessments-in-orca) above.
+- New to the facility? Watch the orientation video on ORCA's [Getting Started page](https://orca.ubc.ca/students/getting-started/) before Quiz 1.
 
 > [!WARNING]
 > Book early. Seats are shared with other courses and they do run out, especially midday.
 
-<!-- TODO: instructor decision required - when the booking window opens for each quiz,
-     and whether a one-time PrairieTest registration step is needed before the first
-     booking. -->
+<!-- Resolved: reservations open 2 weeks before the assessment, Tuesday at 10 AM, and a
+     one-time PrairieTest enrolment step is required. Both are documented in the
+     Self-Scheduled Assessments in ORCA section above, taken from ORCA's sample syllabus
+     statement. -->
 
-<!-- Cancel/rebook window (30 min) is from UBC's CBTF guidance, not a course policy.
-     Reverify before term, since facility rules change independently of us. -->
+<!-- The 30-minute cancel/rebook window is ORCA's rule, not a course policy. It now
+     comes from ORCA's own sample syllabus statement rather than the older CBTF pages. -->
 
 ### Quiz dates
 
