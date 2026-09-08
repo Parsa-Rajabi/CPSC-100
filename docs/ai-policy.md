@@ -15,11 +15,6 @@ CPSC 100 is a course about how computing shapes the world you live in, and gener
 - **Synthesis.** The teaching team will consolidate the class's input into a single policy, resolving conflicts and making sure the result is consistent with UBC, Faculty of Science, and Computer Science department policy.
 - **Publication.** The resulting policy will be posted on this page and linked from the [syllabus](syllabus.md#artificial-intelligence-ai-policy).
 
-<!-- TODO: instructor decision required - schedule the in-class AI policy activity and
-     record the date here once the lecture schedule is set. -->
-
-The activity date will be announced in class and on the [schedule](schedule.md).
-
 ## When It Will Be Available
 
 The policy will be published **before the add/drop deadline**, so that you can read the finalized policy while you still have the option to drop the course.
@@ -31,12 +26,6 @@ The policy will be published **before the add/drop deadline**, so that you can r
 ## Until Then
 
 Until the course policy is published, the university's expectations still apply. Students are responsible for being familiar with and adhering to the [UBC Academic Integrity guidelines](https://learningcommons.ubc.ca/academic-support/academic-integrity-citations/) and the [Academic Integrity](syllabus.md#academic-integrity) section of the syllabus.
-
-<!-- TODO: instructor decision required - decide whether an interim rule is needed for the
-     window between the first day of classes and the policy's publication (for example,
-     "no AI use on graded work until the policy is published", or "AI tools may not be
-     used on exams under any circumstances"). Right now this page defers entirely to the
-     general UBC academic integrity guidelines for that window. -->
 
 ## Questions
 
