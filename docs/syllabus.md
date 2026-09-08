@@ -110,12 +110,12 @@ The project is a semester-long group assignment. Full details are on the [Projec
 
 ### Passing Criteria
 
-To pass this course, student must:
+To pass this course, you must:
 
-- attend at least 7 out of 9 labs in-person 
+- attend at least 7 of the 9 graded labs in person
 - achieve a passing grade (>50%) on the final exam
 - achieve a passing grade (>50%) on the course project
-- attend and participate in project viva voce in-person
+- attend and participate in the project viva voce in person
 - obtain at least a 50% overall grade based on the weighted average of all course components
 
 Students who fail to meet these requirements will have a final grade of 45% or less.
