@@ -35,7 +35,7 @@ The [Project](project.md) page covers the grading bands, group contract, stand-u
 | Viva voce booking | [us.prairietest.com](https://us.prairietest.com), same place you book a [quiz](quizzes.md#booking-your-seat) |
 | Peer evaluation | iPeer |
 
-The viva voce is not held at your usual lab section time, and it is not one of the 9 quizzes.
+The viva voce is not held at your usual lab section time, and it is not one of the course [quizzes](quizzes.md).
 
 ## Schedule
 
