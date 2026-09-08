@@ -66,11 +66,12 @@ Useful UBC support links:
 
 ## Centre for Accessibility Arrangements
 
-Students registered with the Centre for Accessibility are responsible for arranging their exam accommodations through the Centre for Accessibility office.
+Registration, Letters of Accommodation, and the Centre's own booking deadlines are covered in the syllabus: [Academic Accommodations and the Centre for Accessibility](syllabus.md#academic-accommodations-and-the-centre-for-accessibility).
 
-You must also confirm your exam arrangement by emailing the **course admin address**, listed on the [Course Communication](communication.md) page.
+Two things are specific to this exam:
 
-Contact the teaching team **10 days before the final exam** once the final exam date is announced.
+- Book your accommodated sitting with the Centre **at least 7 days before the start of the examination period**. Late requests are not accepted by their system.
+- Also confirm your arrangement with us **10 days before the final exam**, by emailing the course admin address listed on [Course Communication](communication.md).
 
 If you do not make and confirm arrangements, the teaching team will assume that you are writing the final exam with the rest of the class and no special accommodations will be made.
 

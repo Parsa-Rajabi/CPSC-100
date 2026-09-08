@@ -151,7 +151,7 @@ Notes on the schedule:
 
 - The dropped quiz is your flexibility. Once used, further missed quizzes score 0.
 - Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process.
-- Registered with the Centre for Accessibility? Arrange accommodations through the Centre before you book a seat, then confirm with us. See [Course Communication](communication.md) for the right address.
+- Registered with the Centre for Accessibility? See [Academic Accommodations](syllabus.md#academic-accommodations-and-the-centre-for-accessibility) in the syllabus for how to send your Letter of Accommodation and book an accommodated sitting. Sort this out **before** Quiz 1, not in the week of a quiz.
 
 ### Grading Guide
 
