@@ -1,18 +1,17 @@
 # Project Peer Evaluation
 
 > [!NOTE]
-> The peer evaluation mechanism below is final for Fall 2026. The specific milestones it
-> applies to will be confirmed when the [project specification](project.md) is published.
+> The peer evaluation mechanism below is final for Fall 2026.
 
-Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. Peer evaluation will be applied to the following project milestones:
+Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are **three rounds**, each paired with a [project retrospective](project.md#retrospectives):
 
-<!-- TODO: instructor decision required - name the milestones peer evaluation applies to,
-     once docs/project.md is finalized. The CPSC 344 model uses one ungraded practice
-     round on an early milestone, then graded rounds on the two heaviest milestones. -->
+| Round | Week | Follows | Graded |
+| :---- | :--: | :------ | :----- |
+| **iPeer 0** | 4 | Group formation and the group contract | **No.** Practice round. |
+| **iPeer 1** | 8 | [Project 1](project-1.md) | Yes |
+| **iPeer 2** | 13 | [Project 2](project-2.md) | Yes |
 
-- **A practice round on an early milestone**: *milestone to be confirmed*
-- **A graded round on a mid-term milestone**: *milestone to be confirmed*
-- **A graded round on the final milestone**: *milestone to be confirmed*
+Exact dates are on the [Schedule](schedule.md) page.
 
 The practice round will be used to make sure the peer evaluation tools are working as expected and that everyone understands the process before peer evaluations are applied for marks. The graded rounds will be used for marks and will apply a peer evaluation multiplier to each student's milestone grade.
 
