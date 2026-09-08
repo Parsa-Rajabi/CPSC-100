@@ -15,31 +15,41 @@
 
 ## Weekly Schedule
 
-<!-- TODO: instructor decision required - fill in dates, topics, lab activities, and
-     deliverables for 2026W1. Row count assumes a 13-week term; adjust once the UBC
-     academic calendar dates are confirmed. Remember to mark:
-       - the week with no labs (first week of classes)
-       - Midterm Break
-       - statutory holidays (Truth and Reconciliation Day, Thanksgiving, Remembrance Day)
-       - the last day of classes -->
+Lectures are Monday/Wednesday/Friday 14:00-15:00 in SWNG 222. Labs are in ICCS X050.
+
+<!-- TODO: instructor decision required - fill in lecture topics, lab activities, and
+     deliverables. Week dates are derived from the registrar's course dates
+     (lectures Sept 9 - Dec 7; labs Sept 9/10 - Dec 2/3) and should be correct.
+
+     Still to confirm against the UBC academic calendar:
+       - Midterm Break placement. It most likely falls in the week of Nov 9-13, which
+         contains Remembrance Day, but this is NOT confirmed.
+       - Whether UBC closes for Sept 30 (Truth and Reconciliation), Oct 12
+         (Thanksgiving), and Nov 11 (Remembrance Day). All three are marked below.
+       - Whether week 1 labs run at all (see the note in the syllabus).
+
+     Note that Sept 30 and Nov 11 are both Wednesdays, so they hit four of the five lab
+     sections (L1A-L1D) while L1E on Thursday is unaffected. That asymmetry matters for
+     the participation session count and for keeping lab content aligned across
+     sections. -->
 
 | **Week** | **Dates** | **Lecture Topics** | **Lab** | **Deliverable** (due 11:59pm PT unless noted) |
-| :------: | :-------: | :----------------- | :------ | :-------------------------------------------- |
-|    1     |  *TBC*    | *TBC*              | No labs the first week of classes | |
-|    2     |  *TBC*    | *TBC*              | Lab 1   | |
-|    3     |  *TBC*    | *TBC*              | Lab 2   | |
-|    4     |  *TBC*    | *TBC*              | Lab 3   | |
-|    5     |  *TBC*    | *TBC*              | Lab 4   | |
-|    6     |  *TBC*    | *TBC*              | Lab 5   | |
-|    7     |  *TBC*    | *TBC*              | Lab 6   | |
-|    -     |  *TBC*    | **Midterm Break: no classes** | No labs | |
-|    8     |  *TBC*    | *TBC*              | Lab 7   | |
-|    9     |  *TBC*    | *TBC*              | Lab 8   | |
-|    10    |  *TBC*    | *TBC*              | Lab 9   | |
-|    11    |  *TBC*    | *TBC*              | Lab 10  | |
-|    12    |  *TBC*    | *TBC*              | Lab 11  | |
-|    13    |  *TBC*    | *TBC*              | Lab 12  | |
-|    -     |  *TBC*    | **Final Exam Period** | | [Final Exam](final.md) |
+| :------: | :-------- | :----------------- | :------ | :-------------------------------------------- |
+| 1 | Sep 9 - 11 | *TBC* (Wed + Fri only) | No labs the first week | |
+| 2 | Sep 14 - 18 | *TBC* | Lab 1 | |
+| 3 | Sep 21 - 25 | *TBC* | Lab 2 | |
+| 4 | Sep 28 - Oct 2 | *TBC* — **Sep 30: no class**, Truth and Reconciliation | Lab 3 — no Wed labs Sep 30 | |
+| 5 | Oct 5 - 9 | *TBC* | Lab 4 | |
+| 6 | Oct 12 - 16 | *TBC* — **Oct 12: no class**, Thanksgiving | Lab 5 | |
+| 7 | Oct 19 - 23 | *TBC* | Lab 6 | |
+| 8 | Oct 26 - 30 | *TBC* | Lab 7 | |
+| 9 | Nov 2 - 6 | *TBC* | Lab 8 | |
+| 10 | Nov 9 - 13 | *TBC* — **Nov 11: no class**, Remembrance Day. Midterm Break likely falls this week | *TBC* | |
+| 11 | Nov 16 - 20 | *TBC* | Lab 9 | |
+| 12 | Nov 23 - 27 | *TBC* | Lab 10 | |
+| 13 | Nov 30 - Dec 4 | *TBC* | Lab 11 — last labs Dec 2 / Dec 3 | |
+| - | Dec 7 | **Last lecture** | | |
+| - | *TBC* | **Final Exam Period** | | [Final Exam](final.md) |
 
 ## Key Dates at a Glance
 
@@ -47,12 +57,13 @@ These are repeated from the [syllabus](syllabus.md#important-dates) for convenie
 
 | Event | Date |
 | :---- | :--- |
-| First day of classes | *to be confirmed* |
+| First day of classes | Wednesday, September 9, 2026 |
 | AI policy in-class activity | *to be confirmed* |
 | AI policy published | *before the add/drop deadline* |
 | Last day to drop without a W | *to be confirmed* |
 | Midterm Break | *to be confirmed* |
-| Last day of classes | *to be confirmed* |
+| Last lab | December 2 (Wed) / December 3 (Thu) |
+| Last lecture | Monday, December 7, 2026 |
 | [Final exam period](final.md) | *to be confirmed* |
 
 ## How to Use This Page
