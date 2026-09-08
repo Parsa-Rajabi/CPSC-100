@@ -10,7 +10,7 @@
 
 | **Name** | **Pronouns** | **Office Hours** :fas fa-house-medical: | **Location** |
 | :------- | :----------- | :-------------------------------------- | :----------- |
-| **Parsa** Rajabi | *to be confirmed* | Mon 2:50-3:50pm · Wed 2:50-3:50pm · Fri 2:50-3:30pm | SWING 110 |
+| **Parsa** Rajabi | *to be confirmed* | Mon 2:50-3:50pm · Wed 2:50-3:50pm · Fri 2:50-3:20pm | SWING 110 |
 
 <!-- TODO: instructor decision required - your pronouns. -->
 
