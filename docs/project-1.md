@@ -40,8 +40,7 @@ The [Project](project.md) page covers the grading bands, group contract, stand-u
 | Exposure Index calculator (Part A) | Snap!, link handed out in Lab 3 |
 | Detection tools (Part B) | Browser-based, free tiers. You make the accounts. |
 | Peer evaluation | iPeer |
-
-<!-- TODO: instructor decision required - where the three parts are submitted. -->
+| All three parts | Submitted on **Canvas** |
 
 ## Schedule
 

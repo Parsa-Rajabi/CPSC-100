@@ -29,7 +29,7 @@ Also worth doing:
 
 - Check which section you are registered in (L1A to L1E).
 - Find ICCS X050 on the [campus map](https://maps.ubc.ca/?code=ICCS).
-- Bring a laptop.
+- **Bring a laptop.** The ICCS X050 computers are there as a backup if you forget or run into trouble, which is why activating your CS account still matters.
 
 <!-- TODO: instructor decision required - confirm the Lab 0 discussion post title and
      whether the reply has a required format or minimum length. -->
@@ -75,7 +75,7 @@ All lab content runs on PrairieLearn. Login links posted before Week 2.
 ### Pre-labs
 
 - Every lab has a short pre-lab on PrairieLearn.
-- Pre-labs are graded.
+- The pre-lab is **part of that lab's 1 mark**, not a separate component.
 - Due right before your own section starts:
   - L1A: 10:00am Wednesday
   - L1B: 11:00am Wednesday
@@ -83,14 +83,15 @@ All lab content runs on PrairieLearn. Login links posted before Week 2.
   - L1D: 4:00pm Wednesday
   - L1E: 2:00pm Thursday
 - Arriving without it done costs 0.25 of a mark for that lab.
+- These deductions stack. Turning up late **and** without the pre-lab done costs 0.5 of that lab's mark.
 - Lab 0 is the pre-lab for Lab 1. See [Before your first lab](#before-your-first-lab-sep-16-or-17) for what it covers.
 
-<!-- TODO: instructor decision required - remaining pre-lab questions:
-       - is the pre-lab a separate mark, or part of the 1 mark for that lab?
-       - is there a pre-lab for Lab 10, the viva voce?
-     Note this supersedes the earlier "Lab 0 is not graded" decision.
-     Deduction is set at 0.25, same as arriving in the first 10 minutes. Worth checking
-     that is intended: a student who does neither currently loses 0.5 in total. -->
+<!-- TODO: instructor decision required - is there a pre-lab for Lab 10, the viva voce?
+     Lab 10 carries no lab mark (it is graded as Project 2C), so a pre-lab there would
+     need a different home or none at all.
+     Resolved: the pre-lab is part of the lab's single mark, and the 0.25 pre-lab and
+     0.25 late-arrival deductions are intended to stack up to 0.5. This supersedes the
+     earlier "Lab 0 is not graded" note. -->
 
 ### How labs are marked
 

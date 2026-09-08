@@ -12,16 +12,17 @@
 
 | Part | What it is | Individual or group | Share of this project | Due |
 | :--: | :--------- | :------------------ | :-------------------: | :-- |
-| A | Snap! program and annotations | *to be confirmed* | *TBC* | Thu Nov 5 |
+| A | Snap! program and annotations | **Individual** | *TBC* | Thu Nov 5 |
 | B | Snap! to Python translation | Group | *TBC* | Thu Nov 19 |
 | C | Viva voce, an oral exam on your code | Individual | *TBC* | Wed Dec 2 |
 
 For reference, [Project 1](project-1.md) splits its parts 20 / 50 / 30. Project 2 is not assumed to match.
 
-<!-- TODO: instructor decision required - two things:
-       1. Part A individual or group. The TA Handbook says individual; the instructor
-          said "group throughout" then paused to check. Largest open item on this page.
-       2. The percentage split across the three parts. -->
+Part A is **individual**; Parts B and C are group work, with the viva assessed individually. So Project 2 starts with your own Snap! program, then moves into group translation.
+
+<!-- TODO: instructor decision required - the percentage split across the three parts.
+     Note that with Part A individual, peer evaluation should apply only to the group
+     portion (B and C), not to the whole Project 2 mark. Confirm when setting weights. -->
 
 The [Project](project.md) page covers the grading bands, group contract, stand-ups, retrospectives, peer evaluation, and integrity rules. All apply here.
 

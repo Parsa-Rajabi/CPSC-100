@@ -56,9 +56,16 @@ Your project grade covers 4 things:
 | Python work | Jupyter | |
 | Viva voce booking | [us.prairietest.com](https://us.prairietest.com) | Same place you book a [quiz](quizzes.md#booking-your-seat) |
 
-<!-- TODO: instructor decision required - where project parts, weekly stand-ups, and
-     retrospectives are submitted (Canvas? PrairieLearn? Ed?). Students will ask in
-     Week 2 when the group formation survey goes out. -->
+### Where to submit
+
+| What | Where |
+| :--- | :---- |
+| Project parts | **Canvas** |
+| Retrospectives | **Canvas** |
+| Weekly stand-ups | **Ed Discussion** |
+| Peer evaluation | iPeer |
+
+Lab work is submitted separately, through PrairieLearn and occasionally Canvas. See the [Labs](labs.md) page.
 
 ## Schedule
 
@@ -129,9 +136,10 @@ Your contract sets out roles, expectations, how you communicate, and how you res
 
 ### Weekly stand-ups
 
-- Posted by each student, every week from Week 2 to Week 13.
+- Posted by each student on **Ed Discussion**, every week from Week 2 to Week 13.
 - 3 or 4 sentences: what you did, what is next, what is blocking you.
 - Graded as part of your project mark.
+- Posting on Ed means your group and your TA can see them, so use it to flag blockers early.
 
 ### Retrospectives
 
