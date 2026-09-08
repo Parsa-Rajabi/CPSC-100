@@ -18,10 +18,14 @@ Ed has no App Store or Play Store app. It is a Progressive Web App, so you add i
 2. Tap **Share**, then **Add to Home Screen**.
 3. Tap **Add**.
 
+![Installing Ed on iOS: the Ed site open in Safari, the Share sheet with Add to Home Screen highlighted, the Add to Home Screen dialog, and the finished Ed icon on the home screen.](assets/screenshots/ed-install-ios.jpg)
+
 **On Android**
 
 1. Open [edstem.org](https://edstem.org/) in **Chrome**.
 2. Tap the **⋮** menu, then **Add to Home Screen**. Newer versions of Chrome label this **Install app**.
+
+![Installing Ed on Android: the Ed site open in Chrome, the Chrome menu with Install app highlighted, and the finished Ed icon on the home screen.](assets/screenshots/ed-install-android.jpg)
 
 **Then turn on notifications**
 
@@ -30,7 +34,7 @@ Open Ed from the **home screen icon** rather than your browser, then enable Push
 > [!NOTE]
 > On iOS, push notifications require **iOS 18.4 or newer**, and you must add Ed to your home screen **before** you can enable them.
 
-Ed's own guide, with screenshots, is at [Push Notifications](https://edstem.org/us/help/push-notifications). It opens inside Ed, so log in first.
+Ed's own guide is at [Push Notifications](https://edstem.org/us/help/push-notifications). It opens inside Ed, so log in first. Screenshots above are from that guide.
 
 </details>
 
