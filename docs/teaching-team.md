@@ -1,52 +1,52 @@
 # Teaching Team
 
 > [!NOTE]
-> Lab section assignments, office hours, pronouns, and photos are still being confirmed.
-> This page will be updated as each TA fills in their details.
+> Pronouns and photos are still being added as each TA supplies them.
 
-Looking for **where to send a question**? See [Course Communication](communication.md).
+> [!TIP]
+> **Email addresses are not listed on this page.** They are published in one place only: [Course Communication](communication.md). That page also has the Ed Discussion sign-up link and a flowchart showing where each kind of question should go.
 
 ## Instructor
 
-| **Name** | **Pronouns** | **Email** :fas fa-envelope fa-fw: | **Office Hours** :fas fa-house-medical: | **Location** |
-| :------- | :----------- | :-------------------------------- | :-------------------------------------- | :----------- |
-| **Parsa** Rajabi | *to be confirmed* | prajabi [at] `DELETEthisTEXT` cs.ubc.ca | *to be confirmed* | *to be confirmed* |
+| **Name** | **Pronouns** | **Office Hours** :fas fa-house-medical: | **Location** |
+| :------- | :----------- | :-------------------------------------- | :----------- |
+| **Parsa** Rajabi | *to be confirmed* | Mon 2:50-3:50pm · Wed 2:50-3:50pm · Fri 2:50-3:30pm | SWING 110 |
 
-<!-- TODO: instructor decision required - your pronouns, office hour day/time/room. Office
-     hours also appear in docs/syllabus.md and docs/communication.md. Update all three. -->
+<!-- TODO: instructor decision required - your pronouns. -->
 
 ## Teaching Assistants
+
+Each lab has a **lead TA** who runs the session and a **support TA** who assists. Every TA leads one lab and supports another, so you will see two familiar faces each week.
+
+| **Lab** | **Day / Time** | **Lead TA** | **Support TA** |
+| :-----: | :------------- | :---------- | :------------- |
+| L1A | Wednesday 10:00 - 11:00 | **Parsa** Seyfourian | **Jessica** He |
+| L1B | Wednesday 11:00 - 12:00 | **Kate** Manskaia | **Parsa** Seyfourian |
+| L1C | Wednesday 12:00 - 13:00 | **Tarvin** Arora | **Kate** Manskaia |
+| L1D | Wednesday 16:00 - 17:00 | **Sally** Han | **Tarvin** Arora |
+| L1E | Thursday 14:00 - 15:00 | **Jessica** He | **Sally** Han |
+
+All labs meet in **ICCS X050** ([UBC Map](https://maps.ubc.ca/?code=ICCS)).
+
+### TA Profiles
 
 <!-- TODO: TA action required - each TA to supply their pronouns and a photo.
      Photos go in docs/assets/teaching-team/ named <firstname>-picture.png (or .jpg),
      then add an image cell to the table below. The CPSC 344 site used the same
      convention, e.g. docs/assets/teaching-team/jessica-picture.png -->
 
-<!-- TODO: instructor decision required - map each TA to a lab section (L1A-L1E) and add their
-     office hours. This roster is mirrored in docs/communication.md; update both. -->
+<!-- TODO: instructor decision required - TA office hours, once scheduled. -->
 
-| **Lab Section** | **Name** | **Pronouns** | **Email** :fas fa-envelope fa-fw: | **Office Hours** |
-| :-------------: | :------- | :----------- | :-------------------------------- | :--------------- |
-| *TBC* | **Parsa** Seyfourian | *to be confirmed* | parsa.seyfourian [at] `DELETEthisTEXT` ubc.ca | *to be confirmed* |
-| *TBC* | **Kate** Manskaia | *to be confirmed* | emanskai [at] `DELETEthisTEXT` student.ubc.ca | *to be confirmed* |
-| *TBC* | **Tarvin** Arora | *to be confirmed* | tarora13 [at] `DELETEthisTEXT` student.ubc.ca | *to be confirmed* |
-| *TBC* | **Jessica** He | *to be confirmed* | xhe42 [at] `DELETEthisTEXT` student.ubc.ca | *to be confirmed* |
-| *TBC* | **Sally** Han | *to be confirmed* | shan31 [at] `DELETEthisTEXT` student.ubc.ca | *to be confirmed* |
+| **Name** | **Pronouns** | **Leads** | **Supports** | **Office Hours** |
+| :------- | :----------- | :-------: | :----------: | :--------------- |
+| **Parsa** Seyfourian | *to be confirmed* | L1A | L1B | *to be confirmed* |
+| **Kate** Manskaia | *to be confirmed* | L1B | L1C | *to be confirmed* |
+| **Tarvin** Arora | *to be confirmed* | L1C | L1D | *to be confirmed* |
+| **Jessica** He | *to be confirmed* | L1E | L1A | *to be confirmed* |
+| **Sally** Han | *to be confirmed* | L1D | L1E | *to be confirmed* |
 
 > [!NOTE]
 > There are two people named Parsa in this course: your instructor (Parsa Rajabi) and one of your TAs (Parsa Seyfourian). Please use full names in messages so we can route them correctly.
-
-## Lab Sections
-
-All sections meet in **ICCS X050** ([UBC Map](https://maps.ubc.ca/?code=ICCS)).
-
-| Section | Day | Time |
-| :-----: | :-- | :--- |
-| L1A | Wednesday | 10:00 - 11:00 |
-| L1B | Wednesday | 11:00 - 12:00 |
-| L1C | Wednesday | 12:00 - 13:00 |
-| L1D | Wednesday | 16:00 - 17:00 |
-| L1E | Thursday  | 14:00 - 15:00 |
 
 TAs are also available during your scheduled lab time. Note that during lab, TAs prioritize helping students with that week's lab work.
 
