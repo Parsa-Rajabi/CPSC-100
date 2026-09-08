@@ -94,22 +94,7 @@ Each component has its own page with the full details. Click through for format,
 
 **Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.**
 
-## Important Dates
-
-Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
-
-|            Event             |           Date            |
-| :--------------------------: | :-----------------------: |
-|     First day of classes     |  Wednesday, Sept 9, 2026  |
-| Last day to drop without a W |   Monday, Sept 21, 2026   |
-|        Midterm Break         |     Nov 9 – 11, 2026      |
-|           Last lab           | Dec 2 (Wed) / Dec 3 (Thu) |
-|         Last lecture         |    Monday, Dec 7, 2026    |
-|      Final exam period       |      Dec 11-22, 2026      |
-
-A week-by-week view of lecture topics, labs, and deliverables is on the [Schedule](schedule.md) page.
-
-## Labs
+### Labs
 
 Labs are hands-on and interactive, and **built to support your project work**. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are in-person only.
 
@@ -155,6 +140,21 @@ If you are not satisfied with your assigned standing, you are encouraged to firs
 If you still believe that your assigned standing has not been correctly evaluated, you may apply for a [Review of Assigned Standing (RAS)](https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations/review-assigned-standing) through the university student services.
 
 More details here: https://students.ubc.ca/enrolment/courses/grades/
+
+## Important Dates
+
+Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
+
+|            Event             |           Date            |
+| :--------------------------: | :-----------------------: |
+|     First day of classes     |  Wednesday, Sept 9, 2026  |
+| Last day to drop without a W |   Monday, Sept 21, 2026   |
+|        Midterm Break         |     Nov 9 – 11, 2026      |
+|           Last lab           | Dec 2 (Wed) / Dec 3 (Thu) |
+|         Last lecture         |    Monday, Dec 7, 2026    |
+|      Final exam period       |      Dec 11-22, 2026      |
+
+A week-by-week view of lecture topics, labs, and deliverables is on the [Schedule](schedule.md) page.
 
 ## Learning Resources
 
