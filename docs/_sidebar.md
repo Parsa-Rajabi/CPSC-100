@@ -2,14 +2,17 @@
 - [Schedule](schedule.md)
 - [AI Policy](ai-policy.md)
 
+- **Assessment**
+  - [Quizzes](quizzes.md)
+  - [Labs](labs.md)
+  - [Course Participation](participation.md)
+  - [Final Exam](final.md)
+  - [Practice Problems](practice/index.html)
+
 - **Course Project**
   - [Project Overview](project.md)
   - [Group Work Resources](group-work-resources.md)
   - [Peer Evaluation](project-peer-evaluation.md)
-
-- **Exams &amp; Practice**
-  - [Final Exam](final.md)
-  - [Practice Problems](practice/index.html)
 
 - **Support**
   - [Communication](communication.md)
