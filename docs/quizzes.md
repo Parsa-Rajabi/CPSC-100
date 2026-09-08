@@ -1,81 +1,175 @@
 # Quizzes
 
-**40% of your final grade.** This is the largest single component of the course.
+> [!NOTE]
+> This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
-## Quick Facts
+## Overview
 
-| Item | Details |
-| :--- | :------ |
-| Weight | 40% of the final grade |
-| Number of quizzes | 8 |
-| Delivered through | CBTF / ORCA |
-| Schedule | Wednesdays and Thursdays |
-| Format | Individual, autograded |
-| Dropped quizzes | *to be confirmed* |
+- 9 quizzes, Quiz 0 through Quiz 8.
+- Your lowest quiz is dropped automatically. The other 8 count equally.
+- All quizzes are individual work.
+- No midterm in this course. The quizzes replace it.
+- Quizzes test reasoning, tracing, and applying ideas to unfamiliar examples, not memorization.
 
-<!-- TODO: instructor decision required - quiz logistics still open:
-       - whether all 8 count or a best-N-of-8 policy applies. A single dropped quiz is
-         the natural place to put built-in flexibility for this component.
-       - the per-quiz weight (40% / 8 = 5% each if all count equally)
-       - CBTF/ORCA booking and sitting procedure for students
-       - make-up policy, if any, beyond the formal academic concession route
-       - which course parts each quiz covers -->
+### Start with Quiz 0
 
-Quiz dates and booking details are posted on the [Schedule](schedule.md) page.
+- Opens Wednesday Sep 9, due Friday Sep 18.
+- Covers this syllabus and the [Code of Conduct](code-of-conduct.md).
+- Online, on your own time.
+- 3 attempts. Highest score counts.
+- Counts toward your quiz grade like any other quiz.
 
-## Why There Are Eight
+### How many quizzes can I miss?
 
-There is **no midterm** in this course. The eight quizzes take its place.
+| Missed | Result |
+| :----: | :----- |
+| 1 | No effect. Your lowest quiz is dropped automatically. |
+| 2 or more | Each one after the first scores 0. No make-ups. |
 
-That is a deliberate design choice. Eight smaller checkpoints spread across the term do several things one big midterm cannot:
+- No email needed for 1 missed quiz.
+- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process.
 
-- they spread your studying out instead of concentrating it into two panic weeks;
-- they surface a misunderstanding early, while there is still time to fix it;
-- they give the teaching team individual evidence of your learning, which matters in a course with substantial group work;
-- and no single bad day can sink your grade.
+## Platform
 
-## What Quizzes Test
+### Quiz 0
 
-Quizzes focus on **reasoning, interpretation, tracing, and applying ideas to unfamiliar examples**. They are not memorization tests.
+Online, on your own time, from anywhere.
 
-Expect to:
+<!-- TODO: instructor decision required - where Quiz 0 is hosted (PrairieLearn? Canvas?)
+     and whether the three attempts have a time limit each. -->
 
-- trace what a piece of code or an algorithm actually does, step by step;
-- interpret a representation, a data format, or a result;
-- apply a concept from class to an example you have not seen before;
-- explain or compare, where the platform supports it;
-- spot what is wrong in something that looks almost right.
+### Quizzes 1 to 8
 
-Studying by re-reading slides tends not to work well for this. Working problems does.
+- Sat in person at ORCA, the Open Resource Centre for Assessments.
+- Formerly called the CBTF, the Computer-Based Testing Facility. Same place.
+- In the ICICS/CS building on Main Mall, not where your lectures are.
+- Run on PrairieLearn. Marked by the computer.
+
+| Link | For |
+| :--- | :-- |
+| [us.prairietest.com](https://us.prairietest.com) | Booking your seat |
+| [Reservation help](https://cbtf.ubc.ca/students/reservations) | How booking works, plus an orientation video |
+| [Rules and procedures](https://cbtf.ubc.ca/students/procedures) | Exact room, check-in, what you can bring |
+
+On the day:
+
+- Arrive 10 minutes early. A proctor lets students in 10 minutes before the start time.
+- Bring your UBC student card. Required for check-in.
+- Everything else goes in your backpack on the shelves: phone, watch, wallet, keys, pencil case, hat, food, water bottle.
+- Scratch paper is provided on the desk. Raise your hand for more.
+
+Open book, with limits:
+
+- Course slides up to and including the material that quiz covers are on screen inside ORCA.
+- You may not bring your own material in. No notes, printouts, laptops or phones.
+
+Results:
+
+- Viewed in the facility on the Monday or Tuesday after you sit the quiz.
+- Not emailed and not posted.
+
+<!-- TODO: instructor decision required - remaining ORCA details:
+       - the exact room number for CPSC 100 quizzes (ICCS 008 and 014 are the CBTF rooms
+         used by other CPSC courses; confirm ours)
+       - how long each quiz is
+       - orca.ubc.ca is the new front door for the facility but rendered no content when
+         checked in Sept 2026, so this page links cbtf.ubc.ca instead. Confirm which URL
+         to send students to. -->
+
+## Schedule
+
+### Booking your seat
+
+- You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobody assigns you one.
+- A quiz you never booked scores 0.
+- Pick a session on the Wednesday or Thursday of that quiz's week.
+- Quiz 2 is the exception: Thursday or Friday.
+- First come, first served. You can cancel and rebook up to 30 minutes before your slot.
+- New to the facility? Watch the orientation video on the [reservations page](https://cbtf.ubc.ca/students/reservations) before Quiz 1.
+
+> [!WARNING]
+> Book early. Seats are shared with other courses and they do run out, especially midday.
+
+<!-- TODO: instructor decision required - when the booking window opens for each quiz,
+     and whether a one-time PrairieTest registration step is needed before the first
+     booking. -->
+
+<!-- Cancel/rebook window (30 min) is from UBC's CBTF guidance, not a course policy.
+     Reverify before term, since facility rules change independently of us. -->
+
+### Quiz dates
+
+| Quiz | Week | When |
+| :--: | :--: | :--- |
+| 0 | 1 to 2 | Opens Wed Sep 9, due Fri Sep 18. Online. |
+| 1 | 3 | Sep 23 or 24 |
+| 2 | 4 | Oct 1 or 2, Thursday or Friday |
+| 3 | 5 | Oct 7 or 8 |
+| 4 | 6 | Oct 14 or 15 |
+| *none* | 7 | [Project 1C](project-1.md) is due |
+| 5 | 8 | Oct 28 or 29 |
+| 6 | 9 | Nov 4 or 5 |
+| *none* | 10 | Midterm Break |
+| 7 | 11 | Nov 18 or 19 |
+| 8 | 12 | Nov 25 or 26 |
+
+Notes on the schedule:
+
+- Quiz 1 in Week 3 is your first quiz in the facility. Find the room before then.
+- Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day. Check that booking twice.
+- No quiz in Week 7 (Project 1C is due) or Week 10 (Midterm Break).
+- Quiz 8 in Week 12 is the last one. No quiz in Week 13.
+- The Dec 2 viva voce is not a quiz. Booked the same way, but graded as [Project 2C](project-2.md#part-c-viva-voce).
+- Which lectures each quiz covers is announced in class beforehand. That cutoff is also where the slides available inside ORCA stop.
+
+<!-- TODO: instructor decision required - publish the per-quiz session coverage. Students
+     will ask, because the coverage cutoff is also the slide cutoff set in ORCA. The
+     earlier redesign draft had this mapping, translated to session codes, and it lines
+     up with the current quiz weeks again:
+       Quiz 1: W1C, W2A, W2B, W2C      Quiz 5: W6C, W7A, W7B
+       Quiz 2: W3A, W3B, W3C           Quiz 6: W8A, W8B, W8C
+       Quiz 3: W4A, W4C                Quiz 7: W9A, W9B, W9C
+       Quiz 4: W5A, W5B, W5C           Quiz 8: W10C, W11A, W11B, W11C
+     Confirm before publishing. Note it leaves W6B (Algorithmic Bias) and W7C (Python 1,
+     intro to Jupyter) outside every quiz. -->
 
 ## How to Prepare
 
 | What to do | Why it helps |
 | :--------- | :----------- |
-| Redo lab and in-class activities without looking at the answers | The quiz rewards reasoning you can reproduce, not answers you recognize |
-| Explain a concept out loud to someone else | Explaining exposes the gaps that re-reading hides |
-| Work the [practice problems](practice/index.html) | Extra reps on the same kinds of reasoning |
-| Bring what you cannot work out to drop-in hours or lab | A five-minute conversation often beats an hour of re-reading |
+| Redo lab and in-class activities without the answers | The quiz rewards reasoning you can reproduce, not answers you recognize |
+| Explain a concept out loud to someone | Exposes gaps that re-reading hides |
+| Work the [practice problems](practice/index.html) | More reps on the same kind of reasoning |
+| Know your way around the slides | They are on screen during the quiz, so this saves time |
+| Bring what you cannot work out to drop-in hours or lab | Faster than an hour of re-reading |
 
-## If You Miss a Quiz
+## Late Submission
 
-<!-- TODO: instructor decision required - confirm the make-up position. If a best-N-of-8
-     policy is adopted, the dropped quiz is the answer for ordinary short-term
-     disruption and no make-ups are needed. -->
+> [!ATTENTION]
+> No re-takes and no make-up for quizzes.
 
-Ordinary short-term disruption is what the course's built-in flexibility is for. If an ongoing or serious circumstance affects several parts of the course, do not try to absorb it yourself: follow the [academic concession](syllabus.md#academic-concessions) process and let the teaching team know.
+- The dropped quiz is your flexibility. Once used, further missed quizzes score 0.
+- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process.
+- Registered with the Centre for Accessibility? Arrange accommodations through the Centre before you book a seat, then confirm with us. See [Course Communication](communication.md) for the right address.
 
-## Accessibility
+### Grading Guide
 
-Students registered with the Centre for Accessibility should arrange accommodations through the Centre for Accessibility, and confirm the arrangement with the teaching team. See [Course Communication](communication.md) for which address to use.
+| Situation | Result |
+| :-------- | :----- |
+| Your lowest of the 9 | Dropped automatically |
+| Quiz 0, 3 attempts | Highest score counts |
+| Missed quiz | 0, absorbed by your dropped quiz |
+| Second missed quiz | 0, no further flexibility |
+| Seat never booked | 0, same as a missed quiz |
+| Own material brought into ORCA | Academic integrity violation |
 
-## Grades and Regrades
-
-Quizzes are autograded. If you believe a question was scored incorrectly, see the [Remarking Policy](syllabus.md#remarking-policy) for how to request a review, and note the request window.
+Quizzes are marked by the computer. For a scoring error, see the [Remarking Policy](syllabus.md#remarking-policy). The request window is short.
 
 ## Related
 
-- [Schedule](schedule.md) — quiz dates
-- [Final Exam](final.md) — the cumulative synthesis assessment
-- [Course Evaluation](syllabus.md#course-evaluation) — how quizzes fit the whole grade
-- [AI Policy](ai-policy.md) — what is permitted on individual assessments
+- [Schedule](schedule.md) - week by week view
+- [Labs](labs.md) - also PrairieLearn, but in person in ICCS X050
+- [Final Exam](final.md) - end of term, also in ORCA
+- [Practice Problems](practice/index.html)
+- [Course Evaluation](syllabus.md#course-evaluation) - the whole grade breakdown
+- [AI Policy](ai-policy.md) - what is permitted on individual assessments
