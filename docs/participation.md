@@ -9,7 +9,7 @@ Participation is graded on what you do in lecture, and it is individual work. It
 
 The marks are for **taking part**, not for attendance alone — turning up and not answering anything is not what this component rewards.
 
-**The in-class activities run on Fridays.** That makes a Friday the most expensive lecture to miss.
+Participation is graded at **every** lecture. Fridays additionally include **hands-on in-class activities**, so those sessions are more involved than a Monday or Wednesday, but every graded session counts the same.
 
 There are 35 lecture sessions this term. Two of them are not graded, leaving 33 that are, and **your 6 lowest sessions are dropped automatically**. That means roughly two full weeks of absence is already built into your grade before anything goes wrong.
 
