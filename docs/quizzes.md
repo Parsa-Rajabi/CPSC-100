@@ -15,7 +15,7 @@ Quizzes ask you to reason, trace a program, and apply an idea to an example you 
 
 Quiz 0 is a practice run at the whole ORCA process, on content you can revise straight from this website: the [syllabus](syllabus.md) and the [Code of Conduct](code-of-conduct.md). It is sat in ORCA and marked like every other quiz, and it counts toward your quiz grade the same way.
 
-Two things about it are deliberately unlike the rest. Its sitting window is longer — **Monday Sep 14 to Friday Sep 18** — so you have room to find the facility without a deadline breathing on you. And **reservations open Friday Sep 11 at 10:00am**, a Friday rather than the Tuesday used for every later quiz.
+Two things about it are deliberately unlike the rest. Its sitting window is longer — **Monday Sep 14 to Friday Sep 18** — so you have room to find the facility without a deadline breathing on you. And **reservations open Monday Sep 14 at 11:00am**, which is the morning the window itself opens, rather than the Tuesday-before pattern every later quiz follows. In practice that means booking for a session later in that week.
 
 > [!WARNING]
 > Book your Quiz 0 seat as soon as reservations open. It is your first chance to learn the booking system, and a quiz you never book scores 0.
@@ -26,7 +26,7 @@ You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobo
 
 Quizzes are self-scheduled, which means you pick a session inside that quiz's window. Sessions usually run **11:00am to 6:00pm, Monday to Sunday**, with reduced availability on weekends. Most quizzes are sat on the **Wednesday or Thursday** of that quiz's week; Quiz 0 runs Monday to Friday and Quiz 2 runs Thursday or Friday.
 
-Reservations open at **10:00am on the Tuesday before the week your quiz runs**, and it is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception, opening Friday Sep 11.
+Reservations open at **10:00am on the Tuesday before the week your quiz runs**, and it is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception, opening Monday Sep 14 at 11:00am.
 
 > [!WARNING]
 > Book early. Seats are shared with other courses and they do run out, especially midday.
@@ -60,7 +60,7 @@ If you miss a reservation you have booked, see [ORCA's missed reservations polic
 
 | Quiz | Week | When |
 | :--: | :--: | :--- |
-| 0 | 2 | Mon Sep 14 to Fri Sep 18. Reservations open Fri Sep 11, 10:00am |
+| 0 | 2 | Mon Sep 14 to Fri Sep 18. Reservations open Mon Sep 14, 11:00am |
 | 1 | 3 | Sep 23 or 24 |
 | 2 | 4 | Oct 1 or 2, Thursday or Friday |
 | 3 | 5 | Oct 7 or 8 |
