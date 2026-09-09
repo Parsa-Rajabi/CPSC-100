@@ -142,7 +142,6 @@ If you are registered with the Centre for Accessibility, see [Academic Accommoda
 | Missed quiz | 0, absorbed by your dropped quiz |
 | Second missed quiz | 0, no further flexibility |
 | Seat never booked | 0, same as a missed quiz |
-| Own material brought into ORCA | Academic integrity violation |
 
 </details>
 
