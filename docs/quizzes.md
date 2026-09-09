@@ -17,8 +17,8 @@ Quiz 0 is a practice run at the whole ORCA process, on content you can revise st
 
 Two things about it are deliberately unlike the rest. Its sitting window is longer — **Monday Sep 14 to Friday Sep 18** — so you have room to find the facility without a deadline breathing on you. And **reservations open Monday Sep 14 at 11:00am**, which is the morning the window itself opens, rather than the Tuesday-before pattern every later quiz follows. In practice that means booking for a session later in that week.
 
-> [!WARNING]
-> Book your Quiz 0 seat as soon as reservations open. It is your first chance to learn the booking system, and a quiz you never book scores 0.
+> [!TIP]
+> Book your Quiz 0 seat soon after reservations open. It is a relaxed way to get used to the booking system before a quiz you have had to study for, and the earlier you book, the more choice of times you have. Just try not to let it slip your mind, since an unbooked seat counts as a missed quiz.
 
 ## Booking your seat
 
@@ -58,21 +58,28 @@ If you miss a reservation you have booked, see [ORCA's missed reservations polic
 
 ## Schedule
 
-| Quiz | Week | When |
-| :--: | :--: | :--- |
-| 0 | 2 | Mon Sep 14 to Fri Sep 18. Reservations open Mon Sep 14, 11:00am |
-| 1 | 3 | Sep 23 or 24 |
-| 2 | 4 | Oct 1 or 2, Thursday or Friday |
-| 3 | 5 | Oct 7 or 8 |
-| 4 | 6 | Oct 14 or 15 |
-| *none* | 7 | [Project 1C](project-1.md) is due |
-| 5 | 8 | Oct 28 or 29 |
-| 6 | 9 | Nov 4 or 5 |
-| *none* | 10 | Midterm Break |
-| 7 | 11 | Nov 18 or 19 |
-| 8 | 12 | Nov 25 or 26 |
+| Quiz | Week | When | Reservations open, 10:00am |
+| :--: | :--: | :--- | :------------------------ |
+| 0 | 2 | Mon Sep 14 to Fri Sep 18 | Mon Sep 14, **11:00am** |
+| 1 | 3 | Sep 23 or 24 | Tue Sep 15 |
+| 2 | 4 | Oct 1 or 2, Thursday or Friday | Tue Sep 22 |
+| 3 | 5 | Oct 7 or 8 | Tue Sep 29 |
+| 4 | 6 | Oct 14 or 15 | Tue Oct 6 |
+| *none* | 7 | [Project 1C](project-1.md) is due | |
+| 5 | 8 | Oct 28 or 29 | Tue Oct 20 |
+| 6 | 9 | Nov 4 or 5 | Tue Oct 27 |
+| *none* | 10 | Midterm Break | |
+| 7 | 11 | Nov 18 or 19 | Tue Nov 10 |
+| 8 | 12 | Nov 25 or 26 | Tue Nov 17 |
 
 Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day, so check that one booking twice. There is no quiz in Week 7, when [Project 1C](project-1.md) is due, or in Week 10 for Midterm Break. Quiz 8 in Week 12 is the last one; there is no quiz in Week 13.
+
+One date to watch: **Quiz 7's reservations open on Tuesday Nov 10, in the middle of Midterm Break.** If you are away that week, set yourself a reminder before you go.
+
+<!-- TODO: instructor decision required - Quiz 7 reservations land on Tue Nov 10, inside
+     Midterm Break (Nov 9-13). That is what the "Tuesday before the quiz week" rule gives,
+     but confirm you want it opening while students are away, or whether it should shift. -->
+
 
 Which lectures each quiz covers is announced in class beforehand. That cutoff is also where the slides available to you inside ORCA stop.
 
