@@ -67,7 +67,7 @@ Sort this out before Lab 1 rather than during it. A lab is 50 minutes, and you d
 
 - **Already taken a CPSC course?** Your old account is reused, but you still need to run getacct to activate it for this term.
 - **Registered late?** Accounts are built from Registrar data, so yours may take a few days to appear.
-- **Something else?** Email **help@students.cs.ubc.ca**, or see [My CS](https://my.cs.ubc.ca/).
+- **Something else?** Email **help@cs.ubc.ca**, or see [My CS](https://my.cs.ubc.ca/).
 
 </details>
 

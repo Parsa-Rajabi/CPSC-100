@@ -1,7 +1,7 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> This page is in development. The 3 parts, their deadlines, and the viva voce date are set. The weight of each part is not, and neither is whether Part A is individual or group. Both will be published before Week 8.
+> This page is in development. The 3 parts, their deadlines, and the viva voce date are set. The weight of each part is not, and will be published before Week 8.
 
 ## Overview
 
@@ -10,15 +10,15 @@
 - Topics: programming, translating Snap! to Python, and explaining your own code.
 - Nothing here needs your attention before Week 8.
 
-| Part | What it is | Individual or group | Share of this project | Due |
-| :--: | :--------- | :------------------ | :-------------------: | :-- |
-| A | Snap! program and annotations | **Individual** | *TBC* | Thu Nov 5 |
-| B | Snap! to Python translation | Group | *TBC* | Thu Nov 19 |
-| C | Viva voce, an oral exam on your code | Individual | *TBC* | Wed Dec 2 |
-
-For reference, [Project 1](project-1.md) splits its parts 20 / 50 / 30. Project 2 is not assumed to match.
+| Part | What it is | Individual or group | Due |
+| :--: | :--------- | :------------------ | :-- |
+| A | Snap! program and annotations | **Individual** | Thu Nov 5 |
+| B | Snap! to Python translation | Group | Thu Nov 19 |
+| C | Viva voce, an oral exam on your code | Individual | Wed Dec 2 |
 
 Part A is **individual**; Parts B and C are group work, with the viva assessed individually. So Project 2 starts with your own Snap! program, then moves into group translation.
+
+How this project's mark divides across the three parts will be announced soon.
 
 The [Project](project.md) page covers the grading bands, group contract, stand-ups, retrospectives, peer evaluation, and integrity rules. All apply here.
 

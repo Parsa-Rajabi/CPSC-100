@@ -22,7 +22,9 @@ Your project grade covers 4 things:
 | Project parts | The documents you submit, graded in 5 bands |
 | Weekly stand-ups | 3 or 4 sentences each week: what you did, what is next, what is blocking you |
 | Retrospectives | A short group write-up after each project: what worked, what you would change |
-| Peer evaluation | A multiplier on your group's mark, so group members can get different grades |
+| Peer evaluation | A multiplier applied to Part C of each project, so group members can get different grades |
+
+How the project grade divides across these four will be announced soon.
 
 > [!WARNING]
 > To pass this course you must achieve at least **50% on the course project**. See [Course Evaluation](syllabus.md#course-evaluation) for how much the project is worth.
@@ -107,9 +109,9 @@ Notes on the schedule:
 | Complete and accurate work | 80, the Meets band |
 | Anything submitted late | 0 for that part |
 | Missing a weekly stand-up | Deduction from your project grade |
-| Missing a retrospective | Deduction, applied to every member of the group |
+| Missing a retrospective | Deduction, applied to every member of the group. Exact amount to be confirmed |
 | Group contract, second revision onward | 1% of your course grade per resubmission |
-| Peer evaluation below your group's average | Your individual mark is adjusted down |
+| Peer evaluation below your group's average | Your Part C mark is adjusted down |
 | Fabricated source or result | 0 on the project for the student responsible |
 
 ## Group Process
@@ -144,7 +146,7 @@ A retrospective is a short group write-up after finishing something: what worked
 
 ### Peer evaluation
 
-Peer evaluations run in iPeer and act as a multiplier on your group's mark.
+Peer evaluations run in iPeer and act as a multiplier on **Part C** of each project. Your teammates' ratings do not move your mark on the other parts.
 
 | Round | Week | Graded |
 | :---- | :--: | :----- |

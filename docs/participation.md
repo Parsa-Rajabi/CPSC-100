@@ -18,6 +18,8 @@
 2. **Join CPSC 100** using this link: [join.iclicker.com/MGAK](https://join.iclicker.com/MGAK)
 3. Use the first lecture, **Sep 9**, to check it works. That session is not graded.
 
+**There is no cost to you.** You do not need a paid iClicker subscription for this course.
+
 ### How many lectures can I miss?
 
 - 6, with no effect on your grade. That is 2 full weeks.
