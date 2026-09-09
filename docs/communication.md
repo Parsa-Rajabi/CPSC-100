@@ -56,8 +56,8 @@ flowchart TD
     P -- No --> PUB["fa:fa-comments <b>Ed Discussion, public post</b><br/>All course inquiries go here"]
     P -- Yes --> S{"Is it sensitive or<br/>confidential?"}
 
-    S -- No --> STAFF["fa:fa-user-lock <b>Ed Discussion, private post</b><br/>and / or email<br/>cpsc100-staff@cs.ubc.ca"]
-    S -- Yes --> ADMIN["fa:fa-shield-halved <b>Email the course admin</b><br/>cpsc100-admin@cs.ubc.ca"]
+    S -- No --> STAFF["fa:fa-user-lock <b>Ed Discussion, private post</b><br/>and / or email<br/>cpsc100-team@cs.ubc.ca"]
+    S -- Yes --> ADMIN["fa:fa-shield-halved <b>Email the course admin</b><br/>cpsc100-ops@cs.ubc.ca"]
 
     classDef startNode fill:#002145,stroke:#002145,color:#FFFFFF
     classDef decision  fill:#E8EAEC,stroke:#5E6A71,color:#20272B
@@ -84,8 +84,8 @@ flowchart TD
 | Your situation | Where it goes |
 | :------------- | :------------ |
 | Anything relevant to the class: concepts, logistics, lab questions, deadlines, "how does this work?" | **Ed Discussion, public post.** Course staff check it daily, and the whole class benefits from the answer. |
-| Something specific to you, but not sensitive: your group, your lab section, a submission question | **Ed Discussion, private post** (visible only to course staff) **and/or** email `cpsc100-staff@cs.ubc.ca` |
-| Something sensitive or confidential: academic concessions, accessibility arrangements, personal or medical circumstances, academic integrity, conduct concerns | **Email `cpsc100-admin@cs.ubc.ca`** |
+| Something specific to you, but not sensitive: your group, your lab section, a submission question | **Ed Discussion, private post** (visible only to course staff) **and/or** email `cpsc100-team@cs.ubc.ca` |
+| Something sensitive or confidential: academic concessions, accessibility arrangements, personal or medical circumstances, academic integrity, conduct concerns | **Email `cpsc100-ops@cs.ubc.ca`** |
 
 </details>
 
@@ -93,8 +93,8 @@ flowchart TD
 
 | Address | Use it for |
 | :------ | :--------- |
-| `cpsc100-staff@cs.ubc.ca` | Personal course matters that are not sensitive. Reaches the teaching team. |
-| `cpsc100-admin@cs.ubc.ca` | Sensitive or confidential matters. |
+| `cpsc100-team@cs.ubc.ca` | Personal course matters that are not sensitive. Reaches the teaching team. |
+| `cpsc100-ops@cs.ubc.ca` | Sensitive or confidential matters. |
 
 > [!NOTE]
 > This is the **only** page on the course site where email addresses are published. Every other page links here instead, so there is one place to keep current.
