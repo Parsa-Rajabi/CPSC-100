@@ -55,7 +55,7 @@ Your project grade covers 4 things:
 | Group contract | [Template and info](group-work-resources.md) | |
 | Snap! work | [snap.berkeley.edu](https://snap.berkeley.edu) | Browser-based, nothing to install |
 | Python work | Jupyter | |
-| Viva voce booking | [us.prairietest.com](https://us.prairietest.com) | Same place you book a [quiz](quizzes.md#booking-your-seat) |
+| Viva voce | *to be announced* | Scheduling details published closer to the date |
 
 ### Where to submit
 
@@ -73,7 +73,7 @@ Lab work is submitted separately, through PrairieLearn and occasionally Canvas. 
 Each part is submitted separately, in its own week. Neither project has a single end-of-project submission.
 
 > [!TIP]
-> Project **parts** are due Thursday at 11:59pm Pacific. Three things sit outside that: the group formation survey is Friday Sep 18, weekly stand-ups are Friday at 4:00pm, and the viva voce is a booked appointment on Dec 2 or 3.
+> Project **parts** are due Thursday at 11:59pm Pacific. Three things sit outside that: the group formation survey is Friday Sep 18, weekly stand-ups are Friday at 4:00pm, and the viva voce is on Dec 2.
 
 | Week | Due date | What is due |
 | :--: | :------- | :---------- |
@@ -86,7 +86,7 @@ Each part is submitted separately, in its own week. Neither project has a single
 | 8 | Thu Oct 29 | Project 1 retrospective + iPeer 1 |
 | 9 | Thu Nov 5 | [Project 2A](project-2.md), Snap! program and annotations |
 | 11 | Thu Nov 19 | [Project 2B](project-2.md), Snap! to Python translation |
-| 13 | Wed Dec 2 | [Project 2C](project-2.md), your viva voce appointment |
+| 13 | Wed Dec 2 | [Project 2C](project-2.md), the viva voce |
 | 13 | Thu Dec 3 | Project 2 retrospective + iPeer 2 |
 
 Weekly stand-ups run every week from Week 2 to Week 13, due **Friday at 4:00pm**, right after the Friday lecture.

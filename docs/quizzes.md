@@ -141,7 +141,7 @@ Notes on the schedule:
 - Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day. Check that booking twice.
 - No quiz in Week 7 (Project 1C is due) or Week 10 (Midterm Break).
 - Quiz 8 in Week 12 is the last one. No quiz in Week 13.
-- The Dec 2 viva voce is not a quiz. Booked the same way, but graded as [Project 2C](project-2.md#part-c-viva-voce).
+- The Dec 2 viva voce is not a quiz. It is graded as [Project 2C](project-2.md#part-c-viva-voce).
 - Which lectures each quiz covers is announced in class beforehand. That cutoff is also where the slides available inside ORCA stop.
 
 

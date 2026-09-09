@@ -32,7 +32,7 @@ Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and 
 | **10** | Nov 9 - 13 | W10A: no class, Midterm Break<br>W10B: no class, Midterm Break<br>W10C: Digital Adolescence consolidation | *No quiz* | *No lab this week* | |
 | **11** | Nov 16 - 20 | W11A: Artificial Intelligence 1<br>W11B: Artificial Intelligence 2<br>W11C: Artificial Intelligence 3 | [Quiz 7](quizzes.md#schedule) | [Lab 8](labs.md#schedule) | **[Project 2B](project-2.md#part-b-snap-to-python-translation)** |
 | **12** | Nov 23 - 27 | W12A: Artificial Intelligence 4<br>W12B: Project work day<br>W12C: Digital Consent | [Quiz 8](quizzes.md#schedule) | [Lab 9](labs.md#schedule) | |
-| **13** | Nov 30 - Dec 4 | W13A: Digital Traces<br>W13B: Computers and Society<br>W13C: Digital Adulthood consolidation | **[Viva voce](project-2.md#part-c-viva-voce)**, Dec 2, booked through ORCA | [Lab 10](labs.md#schedule) | **[Project 2C](project-2.md#part-c-viva-voce)**<br>Project 2 [retrospective](project.md#retrospectives) + [iPeer 2](project-peer-evaluation.md) |
+| **13** | Nov 30 - Dec 4 | W13A: Digital Traces<br>W13B: Computers and Society<br>W13C: Digital Adulthood consolidation | **[Viva voce](project-2.md#part-c-viva-voce)**, Dec 2 | [Lab 10](labs.md#schedule) | **[Project 2C](project-2.md#part-c-viva-voce)**<br>Project 2 [retrospective](project.md#retrospectives) + [iPeer 2](project-peer-evaluation.md) |
 | **14** | Dec 7 | W14A: Course wrap-up. Last day of class. | | | |
 | - | see [important dates](syllabus.md#important-dates) | **Final Exam Period** | | | [Final Exam](final.md) |
 
@@ -49,7 +49,7 @@ Term dates, the drop deadline, Midterm Break, and the final exam period are on t
 ## How to Use This Page
 
 - **Before each lecture**, check the topic so you know what the class will cover.
-- **Do your [pre-lab](labs.md#pre-labs) before each lab.** It is graded.
+- **Do your [pre-lab](labs.md#the-pre-lab) before each lab.** It is graded.
 - **Book your quiz seat early.** Quizzes are sat in ORCA and you book your own slot for the Wednesday or Thursday of that week. Slots are finite.
 - **Deliverables** are listed in the week they are due, not the week they are assigned. Give yourself more than the final week to work on anything project-related.
 - Deadlines here are a convenience copy. If this page and an assignment page ever disagree, the assignment page wins, and please tell the teaching team so it can be fixed.

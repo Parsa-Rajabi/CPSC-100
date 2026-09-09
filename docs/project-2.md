@@ -33,14 +33,13 @@ The [Project](project.md) page covers the grading bands, group contract, stand-u
 | Snap! work | [snap.berkeley.edu](https://snap.berkeley.edu) |
 | Python work | Jupyter |
 | Lab content | PrairieLearn |
-| Viva voce booking | [us.prairietest.com](https://us.prairietest.com), same place you book a [quiz](quizzes.md#booking-your-seat) |
 | Peer evaluation | iPeer |
 
-The viva voce is not held at your usual lab section time, and it is not one of the course [quizzes](quizzes.md).
+The viva voce is not one of the course [quizzes](quizzes.md). How it is scheduled will be announced closer to the date.
 
 ## Schedule
 
-All deadlines are Thursday 11:59pm Pacific, except the viva voce, which is a booked appointment on Dec 2.
+All deadlines are Thursday 11:59pm Pacific, except the viva voce, which takes place on Dec 2.
 
 | Week | What happens | Due |
 | :--: | :----------- | :-- |
@@ -49,15 +48,13 @@ All deadlines are Thursday 11:59pm Pacific, except the viva voce, which is a boo
 | 10 | *Midterm Break. No lab, no quiz.* | |
 | 11 | Python programming using AI | Project 2B, Thu Nov 19 |
 | 12 | Work session, plus your group retrospective | |
-| 13 | Viva voce, Wed Dec 2 | Project 2C, your viva appointment<br>Retrospective + iPeer 2, Thu Dec 3 |
+| 13 | Viva voce, Wed Dec 2 | Project 2C, the viva voce<br>Retrospective + iPeer 2, Thu Dec 3 |
 
 Notes on the schedule:
 
 - Week 10 is Midterm Break and sits between 2A and 2B. No lab, no quiz. It is the longest uninterrupted stretch on this project.
 - Lab 9 in Week 12 is your last working session before the viva.
-- The Dec 2 viva voce is mandatory and a [passing requirement](syllabus.md#passing-criteria).
-
-The booking window covers **Dec 2 and Dec 3**. You are not tied to your usual lab day.
+- The Dec 2 viva voce is mandatory and a [passing requirement](syllabus.md#passing-criteria). Scheduling details will be announced closer to the date.
 
 ## Late Submission
 
@@ -107,7 +104,7 @@ Group. Due Thursday Nov 19 at 11:59pm.
 
 ## Part C: Viva Voce
 
-Individual. Wednesday Dec 2, at your booked slot.
+Individual. Wednesday Dec 2. Scheduling details will be announced closer to the date.
 
 A short one-on-one oral exam. You:
 
