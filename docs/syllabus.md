@@ -81,7 +81,7 @@ Each of these is practiced in class and in lab, and assessed through the quizzes
 
 Each component has its own page with the full details. Click through for format, grading, and what to do if you miss something.
 
-| **Item**                                 | **Weight** |      **Schedule**      |
+| Item                                 | Weight |      Schedule      |
 | :--------------------------------------- | :--------: | :--------------------: |
 | [Course Participation](participation.md) |     2%     |        In-class        |
 | [Labs](labs.md)                          |     8%     | Wednesdays + Thursdays |
