@@ -13,10 +13,6 @@
 
 ## Quick Facts
 
-<!-- TODO: instructor decision required - fill in once the university publishes the 2026W1
-     exam schedule and the course weights are set. Needed: date, time, location, weight,
-     and the cheat sheet allowance. -->
-
 | Item | Details |
 | :--- | :------ |
 | Date | *to be confirmed* |
@@ -32,7 +28,6 @@ Check the latest information via UBC's exam page: https://tools.students.ubc.ca/
 
 > [!WARNING]
 > Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.
-
 
 ## Passing Requirement
 
@@ -63,7 +58,6 @@ Useful UBC support links:
 | :---- | :-- |
 | UBC student ID | Required for identity verification. |
 
-
 ## Centre for Accessibility Arrangements
 
 Registration, Letters of Accommodation, and the Centre's own booking deadlines are covered in the syllabus: [Academic Accommodations and the Centre for Accessibility](syllabus.md#academic-accommodations-and-the-centre-for-accessibility).
@@ -71,7 +65,7 @@ Registration, Letters of Accommodation, and the Centre's own booking deadlines a
 Specific to this exam:
 
 - Confirm your arrangement with us **10 days before the final exam**, by emailing the course admin address listed on [Course Communication](communication.md).
-- The booking process for accommodated sittings is still being confirmed, since this exam runs in ORCA. We will publish it once settled. Contact us early rather than waiting.
+- This exam runs in ORCA, and **ORCA hosts most accommodations itself** — you book a session the normal way and your accommodations are applied there. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) to see whether yours are on the supported list. If they are, do not also book with the Centre for Accessibility, since the Centre will cancel that booking.
 
 If you do not make and confirm arrangements, the teaching team will assume that you are writing the final exam with the rest of the class and no special accommodations will be made.
 

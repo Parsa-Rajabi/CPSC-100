@@ -16,13 +16,6 @@ Each lab has a **lead TA** who runs the session and a **support TA** who assists
 
 For questions about your own lab, contact its **lead TA** first.
 
-<!-- TODO: TA action required - each TA to supply their pronouns and a photo.
-     Photos go in docs/assets/teaching-team/ named <firstname>-picture.png (or .jpg),
-     then add an image cell to the table below. The CPSC 344 site used the same
-     convention, e.g. docs/assets/teaching-team/jessica-picture.png -->
-
-<!-- TODO: instructor decision required - TA drop-in hours, once scheduled. -->
-
 | **Name** | **Pronouns** | **Leads** | **Supports** | **Drop-in Hours** |
 | :------- | :----------- | :-------: | :----------: | :--------------- |
 | **Parsa** Seyfourian | *to be confirmed* | L1A | L1B | *to be confirmed* |

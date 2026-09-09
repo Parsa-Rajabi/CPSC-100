@@ -37,7 +37,6 @@ The course is designed to be interactive, with a focus on hands-on learning and 
 
 We acknowledge that the land on which we gather is the traditional, ancestral and unceded territory of the Coast Salish Peoples, including the territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səl̓ílwətaɬ (Tsleil-Waututh) Nations.
 
-
 ## Course Description
 
 > Meaning and impact of computational thinking. Solving problems using computational thinking, testing, debugging. How computers work. No prior computing experience required. Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160. [3-1-0]
@@ -108,9 +107,9 @@ There is no midterm this term. Refer to [Final Exam](final.md) and [Quizzes](qui
 
 In this course, quizzes and the final exam will be held in UBC's **ORCA** (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
 
-Your assessments in this course will be **self-scheduled** in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available between the hours of **11 AM to 6 PM, Monday to Sunday** (Saturdays and Sundays have reduced availability).
+Your assessments in this course will be **self-scheduled** in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available from around **11 AM until roughly 6 PM**, Monday to Sunday, with reduced availability on Saturdays and Sundays. These hours are set by ORCA according to its operational needs and may change without notice, so check what is actually on offer when you book.
 
-Reservations for assessments typically open **2 weeks before your assessment, on a Tuesday at 10 AM**. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
+Reservations for assessments open **on the Tuesday of the week before your assessment, at 10 AM**. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
 
 #### Enrolling in PrairieTest
 
@@ -125,6 +124,8 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 5. At the moment, you will likely see the message: "You don't currently have any exams available for reservations".
 6. Once we make your first quiz visible for reservations, you will be able to book a session for the assessment.
 7. You are able to cancel or change your reservation at any time, up to **30 minutes before** your reservation, during the assessment window.
+
+The exact reservation opening date for every quiz is on the [Quizzes](quizzes.md#schedule) page.
 
 ### Project
 
@@ -186,8 +187,6 @@ TAs and your instructor hold **drop-in hours**. No appointment is needed and you
 
 Your classmates are an excellent resource for discussion and peer support. In addition to opportunities to chat before and after class, the discussion board is also available.
 
-[Practice problems](practice/index.html) from previous offerings are available for exam preparation.
-
 > [!TIP]
 > A note about e-mail support: Many course-related questions require two-way discussion, so e-mail is sometimes not the most efficient way to get help. Drop-in hours and the discussion board should be your first resort for rapid assistance. Please limit e-mail to requests of a personal nature—you'll get faster responses on the discussion board!
 
@@ -243,7 +242,6 @@ Students are expected to maintain a high level of professionalism in all course 
 
 CPSC 100 has a [Code of Conduct](code-of-conduct.md) covering respectful conduct, teamwork and accountability, and academic integrity. By remaining enrolled in this course, you agree to uphold it. Please read it in full.
 
-
 ---
 ## UBC and Course Policies
 ---
@@ -290,30 +288,24 @@ Students with a disability or ongoing medical condition can arrange academic acc
 
 1. **Register with the Centre for Accessibility.** You must be registered before you can request accommodations.
 2. **Send your Letter of Accommodation (LOA).** Once registered, you send your LOA to your instructors through [Clockwork](https://students.ubc.ca/about-student-services/centre-for-accessibility/after-registering-with-the-centre-for-accessibility), the Centre's online portal. Do this **as soon as possible, and preferably within the first two weeks of class**. Sending your LOA is also what unlocks exam booking and note-taker services.
-3. **Upload a copy of your LOA to Canvas.** Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
-4. **Expect to arrange your own accommodated sittings.** Exactly where you book depends on the assessment, and we will confirm the process for quizzes and the final exam early in the term.
+3. **Upload a copy of your LOA to Canvas**, using [this assignment](https://canvas.ubc.ca/courses/190791/assignments/2578823). Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
+4. **Book your own accommodated sittings.** For quizzes and the final exam this happens in ORCA, described below.
 
-<!-- TODO: instructor decision required - two things:
-       - the exact Canvas location for LOA uploads (a dedicated assignment? a
-         submission folder?). The concession form above also says "via Canvas" without
-         naming a location, so both need the same answer.
-       - how accommodated sittings actually work for our ORCA assessments. Unresolved
-         as of Sept 2026: whether ORCA can host CfA accommodations itself, or whether
-         students book through the Centre instead. Booking deadlines and check-in times
-         differ between the two (the Centre's exam centre asks for 15 minutes early,
-         ORCA asks for 10), so publishing either version before this is settled risks
-         costing a student a quiz. All three pages now say only that the process is
-         being confirmed. Publish the detail before Quiz 1 in Week 3. -->
+#### Accommodated sittings in ORCA
 
-#### Booking
+Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), and **ORCA hosts most accommodations itself.** If your accommodations are on ORCA's supported list, you book an ORCA session the same way everyone else does, and your accommodations are applied there. ORCA currently supports extended time, a distraction-reduced environment, close proximity to a washroom, a phone for medical purposes, medical equipment, supplies or food, a computer, calculator or timer, a fan, clock or white noise machine, instructions in writing, formula sheets, and a computer with spellchecking.
+
+If you hold an accommodation that is **not** on that list, you write with the Centre for Accessibility instead.
+
+> [!WARNING]
+> **Do not book with the Centre for Accessibility if your accommodations can be met in ORCA.** The Centre will cancel those bookings. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) first to see which applies to you.
 
 Booking an accommodated sitting is your responsibility, and the deadlines are set by the facility rather than by this course. They are measured in days, not hours, so treat this as something to sort out well ahead of an assessment rather than in the same week.
 
 > [!WARNING]
 > Late booking requests are generally not accepted, and **if you have not booked, the accommodation may not be available to you.** Arrange it as early as you can.
 
-> [!NOTE]
-> Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), which has its own booking system. We are confirming how accommodated sittings work there, and will publish the exact process and deadlines before the first quiz. If you are registered with the Centre, contact us early so we can sort it out with you individually.
+If anything about your own accommodations is unclear, contact us early rather than close to an assessment.
 
 #### Where to go with questions
 
@@ -330,7 +322,7 @@ UBC Faculty of Science recognizes that experiencing a challenging emergency or u
 
 If you experience an emergency or unanticipated event that is impacting your ability to meet academic commitments, please refer to the [Science Academic Concessions Process](https://students.ubc.ca/enrolment/academic-learning-resources/academic-concessions/) for guidance on how to proceed. This resource provides information on the types of support available, the process for requesting concessions, and the documentation required.
 
-For in-term concessions, please complete this [Student Declaration of Academic Concession Form](assets/academic-concession.pdf) and submit it via Canvas alongside any supporting documentation. 
+For in-term concessions, please complete this [Student Declaration of Academic Concession Form](assets/academic-concession.pdf) and submit it, alongside any supporting documentation, using [this Canvas assignment](https://canvas.ubc.ca/courses/190791/assignments/2578828).
 
 ### Remarking Policy
 

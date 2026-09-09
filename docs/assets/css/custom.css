@@ -32,6 +32,37 @@ body .markdown-section {
     color: inherit !important;
 }
 
+/* Fix: links inside alert/callout blocks inherited a pale blue (#6fb1e7) that
+   fails WCAG AA against the pale alert backgrounds - 1.91:1 on tip and 1.81:1
+   on warning, where 4.5:1 is required. Body text in the same boxes scores over
+   10:1, so inherit the alert's own colour and underline instead, which keeps
+   links identifiable without relying on colour alone. */
+.markdown-section .alert a,
+.markdown-section .callout a,
+.markdown-section .markdown-alert a,
+.markdown-section blockquote a {
+    color: inherit !important;
+    text-decoration: underline !important;
+    text-underline-offset: 2px;
+}
+
+.markdown-section .alert a:hover,
+.markdown-section .callout a:hover,
+.markdown-section .markdown-alert a:hover,
+.markdown-section blockquote a:hover {
+    text-decoration-thickness: 2px;
+}
+
+/* Fix: the theme gives headings a negative bottom margin (-27px on h2), which the
+   following element's own top margin is expected to absorb - a paragraph gets 16px.
+   A rendered mermaid diagram gets margin-top: 0, so it was pulled the full 27px up
+   into the heading above it: the first node of the flowchart on the Communication
+   page overlapped "Where Should This Go?" by 19px. Give the diagram real spacing. */
+.markdown-section .mermaid {
+    margin-top: 2.75rem;
+    margin-bottom: 1.5rem;
+}
+
 
 /* Link colors to match UBC branding visual styling */
 

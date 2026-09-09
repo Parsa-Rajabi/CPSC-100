@@ -1,7 +1,7 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> This page is in development. The 3 parts, their deadlines, and the viva voce date are set. The weight of each part is not, and neither is whether Part A is individual or group. Both will be published before Week 8.
+> This page is in development. The 3 parts, their deadlines, and the viva voce date are set. The weight of each part is not, and will be published before Week 8.
 
 ## Overview
 
@@ -10,19 +10,15 @@
 - Topics: programming, translating Snap! to Python, and explaining your own code.
 - Nothing here needs your attention before Week 8.
 
-| Part | What it is | Individual or group | Share of this project | Due |
-| :--: | :--------- | :------------------ | :-------------------: | :-- |
-| A | Snap! program and annotations | **Individual** | *TBC* | Thu Nov 5 |
-| B | Snap! to Python translation | Group | *TBC* | Thu Nov 19 |
-| C | Viva voce, an oral exam on your code | Individual | *TBC* | Wed Dec 2 |
-
-For reference, [Project 1](project-1.md) splits its parts 20 / 50 / 30. Project 2 is not assumed to match.
+| Part | What it is | Individual or group | Due |
+| :--: | :--------- | :------------------ | :-- |
+| A | Snap! program and annotations | **Individual** | Thu Nov 5 |
+| B | Snap! to Python translation | Group | Thu Nov 19 |
+| C | Viva voce, an oral exam on your code | Individual | Wed Dec 2 |
 
 Part A is **individual**; Parts B and C are group work, with the viva assessed individually. So Project 2 starts with your own Snap! program, then moves into group translation.
 
-<!-- TODO: instructor decision required - the percentage split across the three parts.
-     Note that with Part A individual, peer evaluation should apply only to the group
-     portion (B and C), not to the whole Project 2 mark. Confirm when setting weights. -->
+How this project's mark divides across the three parts will be announced soon.
 
 The [Project](project.md) page covers the grading bands, group contract, stand-ups, retrospectives, peer evaluation, and integrity rules. All apply here.
 
@@ -33,14 +29,13 @@ The [Project](project.md) page covers the grading bands, group contract, stand-u
 | Snap! work | [snap.berkeley.edu](https://snap.berkeley.edu) |
 | Python work | Jupyter |
 | Lab content | PrairieLearn |
-| Viva voce booking | [us.prairietest.com](https://us.prairietest.com), same place you book a [quiz](quizzes.md#booking-your-seat) |
 | Peer evaluation | iPeer |
 
-The viva voce is not held at your usual lab section time, and it is not one of the course [quizzes](quizzes.md).
+The viva voce is not one of the course [quizzes](quizzes.md). How it is scheduled will be announced closer to the date.
 
 ## Schedule
 
-All deadlines are Thursday 11:59pm Pacific, except the viva voce, which is a booked appointment on Dec 2.
+All deadlines are Thursday 11:59pm Pacific, except the viva voce, which takes place on Dec 2.
 
 | Week | What happens | Due |
 | :--: | :----------- | :-- |
@@ -49,15 +44,13 @@ All deadlines are Thursday 11:59pm Pacific, except the viva voce, which is a boo
 | 10 | *Midterm Break. No lab, no quiz.* | |
 | 11 | Python programming using AI | Project 2B, Thu Nov 19 |
 | 12 | Work session, plus your group retrospective | |
-| 13 | Viva voce, Wed Dec 2 | Project 2C, your viva appointment<br>Retrospective + iPeer 2, Thu Dec 3 |
+| 13 | Viva voce, Wed Dec 2 | Project 2C, the viva voce<br>Retrospective + iPeer 2, Thu Dec 3 |
 
 Notes on the schedule:
 
 - Week 10 is Midterm Break and sits between 2A and 2B. No lab, no quiz. It is the longest uninterrupted stretch on this project.
 - Lab 9 in Week 12 is your last working session before the viva.
-- The Dec 2 viva voce is mandatory and a [passing requirement](syllabus.md#passing-criteria).
-
-The booking window covers **Dec 2 and Dec 3**. You are not tied to your usual lab day.
+- The Dec 2 viva voce is mandatory and a [passing requirement](syllabus.md#passing-criteria). Scheduling details will be announced closer to the date.
 
 ## Late Submission
 
@@ -78,9 +71,6 @@ Every component lands in one of the [5 bands](project.md#the-5-bands). Complete 
 | Missing the viva voce | 0 on 2C, and a failing condition for the course |
 | Undisclosed AI use | [AI Policy](ai-policy.md) violation |
 
-<!-- TODO: instructor decision required - the per-part weights, needed to complete this
-     section. -->
-
 ## Part A: Snap! Program and Annotations
 
 Due Thursday Nov 5 at 11:59pm.
@@ -97,24 +87,18 @@ Group. Due Thursday Nov 19 at 11:59pm.
 - Translate your Snap! program into Python.
 - Map blocks to their Python equivalents and document the process as you go.
 - You already know what the program does, so this is re-expressing a solved problem and noticing where the 2 languages do not line up.
+- Part of this is done **with an AI assistant**, which is what Lab 8 practices. You remain responsible for explaining every line you submit, and AI use must be disclosed under the [AI Policy](ai-policy.md).
 - Practice in Lab 7, Week 9, and Lab 8, Week 11.
-
-<!-- TODO: instructor decision required - reconcile Part B with the lab sequence. Lab 7
-     (Week 9) is "convert Snap to Python" but 2A is due that week, and Lab 8 (Week 11) is
-     "Python programming using AI", the week 2B is due. That suggests 2B includes an
-     AI-assisted component, and that the "vibe coding" task may belong to 2B rather than
-     to the viva as the redesign draft had it. Confirm what 2A and 2B each require. -->
 
 ## Part C: Viva Voce
 
-Individual. Wednesday Dec 2, at your booked slot.
+Individual. Wednesday Dec 2. Scheduling details will be announced closer to the date.
 
 A short one-on-one oral exam. You:
 
 - demo your Python program;
 - walk through your translation decisions and annotations;
-- answer questions about them;
-- complete a short "vibe coding" task, building something small with an AI assistant while we watch how you direct it and check its work.
+- answer questions about them.
 
 Notes:
 

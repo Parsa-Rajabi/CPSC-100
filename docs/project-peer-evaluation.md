@@ -3,15 +3,15 @@
 > [!NOTE]
 > The peer evaluation mechanism below is final for Fall 2026.
 
-Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are **three rounds**, each paired with a [project retrospective](project.md#retrospectives):
+Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are **three rounds**, each paired with a [project retrospective](project.md#group-process):
 
-| Round | Week | Follows | Graded |
-| :---- | :--: | :------ | :----- |
-| **iPeer 0** | 4 | Group formation and the group contract | **No.** Practice round. |
-| **iPeer 1** | 8 | [Project 1](project-1.md) | Yes |
-| **iPeer 2** | 13 | [Project 2](project-2.md) | Yes |
+| Round | Due | Follows | Graded |
+| :---- | :-- | :------ | :----- |
+| **iPeer 0** | Thu Oct 1 | Group formation and the group contract | **No.** Practice round. |
+| **iPeer 1** | Thu Oct 29 | [Project 1](project.md) | Yes |
+| **iPeer 2** | Thu Dec 3 | [Project 2](project.md) | Yes |
 
-Exact dates are on the [Schedule](schedule.md) page.
+All three are due at **11:59pm Pacific**. The [Schedule](schedule.md) page shows them alongside everything else due that week.
 
 The practice round will be used to make sure the peer evaluation tools are working as expected and that everyone understands the process before peer evaluations are applied for marks. The graded rounds will be used for marks and will apply a peer evaluation multiplier to each student's milestone grade.
 
@@ -152,8 +152,4 @@ For practical guidance on setting team expectations, documenting concerns, runni
 
 For each applicable milestone, students will complete an evaluation for each of their team members using the following criteria. Each category is scored from **0 to 5**, for a total of **30 marks**.
 
-<!-- TODO: instructor decision required - confirm the rubric link below. The CPSC 344
-     offering used https://tiny.cc/group-peer-eval-criteria; verify it is course-neutral
-     before pointing CPSC 100 students at it, or publish a CPSC 100 copy. -->
-
-Detailed rubrics with descriptions can be found here: *rubric link to be confirmed*.
+Detailed rubrics with descriptions can be found here: [group peer evaluation criteria](https://tiny.cc/group-peer-eval-criteria).

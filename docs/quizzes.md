@@ -5,44 +5,45 @@
 
 ## Overview
 
-- 8 quizzes, Quiz 1 to Quiz 8, plus Quiz 0.
-- All nine are sat in person in the ORCA facility. Quiz 0 covers the syllabus and Code of Conduct.
-- Each quiz is **50 minutes**.
-- Your lowest of the 9 is dropped automatically. The other 8 count equally.
-- All quizzes are individual work.
-- No midterm in this course. The quizzes replace it.
-- Quizzes test reasoning, tracing, and applying ideas to unfamiliar examples, not memorization.
+There are eight quizzes, Quiz 1 through Quiz 8, plus Quiz 0. All nine are sat in person at ORCA, they run 50 minutes each, and they are individual work. There is no midterm in this course; the quizzes take its place, which is why there are so many of them and why no single one carries much weight.
 
-### Start with Quiz 0
+Your lowest of the nine is dropped automatically and the other eight count equally, so one bad morning does not follow you around.
 
-Quiz 0 is your practice run at the whole ORCA process, on content you can revise from this website.
+Quizzes ask you to reason, trace a program, and apply an idea to an example you have not seen before. They are not memorization tests, and studying for them by rereading slides tends to disappoint.
 
-- Covers this syllabus and the [Code of Conduct](code-of-conduct.md).
-- **Sitting window: Monday Sep 14 to Friday Sep 18.** A longer window than later quizzes, so you have room to find the facility.
-- **Reservations open Friday Sep 11 at 10:00am.** Note this is a Friday, not the Tuesday used for every later quiz.
-- 50 minutes, sat in ORCA like every other quiz.
-- Counts toward your quiz grade like any other quiz.
+## Start with Quiz 0
+
+Quiz 0 is a practice run at the whole ORCA process, on content you can revise straight from this website: the [syllabus](syllabus.md) and the [Code of Conduct](code-of-conduct.md). It is sat in ORCA and marked like every other quiz, and it counts toward your quiz grade the same way.
+
+Two things about it are deliberately unlike the rest. Its sitting window is longer — **Monday Sep 14 to Friday Sep 18** — so you have room to find the facility without a deadline breathing on you. And **reservations open Monday Sep 14 at 11:00am**, which is the morning the window itself opens, rather than the Tuesday-before pattern every later quiz follows. In practice that means booking for a session later in that week.
+
+> [!TIP]
+> Book your Quiz 0 seat soon after reservations open. It is a relaxed way to get used to the booking system before a quiz you have had to study for, and the earlier you book, the more choice of times you have. Just try not to let it slip your mind, since an unbooked seat counts as a missed quiz.
+
+## Booking your seat
+
+You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobody assigns you one, and **a quiz you never booked scores 0** — this is the single most common way to lose marks on this component.
+
+Quizzes are self-scheduled, which means you pick a session inside that quiz's window. Expect sessions from around **11:00am until roughly 6:00pm**, seven days a week, with fewer on weekends. Treat that as a rough guide rather than a promise: ORCA sets its own hours based on operational needs, they can change without notice, and the facility sometimes opens or closes earlier or later than usual. What PrairieTest offers you when you go to book is the real answer.
+
+Most quizzes are sat on the **Wednesday or Thursday** of that quiz's week; Quiz 0 runs Monday to Friday and Quiz 2 runs Thursday or Friday.
+
+Reservations open at **10:00am on the Tuesday before the week your quiz runs**, and it is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception, opening Monday Sep 14 at 11:00am.
 
 > [!WARNING]
-> Book your Quiz 0 seat as soon as reservations open. It is also your first chance to learn the booking system, and a quiz you never book scores 0.
+> Book early. Seats are shared with other courses and they do run out, especially midday.
 
-### How many quizzes can I miss?
+If you are new to the facility, watch the orientation video on ORCA's [Getting Started page](https://orca.ubc.ca/students/getting-started/) before Quiz 0.
 
-| Missed | Result |
-| :----: | :----- |
-| 1 | No effect. Your lowest quiz is dropped automatically. |
-| 2 or more | Each one after the first scores 0. No make-ups. |
-
-- No email needed for 1 missed quiz.
-- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process.
+The full facility statement, including how to enrol in PrairieTest and how to change a reservation, is in [Self-Scheduled Assessments in ORCA](#self-scheduled-assessments-in-orca) below.
 
 ## Self-Scheduled Assessments in ORCA
 
 In this course, quizzes and the final exam will be held in UBC's **ORCA** (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
 
-Your assessments in this course will be **self-scheduled** in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available between the hours of **11 AM to 6 PM, Monday to Sunday** (Saturdays and Sundays have reduced availability).
+Your assessments in this course will be **self-scheduled** in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available from around **11 AM until roughly 6 PM**, Monday to Sunday, with reduced availability on Saturdays and Sundays. These hours are set by ORCA according to its operational needs and may change without notice, so check what is actually on offer when you book.
 
-Reservations for assessments typically open **2 weeks before your assessment, on a Tuesday at 10 AM**. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
+Reservations for assessments open **on the Tuesday of the week before your assessment, at 10 AM**. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
 
 #### Enrolling in PrairieTest
 
@@ -58,113 +59,74 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 6. Once we make your first quiz visible for reservations, you will be able to book a session for the assessment.
 7. You are able to cancel or change your reservation at any time, up to **30 minutes before** your reservation, during the assessment window.
 
-## Platform
-
-### All quizzes, including Quiz 0
-
-- Sat in person at ORCA, the Open Resource Centre for Assessments.
-- Formerly called the CBTF, the Computer-Based Testing Facility. Same place.
-- In the ICICS/CS building on Main Mall, not where your lectures are.
-- Run on PrairieLearn. Marked by the computer.
-
-| Link | For |
-| :--- | :-- |
-| [us.prairietest.com](https://us.prairietest.com) | Booking your seat |
-| [Getting Started](https://orca.ubc.ca/students/getting-started/) | Enrolling in PrairieTest, plus an orientation video |
-| [Policies and procedures](https://orca.ubc.ca/students/policies/) | Check-in, what you can bring, missed reservations |
-| [Room list](https://orca.ubc.ca/about/rooms/) | Which ORCA rooms exist and where they are |
-
-On the day:
-
-- Arrive 10 minutes early. A proctor lets students in 10 minutes before the start time.
-- Bring your UBC student card. Required for check-in.
-- Everything else goes in your backpack on the shelves: phone, watch, wallet, keys, pencil case, hat, food, water bottle.
-- Scratch paper is provided on the desk. Raise your hand for more.
-
-Open book, with limits:
-
-- Course slides up to and including the material that quiz covers are on screen inside ORCA.
-- You may not bring your own material in. No notes, printouts, laptops or phones.
-
-Results:
-
-- Viewed in the facility on the Monday or Tuesday after you sit the quiz.
-- Not emailed and not posted.
-
-<!-- TODO: instructor decision required - remaining ORCA details:
-       - how long each quiz is
-     Resolved: orca.ubc.ca is live and is now the front door this page links to.
-     Room number is no longer a course-level question: sessions are self-scheduled and
-     the room is shown when a student books. The full room list is linked above. -->
-
 ## Schedule
 
-### Booking your seat
+| Quiz | Week | When | Reservations open, 10:00am |
+| :--: | :--: | :--- | :------------------------ |
+| 0 | 2 | Mon Sep 14 to Fri Sep 18 | Mon Sep 14, **11:00am** |
+| 1 | 3 | Sep 23 or 24 | Tue Sep 15 |
+| 2 | 4 | Oct 1 or 2, Thursday or Friday | Tue Sep 22 |
+| 3 | 5 | Oct 7 or 8 | Tue Sep 29 |
+| 4 | 6 | Oct 14 or 15 | Tue Oct 6 |
+| *none* | 7 | [Project 1C](project.md) is due | |
+| 5 | 8 | Oct 28 or 29 | Tue Oct 20 |
+| 6 | 9 | Nov 4 or 5 | Tue Oct 27 |
+| *none* | 10 | Midterm Break | |
+| 7 | 11 | Nov 18 or 19 | Tue Nov 10 |
+| 8 | 12 | Nov 25 or 26 | Tue Nov 17 |
 
-- You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobody assigns you one.
-- A quiz you never booked scores 0.
-- Most quizzes run **Wednesday or Thursday** of that quiz's week. Two exceptions: Quiz 0 runs Monday to Friday, and Quiz 2 runs Thursday or Friday.
-- Reservations open the **Tuesday of the week before**, at 10:00am. Quiz 0 is the exception: Friday Sep 11.
-- First come, first served. Cancelling and rebooking is covered in [Self-Scheduled Assessments in ORCA](#self-scheduled-assessments-in-orca) above.
-- New to the facility? Watch the orientation video on ORCA's [Getting Started page](https://orca.ubc.ca/students/getting-started/) before Quiz 0.
+Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day, so check that one booking twice. There is no quiz in Week 7, when [Project 1C](project.md) is due, or in Week 10 for Midterm Break. Quiz 8 in Week 12 is the last one; there is no quiz in Week 13.
 
-> [!WARNING]
-> Book early. Seats are shared with other courses and they do run out, especially midday.
+One date to watch: **Quiz 7's reservations open on Tuesday Nov 10, in the middle of Midterm Break.** If you are away that week, set yourself a reminder before you go.
 
-<!-- Resolved: reservations open 2 weeks before the assessment, Tuesday at 10 AM, and a
-     one-time PrairieTest enrolment step is required. Both are documented in the
-     Self-Scheduled Assessments in ORCA section above, taken from ORCA's sample syllabus
-     statement. -->
+Which lectures each quiz covers is announced in class beforehand. That cutoff is also where the slides available to you inside ORCA stop.
 
-<!-- The 30-minute cancel/rebook window is ORCA's rule, not a course policy. It now
-     comes from ORCA's own sample syllabus statement rather than the older CBTF pages. -->
+The Dec 2 viva voce is not a quiz. It is graded as [Project 2C](project.md).
 
-### Quiz dates
+## On the day
 
-| Quiz | Week | When |
-| :--: | :--: | :--- |
-| 0 | 2 | Mon Sep 14 to Fri Sep 18. Reservations open Fri Sep 11, 10:00am |
-| 1 | 3 | Sep 23 or 24 |
-| 2 | 4 | Oct 1 or 2, Thursday or Friday |
-| 3 | 5 | Oct 7 or 8 |
-| 4 | 6 | Oct 14 or 15 |
-| *none* | 7 | [Project 1C](project-1.md) is due |
-| 5 | 8 | Oct 28 or 29 |
-| 6 | 9 | Nov 4 or 5 |
-| *none* | 10 | Midterm Break |
-| 7 | 11 | Nov 18 or 19 |
-| 8 | 12 | Nov 25 or 26 |
+ORCA is the Open Resource Centre for Assessments, in the ICICS/CS building on Main Mall — not where your lectures are. It was formerly the CBTF, the Computer-Based Testing Facility, and it is the same place. Your room is shown when you book; the full [room list](https://orca.ubc.ca/about/rooms/) is on ORCA's site.
 
-Notes on the schedule:
+Arrive about 10 minutes early, since a proctor lets students in 10 minutes before the start time, and bring your **UBC student card** — you cannot check in without it. Everything else goes in your backpack on the shelves: phone, watch, wallet, keys, pencil case, hat, food, water bottle. Scratch paper is provided on the desk, and you can raise your hand for more.
 
-- Quiz 0 in Week 2 is your first quiz in the facility. Give yourself time to find it.
-- Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day. Check that booking twice.
-- No quiz in Week 7 (Project 1C is due) or Week 10 (Midterm Break).
-- Quiz 8 in Week 12 is the last one. No quiz in Week 13.
-- The Dec 2 viva voce is not a quiz. Booked the same way, but graded as [Project 2C](project-2.md#part-c-viva-voce).
-- Which lectures each quiz covers is announced in class beforehand. That cutoff is also where the slides available inside ORCA stop.
+Quizzes are open book, but only in one direction. The course slides up to and including the material that quiz covers are **on screen for you inside ORCA**. You may not bring your own material in — no notes, no printouts, no laptops, no phones.
 
+> [!ATTENTION]
+> ORCA has strict policies on check-in, belongings, and conduct, and breaches count as academic or non-academic misconduct. Read [ORCA's policies and procedures](https://orca.ubc.ca/students/policies/) before your first quiz.
 
-## How to Prepare
+<details>
+<summary><strong>Getting your results</strong></summary>
+
+Quizzes run on PrairieLearn and are marked by the computer.
+
+You view your results in the facility on the Monday or Tuesday after you sit the quiz. Results are not emailed and not posted. Reservations for viewings open 3 to 4 days before the viewing window.
+
+If you think there is a scoring error, see the [Remarking Policy](syllabus.md#remarking-policy). The request window is short.
+
+</details>
+
+## How to prepare
 
 | What to do | Why it helps |
 | :--------- | :----------- |
 | Redo lab and in-class activities without the answers | The quiz rewards reasoning you can reproduce, not answers you recognize |
 | Explain a concept out loud to someone | Exposes gaps that re-reading hides |
-| Work the [practice problems](practice/index.html) | More reps on the same kind of reasoning |
 | Know your way around the slides | They are on screen during the quiz, so this saves time |
 | Bring what you cannot work out to drop-in hours or lab | Faster than an hour of re-reading |
 
-## Late Submission
+## If you miss a quiz
+
+Because your lowest of the nine is dropped, missing one costs you nothing and needs no email. That drop is your entire flexibility, though: once it is used, every further missed quiz scores 0.
 
 > [!ATTENTION]
-> No re-takes and no make-up for quizzes.
+> There are no re-takes and no make-ups for quizzes.
 
-- The dropped quiz is your flexibility. Once used, further missed quizzes score 0.
-- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process.
-- Registered with the Centre for Accessibility? See [Academic Accommodations](syllabus.md#academic-accommodations-and-the-centre-for-accessibility) in the syllabus. The exact booking process for accommodated sittings in ORCA is still being confirmed, so contact us early rather than waiting for Quiz 1.
+If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process rather than spending your drop on it.
 
-### Grading Guide
+If you are registered with the Centre for Accessibility, **ORCA hosts most accommodations itself**, so you book a session the normal way and your accommodations are applied there. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) to see whether yours are on the supported list, and do not book with the Centre for Accessibility if they are — the Centre will cancel those bookings. The full process is in [Academic Accommodations](syllabus.md#academic-accommodations-and-the-centre-for-accessibility).
+
+<details>
+<summary><strong>Exactly how a missed quiz is scored</strong></summary>
 
 | Situation | Result |
 | :-------- | :----- |
@@ -172,15 +134,14 @@ Notes on the schedule:
 | Missed quiz | 0, absorbed by your dropped quiz |
 | Second missed quiz | 0, no further flexibility |
 | Seat never booked | 0, same as a missed quiz |
-| Own material brought into ORCA | Academic integrity violation |
 
-Quizzes are marked by the computer. For a scoring error, see the [Remarking Policy](syllabus.md#remarking-policy). The request window is short.
+</details>
 
 ## Related
 
 - [Schedule](schedule.md) - week by week view
 - [Labs](labs.md) - also PrairieLearn, but in person in ICCS X050
 - [Final Exam](final.md) - end of term, also in ORCA
-- [Practice Problems](practice/index.html)
+- [Self-Scheduled Assessments in ORCA](syllabus.md#self-scheduled-assessments-in-orca) - the full facility statement
 - [Course Evaluation](syllabus.md#course-evaluation) - the whole grade breakdown
 - [AI Policy](ai-policy.md) - what is permitted on individual assessments

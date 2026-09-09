@@ -71,10 +71,6 @@ These roles should exist throughout the project.
 
 ### Milestone Roles
 
-<!-- TODO: instructor decision required - the stage column below references generic
-     milestones. Revisit this table once the Fall 2026 project milestones are named in
-     docs/project.md, so the roles line up with the actual deliverables. -->
-
 These roles should rotate or be reassigned as the project moves from research to synthesis, drafting, and presentation. A team member can hold more than one role, but avoid putting all high-responsibility roles on the same person.
 
 | Role | Main responsibility |
