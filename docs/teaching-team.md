@@ -16,7 +16,7 @@ Each lab has a **lead TA** who runs the session and a **support TA** who assists
 
 For questions about your own lab, contact its **lead TA** first.
 
-| **Name** | **Pronouns** | **Leads** | **Supports** | **Drop-in Hours** |
+| Name | Pronouns | Leads | Supports | Drop-in Hours |
 | :------- | :----------- | :-------: | :----------: | :--------------- |
 | **Parsa** Seyfourian | *to be confirmed* | L1A | L1B | *to be confirmed* |
 | **Kate** Manskaia | *to be confirmed* | L1B | L1C | *to be confirmed* |

@@ -18,7 +18,7 @@
 
 Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and the [Labs](labs.md) page.
 
-| **Week** | **Dates** | **Lectures** | **Quiz** | **Lab** | **Due** (11:59pm PT unless noted) |
+| Week | Dates | Lectures | Quiz | Lab | Due (11:59pm PT unless noted) |
 | :------: | :-------- | :----------- | :------- | :------ | :-------------------------------- |
 | **1** | Sep 7 - 11 | W1A: no class, Labour Day<br>W1B: Intro + Syllabus<br>W1C: Data Rep 1 | | [Lab 0](labs.md#schedule) | |
 | **2** | Sep 14 - 18<br>*Course add deadline* | W2A: Data Rep 2<br>W2B: Data Storage<br>W2C: Snap 1, data storage (variables, repeat) | [Quiz 0](quizzes.md#schedule) in ORCA, Mon Sep 14 to Fri Sep 18<br>Reservations open Mon Sep 14, 11:00am | [Lab 1](labs.md#schedule) | Group formation survey, Sep 18 |
