@@ -3,7 +3,7 @@
 > [!NOTE]
 > The peer evaluation mechanism below is final for Fall 2026.
 
-Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are **three rounds**, each paired with a [project retrospective](project.md#retrospectives):
+Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are **three rounds**, each paired with a [project retrospective](project.md#retrospectives-and-peer-evaluation):
 
 | Round | Week | Follows | Graded |
 | :---- | :--: | :------ | :----- |
