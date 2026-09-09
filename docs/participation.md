@@ -27,7 +27,7 @@ Labs are not part of this component. Lab attendance is graded separately, on the
 
 Participation is recorded at every lecture, three times a week. Lecture times and the room are on the [syllabus](syllabus.md#lectures), and which sessions actually run — including holiday cancellations — is on the [Schedule](schedule.md).
 
-Two sessions are not graded: **Wednesday Sep 9**, the first day, which is used to test iClicker, and **Monday Dec 7**, the course wrap-up and last day of class. Everything in between counts, including the project work day on Nov 25 — it is a scheduled lecture session like any other.
+Two sessions are not graded: **Wednesday Sep 9**, the first day, which is used to test iClicker, and the **project work day on Wednesday Nov 25**, which is set aside for your group to work rather than for an activity. Every other session counts, including **Monday Dec 7**, the course wrap-up and last day of class.
 
 ## Checking your record
 
