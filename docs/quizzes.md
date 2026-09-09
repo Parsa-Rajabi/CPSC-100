@@ -122,7 +122,7 @@ Because your lowest of the nine is dropped, missing one costs you nothing and ne
 
 If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process rather than spending your drop on it.
 
-If you are registered with the Centre for Accessibility, see [Academic Accommodations](syllabus.md#academic-accommodations-and-the-centre-for-accessibility) in the syllabus. The exact booking process for accommodated sittings in ORCA is still being confirmed, so contact us early rather than waiting for Quiz 1.
+If you are registered with the Centre for Accessibility, **ORCA hosts most accommodations itself**, so you book a session the normal way and your accommodations are applied there. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) to see whether yours are on the supported list, and do not book with the Centre for Accessibility if they are — the Centre will cancel those bookings. The full process is in [Academic Accommodations](syllabus.md#academic-accommodations-and-the-centre-for-accessibility).
 
 <details>
 <summary><strong>Exactly how a missed quiz is scored</strong></summary>

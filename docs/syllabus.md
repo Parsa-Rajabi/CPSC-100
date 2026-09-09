@@ -290,18 +290,24 @@ Students with a disability or ongoing medical condition can arrange academic acc
 
 1. **Register with the Centre for Accessibility.** You must be registered before you can request accommodations.
 2. **Send your Letter of Accommodation (LOA).** Once registered, you send your LOA to your instructors through [Clockwork](https://students.ubc.ca/about-student-services/centre-for-accessibility/after-registering-with-the-centre-for-accessibility), the Centre's online portal. Do this **as soon as possible, and preferably within the first two weeks of class**. Sending your LOA is also what unlocks exam booking and note-taker services.
-3. **Upload a copy of your LOA to Canvas.** Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
-4. **Expect to arrange your own accommodated sittings.** Exactly where you book depends on the assessment, and we will confirm the process for quizzes and the final exam early in the term.
+3. **Upload a copy of your LOA to Canvas**, using [this assignment](https://canvas.ubc.ca/courses/190791/assignments/2578823). Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
+4. **Book your own accommodated sittings.** For quizzes and the final exam this happens in ORCA, described below.
 
-#### Booking
+#### Accommodated sittings in ORCA
+
+Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), and **ORCA hosts most accommodations itself.** If your accommodations are on ORCA's supported list, you book an ORCA session the same way everyone else does, and your accommodations are applied there. ORCA currently supports extended time, a distraction-reduced environment, close proximity to a washroom, a phone for medical purposes, medical equipment, supplies or food, a computer, calculator or timer, a fan, clock or white noise machine, instructions in writing, formula sheets, and a computer with spellchecking.
+
+If you hold an accommodation that is **not** on that list, you write with the Centre for Accessibility instead.
+
+> [!WARNING]
+> **Do not book with the Centre for Accessibility if your accommodations can be met in ORCA.** The Centre will cancel those bookings. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) first to see which applies to you.
 
 Booking an accommodated sitting is your responsibility, and the deadlines are set by the facility rather than by this course. They are measured in days, not hours, so treat this as something to sort out well ahead of an assessment rather than in the same week.
 
 > [!WARNING]
 > Late booking requests are generally not accepted, and **if you have not booked, the accommodation may not be available to you.** Arrange it as early as you can.
 
-> [!NOTE]
-> Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), which has its own booking system. We are confirming how accommodated sittings work there, and will publish the exact process and deadlines before the first quiz. If you are registered with the Centre, contact us early so we can sort it out with you individually.
+If anything about your own accommodations is unclear, contact us early rather than close to an assessment.
 
 #### Where to go with questions
 

@@ -201,6 +201,7 @@ A written report on a real, documented case where an algorithmic system caused h
 
 - Pick a case connected to Canada or a country in Asia.
 - Pick it after the Algorithmic Bias lecture on Oct 14.
+- **No two groups in the same lab section may take the same case.** Cases are first come, first served: claim yours by replying to the Part C thread on Ed Discussion, and check the replies before you settle on one.
 - Documented means a regulator's report, court filings, or investigative journalism. Not a blog post asserting something happened.
 - Name the mechanism using course vocabulary: decision tree, weighted scoring, feedback loop, training-data gap, proxy variable.
 
