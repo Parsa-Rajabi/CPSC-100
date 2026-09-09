@@ -87,6 +87,7 @@ Group. Due Thursday Nov 19 at 11:59pm.
 - Translate your Snap! program into Python.
 - Map blocks to their Python equivalents and document the process as you go.
 - You already know what the program does, so this is re-expressing a solved problem and noticing where the 2 languages do not line up.
+- Part of this is done **with an AI assistant**, which is what Lab 8 practices. You remain responsible for explaining every line you submit, and AI use must be disclosed under the [AI Policy](ai-policy.md).
 - Practice in Lab 7, Week 9, and Lab 8, Week 11.
 
 ## Part C: Viva Voce
@@ -97,8 +98,7 @@ A short one-on-one oral exam. You:
 
 - demo your Python program;
 - walk through your translation decisions and annotations;
-- answer questions about them;
-- complete a short "vibe coding" task, building something small with an AI assistant while we watch how you direct it and check its work.
+- answer questions about them.
 
 Notes:
 

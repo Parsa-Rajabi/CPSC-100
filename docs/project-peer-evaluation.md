@@ -152,4 +152,4 @@ For practical guidance on setting team expectations, documenting concerns, runni
 
 For each applicable milestone, students will complete an evaluation for each of their team members using the following criteria. Each category is scored from **0 to 5**, for a total of **30 marks**.
 
-Detailed rubrics with descriptions can be found here: *rubric link to be confirmed*.
+Detailed rubrics with descriptions can be found here: [group peer evaluation criteria](https://tiny.cc/group-peer-eval-criteria).

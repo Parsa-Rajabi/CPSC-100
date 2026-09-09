@@ -52,7 +52,7 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 
 ## What you work in
 
-All lab content runs on **PrairieLearn**, including the pre-labs, and login links go out before Week 2. Most of the programming happens in **Snap!** at [snap.berkeley.edu](https://snap.berkeley.edu), which runs in your browser with nothing to install, and moves to **Jupyter** notebooks for Python later in the term. Course discussion, including your weekly project stand-ups, lives on **Ed Discussion**.
+All lab content runs on **[PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/)**, including the pre-labs. Most of the programming happens in **Snap!** at [snap.berkeley.edu](https://snap.berkeley.edu), which runs in your browser with nothing to install, and moves to **Jupyter** notebooks for Python later in the term. Course discussion, including your weekly project stand-ups, lives on **Ed Discussion**.
 
 **Bring a laptop.** The room has CS computers as a backup if you forget yours or something goes wrong, which is the real reason your CS account matters before Lab 1.
 
@@ -90,7 +90,7 @@ Every lab opens with your group already working, which only functions if everyon
 
 ### Lab 0
 
-Lab 0 is not a session you show up to. It is homework on PrairieLearn, and it doubles as the pre-lab for Lab 1, which means it is graded as part of Lab 1. Complete it before your section meets in Week 2. The Lab 0 assessment itself tells you what to do.
+Lab 0 is not a session you show up to. It is homework on [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/), and it doubles as the pre-lab for Lab 1, which means it is graded as part of Lab 1. Complete it before your section meets in Week 2. The Lab 0 assessment itself tells you what to do.
 
 ## Attendance and late arrival
 
