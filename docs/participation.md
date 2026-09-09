@@ -5,9 +5,11 @@
 
 ## Overview
 
-Participation is graded on what you do in lecture, and it is individual work. It is tracked with **iClicker**, an app you answer in-class questions on, with paper activities collected as a backup.
+Participation is graded on what you do in lecture, and it is individual work. It is tracked with **iClicker**, an app you answer in-class questions on. We may also use other mechanisms alongside it to record attendance for verification.
 
-The marks are for **taking part in the in-class activities**, not for attendance alone — turning up and not answering anything is not what this component rewards.
+The marks are for **taking part**, not for attendance alone — turning up and not answering anything is not what this component rewards.
+
+**The in-class activities run on Fridays.** That makes a Friday the most expensive lecture to miss.
 
 There are 35 lecture sessions this term. Two of them are not graded, leaving 33 that are, and **your 6 lowest sessions are dropped automatically**. That means roughly two full weeks of absence is already built into your grade before anything goes wrong.
 
@@ -31,14 +33,7 @@ Two sessions are not graded: **Wednesday Sep 9**, the first day, which is used t
 
 Grades are released after each session, and you have **48 hours from posting** to report an error. Check them as they come in: a missing score is easy to fix in the same week and hard to reconstruct in December.
 
-<details>
-<summary><strong>If iClicker and the paper record disagree</strong></summary>
-
-Paper activities are collected as a backup and for auditing, so a failed app does not cost you the session.
-
-If the two records disagree, come to drop-in hours so we can sort it out. If we hear nothing from you, or you do not show up, that session is recorded as 0.
-
-</details>
+If your record for a session looks wrong, come to drop-in hours so we can sort it out. If we hear nothing from you, or you do not show up, that session stands as recorded.
 
 ## Attendance and late arrival
 
