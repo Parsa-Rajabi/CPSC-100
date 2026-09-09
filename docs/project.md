@@ -20,7 +20,11 @@ Runs from Week 2 to Week 7.
 
 Project 1 is about telling real from synthetic, and noticing where automated judgements go wrong. You will look at your own online footprint, test how well AI-detection tools actually perform, and study a documented case where an algorithmic system caused harm.
 
-It has three parts, a mix of individual and group work. The final part is assessed through a **video presentation** that your group records and submits.
+It has three parts, a mix of individual and group work:
+
+- **Part A**, your digital footprint. Individual.
+- **Part B**, the AI detector experiment. Group.
+- **Part C**, an algorithmic bias case study. Group, and assessed through a **video presentation** your group records and submits.
 
 ## Project 2: From Blocks to Code
 
@@ -28,7 +32,11 @@ Runs from Week 8 to Week 13.
 
 Project 2 is about moving from visual programming into real code, and being able to explain what you built. You will write and annotate a program in Snap!, translate it into Python, and then account for the result in person.
 
-It has three parts, a mix of individual and group work. The final part is a **viva voce**: a short live oral presentation, one-on-one, where you demo your program and answer questions about the decisions behind it. It is individually assessed, mandatory, and a [passing requirement](syllabus.md#passing-criteria).
+It has three parts, a mix of individual and group work:
+
+- **Part A**, a Snap! program with annotations. Individual.
+- **Part B**, translating that program into Python. Group.
+- **Part C**, the **viva voce**: a short live oral presentation, one-on-one, where you demo your program and answer questions about the decisions behind it. Individually assessed, mandatory, and a [passing requirement](syllabus.md#passing-criteria).
 
 ## Group process
 
