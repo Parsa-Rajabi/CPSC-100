@@ -10,8 +10,6 @@
 
 - **Course Project**
   - [Project Overview](project.md)
-  - [Project 1: Signal or Noise?](project-1.md)
-  - [Project 2: From Blocks to Code](project-2.md)
   - [Group Work Resources](group-work-resources.md)
   - [Peer Evaluation](project-peer-evaluation.md)
 

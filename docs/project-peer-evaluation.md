@@ -3,13 +3,13 @@
 > [!NOTE]
 > The peer evaluation mechanism below is final for Fall 2026.
 
-Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are **three rounds**, each paired with a [project retrospective](project.md#retrospectives-and-peer-evaluation):
+Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are **three rounds**, each paired with a [project retrospective](project.md#group-process):
 
 | Round | Week | Follows | Graded |
 | :---- | :--: | :------ | :----- |
 | **iPeer 0** | 4 | Group formation and the group contract | **No.** Practice round. |
-| **iPeer 1** | 8 | [Project 1](project-1.md) | Yes |
-| **iPeer 2** | 13 | [Project 2](project-2.md) | Yes |
+| **iPeer 1** | 8 | [Project 1](project.md) | Yes |
+| **iPeer 2** | 13 | [Project 2](project.md) | Yes |
 
 Exact dates are on the [Schedule](schedule.md) page.
 

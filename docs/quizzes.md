@@ -68,20 +68,20 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 | 2 | 4 | Oct 1 or 2, Thursday or Friday | Tue Sep 22 |
 | 3 | 5 | Oct 7 or 8 | Tue Sep 29 |
 | 4 | 6 | Oct 14 or 15 | Tue Oct 6 |
-| *none* | 7 | [Project 1C](project-1.md) is due | |
+| *none* | 7 | [Project 1C](project.md) is due | |
 | 5 | 8 | Oct 28 or 29 | Tue Oct 20 |
 | 6 | 9 | Nov 4 or 5 | Tue Oct 27 |
 | *none* | 10 | Midterm Break | |
 | 7 | 11 | Nov 18 or 19 | Tue Nov 10 |
 | 8 | 12 | Nov 25 or 26 | Tue Nov 17 |
 
-Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day, so check that one booking twice. There is no quiz in Week 7, when [Project 1C](project-1.md) is due, or in Week 10 for Midterm Break. Quiz 8 in Week 12 is the last one; there is no quiz in Week 13.
+Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day, so check that one booking twice. There is no quiz in Week 7, when [Project 1C](project.md) is due, or in Week 10 for Midterm Break. Quiz 8 in Week 12 is the last one; there is no quiz in Week 13.
 
 One date to watch: **Quiz 7's reservations open on Tuesday Nov 10, in the middle of Midterm Break.** If you are away that week, set yourself a reminder before you go.
 
 Which lectures each quiz covers is announced in class beforehand. That cutoff is also where the slides available to you inside ORCA stop.
 
-The Dec 2 viva voce is not a quiz. It is graded as [Project 2C](project-2.md#part-c-viva-voce).
+The Dec 2 viva voce is not a quiz. It is graded as [Project 2C](project.md).
 
 ## On the day
 

@@ -7,7 +7,7 @@
 
 Labs are where this course stops being abstract. Each one is a 50-minute in-person session in ICCS X050 where you build a piece of something your [project](project.md) needs later, working alongside the group you will submit that project with. They are not standalone worksheets, and they are typically marked in the lab itself by your TA, on what you do during the session.
 
-There are ten numbered labs, Lab 1 through Lab 10, plus Lab 0. Labs 1 to 9 are graded and your best eight count, so one dropped lab is already built into your grade. Lab 0 is homework rather than a session, and Lab 10 is the [viva voce](project-2.md#part-c-viva-voce), graded as part of Project 2 rather than as a lab.
+There are ten numbered labs, Lab 1 through Lab 10, plus Lab 0. Labs 1 to 9 are graded and your best eight count, so one dropped lab is already built into your grade. Lab 0 is homework rather than a session, and Lab 10 is the [viva voce](project.md), graded as part of Project 2 rather than as a lab.
 
 You are marked individually, even though most of the work is collaborative, and you attend the section you are registered in.
 
@@ -35,18 +35,18 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 | Week | Lab | Wed / Thu | Focus |
 | :--: | :-: | :-------- | :---- |
 | 1 | 0 | *homework* | Setup |
-| 2 | 1 | Sep 16 / 17 | [Project 1](project-1.md) intro |
+| 2 | 1 | Sep 16 / 17 | [Project 1](project.md) intro |
 | 3 | 2 | Sep 23 / 24 | Snap! |
 | 4 | *none* | | *No lab. Truth and Reconciliation Day.* |
-| 5 | 3 | Oct 7 / 8 | [Project 1A](project-1.md#part-a-your-digital-footprint) |
-| 6 | 4 | Oct 14 / 15 | [Project 1B](project-1.md#part-b-the-ai-detector-experiment) |
-| 7 | 5 | Oct 21 / 22 | [Project 1C](project-1.md#part-c-algorithmic-bias-case-study) work session |
-| 8 | 6 | Oct 28 / 29 | [Project 2](project-2.md) intro |
+| 5 | 3 | Oct 7 / 8 | [Project 1A](project.md) |
+| 6 | 4 | Oct 14 / 15 | [Project 1B](project.md) |
+| 7 | 5 | Oct 21 / 22 | [Project 1C](project.md) work session |
+| 8 | 6 | Oct 28 / 29 | [Project 2](project.md) intro |
 | 9 | 7 | Nov 4 / 5 | Python |
 | 10 | *none* | | *No lab. Midterm Break.* |
-| 11 | 8 | Nov 18 / 19 | [Project 2B](project-2.md#part-b-snap-to-python-translation) |
-| 12 | 9 | Nov 25 / 26 | [Project 2](project-2.md) work session |
-| 13 | 10 | Dec 2 / 3 | [Viva voce](project-2.md#part-c-viva-voce). Details announced closer to the date |
+| 11 | 8 | Nov 18 / 19 | [Project 2B](project.md) |
+| 12 | 9 | Nov 25 / 26 | [Project 2](project.md) work session |
+| 13 | 10 | Dec 2 / 3 | [Viva voce](project.md). Details announced closer to the date |
 
 **Need to reach your TA?** Start with Ed Discussion, which is where lab questions belong. Email addresses, drop-in hours, and which kind of question goes where are all on [Course Communication](communication.md).
 
