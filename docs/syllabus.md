@@ -110,7 +110,12 @@ In this course, quizzes and the final exam will be held in UBC's **ORCA** (Open 
 
 Your assessments in this course will be **self-scheduled** in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available between the hours of **11 AM to 6 PM, Monday to Sunday** (Saturdays and Sundays have reduced availability).
 
-Reservations for assessments typically open **2 weeks before your assessment, on a Tuesday at 10 AM**. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
+Reservations for quizzes open at **10 AM on the Tuesday before the week your quiz runs**. Reservations for exam viewings open 3 to 4 days before the viewing window.
+
+<!-- TODO: instructor decision required - when reservations open for the final exam.
+     The quiz rule above is confirmed (the Tuesday before the quiz week). ORCA's generic
+     statement says 2 weeks before on a Tuesday, which does not match the quiz rule, so
+     the final exam lead time should not be assumed from either. --> You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
 
 #### Enrolling in PrairieTest
 

@@ -26,15 +26,7 @@ You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobo
 
 Quizzes are self-scheduled, which means you pick a session inside that quiz's window. Sessions usually run **11:00am to 6:00pm, Monday to Sunday**, with reduced availability on weekends. Most quizzes are sat on the **Wednesday or Thursday** of that quiz's week; Quiz 0 runs Monday to Friday and Quiz 2 runs Thursday or Friday.
 
-Reservations open on a **Tuesday at 10:00am**, ahead of the quiz, and it is first come, first served. Quiz 0 is the exception, opening Friday Sep 11.
-
-<!-- TODO: instructor decision required - conflicting statements about when reservations
-     open. ORCA's own statement, reproduced in syllabus.md, says reservations open
-     "2 weeks before your assessment, on a Tuesday at 10 AM". The earlier version of this
-     page said "the Tuesday of the week before". Those are a week apart, and it changes
-     when students should be watching for Quiz 1. This page now says only "a Tuesday at
-     10:00am" so it is not stating something false. Confirm which is right and put the
-     exact lead time back in. -->
+Reservations open at **10:00am on the Tuesday before the week your quiz runs**, and it is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception, opening Friday Sep 11.
 
 > [!WARNING]
 > Book early. Seats are shared with other courses and they do run out, especially midday.
