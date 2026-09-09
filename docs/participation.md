@@ -28,7 +28,7 @@
 - No attendance floor for lectures.
 - No permission to ask for, and no email needed.
 - After the 6 drops, further missed sessions score 0.
-- Missing lectures will not fail you outright, unlike [missing labs](labs.md#how-many-labs-can-i-miss).
+- Missing lectures will not fail you outright, unlike [missing labs](labs.md#attendance-and-late-arrival).
 - Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process. See [Course Communication](communication.md) for the right address.
 
 ## Platform

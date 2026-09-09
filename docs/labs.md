@@ -5,157 +5,138 @@
 
 ## Overview
 
-- 10 labs, Lab 1 to Lab 10, plus Lab 0.
-- Lab 0 is homework rather than a session. It is the pre-lab for Lab 1.
-- Labs 1 to 9 are graded, 1 mark each. Your best 8 count.
-- Lab 10 is the viva voce, graded as part of [Project 2](project-2.md).
-- In person only, in your registered section.
-- Marked individually, but much of the work is with your project group.
-- Labs build the pieces your [project](project.md) needs.
+Labs are where this course stops being abstract. Each one is a 50-minute in-person session in ICCS X050 where you build a piece of something your [project](project.md) needs later, working alongside the group you will submit that project with. They are not standalone worksheets, and they are typically marked in the lab itself by your TA, on what you do during the session.
+
+There are ten numbered labs, Lab 1 through Lab 10, plus Lab 0. Labs 1 to 9 are graded and your best eight count, so one dropped lab is already built into your grade. Lab 0 is homework rather than a session, and Lab 10 is the [viva voce](project-2.md#part-c-viva-voce), graded as part of Project 2 rather than as a lab.
+
+You are marked individually, even though most of the work is collaborative, and you attend the section you are registered in.
 
 > [!WARNING]
 > You must attend at least **7 of the 9 graded labs** to pass this course.
 
-### Before your first lab, Sep 16 or 17
+## Schedule
 
-Lab 0 is the pre-lab for Lab 1. It asks you to:
+Labs run Wednesday and Thursday for 50 minutes, and every section meets in ICCS X050 ([map](https://maps.ubc.ca/?code=ICCS)). Attend the section you are registered in, and check which one that is if you are not sure.
 
-1. **Activate your CS account** at [cs.ubc.ca/getacct](https://www.cs.ubc.ca/getacct/), using your CWL. You need it to log in to the lab computers.
-2. **Sign up for Ed Discussion**, the course discussion board. The join link is on [Course Communication](communication.md).
-3. **Reply to the Lab 0 discussion post** on Ed.
-4. **Complete the welcome survey.**
+Each section has a lead TA who runs it and a support TA who assists, so you see two familiar faces each week. For a question about your own lab, ask your lead TA first. Full names, pronouns, and drop-in hours are on the [Teaching Team](teaching-team.md) page.
 
-Also worth doing:
+| Section | Day | Time | Lead TA | Support TA |
+| :-----: | :-- | :--- | :------ | :--------- |
+| L1A | Wednesday | 10:00-11:00am | Parsa S. | Jessica |
+| L1B | Wednesday | 11:00am-12:00pm | Kate | Parsa S. |
+| L1C | Wednesday | 12:00-1:00pm | Tarvin | Kate |
+| L1D | Wednesday | 4:00-5:00pm | Sally | Tarvin |
+| L1E | Thursday | 2:00-3:00pm | Jessica | Sally |
 
-- Check which section you are registered in (L1A to L1E).
-- Find ICCS X050 on the [campus map](https://maps.ubc.ca/?code=ICCS).
-- **Bring a laptop.** The ICCS X050 computers are there as a backup if you forget or run into trouble, which is why activating your CS account still matters.
+### Labs by week
 
-<!-- TODO: instructor decision required - confirm the Lab 0 discussion post title and
-     whether the reply has a required format or minimum length. -->
+Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation Day, or in Week 10, for Midterm Break. The focus below is a rough guide. What each lab actually covers is posted on PrairieLearn before the session.
 
-### How many labs can I miss?
+| Week | Lab | Wed / Thu | Focus |
+| :--: | :-: | :-------- | :---- |
+| 1 | 0 | *homework* | Setup |
+| 2 | 1 | Sep 16 / 17 | [Project 1](project-1.md) intro |
+| 3 | 2 | Sep 23 / 24 | Snap! |
+| 4 | *none* | | *No lab. Truth and Reconciliation Day.* |
+| 5 | 3 | Oct 7 / 8 | [Project 1A](project-1.md#part-a-your-digital-footprint) |
+| 6 | 4 | Oct 14 / 15 | [Project 1B](project-1.md#part-b-the-ai-detector-experiment) |
+| 7 | 5 | Oct 21 / 22 | [Project 1C](project-1.md#part-c-algorithmic-bias-case-study) work session |
+| 8 | 6 | Oct 28 / 29 | [Project 2](project-2.md) intro |
+| 9 | 7 | Nov 4 / 5 | Python |
+| 10 | *none* | | *No lab. Midterm Break.* |
+| 11 | 8 | Nov 18 / 19 | [Project 2B](project-2.md#part-b-snap-to-python-translation) |
+| 12 | 9 | Nov 25 / 26 | [Project 2](project-2.md) work session |
+| 13 | 10 | Dec 2 / 3 | [Viva voce](project-2.md#part-c-viva-voce). Details announced closer to the date |
 
-| Missed | Result |
-| :----: | :----- |
-| 1 | No effect. Your lowest lab is dropped automatically. |
-| 2 | Still meets the attendance requirement. Costs you 1 lab mark. |
-| 3 or more | Final grade capped at 45%. |
+**Need to reach your TA?** Start with Ed Discussion, which is where lab questions belong. Email addresses, drop-in hours, and which kind of question goes where are all on [Course Communication](communication.md).
 
-- No email needed for 1 missed lab.
-- No advance permission needed.
-- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process.
+## What you work in
 
-## Platform
+All lab content runs on **PrairieLearn**, including the pre-labs, and login links go out before Week 2. Most of the programming happens in **Snap!** at [snap.berkeley.edu](https://snap.berkeley.edu), which runs in your browser with nothing to install, and moves to **Jupyter** notebooks for Python later in the term. Course discussion, including your weekly project stand-ups, lives on **Ed Discussion**.
 
-All lab content runs on PrairieLearn. Login links posted before Week 2.
+**Bring a laptop.** The room has CS computers as a backup if you forget yours or something goes wrong, which is the real reason your CS account matters before Lab 1.
 
-| Tool | What it is |
-| :--- | :--------- |
-| CS account | Logs you in to the lab computers in ICCS X050. Activate it at [cs.ubc.ca/getacct](https://www.cs.ubc.ca/getacct/). |
-| Ed Discussion | The course discussion board. Join link on [Course Communication](communication.md). |
-| Snap! | Drag-and-drop programming, in your browser at [snap.berkeley.edu](https://snap.berkeley.edu). Nothing to install. |
-| Jupyter | Notebooks for writing and running Python, later in the term. |
+### Your CS account
 
-### CS account
+Your CS account is what logs you in to the computers in ICCS X050, and it is separate from your CWL. Activate it at [cs.ubc.ca/getacct](https://www.cs.ubc.ca/getacct/) using your CWL as soon as you are registered. The account itself is `CWLid@students.cs.ubc.ca`.
 
-- Activate it at [cs.ubc.ca/getacct](https://www.cs.ubc.ca/getacct/) using your CWL. Do this as soon as you are registered.
-- Your account is `CWLid@students.cs.ubc.ca`.
-- Already taken a CPSC course? Your old account is reused, but still run getacct to activate it for this term.
-- Registered late? Accounts are built from Registrar data, so yours may take a few days to appear.
-- Problems? Email **help@students.cs.ubc.ca** or see [My CS](https://my.cs.ubc.ca/). Do this before Lab 1 rather than in it.
+Sort this out before Lab 1 rather than during it. A lab is 50 minutes, and you do not want to spend any of them on account setup.
+
+<details>
+<summary><strong>If your account does not work</strong></summary>
+
+- **Already taken a CPSC course?** Your old account is reused, but you still need to run getacct to activate it for this term.
+- **Registered late?** Accounts are built from Registrar data, so yours may take a few days to appear.
+- **Something else?** Email **help@students.cs.ubc.ca**, or see [My CS](https://my.cs.ubc.ca/).
+
+</details>
 
 <!-- TODO: instructor decision required - two things:
        - confirm help@students.cs.ubc.ca is the address you want students using, rather
          than help@cs.ubc.ca, which is what the CBTF pages give.
        - ICCS X050 has CS computers, and students now need an account to use them. Confirm
-         whether a laptop is still expected, optional, or discouraged. The lab drafts say
-         "bring a laptop"; this page currently says both. -->
+         whether a laptop is still expected, optional, or discouraged. This page currently
+         says to bring one. -->
 
-### Pre-labs
+## What a lab looks like
 
-- Every lab has a short pre-lab on PrairieLearn.
-- The pre-lab is **part of that lab's 1 mark**, not a separate component.
-- Due right before your own section starts:
-  - L1A: 10:00am Wednesday
-  - L1B: 11:00am Wednesday
-  - L1C: 12:00pm Wednesday
-  - L1D: 4:00pm Wednesday
-  - L1E: 2:00pm Thursday
-- Arriving without it done costs 0.25 of a mark for that lab.
-- These deductions stack. Turning up late **and** without the pre-lab done costs 0.5 of that lab's mark.
-- Lab 0 is the pre-lab for Lab 1. See [Before your first lab](#before-your-first-lab-sep-16-or-17) for what it covers.
+You arrive with the pre-lab done, work through the session's task — usually with your project group — and your TA marks you before you leave. Almost every lab is marked this way, in the room, which means there is nothing to chase afterwards.
+
+<details>
+<summary><strong>When a lab has something to submit</strong></summary>
+
+Most labs are marked in the session itself and need nothing from you afterwards. When a lab does ask for something to be handed in, the lab will say so, and the deadline is Thursday at 11:59pm that same week.
+
+</details>
+
+## The pre-lab
+
+Every lab opens with your group already working, which only functions if everyone arrives having thought about the problem first. That is what the pre-lab is for. It is a short set of questions on PrairieLearn, and it counts as part of that lab's grade rather than as a separate score of its own.
+
+**Your pre-lab is due the moment your section starts** — 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs a quarter of that lab's grade, and turning up late costs another quarter, because each one leaves your group waiting on you. The two deductions stack, so doing both costs half the lab.
+
+### Lab 0
+
+Lab 0 is not a session you show up to. It is homework on PrairieLearn, and it doubles as the pre-lab for Lab 1, which means it is graded as part of Lab 1. Complete it before your section meets in Week 2. The Lab 0 assessment itself tells you what to do.
+
+<!-- TODO: instructor decision required - Lab 0's contents (CS account activation, Ed
+     sign-up, the discussion post reply, and the welcome survey) are moving into a Lab 0
+     assessment on PrairieLearn. Confirm that assessment is live before Week 2, and decide
+     whether this page should link to it directly. The earlier open question about the
+     discussion post title and required reply format now belongs with that assessment. -->
 
 <!-- TODO: instructor decision required - is there a pre-lab for Lab 10, the viva voce?
-     Lab 10 carries no lab mark (it is graded as Project 2C), so a pre-lab there would
+     Lab 10 carries no lab grade (it is graded as Project 2C), so a pre-lab there would
      need a different home or none at all.
-     Resolved: the pre-lab is part of the lab's single mark, and the 0.25 pre-lab and
-     0.25 late-arrival deductions are intended to stack up to 0.5. This supersedes the
-     earlier "Lab 0 is not graded" note. -->
+     Resolved: the pre-lab is part of that lab's grade, and the 0.25 pre-lab and 0.25
+     late-arrival deductions are intended to stack up to 0.5. This supersedes the earlier
+     "Lab 0 is not graded" note. -->
 
-### How labs are marked
+## Attendance and late arrival
 
-- Almost all labs are marked in the session, by your TA. Nothing to submit.
-- If a lab does have something to hand in, it is due Thursday 11:59pm that week. The lab will say so.
+Because your lowest lab is dropped, missing one costs you nothing at all, and there is no email to send and no permission to ask for in advance. Missing a second still satisfies the attendance requirement, but it costs you, since you have no drop left to absorb it. **From the third missed lab onwards, your final grade is capped at 45%** — that is the 7-of-9 requirement taking effect.
 
-## Schedule
+Your first late arrival each term is free, with no explanation needed. After that the deductions apply. Most labs open with group work, so arriving late holds up your teammates rather than only yourself.
 
-- Labs run Wednesday and Thursday, 50 minutes each.
-- All sections meet in ICCS X050 ([map](https://maps.ubc.ca/?code=ICCS)).
-- Attend the section you are registered in.
-- Each lab runs twice: Wednesday for L1A to L1D, Thursday for L1E.
-- TA assignments are on the [Teaching Team](teaching-team.md) page.
+Lab attendance affects your lab grade and nothing else. It does not touch [Course Participation](participation.md), which is graded on lectures.
 
-| Section | Day | Time |
-| :-----: | :-- | :--- |
-| L1A | Wednesday | 10:00-11:00am |
-| L1B | Wednesday | 11:00am-12:00pm |
-| L1C | Wednesday | 12:00-1:00pm |
-| L1D | Wednesday | 4:00-5:00pm |
-| L1E | Thursday | 2:00-3:00pm |
+If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process rather than spending your drops on it.
 
-| Lab | Wed / Thu | What you do |
-| :-: | :-------- | :---------- |
-| 0 | *before Sep 16* | Pre-lab for Lab 1: CS account, Ed sign-up, discussion post reply, welcome survey |
-| 1 | Sep 16 / 17 | [Project 1](project-1.md) intro, group formation, Markdown |
-| 2 | Sep 23 / 24 | Draw shapes in Snap! using loops and variables |
-| 3 | Oct 7 / 8 | Exposure score calculator for [Project 1A](project-1.md#part-a-your-digital-footprint). TA signs off your Part B dataset |
-| 4 | Oct 14 / 15 | Run your images through the AI detectors for [Project 1B](project-1.md#part-b-the-ai-detector-experiment) |
-| 5 | Oct 21 / 22 | Work session on [Project 1C](project-1.md#part-c-algorithmic-bias-case-study), TAs on hand |
-| 6 | Oct 28 / 29 | [Project 2](project-2.md) intro. Debug and annotate Python |
-| 7 | Nov 4 / 5 | Convert a Snap! program to Python |
-| 8 | Nov 18 / 19 | Write Python with AI help, for [Project 2B](project-2.md#part-b-snap-to-python-translation) |
-| 9 | Nov 25 / 26 | Work session on [Project 2](project-2.md), plus your group retrospective |
-| 10 | Dec 2 / 3 | [Viva voce](project-2.md#part-c-viva-voce): a short oral exam on your code |
-
-Notes on the schedule:
-
-- Labs start in Week 2, Sep 16 and 17. No lab session in Week 1.
-- No lab in Week 4 (Truth and Reconciliation Day) or Week 10 (Midterm Break). All sections lose the same weeks.
-- **Each lab runs as a Wednesday/Thursday pair.** If one half of a pair is cancelled, the other is cancelled too, so all five sections always sit the same number of labs. That is what keeps the 7-of-9 attendance requirement fair across sections.
-- Lab 10 works differently from the rest:
-  - Attendance is mandatory.
-  - No lab mark. It is graded as [Project 2C](project-2.md#part-c-viva-voce).
-  - Book a slot at [us.prairietest.com](https://us.prairietest.com) instead of attending your usual section. The booking window covers **Dec 2 and Dec 3**, so you are not tied to your usual day.
-  - Details posted in November.
-
-## Late Submission
-
-- Your first late arrival each term is free. No explanation needed.
-- After that, the deductions below apply.
-- Most labs open with group work, so a late arrival holds up your teammates.
-- Lab attendance affects your lab grade only. It does not touch [Course Participation](participation.md).
-
-### Grading Guide
+<details>
+<summary><strong>Exact deductions</strong></summary>
 
 | Situation | Cost |
 | :-------- | :--- |
-| Pre-lab not done on arrival | 0.25 mark |
-| Arriving in the first 10 minutes | 0.25 mark |
-| Arriving 10 to 25 minutes late | 0.5 mark |
-| Arriving after 25 minutes | No mark for that lab |
-| Missing a lab | No mark, absorbed by your dropped lab |
+| Pre-lab not done on arrival | Quarter of that lab's grade |
+| Arriving in the first 10 minutes | Quarter of that lab's grade |
+| Arriving 10 to 25 minutes late | Half of that lab's grade |
+| Arriving after 25 minutes | No grade for that lab |
+| Missing a lab | No grade, absorbed by your dropped lab |
 | Missing more than 2 graded labs | Final grade of 45% or less |
+
+Your first late arrival each term is exempt from these.
+
+</details>
 
 ## Related
 
