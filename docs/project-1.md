@@ -206,9 +206,6 @@ A written report on a real, documented case where an algorithmic system caused h
 
 Deliverable: the template below, 800 to 1200 words.
 
-<!-- TODO: instructor decision required - whether groups within a section may pick the
-     same case. -->
-
 ### Part C report template
 
 Fill in every section. Bullet points are fine. Header: case name, country, group members.

@@ -152,8 +152,4 @@ For practical guidance on setting team expectations, documenting concerns, runni
 
 For each applicable milestone, students will complete an evaluation for each of their team members using the following criteria. Each category is scored from **0 to 5**, for a total of **30 marks**.
 
-<!-- TODO: instructor decision required - confirm the rubric link below. The CPSC 344
-     offering used https://tiny.cc/group-peer-eval-criteria; verify it is course-neutral
-     before pointing CPSC 100 students at it, or publish a CPSC 100 copy. -->
-
 Detailed rubrics with descriptions can be found here: *rubric link to be confirmed*.

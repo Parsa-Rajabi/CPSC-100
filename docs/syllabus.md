@@ -37,7 +37,6 @@ The course is designed to be interactive, with a focus on hands-on learning and 
 
 We acknowledge that the land on which we gather is the traditional, ancestral and unceded territory of the Coast Salish Peoples, including the territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səl̓ílwətaɬ (Tsleil-Waututh) Nations.
 
-
 ## Course Description
 
 > Meaning and impact of computational thinking. Solving problems using computational thinking, testing, debugging. How computers work. No prior computing experience required. Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160. [3-1-0]
@@ -127,10 +126,6 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 7. You are able to cancel or change your reservation at any time, up to **30 minutes before** your reservation, during the assessment window.
 
 The exact reservation opening date for every quiz is on the [Quizzes](quizzes.md#schedule) page.
-
-<!-- TODO: instructor decision required - confirm the final exam follows the same rule as
-     the quizzes (reservations opening the Tuesday of the week before), or record its own
-     opening date once the exam is scheduled. -->
 
 ### Project
 
@@ -249,7 +244,6 @@ Students are expected to maintain a high level of professionalism in all course 
 
 CPSC 100 has a [Code of Conduct](code-of-conduct.md) covering respectful conduct, teamwork and accountability, and academic integrity. By remaining enrolled in this course, you agree to uphold it. Please read it in full.
 
-
 ---
 ## UBC and Course Policies
 ---
@@ -298,18 +292,6 @@ Students with a disability or ongoing medical condition can arrange academic acc
 2. **Send your Letter of Accommodation (LOA).** Once registered, you send your LOA to your instructors through [Clockwork](https://students.ubc.ca/about-student-services/centre-for-accessibility/after-registering-with-the-centre-for-accessibility), the Centre's online portal. Do this **as soon as possible, and preferably within the first two weeks of class**. Sending your LOA is also what unlocks exam booking and note-taker services.
 3. **Upload a copy of your LOA to Canvas.** Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
 4. **Expect to arrange your own accommodated sittings.** Exactly where you book depends on the assessment, and we will confirm the process for quizzes and the final exam early in the term.
-
-<!-- TODO: instructor decision required - two things:
-       - the exact Canvas location for LOA uploads (a dedicated assignment? a
-         submission folder?). The concession form above also says "via Canvas" without
-         naming a location, so both need the same answer.
-       - how accommodated sittings actually work for our ORCA assessments. Unresolved
-         as of Sept 2026: whether ORCA can host CfA accommodations itself, or whether
-         students book through the Centre instead. Booking deadlines and check-in times
-         differ between the two (the Centre's exam centre asks for 15 minutes early,
-         ORCA asks for 10), so publishing either version before this is settled risks
-         costing a student a quiz. All three pages now say only that the process is
-         being confirmed. Publish the detail before Quiz 1 in Week 3. -->
 
 #### Booking
 

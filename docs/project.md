@@ -24,12 +24,6 @@ Your project grade covers 4 things:
 | Retrospectives | A short group write-up after each project: what worked, what you would change |
 | Peer evaluation | A multiplier on your group's mark, so group members can get different grades |
 
-<!-- TODO: instructor decision required - how the project 30% divides across parts,
-     stand-ups, and retrospectives. Stand-ups and retrospectives are now graded project
-     components rather than penalty-only items, which supersedes the earlier
-     "missing retrospective costs 1% of the course grade" decision. Confirm whether that
-     penalty is replaced or kept alongside the mark. -->
-
 > [!WARNING]
 > To pass this course you must achieve at least **50% on the course project**. See [Course Evaluation](syllabus.md#course-evaluation) for how much the project is worth.
 
@@ -90,7 +84,6 @@ Each part is submitted separately, in its own week. Neither project has a single
 | 13 | Thu Dec 3 | Project 2 retrospective + iPeer 2 |
 
 Weekly stand-ups run every week from Week 2 to Week 13, due **Friday at 4:00pm**, right after the Friday lecture.
-
 
 Notes on the schedule:
 
@@ -194,13 +187,6 @@ A wrong page number or a broken link is an error, not fabrication.
 - AI use is governed by the [AI Policy](ai-policy.md).
 - An AI usage disclosure is required in both project submissions.
 - You remain responsible for the accuracy of what you submit, and you should be able to explain any work submitted under your name.
-
-<!-- TODO: instructor decision required - confirm with the department or Faculty of
-     Science that a zero on a 30% course component can be applied directly by the
-     instructor, rather than requiring referral to the academic integrity process. This
-     is the one part of the fabrication rule still unverified; the wording currently
-     states it as a direct penalty.
-     Resolved: where attribution is impossible, the zero applies to the whole group. -->
 
 ## Related
 

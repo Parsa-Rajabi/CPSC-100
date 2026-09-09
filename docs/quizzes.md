@@ -77,11 +77,6 @@ Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reco
 
 One date to watch: **Quiz 7's reservations open on Tuesday Nov 10, in the middle of Midterm Break.** If you are away that week, set yourself a reminder before you go.
 
-<!-- TODO: instructor decision required - Quiz 7 reservations land on Tue Nov 10, inside
-     Midterm Break (Nov 9-13). That is what the "Tuesday before the quiz week" rule gives,
-     but confirm you want it opening while students are away, or whether it should shift. -->
-
-
 Which lectures each quiz covers is announced in class beforehand. That cutoff is also where the slides available to you inside ORCA stop.
 
 The Dec 2 viva voce is not a quiz. It is graded as [Project 2C](project-2.md#part-c-viva-voce).
@@ -107,11 +102,6 @@ You view your results in the facility on the Monday or Tuesday after you sit the
 If you think there is a scoring error, see the [Remarking Policy](syllabus.md#remarking-policy). The request window is short.
 
 </details>
-
-<!-- Resolved: orca.ubc.ca is live and is now the front door this page links to.
-     Room number is no longer a course-level question: sessions are self-scheduled and the
-     room is shown when a student books. The full room list is linked above.
-     The 30-minute cancel/rebook window is ORCA's rule, not a course policy. -->
 
 ## How to prepare
 

@@ -13,10 +13,6 @@
 
 ## Quick Facts
 
-<!-- TODO: instructor decision required - fill in once the university publishes the 2026W1
-     exam schedule and the course weights are set. Needed: date, time, location, weight,
-     and the cheat sheet allowance. -->
-
 | Item | Details |
 | :--- | :------ |
 | Date | *to be confirmed* |
@@ -32,7 +28,6 @@ Check the latest information via UBC's exam page: https://tools.students.ubc.ca/
 
 > [!WARNING]
 > Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.
-
 
 ## Passing Requirement
 
@@ -62,7 +57,6 @@ Useful UBC support links:
 | Bring | Why |
 | :---- | :-- |
 | UBC student ID | Required for identity verification. |
-
 
 ## Centre for Accessibility Arrangements
 

@@ -18,10 +18,6 @@
 2. **Join CPSC 100** using this link: [join.iclicker.com/MGAK](https://join.iclicker.com/MGAK)
 3. Use the first lecture, **Sep 9**, to check it works. That session is not graded.
 
-<!-- TODO: instructor decision required - whether students need a paid iClicker
-     subscription, and if so the cost. This is a student cost disclosure, so it should
-     appear here before the first graded session on Sep 11. -->
-
 ### How many lectures can I miss?
 
 - 6, with no effect on your grade. That is 2 full weeks.
@@ -84,10 +80,6 @@ Where that leaves you:
 | 7 | 26/27 |
 | 8 | 25/27 |
 | 10 | 23/27 |
-
-<!-- TODO: instructor decision required - confirm the lecture/lab asymmetry on late
-     arrivals is intended. Labs grant one free late arrival per term; lectures grant none.
-     Flagged during the assessment review as defensible but slightly inconsistent. -->
 
 ## Related
 

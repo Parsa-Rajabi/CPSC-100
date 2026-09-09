@@ -71,13 +71,6 @@ Sort this out before Lab 1 rather than during it. A lab is 50 minutes, and you d
 
 </details>
 
-<!-- TODO: instructor decision required - two things:
-       - confirm help@students.cs.ubc.ca is the address you want students using, rather
-         than help@cs.ubc.ca, which is what the CBTF pages give.
-       - ICCS X050 has CS computers, and students now need an account to use them. Confirm
-         whether a laptop is still expected, optional, or discouraged. This page currently
-         says to bring one. -->
-
 ## What a lab looks like
 
 You arrive with the pre-lab done, work through the session's task — usually with your project group — and your TA marks you before you leave. Almost every lab is marked this way, in the room, which means there is nothing to chase afterwards.
@@ -98,19 +91,6 @@ Every lab opens with your group already working, which only functions if everyon
 ### Lab 0
 
 Lab 0 is not a session you show up to. It is homework on PrairieLearn, and it doubles as the pre-lab for Lab 1, which means it is graded as part of Lab 1. Complete it before your section meets in Week 2. The Lab 0 assessment itself tells you what to do.
-
-<!-- TODO: instructor decision required - Lab 0's contents (CS account activation, Ed
-     sign-up, the discussion post reply, and the welcome survey) are moving into a Lab 0
-     assessment on PrairieLearn. Confirm that assessment is live before Week 2, and decide
-     whether this page should link to it directly. The earlier open question about the
-     discussion post title and required reply format now belongs with that assessment. -->
-
-<!-- TODO: instructor decision required - is there a pre-lab for Lab 10, the viva voce?
-     Lab 10 carries no lab grade (it is graded as Project 2C), so a pre-lab there would
-     need a different home or none at all.
-     Resolved: the pre-lab is part of that lab's grade, and the 0.25 pre-lab and 0.25
-     late-arrival deductions are intended to stack up to 0.5. This supersedes the earlier
-     "Lab 0 is not graded" note. -->
 
 ## Attendance and late arrival
 

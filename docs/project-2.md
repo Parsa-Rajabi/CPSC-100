@@ -20,10 +20,6 @@ For reference, [Project 1](project-1.md) splits its parts 20 / 50 / 30. Project 
 
 Part A is **individual**; Parts B and C are group work, with the viva assessed individually. So Project 2 starts with your own Snap! program, then moves into group translation.
 
-<!-- TODO: instructor decision required - the percentage split across the three parts.
-     Note that with Part A individual, peer evaluation should apply only to the group
-     portion (B and C), not to the whole Project 2 mark. Confirm when setting weights. -->
-
 The [Project](project.md) page covers the grading bands, group contract, stand-ups, retrospectives, peer evaluation, and integrity rules. All apply here.
 
 ## Platform
@@ -75,9 +71,6 @@ Every component lands in one of the [5 bands](project.md#the-5-bands). Complete 
 | Missing the viva voce | 0 on 2C, and a failing condition for the course |
 | Undisclosed AI use | [AI Policy](ai-policy.md) violation |
 
-<!-- TODO: instructor decision required - the per-part weights, needed to complete this
-     section. -->
-
 ## Part A: Snap! Program and Annotations
 
 Due Thursday Nov 5 at 11:59pm.
@@ -95,12 +88,6 @@ Group. Due Thursday Nov 19 at 11:59pm.
 - Map blocks to their Python equivalents and document the process as you go.
 - You already know what the program does, so this is re-expressing a solved problem and noticing where the 2 languages do not line up.
 - Practice in Lab 7, Week 9, and Lab 8, Week 11.
-
-<!-- TODO: instructor decision required - reconcile Part B with the lab sequence. Lab 7
-     (Week 9) is "convert Snap to Python" but 2A is due that week, and Lab 8 (Week 11) is
-     "Python programming using AI", the week 2B is due. That suggests 2B includes an
-     AI-assisted component, and that the "vibe coding" task may belong to 2B rather than
-     to the viva as the redesign draft had it. Confirm what 2A and 2B each require. -->
 
 ## Part C: Viva Voce
 
