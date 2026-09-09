@@ -24,7 +24,9 @@ Two things about it are deliberately unlike the rest. Its sitting window is long
 
 You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobody assigns you one, and **a quiz you never booked scores 0** — this is the single most common way to lose marks on this component.
 
-Quizzes are self-scheduled, which means you pick a session inside that quiz's window. Sessions usually run **11:00am to 6:00pm, Monday to Sunday**, with reduced availability on weekends. Most quizzes are sat on the **Wednesday or Thursday** of that quiz's week; Quiz 0 runs Monday to Friday and Quiz 2 runs Thursday or Friday.
+Quizzes are self-scheduled, which means you pick a session inside that quiz's window. Expect sessions from around **11:00am until roughly 6:00pm**, seven days a week, with fewer on weekends. Treat that as a rough guide rather than a promise: ORCA sets its own hours based on operational needs, they can change without notice, and the facility sometimes opens or closes earlier or later than usual. What PrairieTest offers you when you go to book is the real answer.
+
+Most quizzes are sat on the **Wednesday or Thursday** of that quiz's week; Quiz 0 runs Monday to Friday and Quiz 2 runs Thursday or Friday.
 
 Reservations open at **10:00am on the Tuesday before the week your quiz runs**, and it is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception, opening Monday Sep 14 at 11:00am.
 
