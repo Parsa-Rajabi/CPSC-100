@@ -5,83 +5,61 @@
 
 ## Overview
 
-- Individual, and in lecture only.
-- Tracked with iClicker, with paper activities as backup.
-- 35 lecture sessions. 33 are graded, 1 mark each.
-- Your 6 lowest sessions are dropped. 27 marks count.
-- Marks are for taking part in in-class activities, not for attendance alone.
-- Labs are not part of this component. Lab attendance is graded on the [Labs](labs.md) page.
+Participation is graded on what you do in lecture, and it is individual work. It is tracked with **iClicker**, an app you answer in-class questions on, with paper activities collected as a backup.
 
-### Set up iClicker before your second lecture
+The marks are for **taking part in the in-class activities**, not for attendance alone — turning up and not answering anything is not what this component rewards.
+
+There are 35 lecture sessions this term. Two of them are not graded, leaving 33 that are, and **your 6 lowest sessions are dropped automatically**. That means roughly two full weeks of absence is already built into your grade before anything goes wrong.
+
+Labs are not part of this component. Lab attendance is graded separately, on the [Labs](labs.md) page.
+
+## Set up iClicker before your second lecture
 
 1. **Install the iClicker app** on your phone. This course is **app-only**; physical remotes are not supported.
 2. **Join CPSC 100** using this link: [join.iclicker.com/MGAK](https://join.iclicker.com/MGAK)
-3. Use the first lecture, **Sep 9**, to check it works. That session is not graded.
+3. Use the first lecture, **Sep 9**, to check it works. That session is not graded, so it is a free trial run.
 
 **There is no cost to you.** You do not need a paid iClicker subscription for this course.
 
-### How many lectures can I miss?
-
-- 6, with no effect on your grade. That is 2 full weeks.
-- No attendance floor for lectures.
-- No permission to ask for, and no email needed.
-- After the 6 drops, further missed sessions score 0.
-- Missing lectures will not fail you outright, unlike [missing labs](labs.md#attendance-and-late-arrival).
-- Serious or ongoing circumstances: use the [academic concession](syllabus.md#academic-concessions) process. See [Course Communication](communication.md) for the right address.
-
-## Platform
-
-- iClicker, an app you answer in-class questions on.
-- Paper activities are collected as a backup and for auditing, so a failed app does not cost you the session.
-- Grades are released after each session.
-- You have 48 hours from posting to report an error in your record.
-- If iClicker and the paper backup disagree, come to drop-in hours to sort it out. No response or no show means that session is recorded as 0.
-
-Check your grades as they come in. A missing score is easy to fix in the same week and hard to reconstruct in December.
-
 ## Schedule
 
-- Recorded at every lecture, 3 times a week.
-- Times and room are on the [syllabus](syllabus.md#lectures).
-- Which sessions run is on the [Schedule](schedule.md).
+Participation is recorded at every lecture, three times a week. Lecture times and the room are on the [syllabus](syllabus.md#lectures), and which sessions actually run — including holiday cancellations — is on the [Schedule](schedule.md).
 
-| | Sessions |
-| :--- | :---: |
-| Lectures this term | 35 |
-| Not graded | 2 |
-| Graded sessions | 33 |
-| Lowest dropped | 6 |
-| Marks that count | 27 |
+Two sessions are not graded: **Wednesday Sep 9**, the first day, which is used to test iClicker, and **Monday Dec 7**, the course wrap-up and last day of class. Everything in between counts, including the project work day on Nov 25 — it is a scheduled lecture session like any other.
 
-Not graded:
+## Checking your record
 
-- Wednesday Sep 9, the first day. Used to test iClicker.
-- Monday Dec 7, the course wrap-up and last day of class.
+Grades are released after each session, and you have **48 hours from posting** to report an error. Check them as they come in: a missing score is easy to fix in the same week and hard to reconstruct in December.
 
-Everything in between counts, including the project work day on Nov 25. It is a scheduled lecture session.
+<details>
+<summary><strong>If iClicker and the paper record disagree</strong></summary>
 
-## Late Arrival
+Paper activities are collected as a backup and for auditing, so a failed app does not cost you the session.
 
-- No free late arrival for lectures.
-- [Labs](labs.md) give you one, because a late arrival there holds up your teammates.
-- The drops cover ordinary short-term absences. Save them for when you need them.
+If the two records disagree, come to drop-in hours so we can sort it out. If we hear nothing from you, or you do not show up, that session is recorded as 0.
 
-### Grading Guide
+</details>
+
+## Attendance and late arrival
+
+Because your 6 lowest sessions are dropped, you can miss up to six lectures with no effect on your grade at all. There is no attendance floor, no permission to ask for, and no email to send. After those drops are used, every further missed session scores 0.
+
+Missing lectures will not fail you outright, unlike [missing labs](labs.md#attendance-and-late-arrival) — but the drops are meant to cover ordinary short-term absences, so it is worth saving them for when you actually need them.
+
+There is no free late arrival for lectures. [Labs](labs.md) grant one, because arriving late there holds up your teammates rather than only yourself.
+
+If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process rather than spending your drops on it. See [Course Communication](communication.md) for the right address.
+
+<details>
+<summary><strong>Exact deductions</strong></summary>
 
 | Situation | Cost |
 | :-------- | :--- |
-| Arriving too late for the first clicker question | 0.25 mark |
-| Arriving more than 10 minutes late | Session capped at 0.5 marks |
+| Arriving too late for the first clicker question | Quarter of that session's grade |
+| Arriving more than 10 minutes late | Session capped at half |
 | Missing a session | 0, absorbed by your 6 drops |
 
-Where that leaves you:
-
-| Sessions missed | Marks |
-| :-------------: | :---: |
-| 0 to 6 | 27/27, full marks |
-| 7 | 26/27 |
-| 8 | 25/27 |
-| 10 | 23/27 |
+</details>
 
 ## Related
 
