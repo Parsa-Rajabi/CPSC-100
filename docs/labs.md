@@ -92,6 +92,8 @@ Every lab opens with your group already working, which only functions if everyon
 
 Lab 0 is not a session you show up to. It is homework on [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/), and it doubles as the pre-lab for Lab 1, which means it is graded as part of Lab 1. Complete it before your section meets in Week 2. The Lab 0 assessment itself tells you what to do.
 
+Labs 1 through 9 each have a pre-lab. **Lab 10 does not**, since it is the viva voce and carries no lab grade of its own.
+
 ## Attendance and late arrival
 
 Because your lowest lab is dropped, missing one costs you nothing at all, and there is no email to send and no permission to ask for in advance. Missing a second still satisfies the attendance requirement, but it costs you, since you have no drop left to absorb it. **From the third missed lab onwards, your final grade is capped at 45%** — that is the 7-of-9 requirement taking effect.
