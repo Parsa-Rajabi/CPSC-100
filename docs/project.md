@@ -7,7 +7,9 @@
 
 The course project runs the whole term and is where most of what you learn gets used on something real. There are two projects, and both mix individual and group work.
 
-Groups are 4 to 5 students, assigned by the instructor rather than chosen. They come out of the **group formation activity in Lab 1** and the **group formation survey** due Friday Sep 18. **Groups do not span lab sections** — everyone in your group attends the same section, so you share lab time and have the same lead TA to go to.
+Groups are 4 to 5 students, and you are **strongly encouraged to find your own group members**. To help with that, there is a **group formation activity in Lab 1**, and you confirm your group through the **group formation survey** due Friday Sep 18.
+
+**Groups do not span lab sections** — everyone in your group attends the same section, so you share lab time and have the same lead TA to go to. That is worth keeping in mind while you are looking, since a promising teammate in a different section is not an option.
 
 Each project is built from several parts, submitted separately rather than as one package at the end, and **the last part of each project is a presentation**.
 
