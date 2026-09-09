@@ -53,6 +53,16 @@ body .markdown-section {
     text-decoration-thickness: 2px;
 }
 
+/* Fix: the theme gives headings a negative bottom margin (-27px on h2), which the
+   following element's own top margin is expected to absorb - a paragraph gets 16px.
+   A rendered mermaid diagram gets margin-top: 0, so it was pulled the full 27px up
+   into the heading above it: the first node of the flowchart on the Communication
+   page overlapped "Where Should This Go?" by 19px. Give the diagram real spacing. */
+.markdown-section .mermaid {
+    margin-top: 2.75rem;
+    margin-bottom: 1.5rem;
+}
+
 
 /* Link colors to match UBC branding visual styling */
 
