@@ -7,7 +7,6 @@
   - [Labs](labs.md)
   - [Course Participation](participation.md)
   - [Final Exam](final.md)
-  - [Practice Problems](practice/index.html)
 
 - **Course Project**
   - [Project Overview](project.md)

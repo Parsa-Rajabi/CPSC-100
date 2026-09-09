@@ -187,8 +187,6 @@ TAs and your instructor hold **drop-in hours**. No appointment is needed and you
 
 Your classmates are an excellent resource for discussion and peer support. In addition to opportunities to chat before and after class, the discussion board is also available.
 
-[Practice problems](practice/index.html) from previous offerings are available for exam preparation.
-
 > [!TIP]
 > A note about e-mail support: Many course-related questions require two-way discussion, so e-mail is sometimes not the most efficient way to get help. Drop-in hours and the discussion board should be your first resort for rapid assistance. Please limit e-mail to requests of a personal nature—you'll get faster responses on the discussion board!
 

@@ -111,7 +111,6 @@ If you think there is a scoring error, see the [Remarking Policy](syllabus.md#re
 | :--------- | :----------- |
 | Redo lab and in-class activities without the answers | The quiz rewards reasoning you can reproduce, not answers you recognize |
 | Explain a concept out loud to someone | Exposes gaps that re-reading hides |
-| Work the [practice problems](practice/index.html) | More reps on the same kind of reasoning |
 | Know your way around the slides | They are on screen during the quiz, so this saves time |
 | Bring what you cannot work out to drop-in hours or lab | Faster than an hour of re-reading |
 
@@ -143,7 +142,6 @@ If you are registered with the Centre for Accessibility, **ORCA hosts most accom
 - [Schedule](schedule.md) - week by week view
 - [Labs](labs.md) - also PrairieLearn, but in person in ICCS X050
 - [Final Exam](final.md) - end of term, also in ORCA
-- [Practice Problems](practice/index.html)
 - [Self-Scheduled Assessments in ORCA](syllabus.md#self-scheduled-assessments-in-orca) - the full facility statement
 - [Course Evaluation](syllabus.md#course-evaluation) - the whole grade breakdown
 - [AI Policy](ai-policy.md) - what is permitted on individual assessments

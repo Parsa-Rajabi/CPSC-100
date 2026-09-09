@@ -9,6 +9,19 @@ here is served to students, and nothing here is reachable from `docs/_sidebar.md
 Do not link to these files from anything under `docs/` — docsify resolves relative links
 against the site root, so the link would 404 for students.
 
+## Practice Problems (`practice/`)
+
+A self-contained interactive practice-problem site, retired from `docs/` in September 2026.
+It is a static bundle of roughly 600 files (~95 MB) including its own CSS, JS, fonts, Snap!
+assets, and an `exercises/` set, served from `practice/index.html`.
+
+It was previously linked from the sidebar, the quizzes page, and the syllabus, described as
+"practice problems from previous offerings". It was retired because the material predates the
+Fall 2026 assessment structure, so it no longer matches what the quizzes actually ask for.
+
+To bring it back, move the directory into `docs/` and restore the links in `docs/_sidebar.md`,
+`docs/quizzes.md`, and `docs/syllabus.md`.
+
 ## 2024W2 (Winter 2024, Term 2)
 
 Section 201. Lectures Monday/Wednesday/Friday 3-4pm in DMP 310; five lab sections
