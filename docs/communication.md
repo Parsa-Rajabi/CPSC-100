@@ -142,7 +142,7 @@ If you are wondering whether your reason is good enough: it is. Here is what stu
 
 A half-formed question is normal and useful. So is sitting quietly and working while other people ask things. You will often learn something from a question you would never have thought to ask.
 
-**If you need something private or longer** — a grade concern, personal circumstances, or a conversation that needs proper time — email to arrange a separate meeting instead. See the routing chart above for which address to use.
+**If you need something private or longer**, such as a grade question or a conversation that needs proper time, use a **private Ed Discussion post** to arrange a separate meeting rather than emailing. Private posts are visible only to course staff. Genuinely sensitive or confidential matters, including personal circumstances and academic concessions, are the exception and still follow the routing chart above.
 
 Every session, for both the instructor and the TAs, is listed on the [Drop-in Hours](drop-in-hours.md) page, along with directions to each room.
 

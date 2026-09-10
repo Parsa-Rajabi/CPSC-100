@@ -57,9 +57,11 @@ Getting there:
 
 ## If Drop-in Hours Do Not Work for You
 
-If you need something private, or a conversation that needs proper time, email to arrange a separate meeting instead. The [routing chart](communication.md#where-should-this-go) shows which address to use.
+**Start with a private post on [Ed Discussion](communication.md).** Private posts are visible only to course staff, and they are how to reach us about drop-in hours. Use one to arrange a separate meeting if you need a longer or quieter conversation, or to tell us that none of the times above fit your schedule. We would rather know.
 
-If none of the times above fit your schedule at all, say so on [Ed Discussion](communication.md) or by email. We would rather know.
+Please do not email to arrange drop-in time. On Ed it lands in one place, so whoever is free picks it up first and nothing sits waiting in one person's inbox.
+
+The exception is a genuinely sensitive or confidential matter, which still follows the [routing chart](communication.md#where-should-this-go).
 
 ## Related
 
