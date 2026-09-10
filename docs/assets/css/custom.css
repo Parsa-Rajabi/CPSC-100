@@ -64,6 +64,63 @@ body .markdown-section {
 }
 
 
+/* Role flags for the two people named Parsa. Parsa Rajabi is the instructor and Parsa
+   Seyfourian is a TA, so on the Drop-in Hours schedule those two names carry a flag and
+   nobody else does. The flag is there to tell the two apart, not to label the whole
+   team. The word in the flag is what conveys the role - colour is only a second, faster
+   cue - so the tables still read correctly in greyscale, in a screen reader, and with
+   any colour vision deficiency.
+
+   Label-on-fill contrast is 10.4:1 (instructor) and 9.1:1 (TA) in light mode, and
+   8.2:1 / 8.0:1 in dark mode, against the 4.5:1 WCAG AA requirement. The light-mode
+   fills reuse the blue and amber already established by the routing flowchart on the
+   Communication page. */
+.markdown-section .role {
+    display: inline-block;
+    padding: 0.15em 0.5em 0.15em 0.85em;
+    margin-left: 0.35em;
+    /* Notch on the leading edge, pointing back at the name the flag belongs to. */
+    clip-path: polygon(0.4em 0, 100% 0, 100% 100%, 0.4em 100%, 0 50%);
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: 0.1em;
+}
+
+/* Keep a flagged name glued to its flag. Without this, a narrow screen breaks the line
+   between "Parsa R." and its flag, stranding INSTRUCTOR on its own where it looks like
+   it labels the whole row. Breaks fall at the comma between names instead. */
+.markdown-section .who {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.markdown-section .role-instructor {
+    background-color: #D6E6F7;
+    color: #00305F;
+}
+
+.markdown-section .role-ta {
+    background-color: #FCEBC7;
+    color: #553900;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Pale fills glare against the dark page, so invert: deep fill, light label. */
+    .markdown-section .role-instructor {
+        background-color: #123A5E;
+        color: #BDDCF5;
+    }
+
+    .markdown-section .role-ta {
+        background-color: #4A3A12;
+        color: #F0D9A0;
+    }
+}
+
+
 /* Link colors to match UBC branding visual styling */
 
 :root {

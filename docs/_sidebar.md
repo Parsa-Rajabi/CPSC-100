@@ -15,6 +15,7 @@
 
 - **Support**
   - [Communication](communication.md)
+  - [Drop-in Hours](drop-in-hours.md)
   - [Teaching Team](teaching-team.md)
   - [Email Etiquette](email-etiquette.md)
   - [Code of Conduct](code-of-conduct.md)
