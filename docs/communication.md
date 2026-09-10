@@ -117,12 +117,15 @@ Please avoid emailing TAs unless absolutely necessary; use Ed Discussion first. 
 | **Jessica** He | xhe42 [at] `DELETEthisTEXT` student.ubc.ca |
 | **Sally** Han | shan31 [at] `DELETEthisTEXT` student.ubc.ca |
 
-Which lab each TA leads and supports, and their drop-in hours, are on the [Teaching Team](teaching-team.md) page. For questions about your own lab, contact its lead TA first.
+Which lab each TA leads and supports is on the [Teaching Team](teaching-team.md) page, and their drop-in hours are on the [Drop-in Hours](drop-in-hours.md) page. For questions about your own lab, contact its lead TA first.
 
 > [!NOTE]
 > There are two people named Parsa in this course: your instructor (Parsa Rajabi) and one of your TAs (Parsa Seyfourian). Please use full names in messages so we can route them correctly.
 
 ## Drop-in Hours
+
+> [!TIP]
+> **Looking for the times?** This week's sessions, who is holding them, and how to find the rooms are all on the [Drop-in Hours](drop-in-hours.md) page.
 
 They are called drop-in hours because you can just drop in. No appointment, no sign-up, and **no need to arrive with a question**.
 
@@ -141,7 +144,7 @@ A half-formed question is normal and useful. So is sitting quietly and working w
 
 **If you need something private or longer** — a grade concern, personal circumstances, or a conversation that needs proper time — email to arrange a separate meeting instead. See the routing chart above for which address to use.
 
-Times and locations: the instructor's are in the table above and on the [syllabus](syllabus.md#course-instructor); TA drop-in hours are on the [Teaching Team](teaching-team.md) page.
+Every session, for both the instructor and the TAs, is listed on the [Drop-in Hours](drop-in-hours.md) page, along with directions to each room.
 
 ## Writing an Email That Gets a Fast Reply
 
@@ -171,6 +174,7 @@ Many course-related questions need back-and-forth, and email is a slow way to ha
 
 ## Related
 
+- [Drop-in Hours](drop-in-hours.md)
 - [Email Etiquette](email-etiquette.md)
 - [Teaching Team](teaching-team.md)
 - [Code of Conduct](code-of-conduct.md)

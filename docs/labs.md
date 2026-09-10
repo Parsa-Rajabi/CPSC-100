@@ -18,7 +18,7 @@ You are marked individually, even though most of the work is collaborative, and 
 
 Labs run Wednesday and Thursday for 50 minutes, and every section meets in ICCS X050 ([map](https://maps.ubc.ca/?code=ICCS)). Attend the section you are registered in, and check which one that is if you are not sure.
 
-Each section has a lead TA who runs it and a support TA who assists, so you see two familiar faces each week. For a question about your own lab, ask your lead TA first. Full names, pronouns, and drop-in hours are on the [Teaching Team](teaching-team.md) page.
+Each section has a lead TA who runs it and a support TA who assists, so you see two familiar faces each week. For a question about your own lab, ask your lead TA first. Full names and pronouns are on the [Teaching Team](teaching-team.md) page, and their drop-in hours are on the [Drop-in Hours](drop-in-hours.md) page.
 
 | Section | Day | Time | Lead TA | Support TA |
 | :-----: | :-- | :--- | :------ | :--------- |
@@ -48,7 +48,7 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 | 12 | 9 | Nov 25 / 26 | [Project 2](project.md) work session |
 | 13 | 10 | Dec 2 / 3 | [Viva voce](project.md). Details announced closer to the date |
 
-**Need to reach your TA?** Start with Ed Discussion, which is where lab questions belong. Email addresses, drop-in hours, and which kind of question goes where are all on [Course Communication](communication.md).
+**Need to reach your TA?** Start with Ed Discussion, which is where lab questions belong. Email addresses and which kind of question goes where are on [Course Communication](communication.md). If you would rather ask in person, see [Drop-in Hours](drop-in-hours.md).
 
 ## What you work in
 
