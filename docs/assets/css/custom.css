@@ -64,11 +64,12 @@ body .markdown-section {
 }
 
 
-/* Role flags on the Drop-in Hours schedule. The course has two people named Parsa
-   (Parsa Rajabi, instructor; Parsa Seyfourian, TA), so every name in those tables
-   carries its role. The word in the flag is what conveys the role - colour is only a
-   second, faster cue - so the tables still read correctly in greyscale, in a screen
-   reader, and with any colour vision deficiency.
+/* Role flags for the two people named Parsa. Parsa Rajabi is the instructor and Parsa
+   Seyfourian is a TA, so on the Drop-in Hours schedule those two names carry a flag and
+   nobody else does. The flag is there to tell the two apart, not to label the whole
+   team. The word in the flag is what conveys the role - colour is only a second, faster
+   cue - so the tables still read correctly in greyscale, in a screen reader, and with
+   any colour vision deficiency.
 
    Label-on-fill contrast is 10.4:1 (instructor) and 9.1:1 (TA) in light mode, and
    8.2:1 / 8.0:1 in dark mode, against the 4.5:1 WCAG AA requirement. The light-mode
@@ -88,13 +89,12 @@ body .markdown-section {
     vertical-align: 0.1em;
 }
 
-/* Keep each name glued to its own flag. Without this, a narrow screen breaks the line
+/* Keep a flagged name glued to its flag. Without this, a narrow screen breaks the line
    between "Parsa R." and its flag, stranding INSTRUCTOR on its own where it looks like
-   it labels the whole row. Breaks are allowed between people instead. */
+   it labels the whole row. Breaks fall at the comma between names instead. */
 .markdown-section .who {
     display: inline-block;
     white-space: nowrap;
-    margin-right: 0.5em;
 }
 
 .markdown-section .role-instructor {

@@ -12,23 +12,23 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 
 | Day | Time | Where | Who |
 | :-- | :--- | :---- | :-- |
-| Wed, Sep 9 | 3:00-4:00pm | [SWING 110](#swing-110) | <span class="who">Tarvin <span class="role role-ta">TA</span></span> <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-| Thu, Sep 10 | 2:00-3:00pm | [DLC, Table 1](#dlc-table-1) | <span class="who">Jessica <span class="role role-ta">TA</span></span> |
-| Fri, Sep 11 | 3:00-4:00pm | [SWING 110](#swing-110) | <span class="who">Tarvin <span class="role role-ta">TA</span></span> <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+| Wed, Sep 9 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+| Thu, Sep 10 | 2:00-3:00pm | [DLC, Table 1](#dlc-table-1) | Jessica |
+| Fri, Sep 11 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
 
 ## Week 2 (Sep 14 - 18)
 
 | Day | Time | Where | Who |
 | :-- | :--- | :---- | :-- |
-| Mon, Sep 14 | 3:00-4:00pm | [SWING 110](#swing-110) | <span class="who">Sally <span class="role role-ta">TA</span></span> <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+| Mon, Sep 14 | 3:00-4:00pm | [SWING 110](#swing-110) | Sally, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
 | Tue, Sep 15 | 1:30-2:30pm | [DLC, Table 1](#dlc-table-1) | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
 | Wed, Sep 16 | 3:00-4:00pm | [SWING 110](#swing-110) | <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-| Wed, Sep 16 | 5:00-6:00pm | [DLC, Table 1](#dlc-table-1) | <span class="who">Kate <span class="role role-ta">TA</span></span> |
-| Thu, Sep 17 | 12:00-1:00pm | [DLC, Table 1](#dlc-table-1) | <span class="who">Tarvin <span class="role role-ta">TA</span></span> |
-| Fri, Sep 18 | 3:00-4:00pm | [SWING 110](#swing-110) | <span class="who">Jessica <span class="role role-ta">TA</span></span> <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+| Wed, Sep 16 | 5:00-6:00pm | [DLC, Table 1](#dlc-table-1) | Kate |
+| Thu, Sep 17 | 12:00-1:00pm | [DLC, Table 1](#dlc-table-1) | Tarvin |
+| Fri, Sep 18 | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
 
 > [!NOTE]
-> **Two people in this course are called Parsa.** **Parsa R.** <span class="role role-instructor">Instructor</span> is Parsa Rajabi, your instructor. **Parsa S.** <span class="role role-ta">TA</span> is Parsa Seyfourian, one of your five TAs. Full names and who leads which lab are on the [Teaching Team](teaching-team.md) page.
+> **Two people in this course are called Parsa,** so those two names are flagged above. **Parsa R.** <span class="role role-instructor">Instructor</span> is Parsa Rajabi, your instructor. **Parsa S.** <span class="role role-ta">TA</span> is Parsa Seyfourian, one of your five TAs. Everyone else listed is a TA. Full names and who leads which lab are on the [Teaching Team](teaching-team.md) page.
 
 ## Where to Go
 
