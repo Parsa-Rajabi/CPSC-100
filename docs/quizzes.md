@@ -3,6 +3,14 @@
 > [!NOTE]
 > This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
+## Changelog
+
+<!-- Add a dated entry every time a quiz date, window, or policy moves. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 14, 2026 | Quiz 0 details updated. The sitting window now runs to **Sunday Sep 20** rather than Friday Sep 18. |
+
 ## Overview
 
 There are eight quizzes, Quiz 1 through Quiz 8, plus Quiz 0. All nine are sat in person at ORCA, they run 50 minutes each, and they are individual work. There is no midterm in this course; the quizzes take its place, which is why there are so many of them and why no single one carries much weight.
