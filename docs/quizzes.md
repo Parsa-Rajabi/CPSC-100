@@ -15,7 +15,9 @@ Quizzes ask you to reason, trace a program, and apply an idea to an example you 
 
 Quiz 0 is a practice run at the whole ORCA process, on content you can revise straight from this website: the [syllabus](syllabus.md) and the [Code of Conduct](code-of-conduct.md). It is sat in ORCA and marked like every other quiz, and it counts toward your quiz grade the same way.
 
-Two things about it are deliberately unlike the rest. Its sitting window is longer — **Monday Sep 14 to Friday Sep 18** — so you have room to find the facility without a deadline breathing on you. And **reservations open Monday Sep 14 at 11:00am**, which is the morning the window itself opens, rather than the Tuesday-before pattern every later quiz follows. In practice that means booking for a session later in that week.
+Two things about it are deliberately unlike the rest. Its sitting window is longer — **Monday Sep 14 to Sunday Sep 20** — so you have room to find the facility without a deadline breathing on you. And **reservations open Monday Sep 14 at 11:00am**, which is the morning the window itself opens, rather than the Tuesday-before pattern every later quiz follows. In practice that means booking for a session later in that week.
+
+The window runs to the Sunday, but the weekend has fewer sessions than a weekday, so treat Saturday and Sunday as a fallback rather than the plan.
 
 > [!TIP]
 > Book your Quiz 0 seat soon after reservations open. It is a relaxed way to get used to the booking system before a quiz you have had to study for, and the earlier you book, the more choice of times you have. Just try not to let it slip your mind, since an unbooked seat counts as a missed quiz.
@@ -26,7 +28,7 @@ You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobo
 
 Quizzes are self-scheduled, which means you pick a session inside that quiz's window. Expect sessions from around **11:00am until roughly 6:00pm**, seven days a week, with fewer on weekends. Treat that as a rough guide rather than a promise: ORCA sets its own hours based on operational needs, they can change without notice, and the facility sometimes opens or closes earlier or later than usual. What PrairieTest offers you when you go to book is the real answer.
 
-Most quizzes are sat on the **Wednesday or Thursday** of that quiz's week; Quiz 0 runs Monday to Friday and Quiz 2 runs Thursday or Friday.
+Most quizzes are sat on the **Wednesday or Thursday** of that quiz's week; Quiz 0 runs Monday to Sunday and Quiz 2 runs Thursday or Friday.
 
 Reservations open at **10:00am on the Tuesday before the week your quiz runs**, and it is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception, opening Monday Sep 14 at 11:00am.
 
@@ -63,7 +65,7 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 
 | Quiz | Week | When | Reservations open, 10:00am |
 | :--: | :--: | :--- | :------------------------ |
-| 0 | 2 | Mon Sep 14 to Fri Sep 18 | Mon Sep 14, **11:00am** |
+| 0 | 2 | Mon Sep 14 to Sun Sep 20 | Mon Sep 14, **11:00am** |
 | 1 | 3 | Sep 23 or 24 | Tue Sep 15 |
 | 2 | 4 | Oct 1 or 2, Thursday or Friday | Tue Sep 22 |
 | 3 | 5 | Oct 7 or 8 | Tue Sep 29 |
