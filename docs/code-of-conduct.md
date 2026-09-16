@@ -24,10 +24,10 @@ For expectations around group participation, peer resolution, and how non-partic
 
 Academic integrity is essential. All submitted work must be honest and appropriately attributed. This includes citing the articles, datasets, and images you use in your project deliverables, and disclosing your use of AI tools as required by the [course AI policy](ai-policy.md).
 
-Be mindful of privacy when researching and presenting. Your project work may involve data about real people; do not include personal information about classmates, peer reviewers, or third parties in your submissions or in any tool you use to prepare them.
+Be mindful of privacy when researching and presenting. Your project work may involve data about real people. Don't include personal information about classmates, peer reviewers, or third parties in your submissions, or in any tool you use to prepare them.
 
 ## Responsibility
 
 Course flexibility exists to support students when unexpected situations arise and must be used responsibly and in good faith. Students are responsible for understanding and following this Code of Conduct and all related course policies.
 
-Failure to meet these expectations may result in warnings, participation or grade penalties, impacts on peer evaluations, or referral to departmental or university processes, depending on the nature and severity of the issue. In serious cases (e.g., harassment of any kind), this will include academic probation or dismissal from the course.
+Failure to meet these expectations may result in warnings, participation or grade penalties, effects on peer evaluations, or referral to departmental or university processes. Which of those applies depends on the nature and severity of the issue. In serious cases (e.g., harassment of any kind), this will include academic probation or dismissal from the course.
