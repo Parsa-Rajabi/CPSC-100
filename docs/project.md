@@ -16,7 +16,7 @@ Each project is built from several parts, submitted separately rather than as on
 > [!WARNING]
 > To pass this course you must achieve at least 50% on the course project. See [Course Evaluation](syllabus.md#course-evaluation) for how much the project is worth.
 
-## Project 1: Signal or Noise?
+## Project 1: From Data to Decisions
 
 Runs from Week 2 to Week 7. Full details are on the [Project 1](project-1.md) page.
 

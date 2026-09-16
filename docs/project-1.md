@@ -1,4 +1,4 @@
-# Project 1: Signal or Noise?
+# Project 1: From Data to Decisions
 
 > [!NOTE]
 > This page isn't finished yet, but everything below is solid enough to plan around. Please read
@@ -21,7 +21,8 @@
 
 ## Overview
 
-Project 1 has three parts that look unrelated at first, but they're closely connected.
+Project 1 has three parts that look unrelated at first, but they're closely connected. Each one
+follows data as it turns into a decision about somebody.
 
 - Part A. Your digital life is spread across years, platforms and accounts, and you can't see all
   of it at once. The Exposure Index pulls it together into a single number you can actually look
