@@ -8,14 +8,6 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 > [!NOTE]
 > **Recurring weekly hours start in Week 3.** The sessions below are what is running until then. The Week 3 schedule will be announced on [Ed Discussion](communication.md).
 
-## Week 1 (Sep 7 - 11)
-
-| Day | Time | Where | Who |
-| :-- | :--- | :---- | :-- |
-| Wed, Sep 9 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-| Thu, Sep 10 | 2:00-3:00pm | [DLC, Table 1](#dlc-table-1) | Jessica |
-| Fri, Sep 11 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-
 ## Week 2 (Sep 14 - 18)
 
 | Day | Time | Where | Who |
