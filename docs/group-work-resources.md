@@ -1,13 +1,18 @@
 # Group Work Resources
 
-Group work is a major part of CPSC 100. These resources are meant to help your team turn the group contract into practical habits, not just a document you submit once.
+Group work is a major part of CPSC 100. These resources are here to help your team turn the group contract into practical habits, rather than a document you submit once and forget.
 
 Use this page alongside:
 
-- [Group Contract Template](assets/group-resources/group-contract-template.pdf)
-- [Group Contract Info](assets/group-resources/group-contract-info.pdf)
+- Group contract template: to be announced
+- [Guidelines for Writing a Group Contract](assets/group-resources/group-contract-info.pdf)
 - [Project Peer Evaluation](project-peer-evaluation.md)
 - [Importance of Group Work and Participation Policy](syllabus.md#importance-of-group-work-and-participation-policy)
+
+> [!NOTE]
+> The group contract template is not finalized yet, but it will be posted here once it is ready
+> and announced in class at the same time. The guidance on this page applies whatever the final
+> template turns out to look like, so you can start the conversations with your group now.
 
 ## Start Here
 
@@ -24,7 +29,7 @@ Your group contract should describe how your team will actually work. Avoid vagu
 <div class="accordion">
 
 <details open>
-<summary><strong>Preparing for the Contract Meeting</strong></summary>
+<summary>Preparing for the Contract Meeting</summary>
 
 Before your contract meeting, each team member should individually prepare answers to these questions:
 
@@ -41,7 +46,7 @@ During the meeting, do not rush to fill blanks. Discuss the answers first, then 
 </details>
 
 <details>
-<summary><strong>Group Values and Roles</strong></summary>
+<summary>Group Values and Roles</summary>
 
 Good answers name how the team wants to work and who owns recurring coordination tasks.
 
@@ -53,7 +58,7 @@ Stronger answer:
 
 > We value reliability, direct communication, and evidence-based decisions. Reliability means attending scheduled meetings or giving at least 24 hours notice when possible. Direct communication means raising blockers early rather than waiting until the deadline. Evidence-based means connecting major choices to sources we actually read, TA feedback, or peer critique.
 
-For secondary roles, separate responsibility from authority. A role means someone is responsible for making sure a kind of work is visible, coordinated, and completed. It does **not** mean that person makes decisions alone or does all the work in that area.
+For secondary roles, separate responsibility from authority. A role means someone is responsible for making sure a kind of work is visible, coordinated, and completed. It does not mean that person makes decisions alone, or that they do all the work in that area.
 
 Your contract should assign a small set of standing roles for the full term and milestone roles that rotate as the project changes. Each role should have an owner and a backup so the team is not blocked if one person is unavailable.
 
@@ -125,7 +130,7 @@ When a role owner notices a problem, their job is to make the problem visible ea
 </details>
 
 <details>
-<summary><strong>Communication and Decision Making</strong></summary>
+<summary>Communication and Decision Making</summary>
 
 Your contract should make communication predictable.
 
@@ -159,7 +164,7 @@ For major decisions, record:
 </details>
 
 <details>
-<summary><strong>Work Quality, AI Use, and Accountability</strong></summary>
+<summary>Work Quality, AI Use, and Accountability</summary>
 
 Be specific about quality standards for each kind of work.
 
@@ -202,7 +207,7 @@ Useful categories:
 
 Example:
 
-> Each member is expected to attend weekly team meetings, attend labs, complete assigned tasks by the agreed internal deadline, and communicate blockers at least 24 hours before the internal deadline when possible. If someone cannot complete a task, they must tell the team early enough for the task to be reassigned or resized.
+> Each member is expected to attend weekly team meetings and labs, and to complete assigned tasks by the agreed internal deadline. Blockers should be raised at least 24 hours before that deadline where possible. If someone cannot complete a task, they must tell the team early enough for the task to be reassigned or resized.
 
 </details>
 
@@ -219,7 +224,7 @@ Use this process before contacting the teaching team, unless the issue involves 
 <div class="accordion">
 
 <details open>
-<summary><strong>Step-by-Step Conflict Process</strong></summary>
+<summary>Step-by-Step Conflict Process</summary>
 
 ### Step 1: Pause and Name the Issue
 
@@ -297,7 +302,7 @@ Example:
 </details>
 
 <details>
-<summary><strong>Common Problems and What to Do</strong></summary>
+<summary>Common Problems and What to Do</summary>
 
 | Problem | First team action | If it continues |
 | :-- | :-- | :-- |
@@ -312,7 +317,7 @@ Example:
 </details>
 
 <details>
-<summary><strong>Escalating to the Teaching Team</strong></summary>
+<summary>Escalating to the Teaching Team</summary>
 
 The syllabus expects teams to try peer resolution first. If internal resolution does not work, contact your TA early. Do not wait until the peer evaluation deadline.
 
@@ -337,7 +342,7 @@ Useful message template:
 <div class="accordion">
 
 <details open>
-<summary><strong>Team Retrospectives</strong></summary>
+<summary>Team Retrospectives</summary>
 
 Use a short retrospective before each graded peer evaluation, and any time the team feels stuck.
 
@@ -356,7 +361,7 @@ Keep the discussion behaviour-focused. Record action items and owners.
 </details>
 
 <details>
-<summary><strong>Peer Evaluation Notes</strong></summary>
+<summary>Peer Evaluation Notes</summary>
 
 Peer evaluations should be professional, specific, and behaviour-based. They should not be used as a surprise punishment for concerns that were never raised.
 
@@ -381,7 +386,7 @@ Avoid comments about personality, popularity, or assumptions about intent.
 <div class="accordion">
 
 <details>
-<summary><strong>Before Each Meeting</strong></summary>
+<summary>Before Each Meeting</summary>
 
 - Is there an agenda?
 - Does each agenda item have a purpose?
@@ -392,7 +397,7 @@ Avoid comments about personality, popularity, or assumptions about intent.
 </details>
 
 <details>
-<summary><strong>During Each Meeting</strong></summary>
+<summary>During Each Meeting</summary>
 
 - Confirm what changed since the last meeting.
 - Make decisions explicit.
@@ -403,7 +408,7 @@ Avoid comments about personality, popularity, or assumptions about intent.
 </details>
 
 <details>
-<summary><strong>Before Each Submission</strong></summary>
+<summary>Before Each Submission</summary>
 
 - Has every member reviewed the final deliverable?
 - Can every member explain the core project decisions?
