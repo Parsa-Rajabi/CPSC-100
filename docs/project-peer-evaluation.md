@@ -3,15 +3,15 @@
 > [!NOTE]
 > The peer evaluation mechanism below is final for Fall 2026.
 
-Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are **three rounds**, each paired with a [project retrospective](project.md#group-process):
+Because this course includes substantial team-based project work, project peer evaluation will be used to account for each student's individual contribution to their team. There are three rounds, each paired with a [project retrospective](project.md#group-process):
 
-| Round | Due | Follows | Graded |
-| :---- | :-- | :------ | :----- |
-| **iPeer 0** | Thu Oct 1 | Group formation and the group contract | **No.** Practice round. |
-| **iPeer 1** | Thu Oct 29 | [Project 1](project.md) | Yes |
-| **iPeer 2** | Thu Dec 3 | [Project 2](project.md) | Yes |
+| Round   | Due        | Follows                                | Graded          |
+| :------ | :--------- | :------------------------------------- | :-------------- |
+| iPeer 0 | Thu Oct 1  | Group formation and the group contract | No, practice round |
+| iPeer 1 | Thu Oct 29 | [Project 1](project.md)                | Yes             |
+| iPeer 2 | Thu Dec 3  | [Project 2](project.md)                | Yes             |
 
-All three are due at **11:59pm Pacific**. The [Schedule](schedule.md) page shows them alongside everything else due that week.
+All three are due at 11:59pm Pacific. The [Schedule](schedule.md) page shows them alongside everything else due that week.
 
 The practice round will be used to make sure the peer evaluation tools are working as expected and that everyone understands the process before peer evaluations are applied for marks. The graded rounds will be used for marks and will apply a peer evaluation multiplier to each student's milestone grade.
 
@@ -43,9 +43,9 @@ Due to system limitations, students cannot opt out of having peer evaluation fee
 
 For each graded milestone, the group will receive a milestone grade. Each student's individual grade for that milestone will then be adjusted using a peer evaluation multiplier.
 
-Each student will evaluate each of their group members using the peer evaluation criteria provided below. Each evaluation is completed out of **30 marks**.
+Each student will evaluate each of their group members using the peer evaluation criteria provided below. Each evaluation is completed out of 30 marks.
 
-A student's individual peer evaluation score is calculated as the **average of all peer evaluations they receive from their group members**.
+A student's individual peer evaluation score is calculated as the average of all peer evaluations they receive from their group members.
 
 For example, in a group of five students, each student will evaluate four teammates and will receive four evaluations from their teammates.
 
@@ -60,17 +60,17 @@ Example received evaluations:
 
 The student's average peer evaluation score would be:
 
-**(28 + 25 + 30 + 22) / 4 = 26.25**
+(28 + 25 + 30 + 22) / 4 = 26.25
 
 The peer evaluation multiplier is then calculated as:
 
-**26.25 / 30 = 0.875**
+26.25 / 30 = 0.875
 
-If the group grade for that milestone was **90%**, the student's individual grade for that milestone would be:
+If the group grade for that milestone was 90%, the student's individual grade for that milestone would be:
 
-**90% × 0.875 = 78.75%**
+90% × 0.875 = 78.75%
 
-Therefore, the student's individual grade for that milestone would be **78.75%**.
+Therefore, the student's individual grade for that milestone would be 78.75%.
 
 ---
 
@@ -78,19 +78,19 @@ Therefore, the student's individual grade for that milestone would be **78.75%**
 
 For each applicable graded milestone, the following formula will be used:
 
-**Individual Milestone Grade = Group Milestone Grade × Peer Evaluation Multiplier**
+Individual Milestone Grade = Group Milestone Grade × Peer Evaluation Multiplier
 
 Where:
 
-**Peer Evaluation Multiplier = Average Peer Evaluation Score / 30**
+Peer Evaluation Multiplier = Average Peer Evaluation Score / 30
 
 ---
 
 ## Late Peer Evaluations
 
-Peer evaluations must be submitted by the posted deadline. Late peer evaluations will receive a penalty of **1 point per started 12-hour period**, deducted from the student's average peer evaluation score.
+Peer evaluations must be submitted by the posted deadline. Late peer evaluations will receive a penalty of 1 point per started 12-hour period, deducted from the student's average peer evaluation score.
 
-Each 1-point deduction from the 30-point peer evaluation score is equivalent to approximately a **3.33% reduction** in the peer evaluation multiplier.
+Each 1-point deduction from the 30-point peer evaluation score is equivalent to approximately a 3.33% reduction in the peer evaluation multiplier.
 
 For example, using the same scenario above:
 
@@ -102,13 +102,13 @@ For example, using the same scenario above:
 
 The adjusted multiplier would be:
 
-**25.25 / 30 = 0.8416**
+25.25 / 30 = 0.8416
 
-If the group grade for that milestone was **90%**, the student's individual grade for that milestone would be:
+If the group grade for that milestone was 90%, the student's individual grade for that milestone would be:
 
-**90% × 0.8416 = 75.74%**
+90% × 0.8416 = 75.74%
 
-Therefore, after the late penalty, the student's individual grade for that milestone would be **75.74%**.
+Therefore, after the late penalty, the student's individual grade for that milestone would be 75.74%.
 
 ---
 
@@ -116,7 +116,7 @@ Therefore, after the late penalty, the student's individual grade for that miles
 
 Students are expected to complete peer evaluations thoughtfully, professionally, and with enough detail to justify their ratings.
 
-Low-quality peer evaluations may result in a deduction of **0.5 points from the student's average peer evaluation score for each issue**. This includes, but is not limited to:
+Low-quality peer evaluations may result in a deduction of 0.5 points from the student's average peer evaluation score for each issue. This includes, but is not limited to:
 
 - providing scores without meaningful explanation;
 - giving very high or very low scores without justification;
@@ -150,6 +150,6 @@ For practical guidance on setting team expectations, documenting concerns, runni
 
 # Peer Evaluation Criteria
 
-For each applicable milestone, students will complete an evaluation for each of their team members using the following criteria. Each category is scored from **0 to 5**, for a total of **30 marks**.
+For each applicable milestone, students will complete an evaluation for each of their team members using the following criteria. Each category is scored from 0 to 5, for a total of 30 marks.
 
 Detailed rubrics with descriptions can be found here: [group peer evaluation criteria](https://tiny.cc/group-peer-eval-criteria).
