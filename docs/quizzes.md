@@ -36,7 +36,7 @@ You book your own seat at [us.prairietest.com](https://us.prairietest.com). Nobo
 
 Quizzes are self-scheduled, which means you pick a session inside that quiz's window. Expect sessions from around 11:00am until roughly 6:00pm, seven days a week, with fewer on weekends. Treat that as a rough guide rather than a promise. ORCA sets its own hours based on operational needs, and they can change without notice. The facility sometimes opens or closes earlier or later than usual. What PrairieTest offers you when you go to book is the real answer.
 
-Most quizzes are sat on the Wednesday or Thursday of that quiz's week; Quiz 0 runs Monday to Sunday and Quiz 2 runs Thursday or Friday.
+Most quizzes are sat on the Wednesday, Thursday or Friday of that quiz's week; Quiz 0 runs Monday to Sunday and Quiz 2 runs Thursday or Friday.
 
 Reservations open at 10:00am on the Tuesday before the week your quiz runs, and it is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception, opening Monday Sep 14 at 11:00am.
 
@@ -74,16 +74,16 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 | Quiz | Week | When | Reservations open, 10:00am |
 | :--: | :--: | :--- | :------------------------ |
 | 0 | 2 | Mon Sep 14 to Sun Sep 20 | Mon Sep 14, 11:00am |
-| 1 | 3 | Sep 23 or 24 | Tue Sep 15 |
+| 1 | 3 | Sep 23, 24 or 25 | Tue Sep 15 |
 | 2 | 4 | Oct 1 or 2, Thursday or Friday | Tue Sep 22 |
-| 3 | 5 | Oct 7 or 8 | Tue Sep 29 |
-| 4 | 6 | Oct 14 or 15 | Tue Oct 6 |
+| 3 | 5 | Oct 7, 8 or 9 | Tue Sep 29 |
+| 4 | 6 | Oct 14, 15 or 16 | Tue Oct 6 |
 | *none* | 7 | [Project 1B](project-1.md) is due | |
-| 5 | 8 | Oct 28 or 29 | Tue Oct 20 |
-| 6 | 9 | Nov 4 or 5 | Tue Oct 27 |
+| 5 | 8 | Oct 28, 29 or 30 | Tue Oct 20 |
+| 6 | 9 | Nov 4, 5 or 6 | Tue Oct 27 |
 | *none* | 10 | Midterm Break | |
-| 7 | 11 | Nov 18 or 19 | Tue Nov 10 |
-| 8 | 12 | Nov 25 or 26 | Tue Nov 17 |
+| 7 | 11 | Nov 18, 19 or 20 | Tue Nov 10 |
+| 8 | 12 | Nov 25, 26 or 27 | Tue Nov 17 |
 
 Quiz 2 shifts to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day, so check that one booking twice. There is no quiz in Week 7, when [Project 1B](project-1.md) is due, or in Week 10 for Midterm Break. Quiz 8 in Week 12 is the last one; there is no quiz in Week 13.
 
