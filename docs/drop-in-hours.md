@@ -1,12 +1,12 @@
 # Drop-in Hours
 
-Drop-in hours are extra time with the teaching team outside of lecture and lab. No appointment, no sign-up, and no need to arrive with a question. Just turn up.
+Drop-in hours are extra time with the teaching team outside of lecture and lab. No appointment, no sign-up, and no need to arrive with a question. Turn up whenever it suits you.
 
 > [!TIP]
-> **Not sure whether your reason is good enough?** It is. See [what drop-in hours are for](communication.md#drop-in-hours) for what students actually use them for.
+> Not sure whether your reason is good enough? It is. See [what drop-in hours are for](communication.md#drop-in-hours) for what students actually use them for.
 
 > [!NOTE]
-> **Recurring weekly hours start in Week 3.** The sessions below are what is running until then. The Week 3 schedule will be announced on [Ed Discussion](communication.md).
+> Recurring weekly hours start in Week 3. The sessions below are what's running until then. The Week 3 schedule will be announced on [Ed Discussion](communication.md).
 
 ## Week 1 (Sep 7 - 11)
 
@@ -28,38 +28,38 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 | Fri, Sep 18 | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
 
 > [!NOTE]
-> **Two people in this course are called Parsa,** so those two names are flagged above. **Parsa R.** <span class="role role-instructor">Instructor</span> is Parsa Rajabi, your instructor. **Parsa S.** <span class="role role-ta">TA</span> is Parsa Seyfourian, one of your five TAs. Everyone else listed is a TA. Full names and who leads which lab are on the [Teaching Team](teaching-team.md) page.
+> Two people in this course are called Parsa, so those two names are flagged above. Parsa R. <span class="role role-instructor">Instructor</span> is Parsa Rajabi, your instructor. Parsa S. <span class="role role-ta">TA</span> is Parsa Seyfourian, one of your five TAs. Everyone else listed is a TA. Full names and who leads which lab are on the [Teaching Team](teaching-team.md) page.
 
 ## Where to Go
 
 ### SWING 110
 
-West Mall Swing Space Building, the same building as your Monday, Wednesday and Friday lecture, but **not the same room**. Lecture is in SWNG 222 upstairs. SWING 110 is on the first floor.
+West Mall Swing Space Building, the same building as your Monday, Wednesday and Friday lecture, but not the same room. Lecture is in SWNG 222 upstairs. SWING 110 is on the first floor.
 
 [SWNG on the UBC map](https://maps.ubc.ca/?code=SWNG)
 
 ### DLC, Table 1
 
-The **DLC** is the Demco Learning Centre, room **X150** in the ICICS/CS building. It is a big open room full of tables, shared with TAs from other CPSC courses, so the table number matters. Head for **Table 1**.
+The DLC is the Demco Learning Centre, room X150 in the ICICS/CS building. It's a big open room full of tables, shared with TAs from other CPSC courses, so the table number matters. Head for Table 1.
 
-**The easy way to find it: follow the smell of pho.** The DLC is right next door to **Pho Real**, the Vietnamese counter in the ICICS X wing. If you have found the pho, you have found the DLC.
+The easy way to find it: follow the smell of pho. The DLC is right next door to Pho Real, the Vietnamese counter in the ICICS X wing. If you've found the pho, you've found the DLC.
 
 Getting there:
 
-1. Enter the ICICS/CS building from the **Agronomy Road** side, which is the X wing.
+1. Enter the ICICS/CS building from the Agronomy Road side, which is the X wing.
 2. Find the food counter on the ground floor.
 3. The DLC is the large room immediately beside it, X150.
 
 [ICCS on the UBC map](https://maps.ubc.ca/?code=ICCS) · [X wing floor plan (PDF)](https://www.cs.ubc.ca/sites/default/files/pages/level1.pdf), X150 is top right, next to the food counter at X160 · [About the DLC](https://www.cs.ubc.ca/students/undergrad/services/informal-learning-spaces)
 
 > [!TIP]
-> The DLC is open to you as a study space even when nobody is holding hours there. It is a good place to work on a lab or the project with your group.
+> The DLC is open to you as a study space even when nobody is holding hours there. It's a good place to work on a lab or the project with your group.
 
-## If Drop-in Hours Do Not Work for You
+## If Drop-in Hours Don't Work for You
 
-**Start with a private post on [Ed Discussion](communication.md).** Private posts are visible only to course staff, and they are how to reach us about drop-in hours. Use one to arrange a separate meeting if you need a longer or quieter conversation, or to tell us that none of the times above fit your schedule. We would rather know.
+Start with a private post on [Ed Discussion](communication.md). Private posts are visible only to course staff, and they are how to reach us about drop-in hours. Use one to arrange a separate meeting if you need a longer or quieter conversation, or to tell us that none of the times above fit your schedule. We'd rather know.
 
-Please do not email to arrange drop-in time. On Ed it lands in one place, so whoever is free picks it up first and nothing sits waiting in one person's inbox.
+Please don't email to arrange drop-in time. On Ed it lands in one place, so whoever is free picks it up first and nothing sits waiting in one person's inbox.
 
 The exception is a genuinely sensitive or confidential matter, which still follows the [routing chart](communication.md#where-should-this-go).
 
