@@ -23,13 +23,13 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 
 | Day | Time | Where | Who |
 | :-- | :--- | :---- | :-- |
-| Mon, Sep 21 | 1:00-2:00pm | ICICS X341 | Jessica|
+| Mon, Sep 21 | 1:00-2:00pm | [ICICS X341](#icics-x241-and-x341) | Jessica|
 | Mon, Sep 21 | 3:00-4:00pm | [SWING 110](#swing-110) | Sally, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-| Tue, Sep 22 | 1:30-2:30pm | ICICS X241 | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
+| Tue, Sep 22 | 1:30-2:30pm | [ICICS X241](#icics-x241-and-x341) | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
 | Wed, Sep 23 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-| Wed, Sep 23 | 5:00-6:00pm | ICICS X241 | Kate |
-| Thu, Sep 24 | 1:00-2:00pm | ICICS X241 | Tarvin |
-| Fri, Sep 25 | 10:00-1a:00am | ICICS X341 | Sally |
+| Wed, Sep 23 | 5:00-6:00pm | [ICICS X241](#icics-x241-and-x341) | Kate |
+| Thu, Sep 24 | 1:00-2:00pm | [ICICS X241](#icics-x241-and-x341) | Tarvin |
+| Fri, Sep 25 | 10:00-1a:00am | [ICICS X341](#icics-x241-and-x341) | Sally |
 | Fri, Sep 25 | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
 
 > [!NOTE]
@@ -43,22 +43,14 @@ West Mall Swing Space Building, the same building as your Monday, Wednesday and 
 
 [SWNG on the UBC map](https://maps.ubc.ca/?code=SWNG)
 
-### DLC, Table 1
+### ICICS X241 and X341
 
-The **DLC** is the Demco Learning Centre, room **X150** in the ICICS/CS building. It is a big open room full of tables, shared with TAs from other CPSC courses, so the table number matters. Head for **Table 1**.
+ICICS X251 and X341 are project rooms in the ICICS/CS building, located on the second and third floor of the ICICS X wing, respectively.
 
-**The easy way to find it: follow the smell of pho.** The DLC is right next door to **Pho Real**, the Vietnamese counter in the ICICS X wing. If you have found the pho, you have found the DLC.
-
-Getting there:
-
-1. Enter the ICICS/CS building from the **Agronomy Road** side, which is the X wing.
-2. Find the food counter on the ground floor.
-3. The DLC is the large room immediately beside it, X150.
-
-[ICCS on the UBC map](https://maps.ubc.ca/?code=ICCS) · [X wing floor plan (PDF)](https://www.cs.ubc.ca/sites/default/files/pages/level1.pdf), X150 is top right, next to the food counter at X160 · [About the DLC](https://www.cs.ubc.ca/students/undergrad/services/informal-learning-spaces)
+[ICCS on the UBC map](https://maps.ubc.ca/?code=ICCS) · [X wing floor plan (PDF)](https://www.cs.ubc.ca/sites/default/files/pages/level1.pdf)
 
 > [!TIP]
-> The DLC is open to you as a study space even when nobody is holding hours there. It is a good place to work on a lab or the project with your group.
+> The Demco Learning Centre/DLC (X150) is open to you as a study space even when nobody is holding hours there. It is a good place to work on a lab or the project with your group.
 
 ## If Drop-in Hours Do Not Work for You
 
