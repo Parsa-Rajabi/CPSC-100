@@ -24,12 +24,12 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 | Day | Time | Where | Who |
 | :-- | :--- | :---- | :-- |
 | Mon, Sep 21 | 1:00-2:00pm | [ICICS X341](#icics-x241-and-x341) | Jessica|
-| Mon, Sep 21 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+| Mon, Sep 21 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin |
 | Tue, Sep 22 | 1:30-2:30pm | [ICICS X241](#icics-x241-and-x341) | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
-| Wed, Sep 23 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+| Wed, Sep 23 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin |
 | Wed, Sep 23 | 5:00-6:00pm | [ICICS X241](#icics-x241-and-x341) | Kate |
 | Thu, Sep 24 | 1:00-2:00pm | [ICICS X241](#icics-x241-and-x341) | Tarvin |
-| Fri, Sep 25 | 10:00-1a:00am | [ICICS X341](#icics-x241-and-x341) | Sally |
+| Fri, Sep 25 | 10:00-11:00am | [ICICS X341](#icics-x241-and-x341) | Sally |
 | Fri, Sep 25 | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
 
 > [!NOTE]
