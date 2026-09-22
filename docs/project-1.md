@@ -15,7 +15,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| *TBC* | V1 - Project 1 published |
+| *Sept 22* | Added dataset Requirements for Part 1B |
 
 ---
 
