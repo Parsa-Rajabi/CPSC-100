@@ -15,7 +15,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| *TBC* | V1 - Project 1 published |
+| *Sept 22* | Added dataset Requirements for Part 1B |
 
 ---
 
@@ -275,8 +275,10 @@ question. For an example, see
 <summary>Building the dataset</summary>
 
 We'll give you a set of starter images, some real and some AI-generated, and each group member
-then adds a few more of their own. The exact numbers are still being finalized and will be
-confirmed here.
+then adds a few more of their own. 
+- Course team will provide you with 4 starter images (2 Real Vs. 2 AI - generated).
+- Each member must add 2 images individually to the dataset.
+- E.g. A group of 4 members must have a dataset of 8 images + 4 starter images, so 12 images in total. 
 
 Whatever the final count, your dataset needs to:
 
