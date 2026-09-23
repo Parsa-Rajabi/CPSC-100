@@ -10,12 +10,41 @@ Use this page alongside:
 - [Project Peer Evaluation](project-peer-evaluation.md)
 - [Importance of Group Work and Participation Policy](syllabus.md#importance-of-group-work-and-participation-policy)
 
+## How the Contract Works
+
+You complete the contract once, early in the term, and then use it all term. Working through the template together is the point of the exercise, so give it real time.
+
+- Schedule a **60 minute meeting**, ideally in person. Every group member must be there, and every member must be available during your scheduled lab.
+- Come prepared. Each member reads the questions beforehand and brings answers to discuss.
+- Write the agreed answers under each question **in a different colour**, so the teaching team can see what your group added.
+- Answers that are incomplete or lacking detail are **sent back for revision**.
+- Submit **one PDF** for the whole group. Any one member can submit it.
+- **Electronic signatures are accepted.** Every member signs.
+- The template has a **changelog**. Start at Version 1.0 with the date, and add an entry whenever you revise the contract.
+
+> [!ATTENTION]
+> Every contract is rejected on the first round, by design. That is how the exercise works, and it is not a comment on your group. You get one free revision after that. See [Project](project.md#group-contract).
+
+The template walks through these sections:
+
+| Section | What it settles |
+| :-- | :-- |
+| Group Values and Roles | Team goals and values, secondary roles, how tasks are assigned, your TA and drop-in session |
+| Group Communication | Preferred channel, meeting frequency, agendas, progress tracking |
+| Group Decision Making | How decisions get made, and what happens when you deadlock |
+| Group Work Quality | Your quality standards, and how you review each other's work |
+| Group AI Usage Policy | Which tools are allowed, how output is verified, and consequences for non-disclosure |
+| Group Participation and Accountability | Attendance, contribution, response time, meeting deadlines |
+| Group Conflict Resolution | Your internal process, consequences, and repeat infractions |
+| Team Retrospective and Peer Evaluation | Dates for the two required retrospectives, and how feedback stays constructive |
+| Signatures | Every member signs to accept the terms and consequences |
+
 ## Start Here
 
 If you are short on time or feeling overloaded, focus on these first:
 
 1. Agree on weekly meeting time, response time, and where tasks are tracked.
-2. Assign project roles with an owner and backup.
+2. Assign the three required roles: Meeting Coordinator, TA Liaison, and Submission Coordinator.
 3. Decide how the team will make decisions when people disagree.
 4. Write down what happens when someone misses a meeting, deadline, or task.
 5. Revisit the contract before each graded peer evaluation.
@@ -54,45 +83,44 @@ Stronger answer:
 
 > We value reliability, direct communication, and evidence-based decisions. Reliability means attending scheduled meetings or giving at least 24 hours notice when possible. Direct communication means raising blockers early rather than waiting until the deadline. Evidence-based means connecting major choices to sources we actually read, TA feedback, or peer critique.
 
-For secondary roles, separate responsibility from authority. A role means someone is responsible for making sure a kind of work is visible, coordinated, and completed. It does not mean that person makes decisions alone, or that they do all the work in that area.
+Everyone in the group counts as a project contributor. That is your primary role. On top of it, the contract asks each member to take on a **secondary role**, which exists to keep the group running smoothly rather than to give anyone authority over the others.
 
-Your contract should assign a small set of standing roles for the full term and milestone roles that rotate as the project changes. Each role should have an owner and a backup so the team is not blocked if one person is unavailable.
+Separate responsibility from authority. A role means someone is responsible for making sure a kind of work is visible, coordinated, and completed. It does not mean that person makes decisions alone, or that they do all the work in that area.
 
-### Standing Roles
+### Required Roles
 
-These roles should exist throughout the project.
+The contract requires that one person holds each of these three.
 
 | Role | Main responsibility | Good evidence the role is being done |
 | :-- | :-- | :-- |
-| Project Coordinator | Maintains the project timeline, tracks tasks, checks progress before internal deadlines, and flags risks early. | A visible task list with owners, due dates, and current status. |
-| TA Liaison | Coordinates questions for the TA or instructor and brings guidance back to the team. | Questions are collected before lab, and answers are summarized for the group. |
-| Meeting Facilitator | Prepares agendas, keeps meetings focused, and makes sure decisions are named before moving on. | Meetings end with decisions, action items, owners, and deadlines. |
-| Decision Log Steward | Maintains the team's decision log across milestones. | Major changes and unaccepted TA suggestions are recorded with reasons and evidence. |
-| File and Submission Manager | Keeps shared files organized, confirms link permissions, and checks that the submitted version is correct. | The final files are findable, accessible to the teaching team, and submitted on time. |
+| Meeting Coordinator | Coordinates communication and schedules meetings between group members. Holding this role does **not** imply more power in decision making. | Meetings are scheduled with enough notice, and everyone knows when the next one is. |
+| TA Liaison | Coordinates communication and meetings with the TA and instructor as needed. | Questions are collected before lab, and answers are summarized for the group. |
+| Submission Coordinator | Makes sure all group submissions go in through the course platform and on time, including any AI disclosure. | Submissions are on time, complete, and the AI disclosure is attached. |
 
-### Milestone Roles
+### Additional Duties
 
-These roles should rotate or be reassigned as the project moves from research to synthesis, drafting, and presentation. A team member can hold more than one role, but avoid putting all high-responsibility roles on the same person.
+The contract also asks you to assign these. Someone can hold one of these alongside a required role, but avoid stacking them all on one person.
 
-| Role | Main responsibility |
+| Duty | Main responsibility |
 | :-- | :-- |
-| Research Operations Lead | Coordinates the research questions, source gathering, and how sources are recorded and shared. |
-| Evidence and Synthesis Lead | Makes sure findings, themes, and claims are traceable to actual evidence rather than assumption. |
-| Design Exploration Lead | Coordinates brainstorming, reference critique, alternative concepts, and early sketches. |
-| Writing Integration Lead | Makes the deliverable read like one coherent argument instead of separate stitched-together sections. |
-| Presentation and Demo Lead | Coordinates slide flow, speaking order, timing, and Q&A preparation. |
-| Quality and Rubric Reviewer | Checks the work against the milestone instructions, rubric, formatting expectations, and missing evidence. |
+| Note Taker | Writes down notes and decisions in all meetings. |
+| Lead Writer | Makes sure all writing is done cohesively, so the deliverable reads as one piece rather than stitched-together sections. |
+| Quality Assurance | Reviews submissions against the assignment criteria and rubric. |
+| Version Control Manager | Keeps track of document versions, so the team always knows which file is current. |
 
 ### Role Assignment Template
 
-Use a table like this in your contract or team notes:
+Use a table like this in your contract or team notes. Naming a backup is not required by the contract, but it stops the team from being blocked when someone is away.
 
 | Role | Owner | Backup | What this person checks | When they check it |
 | :-- | :-- | :-- | :-- | :-- |
-| Project Coordinator | | | Task list, deadlines, blockers | Twice per week |
+| Meeting Coordinator | | | Meeting times, attendance, agendas | Weekly |
 | TA Liaison | | | TA questions and answers | Before and after lab |
-| Decision Log Steward | | | Major decisions and unaccepted TA suggestions | After each feedback session |
-| Quality and Rubric Reviewer | | | Rubric fit, missing evidence, submission details | 48 hours before submission |
+| Submission Coordinator | | | Submission details and AI disclosure | 48 hours before submission |
+| Note Taker | | | Decisions and action items | Every meeting |
+| Lead Writer | | | Consistency across the full draft | Before each submission |
+| Quality Assurance | | | Rubric fit and missing evidence | 48 hours before submission |
+| Version Control Manager | | | Which file version is current | Ongoing |
 
 ### Choosing Roles Well
 
@@ -114,12 +142,12 @@ Roles should not create hierarchy or hide unequal work.
 
 Avoid these patterns:
 
-- The Project Coordinator becomes the team's boss.
+- The Meeting Coordinator becomes the team's boss. The contract is explicit that this role carries no extra decision-making power.
 - The TA Liaison is the only person allowed to understand TA feedback.
-- The strongest writer rewrites everyone's work at the last minute.
+- The Lead Writer rewrites everyone's work at the last minute.
 - One person builds the whole deliverable alone.
-- The research lead collects sources without the team understanding what they say.
-- The quality reviewer is blamed for problems that should have been addressed earlier.
+- The Submission Coordinator finds out what is being submitted an hour before the deadline.
+- Quality Assurance is blamed for problems that should have been addressed earlier.
 
 When a role owner notices a problem, their job is to make the problem visible early and help the team decide what to do.
 
@@ -134,11 +162,15 @@ Include:
 
 - primary channel for normal updates
 - backup channel for urgent issues
-- expected response time
-- meeting schedule
-- how meeting agendas are created
-- where action items are stored
+- expected response time, as an actual number of hours or days
+- meeting schedule, with specific days and times
+- how meeting agendas are created, who sets them, and how people are reminded
+- who keeps the meeting on the agenda, and who records each member's action items
+- where action items are stored, and how progress is tracked
 - how decisions are documented
+- how the group communicates with the TA and instructor
+
+The contract also asks you to write down **who your assigned TA is, when your lab drop-in sessions are, and which team member can attend them**. Fill that in during the contract meeting, while everyone's schedule is in front of you.
 
 Example:
 
@@ -175,19 +207,25 @@ Useful review routine:
 3. Owner revises.
 4. Final reviewer checks formatting, citations, links, and submission requirements.
 
-If your team uses AI tools, agree on boundaries before the work starts, within whatever the [course AI policy](ai-policy.md) permits.
+The contract asks your group to decide, up front, whether you will use AI tools at all. Deciding **not** to is a valid answer, as long as you say why. If you do use them, agree on boundaries before the work starts, within whatever the [course AI policy](ai-policy.md) permits.
 
 Your contract should answer:
 
-- Which tools are allowed?
+- Will the group use AI tools at all? If not, why not?
+- Which specific tools are permitted?
 - Which tasks are AI tools allowed to support?
 - Which tasks must remain human-authored or human-verified?
 - How will AI use be disclosed to teammates?
-- Who checks accuracy, citations, privacy, and course policy compliance?
+- Who is responsible for verifying accuracy, citations, privacy, and course policy compliance?
+- What happens if someone uses AI tools inappropriately?
+- What are the consequences of failing to disclose AI use, to teammates or to the teaching team?
+- How does AI use factor into assessing individual contributions?
+
+The last three are easy to skip and are the ones that matter when something goes wrong. Answer them before you need them.
 
 Example:
 
-> AI tools may be used for brainstorming alternatives, improving sentence clarity, and generating checklists. AI tools may not be used to invent findings, fabricate data, replace team discussion, or produce final claims without human verification. Any AI-assisted text must be reviewed by at least one teammate for accuracy, tone, and fit with our actual evidence.
+> AI tools may be used for brainstorming alternatives, improving sentence clarity, and generating checklists. AI tools may not be used to invent findings, fabricate data, replace team discussion, or produce final claims without human verification. Any AI-assisted text must be reviewed by at least one teammate for accuracy, tone, and fit with our actual evidence. Undisclosed AI use is treated as a missed commitment under our consequences section, and the Submission Coordinator attaches the group's AI disclosure to every submission.
 
 Define contribution in visible, checkable terms.
 
@@ -340,7 +378,7 @@ Useful message template:
 <details open>
 <summary>Team Retrospectives</summary>
 
-Use a short retrospective before each graded peer evaluation, and any time the team feels stuck.
+Your contract must name **dates and times for two required retrospective meetings**, one before each graded peer evaluation. Book them when you write the contract, not when the deadline arrives. Run a shorter one any time the team feels stuck.
 
 Suggested agenda:
 
@@ -372,6 +410,8 @@ Examples:
 > Sam completed their assigned slides, but the drafts were often submitted after the internal deadline. This made it harder for the team to review the presentation as a whole. A helpful next step would be to send a partial draft earlier if the final version is delayed.
 
 Avoid comments about personality, popularity, or assumptions about intent.
+
+The contract also asks whether your team will meet to discuss the anonymous peer evaluations as a group. Decide this in advance rather than in the moment. If you do meet, agree beforehand on how you will keep the discussion behaviour-focused and avoid guessing who wrote what.
 
 </details>
 
@@ -410,6 +450,8 @@ Avoid comments about personality, popularity, or assumptions about intent.
 - Can every member explain the core project decisions?
 - Are links accessible to the teaching team?
 - Does the submission match the milestone instructions?
+- Is the AI disclosure attached, if your group used AI tools?
+- Is the Submission Coordinator clear on what is being submitted, and where?
 - Are contributions and remaining concerns documented?
 
 </details>
