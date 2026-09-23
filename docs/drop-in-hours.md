@@ -6,18 +6,7 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 > **Not sure whether your reason is good enough?** It is. See [what drop-in hours are for](communication.md#drop-in-hours) for what students actually use them for.
 
 > [!NOTE]
-> **Recurring weekly hours start in Week 3.** The sessions below are what is running until then. The Week 3 schedule will be announced on [Ed Discussion](communication.md).
-
-## Week 2 (Sep 14 - 18)
-
-| Day | Time | Where | Who |
-| :-- | :--- | :---- | :-- |
-| Mon, Sep 14 | 3:00-4:00pm | [SWING 110](#swing-110) | Sally, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-| Tue, Sep 15 | 1:30-2:30pm | [DLC, Table 1](#dlc-table-1) | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
-| Wed, Sep 16 | 3:00-4:00pm | [SWING 110](#swing-110) | <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-| Wed, Sep 16 | 5:00-6:00pm | [DLC, Table 1](#dlc-table-1) | Kate |
-| Thu, Sep 17 | 12:00-1:00pm | [DLC, Table 1](#dlc-table-1) | Tarvin |
-| Fri, Sep 18 | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+> **Recurring weekly hours start in Week 4.** The sessions below are what is running until then. The Week 4 schedule will be announced on [Ed Discussion](communication.md).
 
 ## Week 3 (Sep 21 - 25)
 
@@ -31,6 +20,19 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 | Thu, Sep 24 | 1:00-2:00pm | [ICICS X241](#icics-x241-and-x341) | Tarvin |
 | Fri, Sep 25 | 10:00-11:00am | [ICICS X341](#icics-x241-and-x341) | Sally |
 | Fri, Sep 25 | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+
+## Week 4 - 14 (Sept 28 - Dec 11)
+
+| Day | Time | Where | Who |
+| :-- | :--- | :---- | :-- |
+| Mon | 3:00-4:00pm | [SWING 110](#swing-110) | Sally, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+| Tue| 1:30-2:30pm | [ICICS X241](#icics-x241-and-x341) | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
+| Tue| 3:00-3:30pm | [ICICS X241](#icics-x241-and-x341) | Jessica |
+| Wed | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+| Wed | 5:00-6:00pm | [ICICS X241](#icics-x241-and-x341) | Kate |
+| Thu | 1:00-2:00pm | [ICICS X241](#icics-x241-and-x341) | Tarvin |
+| Fri | 10:30-11:00am | [ICICS X341](#icics-x241-and-x341) | Sally |
+| Fri| 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> 
 
 > [!NOTE]
 > **Two people in this course are called Parsa,** so those two names are flagged above. **Parsa R.** <span class="role role-instructor">Instructor</span> is Parsa Rajabi, your instructor. **Parsa S.** <span class="role role-ta">TA</span> is Parsa Seyfourian, one of your five TAs. Everyone else listed is a TA. Full names and who leads which lab are on the [Teaching Team](teaching-team.md) page.
