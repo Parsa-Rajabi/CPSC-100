@@ -298,6 +298,12 @@ counts. Say if those should go to TBD too. -->
 The lightly edited photo is worth including. A tool that calls an ordinary edited photo
 AI-generated is telling you something useful about how it decides.
 
+Your starter images can be found here:
+- Real-image 1: [Image 1](assets/project-resources/IMG_1.jpg)
+- Real-image 2: [Image 2](assets/project-resources/IMG_2.jpg)
+- AI-generated image 1: [Image 3](assets/project-resources/IMG_3.jpeg)
+- AI-generated image 2: [Image 4](assets/project-resources/IMG_4.png)
+
 </details>
 
 <details>
