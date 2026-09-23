@@ -4,15 +4,11 @@ Group work is a major part of CPSC 100. These resources are here to help your te
 
 Use this page alongside:
 
-- Group contract template: to be announced
-- [Guidelines for Writing a Group Contract](assets/group-resources/group-contract-info.pdf)
+- [Group Contract Template (PDF)](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Template.pdf)
+- [Group Contract Template (Word)](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Template.docx)
+- [Guidelines for Writing a Group Contract](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Information.pdf)
 - [Project Peer Evaluation](project-peer-evaluation.md)
 - [Importance of Group Work and Participation Policy](syllabus.md#importance-of-group-work-and-participation-policy)
-
-> [!NOTE]
-> The group contract template is not finalized yet, but it will be posted here once it is ready
-> and announced in class at the same time. The guidance on this page applies whatever the final
-> template turns out to look like, so you can start the conversations with your group now.
 
 ## Start Here
 
