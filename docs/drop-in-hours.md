@@ -6,7 +6,7 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 > **Not sure whether your reason is good enough?** It is. See [what drop-in hours are for](communication.md#drop-in-hours) for what students actually use them for.
 
 > [!NOTE]
-> **Recurring weekly hours start in Week 3.** The sessions below are what is running until then. The Week 3 schedule will be announced on [Ed Discussion](communication.md).
+> **Recurring weekly hours start in Week 4.** The sessions below are what is running until then. The Week 4 schedule will be announced on [Ed Discussion](communication.md).
 
 ## Week 3 (Sep 21 - 25)
 
@@ -21,7 +21,7 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 | Fri, Sep 25 | 10:00-11:00am | [ICICS X341](#icics-x241-and-x341) | Sally |
 | Fri, Sep 25 | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
 
-## Week 4 - 14 (Recurring - starting Sept 28)
+## Week 4 - 14 (Sept 28 - Dec 11)
 
 | Day | Time | Where | Who |
 | :-- | :--- | :---- | :-- |
