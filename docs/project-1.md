@@ -15,7 +15,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| *Sept 22* | Added dataset Requirements for Part 1B |
+| *Sept 22* | Added dataset Requirements for Part 1B, project resources added |
 
 ---
 
