@@ -63,7 +63,12 @@ Your contract sets out roles, expectations, how you communicate, and how you res
 > [!ATTENTION]
 > Every contract is rejected on the first round, by design. That's how the exercise works, and it isn't a comment on your group.
 
-You get one free revision after that, and the guidance for writing the contract is on [Group Work Resources](group-work-resources.md). The contract template itself is still to be announced.
+You get one free revision after that, and the guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
+
+Use the contract template, available in both formats:
+
+- [Group Contract Template (PDF)](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Template.pdf)
+- [Group Contract Template (Word)](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Template.docx)
 
 ### If contribution is uneven
 
