@@ -4,9 +4,9 @@ Group work is a major part of CPSC 100. These resources are here to help your te
 
 Use this page alongside:
 
-- [Group Contract Template (PDF)](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Template.pdf)
-- [Group Contract Template (Word)](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Template.docx)
-- [Guidelines for Writing a Group Contract](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Information.pdf)
+- [Group Contract Template (PDF)](assets/group-resources/group-contract-template.pdf)
+- [Group Contract Template (Word)](assets/group-resources/group-contract-template.docx)
+- [Guidelines for Writing a Group Contract](assets/group-resources/group-contract-info.pdf)
 - [Project Peer Evaluation](project-peer-evaluation.md)
 - [Importance of Group Work and Participation Policy](syllabus.md#importance-of-group-work-and-participation-policy)
 
@@ -23,7 +23,7 @@ You complete the contract once, early in the term, and then use it all term. Wor
 - The template has a **changelog**. Start at Version 1.0 with the date, and add an entry whenever you revise the contract.
 
 > [!ATTENTION]
-> Every contract is rejected on the first round, by design. That is how the exercise works, and it is not a comment on your group. You get one free revision after that. See [Project](project.md#group-contract).
+> You cannot proceed with the group project until your TA has approved your contract. Your group gets one free revision; after that, any further re-submissions are penalized. See [Project](project.md#group-contract).
 
 The template walks through these sections:
 

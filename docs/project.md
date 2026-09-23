@@ -61,14 +61,14 @@ Peer evaluation runs in iPeer and acts as a multiplier on Part C of each project
 Your contract sets out roles, expectations, how you communicate, and how you resolve conflict. Name specific behaviours, timelines, and consequences: "We will communicate well" is not a contract.
 
 > [!ATTENTION]
-> Every contract is rejected on the first round, by design. That's how the exercise works, and it isn't a comment on your group.
+> You cannot proceed with the group project until your TA has approved your contract.
 
-You get one free revision after that, and the guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
+Your group gets one free revision. After that, any further re-submissions are penalized, so treat the first submission as the real one. Guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
 
 Use the contract template, available in both formats:
 
-- [Group Contract Template (PDF)](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Template.pdf)
-- [Group Contract Template (Word)](assets/group-resources/CPSC%20100%20-%20Group%20Contract%20Template.docx)
+- [Group Contract Template (PDF)](assets/group-resources/group-contract-template.pdf)
+- [Group Contract Template (Word)](assets/group-resources/group-contract-template.docx)
 
 ### If contribution is uneven
 
