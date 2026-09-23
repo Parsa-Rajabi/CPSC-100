@@ -110,7 +110,7 @@ Important links:
 - [Academic concessions](https://students.ubc.ca/enrolment/academic-learning-resources/academic-concessions/)
 - [Science academic concession FAQ](https://science.ubc.ca/students/concession)
 - [UBC Science Exam FAQ](https://science.ubc.ca/students/advising/exams)
-- [Student Declaration of Academic Concession Form](assets/academic-concession.pdf)
+- [Student Declaration of Academic Concession Form](https://parsa-rajabi.github.io/CPSC-100/assets/academic-concession.pdf)
 - [Syllabus: Academic Concessions](syllabus.md#academic-concessions)
 
 ## Help and Mental Health Support

@@ -67,8 +67,8 @@ Your group gets one free revision. After that, any further re-submissions are pe
 
 Use the contract template, available in both formats:
 
-- [Group Contract Template (PDF)](assets/group-resources/group-contract-template.pdf)
-- [Group Contract Template (Word)](assets/group-resources/group-contract-template.docx)
+- [Group Contract Template (PDF)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-template.pdf)
+- [Group Contract Template (Word)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-template.docx)
 
 ### If contribution is uneven
 
