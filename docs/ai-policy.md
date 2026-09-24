@@ -1,21 +1,19 @@
 # Artificial Intelligence Use Policy
 
-# CPSC 100 AI Policy Working Draft
-
 **Initial policy release:** September 14, 2026  
-**Scheduled finalization:** September 16, 2026
-
-**Feedback is welcome before the policy is finalized on September 16. Please email [cpsc100-team@cs.ubc.ca](mailto:cpsc100-team@cs.ubc.ca).** Tell us which part is unclear, what concerns you, or what you think should change.
-
-This document contains the revised student-facing draft, followed by instructor notes. It is open for feedback and is not yet the finalized policy.
+**Finalized:** September 16, 2026
 
 ## Changelog
 
-| Date | Update |
-| :--- | :--- |
-| September 14, 2026 | Initial policy release. Open for feedback before finalization on September 16. |
+<!-- Add a dated entry every time the policy changes. Newest first. -->
 
-## Proposed student-facing policy
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Draft and feedback wording removed now that the policy is final. The requirements are unchanged. |
+| Sep 16, 2026 | Policy finalized. No changes to the requirements after the feedback period. |
+| Sep 14, 2026 | Initial policy release. Open for feedback before finalization on September 16. |
+
+## Policy
 
 ### AI is an integral part of this course
 
@@ -29,7 +27,7 @@ This policy also draws on the class AI activity and the concerns your groups rai
 
 ### Participation is a course requirement
 
-**By remaining enrolled in CPSC 100 after this policy is finalized, you acknowledge that working with AI is a required part of the course and agree to participate in the assigned AI activities and assessments. Your course grades depend on completing this work and demonstrating the required learning.**
+**By remaining enrolled in CPSC 100, you acknowledge that working with AI is a required part of the course and agree to participate in the assigned AI activities and assessments. Your course grades depend on completing this work and demonstrating the required learning.**
 
 Each assignment will identify where AI use is required, where it is permitted, and where work must be completed independently. A preference not to use AI does not exempt you from required activities. Raise technical, privacy, or accessibility concerns early so we can arrange an appropriate way to meet the learning requirements. Approved accommodations continue to apply.
 
@@ -109,7 +107,7 @@ You do not need to purchase an AI subscription. We will explain how to access th
 
 Course emails should follow the [communication guidelines](communication.md). Write your message yourself; limited proofreading is permitted. Use the confidential route on that page for sensitive personal, accessibility, or academic-integrity concerns.
 
-**For feedback on this draft, email [cpsc100-team@cs.ubc.ca](mailto:cpsc100-team@cs.ubc.ca) before the policy is finalized on September 16, 2026.** General questions about applying the policy can also be asked on Ed Discussion.
+Questions about applying the policy can be asked on Ed Discussion, or emailed to [cpsc100-team@cs.ubc.ca](mailto:cpsc100-team@cs.ubc.ca).
 
 ### Policy updates
 

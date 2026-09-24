@@ -120,6 +120,90 @@ body .markdown-section {
     }
 }
 
+/* Teaching Team cards. auto-fill picks the column count from the page width, so the
+   five TAs sit in one row on desktop and wrap to two per row on a phone with no
+   breakpoints to maintain. Role chips reuse the lead/support colours from CPSC 344. */
+.markdown-section .team-grid {
+    display: grid;
+    /* min() caps the card at half the row, so even a narrow phone gets two per row. */
+    grid-template-columns: repeat(auto-fill, minmax(min(8rem, calc(50% - 0.5rem)), 1fr));
+    gap: 1rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.markdown-section .team-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 0;
+}
+
+.markdown-section .team-card img.team-photo {
+    display: block;
+    width: 100%;
+    /* Portrait, to match the 400x500 crops: a square cut off the top of the head on
+       the closest selfies. */
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 8px;
+    /* Keeps a photo with a white background from dissolving into the page. */
+    border: 1px solid rgba(94, 106, 113, 0.25);
+    background: #F1F3F5;
+}
+
+.markdown-section .team-card .team-name {
+    margin: 0.2rem 0 0;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.markdown-section .team-card .team-pronouns {
+    margin: 0;
+    color: #5E6A71;
+    font-size: 0.9em;
+}
+
+.markdown-section .team-card .team-labs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin: 0.15rem 0 0;
+}
+
+.markdown-section .team-lab {
+    padding: 0.1em 0.5em;
+    border-radius: 6px;
+    font-size: 0.8em;
+    font-weight: 700;
+    white-space: nowrap;
+    color: #fff;
+    background: #002145;
+}
+
+.markdown-section .team-lab-support {
+    background: #2F6F4E;
+}
+
+@media (prefers-color-scheme: dark) {
+    .markdown-section .team-card img.team-photo {
+        border-color: rgba(178, 180, 180, 0.3);
+        background: #20262C;
+    }
+
+    .markdown-section .team-card .team-pronouns {
+        color: #B2B4B4;
+    }
+
+    .markdown-section .team-lab {
+        color: #061018;
+        background: #6FB1E7;
+    }
+
+    .markdown-section .team-lab-support {
+        background: #8ED1A6;
+    }
+}
+
 
 /* Link colors to match UBC branding visual styling */
 

@@ -3,6 +3,14 @@
 > [!NOTE]
 > This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
+## Changelog
+
+<!-- Add a dated entry every time a participation policy or deduction changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Clarified that the free lab late arrival is one per semester. Lecture rules are unchanged. |
+
 ## Overview
 
 Participation is graded on what you do in lecture, and it is individual work. It is tracked with **iClicker**, an app you answer in-class questions on. We may also use other mechanisms alongside it to record attendance for verification.
@@ -41,7 +49,7 @@ Because your 6 lowest sessions are dropped, you can miss up to six lectures with
 
 Missing lectures will not fail you outright, unlike [missing labs](labs.md#attendance-and-late-arrival) — but the drops are meant to cover ordinary short-term absences, so it is worth saving them for when you actually need them.
 
-There is no free late arrival for lectures. [Labs](labs.md) grant one, because arriving late there holds up your teammates rather than only yourself.
+There is no free late arrival for lectures. [Labs](labs.md) grant one for the whole semester, because arriving late there holds up your teammates rather than only yourself.
 
 If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process rather than spending your drops on it. See [Course Communication](communication.md) for the right address.
 

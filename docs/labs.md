@@ -3,6 +3,14 @@
 > [!NOTE]
 > This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
+## Changelog
+
+<!-- Add a dated entry every time a lab policy, deduction, or requirement changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Clarified that the free late arrival is one per semester across all labs, not one per lab. |
+
 ## Overview
 
 Labs are where this course stops being abstract. Each one is a 50-minute in-person session in ICCS X050. You build a piece of something your [project](project.md) needs later, working alongside the group you'll submit it with. They aren't standalone worksheets, and your TA usually marks you in the lab itself, on what you do during the session.
@@ -89,7 +97,7 @@ Most labs are marked in the session itself and need nothing from you afterwards.
 
 Every lab opens with your group already working, which only works if everyone arrives having thought about the problem first. That's what the pre-lab is for. It's a short set of questions on PrairieLearn, and it counts as part of that lab's grade rather than as a separate score.
 
-Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs 0.25 points, and turning up late costs another 0.25 points, because each one leaves your group waiting on you. The two deductions stack, so doing both costs 0.5 points.
+Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs 0.25 points, and turning up late costs another 0.25 points, because each one leaves your group waiting on you. The two deductions stack, so doing both costs 0.5 points. Your one free late arrival for the semester is covered under [Attendance and late arrival](#attendance-and-late-arrival).
 
 ### Lab 0
 
@@ -101,7 +109,7 @@ Labs 1 through 9 each have a pre-lab. Lab 10 doesn't, since it's the viva voce a
 
 Because your lowest lab is dropped, missing one costs you nothing at all. There's no email to send and no permission to ask for in advance. Missing a second still satisfies the attendance requirement, but it costs you, since you have no drop left to absorb it. From the third missed lab onwards, your final grade is capped at 45%. That is the 7-of-9 requirement taking effect.
 
-Your first late arrival each term is free, with no explanation needed. After that the deductions apply. Most labs open with group work, so arriving late holds up your teammates rather than only yourself.
+You get one free late arrival for the whole semester, not one per lab, and you don't need to explain it. It covers the first time you're late to any lab. Every late arrival after that has the deductions below. Most labs open with group work, so arriving late holds up your teammates rather than only yourself.
 
 Lab attendance affects your lab grade and nothing else. It does not touch [Course Participation](participation.md), which is graded on lectures.
 
@@ -119,7 +127,7 @@ If something serious or ongoing is happening, use the [academic concession](syll
 | Missing a lab | 1 point, absorbed by your dropped lab |
 | Missing more than 2 graded labs | Final grade of 45% or less |
 
-Your first late arrival each term is exempt from these.
+The first time you arrive late to any lab this semester, the late-arrival deductions above don't apply. This happens once per semester, not once per lab. Every later late arrival is deducted as shown.
 
 </details>
 
