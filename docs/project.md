@@ -50,7 +50,7 @@ It has three parts, a mix of individual and group work:
 
 ## Group process
 
-Alongside the project parts themselves, three things run continuously.
+Alongside the project parts themselves, three things run all term: weekly stand-ups, retrospectives, and peer evaluation. Your group contract, written at the start, sets out how your group handles all of them.
 
 ### Weekly stand-ups
 
