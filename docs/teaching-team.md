@@ -1,7 +1,7 @@
 # Teaching Team
 
 > [!NOTE]
-> Pronouns and photos are still being added as each TA supplies them.
+> Photos are still being added as each TA supplies them.
 
 > [!TIP]
 > **Looking for how to reach us?** Email addresses, the Ed Discussion link, and a flowchart showing where each kind of question belongs are all on [Course Communication](communication.md).
@@ -18,11 +18,11 @@ For questions about your own lab, contact its **lead TA** first.
 
 | Name | Pronouns | Leads | Supports |
 | :------- | :----------- | :-------: | :----------: |
-| **Parsa** Seyfourian | *to be confirmed* | L1A | L1B |
-| **Kate** Manskaia | *to be confirmed* | L1B | L1C |
-| **Tarvin** Arora | *to be confirmed* | L1C | L1D |
-| **Jessica** He | *to be confirmed* | L1E | L1A |
-| **Sally** Han | *to be confirmed* | L1D | L1E |
+| **Parsa** Seyfourian | he/him | L1A | L1B |
+| **Kate** Manskaia | she/her | L1B | L1C |
+| **Tarvin** Arora | she/her | L1C | L1D |
+| **Jessica** He | she/her | L1E | L1A |
+| **Sally** Han | she/her | L1D | L1E |
 
 Lab section times and the room are on the [Labs](labs.md) page. Who is holding drop-in hours, when, and where is on the [Drop-in Hours](drop-in-hours.md) page.
 
