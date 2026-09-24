@@ -16,7 +16,7 @@ You are marked individually, even though most of the work is collaborative, and 
 
 ## Schedule
 
-Labs run Wednesday and Thursday for 50 minutes, and every section meets in ICCS X050 ([map](https://maps.ubc.ca/?code=ICCS)). Attend the section you're registered in, and check which one that is if you aren't sure.
+Labs run Wednesday and Thursday for 50 minutes. Sections A, B, C, and E meet in ICCS X050, and section D meets in ICCS X351([map](https://maps.ubc.ca/?code=ICCS)). Attend the section you're registered in, and check which one that is if you aren't sure.
 
 Each section has a lead TA who runs it and a support TA who assists, so you see two familiar faces each week. For a question about your own lab, ask your lead TA first. Full names and pronouns are on the [Teaching Team](teaching-team.md) page, and their drop-in hours are on the [Drop-in Hours](drop-in-hours.md) page.
 
