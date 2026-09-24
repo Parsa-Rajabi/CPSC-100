@@ -3,6 +3,14 @@
 > [!NOTE]
 > This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
+## Changelog
+
+<!-- Add a dated entry every time a participation policy or deduction changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Clarified that the free lab late arrival is one per semester. Lecture rules are unchanged. |
+
 ## Overview
 
 Participation is graded on what you do in lecture, and it is individual work. It is tracked with **iClicker**, an app you answer in-class questions on. We may also use other mechanisms alongside it to record attendance for verification.

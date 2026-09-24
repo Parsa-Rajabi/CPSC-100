@@ -3,6 +3,14 @@
 > [!NOTE]
 > This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
+## Changelog
+
+<!-- Add a dated entry every time a lab policy, deduction, or requirement changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Clarified that the free late arrival is one per semester across all labs, not one per lab. |
+
 ## Overview
 
 Labs are where this course stops being abstract. Each one is a 50-minute in-person session in ICCS X050. You build a piece of something your [project](project.md) needs later, working alongside the group you'll submit it with. They aren't standalone worksheets, and your TA usually marks you in the lab itself, on what you do during the session.
