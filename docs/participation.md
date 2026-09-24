@@ -58,9 +58,9 @@ If something serious or ongoing is happening, use the [academic concession](syll
 
 | Situation | Cost |
 | :-------- | :--- |
-| Arriving too late for the first clicker question | 0.25 points |
-| Arriving more than 10 minutes late | Capped at 0.5 points |
-| Missing a session | 1 point, absorbed by your 6 drops |
+| Arriving too late for the first clicker question | You lose a quarter of that session's grade |
+| Arriving more than 10 minutes late | That session's grade is capped at half |
+| Missing a session | That session scores 0, absorbed by your 6 drops |
 
 </details>
 

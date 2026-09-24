@@ -1,10 +1,9 @@
 # Course Schedule
 
 > [!NOTE]
-> This schedule is still in development and is subject to change as the term
-> progresses. Details will be filled in as we go, but what is here is enough to show you
-> what to expect. Check back regularly, and watch the Changelog below for anything that
-> moved.
+> This schedule is still being written, and it may change as the term goes on.
+> We'll fill in details as we go, but what's here is enough to show you what to expect.
+> Check back regularly, and watch the Changelog below for anything that moved.
 
 ## Changelog
 
@@ -12,6 +11,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
 | *TBC* | V1 - Initial course schedule published |
 
 ## Weekly Schedule
@@ -36,20 +36,20 @@ Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and 
 | 14 | Dec 7 | W14A: Course wrap-up. Last day of class. | | | |
 | - | see [important dates](syllabus.md#important-dates) | Final Exam Period | | | [Final Exam](final.md) |
 
-Labs run as a Wednesday/Thursday pair. When a pair is cancelled, both halves go, so L1E doesn't meet on Thursday Oct 1 or Thursday Nov 12 even though those aren't holidays. All five sections sit the same number of labs, which is what the 7-of-9 attendance requirement assumes.
+Labs run as a Wednesday/Thursday pair. When a pair is cancelled, both halves are cancelled. So L1E doesn't meet on Thursday Oct 1 or Thursday Nov 12, even though those aren't holidays. All five sections have the same number of labs, which is what the 7-of-9 attendance requirement assumes.
 
 ## Key Dates
 
-Term dates, the drop deadline, Midterm Break, and the final exam period are on the [syllabus](syllabus.md#important-dates). The AI policy activity date will be added to the weekly table above once scheduled.
+Term dates, the drop deadline, Midterm Break, and the final exam period are on the [syllabus](syllabus.md#important-dates). The AI policy activity date will be added to the weekly table above once it's scheduled.
 
-No class on September 7 (Labour Day), September 30 (Truth and Reconciliation Day), October 12 (Thanksgiving), and November 9 and 11 (Midterm Break).
+There's no class on September 7 (Labour Day), September 30 (Truth and Reconciliation Day), October 12 (Thanksgiving), and November 9 and 11 (Midterm Break).
 
-No lab in Week 4 or Week 10. Lab dates, grading, and attendance rules are on the [Labs](labs.md) page.
+There's no lab in Week 4 or Week 10. Lab dates, grading, and attendance rules are on the [Labs](labs.md) page.
 
 ## How to Use This Page
 
 - Before each lecture, check the topic so you know what the class will cover.
-- Do your [pre-lab](labs.md#the-pre-lab) before each lab. It is graded.
-- Book your quiz seat early. Quizzes are sat in ORCA and you book your own slot for the Wednesday or Thursday of that week. Slots are finite.
-- Deliverables are listed in the week they are due, not the week they are assigned. Give yourself more than the final week to work on anything project-related.
-- Deadlines here are a convenience copy. If this page and an assignment page ever disagree, the assignment page wins. Please tell the teaching team so we can fix it.
+- Do your [pre-lab](labs.md#the-pre-lab) before each lab. It's graded.
+- Book your quiz seat early. Quizzes are sat in ORCA, and you book your own slot for the Wednesday or Thursday of that week. Slots are limited.
+- Deliverables (work you hand in) are listed in the week they're due, not the week they're assigned. Give yourself more than the final week to work on anything project-related.
+- The deadlines here are a copy for convenience. If this page and an assignment page ever disagree, the assignment page wins. Please tell the teaching team so we can fix it.

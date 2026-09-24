@@ -1,6 +1,6 @@
 # Group Work Resources
 
-Group work is a major part of CPSC 100. These resources are here to help your team turn the group contract into practical habits, rather than a document you submit once and forget.
+Group work is a big part of CPSC 100. The group contract is your team's written agreement about how you'll work together. These resources help your team turn that contract into practical habits. It shouldn't be a document you submit once and forget.
 
 Use this page alongside:
 
@@ -14,16 +14,16 @@ Use this page alongside:
 
 You complete the contract once, early in the term, and then use it all term. Working through the template together is the point of the exercise, so give it real time.
 
-- Schedule a **60 minute meeting**, ideally in person. Every group member must be there, and every member must be available during your scheduled lab.
+- Schedule a 60 minute meeting, ideally in person. Every group member must be there, and every member must be available during your scheduled lab.
 - Come prepared. Each member reads the questions beforehand and brings answers to discuss.
-- Write the agreed answers under each question **in a different colour**, so the teaching team can see what your group added.
-- Answers that are incomplete or lacking detail are **sent back for revision**.
-- Submit **one PDF** for the whole group. Any one member can submit it.
-- **Electronic signatures are accepted.** Every member signs.
-- The template has a **changelog**. Start at Version 1.0 with the date, and add an entry whenever you revise the contract.
+- Write the agreed answers under each question in a different colour. This lets the teaching team see what your group added.
+- Answers that are incomplete or lack detail are sent back for revision.
+- Submit one PDF for the whole group. Any one member can submit it.
+- Electronic signatures are accepted. Every member signs.
+- The template has a changelog, which is a dated list of changes. Start at Version 1.0 with the date. Add an entry whenever you revise the contract.
 
 > [!ATTENTION]
-> You cannot proceed with the group project until your TA has approved your contract. Your group gets one free revision; after that, any further re-submissions are penalized. See [Project](project.md#group-contract).
+> You can't move ahead with the group project until your TA (teaching assistant) has approved your contract. Your group gets one free revision. After that, any further re-submissions are penalized. See [Project](project.md#group-contract).
 
 The template walks through these sections:
 
@@ -31,19 +31,19 @@ The template walks through these sections:
 | :-- | :-- |
 | Group Values and Roles | Team goals and values, secondary roles, how tasks are assigned, your TA and drop-in session |
 | Group Communication | Preferred channel, meeting frequency, agendas, progress tracking |
-| Group Decision Making | How decisions get made, and what happens when you deadlock |
+| Group Decision Making | How decisions get made, and what happens when you're stuck and can't agree (a deadlock) |
 | Group Work Quality | Your quality standards, and how you review each other's work |
-| Group AI Usage Policy | Which tools are allowed, how output is verified, and consequences for non-disclosure |
+| Group AI Usage Policy | Which tools are allowed, how output is checked, and consequences for not disclosing AI use |
 | Group Participation and Accountability | Attendance, contribution, response time, meeting deadlines |
 | Group Conflict Resolution | Your internal process, consequences, and repeat infractions |
-| Team Retrospective and Peer Evaluation | Dates for the two required retrospectives, and how feedback stays constructive |
+| Team Retrospective and Peer Evaluation | Dates for the two required retrospectives (meetings where the team looks back at how it's working), and how feedback stays constructive |
 | Signatures | Every member signs to accept the terms and consequences |
 
 ## Start Here
 
-If you are short on time or feeling overloaded, focus on these first:
+If you're short on time or feeling overloaded, focus on these first:
 
-1. Agree on weekly meeting time, response time, and where tasks are tracked.
+1. Agree on a weekly meeting time, a response time, and where tasks are tracked.
 2. Assign the three required roles: Meeting Coordinator, TA Liaison, and Submission Coordinator.
 3. Decide how the team will make decisions when people disagree.
 4. Write down what happens when someone misses a meeting, deadline, or task.
@@ -56,7 +56,7 @@ Your group contract should describe how your team will actually work. Avoid vagu
 <details open>
 <summary>Preparing for the Contract Meeting</summary>
 
-Before your contract meeting, each team member should individually prepare answers to these questions:
+Before your contract meeting, each team member should prepare their own answers to these questions:
 
 - What times am I usually unavailable?
 - What kinds of project work am I strongest at?
@@ -66,14 +66,14 @@ Before your contract meeting, each team member should individually prepare answe
 - What does "equal contribution" mean for this project?
 - What should happen if someone misses a meeting, deadline, or task?
 
-During the meeting, do not rush to fill blanks. Discuss the answers first, then write the agreement.
+During the meeting, don't rush to fill in the blanks. Discuss the answers first, then write the agreement.
 
 </details>
 
 <details>
 <summary>Group Values and Roles</summary>
 
-Good answers name how the team wants to work and who owns recurring coordination tasks.
+Good answers name how the team wants to work. They also name who is responsible for coordination tasks that come up again and again.
 
 Weak answer:
 
@@ -81,36 +81,36 @@ Weak answer:
 
 Stronger answer:
 
-> We value reliability, direct communication, and evidence-based decisions. Reliability means attending scheduled meetings or giving at least 24 hours notice when possible. Direct communication means raising blockers early rather than waiting until the deadline. Evidence-based means connecting major choices to sources we actually read, TA feedback, or peer critique.
+> We value reliability, direct communication, and evidence-based decisions. Reliability means attending scheduled meetings or giving at least 24 hours notice when possible. Direct communication means raising blockers (problems that stop your work) early rather than waiting until the deadline. Evidence-based means connecting major choices to sources we actually read, TA feedback, or peer critique.
 
-Everyone in the group counts as a project contributor. That is your primary role. On top of it, the contract asks each member to take on a **secondary role**, which exists to keep the group running smoothly rather than to give anyone authority over the others.
+Everyone in the group counts as a project contributor. That's your primary role. On top of that, the contract asks each member to take on a secondary role. A secondary role exists to keep the group running smoothly. It doesn't exist to give anyone authority over the others.
 
-Separate responsibility from authority. A role means someone is responsible for making sure a kind of work is visible, coordinated, and completed. It does not mean that person makes decisions alone, or that they do all the work in that area.
+Separate responsibility from authority. A role means someone is responsible for making sure a kind of work is visible, coordinated, and completed. It doesn't mean that person makes decisions alone. It also doesn't mean they do all the work in that area.
 
 ### Required Roles
 
-The contract requires that one person holds each of these three.
+The contract requires that one person holds each of these three roles.
 
 | Role | Main responsibility | Good evidence the role is being done |
 | :-- | :-- | :-- |
-| Meeting Coordinator | Coordinates communication and schedules meetings between group members. Holding this role does **not** imply more power in decision making. | Meetings are scheduled with enough notice, and everyone knows when the next one is. |
+| Meeting Coordinator | Coordinates communication and schedules meetings between group members. Holding this role doesn't mean more power in decision making. | Meetings are scheduled with enough notice, and everyone knows when the next one is. |
 | TA Liaison | Coordinates communication and meetings with the TA and instructor as needed. | Questions are collected before lab, and answers are summarized for the group. |
-| Submission Coordinator | Makes sure all group submissions go in through the course platform and on time, including any AI disclosure. | Submissions are on time, complete, and the AI disclosure is attached. |
+| Submission Coordinator | Makes sure all group submissions go in through the course platform and on time, including any AI disclosure (a statement of how the group used AI). | Submissions are on time, complete, and the AI disclosure is attached. |
 
 ### Additional Duties
 
-The contract also asks you to assign these. Someone can hold one of these alongside a required role, but avoid stacking them all on one person.
+The contract also asks you to assign these. Someone can hold one of these as well as a required role. But avoid piling them all on one person.
 
 | Duty | Main responsibility |
 | :-- | :-- |
 | Note Taker | Writes down notes and decisions in all meetings. |
-| Lead Writer | Makes sure all writing is done cohesively, so the deliverable reads as one piece rather than stitched-together sections. |
+| Lead Writer | Makes sure all the writing fits together, so the deliverable (the work you hand in) reads as one piece rather than stitched-together sections. |
 | Quality Assurance | Reviews submissions against the assignment criteria and rubric. |
 | Version Control Manager | Keeps track of document versions, so the team always knows which file is current. |
 
 ### Role Assignment Template
 
-Use a table like this in your contract or team notes. Naming a backup is not required by the contract, but it stops the team from being blocked when someone is away.
+Use a table like this in your contract or team notes. Naming a backup isn't required by the contract. But it stops the team from being blocked when someone is away.
 
 | Role | Owner | Backup | What this person checks | When they check it |
 | :-- | :-- | :-- | :-- | :-- |
@@ -124,7 +124,7 @@ Use a table like this in your contract or team notes. Naming a backup is not req
 
 ### Choosing Roles Well
 
-Do not assign roles only based on who is already good at something. Use roles to balance learning and reliability.
+Don't assign roles only based on who's already good at something. Use roles to balance learning and reliability.
 
 Good role assignments consider:
 
@@ -132,24 +132,24 @@ Good role assignments consider:
 - growth: who wants to practise this?
 - availability: who can realistically own this during the relevant week?
 - workload: who is already carrying heavy tasks?
-- continuity: who understands the previous decision or artifact?
+- continuity: who understands the previous decision or artifact (a piece of work the team made)?
 
-Roles should be revisited at each milestone. At minimum, check whether the role assignments still make sense after each graded deliverable.
+Roles should be revisited at each milestone (a major project checkpoint). At minimum, check whether the role assignments still make sense after each graded deliverable.
 
 ### What Roles Should Not Do
 
-Roles should not create hierarchy or hide unequal work.
+Roles shouldn't create hierarchy or hide unequal work.
 
 Avoid these patterns:
 
-- The Meeting Coordinator becomes the team's boss. The contract is explicit that this role carries no extra decision-making power.
+- The Meeting Coordinator becomes the team's boss. The contract clearly says this role carries no extra decision-making power.
 - The TA Liaison is the only person allowed to understand TA feedback.
 - The Lead Writer rewrites everyone's work at the last minute.
 - One person builds the whole deliverable alone.
 - The Submission Coordinator finds out what is being submitted an hour before the deadline.
 - Quality Assurance is blamed for problems that should have been addressed earlier.
 
-When a role owner notices a problem, their job is to make the problem visible early and help the team decide what to do.
+When a role owner notices a problem, their job is to make the problem visible early. Then they help the team decide what to do.
 
 </details>
 
@@ -170,13 +170,13 @@ Include:
 - how decisions are documented
 - how the group communicates with the TA and instructor
 
-The contract also asks you to write down **who your assigned TA is, when your lab drop-in sessions are, and which team member can attend them**. Fill that in during the contract meeting, while everyone's schedule is in front of you.
+The contract also asks you to write down three things: who your assigned TA is, when your lab drop-in sessions are, and which team member can attend them. Fill that in during the contract meeting, while everyone's schedule is in front of you.
 
 Example:
 
 > We will use a group chat for normal communication and text message only for urgent same-day issues. Team members will respond within 24 hours on weekdays and within 36 hours on weekends. We will meet every Tuesday from 5:00-6:00pm and use a shared Google Doc for agendas and action items. The note taker will record decisions, owners, and due dates before the meeting ends.
 
-Teams often get stuck because they have not agreed on how decisions happen. Your contract should define both the preferred process and the fallback process.
+Teams often get stuck because they haven't agreed on how decisions happen. Your contract should define both the preferred process and the fallback process (what you do if the preferred one fails).
 
 Decision-making example:
 
@@ -198,7 +198,7 @@ Be specific about quality standards for each kind of work.
 
 Example:
 
-> Draft writing should be complete enough for teammates to edit for argument and evidence, not just grammar. Slides should have speaker notes or a clear explanation of what the presenter will say. Research notes should include date, source, and which research question the notes relate to. No one submits their own section without at least one teammate reviewing it.
+> Draft writing should be complete enough for teammates to edit for argument and evidence, not only grammar. Slides should have speaker notes or a clear explanation of what the presenter will say. Research notes should include date, source, and which research question the notes relate to. No one submits their own section without at least one teammate reviewing it.
 
 Useful review routine:
 
@@ -207,7 +207,7 @@ Useful review routine:
 3. Owner revises.
 4. Final reviewer checks formatting, citations, links, and submission requirements.
 
-The contract asks your group to decide, up front, whether you will use AI tools at all. Deciding **not** to is a valid answer, as long as you say why. If you do use them, agree on boundaries before the work starts, within whatever the [course AI policy](ai-policy.md) permits.
+The contract asks your group to decide, up front, whether you'll use AI tools at all. Deciding not to is a valid answer, as long as you say why. If you do use them, agree on boundaries before the work starts. Keep those boundaries within whatever the [course AI policy](ai-policy.md) permits.
 
 Your contract should answer:
 
@@ -221,13 +221,13 @@ Your contract should answer:
 - What are the consequences of failing to disclose AI use, to teammates or to the teaching team?
 - How does AI use factor into assessing individual contributions?
 
-The last three are easy to skip and are the ones that matter when something goes wrong. Answer them before you need them.
+The last three are easy to skip. But they're the ones that matter when something goes wrong. Answer them before you need them.
 
 Example:
 
-> AI tools may be used for brainstorming alternatives, improving sentence clarity, and generating checklists. AI tools may not be used to invent findings, fabricate data, replace team discussion, or produce final claims without human verification. Any AI-assisted text must be reviewed by at least one teammate for accuracy, tone, and fit with our actual evidence. Undisclosed AI use is treated as a missed commitment under our consequences section, and the Submission Coordinator attaches the group's AI disclosure to every submission.
+> AI tools may be used for brainstorming alternatives, improving sentence clarity, and generating checklists. AI tools may not be used to invent findings, fabricate data, replace team discussion, or produce final claims without human verification. Any AI-assisted text must be reviewed by at least one teammate for accuracy, tone, and fit with our actual evidence. Undisclosed AI use is treated as a missed commitment under our consequences section. The Submission Coordinator attaches the group's AI disclosure to every submission.
 
-Define contribution in visible, checkable terms.
+Define contribution in terms that are visible and easy to check.
 
 Useful categories:
 
@@ -249,11 +249,11 @@ Example:
 
 ## Conflict Resolution
 
-Conflict is not automatically a sign that the team is failing. It often means expectations, priorities, or constraints are not aligned yet. The goal is to address the issue early, before it becomes a peer evaluation problem or a milestone crisis.
+Conflict isn't automatically a sign that the team is failing. It often means expectations, priorities, or constraints aren't aligned yet. The goal is to deal with the issue early. Do it before it becomes a peer evaluation problem or a milestone crisis.
 
 This section is inspired by the Program on Negotiation at Harvard Law School article [5 Conflict Resolution Strategies That Actually Work](https://www.pon.harvard.edu/daily/conflict-resolution/conflict-resolution-strategies/).
 
-Use this process before contacting the teaching team, unless the issue involves safety, harassment, discrimination, academic misconduct, or another serious concern that needs immediate support.
+Use this process before contacting the teaching team. The exception is an issue that involves safety, harassment, discrimination, academic misconduct, or another serious concern that needs immediate support.
 
 <div class="accordion">
 
@@ -278,7 +278,7 @@ Use:
 
 ### Step 2: Check Perspectives
 
-People often disagree because they are using different definitions of fairness, quality, or urgency. Ask each person to explain how they see the situation.
+People often disagree because they're using different definitions of fairness, quality, or urgency. Ask each person to explain how they see the situation.
 
 Useful questions:
 
@@ -307,7 +307,7 @@ Shared goals might include:
 
 ### Step 4: Identify the Underlying Concern
 
-Many conflicts are not really about the first issue named. They may be about trust, workload, unclear standards, lack of recognition, or fear that the project is going in the wrong direction.
+Many conflicts aren't really about the first issue that gets named. They may be about trust, workload, unclear standards, lack of recognition, or fear that the project is going in the wrong direction.
 
 Ask:
 
@@ -345,15 +345,15 @@ Example:
 | Uneven workload | List all tasks completed and upcoming tasks. Rebalance visible work. | Use the contract consequences and prepare documentation for TA support if needed. |
 | Low-quality work | Define the quality gap using the rubric or team standard. Assign a revision owner and reviewer. | Create a review checklist and require earlier drafts. |
 | Unresponsive teammate | Use the agreed backup channel. Ask for a specific reply by a specific time. | Document contact attempts and contact the TA if the issue affects progress. |
-| Decision deadlock | Name the decision criteria, compare options, and use the contract fallback process. | Ask the TA for guidance with options and tradeoffs prepared. |
-| Tension after feedback | Separate the feedback from the person. Decide what action the team will take. | Ask the TA to facilitate if the team cannot discuss the issue productively. |
+| Decision deadlock | Name the decision criteria, compare options, and use the contract fallback process. | Ask the TA for guidance, with options and tradeoffs prepared. |
+| Tension after feedback | Separate the feedback from the person. Decide what action the team will take. | Ask the TA to help lead the discussion if the team can't discuss the issue productively. |
 
 </details>
 
 <details>
 <summary>Escalating to the Teaching Team</summary>
 
-The syllabus expects teams to try peer resolution first. If internal resolution does not work, contact your TA early. Do not wait until the peer evaluation deadline.
+The syllabus expects teams to try peer resolution first, which means solving the problem among yourselves. If that doesn't work, contact your TA early. Don't wait until the peer evaluation deadline.
 
 Before contacting the TA, prepare:
 
@@ -378,7 +378,7 @@ Useful message template:
 <details open>
 <summary>Team Retrospectives</summary>
 
-Your contract must name **dates and times for two required retrospective meetings**, one before each graded peer evaluation. Book them when you write the contract, not when the deadline arrives. Run a shorter one any time the team feels stuck.
+Your contract must name dates and times for two required retrospective meetings, one before each graded peer evaluation. Book them when you write the contract, not when the deadline arrives. Run a shorter one any time the team feels stuck.
 
 Suggested agenda:
 
@@ -390,14 +390,14 @@ Suggested agenda:
 6. Are our contract expectations still realistic?
 7. What is one concrete change we will make before the next milestone?
 
-Keep the discussion behaviour-focused. Record action items and owners.
+Keep the discussion focused on behaviour. Record action items and owners.
 
 </details>
 
 <details>
 <summary>Peer Evaluation Notes</summary>
 
-Peer evaluations should be professional, specific, and behaviour-based. They should not be used as a surprise punishment for concerns that were never raised.
+Peer evaluations should be professional, specific, and based on behaviour. They shouldn't be used as a surprise punishment for concerns that were never raised.
 
 Useful comment pattern:
 
@@ -411,7 +411,7 @@ Examples:
 
 Avoid comments about personality, popularity, or assumptions about intent.
 
-The contract also asks whether your team will meet to discuss the anonymous peer evaluations as a group. Decide this in advance rather than in the moment. If you do meet, agree beforehand on how you will keep the discussion behaviour-focused and avoid guessing who wrote what.
+The contract also asks whether your team will meet to discuss the anonymous peer evaluations as a group. Decide this in advance rather than in the moment. If you do meet, agree beforehand on how you'll keep the discussion focused on behaviour. Also agree on how you'll avoid guessing who wrote what.
 
 </details>
 
@@ -457,3 +457,11 @@ The contract also asks whether your team will meet to discuss the anonymous peer
 </details>
 
 </div>
+
+## Changelog
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |

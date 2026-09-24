@@ -135,7 +135,7 @@ Which lab each TA leads and supports is on the [Teaching Team](teaching-team.md)
 > [!TIP]
 > Looking for the times? This week's sessions, who is holding them, and how to find the rooms are all on the [Drop-in Hours](drop-in-hours.md) page.
 
-They are called drop-in hours because you can just drop in. No appointment, no sign-up, and no need to arrive with a question.
+They're called drop-in hours because you can drop in without booking. No appointment, no sign-up, and no need to arrive with a question.
 
 If you are wondering whether your reason is good enough: it is. Here is what students actually use them for.
 
@@ -146,9 +146,9 @@ If you are wondering whether your reason is good enough: it is. Here is what stu
 | Go over a quiz question you got wrong | understanding the mistake is where the learning is |
 | Ask what a concept is actually *for* | a fair question, and often the most interesting one |
 | Ask about CS, research, courses, co-op | not everything has to be about CPSC 100 |
-| Just say hello | genuinely fine |
+| Say hello | genuinely fine |
 
-A half-formed question is normal and useful. So is sitting quietly and working while other people ask things. You will often learn something from a question you would never have thought to ask.
+A half-formed question is normal and useful. So is sitting quietly and working while other people ask things. You'll often learn something from a question you'd never have thought to ask.
 
 Some things need privacy or more time, such as a grade question. For those, use a private Ed Discussion post to arrange a separate meeting rather than emailing. Private posts are visible only to course staff. Genuinely sensitive or confidential matters, including personal circumstances and academic concessions, are the exception and still follow the routing chart above.
 
