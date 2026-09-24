@@ -38,6 +38,14 @@ Ed's own guide is at [Push Notifications](https://edstem.org/us/help/push-notifi
 
 </details>
 
+## Changelog
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+
 ## Where Should This Go?
 
 ```mermaid

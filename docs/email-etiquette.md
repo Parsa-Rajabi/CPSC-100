@@ -96,3 +96,11 @@ If you solve your issue while waiting, update your instructor to save their time
 ---
 
 Emailing instructors can take some adjustment, but mastering this skill is a helpful segue into professional communication.
+
+## Changelog
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Reworded the course-specific parts for readability. The article itself is unchanged. |

@@ -8,6 +8,14 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 > [!NOTE]
 > Recurring weekly hours start in Week 4. The sessions below are what's running until then. The Week 4 schedule will be announced on [Ed Discussion](communication.md).
 
+## Changelog
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. Fixed a room number typo: the project room is ICICS X241, not X251. |
+
 ## Week 3 (Sep 21 - 25)
 
 | Day | Time | Where | Who |

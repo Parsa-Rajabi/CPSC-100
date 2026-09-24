@@ -9,7 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Added photos of the teaching team, and TA pronouns. |
+| Sep 24, 2026 | Added photos of the teaching team and TA pronouns, and reworded the page for readability. |
 
 ## Instructor
 

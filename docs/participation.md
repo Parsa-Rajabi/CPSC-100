@@ -9,7 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Clarified that the free lab late arrival is one per semester. Lecture rules are unchanged. |
+| Sep 24, 2026 | Clarified that the free lab late arrival is one per semester, and reworded the page for readability. Lecture rules are unchanged. |
 
 ## Overview
 

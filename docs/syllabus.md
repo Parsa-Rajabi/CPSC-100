@@ -4,6 +4,14 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
 
 Fall 2026, Term 1 - CPSC 100 (Section 101) || Computational Thinking (3)
 
+## Changelog
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+
 ## Course Instructor
 
 - Parsa Rajabi (he/him)
