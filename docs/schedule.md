@@ -11,7 +11,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+| Sep 24, 2026 | Corrected the quiz days: most quizzes run Wednesday, Thursday or Friday, not only Wednesday or Thursday. The rest of the page was reworded for readability. |
 | *TBC* | V1 - Initial course schedule published |
 
 ## Weekly Schedule
@@ -50,6 +50,6 @@ There's no lab in Week 4 or Week 10. Lab dates, grading, and attendance rules ar
 
 - Before each lecture, check the topic so you know what the class will cover.
 - Do your [pre-lab](labs.md#the-pre-lab) before each lab. It's graded.
-- Book your quiz seat early. Quizzes are sat in ORCA, and you book your own slot for the Wednesday or Thursday of that week. Slots are limited.
+- Book your quiz seat early. Quizzes are sat in ORCA, and you book your own slot for the Wednesday, Thursday or Friday of that week. Quiz 0 and Quiz 2 run on different days, listed on [Quizzes](quizzes.md#schedule). Slots are limited.
 - Deliverables (work you hand in) are listed in the week they're due, not the week they're assigned. Give yourself more than the final week to work on anything project-related.
 - The deadlines here are a copy for convenience. If this page and an assignment page ever disagree, the assignment page wins. Please tell the teaching team so we can fix it.

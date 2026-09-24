@@ -14,7 +14,7 @@ Use this page alongside:
 
 You complete the contract once, early in the term, and then use it all term. Working through the template together is the point of the exercise, so give it real time.
 
-- Schedule a 60 minute meeting, ideally in person. Every group member must be there, and every member must be available during your scheduled lab.
+- Schedule a 60 minute meeting, ideally in person. Every group member must be there. Every member must also be free during your scheduled lab, so you can work on the project together.
 - Come prepared. Each member reads the questions beforehand and brings answers to discuss.
 - Write the agreed answers under each question in a different colour. This lets the teaching team see what your group added.
 - Answers that are incomplete or lack detail are sent back for revision.
@@ -464,4 +464,4 @@ The contract also asks whether your team will meet to discuss the anonymous peer
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+| Sep 24, 2026 | Clarified that every member must be free during your scheduled lab so you can work on the project together. The rest of the page was reworded for readability. |
