@@ -16,17 +16,17 @@ You are marked individually, even though most of the work is collaborative, and 
 
 ## Schedule
 
-Labs run Wednesday and Thursday for 50 minutes, and every section meets in ICCS X050 ([map](https://maps.ubc.ca/?code=ICCS)). Attend the section you're registered in, and check which one that is if you aren't sure.
+Labs run Wednesday and Thursday for 50 minutes. Sections A, B, C, and E meet in ICCS X050, and section D meets in ICCS X351([map](https://maps.ubc.ca/?code=ICCS)). Attend the section you're registered in, and check which one that is if you aren't sure.
 
 Each section has a lead TA who runs it and a support TA who assists, so you see two familiar faces each week. For a question about your own lab, ask your lead TA first. Full names and pronouns are on the [Teaching Team](teaching-team.md) page, and their drop-in hours are on the [Drop-in Hours](drop-in-hours.md) page.
 
-| Section | Day | Time | Lead TA | Support TA |
-| :-----: | :-- | :--- | :------ | :--------- |
-| L1A | Wednesday | 10:00-11:00am | Parsa S. | Jessica |
-| L1B | Wednesday | 11:00am-12:00pm | Kate | Parsa S. |
-| L1C | Wednesday | 12:00-1:00pm | Tarvin | Kate |
-| L1D | Wednesday | 4:00-5:00pm | Sally | Tarvin |
-| L1E | Thursday | 2:00-3:00pm | Jessica | Sally |
+| Section | Day | Time | Room | Lead TA | Support TA |
+| :-----: | :-- | :--- | :--- | :------ | :--------- |
+| L1A | Wednesday | 10:00-11:00am | X050 | Parsa S. | Jessica |
+| L1B | Wednesday | 11:00am-12:00pm | X050 | Kate | Parsa S. |
+| L1C | Wednesday | 12:00-1:00pm | X050 | Tarvin | Kate |
+| L1D | Wednesday | 4:00-5:00pm | X351 | Sally | Tarvin |
+| L1E | Thursday | 2:00-3:00pm | X050 | Jessica | Sally |
 
 ### Labs by week
 
