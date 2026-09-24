@@ -6,14 +6,23 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Added TA photos and pronouns. |
+| Sep 24, 2026 | Added photos of the teaching team, and TA pronouns. |
 
 > [!TIP]
 > **Looking for how to reach us?** Email addresses, the Ed Discussion link, and a flowchart showing where each kind of question belongs are all on [Course Communication](communication.md).
 
 ## Instructor
 
-**Parsa Rajabi** — pronouns, office, and email are on the [syllabus](syllabus.md#course-instructor) and [Course Communication](communication.md). Drop-in hours are on the [Drop-in Hours](drop-in-hours.md) page.
+<div class="team-grid">
+  <div class="team-card">
+    <img class="team-photo" src="assets/teaching-team/parsa-rajabi.jpg" alt="Photo of Parsa Rajabi">
+    <p class="team-name">Parsa Rajabi</p>
+    <p class="team-pronouns">he/him</p>
+    <p class="team-labs"><span class="team-lab">Instructor</span></p>
+  </div>
+</div>
+
+Office and email are on the [syllabus](syllabus.md#course-instructor) and [Course Communication](communication.md). Drop-in hours are on the [Drop-in Hours](drop-in-hours.md) page.
 
 ## Teaching Assistants
 

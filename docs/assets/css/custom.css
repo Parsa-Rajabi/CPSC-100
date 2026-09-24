@@ -141,7 +141,9 @@ body .markdown-section {
 .markdown-section .team-card img.team-photo {
     display: block;
     width: 100%;
-    aspect-ratio: 1;
+    /* Portrait, to match the 400x500 crops: a square cut off the top of the head on
+       the closest selfies. */
+    aspect-ratio: 4 / 5;
     object-fit: cover;
     border-radius: 8px;
     /* Keeps a photo with a white background from dissolving into the page. */
