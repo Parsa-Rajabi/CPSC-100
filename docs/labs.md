@@ -9,7 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Clarified that the free late arrival is one per semester across all labs, not one per lab. |
+| Sep 24, 2026 | Clarified: one free late arrival per semester, not per lab. |
 
 ## Overview
 
