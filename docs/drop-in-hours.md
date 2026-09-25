@@ -6,7 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. Fixed a room number typo: the project room is ICICS X241, not X251. |
+| Sep 24, 2026 | Reworded for readability. Fixed a room number (X241). |
 
 Drop-in hours are extra time with the teaching team outside of lecture and lab. No appointment, no sign-up, and no need to arrive with a question. Turn up whenever it suits you.
 

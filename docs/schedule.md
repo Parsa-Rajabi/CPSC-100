@@ -11,7 +11,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Corrected the quiz days: most quizzes run Wednesday, Thursday or Friday, not only Wednesday or Thursday. The rest of the page was reworded for readability. |
+| Sep 24, 2026 | Corrected quiz days to Wednesday, Thursday or Friday. Reworded for readability. |
 | *TBC* | V1 - Initial course schedule published |
 
 ## Weekly Schedule

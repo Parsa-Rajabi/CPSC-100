@@ -6,7 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability, and removed the in-development note. |
+| Sep 24, 2026 | Reworded for readability. Removed the in-development note. |
 | Sep 14, 2026 | Quiz 0 details updated. The sitting window now runs to Sunday Sep 20 rather than Friday Sep 18. |
 
 ## Overview

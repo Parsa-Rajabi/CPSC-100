@@ -6,7 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Added photos of the teaching team, and TA pronouns. |
+| Sep 24, 2026 | Added team photos and TA pronouns. |
 
 > [!TIP]
 > Looking for how to reach us? Email addresses, the Ed Discussion link, and a flowchart showing where each kind of question belongs are all on [Course Communication](communication.md).
