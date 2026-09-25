@@ -6,7 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+| Sep 24, 2026 | Reworded for readability. |
 
 > [!NOTE]
 > The peer evaluation mechanism below is final for Fall 2026.

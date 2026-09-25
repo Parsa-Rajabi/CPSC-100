@@ -6,7 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+| Sep 24, 2026 | Reworded for readability. |
 
 Everything about how to reach the teaching team lives on this page. When in doubt, start with Ed Discussion.
 

@@ -6,7 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+| Sep 24, 2026 | Reworded for readability. |
 
 CPSC 100 is designed to be a collaborative and inclusive learning environment. Many of you are in your first year, and for some of you this is your first university course in computer science. No prior computing experience is expected, and no question is too basic. To ensure that all students can learn and contribute effectively, we have established the following code of conduct.
 

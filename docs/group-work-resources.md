@@ -6,7 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+| Sep 24, 2026 | Reworded for readability. |
 
 Group work is a big part of CPSC 100. The group contract is your team's written agreement about how you will work together. These resources help your team turn that contract into practical habits. It should not be a document you submit once and forget.
 

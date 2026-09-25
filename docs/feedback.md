@@ -6,7 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+| Sep 24, 2026 | Reworded for readability. |
 
 Please let me know if you have any comments, thoughts, questions, and feedback about the course or me as an instructor. This form is completely anonymous and no identifiable information will be collected or stored. I hope you will consider this a safe space to provide genuine feedback to your instructor (Parsa Rajabi).
 
