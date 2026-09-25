@@ -9,7 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 25, 2026 | Added penalties for a late group contract and for extra re-submissions. |
+| Sep 25, 2026 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
 | Sep 24, 2026 | Reworded for readability. |
 
 ## Overview
@@ -72,13 +72,13 @@ Your contract is a written agreement within your group. It sets out roles, expec
 > [!ATTENTION]
 > You cannot proceed with the group project until your TA has approved your contract.
 
-The contract is due Fri Sep 25 at 11:59pm. Your TA either approves it or sends it back for revision. Your group gets one free revision, so treat the first submission as the real one. Guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
+The contract is due Fri Sep 25 at 11:59pm. Your TA either approves it or sends it back for revision. Re-submissions are due Thu Oct 1 at 11:59pm. Your group gets one free revision, so treat the first submission as the real one. Guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
 
 A late contract is still required, because your group cannot move ahead without an approved one. Penalties come off your group's grade for [Project 1 Part B](project-1.md#part-b-the-ai-detector-experiment), so every member loses the same amount.
 
 | What happens | Penalty on Part B |
 | :-- | :-- |
-| Your first submission is late | 25% for each started 24-hour period after the deadline |
+| Your submission is late | 25% for each started 24-hour period after its deadline |
 | You re-submit more than once | 10% for each re-submission after the first |
 
 The penalties add up, and Part B cannot go below 0%.
@@ -86,7 +86,7 @@ The penalties add up, and Part B cannot go below 0%.
 <details>
 <summary>Worked example</summary>
 
-Your group scores 85% on Part B. You submitted the contract 30 hours late, which counts as two started 24-hour periods. Your TA sent it back twice, so you re-submitted twice. The first re-submission was free, and the second one was not.
+Your group scores 85% on Part B. You submitted the contract 30 hours late, which counts as two started 24-hour periods. Your TA sent it back twice, so you re-submitted twice, both by Thu Oct 1. The first re-submission was free, and the second one was not.
 
 | Item | Change | Part B |
 | :-- | :--: | :--: |
