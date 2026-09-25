@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 25, 2026 | Noted that a late contract and extra re-submissions cost marks on Part B. |
 | Sep 24, 2026 | Reworded for readability. |
 
 Group work is a big part of CPSC 100. The group contract is your team's written agreement about how you will work together. These resources help your team turn that contract into practical habits. It should not be a document you submit once and forget.
@@ -31,7 +32,7 @@ You complete the contract once, early in the term, and then use it all term. Wor
 - The template has a changelog, which is a dated list of changes. Start at Version 1.0 with the date. Add an entry whenever you revise the contract.
 
 > [!ATTENTION]
-> You cannot move ahead with the group project until your TA (teaching assistant) has approved your contract. Your group gets one free revision. After that, any further re-submissions are penalized. See [Project](project.md#group-contract).
+> You cannot move ahead with the group project until your TA (teaching assistant) has approved your contract. Your group gets one free revision. A late contract costs marks on Project 1 Part B, and so does each re-submission after the free one. See [Project](project.md#group-contract) for the penalties.
 
 The template walks through these sections:
 

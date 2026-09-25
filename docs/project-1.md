@@ -15,6 +15,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 25, 2026 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
 | *Sept 22* | Added dataset Requirements for Part 1B, project resources added |
 
 ---
@@ -90,8 +91,8 @@ Along the way you will also submit:
 | Week | Lab | What happens | Due that week |
 | :--: | :-: | :----------- | :------------ |
 | 2 | Lab 1 | Project introduced. Groups start forming. | Group formation survey, Fri Sep 18 |
-| 3 | Lab 2 | Snap! programming. Start looking for images. | [Group contract](project.md#group-contract), Thu Sep 24 |
-| 4 | *no lab* | Independent work. Truth and Reconciliation Day. | Image dataset for TA sign-off, Thu Oct 1<br>[Peer evaluation practice round](project-peer-evaluation.md), Thu Oct 1<br>First stand-up, a practice round, Fri Oct 2 |
+| 3 | Lab 2 | Snap! programming. Start looking for images. | [Group contract](project.md#group-contract), Fri Sep 25 |
+| 4 | *no lab* | Independent work. Truth and Reconciliation Day. | Image dataset for TA sign-off, Thu Oct 1<br>[Peer evaluation practice round](project-peer-evaluation.md), Thu Oct 1<br>[Group contract](project.md#group-contract) re-submissions, Thu Oct 1<br>First stand-up, a practice round, Fri Oct 2 |
 | 5 | Lab 3 | Part A runs in lab, start to finish. | Part A, end of your lab hour<br>Graded stand-ups begin Fri Oct 9 |
 | 6 | Lab 4 | Working block for Part B. | |
 | 7 | Lab 5 | Working block for Part C. | Part B, Tue Oct 20 |
@@ -845,9 +846,14 @@ What's already decided:
 - Part A is graded individually and is not affected by peer evaluation
 - Parts B and C receive a group grade
 - Peer evaluation applies to Part C. See [Working as a group](#working-as-a-group)
+- Group contract penalties come off the Part B group grade. See
+  [Group contract](project.md#group-contract)
 
 > [!ATTENTION]
 > Late work is not accepted on the project. Nothing submitted after a deadline is marked.
+>
+> The group contract is an exception. A late contract is still required, and it costs marks on
+> Part B. See [Group contract](project.md#group-contract).
 >
 > If you're running out of time, submit a partial document rather than nothing. An incomplete
 > submission earns some marks; a missing one earns none.

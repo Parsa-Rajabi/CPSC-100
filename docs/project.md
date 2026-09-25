@@ -9,6 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 25, 2026 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
 | Sep 24, 2026 | Reworded for readability. |
 
 ## Overview
@@ -71,7 +72,31 @@ Your contract is a written agreement within your group. It sets out roles, expec
 > [!ATTENTION]
 > You cannot proceed with the group project until your TA has approved your contract.
 
-Your group gets one free revision. After that, any further re-submissions are penalized. So treat the first submission as the real one. Guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
+The contract is due Fri Sep 25 at 11:59pm. Your TA either approves it or sends it back for revision. Re-submissions are due Thu Oct 1 at 11:59pm. Your group gets one free revision, so treat the first submission as the real one. Guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
+
+A late contract is still required, because your group cannot move ahead without an approved one. Penalties come off your group's grade for [Project 1 Part B](project-1.md#part-b-the-ai-detector-experiment), so every member loses the same amount.
+
+| What happens | Penalty on Part B |
+| :-- | :-- |
+| Your submission is late | 25% for each started 24-hour period after its deadline |
+| You re-submit more than once | 10% for each re-submission after the first |
+
+The penalties add up, and Part B cannot go below 0%.
+
+<details>
+<summary>Worked example</summary>
+
+Your group scores 85% on Part B. You submitted the contract 30 hours late, which counts as two started 24-hour periods. Your TA sent it back twice, so you re-submitted twice, both by Thu Oct 1. The first re-submission was free, and the second one was not.
+
+| Item | Change | Part B |
+| :-- | :--: | :--: |
+| Group grade | | 85% |
+| Late, two started 24-hour periods | -50 | 35% |
+| One re-submission after the free one | -10 | 25% |
+
+Everyone in the group gets 25% on Part B.
+
+</details>
 
 Use the contract template, available in both formats:
 
@@ -103,6 +128,8 @@ The tools are the ones you already use in lab. One is Snap! at [snap.berkeley.ed
 
 > [!ATTENTION]
 > Late work isn't accepted on the project. Nothing submitted after a deadline is marked.
+>
+> The group contract is an exception. A late contract is still required, and it costs marks on Part B. See [Group contract](#group-contract).
 
 Submit a partial document rather than nothing. An incomplete submission earns marks, and a missing one does not. If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process. An academic concession is UBC's formal way of giving you flexibility when something serious affects your studies. Tell us early, not afterwards.
 
