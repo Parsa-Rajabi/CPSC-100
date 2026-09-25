@@ -1,9 +1,17 @@
 # Project Peer Evaluation
 
+## Changelog
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+
 > [!NOTE]
 > The peer evaluation mechanism below is final for Fall 2026.
 
-This course includes a lot of team project work. We'll use project peer evaluation to account for each student's individual contribution to their team. In a peer evaluation, each student rates each of their group members. There are three rounds, each paired with a [project retrospective](project.md#group-process):
+This course includes a lot of team project work. We will use project peer evaluation to account for each student's individual contribution to their team. In a peer evaluation, each student rates each of their group members. There are three rounds, each paired with a [project retrospective](project.md#group-process):
 
 | Round   | Due        | Follows                                | Graded          |
 | :------ | :--------- | :------------------------------------- | :-------------- |
@@ -13,9 +21,9 @@ This course includes a lot of team project work. We'll use project peer evaluati
 
 All three are due at 11:59pm Pacific. The [Schedule](schedule.md) page shows them alongside everything else due that week.
 
-We'll use the practice round to make sure the peer evaluation tools work as expected. It also makes sure everyone understands the process before peer evaluations count for marks. The graded rounds count for marks. They apply a peer evaluation multiplier to each student's milestone grade. A multiplier is a number that your grade gets multiplied by.
+We will use the practice round to make sure the peer evaluation tools work as expected. It also makes sure everyone understands the process before peer evaluations count for marks. The graded rounds count for marks. They apply a peer evaluation multiplier to each student's milestone grade. A multiplier is a number that your grade gets multiplied by.
 
-The purpose of this policy is to recognize meaningful contribution, reliability, collaboration, and professionalism in team-based work. Peer evaluation isn't meant to reward popularity or penalize personality differences. It's meant to help the teaching team work out how the work was actually shared within the group.
+The purpose of this policy is to recognize meaningful contribution, reliability, collaboration, and professionalism in team-based work. Peer evaluation is not meant to reward popularity or penalize personality differences. It is meant to help the teaching team work out how the work was actually shared within the group.
 
 Peer evaluations are also governed by the [CPSC 100 Artificial Intelligence Use Policy](ai-policy.md). AI tools may not be used to generate peer evaluation ratings or comments.
 
@@ -23,7 +31,7 @@ Peer evaluations are also governed by the [CPSC 100 Artificial Intelligence Use 
 
 ## Practice Peer Evaluation
 
-We'll use peer evaluation for an early milestone as a practice round. This round makes sure the peer evaluation tools work as expected. It also makes sure everyone understands the process before peer evaluations count for marks in later milestones.
+We will use peer evaluation for an early milestone as a practice round. This round makes sure the peer evaluation tools work as expected. It also makes sure everyone understands the process before peer evaluations count for marks in later milestones.
 
 Students will use the same general criteria as the graded peer evaluations. This gives everyone a chance to get familiar with:
 
@@ -33,9 +41,9 @@ Students will use the same general criteria as the graded peer evaluations. This
 - the expected level of detail in written comments; and
 - how peer evaluation feedback will be shared with group members.
 
-Peer evaluation scores and written comments may be shared with group members. If the system works as expected, this feedback will be shared anonymously. This means students can see the scores and comments they received. They can't see the name of the person who submitted each evaluation.
+Peer evaluation scores and written comments may be shared with group members. If the system works as expected, this feedback will be shared anonymously. This means students can see the scores and comments they received. They cannot see the name of the person who submitted each evaluation.
 
-Because of system limits, students can't opt out of having peer evaluation feedback shared with group members. So all comments must be written professionally, respectfully, and constructively. Comments should focus on specific behaviours, contributions, communication patterns, and project work, not on personal characteristics.
+Because of system limits, students cannot opt out of having peer evaluation feedback shared with group members. So all comments must be written professionally, respectfully, and constructively. Comments should focus on specific behaviours, contributions, communication patterns, and project work, not on personal characteristics.
 
 ---
 
@@ -76,7 +84,7 @@ So the student's individual grade for that milestone would be 78.75%.
 
 ## Peer Evaluation Multiplier Formula
 
-For each applicable graded milestone, we'll use the following formula:
+For each applicable graded milestone, we will use the following formula:
 
 Individual Milestone Grade = Group Milestone Grade × Peer Evaluation Multiplier
 
@@ -116,12 +124,12 @@ So after the late penalty, the student's individual grade for that milestone wou
 
 Students are expected to complete peer evaluations thoughtfully, professionally, and with enough detail to justify their ratings.
 
-For each issue, low-quality peer evaluations may result in a 0.5-point deduction from the student's average peer evaluation score. This includes, but isn't limited to:
+For each issue, low-quality peer evaluations may result in a 0.5-point deduction from the student's average peer evaluation score. This includes, but is not limited to:
 
 - providing scores without meaningful explanation;
 - giving very high or very low scores without justification;
 - writing vague comments such as "good job" or "did not help" without specific examples;
-- providing comments that don't explain either strengths or areas for improvement; or
+- providing comments that do not explain either strengths or areas for improvement; or
 - submitting inappropriate, disrespectful, or unserious comments.
 
 Peer evaluations should identify both positive contributions and areas for improvement where appropriate. Students are encouraged to give specific examples. These could include missed meetings, completed tasks, leadership in discussions, support for teammates, quality of submitted work, or communication patterns.
@@ -142,7 +150,7 @@ Adjustments may be made in cases including, but not limited to:
 - serious or documented concerns about non-participation; or
 - failure to complete required peer evaluations.
 
-Students with serious group work issues shouldn't wait until the peer evaluation deadline to report them. They should first try to address the issue within the group. If the issue continues, they should document the concern and contact the teaching team as early as possible.
+Students with serious group work issues should not wait until the peer evaluation deadline to report them. They should first try to address the issue within the group. If the issue continues, they should document the concern and contact the teaching team as early as possible.
 
 The [Group Work Resources](group-work-resources.md) page has practical guidance. It covers setting team expectations, documenting concerns, running retrospectives, and resolving conflict before issues reach the peer evaluation stage.
 
@@ -150,14 +158,6 @@ The [Group Work Resources](group-work-resources.md) page has practical guidance.
 
 # Peer Evaluation Criteria
 
-For each applicable milestone, students will complete an evaluation for each of their team members. They'll use the following criteria. Each category is scored from 0 to 5, for a total of 30 marks.
+For each applicable milestone, students will complete an evaluation for each of their team members. They will use the following criteria. Each category is scored from 0 to 5, for a total of 30 marks.
 
 Detailed rubrics (scoring guides) with descriptions can be found here: [group peer evaluation criteria](https://tiny.cc/group-peer-eval-criteria).
-
-## Changelog
-
-<!-- Add a dated entry every time this page changes. Newest first. -->
-
-| Date | Update |
-| :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |

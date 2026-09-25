@@ -1,13 +1,5 @@
 # Drop-in Hours
 
-Drop-in hours are extra time with the teaching team outside of lecture and lab. No appointment, no sign-up, and no need to arrive with a question. Turn up whenever it suits you.
-
-> [!TIP]
-> Not sure whether your reason is good enough? It is. See [what drop-in hours are for](communication.md#drop-in-hours) for what students actually use them for.
-
-> [!NOTE]
-> Recurring weekly hours start in Week 4. The sessions below are what's running until then. The Week 4 schedule will be announced on [Ed Discussion](communication.md).
-
 ## Changelog
 
 <!-- Add a dated entry every time this page changes. Newest first. -->
@@ -15,6 +7,14 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 | Date | Update |
 | :--: | :----- |
 | Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. Fixed a room number typo: the project room is ICICS X241, not X251. |
+
+Drop-in hours are extra time with the teaching team outside of lecture and lab. No appointment, no sign-up, and no need to arrive with a question. Turn up whenever it suits you.
+
+> [!TIP]
+> Not sure whether your reason is good enough? It is. See [what drop-in hours are for](communication.md#drop-in-hours) for what students actually use them for.
+
+> [!NOTE]
+> Recurring weekly hours start in Week 4. The sessions below are what is running until then. The Week 4 schedule will be announced on [Ed Discussion](communication.md).
 
 ## Week 3 (Sep 21 - 25)
 
@@ -60,13 +60,13 @@ ICICS X241 and X341 are project rooms in the ICICS/CS building, located on the s
 [ICCS on the UBC map](https://maps.ubc.ca/?code=ICCS) · [X wing floor plan (PDF)](https://www.cs.ubc.ca/sites/default/files/pages/level1.pdf)
 
 > [!TIP]
-> The Demco Learning Centre/DLC (X150) is open to you as a study space even when nobody is holding hours there. It's a good place to work on a lab or the project with your group.
+> The Demco Learning Centre/DLC (X150) is open to you as a study space even when nobody is holding hours there. It is a good place to work on a lab or the project with your group.
 
-## If Drop-in Hours Don't Work for You
+## If Drop-in Hours Do Not Work for You
 
-Start with a private post on [Ed Discussion](communication.md). Private posts are visible only to course staff, and they are how to reach us about drop-in hours. Use one to arrange a separate meeting if you need a longer or quieter conversation, or to tell us that none of the times above fit your schedule. We'd rather know.
+Start with a private post on [Ed Discussion](communication.md). Private posts are visible only to course staff, and they are how to reach us about drop-in hours. Use one to arrange a separate meeting if you need a longer or quieter conversation, or to tell us that none of the times above fit your schedule. We would rather know.
 
-Please don't email to arrange drop-in time. On Ed it lands in one place, so whoever is free picks it up first and nothing sits waiting in one person's inbox.
+Please do not email to arrange drop-in time. On Ed it lands in one place, so whoever is free picks it up first and nothing sits waiting in one person's inbox.
 
 The exception is a genuinely sensitive or confidential matter, which still follows the [routing chart](communication.md#where-should-this-go).
 

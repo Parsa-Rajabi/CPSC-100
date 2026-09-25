@@ -13,11 +13,11 @@
 
 ## Overview
 
-The course project runs the whole term. It's where you use most of what you learn on something real. There are two projects, and both mix individual and group work.
+The course project runs the whole term. It is where you use most of what you learn on something real. There are two projects, and both mix individual and group work.
 
-Groups are 4 to 5 students. You're strongly encouraged to find your own group members. To help with that, there's a group formation activity in Lab 1. You confirm your group through the group formation survey, due Friday Sep 18.
+Groups are 4 to 5 students. You are strongly encouraged to find your own group members. To help with that, there is a group formation activity in Lab 1. You confirm your group through the group formation survey, due Friday Sep 18.
 
-Groups don't span lab sections. Everyone in your group attends the same section, so you share lab time and have the same lead TA (teaching assistant) to go to. Keep that in mind while you're looking. A promising teammate in a different section isn't an option.
+Groups don't span lab sections. Everyone in your group attends the same section, so you share lab time and have the same lead TA (teaching assistant) to go to. Keep that in mind while you're looking. A promising teammate in a different section is not an option.
 
 Each project is built from several parts. You submit them separately, not as one package at the end. The last part of each project is a presentation.
 
@@ -28,7 +28,7 @@ Each project is built from several parts. You submit them separately, not as one
 
 Runs from Week 2 to Week 7. Full details are on the [Project 1](project-1.md) page.
 
-Project 1 is about telling real from synthetic (computer-generated), and noticing where automated judgements go wrong. You'll look at your own online footprint and test how well AI-detection tools actually perform. You'll also study a documented case where an algorithmic system caused harm.
+Project 1 is about telling real from synthetic (computer-generated), and noticing where automated judgements go wrong. You will look at your own online footprint and test how well AI-detection tools actually perform. You will also study a documented case where an algorithmic system caused harm.
 
 It has three parts, a mix of individual and group work:
 
@@ -40,7 +40,7 @@ It has three parts, a mix of individual and group work:
 
 Runs from Week 8 to Week 13.
 
-Project 2 is about moving from visual programming (building programs from blocks) into real code. It's also about being able to explain what you built. You'll write and annotate a program in Snap!, which means adding notes that explain it. Then you'll translate it into Python and account for the result in person.
+Project 2 is about moving from visual programming (building programs from blocks) into real code. It's also about being able to explain what you built. You will write and annotate a program in Snap!, which means adding notes that explain it. Then you will translate it into Python and account for the result in person.
 
 It has three parts, a mix of individual and group work:
 
@@ -58,7 +58,7 @@ A stand-up is a short written progress update. Stand-ups begin on Friday Oct 2 w
 
 ### Retrospectives
 
-After you finish each project, your group writes a short piece together. It covers what worked, what didn't, and what you'd change next time. Completing it is part of your project grade.
+After you finish each project, your group writes a short piece together. It covers what worked, what did not, and what you would change next time. Completing it is part of your project grade.
 
 ### Peer evaluation
 
@@ -69,7 +69,7 @@ In peer evaluation, group members rate each other's contribution. It runs in iPe
 Your contract is a written agreement within your group. It sets out roles, expectations, how you communicate, and how you resolve conflict. Name specific behaviours, timelines, and consequences. "We will communicate well" is not a contract.
 
 > [!ATTENTION]
-> You can't proceed with the group project until your TA has approved your contract.
+> You cannot proceed with the group project until your TA has approved your contract.
 
 Your group gets one free revision. After that, any further re-submissions are penalized. So treat the first submission as the real one. Guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
 
@@ -88,8 +88,8 @@ Raise problems early. Fixing a group takes one to two weeks to actually work. If
 <summary>How to escalate a problem in your group</summary>
 
 1. Talk to your teammates, using the process in your contract. Keep a record of what you tried.
-2. If talking didn't fix it, bring it to your TA with that record.
-3. If the TA can't resolve it, ask us to step in. Contact us at least 12 days before the deadline. Set up a meeting at least 9 days before it, with everyone present.
+2. If talking did not fix it, bring it to your TA with that record.
+3. If the TA cannot resolve it, ask us to step in. Contact us at least 12 days before the deadline. Set up a meeting at least 9 days before it, with everyone present.
 
 Full details are in the [syllabus](syllabus.md#importance-of-group-work-and-participation-policy) and on [Group Work Resources](group-work-resources.md#conflict-resolution).
 
@@ -104,7 +104,7 @@ The tools are the ones you already use in lab. One is Snap! at [snap.berkeley.ed
 > [!ATTENTION]
 > Late work isn't accepted on the project. Nothing submitted after a deadline is marked.
 
-Submit a partial document rather than nothing. An incomplete submission earns marks, and a missing one doesn't. If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process. An academic concession is UBC's formal way of giving you flexibility when something serious affects your studies. Tell us early, not afterwards.
+Submit a partial document rather than nothing. An incomplete submission earns marks, and a missing one does not. If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process. An academic concession is UBC's formal way of giving you flexibility when something serious affects your studies. Tell us early, not afterwards.
 
 ## Related
 

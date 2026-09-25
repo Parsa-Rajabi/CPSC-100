@@ -68,7 +68,7 @@ Specific to this exam:
 - Confirm your arrangement with us 10 days before the final exam, by emailing the course admin address listed on [Course Communication](communication.md).
 - This exam runs in ORCA, and ORCA hosts most accommodations itself, so you book a session the normal way and your accommodations are applied there. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) to see whether yours are on the supported list. If they are, do not also book with the Centre for Accessibility, since the Centre will cancel that booking.
 
-If you don't make and confirm arrangements, we'll assume you're writing the final exam with the rest of the class, and no special accommodations will be in place.
+If you do not make and confirm arrangements, we will assume you are writing the final exam with the rest of the class, and no special accommodations will be in place.
 
 ## Exam Viewing and Regrading
 
@@ -102,7 +102,7 @@ If an emergency or serious unexpected situation stops you taking the final exam,
 
 You must contact [UBC Science](https://science.ubc.ca/students/advising) within 48 hours of a missed final exam to apply for a deferred exam.
 
-Email the course staff address if you can't attend, might be running late, or are dealing with an emergency that affects the exam. The address is on the [Course Communication](communication.md) page. Include your full name, student number, what is happening, and whether you have already contacted your faculty advising office.
+Email the course staff address if you cannot attend, might be running late, or are dealing with an emergency that affects the exam. The address is on the [Course Communication](communication.md) page. Include your full name, student number, what is happening, and whether you have already contacted your faculty advising office.
 
 The sooner you reach out, the more options may be available, within reason and depending on the situation.
 

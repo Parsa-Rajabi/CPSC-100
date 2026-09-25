@@ -1,5 +1,13 @@
 # Course Communication
 
+## Changelog
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+
 Everything about how to reach the teaching team lives on this page. When in doubt, start with Ed Discussion.
 
 > [!TIP]
@@ -37,14 +45,6 @@ Open Ed from the home screen icon rather than your browser, then enable Push Not
 Ed's own guide is at [Push Notifications](https://edstem.org/us/help/push-notifications). It opens inside Ed, so log in first. Screenshots above are from that guide.
 
 </details>
-
-## Changelog
-
-<!-- Add a dated entry every time this page changes. Newest first. -->
-
-| Date | Update |
-| :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
 
 ## Where Should This Go?
 
@@ -135,7 +135,7 @@ Which lab each TA leads and supports is on the [Teaching Team](teaching-team.md)
 > [!TIP]
 > Looking for the times? This week's sessions, who is holding them, and how to find the rooms are all on the [Drop-in Hours](drop-in-hours.md) page.
 
-They're called drop-in hours because you can drop in without booking. No appointment, no sign-up, and no need to arrive with a question.
+They are called drop-in hours because you can drop in without booking. No appointment, no sign-up, and no need to arrive with a question.
 
 If you are wondering whether your reason is good enough: it is. Here is what students actually use them for.
 
@@ -148,7 +148,7 @@ If you are wondering whether your reason is good enough: it is. Here is what stu
 | Ask about CS, research, courses, co-op | not everything has to be about CPSC 100 |
 | Say hello | genuinely fine |
 
-A half-formed question is normal and useful. So is sitting quietly and working while other people ask things. You'll often learn something from a question you'd never have thought to ask.
+A half-formed question is normal and useful. So is sitting quietly and working while other people ask things. You will often learn something from a question you would never have thought to ask.
 
 Some things need privacy or more time, such as a grade question. For those, use a private Ed Discussion post to arrange a separate meeting rather than emailing. Private posts are visible only to course staff. Genuinely sensitive or confidential matters, including personal circumstances and academic concessions, are the exception and still follow the routing chart above.
 

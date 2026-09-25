@@ -4,14 +4,6 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
 
 Fall 2026, Term 1 - CPSC 100 (Section 101) || Computational Thinking (3)
 
-## Changelog
-
-<!-- Add a dated entry every time this page changes. Newest first. -->
-
-| Date | Update |
-| :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
-
 ## Course Instructor
 
 - Parsa Rajabi (he/him)
@@ -41,7 +33,7 @@ Delivery Method: In-person
 
 The course is designed to be interactive, with a focus on hands-on learning and practical applications of introductory computing concepts. Students are expected to actively engage in group work outside of class time and to collaborate with their peers on a semester-long project. A lighter course load is strongly recommended to ensure active participation, high-quality work, and the potential to earn a good grade in the course. Students who are working alongside their studies or have other significant commitments should carefully consider whether they can meet the demands of this course. If in doubt, please reach out to the instructor to discuss before the add/drop deadline.
 
-### Land Acknowledgement
+#### Land Acknowledgement
 
 We acknowledge that the land on which we gather is the traditional, ancestral and unceded territory of the Coast Salish Peoples, including the territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səl̓ílwətaɬ (Tsleil-Waututh) Nations.
 
@@ -189,21 +181,21 @@ A week-by-week view of lecture topics, labs, and deliverables is on the [Schedul
 
 ## Learning Resources
 
-Students in CPSC 100 have diverse backgrounds and learning needs. Various resources are available to help you explore topics of interest in depth. Many students find that attending lectures and labs alone isn't enough. You're strongly advised to use the available resources. Needing extra practice is not a sign that you're "not good at" the material. It means you need more practice, which is a different thing. The people who seem to be having no trouble have almost certainly had more practice than you. Or they're having trouble and not showing it, or both! Don't freak out. Ask questions and use the help resources: that's what they're for.
+Students in CPSC 100 have diverse backgrounds and learning needs. Various resources are available to help you explore topics of interest in depth. Many students find that attending lectures and labs alone is not enough. You are strongly advised to use the available resources. Needing extra practice is not a sign that you're "not good at" the material. It means you need more practice, which is a different thing. The people who seem to be having no trouble have almost certainly had more practice than you. Or they're having trouble and not showing it, or both! Don't freak out. Ask questions and use the help resources: that's what they're for.
 
 TAs and your instructor hold drop-in hours. No appointment is needed and you do not need to arrive with a question. See [what drop-in hours are for](communication.md#drop-in-hours). If you need a longer or private meeting instead, email to arrange one with a few days notice. TAs are also available during scheduled lab times, though during lab they prioritize helping students with that week's lab work.
 
 Your classmates are an excellent resource for discussion and peer support. In addition to opportunities to chat before and after class, the discussion board is also available.
 
 > [!TIP]
-> A note about e-mail support: Many course-related questions require two-way discussion, so e-mail is sometimes not the most efficient way to get help. Drop-in hours and the discussion board should be your first resort for rapid assistance. Please limit e-mail to requests of a personal nature; you'll get faster responses on the discussion board!
+> A note about e-mail support: Many course-related questions require two-way discussion, so e-mail is sometimes not the most efficient way to get help. Drop-in hours and the discussion board should be your first resort for rapid assistance. Please limit e-mail to requests of a personal nature; you will get faster responses on the discussion board!
 
 ## General Advice
 
 - If you don't understand something covered in class, ask about it right away. The only silly question is the one that isn't asked. This class is about exploring your interest in computer science, so don't be shy.
 - If you get a mark you do not understand, find out why immediately. Don't wait weeks before asking!
 - The lectures and labs are only the beginning. You are responsible for exploring the topics in enough depth to satisfy your curiosity and to be ready for exams. Those exams ask you to extend what you learned in class, not repeat it. Curious about something? Did you try Google or Wikipedia? The teaching team can introduce you to resources and people, so ask!
-- Resist the temptation to engage in non-course-related activities, such as social media, e-mail, texting, etc, during class and lab time. If you stay focused during class, you'll earn more participation marks. You'll also use your own time better, because you won't have to go back and learn what you missed while distracted.
+- Resist the temptation to engage in non-course-related activities, such as social media, e-mail, texting, etc, during class and lab time. If you stay focused during class, you will earn more participation marks. You'll also use your own time better, because you will not have to go back and learn what you missed while distracted.
 
 ## Importance of Group Work and Participation Policy
 
@@ -282,7 +274,7 @@ Exams including quizzes and the final exam must be taken at the scheduled time. 
 
 Make-up assessments (including participation, labs, quizzes, project, exams) will not be given. Sometimes life gets in the way of schedules. Sickness or other unplanned or extraordinary events happen and will be dealt with individually. It is your responsibility to ensure your situation is known to the instructor as soon as reasonably possible. You are accountable for being heard, which means you need to ensure that the instructor heard you.
  
-While "life happens," poor planning by you does not count. And definitely do not wait to discuss gray areas. For example, say an interview opportunity comes up, which is good news. Don't wait until the day before the lab is due to tell us you couldn't finish it because you were preparing. That would be considered poor planning. Good planning would be to alert the TA or Instructor that you got the interview and, while you hope to finish the lab, there is a concern. Then when you don't finish on time, it's clear that you planned your time and that will be taken into consideration. These "good planning" situations will be considered individually as per the instructor's discretion.
+While "life happens," poor planning by you does not count. And definitely do not wait to discuss gray areas. For example, say an interview opportunity comes up, which is good news. Don't wait until the day before the lab is due to tell us you could not finish it because you were preparing. That would be considered poor planning. Good planning would be to alert the TA or Instructor that you got the interview and, while you hope to finish the lab, there is a concern. Then when you don't finish on time, it's clear that you planned your time and that will be taken into consideration. These "good planning" situations will be considered individually as per the instructor's discretion.
 
 In all cases, exceptional situations are considered on an individual basis, subject to the approval of the instructor and supported by legitimate and verified documentation. Refer to the academic concessions section below for more details.
 
@@ -301,12 +293,43 @@ Start early. Registration with the Centre is a multi-step process and can take s
 
 #### Accommodated sittings in ORCA
 
-Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), and ORCA hosts most accommodations itself. If your accommodations are on ORCA's supported list, you book an ORCA session the same way everyone else does, and your accommodations are applied there. ORCA currently supports extended time, a distraction-reduced environment, close proximity to a washroom, a phone for medical purposes, medical equipment, supplies or food, a computer, calculator or timer, a fan, clock or white noise machine, instructions in writing, formula sheets, and a computer with spellchecking.
+Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), and ORCA hosts most accommodations itself. If your accommodations are on ORCA's supported list, you book an ORCA session the same way everyone else does, and your accommodations are applied there.
 
-If you hold an accommodation that is not on that list, you write with the Centre for Accessibility instead.
+The guidance below is quoted from ORCA's [CfA Accommodations page](https://orca.ubc.ca/students/cfa-accommodations/), last updated September 7, 2026. Check that page for any changes since.
+
+> You will be writing your exam in the ORCA if you have one or more of the following accommodations:
+>
+> - Extended-time
+> - Distraction-reduced environment
+> - Close proximity to washroom
+> - Phone permitted for medical purposes
+> - Medical equipment/supplies/food
+> - Computer
+> - Calculator
+> - Timer
+> - Fan
+> - Clocks
+> - White Noise Machine
+> - Exam announcements/instructions in writing
+> - Formula sheets for exams
+> - Computer with Spellchecking
+>
+> If you have any exam accommodations other than the ones listed above, then you should plan to write with the CfA and must register for your quiz or exam by their deadline. If you have any concerns about your accommodations being met, please reach out to your Accessibility Advisor for discussion.
 
 > [!WARNING]
-> Do not book with the Centre for Accessibility if your accommodations can be met in ORCA. The Centre will cancel those bookings. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) first to see which applies to you.
+> Note: Please do not book assessments with the Centre for Accessibility if your accommodations can be met in the ORCA. The CfA will cancel any exam bookings in this case and ask you to book yourself in with the ORCA.
+
+ORCA's page also answers two questions that come up often:
+
+> Can I choose to write in the ORCA if I have an accommodation that cannot be met in the ORCA?
+>
+> Yes, you may write with the ORCA if you choose to forgo your accommodations that cannot be met in the ORCA.
+
+> Can I write my exam in the CfA using my own laptop?
+>
+> No, as of September 2026, the CfA has several ORCA machines in Brock Commons South, and students will be required to use ORCA computers to do exams in courses.
+
+The same page explains that CfA students may use their own wireless noise-cancelling headphones, declared to the invigilator at check-in. It also describes the Hennings 203 room, which runs longer 110-minute sessions in a smaller, quieter space.
 
 Booking an accommodated sitting is your responsibility, and the deadlines are set by the facility rather than by this course. They are measured in days, not hours, so treat this as something to sort out well ahead of an assessment rather than in the same week.
 

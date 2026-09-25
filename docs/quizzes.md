@@ -1,35 +1,32 @@
 # Quizzes
 
-> [!NOTE]
-> This page is still being written. We'll add details as the term goes on. What's here already shows you what to expect.
-
 ## Changelog
 
 <!-- Add a dated entry every time a quiz date, window, or policy moves. Newest first. -->
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. No dates, weights, or policies changed. |
+| Sep 24, 2026 | Reworded for readability, and removed the in-development note. No dates, weights, or policies changed. |
 | Sep 14, 2026 | Quiz 0 details updated. The sitting window now runs to Sunday Sep 20 rather than Friday Sep 18. |
 
 ## Overview
 
-There are eight quizzes, Quiz 1 through Quiz 8, plus Quiz 0. You sit all nine in person at ORCA, UBC's computer-based testing centre. Each one runs 50 minutes, and each one is individual work. There's no midterm in this course, because the quizzes take its place. That's why there are so many of them, and why no single one carries much weight.
+There are eight quizzes, Quiz 1 through Quiz 8, plus Quiz 0. You sit all nine in person at ORCA, UBC's computer-based testing centre. Each one runs 50 minutes, and each one is individual work. There is no midterm in this course, because the quizzes take its place. That's why there are so many of them, and why no single one carries much weight.
 
-Your lowest of the nine is dropped automatically. The other eight count equally. So one bad morning won't follow you around.
+Your lowest of the nine is dropped automatically. The other eight count equally. So one bad morning will not follow you around.
 
-Quizzes ask you to reason, trace a program, and apply an idea to an example you haven't seen before. To trace a program means to follow it step by step and work out what it does. Quizzes aren't memorization tests. Studying by rereading slides often doesn't work well.
+Quizzes ask you to reason, trace a program, and apply an idea to an example you have not seen before. To trace a program means to follow it step by step and work out what it does. Quizzes are not memorization tests. Studying by rereading slides often doesn't work well.
 
 ## Start with Quiz 0
 
-Quiz 0 is a practice run of the whole ORCA process. It covers the [syllabus](syllabus.md) and the [Code of Conduct](code-of-conduct.md), so you can study for it straight from this website. You sit it in ORCA, it's marked like every other quiz, and it counts toward your quiz grade the same way.
+Quiz 0 is a practice run of the whole ORCA process. It covers the [syllabus](syllabus.md) and the [Code of Conduct](code-of-conduct.md), so you can study for it straight from this website. You sit it in ORCA, it is marked like every other quiz, and it counts toward your quiz grade the same way.
 
-Two things about Quiz 0 are deliberately different from the rest. First, its sitting window (the days you can take it) is longer: Monday Sep 14 to Sunday Sep 20. That gives you time to find the facility without a deadline pressing on you. Second, reservations open Monday Sep 14 at 11:00am, the same morning the window itself opens. Every later quiz follows a different pattern, with reservations opening on the Tuesday before. In practice, that means you'll book a session later in that week.
+Two things about Quiz 0 are deliberately different from the rest. First, its sitting window (the days you can take it) is longer: Monday Sep 14 to Sunday Sep 20. That gives you time to find the facility without a deadline pressing on you. Second, reservations open Monday Sep 14 at 11:00am, the same morning the window itself opens. Every later quiz follows a different pattern, with reservations opening on the Tuesday before. In practice, that means you will book a session later in that week.
 
 The window runs to the Sunday, but the weekend has fewer sessions than a weekday. Treat Saturday and Sunday as a backup, not the plan.
 
 > [!TIP]
-> Book your Quiz 0 seat soon after reservations open. It's a low-pressure way to get used to the booking system before a quiz you've had to study for. The earlier you book, the more choice of times you get. Try not to let it slip your mind, since an unbooked seat counts as a missed quiz.
+> Book your Quiz 0 seat soon after reservations open. It is a low-pressure way to get used to the booking system before a quiz you've had to study for. The earlier you book, the more choice of times you get. Try not to let it slip your mind, since an unbooked seat counts as a missed quiz.
 
 ## Booking your seat
 
@@ -39,12 +36,12 @@ Quizzes are self-scheduled. That means you pick a session inside that quiz's win
 
 Most quizzes are sat on the Wednesday, Thursday or Friday of that quiz's week. Quiz 0 runs Monday to Sunday, and Quiz 2 runs Thursday or Friday.
 
-Reservations open at 10:00am on the Tuesday before the week your quiz runs. It's first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception: its reservations open Monday Sep 14 at 11:00am.
+Reservations open at 10:00am on the Tuesday before the week your quiz runs. It is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception: its reservations open Monday Sep 14 at 11:00am.
 
 > [!WARNING]
 > Book early. Seats are shared with other courses, and they do run out, especially around midday.
 
-If you're new to the facility, watch the orientation video on ORCA's [Getting Started page](https://orca.ubc.ca/students/getting-started/) before Quiz 0.
+If you are new to the facility, watch the orientation video on ORCA's [Getting Started page](https://orca.ubc.ca/students/getting-started/) before Quiz 0.
 
 The full facility statement is in [Self-Scheduled Assessments in ORCA](#self-scheduled-assessments-in-orca) below. It includes how to enrol in PrairieTest and how to change a reservation.
 
@@ -66,8 +63,8 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 2. Open the link in a new tab.
 3. Click Enrol to join the PrairieTest course.
 4. Click Home. Your course now shows up on the PrairieTest home page.
-5. At the moment, you'll likely see the message: "You don't currently have any exams available for reservations".
-6. Once we make your first quiz visible for reservations, you'll be able to book a session for the assessment.
+5. At the moment, you will likely see the message: "You don't currently have any exams available for reservations".
+6. Once we make your first quiz visible for reservations, you will be able to book a session for the assessment.
 7. During the assessment window, you can cancel or change your reservation at any time, up to 30 minutes before your reservation.
 
 ## Schedule
@@ -86,19 +83,19 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 | 7 | 11 | Nov 18, 19 or 20 | Tue Nov 10 |
 | 8 | 12 | Nov 25, 26 or 27 | Tue Nov 17 |
 
-Quiz 2 moves to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day. So check that one booking twice. There's no quiz in Week 7, when [Project 1B](project-1.md) is due. There's also no quiz in Week 10, for Midterm Break. Quiz 8 in Week 12 is the last one. There's no quiz in Week 13.
+Quiz 2 moves to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day. So check that one booking twice. There is no quiz in Week 7, when [Project 1B](project-1.md) is due. There is also no quiz in Week 10, for Midterm Break. Quiz 8 in Week 12 is the last one. There is no quiz in Week 13.
 
-One date to watch: Quiz 7's reservations open on Tuesday Nov 10, in the middle of Midterm Break. If you're away that week, set yourself a reminder before you go.
+One date to watch: Quiz 7's reservations open on Tuesday Nov 10, in the middle of Midterm Break. If you are away that week, set yourself a reminder before you go.
 
 Before each quiz, we announce in class which lectures it covers. The slides you can see inside ORCA stop at that same point.
 
-The Dec 2 viva voce (a short one-on-one oral presentation) isn't a quiz. It's graded as [Project 2C](project.md).
+The Dec 2 viva voce (a short one-on-one oral presentation) is not a quiz. It is graded as [Project 2C](project.md).
 
 ## On the day
 
-ORCA is the Open Resource Centre for Assessments. It's in the ICICS/CS building on Main Mall, not where your lectures are. It used to be called the CBTF (the Computer-Based Testing Facility), and it's the same place. Your room is shown when you book. The full [room list](https://orca.ubc.ca/about/rooms/) is on ORCA's site.
+ORCA is the Open Resource Centre for Assessments. It is in the ICICS/CS building on Main Mall, not where your lectures are. It used to be called the CBTF (the Computer-Based Testing Facility), and it's the same place. Your room is shown when you book. The full [room list](https://orca.ubc.ca/about/rooms/) is on ORCA's site.
 
-Arrive about 10 minutes early. A proctor (the staff member supervising the room) lets students in 10 minutes before the start time. Bring your UBC student card, because you can't check in without it. Everything else goes in your backpack on the shelves: phone, watch, wallet, keys, pencil case, hat, food, water bottle. Scratch paper is provided on the desk, and you can raise your hand for more.
+Arrive about 10 minutes early. A proctor (the staff member supervising the room) lets students in 10 minutes before the start time. Bring your UBC student card, because you cannot check in without it. Everything else goes in your backpack on the shelves: phone, watch, wallet, keys, pencil case, hat, food, water bottle. Scratch paper is provided on the desk, and you can raise your hand for more.
 
 Quizzes are open book, but only in one direction. Inside ORCA, the course slides are on screen for you, up to and including the material that quiz covers. You may not bring your own material in: no notes, no printouts, no laptops, no phones.
 
@@ -108,9 +105,9 @@ Quizzes are open book, but only in one direction. Inside ORCA, the course slides
 <details>
 <summary>Getting your results</summary>
 
-Quizzes run on PrairieLearn, an online assessment system, and they're marked by the computer.
+Quizzes run on PrairieLearn, an online assessment system, and they are marked by the computer.
 
-You view your results in the facility on the Monday or Tuesday after you sit the quiz. Results aren't emailed and aren't posted. Reservations for viewings open 3 to 4 days before the viewing window.
+You view your results in the facility on the Monday or Tuesday after you sit the quiz. Results are not emailed and aren't posted. Reservations for viewings open 3 to 4 days before the viewing window.
 
 If you think there's a scoring error, see the [Remarking Policy](syllabus.md#remarking-policy). The request window is short.
 
@@ -122,7 +119,7 @@ If you think there's a scoring error, see the [Remarking Policy](syllabus.md#rem
 | :--------- | :----------- |
 | Redo lab and in-class activities without the answers | The quiz rewards reasoning you can reproduce, not answers you recognize |
 | Explain a concept out loud to someone | Shows gaps that re-reading hides |
-| Know your way around the slides | They're on screen during the quiz, so this saves time |
+| Know your way around the slides | They are on screen during the quiz, so this saves time |
 | Bring what you can't work out to drop-in hours or lab | Faster than an hour of re-reading |
 
 ## If you miss a quiz
@@ -134,7 +131,7 @@ Your lowest of the nine is dropped, so missing one costs you nothing and needs n
 
 If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process instead of spending your drop on it. An academic concession is UBC's formal way of giving you flexibility when something serious affects your studies.
 
-If you're registered with the Centre for Accessibility, ORCA provides most accommodations itself. You book a session the normal way, and your accommodations are applied there. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) to see whether yours are on the supported list. If they are, don't also book with the Centre for Accessibility, because the Centre will cancel those bookings. The full process is in [Academic Accommodations](syllabus.md#academic-accommodations-and-the-centre-for-accessibility).
+If you are registered with the Centre for Accessibility, ORCA provides most accommodations itself. You book a session the normal way, and your accommodations are applied there. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) to see whether yours are on the supported list. If they are, don't also book with the Centre for Accessibility, because the Centre will cancel those bookings. The full process is in [Academic Accommodations](syllabus.md#academic-accommodations-and-the-centre-for-accessibility).
 
 <details>
 <summary>Exactly how a missed quiz is scored</summary>
@@ -155,4 +152,4 @@ If you're registered with the Centre for Accessibility, ORCA provides most accom
 - [Final Exam](final.md) - end of term, also in ORCA
 - [Self-Scheduled Assessments in ORCA](syllabus.md#self-scheduled-assessments-in-orca) - the full facility statement
 - [Course Evaluation](syllabus.md#course-evaluation) - the whole grade breakdown
-- [AI Policy](ai-policy.md) - what's permitted on individual assessments
+- [AI Policy](ai-policy.md) - what is permitted on individual assessments

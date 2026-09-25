@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > This schedule is still being written, and it may change as the term goes on.
-> We'll fill in details as we go, but what's here is enough to show you what to expect.
+> We will fill in details as we go, but what is here is enough to show you what to expect.
 > Check back regularly, and watch the Changelog below for anything that moved.
 
 ## Changelog
@@ -40,16 +40,16 @@ Labs run as a Wednesday/Thursday pair. When a pair is cancelled, both halves are
 
 ## Key Dates
 
-Term dates, the drop deadline, Midterm Break, and the final exam period are on the [syllabus](syllabus.md#important-dates). The AI policy activity date will be added to the weekly table above once it's scheduled.
+Term dates, the drop deadline, Midterm Break, and the final exam period are on the [syllabus](syllabus.md#important-dates). The AI policy activity date will be added to the weekly table above once it is scheduled.
 
-There's no class on September 7 (Labour Day), September 30 (Truth and Reconciliation Day), October 12 (Thanksgiving), and November 9 and 11 (Midterm Break).
+There is no class on September 7 (Labour Day), September 30 (Truth and Reconciliation Day), October 12 (Thanksgiving), and November 9 and 11 (Midterm Break).
 
-There's no lab in Week 4 or Week 10. Lab dates, grading, and attendance rules are on the [Labs](labs.md) page.
+There is no lab in Week 4 or Week 10. Lab dates, grading, and attendance rules are on the [Labs](labs.md) page.
 
 ## How to Use This Page
 
 - Before each lecture, check the topic so you know what the class will cover.
-- Do your [pre-lab](labs.md#the-pre-lab) before each lab. It's graded.
+- Do your [pre-lab](labs.md#the-pre-lab) before each lab. It is graded.
 - Book your quiz seat early. Quizzes are sat in ORCA, and you book your own slot for the Wednesday, Thursday or Friday of that week. Quiz 0 and Quiz 2 run on different days, listed on [Quizzes](quizzes.md#schedule). Slots are limited.
-- Deliverables (work you hand in) are listed in the week they're due, not the week they're assigned. Give yourself more than the final week to work on anything project-related.
+- Deliverables (work you hand in) are listed in the week they are due, not the week they are assigned. Give yourself more than the final week to work on anything project-related.
 - The deadlines here are a copy for convenience. If this page and an assignment page ever disagree, the assignment page wins. Please tell the teaching team so we can fix it.

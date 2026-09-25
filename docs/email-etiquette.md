@@ -1,5 +1,13 @@
 # Emailing Your Instructors: Tips and Best Practices
 
+## Changelog
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Sep 24, 2026 | Reworded the course-specific parts for readability. The article itself is unchanged. |
+
 >[!NOTE]
 > The following article was written by Shawn Chang, on September 21, 2022 for [UBC Student website](https://students.ubc.ca/ubclife/inbox-1-email-profs-effectively). Unfortunately, the original article is no longer available, thus the content is provided here for educational purposes. 
 
@@ -96,11 +104,3 @@ If you solve your issue while waiting, update your instructor to save their time
 ---
 
 Emailing instructors can take some adjustment, but mastering this skill is a helpful segue into professional communication.
-
-## Changelog
-
-<!-- Add a dated entry every time this page changes. Newest first. -->
-
-| Date | Update |
-| :--: | :----- |
-| Sep 24, 2026 | Reworded the course-specific parts for readability. The article itself is unchanged. |
