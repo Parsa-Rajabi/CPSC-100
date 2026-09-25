@@ -12,7 +12,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24 | Weeks 2-3 updated to match what was taught: Data Rep 3 added (W2B), Data Storage moved to W3A, Data Privacy is now one lecture (W3B) |
+| Sep 24 | Updated Weeks 2-3 lectures |
 | *TBC* | V1 - Initial course schedule published |
 
 ## Weekly Schedule
