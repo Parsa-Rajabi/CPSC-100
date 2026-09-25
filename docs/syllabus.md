@@ -2,7 +2,7 @@
 
 Department of Computer Science, University of British Columbia (Vancouver, Point Grey Campus)
 
-**Fall 2026, Term 1 - CPSC 100 (Section 101) || Computational Thinking (3)**
+Fall 2026, Term 1 - CPSC 100 (Section 101) || Computational Thinking (3)
 
 ## Course Instructor
 
@@ -17,7 +17,7 @@ Department of Computer Science, University of British Columbia (Vancouver, Point
 Not sure where ICCS 255 or SWING 110 is? Check the [UBC Map](https://maps.ubc.ca/).
 
 > [!TIP]
-> **Read [Course Communication](communication.md) first.** It has the Ed Discussion sign-up link, a flowchart showing where each kind of question should go, and every email address for the teaching team.
+> Read [Course Communication](communication.md) first. It has the Ed Discussion sign-up link, a flowchart showing where each kind of question should go, and every email address for the teaching team.
 
 For teaching team profiles, lab section assignments, and TA drop-in hours, see the [Teaching Team](teaching-team.md) page.
 
@@ -25,13 +25,13 @@ For teaching team profiles, lab section assignments, and TA drop-in hours, see t
 
 Delivery Method: In-person
 
-- **Monday, Wednesday, Friday 2:00-3:00pm**
-- **West Mall Swing Space Building (SWNG), Floor 2, Room 222** — [UBC Map](https://maps.ubc.ca/?code=SWNG)
+- Monday, Wednesday, Friday 2:00-3:00pm
+- West Mall Swing Space Building (SWNG), Floor 2, Room 222. [UBC Map](https://maps.ubc.ca/?code=SWNG)
 
 > [!WARNING]
 > This course requires significant commitment for both the teaching team and the students! See below:
 
-The course is designed to be interactive, with a focus on hands-on learning and practical applications of introductory computing concepts. Students are expected to actively engage in **group work outside of class time** and to collaborate with their peers on a semester-long project. **A lighter course load is strongly recommended** to ensure active participation, high-quality work, and the potential to earn a good grade in the course. Students who are working alongside their studies or have other significant commitments should carefully consider whether they can meet the demands of this course. If in doubt, please reach out to the instructor to discuss before the add/drop deadline.
+The course is designed to be interactive, with a focus on hands-on learning and practical applications of introductory computing concepts. Students are expected to actively engage in group work outside of class time and to collaborate with their peers on a semester-long project. A lighter course load is strongly recommended to ensure active participation, high-quality work, and the potential to earn a good grade in the course. Students who are working alongside their studies or have other significant commitments should carefully consider whether they can meet the demands of this course. If in doubt, please reach out to the instructor to discuss before the add/drop deadline.
 
 #### Land Acknowledgement
 
@@ -42,7 +42,7 @@ We acknowledge that the land on which we gather is the traditional, ancestral an
 > Meaning and impact of computational thinking. Solving problems using computational thinking, testing, debugging. How computers work. No prior computing experience required. Not for students with existing credit for or exemption from CPSC 107, CPSC 110 or APSC 160. [3-1-0]
 [UBC Academic Calendar - CPSC 100](http://www.cs.ubc.ca/nest/imager/courses.php#hct)
 
-How have computers impacted the world around you, and how do they do it? CPSC 100 (Computational Thinking) covers related topics, including what businesses can do with your personal information such as your phone number, how the Internet works, how recommendation and decision systems shape what you see, and what artificial intelligence can and cannot actually do.
+How have computers impacted the world around you, and how do they do it? CPSC 100 looks at questions like these. What can businesses do with your personal information, such as your phone number? How does the Internet work? How do recommendation and decision systems shape what you see? And what can artificial intelligence actually do, or not do?
 
 CPSC 100 is not a programming course in the way CPSC 110 is, but you *will* write programs. We start in a visual block language (Snap!) so you can see the structure of a program without fighting syntax, and move to Python later in the term.
 
@@ -56,9 +56,9 @@ We follow that life in three parts:
 
 | Part |          Theme          |                                         What we cover                                          |
 | :--: | :---------------------: | :--------------------------------------------------------------------------------------------: |
-|  I   |    **Digital Birth**    |                 Data representation, data storage, privacy, block programming                  |
-|  II  | **Digital Adolescence** |  Algorithms, decision and pricing systems, data mining, recommender systems, algorithmic bias  |
-| III  |  **Digital Adulthood**  | Python, AI, consent, responsible use, digital legacy and digital traces, computers and society |
+|  I   |    Digital Birth    |                 Data representation, data storage, privacy, block programming                  |
+|  II  | Digital Adolescence |  Algorithms, decision and pricing systems, data mining, recommender systems, algorithmic bias  |
+| III  |  Digital Adulthood  | Python, AI, consent, responsible use, digital legacy and digital traces, computers and society |
 
 ## Pre-requisites (unofficial)
 
@@ -68,12 +68,12 @@ A strong attention to detail, a willingness to learn new problem-solving techniq
 
 On completing this course, you will be able to:
 
-1. **Explain** what a computer is and how it represents, stores, and processes information, from bits to hardware to software: the conditions under which digital data comes into being.
-2. **Trace** how a piece of personal data moves and transforms as it is collected, shared, and repurposed across systems and time: how it grows up.
-3. **Evaluate** the real-world impact of computational systems (algorithms, platforms, AI) on individuals and society, including who benefits and who bears risk.
-4. **Reason** about your own responsibilities and agency as both a user and a creator of technology: what it means to act as a digital adult, and to build systems others will live inside of.
-5. **Identify** the ethical stakes embedded in a technical decision at the moment it is made, not after the fact.
-6. **Translate** computational ideas into working programs, progressing from visual, block-based programming (Snap!) to textual programming (Python) as your command of computational structure matures.
+1. Explain what a computer is and how it represents, stores, and processes information, from bits to hardware to software: the conditions under which digital data comes into being.
+2. Trace how a piece of personal data moves and transforms as it is collected, shared, and repurposed across systems and time: how it grows up.
+3. Evaluate the real-world impact of computational systems (algorithms, platforms, AI) on individuals and society, including who benefits and who bears risk.
+4. Reason about your own responsibilities and agency as both a user and a creator of technology: what it means to act as a digital adult, and to build systems others will live inside of.
+5. Identify the ethical stakes embedded in a technical decision at the moment it is made, not after the fact.
+6. Translate computational ideas into working programs, progressing from visual, block-based programming (Snap!) to textual programming (Python) as your command of computational structure matures.
 
 Each of these is practiced in class and in lab, and assessed through the quizzes, the project, and the final exam.
 
@@ -91,13 +91,13 @@ Each component has its own page with the full details. Click through for format,
 
 *Note: the course evaluation is subject to change until the end of the first week of classes. After this date, the evaluation will be considered final. Any changes will be communicated using a changelog.*
 
-**Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.**
+Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.
 
 ### Labs
 
-Labs are hands-on and interactive, and **built to support your project work**. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are in-person only.
+Labs are hands-on and interactive, and built to support your project work. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are in-person only.
 
-**Section times, room, and which TA leads each section are on the [Labs](labs.md) page.**
+Section times, room, and which TA leads each section are on the [Labs](labs.md) page.
 
 ### Exams
 
@@ -105,11 +105,11 @@ There is no midterm this term. Refer to [Final Exam](final.md) and [Quizzes](qui
 
 ### Self-Scheduled Assessments in ORCA
 
-In this course, quizzes and the final exam will be held in UBC's **ORCA** (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
+In this course, quizzes and the final exam will be held in UBC's ORCA (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
 
-Your assessments in this course will be **self-scheduled** in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available from around **11 AM until roughly 6 PM**, Monday to Sunday, with reduced availability on Saturdays and Sundays. These hours are set by ORCA according to its operational needs and may change without notice, so check what is actually on offer when you book.
+Your assessments in this course will be self-scheduled in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available from around 11 AM until roughly 6 PM, Monday to Sunday, with reduced availability on Saturdays and Sundays. These hours are set by ORCA according to its operational needs and may change without notice, so check what is actually on offer when you book.
 
-Reservations for assessments open **on the Tuesday of the week before your assessment, at 10 AM**. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
+Reservations for assessments open on the Tuesday of the week before your assessment, at 10 AM. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
 
 #### Enrolling in PrairieTest
 
@@ -117,13 +117,13 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 
 #### Booking your first assessment
 
-1. Go to our course in Canvas and, on the left sidebar, click **ORCA Reservations**.
+1. Go to our course in Canvas and, on the left sidebar, click ORCA Reservations.
 2. Open the link in a new tab.
-3. Click **Enrol** to join the PrairieTest course.
-4. Click **Home**. Your course now shows up on the PrairieTest home page.
+3. Click Enrol to join the PrairieTest course.
+4. Click Home. Your course now shows up on the PrairieTest home page.
 5. At the moment, you will likely see the message: "You don't currently have any exams available for reservations".
 6. Once we make your first quiz visible for reservations, you will be able to book a session for the assessment.
-7. You are able to cancel or change your reservation at any time, up to **30 minutes before** your reservation, during the assessment window.
+7. You are able to cancel or change your reservation at any time, up to 30 minutes before your reservation, during the assessment window.
 
 The exact reservation opening date for every quiz is on the [Quizzes](quizzes.md#schedule) page.
 
@@ -154,7 +154,7 @@ Requests for grade adjustments (especially final course grade) based on non-acad
 
 Students are expected to meet the academic requirements of the course as outlined in this syllabus. Soliciting grade changes undermines the integrity of the evaluation process and may result in a negative impact on your final grade.
 
-If you have concerns about your performance, you are encouraged to seek feedback early and make use of available resources, such as drop-in hours and course support services, to address any challenges proactively.
+If you have concerns about your performance, seek feedback early. Use the resources available, such as drop-in hours and course support services, to deal with problems before they grow.
 
 ### Review of Assigned Standing (RAS)
 
@@ -181,21 +181,21 @@ A week-by-week view of lecture topics, labs, and deliverables is on the [Schedul
 
 ## Learning Resources
 
-Students in CPSC 100 have diverse backgrounds and learning needs. Various resources are available to help you explore topics of interest in depth. Many students find that just attending lectures and labs is not enough, and you are strongly advised to use the available resources. Note that you should not take needing to seek extra ways to practice what you've learned as a sign that you're "not good at" the material; it's simply that you need more practice. The people in the class who you see who seem to be having no trouble at all have almost certainly had more practice than you (or they're having trouble and don't show it - or both!). Don't freak out. Ask questions and use the help resources: that's what they're for.
+Students in CPSC 100 have diverse backgrounds and learning needs. Various resources are available to help you explore topics of interest in depth. Many students find that attending lectures and labs alone is not enough. You are strongly advised to use the available resources. Needing extra practice is not a sign that you're "not good at" the material. It means you need more practice, which is a different thing. The people who seem to be having no trouble have almost certainly had more practice than you. Or they're having trouble and not showing it, or both! Don't freak out. Ask questions and use the help resources: that's what they're for.
 
-TAs and your instructor hold **drop-in hours**. No appointment is needed and you do not need to arrive with a question. See [what drop-in hours are for](communication.md#drop-in-hours). If you need a longer or private meeting instead, email to arrange one with a few days notice. TAs are also available during scheduled lab times, though during lab they prioritize helping students with that week's lab work.
+TAs and your instructor hold drop-in hours. No appointment is needed and you do not need to arrive with a question. See [what drop-in hours are for](communication.md#drop-in-hours). If you need a longer or private meeting instead, email to arrange one with a few days notice. TAs are also available during scheduled lab times, though during lab they prioritize helping students with that week's lab work.
 
 Your classmates are an excellent resource for discussion and peer support. In addition to opportunities to chat before and after class, the discussion board is also available.
 
 > [!TIP]
-> A note about e-mail support: Many course-related questions require two-way discussion, so e-mail is sometimes not the most efficient way to get help. Drop-in hours and the discussion board should be your first resort for rapid assistance. Please limit e-mail to requests of a personal nature—you'll get faster responses on the discussion board!
+> A note about e-mail support: Many course-related questions require two-way discussion, so e-mail is sometimes not the most efficient way to get help. Drop-in hours and the discussion board should be your first resort for rapid assistance. Please limit e-mail to requests of a personal nature; you will get faster responses on the discussion board!
 
 ## General Advice
 
 - If you don't understand something covered in class, ask about it right away. The only silly question is the one that isn't asked. This class is about exploring your interest in computer science, so don't be shy.
 - If you get a mark you do not understand, find out why immediately. Don't wait weeks before asking!
-- The lectures and labs are just the beginning – you are responsible for directing your exploration of the topics in sufficient depth both to satisfy your curiosity and to be prepared for exams that will require you to extend, not just repeat, what you have learned in class. Curious about something? Did you try Google or Wikipedia? The teaching team can introduce you to resources and people – ask!
-- Resist the temptation to engage in non-course-related activities, such as social media, e-mail, texting, etc, during class and lab time. If you remain focused during class time, not only will you earn more participation marks, but you will also use your own time more efficiently by not having to go back and learn the material you missed while distracted.
+- The lectures and labs are only the beginning. You are responsible for exploring the topics in enough depth to satisfy your curiosity and to be ready for exams. Those exams ask you to extend what you learned in class, not repeat it. Curious about something? Did you try Google or Wikipedia? The teaching team can introduce you to resources and people, so ask!
+- Resist the temptation to engage in non-course-related activities, such as social media, e-mail, texting, etc, during class and lab time. If you stay focused during class, you will earn more participation marks. You'll also use your own time better, because you will not have to go back and learn what you missed while distracted.
 
 ## Importance of Group Work and Participation Policy
 
@@ -205,11 +205,11 @@ Your team's performance in the course project plays a large part in your individ
 
 To maintain fairness and academic integrity, all group members are expected to contribute equally to the project. Here's how we handle group participation:
 
-1.	**Peer Resolution**: When non-participation issues arise, the first step is for group members to address and attempt to resolve them internally based on the group's agreed-upon terms in the group contract. This includes documenting these efforts—such as meeting notes, emails, or messages on platforms like Slack or Discord—in case further action is required.
-2.	**Reporting Non-Participation**: If internal resolution efforts do not succeed, the concerned student(s) should schedule a meeting with their TA. However, it's important to note that without sufficient evidence of attempts at peer resolution, the TA will not proceed with scheduling the meeting. During the meeting, if scheduled, students should present the documented evidence and discuss possible next steps with the TA.
-3.	**TA Intervention**: Following the consultation, the TA may involve other teaching team members to ensure that the workload is fairly distributed and completed by all group members. If additional actions are needed, the teaching team will directly engage with the specific group or individual members to determine the best course of action.
+1.	Peer Resolution: when problems with participation come up, the group should first try to resolve them internally, using the terms agreed in the group contract. This includes documenting these efforts, such as meeting notes, emails, or messages on platforms like Slack or Discord, in case further action is required.
+2.	Reporting Non-Participation: If internal resolution efforts do not succeed, the concerned student(s) should schedule a meeting with their TA. However, it's important to note that without sufficient evidence of attempts at peer resolution, the TA will not proceed with scheduling the meeting. During the meeting, if scheduled, students should present the documented evidence and discuss possible next steps with the TA.
+3.	TA Intervention: Following the consultation, the TA may involve other teaching team members to ensure that the workload is fairly distributed and completed by all group members. If additional actions are needed, the teaching team will directly engage with the specific group or individual members to determine the best course of action.
 
-Non-contribution or "free riding" is not acceptable in this course. Every student is expected to contribute meaningfully to group projects. **Repeated failure to participate will result in penalties.** 
+Non-contribution or "free riding" is not acceptable in this course. Every student is expected to contribute meaningfully to group projects. Repeated failure to participate will result in penalties. 
 
 For practical guidance on completing the group contract, setting team expectations, documenting concerns, and resolving conflict, see the [Group Work Resources](group-work-resources.md).
 
@@ -217,8 +217,8 @@ For practical guidance on completing the group contract, setting team expectatio
 
 In addition to all university rules, regulations, and academic guidelines, the following policies will hold in CPSC 100:
 
-- Attendance and **prompt arrival** is expected at all classes and labs. In addition, there will be participation marks for in-class and lab activities.
-- **If you submit it, you should be able to explain it.** This applies no matter where the work came from: a teammate, a classmate, documentation, a tutorial, or an AI tool. Being able to explain your own submitted work is the baseline expectation in this course.
+- Attendance and prompt arrival is expected at all classes and labs. In addition, there will be participation marks for in-class and lab activities.
+- If you submit it, you should be able to explain it. This applies no matter where the work came from: a teammate, a classmate, documentation, a tutorial, or an AI tool. Being able to explain your own submitted work is the baseline expectation in this course.
 - Make-up assessments are not offered for ordinary absences. Built-in flexibility covers short-term disruption; serious circumstances go through the [academic concession](#academic-concessions) process.
 
 ## Course Textbook/Material
@@ -227,16 +227,16 @@ We will read articles, watch videos, and explore other resources as a class. The
 
 ## Course Communication Conventions
 
-All of it lives on one page: **[Course Communication](communication.md)**. That page has the Ed Discussion sign-up link, a flowchart showing where each kind of question belongs, every teaching team email address, and what to include in an email.
+All of it lives on one page: [Course Communication](communication.md). That page has the Ed Discussion sign-up link, a flowchart showing where each kind of question belongs, every teaching team email address, and what to include in an email.
 
 ### Professionalism
 
 Students are expected to maintain a high level of professionalism in all course activities and communication with the instructor and peers. This includes proper email etiquette, respectful communication in class, and adherence to deadlines. See [Course Communication](communication.md) for what to include in an email.
 
 > [!WARNING]
-> Before sending an email, make sure to review this article on [email etiquette](email-etiquette.md) and/or [How To Email Your Professor](https://personal.math.ubc.ca/~ilaba/teaching/email.html) for tips on how to effectively communicate with your instructor. **Emails that do not follow these guidelines will be returned to the sender for revision.**
+> Before sending an email, make sure to review this article on [email etiquette](email-etiquette.md) and/or [How To Email Your Professor](https://personal.math.ubc.ca/~ilaba/teaching/email.html) for tips on how to effectively communicate with your instructor. Emails that do not follow these guidelines will be returned to the sender for revision.
 
-> Repeated unprofessional behavior will result in grade deduction from your final grade, with **each violation resulting in a 1% deduction from your final grade**. Students will be notified of possible deductions after the first official warning.
+> Repeated unprofessional behavior will result in grade deduction from your final grade, with each violation resulting in a 1% deduction from your final grade. Students will be notified of possible deductions after the first official warning.
 
 ### Code of Conduct
 
@@ -274,7 +274,7 @@ Exams including quizzes and the final exam must be taken at the scheduled time. 
 
 Make-up assessments (including participation, labs, quizzes, project, exams) will not be given. Sometimes life gets in the way of schedules. Sickness or other unplanned or extraordinary events happen and will be dealt with individually. It is your responsibility to ensure your situation is known to the instructor as soon as reasonably possible. You are accountable for being heard, which means you need to ensure that the instructor heard you.
  
-While "life happens," poor planning by you does not count. And definitely do not wait to discuss gray areas. For example, an interview opportunity arises (good!): you should not wait until the day before the lab is due to let us know that you could not complete the lab because you had to prepare for the interview. That would be considered poor planning. Good planning would be to alert the TA or Instructor that you got the interview and, while you hope to finish the lab, there is a concern. Then when you don't finish on time, it's clear that you planned your time and that will be taken into consideration. These "good planning" situations will be considered individually as per the instructor's discretion.
+While "life happens," poor planning by you does not count. And definitely do not wait to discuss gray areas. For example, say an interview opportunity comes up, which is good news. Don't wait until the day before the lab is due to tell us you could not finish it because you were preparing. That would be considered poor planning. Good planning would be to alert the TA or Instructor that you got the interview and, while you hope to finish the lab, there is a concern. Then when you don't finish on time, it's clear that you planned your time and that will be taken into consideration. These "good planning" situations will be considered individually as per the instructor's discretion.
 
 In all cases, exceptional situations are considered on an individual basis, subject to the approval of the instructor and supported by legitimate and verified documentation. Refer to the academic concessions section below for more details.
 
@@ -282,35 +282,66 @@ In all cases, exceptional situations are considered on an individual basis, subj
 
 Students with a disability or ongoing medical condition can arrange academic accommodations through the [Centre for Accessibility](https://students.ubc.ca/about-student-services/centre-for-accessibility). Accommodations are arranged through the Centre, not through the teaching team, and they are available to you for the whole term rather than case by case.
 
-**Start early.** Registration with the Centre is a multi-step process and can take some time, so begin as soon as you can rather than in the week of an assessment.
+Start early. Registration with the Centre is a multi-step process and can take some time, so begin as soon as you can rather than in the week of an assessment.
 
 #### What you need to do
 
-1. **Register with the Centre for Accessibility.** You must be registered before you can request accommodations.
-2. **Send your Letter of Accommodation (LOA).** Once registered, you send your LOA to your instructors through [Clockwork](https://students.ubc.ca/about-student-services/centre-for-accessibility/after-registering-with-the-centre-for-accessibility), the Centre's online portal. Do this **as soon as possible, and preferably within the first two weeks of class**. Sending your LOA is also what unlocks exam booking and note-taker services.
-3. **Upload a copy of your LOA to Canvas**, using [this assignment](https://canvas.ubc.ca/courses/190791/assignments/2578823). Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
-4. **Book your own accommodated sittings.** For quizzes and the final exam this happens in ORCA, described below.
+1. Register with the Centre for Accessibility. You must be registered before you can request accommodations.
+2. Send your Letter of Accommodation (LOA). Once registered, you send your LOA to your instructors through [Clockwork](https://students.ubc.ca/about-student-services/centre-for-accessibility/after-registering-with-the-centre-for-accessibility), the Centre's online portal. Do this as soon as possible, and preferably within the first two weeks of class. Sending your LOA is also what unlocks exam booking and note-taker services.
+3. Upload a copy of your LOA to Canvas, using [this assignment](https://canvas.ubc.ca/courses/190791/assignments/2578823). Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
+4. Book your own accommodated sittings. For quizzes and the final exam this happens in ORCA, described below.
 
 #### Accommodated sittings in ORCA
 
-Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), and **ORCA hosts most accommodations itself.** If your accommodations are on ORCA's supported list, you book an ORCA session the same way everyone else does, and your accommodations are applied there. ORCA currently supports extended time, a distraction-reduced environment, close proximity to a washroom, a phone for medical purposes, medical equipment, supplies or food, a computer, calculator or timer, a fan, clock or white noise machine, instructions in writing, formula sheets, and a computer with spellchecking.
+Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), and ORCA hosts most accommodations itself. If your accommodations are on ORCA's supported list, you book an ORCA session the same way everyone else does, and your accommodations are applied there.
 
-If you hold an accommodation that is **not** on that list, you write with the Centre for Accessibility instead.
+The guidance below is quoted from ORCA's [CfA Accommodations page](https://orca.ubc.ca/students/cfa-accommodations/), last updated September 7, 2026. Check that page for any changes since.
+
+> You will be writing your exam in the ORCA if you have one or more of the following accommodations:
+>
+> - Extended-time
+> - Distraction-reduced environment
+> - Close proximity to washroom
+> - Phone permitted for medical purposes
+> - Medical equipment/supplies/food
+> - Computer
+> - Calculator
+> - Timer
+> - Fan
+> - Clocks
+> - White Noise Machine
+> - Exam announcements/instructions in writing
+> - Formula sheets for exams
+> - Computer with Spellchecking
+>
+> If you have any exam accommodations other than the ones listed above, then you should plan to write with the CfA and must register for your quiz or exam by their deadline. If you have any concerns about your accommodations being met, please reach out to your Accessibility Advisor for discussion.
 
 > [!WARNING]
-> **Do not book with the Centre for Accessibility if your accommodations can be met in ORCA.** The Centre will cancel those bookings. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) first to see which applies to you.
+> Note: Please do not book assessments with the Centre for Accessibility if your accommodations can be met in the ORCA. The CfA will cancel any exam bookings in this case and ask you to book yourself in with the ORCA.
+
+ORCA's page also answers two questions that come up often:
+
+> Can I choose to write in the ORCA if I have an accommodation that cannot be met in the ORCA?
+>
+> Yes, you may write with the ORCA if you choose to forgo your accommodations that cannot be met in the ORCA.
+
+> Can I write my exam in the CfA using my own laptop?
+>
+> No, as of September 2026, the CfA has several ORCA machines in Brock Commons South, and students will be required to use ORCA computers to do exams in courses.
+
+The same page explains that CfA students may use their own wireless noise-cancelling headphones, declared to the invigilator at check-in. It also describes the Hennings 203 room, which runs longer 110-minute sessions in a smaller, quieter space.
 
 Booking an accommodated sitting is your responsibility, and the deadlines are set by the facility rather than by this course. They are measured in days, not hours, so treat this as something to sort out well ahead of an assessment rather than in the same week.
 
 > [!WARNING]
-> Late booking requests are generally not accepted, and **if you have not booked, the accommodation may not be available to you.** Arrange it as early as you can.
+> Late booking requests are generally not accepted, and if you have not booked, the accommodation may not be available to you. Arrange it as early as you can.
 
 If anything about your own accommodations is unclear, contact us early rather than close to an assessment.
 
 #### Where to go with questions
 
-- **About your accommodations, registration, or booking:** contact the Centre for Accessibility directly at **info.accessibility@ubc.ca** or **604-822-5844**.
-- **About how an accommodation applies to a specific CPSC 100 assessment:** see [Course Communication](communication.md) for the right address. Accommodation matters are confidential and should not be posted on the discussion board.
+- About your accommodations, registration, or booking: contact the Centre for Accessibility directly at info.accessibility@ubc.ca or 604-822-5844.
+- About how an accommodation applies to a specific CPSC 100 assessment: see [Course Communication](communication.md) for the right address. Accommodation matters are confidential and should not be posted on the discussion board.
 
 Arrangements specific to individual assessments are on the [Quizzes](quizzes.md) and [Final Exam](final.md) pages.
 
@@ -326,7 +357,7 @@ For in-term concessions, please complete this [Student Declaration of Academic C
 
 ### Remarking Policy
 
-As a teaching team, we strive to provide fair and accurate assessments of your work while also providing as much feedback as possible. We encourage you to review the feedback and spend your time/energy where it serves you the most, which will be learning from past mistakes and self-improvement. While you reserve your right to ask for a re-grade, we find debating grades an incredible drain on course staff time and energy and prevents us from serving students well and focusing on the most important aspects of the course. Regrade requests are not an avenue for you to argue or debate about the grading scheme. Regrade requests are meant as a way for you to let us know about situations where the grading scheme may not have been correctly applied to your work.
+As a teaching team, we strive to provide fair and accurate assessments of your work while also providing as much feedback as possible. We encourage you to review the feedback and spend your time/energy where it serves you the most, which will be learning from past mistakes and self-improvement. You always have the right to ask for a re-grade. That said, debating grades drains staff time and energy, and it stops us focusing on the parts of the course that matter most. Regrade requests are not an avenue for you to argue or debate about the grading scheme. Regrade requests are meant as a way for you to let us know about situations where the grading scheme may not have been correctly applied to your work.
 
 If you feel a course item has been incorrectly assessed you may request that the item be remarked. However, before making a remarking request, please complete the following steps:
 
@@ -337,7 +368,7 @@ If you feel a course item has been incorrectly assessed you may request that the
 
 #### Request a Remarking
 
-Requests must include a written letter for the re-marking and be submitted to the course TA/instructor within **5 business days** from receiving the mark or a deadline specified by the TA/instructor, whichever comes first. The request must be signed and submitted via email as a PDF. 
+Requests must include a written letter and go to the course TA or instructor within 5 business days of receiving the mark. If the TA or instructor sets an earlier deadline, that one applies. The request must be signed and submitted via email as a PDF. 
 
 Course grades are considered final on a rolling basis (e.g. as we progress through the semester). After the regrading request deadline (e.g., 5 business days or deadline set by TA/instructor), grades will be considered final and no further requests will be accepted. Students are encouraged to review their grades and ask questions within the specified time frame. Inquiries after the deadline will not be considered.
 
