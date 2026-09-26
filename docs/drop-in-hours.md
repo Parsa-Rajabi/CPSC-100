@@ -14,20 +14,7 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 > Not sure whether your reason is good enough? It is. See [what drop-in hours are for](communication.md#drop-in-hours) for what students actually use them for.
 
 > [!NOTE]
-> Recurring weekly hours start in Week 4. The sessions below are what is running until then. The Week 4 schedule will be announced on [Ed Discussion](communication.md).
-
-## Week 3 (Sep 21 - 25)
-
-| Day | Time | Where | Who |
-| :-- | :--- | :---- | :-- |
-| Mon, Sep 21 | 1:00-2:00pm | [ICICS X341](#icics-x241-and-x341) | Jessica|
-| Mon, Sep 21 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin |
-| Tue, Sep 22 | 1:30-2:30pm | [Zoom (online)](https://ubc.zoom.us/j/66452453044?pwd=WFyPb3w6BvrQ88EFFjHO9TNwS7Mxz4.1) | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
-| Wed, Sep 23 | 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin |
-| Wed, Sep 23 | 5:00-6:00pm | [ICICS X241](#icics-x241-and-x341) | Kate |
-| Thu, Sep 24 | 1:00-2:00pm | [ICICS X241](#icics-x241-and-x341) | Tarvin |
-| Fri, Sep 25 | 10:00-11:00am | [ICICS X341](#icics-x241-and-x341) | Sally |
-| Fri, Sep 25 | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
+> Recurring weekly hours start in Week 4. 
 
 ## Week 4 - 14 (Sept 28 - Dec 11)
 
