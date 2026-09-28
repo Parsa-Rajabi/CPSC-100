@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 28, 2026 | Added the retrospective template and how to use it. |
 | Sep 25, 2026 | Noted that a late contract and extra re-submissions cost marks on Part B. |
 | Sep 24, 2026 | Reworded for readability. |
 
@@ -16,6 +17,8 @@ Use this page alongside:
 - [Group Contract Template (PDF)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-template.pdf)
 - [Group Contract Template (Word)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-template.docx)
 - [Guidelines for Writing a Group Contract](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-info.pdf)
+- [Group Retrospective Template (PDF)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-retrospective.pdf)
+- [Group Retrospective Template (Word)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-retrospective.docx)
 - [Project Peer Evaluation](project-peer-evaluation.md)
 - [Importance of Group Work and Participation Policy](syllabus.md#importance-of-group-work-and-participation-policy)
 
@@ -382,14 +385,40 @@ Useful message template:
 
 ## Retrospectives and Peer Evaluation
 
+A retrospective is a group conversation about how you worked together and what to improve next time. Your group submits three, each on the same day as a round of peer evaluation. The first is a practice round about completing the group contract. The due dates are on [Project](project.md#retrospectives).
+
+- Plan for 30 to 45 minutes. Take longer if you need to. No step has a time limit.
+- Fill in one shared copy of the template. Short bullet points are enough.
+- Before you begin, open your contract, drafts, feedback, and relevant messages.
+- Let everyone speak. Listen before responding.
+- Use real examples. Describe what happened and its effect.
+- Record different views fairly. You do not have to agree on every point.
+- Write "Not yet" for stages you have not reached. Do not invent experiences.
+- Share sensitive concerns privately with your TA.
+- One member submits the group's copy on Canvas.
+- Finish the discussion before anyone starts iPeer. Each member then completes iPeer on their own. Do not agree on scores as a group.
+
+The template walks through these steps:
+
+| Step | What happens |
+| :-- | :-- |
+| 1. Get ready | Record who is there, and assign the meeting roles, such as facilitator and note-taker |
+| 2. Think on your own | Each member notes how they contributed, what helped or made it difficult, and what they would do differently |
+| 3. Share and listen | Members take turns sharing, and the note-taker summarizes what worked, what was difficult, and any different views |
+| 4. Decide what to change | What to continue, what to stop or adjust, and what to start, and whether your process matched your contract |
+| 5. Choose two actions | Each action gets a follow-up person, a date, and a way to check that it helped |
+| 6. Review and submit | Everyone reviews the final copy, then one member submits it |
+
+Rotate the meeting roles each round. Start each retrospective by reviewing the two actions from the last one: what you tried, and what changed.
+
 <div class="accordion">
 
 <details open>
 <summary>Team Retrospectives</summary>
 
-Your contract must name dates and times for two required retrospective meetings, one before each graded peer evaluation. Book them when you write the contract, not when the deadline arrives. Run a shorter one any time the team feels stuck.
+Your contract must name dates and times for two required retrospective meetings, one before each graded peer evaluation. Book them when you write the contract, not when the deadline arrives. Use the template in those meetings.
 
-Suggested agenda:
+Run a shorter one any time the team feels stuck. It does not need the template. Suggested agenda:
 
 1. What is working well?
 2. What is not working well?

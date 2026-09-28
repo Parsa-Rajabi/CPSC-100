@@ -9,6 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 28, 2026 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
 | Sep 25, 2026 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
 | Sep 24, 2026 | Reworded for readability. |
 
@@ -59,7 +60,22 @@ A stand-up is a short written progress update. Stand-ups begin on Friday Oct 2 w
 
 ### Retrospectives
 
-After you finish each project, your group writes a short piece together. It covers what worked, what did not, and what you would change next time. Completing it is part of your project grade.
+A retrospective is a group conversation about how you worked together and what to improve next time. Your group meets, talks it through, and fills in one shared copy of the template. There are three rounds, each due on the same day as a round of [peer evaluation](project-peer-evaluation.md):
+
+| Round | Focus | Due |
+| :-- | :-- | :-- |
+| 0, practice round | Completing the group contract | Thu Oct 1 |
+| 1 | Teamwork during Project 1 | Thu Oct 29 |
+| 2 | Teamwork during Project 2, and lessons for future groups | Thu Dec 3 |
+
+All three are due at 11:59pm Pacific. The retrospectives after Project 1 and Project 2 are part of your project grade.
+
+One member submits the group's copy on Canvas. Finish the group discussion before you start iPeer, then complete iPeer on your own. Guidance for running a retrospective is on [Group Work Resources](group-work-resources.md#retrospectives-and-peer-evaluation).
+
+Use the retrospective template, available in both formats:
+
+- [Group Retrospective Template (PDF)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-retrospective.pdf)
+- [Group Retrospective Template (Word)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-retrospective.docx)
 
 ### Peer evaluation
 
