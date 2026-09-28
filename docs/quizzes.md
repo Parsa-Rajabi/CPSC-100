@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 28, 2026 | Quiz sitting windows now run through the weekend, Wednesday to Sunday. Added what to do if no session is available. |
 | Sep 24, 2026 | Reworded for readability. Removed the in-development note. |
 | Sep 14, 2026 | Quiz 0 details updated. The sitting window now runs to Sunday Sep 20 rather than Friday Sep 18. |
 
@@ -34,12 +35,23 @@ You book your own seat at [us.prairietest.com](https://us.prairietest.com), the 
 
 Quizzes are self-scheduled. That means you pick a session inside that quiz's window. Expect sessions from around 11:00am until roughly 6:00pm, seven days a week, with fewer on weekends. Treat that as a rough guide, not a promise. ORCA sets its own hours based on operational needs, and they can change without notice. The facility sometimes opens or closes earlier or later than usual. The sessions PrairieTest offers you when you go to book are the real answer.
 
-Most quizzes are sat on the Wednesday, Thursday or Friday of that quiz's week. Quiz 0 runs Monday to Sunday, and Quiz 2 runs Thursday or Friday.
+Most quizzes run from the Wednesday to the Sunday of that quiz's week, so the weekend is part of the window. Quiz 0 runs Monday to Sunday, and Quiz 2 starts on the Thursday because Week 4's Wednesday is Truth and Reconciliation Day.
+
+Weekend sessions exist but there are fewer of them than on a weekday. Treat Saturday and Sunday as extra room to manoeuvre rather than as your first choice.
 
 Reservations open at 10:00am on the Tuesday before the week your quiz runs. It is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception: its reservations open Monday Sep 14 at 11:00am.
 
 > [!WARNING]
 > Book early. Seats are shared with other courses, and they do run out, especially around midday.
+
+### If you cannot find a session
+
+If there is nothing available anywhere in a quiz's window, email ORCA directly at [orca.support@ubc.ca](mailto:orca.support@ubc.ca) and copy us in at [cpsc100-team@cs.ubc.ca](mailto:cpsc100-team@cs.ubc.ca).
+
+ORCA runs the sessions, so they are the ones who can open capacity. Copying us means we know a seat was not available to you, which matters if the deadline passes while it is being sorted out.
+
+> [!ATTENTION]
+> Do this as soon as you see the problem, not on the last day of the window. A seat that ran out on the Wednesday is much easier to solve than one you report on the Sunday evening.
 
 If you are new to the facility, watch the orientation video on ORCA's [Getting Started page](https://orca.ubc.ca/students/getting-started/) before Quiz 0.
 
@@ -72,18 +84,18 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 | Quiz | Week | When | Reservations open, 10:00am |
 | :--: | :--: | :--- | :------------------------ |
 | 0 | 2 | Mon Sep 14 to Sun Sep 20 | Mon Sep 14, 11:00am |
-| 1 | 3 | Sep 23, 24 or 25 | Tue Sep 15 |
-| 2 | 4 | Oct 1 or 2, Thursday or Friday | Tue Sep 22 |
-| 3 | 5 | Oct 7, 8 or 9 | Tue Sep 29 |
-| 4 | 6 | Oct 14, 15 or 16 | Tue Oct 6 |
+| 1 | 3 | Wed Sep 23 to Sun Sep 27 | Tue Sep 15 |
+| 2 | 4 | Thu Oct 1 to Sun Oct 4 | Tue Sep 22 |
+| 3 | 5 | Wed Oct 7 to Sun Oct 11 | Tue Sep 29 |
+| 4 | 6 | Wed Oct 14 to Sun Oct 18 | Tue Oct 6 |
 | *none* | 7 | [Project 1B](project-1.md) is due | |
-| 5 | 8 | Oct 28, 29 or 30 | Tue Oct 20 |
-| 6 | 9 | Nov 4, 5 or 6 | Tue Oct 27 |
+| 5 | 8 | Wed Oct 28 to Sun Nov 1 | Tue Oct 20 |
+| 6 | 9 | Wed Nov 4 to Sun Nov 8 | Tue Oct 27 |
 | *none* | 10 | Midterm Break | |
-| 7 | 11 | Nov 18, 19 or 20 | Tue Nov 10 |
-| 8 | 12 | Nov 25, 26 or 27 | Tue Nov 17 |
+| 7 | 11 | Wed Nov 18 to Sun Nov 22 | Tue Nov 10 |
+| 8 | 12 | Wed Nov 25 to Sun Nov 29 | Tue Nov 17 |
 
-Quiz 2 moves to Thursday or Friday because Week 4's Wednesday is Truth and Reconciliation Day. So check that one booking twice. There is no quiz in Week 7, when [Project 1B](project-1.md) is due. There is also no quiz in Week 10, for Midterm Break. Quiz 8 in Week 12 is the last one. There is no quiz in Week 13.
+Quiz 2 starts on the Thursday because Week 4's Wednesday is Truth and Reconciliation Day. So check that one booking twice. There is no quiz in Week 7, when [Project 1B](project-1.md) is due. There is also no quiz in Week 10, for Midterm Break. Quiz 8 in Week 12 is the last one. There is no quiz in Week 13.
 
 One date to watch: Quiz 7's reservations open on Tuesday Nov 10, in the middle of Midterm Break. If you are away that week, set yourself a reminder before you go.
 

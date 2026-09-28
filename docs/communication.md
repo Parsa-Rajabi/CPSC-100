@@ -103,6 +103,7 @@ Why public first? Most questions are not unique. Posting publicly means you get 
 | :------ | :--------- |
 | `cpsc100-team@cs.ubc.ca` | Personal course matters that are not sensitive. Reaches the teaching team. |
 | `cpsc100-ops@cs.ubc.ca` | Sensitive or confidential matters. |
+| `orca.support@ubc.ca` | ORCA itself: no quiz session available anywhere in the window, or a problem with a booking. Copy in `cpsc100-team@cs.ubc.ca` so we know. |
 
 > [!NOTE]
 > This is the only page on the course site where email addresses are published. Every other page links here instead, so there is one place to keep current.
