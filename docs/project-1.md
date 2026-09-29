@@ -443,7 +443,7 @@ The second is your evaluation, covering this for each tool you tested:
   you write down what you chose and use it consistently
 
 <details>
-<summary>If every tool gets everything right</summary>
+<summary> If every tool gets everything right</summary>
 
 That's a genuine result, and you should report it. Say so accurately, then explain what you'd need
 to test to find a case where the tools do fail.
@@ -451,6 +451,37 @@ to test to find a case where the tools do fail.
 Reporting honestly that you found nothing, and explaining why, is better work than implying a
 failure you didn't find.
 
+</details>
+
+### Rubric
+
+<details>
+<summary> A+ (90-100) </summary>
+**1. Dataset** <br>
+Every dataset instruction has been followed. The images your group contributes must include one camera photo lightly edited in a non AI editor, one image of a building and one image of nature, and every image must be legible and at least 72 ppi.
+
+Your AI generated images come from three or more different sources.
+
+Each image's label must record:
+(1) Source: URL, generator/model name, or who took the photo and on what device.
+(2) Ground truth: real or AI-generated
+(3) Modifications: the editor used and each change made, or "none".
+</details>
+
+<details>
+<summary> A (80-89) </summary>
+**1. Dataset** <br>
+The dataset is largely complete, but one required image type is absent, for example there is no building image or no nature image. AI generated images come from two sources, so there is some variation in origin but less than the task asks for. 
+
+All images are labelled, but some labels are vague or incomplete. For example, the source is given as "Google Images", the ground truth has no justification, or the edits say only "edited" without the tool or the changes.
+</details>
+
+<details>
+<summary> B (65-79) </summary>
+**1. Dataset** <br>
+More than one required image type is absent from the dataset. All of the AI generated images come from a single source.
+
+Several images are missing labels, or a label field is missing across the set. Common cases: no modification record for the edited photo, or real vs AI stated without any origin.
 </details>
 
 ---
