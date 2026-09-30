@@ -9,6 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 30 | Added the stand-up schedule and late penalties. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
 | Sep 24 | Reworded for readability. |
@@ -56,7 +57,7 @@ Alongside the project parts themselves, three things run all term: weekly stand-
 
 ### Weekly stand-ups
 
-A stand-up is a short written progress update. Stand-ups begin on Friday Oct 2 with a practice round. They count for marks from Friday Oct 9 onward. Every week, by Friday 4:00pm, each student posts three or four sentences in their group's Ed Discussion channel. Ed Discussion is the course's online discussion forum. Your post covers what you did, what's next, and what's blocking you. Posting on Ed instead of emailing us means your group and your TA can both see it. That makes it the easiest way to flag a blocker before it becomes a problem. Stand-ups also affect your individual grade, and [Weekly stand-ups](project-1.md#weekly-stand-ups) explains how.
+A stand-up is a short written progress update. Every Friday at 4:00pm Pacific, from Oct 2 to Dec 4, each student posts three or four sentences in their group's Ed Discussion channel. Ed Discussion is the course's online discussion forum. Your post covers what you did, what is next, and what is blocking you. Posting on Ed instead of emailing us means your group and your TA can both see it. That makes it the easiest way to flag a blocker before it becomes a problem. Stand-up 0, on Oct 2, is a practice round, but it is still required. Stand-ups 1 to 4 count toward your individual Project 1 Part C mark, and stand-ups 5 to 9 count toward Project 2 Part C. Late stand-ups lose marks, and every student gets one free late stand-up for the term. The schedule and penalties are in [Weekly stand-ups](project-1.md#weekly-stand-ups).
 
 ### Retrospectives
 
