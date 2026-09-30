@@ -1,22 +1,23 @@
 # Project 1: From Data to Decisions
 
 > [!NOTE]
-> This page isn't finished yet, but everything below is solid enough to plan around. Please read
+> This page is not finished yet, but everything below is solid enough to plan around. Please read
 > it now. Three things are still to come:
 >
-> - The grading rubric, including how each part is marked
+> - The full grading rubric for Parts A, B and C. The [rubric for the Part B dataset](#rubric) is
+>   already posted
 > - How to disclose your AI use: the process and the form to use
 > - The exact submission location for Part A
 >
-> The schedule below is tentative and may still change, though most of it will be settled by
-> Wednesday, September 23. Anything that moves gets recorded in the changelog.
+> The schedule below may still change. Anything that moves gets recorded in the changelog.
 
 ## Changelog
 
 | Date | Update |
 | :--: | :----- |
-| Sep 25, 2026 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
-| *Sept 22* | Added dataset Requirements for Part 1B, project resources added |
+| Sep 29 | Added the rubric for the Part B dataset submission. |
+| Sep 25 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
+| Sep 22 | Added the dataset requirements for Part B and the project resources. |
 
 ---
 
@@ -443,13 +444,62 @@ The second is your evaluation, covering this for each tool you tested:
   you write down what you chose and use it consistently
 
 <details>
-<summary>If every tool gets everything right</summary>
+<summary> If every tool gets everything right</summary>
 
 That's a genuine result, and you should report it. Say so accurately, then explain what you'd need
 to test to find a case where the tools do fail.
 
 Reporting honestly that you found nothing, and explaining why, is better work than implying a
 failure you didn't find.
+
+</details>
+
+### Rubric
+
+> [!NOTE]
+> This rubric covers only the Part B dataset. A more detailed rubric for Project 1 Parts A, B and C
+> will be released before [Lab 3](labs.md). We will also discuss the grade contract for the project
+> soon.
+
+<details>
+<summary> A+ (90-100) </summary>
+
+**1. Dataset** <br>
+Every dataset instruction has been followed. The images your group contributes must include one camera photo lightly edited in a non AI editor, one image of a building and one image of nature, and every image must be legible and at least 72 ppi.
+
+Each image's label must record:
+
+1. Source: URL, generator/model name, or who took the photo and on what device.
+2. Ground truth: real or AI-generated, and how you know.
+3. Modifications: the editor used and each change made, or "none".
+
+</details>
+
+<details>
+<summary> A (80-89) </summary>
+
+**1. Dataset** <br>
+The dataset is largely complete, but one required image type is absent, for example there is no building image or no nature image.
+
+All images are labelled, but some labels are vague or incomplete. For example, the source is given as "Google Images", the ground truth has no justification, or the edits say only "edited" without the tool or the changes.
+
+</details>
+
+<details>
+<summary> B (65-79) </summary>
+
+**1. Dataset** <br>
+More than one required image type is absent from the dataset.
+
+Several images are missing labels, or a label field is missing across the set. Common cases: no modification record for the edited photo, or real vs AI stated without any origin.
+
+</details>
+
+<details>
+<summary> Re-submission required (below B) </summary>
+
+**1. Dataset** <br>
+If the quality of the submission is deemed below the standard for a B, your TA will ask you to re-submit your dataset.
 
 </details>
 
