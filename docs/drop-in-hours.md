@@ -16,7 +16,7 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 > [!NOTE]
 > Recurring weekly hours start in Week 4. 
 
-## Week 4 - 14 (Sept 28 - Dec 11)
+## Week 4 - 14 (Sep 28 - Dec 11)
 
 | Day | Time | Where | Who |
 | :-- | :--- | :---- | :-- |

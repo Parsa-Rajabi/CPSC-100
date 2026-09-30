@@ -170,8 +170,8 @@ Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
 
 |            Event             |           Date            |
 | :--------------------------: | :-----------------------: |
-|     First day of classes     |  Wednesday, Sept 9, 2026  |
-| Last day to drop without a W |   Monday, Sept 21, 2026   |
+|     First day of classes     |  Wednesday, Sep 9, 2026   |
+| Last day to drop without a W |   Monday, Sep 21, 2026    |
 |        Midterm Break         |     Nov 9 – 11, 2026      |
 |           Last lab           | Dec 2 (Wed) / Dec 3 (Thu) |
 |         Last lecture         |    Monday, Dec 7, 2026    |
