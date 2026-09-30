@@ -788,10 +788,11 @@ Suppose your group scores 85% on Part C, and your peer evaluation multiplier is 
 
 | Situation | Calculation | Your mark |
 | :-------- | :---------- | :-------: |
-| You posted every stand-up on time | 85 × 0.95 | 80.75% |
-| You posted one stand-up 20 hours late. It was your first late one, so your free late covers it | 85 × 0.95 | 80.75% |
-| You had already used your free late, then posted a stand-up 20 hours late | 85 × 0.95 − (2 × 0.5) | 79.75% |
-| You had already used your free late, then posted a stand-up two weeks late | 85 × 0.95 − (28 × 0.5) | 66.75% |
+| You posted every stand-up on time | 85 × 0.95 = 80.75 | 80.75% |
+| You posted one stand-up 20 hours late. It was your first late one, so your free late covers it | 85 × 0.95 = 80.75 | 80.75% |
+| You had already used your free late, then posted a stand-up 2 hours late. Part of a 12-hour period counts as a full one, so this is 1 period | 85 × 0.95 − (1 × 0.5) = 80.75 − 0.5 | 80.25% |
+| You had already used your free late, then posted a stand-up 20 hours late. That is 2 periods | 85 × 0.95 − (2 × 0.5) = 80.75 − 1 | 79.75% |
+| You had already used your free late, then posted a stand-up two weeks late. That is 28 periods | 85 × 0.95 − (28 × 0.5) = 80.75 − 14 | 66.75% |
 
 A late stand-up always costs less than one you keep putting off, because the penalty grows every
 12 hours until you post it.
