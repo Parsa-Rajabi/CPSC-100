@@ -11,7 +11,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 30 | Added the weekly stand-ups, due Fridays at 4:00pm from Oct 2 to Dec 4. |
+| Sep 30 | Added the weekly stand-ups, due Fridays at 4:00pm from Oct 2 to Dec 4. Marked iPeer 0 as required. |
 | Sep 28 | Quiz windows now run through the weekend, Wednesday to Sunday. Added the retrospective due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added the group contract deadlines: Fri Sep 25, and Thu Oct 1 for re-submissions. |
 | Sep 24 | Updated Weeks 2-3 lectures. Corrected quiz days to Wednesday, Thursday or Friday. Reworded for readability. |
@@ -25,7 +25,7 @@ Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and 
 | 1 | Sep 7 - 11 | W1A: no class, Labour Day<br>W1B: Intro + Syllabus<br>W1C: Data Rep 1 | | [Lab 0](labs.md#schedule) | |
 | 2 | Sep 14 - 18<br>*Course add deadline* | W2A: Data Rep 2<br>W2B: Data Rep 3<br>W2C: Snap 1, intro | [Quiz 0](quizzes.md#schedule) in ORCA, Mon Sep 14 to Sun Sep 20<br>Reservations open Mon Sep 14, 11:00am | [Lab 1](labs.md#schedule) | Group formation survey, Sep 18 |
 | 3 | Sep 21 - 25<br>*Course drop deadline* | W3A: Data Storage<br>W3B: Data Privacy<br>W3C: Snap 2, if/else | [Quiz 1](quizzes.md#schedule) | [Lab 2](labs.md#schedule) | [Group contract](project.md#group-contract), Fri Sep 25 |
-| 4 | Sep 28 - Oct 2 | W4A: Digital Birth consolidation<br>W4B: no class, Truth and Reconciliation<br>W4C: Snap 3, other types of loops | [Quiz 2](quizzes.md#schedule), Thu Oct 1 to Sun Oct 4 | *No lab this week* | [Project 1](project-1.md) image dataset for TA sign-off, Thu Oct 1<br>[Retrospective](project.md#retrospectives) practice round, Thu Oct 1<br>[iPeer 0](project-peer-evaluation.md) practice round, Thu Oct 1<br>[Group contract](project.md#group-contract) re-submissions, Thu Oct 1<br>[Stand-up 0](project-1.md#weekly-stand-ups), a required practice round, Fri Oct 2, 4:00pm |
+| 4 | Sep 28 - Oct 2 | W4A: Digital Birth consolidation<br>W4B: no class, Truth and Reconciliation<br>W4C: Snap 3, other types of loops | [Quiz 2](quizzes.md#schedule), Thu Oct 1 to Sun Oct 4 | *No lab this week* | [Project 1](project-1.md) image dataset for TA sign-off, Thu Oct 1<br>[Retrospective](project.md#retrospectives) practice round, Thu Oct 1<br>[iPeer 0](project-peer-evaluation.md) required practice round, Thu Oct 1<br>[Group contract](project.md#group-contract) re-submissions, Thu Oct 1<br>[Stand-up 0](project-1.md#weekly-stand-ups), a required practice round, Fri Oct 2, 4:00pm |
 | 5 | Oct 5 - 9 | W5A: Evaluating Algorithms<br>W5B: Using Algorithms<br>W5C: Creating Algorithms | [Quiz 3](quizzes.md#schedule) | [Lab 3](labs.md#schedule) | [Project 1A](project-1.md#part-a-your-digital-footprint), end of your lab hour<br>[Stand-up 1](project-1.md#weekly-stand-ups), Fri Oct 9, 4:00pm |
 | 6 | Oct 12 - 16 | W6A: no class, Thanksgiving<br>W6B: Algorithmic Bias<br>W6C: Snap 4, functions and lists | [Quiz 4](quizzes.md#schedule) | [Lab 4](labs.md#schedule) | Stand-up 2, Fri Oct 16, 4:00pm |
 | 7 | Oct 19 - 23 | W7A: Clustering (k-means), unsupervised learning<br>W7B: Recommender systems<br>W7C: Python 1, intro to Jupyter | *No quiz*, project due | [Lab 5](labs.md#schedule) | [Project 1B](project-1.md#part-b-the-ai-detector-experiment), Tue Oct 20<br>Stand-up 3, Fri Oct 23, 4:00pm |

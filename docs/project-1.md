@@ -15,7 +15,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 30 | Added the stand-up schedule and late penalties. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
+| Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
 | Sep 25 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
 | Sep 22 | Added the dataset requirements for Part B and the project resources. |
@@ -835,8 +835,9 @@ In short:
 So a group grade of 90% with a multiplier of 0.875 gives you 78.75%, on work the whole group
 submitted together.
 
-There's a practice round first, due Thursday October 1. It isn't graded, and it's there so
-everyone understands the process before it starts counting.
+There is a practice round first, iPeer 0, due Thursday October 1. It is required but not graded,
+and it is there so everyone understands the process before it starts counting. A late iPeer 0
+costs 0.25% of your individual Part C mark for every 12 hours late, or part of 12 hours.
 
 > [!NOTE]
 > Write your evaluations carefully. Vague comments like "good job" or "did not help" can cost you
