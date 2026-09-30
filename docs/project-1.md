@@ -15,9 +15,9 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 29, 2026 | Added the rubric for the Part B dataset submission. |
-| Sep 25, 2026 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
-| Sep 22, 2026 | Added the dataset requirements for Part B and the project resources. |
+| Sep 29 | Added the rubric for the Part B dataset submission. |
+| Sep 25 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
+| Sep 22 | Added the dataset requirements for Part B and the project resources. |
 
 ---
 
