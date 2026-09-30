@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 30 | iPeer 0 is now required, with a small late penalty and no quality deductions. Every round must be submitted, even late. |
 | Sep 24 | Reworded for readability. |
 
 > [!NOTE]
@@ -15,7 +16,7 @@ This course includes a lot of team project work. We will use project peer evalua
 
 | Round   | Due        | Follows                                | Graded          |
 | :------ | :--------- | :------------------------------------- | :-------------- |
-| iPeer 0 | Thu Oct 1  | Group formation and the group contract | No, practice round |
+| iPeer 0 | Thu Oct 1  | Group formation and the group contract | No. Practice round, but required |
 | iPeer 1 | Thu Oct 29 | [Project 1](project.md)                | Yes             |
 | iPeer 2 | Thu Dec 3  | [Project 2](project.md)                | Yes             |
 
@@ -40,6 +41,8 @@ Students will use the same general criteria as the graded peer evaluations. This
 - the scoring process;
 - the expected level of detail in written comments; and
 - how peer evaluation feedback will be shared with group members.
+
+The practice round is required. Because it is practice, there are no quality deductions. You get feedback on your comments instead. A late practice round has a small penalty, explained in [Late Peer Evaluations](#late-peer-evaluations).
 
 Peer evaluation scores and written comments may be shared with group members. If the system works as expected, this feedback will be shared anonymously. This means students can see the scores and comments they received. They cannot see the name of the person who submitted each evaluation.
 
@@ -96,7 +99,29 @@ Peer Evaluation Multiplier = Average Peer Evaluation Score / 30
 
 ## Late Peer Evaluations
 
-Peer evaluations must be submitted by the posted deadline. Late peer evaluations will receive a penalty of 1 point per started 12-hour period. The penalty is deducted from the student's average peer evaluation score.
+You must submit every peer evaluation, including the practice round. You cannot skip one. A peer evaluation that has not been submitted keeps getting the late penalty until you submit it.
+
+| Round   | Penalty for every 12 hours late, or part of 12 hours | Taken off |
+| :------ | :--------------------------------------------------: | :-------- |
+| iPeer 0 | 0.25%   | Your individual Project 1, Part C mark, after your peer evaluation multiplier is applied |
+| iPeer 1 | 1 point | Your average peer evaluation score for Project 1, Part C |
+| iPeer 2 | 1 point | Your average peer evaluation score for Project 2, Part C |
+
+The free late stand-up does not apply to peer evaluations.
+
+### iPeer 0
+
+Suppose your group scores 90% on Project 1 Part C, and your peer evaluation multiplier is 0.875. Your mark before any iPeer 0 penalty is 90 × 0.875 = 78.75%.
+
+| Situation | Calculation | Your mark |
+| :-------- | :---------- | :-------: |
+| You submitted iPeer 0 on time | 90 × 0.875 = 78.75 | 78.75% |
+| You submitted iPeer 0 3 hours late. Part of a 12-hour period counts as a full one, so this is 1 period | 78.75 − (1 × 0.25) = 78.75 − 0.25 | 78.50% |
+| You submitted iPeer 0 20 hours late. That is 2 periods | 78.75 − (2 × 0.25) = 78.75 − 0.5 | 78.25% |
+
+### iPeer 1 and iPeer 2
+
+A late graded peer evaluation loses 1 point for every 12-hour period that has started. The penalty is deducted from the student's average peer evaluation score.
 
 Each 1-point deduction from the 30-point peer evaluation score equals about a 3.33% reduction in the peer evaluation multiplier.
 
