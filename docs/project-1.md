@@ -461,8 +461,6 @@ failure you didn't find.
 **1. Dataset** <br>
 Every dataset instruction has been followed. The images your group contributes must include one camera photo lightly edited in a non AI editor, one image of a building and one image of nature, and every image must be legible and at least 72 ppi.
 
-Your AI generated images come from three or more different sources.
-
 Each image's label must record:
 (1) Source: URL, generator/model name, or who took the photo and on what device.
 (2) Ground truth: real or AI-generated
@@ -472,7 +470,7 @@ Each image's label must record:
 <details>
 <summary> A (80-89) </summary>
 **1. Dataset** <br>
-The dataset is largely complete, but one required image type is absent, for example there is no building image or no nature image. AI generated images come from two sources, so there is some variation in origin but less than the task asks for. 
+The dataset is largely complete, but one required image type is absent, for example there is no building image or no nature image.
 
 All images are labelled, but some labels are vague or incomplete. For example, the source is given as "Google Images", the ground truth has no justification, or the edits say only "edited" without the tool or the changes.
 </details>
@@ -480,9 +478,15 @@ All images are labelled, but some labels are vague or incomplete. For example, t
 <details>
 <summary> B (65-79) </summary>
 **1. Dataset** <br>
-More than one required image type is absent from the dataset. All of the AI generated images come from a single source.
+More than one required image type is absent from the dataset.
 
 Several images are missing labels, or a label field is missing across the set. Common cases: no modification record for the edited photo, or real vs AI stated without any origin.
+</details>
+
+<details>
+<summary> Re-submission required (below 65) </summary>
+**1. Dataset** <br>
+If the quality of the submission is deemed below the standard for a B, your TA will ask you to re-submit your dataset.
 </details>
 
 ---
