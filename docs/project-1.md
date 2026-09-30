@@ -456,6 +456,11 @@ failure you didn't find.
 
 ### Rubric
 
+> [!NOTE]
+> This rubric covers only the Part B dataset. A more detailed rubric for Project 1 Parts A, B and C
+> will be released before [Lab 3](labs.md). We will also discuss the grade contract for the project
+> soon.
+
 <details>
 <summary> A+ (90-100) </summary>
 **1. Dataset** <br>
