@@ -9,7 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Clarified: one free lab late arrival per semester. Reworded for readability. |
+| Sep 24 | Clarified: one free lab late arrival per semester. Reworded for readability. |
 
 ## Overview
 
