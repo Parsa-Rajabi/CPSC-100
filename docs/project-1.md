@@ -15,7 +15,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
+| Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
 | Sep 25 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
 | Sep 22 | Added the dataset requirements for Part B and the project resources. |
@@ -813,6 +813,11 @@ review of anybody. It's the conversation that stops Project 2 repeating Project 
 
 The Project 1 retrospective is due at the same time as iPeer 1. There's guidance on running one on
 the [Group Work Resources](group-work-resources.md#retrospectives-and-peer-evaluation) page.
+
+Your group must submit every retrospective, even if it is late. A late retrospective costs your
+group 1% of its Part C grade for every 12 hours late, or part of 12 hours. The practice round costs
+0.25%. The penalty comes off the group grade, so every member loses the same amount. The details
+and a worked example are on the [Project](project.md#retrospectives) page.
 
 ### Peer evaluation
 

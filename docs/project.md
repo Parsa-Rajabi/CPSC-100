@@ -9,7 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 30 | Added the stand-up schedule and late penalties. |
+| Sep 30 | Added the stand-up schedule and late penalties, and late penalties for retrospectives. Late stand-ups, retrospectives and peer evaluations are now listed as exceptions to the no-late-work rule. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
 | Sep 24 | Reworded for readability. |
@@ -70,6 +70,31 @@ A retrospective is a group conversation about how you worked together and what t
 | 2 | Teamwork during Project 2, and lessons for future groups | Thu Dec 3 |
 
 All three are due at 11:59pm Pacific. The retrospectives after Project 1 and Project 2 are part of your project grade.
+
+Your group must submit every retrospective, including the practice round, even if it is late. A retrospective that has not been submitted keeps getting the late penalty until your group submits it. The penalty comes off your group's grade for Part C, so every member loses the same amount. Your peer evaluation multiplier is then applied to that lower grade.
+
+| Round | Penalty for every 12 hours late, or part of 12 hours | Taken off |
+| :-- | :--: | :-- |
+| 0, practice round | 0.25% | Your group's grade for Project 1 Part C |
+| 1 | 1% | Your group's grade for Project 1 Part C |
+| 2 | 1% | Your group's grade for Project 2 Part C |
+
+The free late stand-up does not apply to retrospectives.
+
+<details>
+<summary>Worked example</summary>
+
+Your group scores 85% on Project 1 Part C. Your group submitted the practice retrospective 5 hours late, and the Project 1 retrospective 20 hours late. Part of a 12-hour period counts as a full one.
+
+| Item | Calculation | Group grade for Part C |
+| :-- | :-- | :--: |
+| Group grade | | 85% |
+| Practice retrospective, 5 hours late, 1 period | 85 − (1 × 0.25) | 84.75% |
+| Project 1 retrospective, 20 hours late, 2 periods | 84.75 − (2 × 1) | 82.75% |
+
+A member with a peer evaluation multiplier of 0.95 then gets 82.75 × 0.95 = 78.61% on Part C, before any stand-up penalties.
+
+</details>
 
 One member submits the group's copy on Canvas. Finish the group discussion before you start iPeer, then complete iPeer on your own. Guidance for running a retrospective is on [Group Work Resources](group-work-resources.md#retrospectives-and-peer-evaluation).
 
@@ -144,9 +169,14 @@ Project parts and retrospectives go to Canvas, UBC's online course platform. Wee
 The tools are the ones you already use in lab. One is Snap! at [snap.berkeley.edu](https://snap.berkeley.edu), which runs in your browser. The other is Jupyter, for Python later in the term.
 
 > [!ATTENTION]
-> Late work isn't accepted on the project. Nothing submitted after a deadline is marked.
+> Late project parts are not accepted. A Part A, B or C submitted after its deadline is not marked.
 >
-> The group contract is an exception. A late contract is still required, and it costs marks on Part B. See [Group contract](#group-contract).
+> Some submissions are exceptions. A late one is still required, and it costs marks instead:
+>
+> - The group contract. See [Group contract](#group-contract).
+> - Weekly stand-ups. See [Weekly stand-ups](project-1.md#weekly-stand-ups).
+> - Retrospectives. See [Retrospectives](#retrospectives).
+> - Peer evaluations. See [Late Peer Evaluations](project-peer-evaluation.md#late-peer-evaluations).
 
 Submit a partial document rather than nothing. An incomplete submission earns marks, and a missing one does not. If something serious or ongoing is happening, use the [academic concession](syllabus.md#academic-concessions) process. An academic concession is UBC's formal way of giving you flexibility when something serious affects your studies. Tell us early, not afterwards.
 
