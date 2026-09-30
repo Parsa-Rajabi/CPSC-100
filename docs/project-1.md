@@ -484,7 +484,7 @@ Several images are missing labels, or a label field is missing across the set. C
 </details>
 
 <details>
-<summary> Re-submission required (below 65) </summary>
+<summary> Re-submission required (below B) </summary>
 **1. Dataset** <br>
 If the quality of the submission is deemed below the standard for a B, your TA will ask you to re-submit your dataset.
 </details>
