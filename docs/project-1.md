@@ -15,6 +15,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Sep 30 | Added the stand-up schedule and late penalties. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
 | Sep 25 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
 | Sep 22 | Added the dataset requirements for Part B and the project resources. |
@@ -77,7 +78,7 @@ they come to 15%, and Project 2 is the other 15%. See
 Along the way you will also submit:
 
 - Your image dataset, for TA sign-off, on Thursday October 1
-- A stand-up post on Ed Discussion, every Friday from October 2 onward
+- A [stand-up](#weekly-stand-ups) post on Ed Discussion, every Friday from October 2 to October 30
 - A peer evaluation in iPeer, and a group retrospective, after Part C
 
 
@@ -93,11 +94,11 @@ Along the way you will also submit:
 | :--: | :-: | :----------- | :------------ |
 | 2 | Lab 1 | Project introduced. Groups start forming. | Group formation survey, Fri Sep 18 |
 | 3 | Lab 2 | Snap! programming. Start looking for images. | [Group contract](project.md#group-contract), Fri Sep 25 |
-| 4 | *no lab* | Independent work. Truth and Reconciliation Day. | Image dataset for TA sign-off, Thu Oct 1<br>[Peer evaluation practice round](project-peer-evaluation.md), Thu Oct 1<br>[Group contract](project.md#group-contract) re-submissions, Thu Oct 1<br>First stand-up, a practice round, Fri Oct 2 |
-| 5 | Lab 3 | Part A runs in lab, start to finish. | Part A, end of your lab hour<br>Graded stand-ups begin Fri Oct 9 |
-| 6 | Lab 4 | Working block for Part B. | |
-| 7 | Lab 5 | Working block for Part C. | Part B, Tue Oct 20 |
-| 8 | Lab 6 | Project 2 begins. | Part C, Tue Oct 27<br>Retrospective and [iPeer 1](project-peer-evaluation.md) |
+| 4 | *no lab* | Independent work. Truth and Reconciliation Day. | Image dataset for TA sign-off, Thu Oct 1<br>[Peer evaluation practice round](project-peer-evaluation.md), Thu Oct 1<br>[Group contract](project.md#group-contract) re-submissions, Thu Oct 1<br>[Stand-up 0](#weekly-stand-ups), a required practice round, Fri Oct 2 |
+| 5 | Lab 3 | Part A runs in lab, start to finish. | Part A, end of your lab hour<br>Stand-up 1, Fri Oct 9 |
+| 6 | Lab 4 | Working block for Part B. | Stand-up 2, Fri Oct 16 |
+| 7 | Lab 5 | Working block for Part C. | Part B, Tue Oct 20<br>Stand-up 3, Fri Oct 23 |
+| 8 | Lab 6 | Project 2 begins. | Part C, Tue Oct 27<br>Retrospective and [iPeer 1](project-peer-evaluation.md)<br>Stand-up 4, Fri Oct 30 |
 
 Three things to notice:
 
@@ -721,17 +722,30 @@ early, while there's still time to do something about them.
 
 How it works:
 
-- The first stand-up is on Friday October 2, and it's a practice round
-- Graded stand-ups begin on Friday October 9, and run every Friday after that
-- They are due at 4:00pm each Friday
+- Stand-ups are due every Friday at 4:00pm Pacific, from Friday October 2 to Friday December 4
 - You post in your own group's Ed Discussion channel
-- Every member posts their own. One person can't post on behalf of the group
+- Every member posts their own. One person cannot post on behalf of the group
+- The time on your Ed post is the time we use to decide whether it is late
+
+#### Stand-up schedule
+
+| Stand-up | Due, 4:00pm Pacific | Counts toward |
+| :------: | :------------------ | :------------ |
+| 0 | Fri Oct 2  | Practice round, but required. Late penalty comes off Project 1, Part C |
+| 1 | Fri Oct 9  | Project 1, Part C |
+| 2 | Fri Oct 16 | Project 1, Part C |
+| 3 | Fri Oct 23 | Project 1, Part C |
+| 4 | Fri Oct 30 | Project 1, Part C |
+| 5 | Fri Nov 6  | Project 2, Part C |
+| 6 | Fri Nov 13 | Project 2, Part C |
+| 7 | Fri Nov 20 | Project 2, Part C |
+| 8 | Fri Nov 27 | Project 2, Part C |
+| 9 | Fri Dec 4  | Project 2, Part C |
 
 > [!NOTE]
-> The first stand-up, on Friday October 2, isn't graded. Use it to check that your group's channel
-> works, see what a stand-up actually looks like, and ask us about anything that's unclear. We'll
-> sort out any problems that week, so that grading starts on October 9 with everyone knowing what
-> they're doing.
+> Stand-up 0, on Friday October 2, is a practice round, but you still have to post it. Use it to
+> check that your group's channel works, see what a stand-up looks like, and ask us about anything
+> that is unclear. Its late penalty is smaller than the others, because it is practice.
 >
 > The peer evaluation practice round runs the day before, on Thursday October 1, for the same
 > reason.
@@ -743,40 +757,46 @@ How it works:
 > Your stand-ups also build a record of your own contribution, which works in your favour when
 > peer evaluation comes around.
 
+#### Late and missing stand-ups
+
 > [!WARNING]
-> From October 9 onward, stand-ups affect your individual grade as a multiplier. Missing one costs
-> you marks, and so does posting one late. The exact deductions will be published with the rubric.
+> You must post every stand-up, even if it is late. A missing stand-up keeps losing marks until
+> you post it.
+
+| Stand-up | Penalty for every 12 hours late, or part of 12 hours | Taken off |
+| :------: | :--------------------------------------------------: | :-------- |
+| 0        | 0.25% | Your individual Project 1, Part C mark |
+| 1 to 4   | 0.5%  | Your individual Project 1, Part C mark |
+| 5 to 9   | 0.5%  | Your individual Project 2, Part C mark |
+
+The penalty is subtracted from your individual Part C mark, after your peer evaluation multiplier
+has been applied. For example, stand-up 2 posted 5 hours late costs 0.5%, and posted 30 hours late
+costs 1.5%.
+
+Every student gets one free late stand-up for the whole term, including stand-up 0. We apply it
+automatically to the first stand-up you post late. It covers up to 72 hours of lateness. If that
+stand-up is more than 72 hours late, the penalty counts only the time after the first 72 hours.
 
 <details>
-<summary>How the multipliers work together: a worked example</summary>
+<summary>How stand-up penalties work with peer evaluation: a worked example</summary>
 
-Your individual grade on a group part starts from your group's grade, then gets adjusted by your
-own multipliers. That's why two people in the same group can end up with different marks.
+Your individual grade on Part C starts from your group's grade. It is multiplied by your peer
+evaluation multiplier, and then any stand-up penalties are subtracted. That is why two people in
+the same group can end up with different marks.
 
 Suppose your group scores 85% on Part C, and your peer evaluation multiplier is 0.95.
 
 | Situation | Calculation | Your mark |
 | :-------- | :---------- | :-------: |
-| You posted every stand-up | 85 × 0.95 × 1.00 | 80.8% |
-| You missed two stand-ups | 85 × 0.95 × 0.90 | 72.7% |
+| You posted every stand-up on time | 85 × 0.95 | 80.75% |
+| You posted one stand-up 20 hours late. It was your first late one, so your free late covers it | 85 × 0.95 | 80.75% |
+| You had already used your free late, then posted a stand-up 20 hours late | 85 × 0.95 − (2 × 0.5) | 79.75% |
+| You had already used your free late, then posted a stand-up two weeks late | 85 × 0.95 − (28 × 0.5) | 66.75% |
 
-In this example, two missed stand-ups cost you about 8 percentage points on work your group had
-already done well.
-
-> [!NOTE]
-> The 0.90 above is only an illustration, to show you how the calculation works. The actual
-> deduction for a missed or late stand-up is still being decided, and will be published with the
-> rubric.
+A late stand-up always costs less than one you keep putting off, because the penalty grows every
+12 hours until you post it.
 
 </details>
-
-<!-- TODO: instructor decision required. Stand-up penalty mechanics. You asked for a worked
-example so students understand the cost, so one is given above with the per-miss figure marked
-as illustrative. Three things to settle before the rubric ships:
-  1. The actual deduction per missed stand-up, and per late one.
-  2. Whether the stand-up multiplier applies to the whole project grade or to individual parts.
-     The example above applies it to Part C, alongside the peer evaluation multiplier.
-  3. Whether any stand-ups are dropped, in the way labs and quizzes allow a drop. -->
 
 ### Retrospectives
 
