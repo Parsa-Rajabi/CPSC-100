@@ -9,8 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Reworded for readability. |
-| *TBC* | V1 - Initial final exam page |
+| Sep 24 | Reworded for readability. |
 
 ## Quick Facts
 

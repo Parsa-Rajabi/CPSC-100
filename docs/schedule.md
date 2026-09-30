@@ -11,10 +11,9 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 28, 2026 | Quiz windows now run through the weekend, Wednesday to Sunday. Added the retrospective due dates, including a practice round on Thu Oct 1. |
-| Sep 25, 2026 | Added the group contract deadlines: Fri Sep 25, and Thu Oct 1 for re-submissions. |
-| Sep 24, 2026 | Updated Weeks 2-3 lectures. Corrected quiz days to Wednesday, Thursday or Friday. Reworded for readability. |
-| *TBC* | V1 - Initial course schedule published |
+| Sep 28 | Quiz windows now run through the weekend, Wednesday to Sunday. Added the retrospective due dates, including a practice round on Thu Oct 1. |
+| Sep 25 | Added the group contract deadlines: Fri Sep 25, and Thu Oct 1 for re-submissions. |
+| Sep 24 | Updated Weeks 2-3 lectures. Corrected quiz days to Wednesday, Thursday or Friday. Reworded for readability. |
 
 ## Weekly Schedule
 

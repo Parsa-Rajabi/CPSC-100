@@ -9,9 +9,9 @@ Finalized: September 16, 2026
 
 | Date | Update |
 | :--: | :----- |
-| Sep 24, 2026 | Removed draft wording. Requirements unchanged. |
-| Sep 16, 2026 | Policy finalized. No changes to the requirements after the feedback period. |
-| Sep 14, 2026 | Initial policy release. Open for feedback before finalization on September 16. |
+| Sep 24 | Removed draft wording. Requirements unchanged. |
+| Sep 16 | Policy finalized. No changes to the requirements after the feedback period. |
+| Sep 14 | Initial policy release. Open for feedback before finalization on September 16. |
 
 ## Policy
 

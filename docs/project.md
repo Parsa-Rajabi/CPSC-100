@@ -9,9 +9,9 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 28, 2026 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
-| Sep 25, 2026 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
-| Sep 24, 2026 | Reworded for readability. |
+| Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
+| Sep 25 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
+| Sep 24 | Reworded for readability. |
 
 ## Overview
 

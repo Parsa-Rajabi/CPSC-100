@@ -6,9 +6,9 @@
 
 | Date | Update |
 | :--: | :----- |
-| Sep 28, 2026 | Quiz sitting windows now run through the weekend, Wednesday to Sunday. Added what to do if no session is available. |
-| Sep 24, 2026 | Reworded for readability. Removed the in-development note. |
-| Sep 14, 2026 | Quiz 0 details updated. The sitting window now runs to Sunday Sep 20 rather than Friday Sep 18. |
+| Sep 28 | Quiz sitting windows now run through the weekend, Wednesday to Sunday. Added what to do if no session is available. |
+| Sep 24 | Reworded for readability. Removed the in-development note. |
+| Sep 14 | Quiz 0 details updated. The sitting window now runs to Sunday Sep 20 rather than Friday Sep 18. |
 
 ## Overview
 
