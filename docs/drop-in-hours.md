@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 5 | Parsa S.'s Tuesday 1:30-2:30pm hours are cancelled for Tue Oct 6 only. |
 | Sep 24 | Reworded for readability. Fixed a room number (X241). |
 
 Drop-in hours are extra time with the teaching team outside of lecture and lab. No appointment, no sign-up, and no need to arrive with a question. Turn up whenever it suits you.
@@ -18,10 +19,13 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 
 ## Week 4 - 14 (Sept 28 - Dec 11)
 
+> [!WARNING]
+> **Cancelled this week:** Parsa S.'s Tuesday 1:30-2:30pm hours on **Tue Oct 6** are cancelled. They are back as usual from Tue Oct 13.
+
 | Day | Time | Where | Who |
 | :-- | :--- | :---- | :-- |
 | Mon | 3:00-4:00pm | [SWING 110](#swing-110) | Sally, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
-| Tue| 1:30-2:30pm | [ICICS X241](#icics-x241-and-x341) | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
+| Tue| 1:30-2:30pm<br>*Not on Tue Oct 6* | [ICICS X241](#icics-x241-and-x341) | <span class="who">Parsa S. <span class="role role-ta">TA</span></span> |
 | Tue| 3:00-3:30pm | [ICICS X241](#icics-x241-and-x341) | Jessica |
 | Wed | 3:00-4:00pm | [SWING 110](#swing-110) | Jessica, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> |
 | Wed | 5:00-6:00pm | [ICICS X241](#icics-x241-and-x341) | Kate |
