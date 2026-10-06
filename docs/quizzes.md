@@ -34,7 +34,7 @@ Each quiz mostly covers the content since the previous quiz. In programming, tho
 | Quiz&nbsp;1 | W1C to W2C | Tue Sep 15, 10am | Wed Sep 23 to Sun Sep 27 |
 | Quiz&nbsp;2 | W3A to W3C | Tue Sep 15, 10am | Thu Oct 1 to Sun Oct 4 |
 | Quiz&nbsp;3 | W4A to W4C | Tue Sep 22, 10am | Wed Oct 7 to Wed Oct 14 |
-| Quiz&nbsp;4 | W5B to W7C, *tentative* | Tue Oct 13, 10am | Wed Oct 28 to Wed Nov 4 |
+| Quiz&nbsp;4 | W5A to W7C, *tentative* | Tue Oct 13, 10am | Wed Oct 28 to Wed Nov 4 |
 | Quiz&nbsp;5 | W8A to W9C, *tentative* | Tue Oct 13, 10am | Wed Nov 18 to Wed Nov 25 |
 
 - A window includes its first and last day. You can sit the quiz in any session PrairieTest offers you inside it.
