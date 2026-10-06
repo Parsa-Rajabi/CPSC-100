@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 5 | Added where to find your quiz grade: in PrairieLearn after you finish, not in PrairieTest. |
 | Oct 5 | Added the tentative new material for Quizzes 4 and 5. |
 | Oct 5 | Cleaned up the page. The schedule is near the top, viewing dates have their own table, and Quiz 0 and the booking steps are collapsed. Reworded what each quiz covers. |
 | Oct 5 | Made clear that every quiz is cumulative. The schedule table's column is now **New material**, the lectures added since the previous quiz, not the only lectures a quiz can draw on. |
@@ -96,9 +97,11 @@ Quizzes are open book, but only in one direction. Inside ORCA, the course slides
 > [!ATTENTION]
 > ORCA has strict policies on check-in, belongings, and conduct. Breaking them counts as academic or non-academic misconduct. Read [ORCA's policies and procedures](https://orca.ubc.ca/students/policies/) before your first quiz.
 
-## Viewing your results
+## Your grade and viewing your results
 
-Quizzes run on PrairieLearn, an online assessment system, and they are marked by the computer. You view your results in ORCA, in a 20-minute viewing session you book the same way as a quiz. Results are not emailed and are not posted.
+Quizzes run on PrairieLearn, an online assessment system, and they are marked by the computer. Your grade does not appear in PrairieTest when you finish a quiz. It is available in PrairieLearn after you finish.
+
+To see the questions and your answers, book a 20-minute viewing session in ORCA, the same way you book a quiz.
 
 | Viewing | Booking opens | Viewing window |
 | :------ | :------------ | :------------- |
@@ -109,7 +112,7 @@ Quizzes run on PrairieLearn, an online assessment system, and they are marked by
 | Quiz&nbsp;5 | *To be announced* | *To be announced* |
 | Every quiz you sat, 50 minutes | Tue Nov 10, 10am | Thu Nov 19 to Thu Dec 3 |
 
-If you think there is a scoring error, see the [Remarking Policy](syllabus.md#remarking-policy). The request window is short.
+If you have an issue with how your quiz was graded, review the [Remarking Policy](syllabus.md#remarking-policy) in the syllabus. The request window is short.
 
 ## How to prepare
 
