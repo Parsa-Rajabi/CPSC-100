@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 6 | Added the Quiz 4 and Quiz 5 viewing windows. Quiz 5 booking now opens Tue Nov 3. The all-quiz viewing now runs Thu Nov 19 to Mon Dec 7, with booking from Sun Nov 15. |
 | Oct 5 | Added where to find your quiz grade: in PrairieLearn after you finish, not in PrairieTest. |
 | Oct 5 | Added the tentative new material for Quizzes 4 and 5. |
 | Oct 5 | Cleaned up the page. The schedule is near the top, viewing dates have their own table, and Quiz 0 and the booking steps are collapsed. Reworded what each quiz covers. |
@@ -36,7 +37,7 @@ Each quiz mostly covers the content since the previous quiz. In programming, tho
 | Quiz&nbsp;2 | W3A to W3C | Tue Sep 15, 10am | Thu Oct 1 to Sun Oct 4 |
 | Quiz&nbsp;3 | W4A to W4C | Tue Sep 22, 10am | Wed Oct 7 to Wed Oct 14 |
 | Quiz&nbsp;4 | W5A to W7C, *tentative* | Tue Oct 13, 10am | Wed Oct 28 to Wed Nov 4 |
-| Quiz&nbsp;5 | W8A to W9C, *tentative* | Tue Oct 13, 10am | Wed Nov 18 to Wed Nov 25 |
+| Quiz&nbsp;5 | W8A to W9C, *tentative* | Tue Nov 3, 10am | Wed Nov 18 to Wed Nov 25 |
 
 - A window includes its first and last day. You can sit the quiz in any session PrairieTest offers you inside it.
 - **New material** uses the lecture codes from the [Schedule](schedule.md), so W2A is the first lecture of Week 2. It is where most of the marks are, but it is not the only material that can appear.
@@ -108,9 +109,9 @@ To see the questions and your answers, book a 20-minute viewing session in ORCA,
 | Quiz&nbsp;1 | Tue Sep 15, 10am | Mon Sep 28 to Tue Sep 29 |
 | Quiz&nbsp;2 | Tue Sep 15, 10am | Mon Oct 5 to Sun Oct 11 |
 | Quiz&nbsp;3 | Sun Oct 11, 10am | Thu Oct 15 to Thu Oct 22 |
-| Quiz&nbsp;4 | *To be announced* | *To be announced* |
-| Quiz&nbsp;5 | *To be announced* | *To be announced* |
-| Every quiz you sat, 50 minutes | Tue Nov 10, 10am | Thu Nov 19 to Thu Dec 3 |
+| Quiz&nbsp;4 | Sun Nov 1, 10am | Thu Nov 5 to Wed Nov 18 |
+| Quiz&nbsp;5 | Sun Nov 15, 10am | Thu Nov 19 to Thu Nov 26 |
+| Every quiz you sat, 50 minutes | Sun Nov 15, 10am | Thu Nov 19 to Mon Dec 7 |
 
 If you have an issue with how your quiz was graded, review the [Remarking Policy](syllabus.md#remarking-policy) in the syllabus. The request window is short.
 
