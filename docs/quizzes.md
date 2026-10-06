@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 5 | Made clear that every quiz is cumulative. The schedule table's column is now **New material**, the lectures added since the previous quiz, not the only lectures a quiz can draw on. |
 | Oct 5 | Added a full schedule table: what each quiz covers, when reservations open, each quiz window, and each viewing window. Quiz 5 is now the last quiz. Quiz 4 moved to Oct 28 to Nov 4, Quiz 5 to Nov 18 to 25, and from Quiz 3 on each window runs a full week, Wednesday to Wednesday. |
 | Sep 28 | Quiz sitting windows now run through the weekend, Wednesday to Sunday. Added what to do if no session is available. |
 | Sep 24 | Reworded for readability. Removed the in-development note. |
@@ -16,6 +17,8 @@
 There are six quizzes, Quiz 0 through Quiz 5. You sit all six in person at ORCA, UBC's computer-based testing centre. Each one runs 50 minutes, except Quiz 0, which was 20, and each one is individual work. There is no midterm in this course, because the quizzes take its place. That's why there are so many of them, and why no single one carries much weight.
 
 Your lowest quiz is dropped automatically. The others count equally. So one bad morning will not follow you around.
+
+**Quizzes are cumulative.** Each one focuses on the lectures since the previous quiz, but anything from earlier in the course can come up, and the newer questions often build on older ideas.
 
 Quizzes ask you to reason, trace a program, and apply an idea to an example you have not seen before. To trace a program means to follow it step by step and work out what it does. Quizzes are not memorization tests. Studying by rereading slides often doesn't work well.
 
@@ -82,7 +85,10 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 
 ## Schedule
 
-| Quiz | Covers | Reservations open | Quiz window | Viewing reservations open | Viewing window |
+> [!ATTENTION]
+> **Every quiz is cumulative.** The **New material** column lists the lectures added since the previous quiz, which is where most of the marks are. Anything earlier in the course can also appear, often inside a question about the new material. For example, a question on Snap loops might ask for its answer in binary or hexadecimal.
+
+| Quiz | New material | Reservations open | Quiz window | Viewing reservations open | Viewing window |
 | :--: | :----- | :---------------- | :---------- | :------------------------ | :------------- |
 | 0 | W1B: syllabus and Code of Conduct | Sun Sep 13, 12:01am | Sun Sep 13, 12:01am to Sat Sep 19, 11:59pm | *No viewing* | *No viewing* |
 | 1 | W1C-W2C | Tue Sep 15, 10:00am | Wed Sep 23, 11:00am to Sun Sep 27, 11:59pm | Tue Sep 15, 10:00am | Mon Sep 28, 11:00am to Tue Sep 29, 11:59pm |
@@ -92,9 +98,9 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 | 5 | *Announced in class* | Tue Oct 13, 10:00am | Wed Nov 18, 10:00am to Wed Nov 25, 11:59pm | *To be announced* | *To be announced* |
 | All | Every quiz you sat | | | Tue Nov 10, 10:00am | Thu Nov 19, 10:00am to Thu Dec 3, 11:59pm |
 
-All times are Pacific. **Covers** uses the lecture codes from the [Schedule](schedule.md), so W2A is the first lecture of Week 2. A quiz sitting is 50 minutes, except Quiz 0, which was 20. A viewing is 20 minutes, and the final viewing of all your quizzes is 50.
+All times are Pacific. **New material** uses the lecture codes from the [Schedule](schedule.md), so W2A is the first lecture of Week 2. A quiz sitting is 50 minutes, except Quiz 0, which was 20. A viewing is 20 minutes, and the final viewing of all your quizzes is 50.
 
-Quiz 5 is the last quiz. Coverage for Quizzes 4 and 5 is announced in class, and the slides you can see inside ORCA stop at the last lecture a quiz covers.
+Quiz 5 is the last quiz. The new material for Quizzes 4 and 5 is announced in class. The slides you can see inside ORCA run from the start of the course up to the last lecture a quiz covers, because any of it can come up.
 
 The Dec 2 viva voce (a short one-on-one oral presentation) is not a quiz. It is graded as [Project 2C](project.md).
 
@@ -124,6 +130,7 @@ If you think there's a scoring error, see the [Remarking Policy](syllabus.md#rem
 
 | What to do | Why it helps |
 | :--------- | :----------- |
+| Review earlier topics, not only the newest lectures | Quizzes are cumulative, and new questions often lean on older ideas |
 | Redo lab and in-class activities without the answers | The quiz rewards reasoning you can reproduce, not answers you recognize |
 | Explain a concept out loud to someone | Shows gaps that re-reading hides |
 | Know your way around the slides | They are on screen during the quiz, so this saves time |
