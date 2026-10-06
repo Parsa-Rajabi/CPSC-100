@@ -6,15 +6,16 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 5 | Added a full schedule table: what each quiz covers, when reservations open, each quiz window, and each viewing window. Quiz 5 is now the last quiz. Quiz 4 moved to Oct 28 to Nov 4, Quiz 5 to Nov 18 to 25, and from Quiz 3 on each window runs a full week, Wednesday to Wednesday. |
 | Sep 28 | Quiz sitting windows now run through the weekend, Wednesday to Sunday. Added what to do if no session is available. |
 | Sep 24 | Reworded for readability. Removed the in-development note. |
 | Sep 14 | Quiz 0 details updated. The sitting window now runs to Sunday Sep 20 rather than Friday Sep 18. |
 
 ## Overview
 
-There are eight quizzes, Quiz 1 through Quiz 8, plus Quiz 0. You sit all nine in person at ORCA, UBC's computer-based testing centre. Each one runs 50 minutes, and each one is individual work. There is no midterm in this course, because the quizzes take its place. That's why there are so many of them, and why no single one carries much weight.
+There are six quizzes, Quiz 0 through Quiz 5. You sit all six in person at ORCA, UBC's computer-based testing centre. Each one runs 50 minutes, except Quiz 0, which was 20, and each one is individual work. There is no midterm in this course, because the quizzes take its place. That's why there are so many of them, and why no single one carries much weight.
 
-Your lowest of the nine is dropped automatically. The other eight count equally. So one bad morning will not follow you around.
+Your lowest quiz is dropped automatically. The others count equally. So one bad morning will not follow you around.
 
 Quizzes ask you to reason, trace a program, and apply an idea to an example you have not seen before. To trace a program means to follow it step by step and work out what it does. Quizzes are not memorization tests. Studying by rereading slides often doesn't work well.
 
@@ -22,7 +23,7 @@ Quizzes ask you to reason, trace a program, and apply an idea to an example you 
 
 Quiz 0 is a practice run of the whole ORCA process. It covers the [syllabus](syllabus.md) and the [Code of Conduct](code-of-conduct.md), so you can study for it straight from this website. You sit it in ORCA, it is marked like every other quiz, and it counts toward your quiz grade the same way.
 
-Two things about Quiz 0 are deliberately different from the rest. First, its sitting window (the days you can take it) is longer: Monday Sep 14 to Sunday Sep 20. That gives you time to find the facility without a deadline pressing on you. Second, reservations open Monday Sep 14 at 11:00am, the same morning the window itself opens. Every later quiz follows a different pattern, with reservations opening on the Tuesday before. In practice, that means you will book a session later in that week.
+Two things about Quiz 0 are deliberately different from the rest. First, its sitting window (the days you can take it) is a full week: Sunday Sep 13 to Saturday Sep 19. That gives you time to find the facility without a deadline pressing on you. Second, reservations open at the same moment the window itself opens. Every later quiz opens reservations well before its window, on the dates in the [schedule](#schedule).
 
 The window runs to the Sunday, but the weekend has fewer sessions than a weekday. Treat Saturday and Sunday as a backup, not the plan.
 
@@ -35,11 +36,11 @@ You book your own seat at [us.prairietest.com](https://us.prairietest.com), the 
 
 Quizzes are self-scheduled. That means you pick a session inside that quiz's window. Expect sessions from around 11:00am until roughly 6:00pm, seven days a week, with fewer on weekends. Treat that as a rough guide, not a promise. ORCA sets its own hours based on operational needs, and they can change without notice. The facility sometimes opens or closes earlier or later than usual. The sessions PrairieTest offers you when you go to book are the real answer.
 
-Most quizzes run from the Wednesday to the Sunday of that quiz's week, so the weekend is part of the window. Quiz 0 runs Monday to Sunday, and Quiz 2 starts on the Thursday because Week 4's Wednesday is Truth and Reconciliation Day.
+Each quiz has its own window, listed in the [schedule](#schedule) below. From Quiz 3 on, a window runs a full week, Wednesday to Wednesday, so a weekend is always part of it.
 
 Weekend sessions exist but there are fewer of them than on a weekday. Treat Saturday and Sunday as extra room to manoeuvre rather than as your first choice.
 
-Reservations open at 10:00am on the Tuesday before the week your quiz runs. It is first come, first served. So for a quiz sat in Week 3, booking opens on the Tuesday of Week 2. Quiz 0 is the exception: its reservations open Monday Sep 14 at 11:00am.
+Reservations usually open at 10:00am on a Tuesday, often more than a week before the quiz. It is first come, first served. The exact date for every quiz is in the [schedule](#schedule).
 
 > [!WARNING]
 > Book early. Seats are shared with other courses, and they do run out, especially around midday.
@@ -81,25 +82,19 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 
 ## Schedule
 
-| Quiz | Week | When | Reservations open, 10:00am |
-| :--: | :--: | :--- | :------------------------ |
-| 0 | 2 | Mon Sep 14 to Sun Sep 20 | Mon Sep 14, 11:00am |
-| 1 | 3 | Wed Sep 23 to Sun Sep 27 | Tue Sep 15 |
-| 2 | 4 | Thu Oct 1 to Sun Oct 4 | Tue Sep 22 |
-| 3 | 5 | Wed Oct 7 to Sun Oct 11 | Tue Sep 29 |
-| 4 | 6 | Wed Oct 14 to Sun Oct 18 | Tue Oct 6 |
-| *none* | 7 | [Project 1B](project-1.md) is due | |
-| 5 | 8 | Wed Oct 28 to Sun Nov 1 | Tue Oct 20 |
-| 6 | 9 | Wed Nov 4 to Sun Nov 8 | Tue Oct 27 |
-| *none* | 10 | Midterm Break | |
-| 7 | 11 | Wed Nov 18 to Sun Nov 22 | Tue Nov 10 |
-| 8 | 12 | Wed Nov 25 to Sun Nov 29 | Tue Nov 17 |
+| Quiz | Covers | Reservations open | Quiz window | Viewing reservations open | Viewing window |
+| :--: | :----- | :---------------- | :---------- | :------------------------ | :------------- |
+| 0 | W1B: syllabus and Code of Conduct | Sun Sep 13, 12:01am | Sun Sep 13, 12:01am to Sat Sep 19, 11:59pm | *No viewing* | *No viewing* |
+| 1 | W1C-W2C | Tue Sep 15, 10:00am | Wed Sep 23, 11:00am to Sun Sep 27, 11:59pm | Tue Sep 15, 10:00am | Mon Sep 28, 11:00am to Tue Sep 29, 11:59pm |
+| 2 | W3A-W3C | Tue Sep 15, 10:00am | Thu Oct 1, 11:00am to Sun Oct 4, 11:59pm | Tue Sep 15, 10:00am | Mon Oct 5, 11:00am to Sun Oct 11, 11:59pm |
+| 3 | W4A-W4C | Tue Sep 22, 10:00am | Wed Oct 7, 8:00am to Wed Oct 14, 11:59pm | Sun Oct 11, 10:00am | Thu Oct 15, 12:01am to Thu Oct 22, 11:59pm |
+| 4 | *Announced in class* | Tue Oct 13, 10:00am | Wed Oct 28, 12:01am to Wed Nov 4, 11:59pm | *To be announced* | *To be announced* |
+| 5 | *Announced in class* | Tue Oct 13, 10:00am | Wed Nov 18, 10:00am to Wed Nov 25, 11:59pm | *To be announced* | *To be announced* |
+| All | Every quiz you sat | | | Tue Nov 10, 10:00am | Thu Nov 19, 10:00am to Thu Dec 3, 11:59pm |
 
-Quiz 2 starts on the Thursday because Week 4's Wednesday is Truth and Reconciliation Day. So check that one booking twice. There is no quiz in Week 7, when [Project 1B](project-1.md) is due. There is also no quiz in Week 10, for Midterm Break. Quiz 8 in Week 12 is the last one. There is no quiz in Week 13.
+All times are Pacific. **Covers** uses the lecture codes from the [Schedule](schedule.md), so W2A is the first lecture of Week 2. A quiz sitting is 50 minutes, except Quiz 0, which was 20. A viewing is 20 minutes, and the final viewing of all your quizzes is 50.
 
-One date to watch: Quiz 7's reservations open on Tuesday Nov 10, in the middle of Midterm Break. If you are away that week, set yourself a reminder before you go.
-
-Before each quiz, we announce in class which lectures it covers. The slides you can see inside ORCA stop at that same point.
+Quiz 5 is the last quiz. Coverage for Quizzes 4 and 5 is announced in class, and the slides you can see inside ORCA stop at the last lecture a quiz covers.
 
 The Dec 2 viva voce (a short one-on-one oral presentation) is not a quiz. It is graded as [Project 2C](project.md).
 
@@ -119,7 +114,7 @@ Quizzes are open book, but only in one direction. Inside ORCA, the course slides
 
 Quizzes run on PrairieLearn, an online assessment system, and they are marked by the computer.
 
-You view your results in the facility on the Monday or Tuesday after you sit the quiz. Results are not emailed and aren't posted. Reservations for viewings open 3 to 4 days before the viewing window.
+You view your results in the facility, in a viewing session you book the same way as a quiz. Each viewing window, and when its reservations open, is in the [schedule](#schedule). After Quiz 5 there is also one longer viewing of every quiz you sat. Results are not emailed and aren't posted.
 
 If you think there's a scoring error, see the [Remarking Policy](syllabus.md#remarking-policy). The request window is short.
 
@@ -136,7 +131,7 @@ If you think there's a scoring error, see the [Remarking Policy](syllabus.md#rem
 
 ## If you miss a quiz
 
-Your lowest of the nine is dropped, so missing one costs you nothing and needs no email. But that drop is all the flexibility you get. Once it's used, every further missed quiz scores 0.
+Your lowest quiz is dropped, so missing one costs you nothing and needs no email. But that drop is all the flexibility you get. Once it's used, every further missed quiz scores 0.
 
 > [!ATTENTION]
 > There are no re-takes and no make-ups for quizzes.
@@ -150,7 +145,7 @@ If you are registered with the Centre for Accessibility, ORCA provides most acco
 
 | Situation | Result |
 | :-------- | :----- |
-| Your lowest of the 9 | Dropped automatically |
+| Your lowest quiz | Dropped automatically |
 | Missed quiz | 0, absorbed by your dropped quiz |
 | Second missed quiz | 0, no further flexibility |
 | Seat never booked | 0, same as a missed quiz |
