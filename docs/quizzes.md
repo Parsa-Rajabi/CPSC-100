@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 5 | Added the tentative new material for Quizzes 4 and 5. |
 | Oct 5 | Cleaned up the page. The schedule is near the top, viewing dates have their own table, and Quiz 0 and the booking steps are collapsed. Reworded what each quiz covers. |
 | Oct 5 | Made clear that every quiz is cumulative. The schedule table's column is now **New material**, the lectures added since the previous quiz, not the only lectures a quiz can draw on. |
 | Oct 5 | Added a full schedule table: what each quiz covers, when reservations open, each quiz window, and each viewing window. Quiz 5 is now the last quiz. Quiz 4 moved to Oct 28 to Nov 4, Quiz 5 to Nov 18 to 25, and from Quiz 3 on each window runs a full week, Wednesday to Wednesday. |
@@ -33,12 +34,12 @@ Each quiz mostly covers the content since the previous quiz. In programming, tho
 | Quiz&nbsp;1 | W1C to W2C | Tue Sep 15, 10am | Wed Sep 23 to Sun Sep 27 |
 | Quiz&nbsp;2 | W3A to W3C | Tue Sep 15, 10am | Thu Oct 1 to Sun Oct 4 |
 | Quiz&nbsp;3 | W4A to W4C | Tue Sep 22, 10am | Wed Oct 7 to Wed Oct 14 |
-| Quiz&nbsp;4 | *Announced in class* | Tue Oct 13, 10am | Wed Oct 28 to Wed Nov 4 |
-| Quiz&nbsp;5 | *Announced in class* | Tue Oct 13, 10am | Wed Nov 18 to Wed Nov 25 |
+| Quiz&nbsp;4 | W5B to W7C, *tentative* | Tue Oct 13, 10am | Wed Oct 28 to Wed Nov 4 |
+| Quiz&nbsp;5 | W8A to W9C, *tentative* | Tue Oct 13, 10am | Wed Nov 18 to Wed Nov 25 |
 
 - A window includes its first and last day. You can sit the quiz in any session PrairieTest offers you inside it.
 - **New material** uses the lecture codes from the [Schedule](schedule.md), so W2A is the first lecture of Week 2. It is where most of the marks are, but it is not the only material that can appear.
-- Quiz 5 is the last quiz. The new material for Quizzes 4 and 5 is announced in class.
+- Quiz 5 is the last quiz. The new material for Quizzes 4 and 5 is tentative. It is confirmed in class, in the last lecture before each quiz window opens.
 - All times are Pacific.
 - The Dec 2 viva voce (a short one-on-one oral presentation) is not a quiz. It is graded as [Project 2C](project.md).
 
