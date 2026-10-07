@@ -22,7 +22,7 @@ This course includes a lot of team project work. We will use project peer evalua
 
 All three are due at 11:59pm Pacific. The [Schedule](schedule.md) page shows them alongside everything else due that week.
 
-We will use the practice round to make sure the peer evaluation tools work as expected. It also makes sure everyone understands the process before peer evaluations count for marks. The graded rounds count for marks. They apply a peer evaluation multiplier to each student's milestone grade. A multiplier is a number that your grade gets multiplied by.
+The graded rounds count for marks. They apply a peer evaluation multiplier to each student's milestone grade. A multiplier is a number that your grade gets multiplied by.
 
 The purpose of this policy is to recognize meaningful contribution, reliability, collaboration, and professionalism in team-based work. Peer evaluation is not meant to reward popularity or penalize personality differences. It is meant to help the teaching team work out how the work was actually shared within the group.
 
@@ -30,9 +30,16 @@ Peer evaluations are also governed by the [CPSC 100 Artificial Intelligence Use 
 
 ---
 
-## Practice Peer Evaluation
+## How Feedback Is Shared
 
-We will use peer evaluation for an early milestone as a practice round. This round makes sure the peer evaluation tools work as expected. It also makes sure everyone understands the process before peer evaluations count for marks in later milestones.
+Peer evaluation scores and written comments may be shared with group members. If the system works as expected, this feedback will be shared anonymously. This means students can see the scores and comments they received. They cannot see the name of the person who submitted each evaluation.
+
+Because of system limits, students cannot opt out of having peer evaluation feedback shared with group members. So all comments must be written professionally, respectfully, and constructively. Comments should focus on specific behaviours, contributions, communication patterns, and project work, not on personal characteristics.
+
+<details>
+<summary>The practice round, iPeer 0, from October 1</summary>
+
+We used peer evaluation for an early milestone as a practice round. It checked that the peer evaluation tools work as expected, and that everyone understood the process before peer evaluations count for marks.
 
 Students will use the same general criteria as the graded peer evaluations. This gives everyone a chance to get familiar with:
 
@@ -44,9 +51,7 @@ Students will use the same general criteria as the graded peer evaluations. This
 
 The practice round is required. Because it is practice, there are no quality deductions. You get feedback on your comments instead. A late practice round has a small penalty, explained in [Late Peer Evaluations](#late-peer-evaluations).
 
-Peer evaluation scores and written comments may be shared with group members. If the system works as expected, this feedback will be shared anonymously. This means students can see the scores and comments they received. They cannot see the name of the person who submitted each evaluation.
-
-Because of system limits, students cannot opt out of having peer evaluation feedback shared with group members. So all comments must be written professionally, respectfully, and constructively. Comments should focus on specific behaviours, contributions, communication patterns, and project work, not on personal characteristics.
+</details>
 
 ---
 
@@ -109,7 +114,8 @@ You must submit every peer evaluation, including the practice round. You cannot 
 
 The free late stand-up does not apply to peer evaluations.
 
-### iPeer 0
+<details>
+<summary>Worked example for a late iPeer 0</summary>
 
 Suppose your group scores 90% on Project 1 Part C, and your peer evaluation multiplier is 0.875. Your mark before any iPeer 0 penalty is 90 × 0.875 = 78.75%.
 
@@ -118,6 +124,8 @@ Suppose your group scores 90% on Project 1 Part C, and your peer evaluation mult
 | You submitted iPeer 0 on time | 90 × 0.875 = 78.75 | 78.75% |
 | You submitted iPeer 0 3 hours late. Part of a 12-hour period counts as a full one, so this is 1 period | 78.75 − (1 × 0.25) = 78.75 − 0.25 | 78.50% |
 | You submitted iPeer 0 20 hours late. That is 2 periods | 78.75 − (2 × 0.25) = 78.75 − 0.5 | 78.25% |
+
+</details>
 
 ### iPeer 1 and iPeer 2
 

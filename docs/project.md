@@ -1,7 +1,7 @@
 # Project
 
 > [!NOTE]
-> This page is still being written. For now, the projects below are described at a high level while the details are worked out. Full specifications, deadlines, and grading will be published before each project starts.
+> This page is still being written. Project 1 is fully described on the [Project 1](project-1.md) page. Project 2 is described at a high level for now, and its full specification, deadlines, and grading will be published before it starts.
 
 ## Changelog
 
@@ -18,9 +18,9 @@
 
 The course project runs the whole term. It is where you use most of what you learn on something real. There are two projects, and both mix individual and group work.
 
-Groups are 4 to 5 students. You are strongly encouraged to find your own group members. To help with that, there is a group formation activity in Lab 1. You confirm your group through the group formation survey, due Friday Sep 18.
+Groups are 4 to 5 students. They were formed in September, through a group formation activity in Lab 1 and the group formation survey.
 
-Groups don't span lab sections. Everyone in your group attends the same section, so you share lab time and have the same lead TA (teaching assistant) to go to. Keep that in mind while you're looking. A promising teammate in a different section is not an option.
+Groups do not span lab sections. Everyone in your group attends the same section, so you share lab time and have the same lead TA (teaching assistant) to go to.
 
 Each project is built from several parts. You submit them separately, not as one package at the end. The last part of each project is a presentation.
 
@@ -111,10 +111,20 @@ In peer evaluation, group members rate each other's contribution. It runs in iPe
 
 Your contract is a written agreement within your group. It sets out roles, expectations, how you communicate, and how you resolve conflict. Name specific behaviours, timelines, and consequences. "We will communicate well" is not a contract.
 
+Your group wrote its contract in September, and it governs how your group works for the rest of the term. Revisit it before each graded peer evaluation. Guidance is on [Group Work Resources](group-work-resources.md).
+
+Use the contract template, available in both formats:
+
+- [Group Contract Template (PDF)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-template.pdf)
+- [Group Contract Template (Word)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-template.docx)
+
+<details>
+<summary>Contract deadlines and penalties, from September</summary>
+
 > [!ATTENTION]
 > You cannot proceed with the group project until your TA has approved your contract.
 
-The contract is due Fri Sep 25 at 11:59pm. Your TA either approves it or sends it back for revision. Re-submissions are due Thu Oct 1 at 11:59pm. Your group gets one free revision, so treat the first submission as the real one. Guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
+The contract was due Fri Sep 25 at 11:59pm. Your TA either approves it or sends it back for revision. Re-submissions were due Thu Oct 1 at 11:59pm. Your group gets one free revision, so treat the first submission as the real one. Guidance for writing the contract is on [Group Work Resources](group-work-resources.md).
 
 A late contract is still required, because your group cannot move ahead without an approved one. Penalties come off your group's grade for [Project 1 Part B](project-1.md#part-b-the-ai-detector-experiment), so every member loses the same amount.
 
@@ -140,10 +150,7 @@ Everyone in the group gets 25% on Part B.
 
 </details>
 
-Use the contract template, available in both formats:
-
-- [Group Contract Template (PDF)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-template.pdf)
-- [Group Contract Template (Word)](https://parsa-rajabi.github.io/CPSC-100/assets/group-resources/group-contract-template.docx)
+</details>
 
 ### If contribution is uneven
 

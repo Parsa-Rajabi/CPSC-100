@@ -41,7 +41,7 @@ Each section has a lead TA who runs it and a support TA who assists, so you see 
 Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation Day, or in Week 10, for Midterm Break. The focus below is a rough guide. What each lab actually covers is posted on PrairieLearn before the session.
 
 > [!NOTE]
-> Project deadlines aren't listed here. Labs 1 to 5 all support [Project 1](project-1.md), and every Project 1 date lives on [the Project 1 page](project-1.md#the-flow). That keeps a single copy to maintain, and the schedule there is still tentative until Wednesday Sep 23.
+> Project deadlines aren't listed here. Labs 1 to 5 all support [Project 1](project-1.md), and every Project 1 date lives on [the Project 1 page](project-1.md#the-flow). That keeps a single copy to maintain.
 
 | Week |  Lab   | Wed / Thu   | Focus                                                         |
 | :--: | :----: | :---------- | :------------------------------------------------------------ |
@@ -65,16 +65,16 @@ Need to reach your TA? Start with Ed Discussion, which is where lab questions be
 
 All lab content runs on [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/), including the pre-labs. Most of the programming happens in Snap! at [snap.berkeley.edu](https://snap.berkeley.edu), which runs in your browser with nothing to install, and moves to Jupyter notebooks for Python later in the term. Course discussion, including your weekly project stand-ups, lives on Ed Discussion.
 
-Bring a laptop. The room has CS computers as a backup if you forget yours or something goes wrong, which is the real reason your CS account matters before Lab 1.
+Bring a laptop. The room has CS computers as a backup if you forget yours or something goes wrong. You log in to them with your CS account.
 
-### Your CS account
+<details>
+<summary>Your CS account, and what to do if it does not work</summary>
 
 Your CS account is what logs you in to the computers in ICCS X050, and it's separate from your CWL. Activate it at [cs.ubc.ca/getacct](https://www.cs.ubc.ca/getacct/) using your CWL as soon as you are registered. The account itself is `CWLid@students.cs.ubc.ca`.
 
-Sort this out before Lab 1 rather than during it. A lab is 50 minutes, and you don't want to spend any of them on account setup.
+Sort this out before your next lab rather than during it. A lab is 50 minutes, and you do not want to spend any of them on account setup.
 
-<details>
-<summary>If your account doesn't work</summary>
+If your account does not work:
 
 - Already taken a CPSC course? Your old account is reused, but you still need to run getacct to activate it for this term.
 - Registered late? Accounts are built from Registrar data, so yours may take a few days to appear.
@@ -99,9 +99,12 @@ Every lab opens with your group already working, which only works if everyone ar
 
 Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs 0.25 points, and turning up late costs another 0.25 points, because each one leaves your group waiting on you. The two deductions stack, so doing both costs 0.5 points. Your one free late arrival for the semester is covered under [Attendance and late arrival](#attendance-and-late-arrival).
 
-### Lab 0
+<details>
+<summary>Lab 0, the setup homework from Week 1</summary>
 
 Lab 0 isn't a session you show up to. It's homework on [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/), and it doubles as the pre-lab for Lab 1, so it's graded as part of Lab 1. Complete it before your section meets in Week 2. The Lab 0 assessment itself tells you what to do.
+
+</details>
 
 Labs 1 through 9 each have a pre-lab. Lab 10 doesn't, since it's the viva voce and carries no lab grade of its own.
 
