@@ -2,12 +2,12 @@
 
 > [!NOTE]
 > This page is not finished yet, but everything below is solid enough to plan around. Please read
-> it now. Three things are still to come:
+> it now. Two things are still to come:
 >
-> - The full grading rubric for Parts A, B and C. The [rubric for the Part B dataset](#rubric) is
->   already posted
-> - How to disclose your AI use: the process and the form to use
-> - The exact submission location for Part A
+> - The full grading rubric for Parts B and C. The [Part A rubric](#part-a-rubric) and the
+>   [rubric for the Part B dataset](#rubric) are already posted
+> - How to disclose your AI use in Parts B and C: the process and the form to use. Part A has its
+>   own [AI use line](#using-ai-in-part-a)
 >
 > The schedule below may still change. Anything that moves gets recorded in the changelog.
 
@@ -15,6 +15,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
 | Sep 25 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
@@ -49,7 +50,7 @@ have read one, tested several, and taken one apart.
 
 | Part | What it is | Who does it | Weight | Due |
 | :--: | :--------- | :---------- | :----: | :-- |
-| A | Your digital footprint | Individual | 1% | End of your Lab 3 hour, Oct 7 or 8 |
+| A | Your digital footprint | Individual | 1% | The day after your Lab 3, Thu Oct 8 or Fri Oct 9 |
 | B | The AI detector experiment | Starts individual, becomes group | 4% | Tue Oct 20 |
 | C | Algorithmic bias case study | Group | 10% | Tue Oct 27 |
 
@@ -71,7 +72,7 @@ they come to 15%, and Project 2 is the other 15%. See
 
 | Part | Deliverable                                                               | Where  |
 | :--: | :------------------------------------------------------------------------ | :----- |
-|  A   | A short individual reflection, your two scores, and your code annotations | *TBD*  |
+|  A   | Your annotated Snap! project, and one PDF with your two scores and a short reflection | Canvas |
 |  B   | Two documents: your image dataset, and your evaluation                    | Canvas |
 |  C   | A written report using the 9-section template, and a recorded video       | Canvas |
 
@@ -95,7 +96,7 @@ Along the way you will also submit:
 | 2 | Lab 1 | Project introduced. Groups start forming. | Group formation survey, Fri Sep 18 |
 | 3 | Lab 2 | Snap! programming. Start looking for images. | [Group contract](project.md#group-contract), Fri Sep 25 |
 | 4 | *no lab* | Independent work. Truth and Reconciliation Day. | Image dataset for TA sign-off, Thu Oct 1<br>[Peer evaluation practice round](project-peer-evaluation.md), Thu Oct 1<br>[Group contract](project.md#group-contract) re-submissions, Thu Oct 1<br>[Stand-up 0](#weekly-stand-ups), a required practice round, Fri Oct 2 |
-| 5 | Lab 3 | Part A runs in lab, start to finish. | Part A, end of your lab hour<br>Stand-up 1, Fri Oct 9 |
+| 5 | Lab 3 | Part A runs in lab, start to finish. | Part A, the day after your lab<br>Stand-up 1, Fri Oct 9 |
 | 6 | Lab 4 | Working block for Part B. | Stand-up 2, Fri Oct 16 |
 | 7 | Lab 5 | Working block for Part C. | Part B, Tue Oct 20<br>Stand-up 3, Fri Oct 23 |
 | 8 | Lab 6 | Project 2 begins. | Part C, Tue Oct 27<br>Retrospective and [iPeer 1](project-peer-evaluation.md)<br>Stand-up 4, Fri Oct 30 |
@@ -104,8 +105,8 @@ Three things to notice:
 
 - Week 4 has no lab, but your dataset is due that week. Lab 2 in Week 3 is your last scheduled
   group time before then, so use it.
-- Part A is finished and handed in during the lab hour. That's why it's only worth 1%, and why
-  you aren't expected to work on it at home.
+- Most of Part A happens during the lab hour, including your annotations. Only the reflection is
+  written afterwards, and everything is due the next day. That is why Part A is only worth 1%.
 - Part C can't really start before October 14. The Algorithmic Bias lecture that day gives you
   the framework the report is built around, so Week 6 isn't free time.
 
@@ -115,8 +116,8 @@ Three things to notice:
 Hour estimates for each part are still being worked out, and they'll be added here once they're
 settled.
 
-What we can tell you now is the shape of it. Part A is finished inside the lab hour, so it needs
-no time outside lab at all. Part B's hours are spread thinly across several weeks, and most of
+What we can tell you now is the shape of it. Part A happens mostly inside the lab hour, and
+only the short reflection needs time outside lab. Part B's hours are spread thinly across several weeks, and most of
 that is collecting images. Part C's are concentrated into two weeks, and it's the biggest of the
 three.
 
@@ -130,8 +131,9 @@ was A 0, B 5 to 6, C 6 to 8. Neither is confirmed. -->
 
 ## Part A: Your Digital Footprint
 
-Part A is individual work, worth 1%, and it runs in [Lab 3](labs.md) on October 7 and 8. It's due
-at the end of your lab hour.
+Part A is individual work, worth 1%, and it runs in [Lab 3](labs.md) on October 7 and 8. You
+annotate the script during the lab, and you hand in everything on Canvas by the day after your
+lab.
 
 Most of your digital life is invisible to you. It built up across different platforms over years,
 and there's nowhere you can go to see the shape of it all at once.
@@ -159,10 +161,11 @@ changed in that half hour, but your score probably has. Part A asks you to expla
 - Fill in your Pre-lab 3 answer sheet beforehand, so that round 2 uses the same answers as
   round 1 rather than a second guess
 - Run the calculator with the starting weights and write down your round 1 score
-- Annotate three parts of the script in your own words
+- Annotate three parts of the script in your own words, as comments in Snap!
 - Take part in the class vote on the weights
 - Run the calculator again with the same answers and write down your round 2 score
 - Compare with a partner, then get checked off by your TA
+- Export your annotated project as an XML file before you leave
 
 <details>
 <summary>More detail on the calculator and what to annotate</summary>
@@ -177,6 +180,11 @@ else's.
 
 Annotating means explaining what a piece of code does in ordinary language. You're not translating
 it block by block, you're saying what that part of the script is for.
+
+Write each annotation as a Snap! comment. Right-click an empty part of the script area,
+choose add comment, type your annotation, then drag the comment onto the block it explains so it
+stays attached. Comments are saved inside the project, so your TA reads them in the file you
+export.
 
 Annotate these three parts:
 
@@ -196,10 +204,21 @@ Annotate these three parts:
 
 ### What you need to hand in
 
-- Your round 1 and round 2 scores, and which factor's weight change moved your score most
-- Your three annotations
-- Answers to the four reflection questions below
-- Your own work, written by you
+You hand in two files on Canvas, together in one submission to Project 1A.
+
+| File | What it contains |
+| :--- | :--------------- |
+| Your annotated Snap! project, exported as an XML file | Your three annotations, as comments attached to the parts of the script they explain |
+| One PDF | Your AI use line, at the top. Then your round 1 and round 2 scores, which factor's weight change moved your score most, and your answers to the four reflection questions below |
+
+Part A is due at 11:59pm Thursday October 8 if your lab is on Wednesday (L1A to L1D), and at
+11:59pm Friday October 9 if your lab is on Thursday (L1E).
+
+To export your project, open the File menu in Snap! (the page icon at the top left) and choose
+Export project. Snap! saves an XML file to your computer. Do this before you leave the lab, and
+before you change anything beyond the weights.
+
+All of it must be your own work, written by you.
 
 <details>
 <summary>The four reflection questions</summary>
@@ -213,6 +232,28 @@ Annotate these three parts:
 Question 4 counts for the most, because it asks you to think past the tool itself.
 
 </details>
+
+### Using AI in Part A
+
+We strongly encourage you to write your annotations and your reflection without AI. Part A is
+practice at reading code and explaining it in your own words, and that practice only works if the
+thinking is yours.
+
+Start your PDF with the one line below that is true for you. Copy it as it is written.
+
+| | Line to copy |
+| :-: | :----------- |
+| 🟢 | AI use: Green. I did not use AI for my annotations or reflection. |
+| 🟡 | AI use: Yellow. I used AI to understand the code or check my wording, but every annotation and answer is in my own words. |
+| 🔴 | AI use: Red. AI wrote some of my annotations or reflection. |
+
+No colour costs marks on its own. Your work is graded on the [rubric](#part-a-rubric), whichever
+line you choose, and choosing honestly is what the
+[AI Policy](ai-policy.md#be-transparent-about-ai-use) asks of you.
+
+If you do use AI, do not give it your answers to the calculator questions. The AI Policy asks you
+to [use fictional examples](ai-policy.md#protect-privacy-and-course-material) for your digital
+footprint.
 
 ### Where you have a choice
 
@@ -231,10 +272,23 @@ that week, but Part A is still open to you.
 You won't have a partner for question 2, so bring your scores to a TA's
 [drop-in hours](drop-in-hours.md) and compare there instead.
 
+Annotate the posted calculator as comments, the same way, then export it. Your deadline does not
+change: hand in both files on Canvas by 11:59pm the day after your scheduled lab.
+
 </details>
 
-<!-- TODO: instructor decision required. Annotation count is three here, matching Lab 3's
-PrairieLearn guide and its TA checkoff. The dev-repo draft says two. Confirm and align.
+### Part A rubric
+
+Part A is graded as one criterion, using all three deliverables together. Your TA reads your
+annotations in your Snap! project and everything else in your PDF.
+
+| Criterion | Complete (1) | Partial (0.5) | Incomplete or absent (0) |
+| :-- | :-- | :-- | :-- |
+| Part A deliverables: your two scores, your three annotations, and your reflection | All three deliverables are present. Both scores are recorded, along with the factor whose weight change moved your score most. All three parts of the script are annotated, and each annotation is correct and explains, in your own words, what that part of the script is for. All four reflection questions are answered with a reason. Question 4 names something the calculator did not ask about and explains why it belongs. | All three deliverables are present, but at least one falls short. For example, a part of the script is not annotated, an annotation is incorrect or only restates the blocks, a reflection answer gives no reason, or question 4 names something without explaining why it belongs. | At least one deliverable is missing entirely: no scores, no annotations, or no reflection. |
+
+Answers are judged on their reasoning, not on how much personal detail they share.
+
+<!-- Annotation count confirmed as three on Oct 6, and all three are required for Complete.
 
 Factor count verified against CPSC-100-dev/labs/assets/lab3.xml: six weighted factors
 (numPlatforms, oldestAccountYears, publicProfiles, personalInfoShared, photos, contentType),
@@ -911,7 +965,8 @@ dev-repo draft's notes, which say "check before this goes to students":
 ## How this is graded
 
 > [!NOTE]
-> The rubric is still being finalized and will be released in the coming weeks.
+> The [Part A rubric](#part-a-rubric) is posted. The rubric for Parts B and C is still being
+> finalized and will be released in the coming weeks.
 >
 > It will describe what successful work looks like for each part. Every criterion will match
 > something this page has already asked for, so nothing new gets added to the requirements above.

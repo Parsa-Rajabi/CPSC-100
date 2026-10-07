@@ -393,6 +393,20 @@
 
           });
 
+        },
+        // Docsify does not scroll to a ?id= anchor when a page is first opened from outside the
+        // site (a link in Canvas or Ed, or the Canvas iframe), so scroll once that page renders.
+        function (hook, vm) {
+          var firstLoad = true;
+          hook.doneEach(function () {
+            var id = firstLoad && vm.route.query.id;
+            firstLoad = false;
+            var target = id && document.getElementById(id);
+            if (target) {
+              // window.scrollTo, not scrollIntoView, so the Canvas page around an iframe stays put.
+              setTimeout(function () { window.scrollTo(0, target.getBoundingClientRect().top + window.scrollY); }, 0);
+            }
+          });
         }
       ]
     }
