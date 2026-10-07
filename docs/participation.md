@@ -9,6 +9,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 6 | Collapsed the iClicker setup steps, now that they have passed. |
 | Sep 24 | Clarified: one free lab late arrival per semester. Reworded for readability. |
 
 ## Overview
@@ -23,13 +24,16 @@ There are 35 lecture sessions this term. Two are not graded, leaving 33 that are
 
 Labs are not part of this component. Lab attendance is graded separately, on the [Labs](labs.md) page.
 
-## Set up iClicker before your second lecture
+<details>
+<summary>Setting up iClicker</summary>
 
 1. Install the iClicker app on your phone. This course is app-only; physical remotes are not supported.
 2. Join CPSC 100 using this link: [join.iclicker.com/MGAK](https://join.iclicker.com/MGAK)
 3. Use the first lecture, Sep 9, to check it works. That session is not graded, so it is a free trial run.
 
 There is no cost to you. You do not need a paid iClicker subscription for this course.
+
+</details>
 
 ## Schedule
 
