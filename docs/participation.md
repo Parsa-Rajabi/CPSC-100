@@ -9,7 +9,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 6 | Collapsed the iClicker setup steps, now that they have passed. |
 | Sep 24 | Clarified: one free lab late arrival per semester. Reworded for readability. |
 
 ## Overview

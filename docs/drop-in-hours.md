@@ -6,7 +6,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 6 | Removed the Tue Oct 6 cancellation notice and the Week 4 start note, now that both have passed. |
 | Oct 5 | Parsa S.'s Tuesday 1:30-2:30pm hours are cancelled for Tue Oct 6 only. |
 | Sep 24 | Reworded for readability. Fixed a room number (X241). |
 

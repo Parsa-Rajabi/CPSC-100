@@ -6,7 +6,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 6 | Collapsed the practice round details, now that iPeer 0 has passed. How feedback is shared now has its own section. |
 | Sep 30 | iPeer 0 is now required, with a small late penalty and no quality deductions. Every round must be submitted, even late. |
 | Sep 24 | Reworded for readability. |
 

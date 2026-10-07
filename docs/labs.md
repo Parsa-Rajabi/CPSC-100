@@ -9,7 +9,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 6 | Collapsed the CS account setup and Lab 0, now that they have passed. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
 
 ## Overview

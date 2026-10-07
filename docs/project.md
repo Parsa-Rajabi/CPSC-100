@@ -9,7 +9,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 6 | Collapsed the group contract deadlines and penalties, now that they have passed. Groups were formed in September. |
 | Sep 30 | Added the stand-up schedule and late penalties, and late penalties for retrospectives. Late stand-ups, retrospectives and peer evaluations are now listed as exceptions to the no-late-work rule. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
