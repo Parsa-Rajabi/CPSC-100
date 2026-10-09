@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Card Demos | CPSC 100</title>
+  <meta name="description" content="Watch, then try, the W5A searching and sorting algorithms with playing cards.">
+  <link rel="icon" href="../assets/favicon/ubc-favicon.jpg">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #092042;
+      --gold: #E0AB3A;
+      --indigo: #140480;
+      --iteration: #B34A22;
+      --selection: #723289;
+      --sequencing: #35746E;
+      --ink: #1c2333;
+      --muted: #545f73;
+      --line: #d5dae3;
+      --page: #f3f5f9;
+      --heart: #c3262e;
+      --club: #16181d;
+      --anim: 450ms;
+      color-scheme: light;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.4;
+      overflow-x: hidden;
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    /* Header ------------------------------------------------------------- */
+
+    .top {
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .top-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 4px 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--indigo);
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .back-link {
+      color: #0374B5;
+      font-weight: 600;
+    }
+
+    .back-link:focus-visible {
+      outline: 3px solid var(--indigo);
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+
+    main {
+      padding-top: 12px;
+      padding-bottom: 32px;
+    }
+
+    /* Buttons ------------------------------------------------------------ */
+
+    button {
+      font: inherit;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      min-height: 44px;
+      padding: 8px 16px;
+      border: 2px solid var(--navy);
+      border-radius: 10px;
+      background: #fff;
+      color: var(--navy);
+      font-weight: 600;
+      line-height: 1.15;
+      cursor: pointer;
+      transition: background-color 150ms, color 150ms, transform 120ms;
+    }
+
+    .btn:hover {
+      background: #e9edf5;
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .btn.primary {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    .btn.primary:hover {
+      background: #133466;
+    }
+
+    .btn:disabled,
+    .btn[aria-disabled="true"] {
+      opacity: 0.45;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn:disabled:hover,
+    .btn[aria-disabled="true"]:hover {
+      background: #fff;
+    }
+
+    .btn.primary:disabled:hover,
+    .btn.primary[aria-disabled="true"]:hover {
+      background: var(--navy);
+    }
+
+    .btn:focus-visible,
+    .tab:focus-visible,
+    .seg button:focus-visible {
+      outline: 3px solid var(--indigo);
+      outline-offset: 2px;
+    }
+
+    .icon {
+      font-size: 0.85em;
+      line-height: 1;
+    }
+
+    /* Algorithm tabs ---------------------------------------------------- */
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .tab {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 44px;
+      padding: 8px 14px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+      color: var(--navy);
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 150ms, box-shadow 150ms;
+    }
+
+    .tab:hover {
+      background: #e9edf5;
+    }
+
+    .tab-num {
+      display: inline-grid;
+      place-items: center;
+      width: 1.5em;
+      height: 1.5em;
+      border-radius: 50%;
+      background: #e3e8f1;
+      font-size: 0.85em;
+    }
+
+    .tab[aria-pressed="true"] {
+      border-color: var(--navy);
+      background: var(--navy);
+      color: #fff;
+      box-shadow: inset 0 -4px 0 var(--gold);
+    }
+
+    .tab[aria-pressed="true"] .tab-num {
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    /* Mode switch and idea line ----------------------------------------- */
+
+    .mode-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 16px;
+      margin-bottom: 10px;
+    }
+
+    .seg {
+      display: inline-flex;
+      flex: 0 0 auto;
+      padding: 3px;
+      border: 2px solid var(--navy);
+      border-radius: 999px;
+      background: #fff;
+    }
+
+    .seg button {
+      min-height: 38px;
+      padding: 4px 18px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--navy);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .seg button[aria-pressed="true"] {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    .seg.small button {
+      min-height: 34px;
+      padding: 2px 12px;
+      font-weight: 600;
+    }
+
+    .idea {
+      flex: 1 1 320px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .idea-label {
+      color: var(--navy);
+      font-weight: 700;
+    }
+
+    /* The table --------------------------------------------------------- */
+
+    .table {
+      --card-w: 96px;
+      --gap: 10px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px 28px;
+      padding: 8px 16px;
+      border-radius: 18px;
+      background:
+        radial-gradient(ellipse at 50% -10%, rgba(255, 255, 255, 0.12), transparent 60%),
+        radial-gradient(ellipse at 50% 120%, rgba(0, 0, 0, 0.35), transparent 60%),
+        var(--navy);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07), 0 10px 24px rgba(9, 32, 66, 0.22);
+    }
+
+    .table.target-top {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .target {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      flex: 0 0 auto;
+      padding-top: 6px;
+      color: var(--gold);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+    }
+
+    .table.target-top .target {
+      flex-direction: row;
+      gap: 10px;
+      padding-top: 10px;
+    }
+
+    .target .card-static {
+      width: var(--card-w);
+      height: calc(var(--card-w) * 1.4);
+      position: relative;
+    }
+
+    .table.target-top .target .card-static {
+      --card-w: 40px;
+    }
+
+    .target .front {
+      box-shadow: 0 0 0 2px var(--gold), 0 6px 14px rgba(0, 0, 0, 0.4);
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: var(--gap);
+      flex: 1 1 auto;
+      min-width: 0;
+      padding: 14px 0 22px;
+    }
+
+    .slot {
+      position: relative;
+      flex: 0 0 auto;
+      width: var(--card-w);
+    }
+
+    /* Cards ------------------------------------------------------------- */
+
+    .card {
+      position: relative;
+      display: block;
+      width: var(--card-w);
+      height: calc(var(--card-w) * 1.4);
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: calc(var(--card-w) * 0.09);
+      background: none;
+      color: inherit;
+      perspective: 700px;
+      cursor: default;
+      transition: transform calc(var(--anim) * 0.6) ease, opacity var(--anim) ease, filter var(--anim) ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .card.is-pickable {
+      cursor: pointer;
+    }
+
+    .card.is-pickable:hover {
+      transform: translateY(-4px);
+    }
+
+    .card:focus-visible {
+      outline: 3px solid #fff;
+      outline-offset: 4px;
+    }
+
+    .card-inner {
+      position: absolute;
+      inset: 0;
+      transform-style: preserve-3d;
+      transition: transform calc(var(--anim) * 1.15) cubic-bezier(0.3, 0.7, 0.25, 1);
+    }
+
+    .card.is-down .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .face {
+      position: absolute;
+      inset: 0;
+      border-radius: calc(var(--card-w) * 0.09);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+      /* The visibility swap at the half-way point backs up backface-visibility, so the
+         right face still shows if a browser flattens the 3D (a scaled or zoomed frame). */
+      transition: box-shadow calc(var(--anim) * 0.6) ease,
+        visibility 0s linear calc(var(--anim) * 0.575);
+      overflow: hidden;
+    }
+
+    .card.is-down .front,
+    .card:not(.is-down) .back {
+      visibility: hidden;
+    }
+
+    .front {
+      background: #fff;
+      border: 1px solid #c9ced8;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .front.hearts {
+      color: var(--heart);
+    }
+
+    .front.clubs {
+      color: var(--club);
+    }
+
+    .corner {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1px;
+    }
+
+    .corner.tl {
+      top: 6%;
+      left: 9%;
+    }
+
+    .corner.br {
+      right: 9%;
+      bottom: 6%;
+      transform: rotate(180deg);
+    }
+
+    .corner .r {
+      font-size: calc(var(--card-w) * 0.24);
+    }
+
+    .corner .s {
+      font-size: calc(var(--card-w) * 0.17);
+    }
+
+    .pip {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      font-size: calc(var(--card-w) * 0.5);
+    }
+
+    .back {
+      transform: rotateY(180deg);
+      border: 2px solid #f4f1e8;
+      background:
+        repeating-linear-gradient(45deg, rgba(224, 171, 58, 0.75) 0 1.5px, transparent 1.5px 8px),
+        repeating-linear-gradient(-45deg, rgba(224, 171, 58, 0.75) 0 1.5px, transparent 1.5px 8px),
+        #0b2a57;
+      background-clip: padding-box;
+    }
+
+    .back::after {
+      content: "";
+      position: absolute;
+      inset: 8%;
+      border: 1.5px solid rgba(224, 171, 58, 0.9);
+      border-radius: calc(var(--card-w) * 0.05);
+    }
+
+    /* Compared cards lift and get a gold outline. */
+    .card.is-focus {
+      transform: translateY(-10px);
+    }
+
+    .card.is-focus .face {
+      box-shadow: 0 0 0 3px var(--gold), 0 12px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Sorted cards get a gold edge along the bottom. */
+    .card.is-sorted .front::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: max(4px, calc(var(--card-w) * 0.08));
+      background: var(--gold);
+    }
+
+    /* Binary search dims the ruled-out cards. */
+    .card.is-out {
+      opacity: 0.3;
+      filter: saturate(0.3);
+      transform: scale(0.92);
+    }
+
+    .tag {
+      position: absolute;
+      top: calc(100% + 5px);
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 1px 7px;
+      border-radius: 999px;
+      background: var(--gold);
+      color: var(--navy);
+      font-size: 0.75rem;
+      font-weight: 700;
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity calc(var(--anim) * 0.6) ease;
+      pointer-events: none;
+    }
+
+    .tag .short {
+      display: none;
+    }
+
+    .slot.is-marked .tag {
+      opacity: 1;
+    }
+
+    /* Small cards: drop the lower corner and keep the rank readable. */
+    .table.is-tiny .corner.br {
+      display: none;
+    }
+
+    .table.is-tiny .corner.tl {
+      top: 5%;
+      left: 0;
+      right: 0;
+    }
+
+    .table.is-tiny .corner .r {
+      font-size: max(12px, calc(var(--card-w) * 0.36));
+    }
+
+    .table.is-tiny .corner .s {
+      font-size: max(9px, calc(var(--card-w) * 0.26));
+    }
+
+    .table.is-tiny .pip {
+      top: 40%;
+      font-size: calc(var(--card-w) * 0.4);
+    }
+
+    .table.is-tiny .tag {
+      padding: 0 4px;
+      font-size: 0.68rem;
+    }
+
+    .table.is-tiny .tag .long {
+      display: none;
+    }
+
+    .table.is-tiny .tag .short {
+      display: inline;
+    }
+
+    .table.is-tiny .card.is-focus {
+      transform: translateY(-7px);
+    }
+
+    .table.is-tiny .back {
+      border-width: 1.5px;
+      background:
+        repeating-linear-gradient(45deg, rgba(224, 171, 58, 0.75) 0 1px, transparent 1px 5px),
+        repeating-linear-gradient(-45deg, rgba(224, 171, 58, 0.75) 0 1px, transparent 1px 5px),
+        #0b2a57;
+    }
+
+    /* Narration --------------------------------------------------------- */
+
+    .narration {
+      min-height: calc(2.8em + 20px);
+      margin: 10px 0;
+      padding: 10px 16px;
+      border-left: 5px solid var(--gold);
+      border-radius: 8px;
+      background: #fff;
+      font-size: 1.15rem;
+    }
+
+    .narration .prompt {
+      display: block;
+      margin-top: 2px;
+      color: var(--indigo);
+      font-weight: 700;
+    }
+
+    .narration.is-feedback {
+      border-left-color: var(--iteration);
+      background: #fdf3ee;
+    }
+
+    /* Controls ---------------------------------------------------------- */
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .controls .spacer {
+      flex: 1 1 0;
+    }
+
+    .speed {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .bottom-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px 16px;
+    }
+
+    .keys {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    kbd {
+      display: inline-block;
+      min-width: 1.6em;
+      padding: 0 5px;
+      border: 1px solid var(--line);
+      border-bottom-width: 2px;
+      border-radius: 4px;
+      background: #fff;
+      font-family: inherit;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    .decide {
+      display: flex;
+      flex: 1 1 360px;
+      gap: 10px;
+    }
+
+    .btn.big {
+      flex: 1 1 0;
+      min-height: 56px;
+      font-size: 1.2rem;
+    }
+
+    .finish {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 16px;
+      margin-bottom: 14px;
+      padding: 14px 18px;
+      border: 2px solid var(--gold);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .finish-text {
+      flex: 1 1 320px;
+    }
+
+    .finish-main {
+      margin: 0;
+      color: var(--navy);
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+
+    .finish-compare {
+      margin: 2px 0 0;
+      color: var(--muted);
+    }
+
+    .finish-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    /* Pseudocode and counters ------------------------------------------- */
+
+    .info {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 260px;
+      gap: 14px;
+      align-items: start;
+      margin-bottom: 12px;
+    }
+
+    .code-box {
+      padding: 14px 16px 16px;
+      border-radius: 14px;
+      background: var(--navy);
+      color: #fff;
+    }
+
+    .code-line {
+      position: relative;
+      display: flex;
+      gap: 6px;
+      padding: 4px 8px 4px 4px;
+      border-radius: 6px;
+      font-size: 1.08rem;
+      transition: background-color 200ms;
+    }
+
+    .code-line+.code-line {
+      margin-top: 4px;
+    }
+
+    .code-line .arrow {
+      flex: 0 0 1em;
+      color: var(--gold);
+      visibility: hidden;
+    }
+
+    .code-line.is-active {
+      background: rgba(224, 171, 58, 0.22);
+    }
+
+    .code-line.is-active .arrow {
+      visibility: visible;
+    }
+
+    .code-line .kw {
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    .code-line.indent-1 {
+      margin-left: 22px;
+    }
+
+    .code-line.indent-2 {
+      margin-left: 50px;
+    }
+
+    .code-line.indent-1::before,
+    .code-line.indent-2::before {
+      content: "";
+      position: absolute;
+      top: 3px;
+      bottom: 3px;
+      left: -10px;
+      width: 3px;
+      border-radius: 2px;
+      background: #7d8698;
+    }
+
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .pill {
+      padding: 4px 14px;
+      border-radius: 999px;
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .pill.iteration {
+      background: var(--iteration);
+    }
+
+    .pill.selection {
+      background: var(--selection);
+    }
+
+    .pill.sequencing {
+      background: var(--sequencing);
+    }
+
+    .stats {
+      display: grid;
+      gap: 8px;
+    }
+
+    .stat {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 6px 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    .stat-label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .stat-num {
+      display: inline-block;
+      color: var(--navy);
+      font-size: 1.9rem;
+      font-weight: 700;
+      line-height: 1.1;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stat-num small {
+      color: var(--muted);
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .stat-num.bump {
+      animation: bump 320ms ease;
+    }
+
+    @keyframes bump {
+      40% {
+        transform: scale(1.18);
+        color: var(--iteration);
+      }
+    }
+
+    /* Deals ------------------------------------------------------------- */
+
+    .deals {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .deals-label {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .deals .btn[aria-pressed="true"] {
+      background: #e3e8f1;
+      box-shadow: inset 0 -3px 0 var(--gold);
+    }
+
+    noscript p {
+      padding: 12px 16px;
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    /* Narrow screens ---------------------------------------------------- */
+
+    @media (max-width: 720px) {
+      body {
+        font-size: 1rem;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      .tab {
+        padding: 6px 10px;
+        min-height: 40px;
+      }
+
+      .table {
+        padding: 6px;
+        border-radius: 14px;
+      }
+
+      .narration {
+        font-size: 1.05rem;
+      }
+
+      .info {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .stats {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+      }
+
+      .stat {
+        display: block;
+        padding: 6px 10px 8px;
+      }
+
+      .stat-num {
+        font-size: 1.5rem;
+      }
+
+      .code-line {
+        font-size: 1rem;
+      }
+
+      .code-line.indent-1 {
+        margin-left: 16px;
+      }
+
+      .code-line.indent-2 {
+        margin-left: 36px;
+      }
+
+      .keys {
+        display: none;
+      }
+
+      /* Reset, Back, Play, Next share one row; speed gets the next one. */
+      #watch-controls .controls>.btn {
+        flex: 1 1 0;
+        padding: 8px 4px;
+      }
+
+      .controls .spacer {
+        display: none;
+      }
+
+      .speed {
+        flex: 1 1 100%;
+      }
+
+      .decide {
+        flex-basis: 100%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0s !important;
+        transition-delay: 0s !important;
+        animation-duration: 0s !important;
+        animation-delay: 0s !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <h1>Card Demos</h1>
+      <a class="back-link" href="../">Back to course site</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <noscript>
+      <p>This page needs JavaScript to deal the cards.</p>
+    </noscript>
+
+    <div class="tabs" id="tabs" role="group" aria-label="Algorithm"></div>
+
+    <div class="mode-bar">
+      <div class="seg" role="group" aria-label="Mode">
+        <button type="button" id="mode-watch" aria-pressed="true">Watch</button>
+        <button type="button" id="mode-try" aria-pressed="false">Try it</button>
+      </div>
+      <p class="idea" id="idea"></p>
+    </div>
+
+    <section class="table" id="table" aria-label="Card table">
+      <div class="target" id="target" hidden>
+        <span>Find</span>
+        <div class="card-static" id="target-card" role="img"></div>
+      </div>
+      <div class="row" id="row"></div>
+    </section>
+
+    <p class="narration" id="narration" aria-live="polite"></p>
+
+    <div id="watch-controls">
+      <div class="controls">
+        <button type="button" class="btn" id="btn-reset">Reset</button>
+        <button type="button" class="btn" id="btn-back"><span class="icon" aria-hidden="true">&#9664;</span> Back</button>
+        <button type="button" class="btn primary" id="btn-play"><span class="icon" aria-hidden="true">&#9654;</span> <span>Play</span></button>
+        <button type="button" class="btn" id="btn-next">Next <span class="icon" aria-hidden="true">&#9654;</span></button>
+        <span class="spacer"></span>
+        <span class="speed">Speed
+          <span class="seg small" role="group" aria-label="Speed">
+            <button type="button" data-speed="slow" aria-pressed="false">Slow</button>
+            <button type="button" data-speed="normal" aria-pressed="true">Normal</button>
+            <button type="button" data-speed="fast" aria-pressed="false">Fast</button>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    <div class="controls" id="try-controls" hidden>
+      <div class="decide" id="decide">
+        <button type="button" class="btn primary big" id="btn-swap">Swap</button>
+        <button type="button" class="btn big" id="btn-noswap">Don't swap</button>
+      </div>
+      <button type="button" class="btn" id="btn-show">Show me</button>
+      <span class="spacer"></span>
+      <span class="speed">Speed
+        <span class="seg small" role="group" aria-label="Speed">
+          <button type="button" data-speed="slow" aria-pressed="false">Slow</button>
+          <button type="button" data-speed="normal" aria-pressed="true">Normal</button>
+          <button type="button" data-speed="fast" aria-pressed="false">Fast</button>
+        </span>
+      </span>
+    </div>
+
+    <div class="finish" id="finish" role="status" hidden>
+      <div class="finish-text">
+        <p class="finish-main" id="finish-main"></p>
+        <p class="finish-compare" id="finish-compare"></p>
+      </div>
+      <div class="finish-buttons">
+        <button type="button" class="btn primary" id="btn-again">Try again</button>
+        <button type="button" class="btn" id="btn-watch-it">Watch it</button>
+      </div>
+    </div>
+
+    <div class="info">
+      <div class="code-box">
+        <div id="code" aria-label="Pseudocode"></div>
+        <div class="pills" id="pills"></div>
+      </div>
+      <div class="stats">
+        <div class="stat"><span class="stat-label" id="label-a"></span><span class="stat-num" id="num-a">0</span></div>
+        <div class="stat" id="stat-b"><span class="stat-label" id="label-b"></span><span class="stat-num" id="num-b">0</span></div>
+        <div class="stat"><span class="stat-label" id="label-c"></span><span class="stat-num" id="num-c">0</span></div>
+      </div>
+    </div>
+
+    <div class="bottom-bar">
+      <div class="deals" id="deals" role="group" aria-label="Deal"></div>
+      <p class="keys" id="keys">Keys: <kbd>&rarr;</kbd> or <kbd>Page Down</kbd> next, <kbd>&larr;</kbd> or <kbd>Page Up</kbd> back, <kbd>Space</kbd> play or pause.</p>
+    </div>
+  </main>
+
+  <script src="cards-engine.js"></script>
+  <script>
+    (function () {
+      'use strict';
+
+      var E = window.CardEngine;
+      var ALG = E.ALGORITHMS;
+
+      // Milliseconds per step.
+      var SPEEDS = { slow: 2000, normal: 1200, fast: 600 };
+      // ︎ asks for the text form of the suit, so phones do not draw an emoji.
+      var SUIT = { hearts: '♥︎', clubs: '♣︎' };
+      var SORT_RANKS = [1, 2, 3, 4, 5, 6, 7, 8];
+      var SEARCH_RANKS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+      var $ = function (id) { return document.getElementById(id); };
+      var els = {
+        tabs: $('tabs'), modeWatch: $('mode-watch'), modeTry: $('mode-try'), idea: $('idea'),
+        table: $('table'), target: $('target'), targetCard: $('target-card'), row: $('row'),
+        narration: $('narration'), watchControls: $('watch-controls'), reset: $('btn-reset'),
+        back: $('btn-back'), play: $('btn-play'), next: $('btn-next'),
+        tryControls: $('try-controls'), decide: $('decide'), swap: $('btn-swap'),
+        noswap: $('btn-noswap'), show: $('btn-show'), finish: $('finish'),
+        finishMain: $('finish-main'), finishCompare: $('finish-compare'),
+        again: $('btn-again'), watchIt: $('btn-watch-it'), code: $('code'), pills: $('pills'),
+        labelA: $('label-a'), numA: $('num-a'), statB: $('stat-b'), labelB: $('label-b'),
+        numB: $('num-b'), labelC: $('label-c'), numC: $('num-c'), deals: $('deals'), keys: $('keys')
+      };
+
+      var state = {
+        algo: 'linear',
+        mode: 'watch',
+        speed: 'normal',
+        // Sorts share one deal; each search keeps its own row and target.
+        deals: {
+          sort: { cards: E.parseDeal(E.DEALS.sortLecture, 'hearts'), preset: 'lecture' },
+          linear: {
+            cards: E.parseDeal(E.DEALS.linearLecture, 'clubs'),
+            target: 'c' + E.DEALS.linearTarget,
+            preset: 'lecture'
+          },
+          binary: {
+            cards: E.parseDeal(E.DEALS.binaryLecture, 'clubs'),
+            target: 'c' + E.DEALS.binaryTarget,
+            preset: 'lecture'
+          }
+        },
+        steps: [],
+        idx: 0,
+        playing: false,
+        timer: null,
+        waiting: false,
+        mistakes: 0,
+        done: false
+      };
+
+      var slots = {}; // card id -> { slot, card }
+      var cardsById = {};
+      var codeLines = [];
+
+      function algo() { return ALG[state.algo]; }
+      function group(key) { return ALG[key].kind === 'sort' ? 'sort' : key; }
+      function deal() { return state.deals[group(state.algo)]; }
+      function step() { return state.steps[state.idx]; }
+      function lastIdx() { return state.steps.length - 1; }
+      function motionOK() {
+        return !(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+      }
+      function animate(el, frames, options) {
+        if (motionOK() && el.animate) return el.animate(frames, options);
+        return null;
+      }
+
+      function stopTimer() {
+        clearTimeout(state.timer);
+        state.timer = null;
+      }
+
+      // Deals -------------------------------------------------------------
+
+      function newDeal(g, preset) {
+        var old = state.deals[g];
+        if (g === 'sort') {
+          if (preset === 'lecture') return { cards: E.parseDeal(E.DEALS.sortLecture, 'hearts'), preset: preset };
+          if (preset === 'nearly') return { cards: E.parseDeal(E.DEALS.sortNearly, 'hearts'), preset: preset };
+          var fresh = SORT_RANKS.map(function (r) { return E.makeCard(r, 'hearts'); });
+          var cards;
+          do {
+            cards = E.shuffle(fresh);
+          } while (E.isSorted(cards) || (old && sameOrder(cards, old.cards)));
+          return { cards: cards, preset: 'shuffle' };
+        }
+        var lecture = g === 'linear'
+          ? { cards: E.parseDeal(E.DEALS.linearLecture, 'clubs'), target: 'c' + E.DEALS.linearTarget }
+          : { cards: E.parseDeal(E.DEALS.binaryLecture, 'clubs'), target: 'c' + E.DEALS.binaryTarget };
+        if (preset === 'lecture') {
+          lecture.preset = 'lecture';
+          return lecture;
+        }
+        var row = SEARCH_RANKS.map(function (r) { return E.makeCard(r, 'clubs'); });
+        if (g === 'linear') {
+          do {
+            row = E.shuffle(row);
+          } while (E.isSorted(row) || (old && sameOrder(row, old.cards)));
+        }
+        // Binary search needs sorted cards, so only the target changes.
+        var target;
+        do {
+          target = row[Math.floor(Math.random() * row.length)].id;
+        } while (old && target === old.target);
+        return { cards: row, target: target, preset: 'shuffle' };
+      }
+
+      function sameOrder(a, b) {
+        return a.map(function (c) { return c.id; }).join() === b.map(function (c) { return c.id; }).join();
+      }
+
+      // Building the table ----------------------------------------------
+
+      function faceHTML(card) {
+        var r = E.rankLabel(card.rank);
+        var s = SUIT[card.suit];
+        return '<span class="face front ' + card.suit + '">' +
+          '<span class="corner tl"><span class="r">' + r + '</span><span class="s">' + s + '</span></span>' +
+          '<span class="pip">' + s + '</span>' +
+          '<span class="corner br"><span class="r">' + r + '</span><span class="s">' + s + '</span></span>' +
+          '</span>';
+      }
+
+      function buildRow() {
+        var d = deal();
+        els.row.textContent = '';
+        slots = {};
+        cardsById = {};
+        d.cards.forEach(function (card, i) {
+          cardsById[card.id] = card;
+          var slot = document.createElement('div');
+          slot.className = 'slot';
+          slot.dataset.id = card.id;
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'card';
+          btn.dataset.id = card.id;
+          btn.innerHTML = '<span class="card-inner" aria-hidden="true">' + faceHTML(card) +
+            '<span class="face back"></span></span>';
+          var tag = document.createElement('span');
+          tag.className = 'tag';
+          tag.setAttribute('aria-hidden', 'true');
+          tag.innerHTML = '<span class="long">smallest so far</span><span class="short">smallest</span>';
+          slot.appendChild(btn);
+          slot.appendChild(tag);
+          els.row.appendChild(slot);
+          slots[card.id] = { slot: slot, card: btn };
+          animate(slot, [
+            { opacity: 0, transform: 'translateY(-18px) rotate(-4deg)' },
+            { opacity: 1, transform: 'none' }
+          ], { duration: 320, delay: i * 35, easing: 'ease-out', fill: 'backwards' });
+        });
+
+        var search = algo().kind === 'search';
+        els.target.hidden = !search;
+        if (search) {
+          var t = cardsById[d.target];
+          els.targetCard.innerHTML = faceHTML(t);
+          els.targetCard.setAttribute('aria-label', 'Target: ' + E.cardName(t));
+        }
+        layout();
+      }
+
+      // Card width: min(96px, whatever fits n cards across).
+      function layout() {
+        var n = deal().cards.length;
+        var search = algo().kind === 'search';
+        var style = getComputedStyle(els.table);
+        var inner = els.table.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+        // The target card sits beside the row when there is room, above it otherwise.
+        var side = search && inner >= 720;
+        var slotsAcross = side ? n + 1 : n;
+        var extra = side ? 28 : 0;
+        var gap = 10;
+        var w = Math.floor((inner - extra - gap * (slotsAcross - 1)) / slotsAcross);
+        if (w < 64) {
+          gap = 5;
+          w = Math.floor((inner - extra - gap * (slotsAcross - 1)) / slotsAcross);
+        }
+        if (w < 46) {
+          gap = 3;
+          w = Math.floor((inner - extra - gap * (slotsAcross - 1)) / slotsAcross);
+        }
+        w = Math.max(24, Math.min(96, w));
+        els.table.style.setProperty('--card-w', w + 'px');
+        els.table.style.setProperty('--gap', gap + 'px');
+        els.table.classList.toggle('is-tiny', w < 56);
+        els.table.classList.toggle('target-top', search && !side);
+      }
+
+      // Rendering one snapshot ------------------------------------------
+
+      function has(list, id) { return list.indexOf(id) >= 0; }
+
+      function cardLabel(s, id, pos) {
+        var parts = [];
+        parts.push(has(s.faceUp, id) ? E.cardName(cardsById[id]) : 'face-down card ' + (pos + 1));
+        if (has(s.focus, id)) parts.push('being checked');
+        if (has(s.marked, id)) parts.push('smallest so far');
+        if (has(s.sorted, id)) parts.push('sorted');
+        if (has(s.ruledOut, id)) parts.push('ruled out');
+        return parts.join(', ');
+      }
+
+      function render(opts) {
+        opts = opts || {};
+        var s = step();
+        var flip = opts.animate && motionOK();
+        var duration = Math.min(560, SPEEDS[state.speed] * 0.5);
+
+        // FLIP, step 1: measure where every card is now (mid-animation included).
+        var first = {};
+        if (flip) {
+          s.order.forEach(function (id) {
+            first[id] = slots[id].slot.getBoundingClientRect().left;
+          });
+        }
+        s.order.forEach(function (id) {
+          var a = slots[id].slot.getAnimations ? slots[id].slot.getAnimations() : [];
+          a.forEach(function (x) { x.cancel(); });
+        });
+
+        // Reorder the DOM, keeping keyboard focus on the same card.
+        var now = Array.prototype.map.call(els.row.children, function (el) { return el.dataset.id; });
+        if (now.join() !== s.order.join()) {
+          var active = document.activeElement;
+          s.order.forEach(function (id) { els.row.appendChild(slots[id].slot); });
+          if (active && els.row.contains(active)) active.focus({ preventScroll: true });
+        }
+
+        var pickable = state.mode === 'try' && (algo().kind === 'search' || state.algo === 'selection');
+        s.order.forEach(function (id, pos) {
+          var c = slots[id].card;
+          c.classList.toggle('is-down', !has(s.faceUp, id));
+          c.classList.toggle('is-focus', has(s.focus, id));
+          c.classList.toggle('is-sorted', has(s.sorted, id));
+          c.classList.toggle('is-out', has(s.ruledOut, id));
+          c.classList.toggle('is-pickable', pickable && state.waiting);
+          slots[id].slot.classList.toggle('is-marked', has(s.marked, id));
+          c.setAttribute('aria-label', cardLabel(s, id, pos));
+          c.tabIndex = pickable ? 0 : -1;
+          if (pickable && !state.waiting) c.setAttribute('aria-disabled', 'true');
+          else c.removeAttribute('aria-disabled');
+        });
+
+        // FLIP, steps 2-3: measure the new spots, then slide from old to new.
+        // The card moving left arcs up and the one moving right dips, so they pass.
+        if (flip) {
+          s.order.forEach(function (id) {
+            var slot = slots[id].slot;
+            var dx = first[id] - slot.getBoundingClientRect().left;
+            if (Math.abs(dx) < 1) return;
+            var arc = dx > 0 ? -16 : 10;
+            slot.style.zIndex = dx > 0 ? 3 : 2;
+            var anim = slot.animate([
+              { transform: 'translate(' + dx + 'px, 0)' },
+              { transform: 'translate(' + dx / 2 + 'px, ' + arc + 'px)', offset: 0.5 },
+              { transform: 'translate(0, 0)' }
+            ], { duration: duration, easing: 'cubic-bezier(0.35, 0.6, 0.3, 1)' });
+            anim.onfinish = anim.oncancel = function () { slot.style.zIndex = ''; };
+          });
+        }
+
+        codeLines.forEach(function (el, i) {
+          var on = i === s.line;
+          el.classList.toggle('is-active', on);
+          if (on) el.setAttribute('aria-current', 'step');
+          else el.removeAttribute('aria-current');
+        });
+
+        renderCounts(!opts.animate);
+      }
+
+      function setNum(el, html, quiet) {
+        if (el.innerHTML === html) return;
+        el.innerHTML = html;
+        el.classList.remove('bump');
+        if (!quiet && motionOK()) {
+          void el.offsetWidth; // restart the animation
+          el.classList.add('bump');
+        }
+      }
+
+      function renderCounts(quiet) {
+        var c = step().counts;
+        if (algo().kind === 'sort') {
+          setNum(els.numA, String(c.comparisons), quiet);
+          setNum(els.numB, String(c.swaps), quiet);
+        } else {
+          setNum(els.numA, String(c.flips), quiet);
+        }
+        if (state.mode === 'watch') {
+          els.numC.innerHTML = state.idx + '<small> of ' + lastIdx() + '</small>';
+        } else {
+          setNum(els.numC, String(state.mistakes), quiet);
+        }
+      }
+
+      function narrate(text, prompt, feedback) {
+        els.narration.textContent = text || '';
+        if (prompt) {
+          var p = document.createElement('span');
+          p.className = 'prompt';
+          p.textContent = prompt;
+          els.narration.appendChild(p);
+        }
+        els.narration.classList.toggle('is-feedback', !!feedback);
+      }
+
+      function wave() {
+        step().order.forEach(function (id, i) {
+          animate(slots[id].slot, [
+            { transform: 'translateY(0)' },
+            { transform: 'translateY(-14px)', offset: 0.45 },
+            { transform: 'translateY(0)' }
+          ], { duration: 460, delay: 120 + i * 65, easing: 'ease-in-out' });
+        });
+      }
+
+      function shake(el) {
+        animate(el, [
+          { transform: 'translateX(0)' },
+          { transform: 'translateX(-7px)' },
+          { transform: 'translateX(6px)' },
+          { transform: 'translateX(-4px)' },
+          { transform: 'translateX(2px)' },
+          { transform: 'translateX(0)' }
+        ], { duration: 380, easing: 'ease-out' });
+      }
+
+      // Static parts: tabs, idea, pseudocode, counters, deal buttons ----
+
+      function renderTabs() {
+        if (!els.tabs.children.length) {
+          E.ORDER.forEach(function (key, i) {
+            var b = document.createElement('button');
+            b.type = 'button';
+            b.className = 'tab';
+            b.dataset.algo = key;
+            b.innerHTML = '<span class="tab-num" aria-hidden="true">' + (i + 1) + '</span>';
+            b.appendChild(document.createTextNode(ALG[key].name));
+            b.addEventListener('click', function () { setAlgo(key); });
+            els.tabs.appendChild(b);
+          });
+        }
+        Array.prototype.forEach.call(els.tabs.children, function (b) {
+          b.setAttribute('aria-pressed', String(b.dataset.algo === state.algo));
+        });
+      }
+
+      function renderStatic() {
+        var a = algo();
+        renderTabs();
+        els.modeWatch.setAttribute('aria-pressed', String(state.mode === 'watch'));
+        els.modeTry.setAttribute('aria-pressed', String(state.mode === 'try'));
+
+        els.idea.textContent = '';
+        var ideaLine = [['Idea: ', a.idea]];
+        if (state.mode === 'try') ideaLine.push([' Your turn: ', a.goal]);
+        ideaLine.forEach(function (part) {
+          var label = document.createElement('span');
+          label.className = 'idea-label';
+          label.textContent = part[0];
+          els.idea.appendChild(label);
+          els.idea.appendChild(document.createTextNode(part[1]));
+        });
+
+        els.code.textContent = '';
+        codeLines = a.code.map(function (line) {
+          var div = document.createElement('div');
+          div.className = 'code-line indent-' + line.indent;
+          var arrow = document.createElement('span');
+          arrow.className = 'arrow';
+          arrow.setAttribute('aria-hidden', 'true');
+          arrow.textContent = '▶';
+          var text = document.createElement('span');
+          line.text.split('**').forEach(function (part, i) {
+            if (!part) return;
+            if (i % 2) {
+              var kw = document.createElement('span');
+              kw.className = 'kw';
+              kw.textContent = part;
+              text.appendChild(kw);
+            } else {
+              text.appendChild(document.createTextNode(part));
+            }
+          });
+          div.appendChild(arrow);
+          div.appendChild(text);
+          els.code.appendChild(div);
+          return div;
+        });
+
+        els.pills.textContent = '';
+        a.pills.forEach(function (name) {
+          var pill = document.createElement('span');
+          pill.className = 'pill ' + name.toLowerCase();
+          pill.textContent = name;
+          els.pills.appendChild(pill);
+        });
+
+        var sort = a.kind === 'sort';
+        els.labelA.textContent = sort ? 'Comparisons' : 'Flips';
+        els.statB.hidden = !sort;
+        els.labelB.textContent = 'Swaps';
+        els.labelC.textContent = state.mode === 'watch' ? 'Step' : 'Mistakes';
+        els.numA.innerHTML = els.numB.innerHTML = els.numC.innerHTML = '';
+
+        renderDeals();
+
+        var watch = state.mode === 'watch';
+        els.keys.hidden = !watch;
+        els.watchControls.hidden = !watch;
+        els.tryControls.hidden = watch;
+        els.finish.hidden = true;
+        els.decide.hidden = !(state.algo === 'insertion' || state.algo === 'bubble');
+      }
+
+      function renderDeals() {
+        var g = group(state.algo);
+        var options = g === 'sort'
+          ? [['lecture', 'Lecture deal'], ['nearly', 'Nearly sorted'], ['shuffle', 'New shuffle']]
+          : [['lecture', 'Lecture deal'], ['shuffle', g === 'binary' ? 'New target' : 'New shuffle']];
+        // The buttons are rebuilt, so keep keyboard focus on the one that was pressed.
+        var focused = els.deals.contains(document.activeElement) ? document.activeElement.dataset.preset : null;
+        els.deals.textContent = '';
+        var label = document.createElement('span');
+        label.className = 'deals-label';
+        label.textContent = 'Deal:';
+        els.deals.appendChild(label);
+        options.forEach(function (o) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'btn';
+          b.textContent = o[1];
+          b.dataset.preset = o[0];
+          if (o[0] !== 'shuffle') b.setAttribute('aria-pressed', String(deal().preset === o[0]));
+          b.addEventListener('click', function () { setDeal(o[0]); });
+          els.deals.appendChild(b);
+          if (o[0] === focused) b.focus({ preventScroll: true });
+        });
+      }
+
+      // Loading an algorithm + deal -------------------------------------
+
+      function load() {
+        stopTimer();
+        setPlaying(false);
+        var d = deal();
+        state.steps = E.run(state.algo, d.cards, { target: d.target });
+        state.idx = 0;
+        state.mistakes = 0;
+        state.waiting = false;
+        state.done = false;
+        renderStatic();
+        buildRow();
+        if (state.mode === 'watch') {
+          render();
+          narrateWatch();
+          updateWatchButtons();
+        } else {
+          enterTry(null);
+        }
+      }
+
+      function setAlgo(key) {
+        if (key === state.algo) return;
+        state.algo = key;
+        if (state.mode === 'try') state.deals[group(key)] = newDeal(group(key), 'shuffle');
+        load();
+      }
+
+      function setMode(mode) {
+        if (mode === state.mode) return;
+        state.mode = mode;
+        if (mode === 'try') state.deals[group(state.algo)] = newDeal(group(state.algo), 'shuffle');
+        load();
+      }
+
+      function setDeal(preset) {
+        var g = group(state.algo);
+        state.deals[g] = newDeal(g, preset);
+        load();
+      }
+
+      function setSpeed(speed) {
+        state.speed = speed;
+        document.documentElement.style.setProperty('--anim', Math.round(SPEEDS[speed] * 0.38) + 'ms');
+        Array.prototype.forEach.call(document.querySelectorAll('[data-speed]'), function (b) {
+          b.setAttribute('aria-pressed', String(b.dataset.speed === speed));
+        });
+      }
+
+      // Watch mode ------------------------------------------------------
+
+      function narrateWatch() {
+        var s = step();
+        narrate(s.say + (state.idx === 0 ? ' Press Play or Next to start.' : ''));
+      }
+
+      function updateWatchButtons() {
+        els.back.setAttribute('aria-disabled', String(state.idx === 0));
+        els.reset.setAttribute('aria-disabled', String(state.idx === 0));
+        els.next.setAttribute('aria-disabled', String(state.idx === lastIdx()));
+      }
+
+      function go(idx) {
+        var forward = idx > state.idx;
+        state.idx = Math.max(0, Math.min(lastIdx(), idx));
+        render({ animate: true });
+        narrateWatch();
+        updateWatchButtons();
+        if (forward && state.idx === lastIdx()) wave();
+      }
+
+      function setPlaying(on) {
+        state.playing = on;
+        els.play.querySelector('.icon').innerHTML = on ? '&#10074;&#10074;' : '&#9654;';
+        els.play.lastElementChild.textContent = on ? 'Pause' : 'Play';
+        if (!on && state.mode === 'watch') stopTimer();
+      }
+
+      function tick() {
+        state.timer = setTimeout(function () {
+          go(state.idx + 1);
+          if (state.idx >= lastIdx()) setPlaying(false);
+          else tick();
+        }, SPEEDS[state.speed]);
+      }
+
+      function togglePlay() {
+        if (state.playing) {
+          setPlaying(false);
+          return;
+        }
+        if (state.idx >= lastIdx()) go(0);
+        else go(state.idx + 1);
+        if (state.idx < lastIdx()) {
+          setPlaying(true);
+          tick();
+        }
+      }
+
+      function next() {
+        setPlaying(false);
+        if (state.idx < lastIdx()) go(state.idx + 1);
+      }
+
+      function back() {
+        setPlaying(false);
+        if (state.idx > 0) go(state.idx - 1);
+      }
+
+      // Try-it mode -----------------------------------------------------
+
+      // Show the current step. `lead` is the response to the student's last move.
+      // Steps without an ask play on their own; a step with an ask waits for the student.
+      function enterTry(lead) {
+        stopTimer();
+        var s = step();
+        // A swap step's `say` gives the answer away, so only the question shows.
+        var text = lead || (s.ask && s.ask.kind === 'swap' ? '' : s.say);
+        state.waiting = !!s.ask && state.idx < lastIdx();
+        render({ animate: state.idx > 0 });
+        updateTryButtons();
+        if (state.idx >= lastIdx()) {
+          narrate(text);
+          finish();
+          return;
+        }
+        if (s.ask) {
+          narrate(text, s.ask.question);
+          return;
+        }
+        narrate(text);
+        var delay = SPEEDS[state.speed];
+        if (lead) delay *= 1.3;
+        else if (state.algo === 'selection' && (s.line === 1 || s.line === 2)) delay *= 0.45;
+        state.timer = setTimeout(function () {
+          state.idx++;
+          enterTry(null);
+        }, delay);
+      }
+
+      function updateTryButtons() {
+        var off = String(!state.waiting);
+        els.swap.setAttribute('aria-disabled', off);
+        els.noswap.setAttribute('aria-disabled', off);
+        els.show.setAttribute('aria-disabled', off);
+      }
+
+      function advance(lead) {
+        var asked = step().ask;
+        state.waiting = false;
+        state.idx++;
+        enterTry(lead + (asked.explain || step().say));
+      }
+
+      function answer(choice, el) {
+        if (state.mode !== 'try' || !state.waiting) return;
+        var s = step();
+        if (choice === s.ask.answer) {
+          advance('Right. ');
+          return;
+        }
+        state.mistakes++;
+        renderCounts();
+        shake(el);
+        narrate(E.explainWrong(state.algo, s, choice, cardsById), null, true);
+      }
+
+      function showMe() {
+        if (state.mode !== 'try' || !state.waiting) return;
+        state.mistakes++;
+        advance('Here is the right move. ');
+      }
+
+      function finish() {
+        state.done = true;
+        state.waiting = false;
+        var d = deal();
+        var c = step().counts;
+        var mistakes = E.plural(state.mistakes, 'mistake');
+        var main;
+        var compare;
+        if (algo().kind === 'sort') {
+          var all = E.compareSorts(d.cards);
+          main = 'Sorted in ' + E.plural(c.comparisons, 'comparison') + ', ' + mistakes + '.';
+          compare = 'On this deal: selection ' + all.selection + ' · insertion ' + all.insertion +
+            ' · bubble ' + all.bubble;
+        } else {
+          var both = E.compareSearches(d.cards, d.target);
+          main = 'Found in ' + E.plural(c.flips, 'flip') + ', ' + mistakes + '.';
+          compare = state.algo === 'binary'
+            ? 'Linear search needed ' + both.linear + ' on this row.'
+            : 'Binary search only works on sorted cards. With these cards sorted, it would need ' +
+              E.plural(both.binary, 'flip') + '.';
+        }
+        els.finishMain.textContent = main;
+        els.finishCompare.textContent = compare;
+        var focusLost = els.tryControls.contains(document.activeElement) ||
+          els.row.contains(document.activeElement);
+        els.tryControls.hidden = true;
+        els.finish.hidden = false;
+        if (focusLost) els.again.focus({ preventScroll: true });
+        wave();
+      }
+
+      // Events ----------------------------------------------------------
+
+      els.modeWatch.addEventListener('click', function () { setMode('watch'); });
+      els.modeTry.addEventListener('click', function () { setMode('try'); });
+      els.reset.addEventListener('click', function () { setPlaying(false); go(0); });
+      els.back.addEventListener('click', back);
+      els.next.addEventListener('click', next);
+      els.play.addEventListener('click', togglePlay);
+      Array.prototype.forEach.call(document.querySelectorAll('[data-speed]'), function (b) {
+        b.addEventListener('click', function () { setSpeed(b.dataset.speed); });
+      });
+
+      els.swap.addEventListener('click', function () { answer(true, els.swap); });
+      els.noswap.addEventListener('click', function () { answer(false, els.noswap); });
+      els.show.addEventListener('click', showMe);
+      // The finish panel hides on these, so move focus to where the next action is.
+      els.again.addEventListener('click', function () {
+        setDeal('shuffle');
+        (els.decide.hidden ? els.row.querySelector('.card') : els.swap).focus({ preventScroll: true });
+      });
+      els.watchIt.addEventListener('click', function () {
+        setMode('watch');
+        els.play.focus({ preventScroll: true });
+      });
+
+      els.row.addEventListener('click', function (e) {
+        var card = e.target.closest('.card');
+        if (!card || state.mode !== 'try') return;
+        if (algo().kind !== 'search' && state.algo !== 'selection') return;
+        answer(card.dataset.id, slots[card.dataset.id].slot);
+      });
+
+      // Presentation clickers send Page Up / Page Down.
+      var spaceHandled = false;
+      document.addEventListener('keydown', function (e) {
+        if (e.altKey || e.ctrlKey || e.metaKey) return;
+        var t = e.target;
+        if (t.closest && t.closest('input, select, textarea, [contenteditable]')) return;
+        if (state.mode !== 'watch') return;
+        if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+          e.preventDefault();
+          next();
+        } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+          e.preventDefault();
+          back();
+        } else if (e.key === ' ' || e.key === 'Spacebar') {
+          // Space still presses a button reached with the keyboard.
+          if (t.closest && t.closest('button') && t.matches(':focus-visible')) return;
+          e.preventDefault();
+          spaceHandled = true;
+          togglePlay();
+        }
+      });
+      document.addEventListener('keyup', function (e) {
+        if ((e.key === ' ' || e.key === 'Spacebar') && spaceHandled) {
+          e.preventDefault();
+          spaceHandled = false;
+        }
+      });
+
+      if (window.ResizeObserver) {
+        new ResizeObserver(layout).observe(els.table);
+      } else {
+        window.addEventListener('resize', layout);
+      }
+
+      setSpeed('normal');
+      load();
+    })();
+  </script>
+</body>
+
+</html>
