@@ -3,3 +3,6 @@ parsa-teaching-philosophy.md
 agent-handover.md
 parsa_teaching_policy_llm_handoff.md
 INSTRUCTOR-DECISIONS.md
+tests/node_modules/
+tests/test-results/
+tests/playwright-report/

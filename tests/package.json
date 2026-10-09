@@ -1,0 +1,14 @@
+{
+  "name": "cpsc100-site-tests",
+  "private": true,
+  "description": "Tests for the CPSC 100 course site. Nothing here is published; GitHub Pages serves docs/ only.",
+  "scripts": {
+    "test": "npm run test:unit && npm run test:browser",
+    "test:unit": "node --test \"unit/*.test.js\"",
+    "test:browser": "playwright test",
+    "test:update-screenshots": "playwright test visual --update-snapshots=all"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.61.1"
+  }
+}

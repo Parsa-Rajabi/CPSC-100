@@ -1,5 +1,6 @@
 - [Syllabus](syllabus.md)
 - [Schedule](schedule.md)
+- [Card Demos](demos/cards.html ':ignore :target=_self')
 - [AI Policy](ai-policy.md)
 
 - **Assessment**
