@@ -119,6 +119,10 @@
     this.order[j] = t;
   };
 
+  function checkTarget(r, target) {
+    if (!r.cards[target]) throw new Error('Target ' + target + ' is not in the deal');
+  }
+
   function sortTotals(r) {
     return 'Sorted in ' + plural(r.counts.comparisons, 'comparison') + ' and ' +
       plural(r.counts.swaps, 'swap') + '.';
@@ -129,6 +133,7 @@
   function linearSearch(deal, options) {
     var r = new Recorder(deal, ['flips']);
     var target = options.target;
+    checkTarget(r, target);
     var t = r.label(target);
 
     function pickAsk(i) {
@@ -141,7 +146,7 @@
       };
     }
 
-    r.push(null, 'Find the ' + cardName(r.cards[target]) + '. The cards are face down and ' +
+    r.push(0, 'Find the ' + cardName(r.cards[target]) + '. The cards are face down and ' +
       'in no particular order, so check them one at a time, left to right.', pickAsk(0));
 
     for (var i = 0; i < r.order.length; i++) {
@@ -165,6 +170,8 @@
   function binarySearch(deal, options) {
     var r = new Recorder(deal, ['flips']);
     var target = options.target;
+    checkTarget(r, target);
+    if (!isSorted(deal)) throw new Error('Binary search needs the cards sorted');
     var t = r.label(target);
     var low = 0;
     var high = r.order.length - 1;

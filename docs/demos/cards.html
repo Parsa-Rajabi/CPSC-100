@@ -37,6 +37,8 @@
 
     html {
       -webkit-text-size-adjust: 100%;
+      /* Keep the width steady when a scrollbar comes and goes, so card sizes do not flip-flop. */
+      scrollbar-gutter: stable;
     }
 
     body {
@@ -84,12 +86,20 @@
       line-height: 1.2;
     }
 
-    .back-link {
+    .site-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 20px;
+    }
+
+    .site-link {
+      display: inline-block;
+      padding: 8px 0;
       color: #0374B5;
       font-weight: 600;
     }
 
-    .back-link:focus-visible {
+    .site-link:focus-visible {
       outline: 3px solid var(--indigo);
       outline-offset: 2px;
       border-radius: 2px;
@@ -104,6 +114,7 @@
 
     button {
       font: inherit;
+      touch-action: manipulation;
     }
 
     .btn {
@@ -123,10 +134,6 @@
       transition: background-color 150ms, color 150ms, transform 120ms;
     }
 
-    .btn:hover {
-      background: #e9edf5;
-    }
-
     .btn:active {
       transform: translateY(1px);
     }
@@ -136,10 +143,6 @@
       color: #fff;
     }
 
-    .btn.primary:hover {
-      background: #133466;
-    }
-
     .btn:disabled,
     .btn[aria-disabled="true"] {
       opacity: 0.45;
@@ -147,14 +150,32 @@
       transform: none;
     }
 
-    .btn:disabled:hover,
-    .btn[aria-disabled="true"]:hover {
-      background: #fff;
-    }
+    @media (hover: hover) {
+      .btn:hover {
+        background: #e9edf5;
+      }
 
-    .btn.primary:disabled:hover,
-    .btn.primary[aria-disabled="true"]:hover {
-      background: var(--navy);
+      .btn.primary:hover {
+        background: #133466;
+      }
+
+      .btn:disabled:hover,
+      .btn[aria-disabled="true"]:hover {
+        background: #fff;
+      }
+
+      .btn.primary:disabled:hover,
+      .btn.primary[aria-disabled="true"]:hover {
+        background: var(--navy);
+      }
+
+      .tab:hover {
+        background: #e9edf5;
+      }
+
+      .card.is-pickable:hover {
+        transform: translateY(-4px);
+      }
     }
 
     .btn:focus-visible,
@@ -191,10 +212,6 @@
       font-weight: 600;
       cursor: pointer;
       transition: background-color 150ms, box-shadow 150ms;
-    }
-
-    .tab:hover {
-      background: #e9edf5;
     }
 
     .tab-num {
@@ -361,14 +378,13 @@
       cursor: default;
       transition: transform calc(var(--anim) * 0.6) ease, opacity var(--anim) ease, filter var(--anim) ease;
       -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
     }
 
     .card.is-pickable {
       cursor: pointer;
-    }
-
-    .card.is-pickable:hover {
-      transform: translateY(-4px);
     }
 
     .card:focus-visible {
@@ -962,7 +978,10 @@
   <header class="top">
     <div class="wrap top-inner">
       <h1>Card Demos</h1>
-      <a class="back-link" href="../">Back to course site</a>
+      <nav class="site-links" aria-label="Course site">
+        <a class="site-link" href="../#/schedule">Course schedule</a>
+        <a class="site-link" href="../">Back to course site</a>
+      </nav>
     </div>
   </header>
 
@@ -1059,12 +1078,20 @@
       'use strict';
 
       var E = window.CardEngine;
+      if (!E) {
+        document.getElementById('narration').textContent =
+          'The card demos could not load. Check your connection and refresh the page.';
+        return;
+      }
       var ALG = E.ALGORITHMS;
 
       // Milliseconds per step.
       var SPEEDS = { slow: 2000, normal: 1200, fast: 600 };
       // ︎ asks for the text form of the suit, so phones do not draw an emoji.
       var SUIT = { hearts: '♥︎', clubs: '♣︎' };
+      // After each move, ignore answers this long, so a double click or double tap cannot
+      // also answer the next question.
+      var SETTLE_MS = 250;
       var SORT_RANKS = [1, 2, 3, 4, 5, 6, 7, 8];
       var SEARCH_RANKS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -1105,6 +1132,7 @@
         playing: false,
         timer: null,
         waiting: false,
+        readyAt: 0,
         mistakes: 0,
         done: false
       };
@@ -1124,6 +1152,10 @@
       function animate(el, frames, options) {
         if (motionOK() && el.animate) return el.animate(frames, options);
         return null;
+      }
+
+      function now() {
+        return window.performance && performance.now ? performance.now() : Date.now();
       }
 
       function stopTimer() {
@@ -1482,8 +1514,10 @@
         var options = g === 'sort'
           ? [['lecture', 'Lecture deal'], ['nearly', 'Nearly sorted'], ['shuffle', 'New shuffle']]
           : [['lecture', 'Lecture deal'], ['shuffle', g === 'binary' ? 'New target' : 'New shuffle']];
-        // The buttons are rebuilt, so keep keyboard focus on the one that was pressed.
-        var focused = els.deals.contains(document.activeElement) ? document.activeElement.dataset.preset : null;
+        // The buttons are rebuilt, so keep focus on the one pressed from the keyboard. After a
+        // mouse click focus is let go, so Space still plays instead of dealing again.
+        var active = document.activeElement;
+        var focused = els.deals.contains(active) && focusVisible(active) ? active.dataset.preset : null;
         els.deals.textContent = '';
         var label = document.createElement('span');
         label.className = 'deals-label';
@@ -1622,6 +1656,7 @@
         // A swap step's `say` gives the answer away, so only the question shows.
         var text = lead || (s.ask && s.ask.kind === 'swap' ? '' : s.say);
         state.waiting = !!s.ask && state.idx < lastIdx();
+        state.readyAt = now() + SETTLE_MS;
         render({ animate: state.idx > 0 });
         updateTryButtons();
         if (state.idx >= lastIdx()) {
@@ -1658,20 +1693,21 @@
       }
 
       function answer(choice, el) {
-        if (state.mode !== 'try' || !state.waiting) return;
+        if (state.mode !== 'try' || !state.waiting || now() < state.readyAt) return;
         var s = step();
         if (choice === s.ask.answer) {
           advance('Right. ');
           return;
         }
         state.mistakes++;
+        state.readyAt = now() + SETTLE_MS;
         renderCounts();
         shake(el);
         narrate(E.explainWrong(state.algo, s, choice, cardsById), null, true);
       }
 
       function showMe() {
-        if (state.mode !== 'try' || !state.waiting) return;
+        if (state.mode !== 'try' || !state.waiting || now() < state.readyAt) return;
         state.mistakes++;
         advance('Here is the right move. ');
       }
@@ -1719,9 +1755,10 @@
         b.addEventListener('click', function () { setSpeed(b.dataset.speed); });
       });
 
-      els.swap.addEventListener('click', function () { answer(true, els.swap); });
-      els.noswap.addEventListener('click', function () { answer(false, els.noswap); });
-      els.show.addEventListener('click', showMe);
+      // e.detail > 1 is the second click of a double click; keyboard presses have detail 0.
+      els.swap.addEventListener('click', function (e) { if (e.detail < 2) answer(true, els.swap); });
+      els.noswap.addEventListener('click', function (e) { if (e.detail < 2) answer(false, els.noswap); });
+      els.show.addEventListener('click', function (e) { if (e.detail < 2) showMe(); });
       // The finish panel hides on these, so move focus to where the next action is.
       els.again.addEventListener('click', function () {
         setDeal('shuffle');
@@ -1734,10 +1771,18 @@
 
       els.row.addEventListener('click', function (e) {
         var card = e.target.closest('.card');
-        if (!card || state.mode !== 'try') return;
+        if (!card || state.mode !== 'try' || e.detail > 1) return;
         if (algo().kind !== 'search' && state.algo !== 'selection') return;
         answer(card.dataset.id, slots[card.dataset.id].slot);
       });
+
+      function focusVisible(el) {
+        try {
+          return el.matches(':focus-visible');
+        } catch (err) {
+          return true; // an older browser: let Space press the button as usual
+        }
+      }
 
       // Presentation clickers send Page Up / Page Down.
       var spaceHandled = false;
@@ -1754,7 +1799,7 @@
           back();
         } else if (e.key === ' ' || e.key === 'Spacebar') {
           // Space still presses a button reached with the keyboard.
-          if (t.closest && t.closest('button') && t.matches(':focus-visible')) return;
+          if (t.closest && t.closest('button') && focusVisible(t)) return;
           e.preventDefault();
           spaceHandled = true;
           togglePlay();
@@ -1767,8 +1812,18 @@
         }
       });
 
+      // Re-fit the cards when the table width changes. The work waits for the next frame:
+      // changing the table's height inside the observer callback is a resize loop.
       if (window.ResizeObserver) {
-        new ResizeObserver(layout).observe(els.table);
+        var lastWidth = -1;
+        var frame = 0;
+        new ResizeObserver(function (entries) {
+          var width = entries[0].contentRect.width;
+          if (width === lastWidth) return;
+          lastWidth = width;
+          cancelAnimationFrame(frame);
+          frame = requestAnimationFrame(layout);
+        }).observe(els.table);
       } else {
         window.addEventListener('resize', layout);
       }
