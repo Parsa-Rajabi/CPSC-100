@@ -122,7 +122,7 @@ test.describe('with motion', () => {
   });
 
   test('speed sets how long the motion takes', async ({ page }) => {
-    for (const [speed, ms] of [['slow', 760], ['normal', 456], ['fast', 228]]) {
+    for (const [speed, ms] of [[0.25, 1824], [0.5, 912], [1, 456], [2, 228], [3, 152]]) {
       await chooseSpeed(page, speed);
       expect(await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue('--anim').trim())).toBe(ms + 'ms');
     }
@@ -131,7 +131,7 @@ test.describe('with motion', () => {
   test('pressing Next very fast never leaves a card stuck mid-slide', async ({ page }) => {
     for (const key of ['insertion', 'bubble', 'selection']) {
       await chooseAlgo(page, key);
-      await chooseSpeed(page, 'slow'); // the longest slides, so they overlap most
+      await chooseSpeed(page, 0.5); // the longest slides, so they overlap most
       const { steps } = await engineSteps(page, key);
       for (let i = 0; i < 23; i++) await page.keyboard.press('ArrowRight');
       expectTableMatches(await readTable(page), steps[23], key + ' after 23 fast presses');

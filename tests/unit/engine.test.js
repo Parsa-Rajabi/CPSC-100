@@ -390,6 +390,22 @@ describe('content', () => {
   });
 });
 
+describe('status phases', () => {
+  test('the lecture deals', () => {
+    const phases = (key, deal, target) => [...new Set(E.run(key, deal, { target }).map((s) => s.phase))];
+    assert.deepEqual(phases('selection', hearts(LECTURE)).slice(0, 3), ['Ready to sort', 'Pass 1 of 7 \u00B7 8 unsorted', 'Pass 2 of 7 \u00B7 7 unsorted']);
+    assert.deepEqual(phases('insertion', hearts(LECTURE)).slice(0, 3), ['Ready to sort', 'Card 2 of 8', 'Card 3 of 8']);
+    assert.deepEqual(phases('bubble', hearts(LECTURE)), ['Ready to sort', 'Pass 1 \u00B7 8 unsorted', 'Pass 2 \u00B7 7 unsorted',
+      'Pass 3 \u00B7 6 unsorted', 'Pass 4 \u00B7 5 unsorted', 'Pass 5 \u00B7 4 unsorted', 'Sorted']);
+    assert.deepEqual(phases('binary', clubs('A 2 3 4 5 6 7 8 9'), 'c7'), ['Ready to search 9 sorted cards', 'Middle of 9 cards', '4 cards left', 'Middle of 4 cards', 'Found it']);
+    assert.deepEqual(phases('linear', clubs('8 3 6 A 9 5 2 7 4'), 'c5').slice(0, 3), ['Ready to search 9 cards', 'Card 1 of 9', 'Card 2 of 9']);
+  });
+
+  test('the engine has a version the page checks', () => {
+    assert.equal(typeof E.VERSION, 'number');
+  });
+});
+
 describe('module formats', () => {
   const source = fs.readFileSync(ENGINE_PATH, 'utf8');
 

@@ -7,8 +7,10 @@ const { chromium, firefox, webkit } = require('playwright-core');
 
 const PORT = 4173;
 
-// Firefox and WebKit (Safari) run the behaviour tests too, once installed with
-// `npx playwright install firefox webkit`. Screenshots are compared in Chromium only.
+// Firefox and WebKit (Safari) run the behaviour tests too: on GitHub, and locally with
+// `npm run test:browsers` once installed (`npx playwright install firefox webkit`).
+// Screenshots are compared in Chromium only.
+const allBrowsers = !!(process.env.CI || process.env.ALL_BROWSERS);
 const installed = (browser) => {
   try {
     return fs.existsSync(browser.executablePath());
@@ -19,7 +21,7 @@ const installed = (browser) => {
 const others = [
   ['firefox', firefox, devices['Desktop Firefox']],
   ['webkit', webkit, devices['Desktop Safari']]
-].filter(([, browser]) => installed(browser)).map(([name, , device]) => ({
+].filter(([, browser]) => allBrowsers && installed(browser)).map(([name, , device]) => ({
   name,
   use: { ...device },
   testIgnore: /visual\.spec/

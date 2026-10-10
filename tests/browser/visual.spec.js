@@ -41,7 +41,8 @@ const STATES = {
 async function shoot(page, name, setup, options) {
   await setup(page);
   await page.mouse.move(0, 0); // no hover styles
-  await page.evaluate(() => window.scrollTo(0, 0)); // clicks near the bottom scroll the page
+  // Clicks near the bottom scroll the page; put it back, unless the tour holds it still.
+  await page.evaluate(() => { if (document.getElementById('tour').hidden) window.scrollTo(0, 0); });
   await expect(page).toHaveScreenshot(name + '.png', options);
 }
 
@@ -64,6 +65,50 @@ test.describe('phone, 375px wide', () => {
       await shoot(page, 'phone-' + name, STATES[name]);
     });
   }
+});
+
+test.describe('help and status, 1280x720', () => {
+  test('first-visit banner', async ({ page }) => {
+    await openDemo(page, { width: 1280, height: 720, reducedMotion: 'reduce', intro: true });
+    await shoot(page, 'help-intro-banner', async () => {});
+  });
+
+  test('a definition tooltip', async ({ page }) => {
+    // Tall enough that the pills are on screen without scrolling.
+    await openDemo(page, { width: 1280, height: 900, reducedMotion: 'reduce' });
+    await shoot(page, 'help-tooltip-pill', async (p) => {
+      await chooseAlgo(p, 'binary');
+      await p.locator('#pills .pill', { hasText: 'Sequencing' }).click();
+    });
+  });
+
+  test('a tour stop', async ({ page }) => {
+    await openDemo(page, { width: 1280, height: 720, reducedMotion: 'reduce' });
+    await shoot(page, 'help-tour-status', async (p) => {
+      await chooseAlgo(p, 'selection');
+      await next(p, 5);
+      await p.locator('#btn-tour').click();
+      for (let i = 0; i < 3; i++) await p.locator('#tour-next').click();
+    });
+  });
+
+  test('Try it after a wrong move, playing at x2', async ({ page }) => {
+    await openDemo(page, { width: 1280, height: 720, reducedMotion: 'reduce' });
+    await shoot(page, 'status-try-again', async (p) => {
+      await p.keyboard.press('+');
+      await p.keyboard.press('+');
+      await STATES['bubble-try-wrong-move'](p);
+    });
+  });
+});
+
+test('phone, 375px: a tour stop', async ({ page }) => {
+  await openDemo(page, { width: 375, height: 812, reducedMotion: 'reduce' });
+  await shoot(page, 'phone-help-tour-controls', async (p) => {
+    await chooseAlgo(p, 'insertion');
+    await p.locator('#btn-tour').click();
+    for (let i = 0; i < 6; i++) await p.locator('#tour-next').click();
+  });
 });
 
 test('wide laptop, 1440x900: bubble sort mid-pass', async ({ page }) => {

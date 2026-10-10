@@ -6,6 +6,7 @@
     "test": "npm run test:unit && npm run test:browser",
     "test:unit": "node --test \"unit/*.test.js\"",
     "test:browser": "playwright test",
+    "test:browsers": "ALL_BROWSERS=1 playwright test",
     "test:update-screenshots": "playwright test visual --update-snapshots=all"
   },
   "devDependencies": {
