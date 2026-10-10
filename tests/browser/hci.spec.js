@@ -448,6 +448,16 @@ test.describe('tour', () => {
     expect(Number((await readTable(page)).a)).toBeGreaterThan(Number(before));
   });
 
+  test('the whole window dims during the tour, scrollbar gutter included', async ({ page }) => {
+    const root = () => page.evaluate(() => getComputedStyle(document.documentElement).backgroundColor);
+    const before = await root();
+    await page.locator('#btn-tour').click();
+    // The overlay's colour over the page: navy at 62% over the page background.
+    expect(await root()).toMatch(/^(rgb\(98, 113, 136\)|color\(srgb 0\.38\d* 0\.44\d* 0\.53\d*\))$/);
+    await page.keyboard.press('Escape');
+    expect(await root()).toBe(before);
+  });
+
   test('the tour note is readable', async ({ page }) => {
     await page.locator('#btn-tour').click();
     expect(await lowContrast(page)).toEqual([]);
