@@ -74,8 +74,8 @@
       align-items: baseline;
       justify-content: space-between;
       gap: 4px 16px;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 4px;
+      padding-bottom: 4px;
     }
 
     h1 {
@@ -84,6 +84,29 @@
       font-size: 1.6rem;
       font-weight: 700;
       line-height: 1.2;
+    }
+
+    .top-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px 20px;
+    }
+
+    .tour-btn {
+      min-height: 34px;
+      padding: 4px 14px;
+      border: 2px solid var(--navy);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--navy);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .tour-btn:focus-visible {
+      outline: 3px solid var(--indigo);
+      outline-offset: 2px;
     }
 
     .site-links {
@@ -169,7 +192,8 @@
         background: var(--navy);
       }
 
-      .tab:hover {
+      .tab:hover,
+      .tour-btn:hover {
         background: #e9edf5;
       }
 
@@ -591,15 +615,144 @@
         #0b2a57;
     }
 
-    /* Narration --------------------------------------------------------- */
+    /* First-visit invitation to the tour ----------------------------------- */
 
-    .narration {
-      min-height: calc(2.8em + 20px);
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px 16px;
+      margin-bottom: 10px;
+      padding: 8px 8px 8px 16px;
+      border-left: 5px solid var(--indigo);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .intro p {
+      margin: 0;
+    }
+
+    .intro-label {
+      color: var(--indigo);
+      font-weight: 700;
+    }
+
+    .intro-buttons {
+      display: flex;
+      gap: 8px;
+    }
+
+    /* Status: what is happening, the narration, and where the run is ------ */
+
+    .status {
+      position: relative;
       margin: 10px 0;
-      padding: 10px 16px;
+      padding: 8px 16px 10px;
       border-left: 5px solid var(--gold);
       border-radius: 8px;
       background: #fff;
+      overflow: hidden;
+    }
+
+    .status.is-feedback {
+      border-left-color: var(--iteration);
+      background: #fdf3ee;
+    }
+
+    .status-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px 12px;
+      font-size: 0.95rem;
+    }
+
+    .state-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 2px 10px;
+      border: 2px solid var(--navy);
+      border-radius: 999px;
+      color: var(--navy);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .state-icon::before {
+      content: "\25CB"; /* ready: an open circle */
+    }
+
+    .state-pill[data-state="paused"] .state-icon::before {
+      content: "\275A\275A";
+      font-size: 0.7em;
+    }
+
+    .state-pill[data-state="playing"] {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    .state-pill[data-state="playing"] .state-icon::before {
+      content: "\25B6";
+    }
+
+    .state-pill[data-state="turn"] {
+      border-color: var(--gold);
+      background: var(--gold);
+      color: var(--navy);
+    }
+
+    .state-pill[data-state="turn"] .state-icon::before {
+      content: "\25CF"; /* a filled dot: waiting for you */
+    }
+
+    .state-pill[data-state="moving"] {
+      border-color: #5b6475;
+      color: #3b4352;
+    }
+
+    .state-pill[data-state="moving"] .state-icon::before {
+      content: "\2026";
+    }
+
+    .state-pill[data-state="retry"] {
+      border-color: var(--iteration);
+      background: var(--iteration);
+      color: #fff;
+    }
+
+    .state-pill[data-state="retry"] .state-icon::before {
+      content: "\21BA"; /* try again */
+    }
+
+    .state-pill[data-state="done"] {
+      border-color: var(--sequencing);
+      background: var(--sequencing);
+      color: #fff;
+    }
+
+    .state-pill[data-state="done"] .state-icon::before {
+      content: "\2713";
+    }
+
+    .phase {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    .progress-text {
+      color: var(--muted);
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .narration {
+      min-height: 2.8em;
+      margin: 4px 0 2px;
       font-size: 1.15rem;
     }
 
@@ -610,9 +763,99 @@
       font-weight: 700;
     }
 
-    .narration.is-feedback {
-      border-left-color: var(--iteration);
-      background: #fdf3ee;
+    .timeline {
+      position: relative;
+      flex: 1 1 200px;
+      min-width: 140px;
+      height: 26px;
+    }
+
+    /* The step timeline: a range input drawn as a track that fills up. */
+    .scrub {
+      --pct: 0%;
+      display: block;
+      width: 100%;
+      height: 26px;
+      margin: 0;
+      background: transparent;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    .scrub::-webkit-slider-runnable-track {
+      height: 8px;
+      border-radius: 999px;
+      background: linear-gradient(to right, var(--navy) var(--pct), #dde2ea var(--pct));
+    }
+
+    .scrub::-moz-range-track {
+      height: 8px;
+      border-radius: 999px;
+      background: linear-gradient(to right, var(--navy) var(--pct), #dde2ea var(--pct));
+    }
+
+    .scrub::-webkit-slider-thumb {
+      width: 20px;
+      height: 20px;
+      margin-top: -6px;
+      border: 3px solid var(--gold);
+      border-radius: 50%;
+      background: var(--navy);
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    .scrub::-moz-range-thumb {
+      width: 14px;
+      height: 14px;
+      border: 3px solid var(--gold);
+      border-radius: 50%;
+      background: var(--navy);
+    }
+
+    .scrub:focus-visible {
+      outline: 3px solid var(--indigo);
+      outline-offset: 2px;
+      border-radius: 999px;
+    }
+
+    .progress {
+      position: absolute;
+      top: 9px;
+      left: 0;
+      right: 0;
+      height: 8px;
+      border-radius: 999px;
+      background: #dde2ea;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      display: block;
+      width: 0;
+      height: 100%;
+      border-radius: 999px;
+      background: var(--navy);
+      transition: width 300ms ease;
+    }
+
+    /* Fills up while the next automatic step is on its way. */
+    .countdown {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 3px;
+      background: rgba(224, 171, 58, 0.25);
+    }
+
+    .countdown-fill {
+      display: block;
+      height: 100%;
+      background: var(--gold);
+      transform: scaleX(0);
+      transform-origin: left;
     }
 
     /* Controls ---------------------------------------------------------- */
@@ -632,9 +875,33 @@
     .speed {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
       color: var(--muted);
       font-weight: 600;
+    }
+
+    .speed-input {
+      width: 150px;
+      height: 28px;
+      margin: 0;
+      accent-color: var(--navy);
+      cursor: pointer;
+    }
+
+    .speed-input:focus-visible {
+      outline: 3px solid var(--indigo);
+      outline-offset: 3px;
+    }
+
+    .speed-out {
+      min-width: 3.2em;
+      padding: 2px 8px;
+      border-radius: 6px;
+      background: var(--navy);
+      color: #fff;
+      font-weight: 700;
+      text-align: center;
+      font-variant-numeric: tabular-nums;
     }
 
     .bottom-bar {
@@ -789,10 +1056,134 @@
 
     .pill {
       padding: 4px 14px;
+      border: 0;
       border-radius: 999px;
       color: #fff;
       font-size: 0.9rem;
       font-weight: 700;
+      cursor: help;
+    }
+
+    .pill:focus-visible {
+      outline: 3px solid #fff;
+      outline-offset: 2px;
+    }
+
+    /* A word with a definition: hover, focus or tap it. */
+    .term {
+      min-height: 24px;
+      padding: 3px 0 1px;
+      border: 0;
+      border-bottom: 1px dotted currentColor;
+      background: none;
+      color: inherit;
+      font-weight: inherit;
+      cursor: help;
+    }
+
+    .term:focus-visible {
+      outline: 3px solid var(--indigo);
+      outline-offset: 2px;
+    }
+
+    /* Tooltips ---------------------------------------------------------- */
+
+    .tip {
+      position: absolute; /* page coordinates: it scrolls with what it describes */
+      z-index: 60;
+      max-width: min(280px, calc(100vw - 32px));
+      padding: 6px 10px;
+      /* Indigo with a light edge, so it stands out on the navy panels and on white. */
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: 8px;
+      background: var(--indigo);
+      color: #fff;
+      font-size: 0.9rem;
+      line-height: 1.35;
+      box-shadow: 0 0 0 1px rgba(9, 32, 66, 0.35), 0 8px 22px rgba(9, 32, 66, 0.45);
+      pointer-events: none;
+    }
+
+    .tip kbd {
+      min-width: 1.4em;
+      border-color: rgba(255, 255, 255, 0.6);
+      background: #2a1aa0;
+      color: #fff;
+    }
+
+    /* Tour -------------------------------------------------------------- */
+
+    .tour {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+    }
+
+    /* While the tour is open the page holds still; the tour scrolls to each stop itself. */
+    html.touring {
+      overflow: hidden;
+    }
+
+    .tour-spot {
+      position: fixed;
+      border-radius: 14px;
+      box-shadow: 0 0 0 3px var(--gold), 0 0 0 200vmax rgba(9, 32, 66, 0.62);
+      transition: top 300ms ease, left 300ms ease, width 300ms ease, height 300ms ease;
+      pointer-events: none;
+    }
+
+    .tour-card {
+      position: fixed;
+      width: min(380px, calc(100vw - 32px));
+      padding: 14px 16px 12px;
+      border-radius: 14px;
+      background: #fff;
+      box-shadow: 0 16px 40px rgba(9, 32, 66, 0.45);
+    }
+
+    .tour-count {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .tour-title {
+      margin: 2px 0 4px;
+      color: var(--indigo);
+      font-size: 1.25rem;
+    }
+
+    .tour-title:focus {
+      outline: none;
+    }
+
+    .tour-text {
+      margin: 0 0 12px;
+    }
+
+    .tour-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tour-close {
+      min-height: 44px;
+      margin-left: auto;
+      padding: 0 4px;
+      border: 0;
+      background: none;
+      color: #0374B5;
+      font-weight: 600;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .tour-close:focus-visible {
+      outline: 3px solid var(--indigo);
+      outline-offset: 2px;
     }
 
     .pill.iteration {
@@ -888,6 +1279,21 @@
         font-size: 1rem;
       }
 
+      /* Title and Tour on one line, the site links under them. */
+      .top-inner {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+      }
+
+      .top-actions {
+        display: contents;
+      }
+
+      .site-links {
+        grid-column: 1 / -1;
+      }
+
       h1 {
         font-size: 1.4rem;
       }
@@ -904,6 +1310,21 @@
 
       .narration {
         font-size: 1.05rem;
+      }
+
+      .speed-input {
+        flex: 1 1 auto;
+        width: auto;
+      }
+
+      /* On a phone the timeline gets its own line, under the status. */
+      .status-head .timeline {
+        order: 1;
+        flex-basis: 100%;
+      }
+
+      .progress-text {
+        margin-left: auto;
       }
 
       .info {
@@ -978,10 +1399,13 @@
   <header class="top">
     <div class="wrap top-inner">
       <h1>Card Demos</h1>
-      <nav class="site-links" aria-label="Course site">
-        <a class="site-link" href="../#/schedule">Course schedule</a>
-        <a class="site-link" href="../">Back to course site</a>
-      </nav>
+      <div class="top-actions">
+        <button type="button" class="tour-btn" id="btn-tour" data-tip="A one-minute tour of this page" data-keys="?">Tour</button>
+        <nav class="site-links" aria-label="Course site">
+          <a class="site-link" href="../#/schedule">Course schedule</a>
+          <a class="site-link" href="../">Back to course site</a>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -989,6 +1413,14 @@
     <noscript>
       <p>This page needs JavaScript to deal the cards.</p>
     </noscript>
+
+    <div class="intro" id="intro" hidden>
+      <p><span class="intro-label">New here?</span> A one-minute tour shows how this page works.</p>
+      <div class="intro-buttons">
+        <button type="button" class="btn primary" id="btn-intro-tour">Take the tour</button>
+        <button type="button" class="btn" id="btn-intro-dismiss">No thanks</button>
+      </div>
+    </div>
 
     <div class="tabs" id="tabs" role="group" aria-label="Algorithm"></div>
 
@@ -1008,7 +1440,19 @@
       <div class="row" id="row"></div>
     </section>
 
-    <p class="narration" id="narration" aria-live="polite"></p>
+    <section class="status" id="status" aria-label="What is happening">
+      <div class="status-head">
+        <span class="state-pill" id="state-pill" data-state="ready"><span class="state-icon" aria-hidden="true"></span><span id="state-text">Ready</span></span>
+        <span class="phase" id="phase"></span>
+        <div class="timeline">
+          <input type="range" class="scrub" id="scrub" min="0" max="1" step="1" value="0" aria-label="Step" data-tip="Drag to jump to any step">
+          <div class="progress" id="progress" role="progressbar" aria-label="Decisions made" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" hidden><span class="progress-fill" id="progress-fill"></span></div>
+        </div>
+        <span class="progress-text" id="progress-text"></span>
+      </div>
+      <p class="narration" id="narration" aria-live="polite"></p>
+      <div class="countdown" id="countdown" aria-hidden="true" hidden><span class="countdown-fill" id="countdown-fill"></span></div>
+    </section>
 
     <div id="watch-controls">
       <div class="controls">
@@ -1017,13 +1461,11 @@
         <button type="button" class="btn primary" id="btn-play"><span class="icon" aria-hidden="true">&#9654;</span> <span>Play</span></button>
         <button type="button" class="btn" id="btn-next">Next <span class="icon" aria-hidden="true">&#9654;</span></button>
         <span class="spacer"></span>
-        <span class="speed">Speed
-          <span class="seg small" role="group" aria-label="Speed">
-            <button type="button" data-speed="slow" aria-pressed="false">Slow</button>
-            <button type="button" data-speed="normal" aria-pressed="true">Normal</button>
-            <button type="button" data-speed="fast" aria-pressed="false">Fast</button>
-          </span>
-        </span>
+        <label class="speed" data-tip="How fast steps play, from a quarter speed to three times" data-keys="&minus; +">
+          <span class="speed-label">Speed</span>
+          <input type="range" class="speed-input" min="0" max="6" step="1" value="3" list="speed-ticks">
+          <output class="speed-out">&times;1</output>
+        </label>
       </div>
     </div>
 
@@ -1034,13 +1476,11 @@
       </div>
       <button type="button" class="btn" id="btn-show">Show me</button>
       <span class="spacer"></span>
-      <span class="speed">Speed
-        <span class="seg small" role="group" aria-label="Speed">
-          <button type="button" data-speed="slow" aria-pressed="false">Slow</button>
-          <button type="button" data-speed="normal" aria-pressed="true">Normal</button>
-          <button type="button" data-speed="fast" aria-pressed="false">Fast</button>
-        </span>
-      </span>
+      <label class="speed" data-tip="How fast steps play, from a quarter speed to three times" data-keys="&minus; +">
+        <span class="speed-label">Speed</span>
+        <input type="range" class="speed-input" min="0" max="6" step="1" value="3" list="speed-ticks">
+        <output class="speed-out">&times;1</output>
+      </label>
     </div>
 
     <div class="finish" id="finish" role="status" hidden>
@@ -1062,31 +1502,58 @@
       <div class="stats">
         <div class="stat"><span class="stat-label" id="label-a"></span><span class="stat-num" id="num-a">0</span></div>
         <div class="stat" id="stat-b"><span class="stat-label" id="label-b"></span><span class="stat-num" id="num-b">0</span></div>
-        <div class="stat"><span class="stat-label" id="label-c"></span><span class="stat-num" id="num-c">0</span></div>
+        <div class="stat" id="stat-c"><span class="stat-label" id="label-c"></span><span class="stat-num" id="num-c">0</span></div>
       </div>
     </div>
 
     <div class="bottom-bar">
       <div class="deals" id="deals" role="group" aria-label="Deal"></div>
-      <p class="keys" id="keys">Keys: <kbd>&rarr;</kbd> or <kbd>Page Down</kbd> next, <kbd>&larr;</kbd> or <kbd>Page Up</kbd> back, <kbd>Space</kbd> play or pause.</p>
+      <p class="keys" id="keys">Keys: <kbd>&rarr;</kbd> <kbd>&larr;</kbd> step, <kbd>Space</kbd> play, <kbd>Home</kbd> <kbd>End</kbd> first or last, <kbd>&minus;</kbd> <kbd>+</kbd> speed, <kbd>?</kbd> tour. A clicker works too.</p>
     </div>
   </main>
 
-  <script src="cards-engine.js"></script>
+  <datalist id="speed-ticks">
+    <option value="0"></option><option value="1"></option><option value="2"></option><option value="3"></option>
+    <option value="4"></option><option value="5"></option><option value="6"></option>
+  </datalist>
+
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+
+  <div class="tour" id="tour" hidden>
+    <div class="tour-spot" id="tour-spot"></div>
+    <div class="tour-card" id="tour-card" role="dialog" aria-modal="true" aria-labelledby="tour-title" aria-describedby="tour-text">
+      <p class="tour-count" id="tour-count"></p>
+      <h2 class="tour-title" id="tour-title" tabindex="-1"></h2>
+      <p class="tour-text" id="tour-text"></p>
+      <div class="tour-buttons">
+        <button type="button" class="btn" id="tour-back">Back</button>
+        <button type="button" class="btn primary" id="tour-next">Next</button>
+        <button type="button" class="tour-close" id="tour-close">End tour</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="cards-engine.js?v=2"></script>
   <script>
     (function () {
       'use strict';
 
+      // Must match cards-engine.js?v= in the script tag and CardEngine.VERSION.
+      var ENGINE_VERSION = 2;
       var E = window.CardEngine;
-      if (!E) {
+      if (!E || E.VERSION !== ENGINE_VERSION) {
         document.getElementById('narration').textContent =
           'The card demos could not load. Check your connection and refresh the page.';
         return;
       }
       var ALG = E.ALGORITHMS;
 
-      // Milliseconds per step.
-      var SPEEDS = { slow: 2000, normal: 1200, fast: 600 };
+      // Milliseconds per step at x1; the speed slider divides it.
+      var BASE_MS = 1200;
+      var SPEED_STEPS = [0.25, 0.5, 0.75, 1, 1.5, 2, 3];
+      var SPEED_NAMES = ['quarter speed', 'half speed', 'three-quarter speed', 'normal speed',
+        '1.5 times speed', 'double speed', 'triple speed'];
+      var NORMAL_SPEED = 3;
       // ︎ asks for the text form of the suit, so phones do not draw an emoji.
       var SUIT = { hearts: '♥︎', clubs: '♣︎' };
       // After each move, ignore answers this long, so a double click or double tap cannot
@@ -1106,13 +1573,20 @@
         finishMain: $('finish-main'), finishCompare: $('finish-compare'),
         again: $('btn-again'), watchIt: $('btn-watch-it'), code: $('code'), pills: $('pills'),
         labelA: $('label-a'), numA: $('num-a'), statB: $('stat-b'), labelB: $('label-b'),
-        numB: $('num-b'), labelC: $('label-c'), numC: $('num-c'), deals: $('deals'), keys: $('keys')
+        numB: $('num-b'), labelC: $('label-c'), numC: $('num-c'), statC: $('stat-c'), deals: $('deals'),
+        keys: $('keys'), intro: $('intro'), introTour: $('btn-intro-tour'), introDismiss: $('btn-intro-dismiss'),
+        tourBtn: $('btn-tour'), status: $('status'), statePill: $('state-pill'), stateText: $('state-text'),
+        phase: $('phase'), progressText: $('progress-text'), scrub: $('scrub'), progress: $('progress'),
+        progressFill: $('progress-fill'), countdown: $('countdown'), countdownFill: $('countdown-fill'),
+        tip: $('tip'), tour: $('tour'), tourSpot: $('tour-spot'), tourCard: $('tour-card'),
+        tourCount: $('tour-count'), tourTitle: $('tour-title'), tourText: $('tour-text'),
+        tourBack: $('tour-back'), tourNext: $('tour-next'), tourClose: $('tour-close')
       };
 
       var state = {
         algo: 'linear',
         mode: 'watch',
-        speed: 'normal',
+        speed: NORMAL_SPEED, // index into SPEED_STEPS
         // Sorts share one deal; each search keeps its own row and target.
         deals: {
           sort: { cards: E.parseDeal(E.DEALS.sortLecture, 'hearts'), preset: 'lecture' },
@@ -1132,8 +1606,10 @@
         playing: false,
         timer: null,
         waiting: false,
+        retry: false, // the last answer was wrong
         readyAt: 0,
         mistakes: 0,
+        asks: [], // indexes of the steps that ask the student something
         done: false
       };
 
@@ -1158,9 +1634,61 @@
         return window.performance && performance.now ? performance.now() : Date.now();
       }
 
+      function stepMs() {
+        return BASE_MS / SPEED_STEPS[state.speed];
+      }
+
+      function speedLabel() {
+        return '\u00D7' + SPEED_STEPS[state.speed];
+      }
+
+      // Small conveniences remembered by this browser. Storage can be blocked, so every use
+      // is guarded and the page works without it.
+      function readPref(key) {
+        try {
+          return window.localStorage.getItem('cards.' + key);
+        } catch (err) {
+          return null;
+        }
+      }
+
+      function writePref(key, value) {
+        try {
+          window.localStorage.setItem('cards.' + key, value);
+        } catch (err) {
+          // not remembered, which is fine
+        }
+      }
+
       function stopTimer() {
         clearTimeout(state.timer);
         state.timer = null;
+        stopCountdown();
+      }
+
+      // Every automatic step goes through here, so the countdown always matches the timer.
+      function schedule(fn, ms) {
+        clearTimeout(state.timer);
+        state.timer = setTimeout(fn, ms);
+        startCountdown(ms);
+      }
+
+      // A thin bar that fills while the next automatic step is on its way.
+      function startCountdown(ms) {
+        if (!motionOK()) return;
+        var bar = els.countdownFill;
+        els.countdown.hidden = false;
+        bar.style.transition = 'none';
+        bar.style.transform = 'scaleX(0)';
+        void bar.offsetWidth; // start from empty
+        bar.style.transition = 'transform ' + Math.round(ms) + 'ms linear';
+        bar.style.transform = 'scaleX(1)';
+      }
+
+      function stopCountdown() {
+        els.countdown.hidden = true;
+        els.countdownFill.style.transition = 'none';
+        els.countdownFill.style.transform = 'scaleX(0)';
       }
 
       // Deals -------------------------------------------------------------
@@ -1299,7 +1827,7 @@
         opts = opts || {};
         var s = step();
         var flip = opts.animate && motionOK();
-        var duration = Math.min(560, SPEEDS[state.speed] * 0.5);
+        var duration = Math.min(560, stepMs() * 0.5);
 
         // FLIP, step 1: measure where every card is now (mid-animation included).
         var first = {};
@@ -1362,6 +1890,47 @@
         });
 
         renderCounts(!opts.animate);
+        renderStatus();
+      }
+
+      // The status line: what is happening, where the run is, and the timeline.
+      function renderStatus() {
+        var s = step();
+        var watch = state.mode === 'watch';
+        var last = lastIdx();
+        var kind;
+        var text;
+        if (watch) {
+          if (state.idx >= last) { kind = 'done'; text = 'Finished'; }
+          else if (state.playing) { kind = 'playing'; text = 'Playing ' + speedLabel(); }
+          else if (state.idx === 0) { kind = 'ready'; text = 'Ready'; }
+          else { kind = 'paused'; text = 'Paused'; }
+        } else if (state.done) { kind = 'done'; text = 'Finished'; }
+        else if (state.retry) { kind = 'retry'; text = 'Try again'; }
+        else if (state.waiting) { kind = 'turn'; text = 'Your turn'; }
+        else { kind = 'moving'; text = 'Algorithm moving'; }
+        els.statePill.dataset.state = kind;
+        els.stateText.textContent = text;
+        els.phase.textContent = s.phase || '';
+        els.scrub.hidden = !watch;
+        els.progress.hidden = watch;
+        if (watch) {
+          var where = 'Step ' + state.idx + ' of ' + last;
+          els.progressText.textContent = where;
+          els.scrub.max = String(last);
+          els.scrub.value = String(state.idx);
+          els.scrub.setAttribute('aria-valuetext', where);
+          els.scrub.style.setProperty('--pct', (last ? (state.idx / last) * 100 : 0) + '%');
+        } else {
+          var total = state.asks.length;
+          var made = state.asks.filter(function (i) { return i < state.idx; }).length;
+          els.progressText.textContent = state.done ? 'All ' + total + ' decisions made'
+            : state.waiting ? 'Decision ' + (made + 1) + ' of ' + total
+              : made + ' of ' + total + ' decisions made';
+          els.progress.setAttribute('aria-valuemax', String(total));
+          els.progress.setAttribute('aria-valuenow', String(made));
+          els.progressFill.style.width = (total ? (made / total) * 100 : 0) + '%';
+        }
       }
 
       function setNum(el, html, quiet) {
@@ -1382,11 +1951,7 @@
         } else {
           setNum(els.numA, String(c.flips), quiet);
         }
-        if (state.mode === 'watch') {
-          els.numC.innerHTML = state.idx + '<small> of ' + lastIdx() + '</small>';
-        } else {
-          setNum(els.numC, String(state.mistakes), quiet);
-        }
+        if (state.mode === 'try') setNum(els.numC, String(state.mistakes), quiet);
       }
 
       function narrate(text, prompt, feedback) {
@@ -1398,6 +1963,7 @@
           els.narration.appendChild(p);
         }
         els.narration.classList.toggle('is-feedback', !!feedback);
+        els.status.classList.toggle('is-feedback', !!feedback);
       }
 
       function wave() {
@@ -1432,6 +1998,8 @@
             b.dataset.algo = key;
             b.innerHTML = '<span class="tab-num" aria-hidden="true">' + (i + 1) + '</span>';
             b.appendChild(document.createTextNode(ALG[key].name));
+            b.dataset.tip = ALG[key].idea;
+            b.dataset.keys = String(i + 1);
             b.addEventListener('click', function () { setAlgo(key); });
             els.tabs.appendChild(b);
           });
@@ -1484,19 +2052,24 @@
           return div;
         });
 
+        // The pills and counter names define themselves: hover, focus, or tap them.
         els.pills.textContent = '';
         a.pills.forEach(function (name) {
-          var pill = document.createElement('span');
+          var pill = document.createElement('button');
+          pill.type = 'button';
           pill.className = 'pill ' + name.toLowerCase();
           pill.textContent = name;
+          pill.dataset.tip = PILL_TIPS[name];
+          pill.dataset.toggle = '';
           els.pills.appendChild(pill);
         });
 
         var sort = a.kind === 'sort';
-        els.labelA.textContent = sort ? 'Comparisons' : 'Flips';
+        term(els.labelA, sort ? 'Comparisons' : 'Flips');
         els.statB.hidden = !sort;
-        els.labelB.textContent = 'Swaps';
-        els.labelC.textContent = state.mode === 'watch' ? 'Step' : 'Mistakes';
+        term(els.labelB, 'Swaps');
+        term(els.labelC, 'Mistakes');
+        els.statC.hidden = state.mode === 'watch';
         els.numA.innerHTML = els.numB.innerHTML = els.numC.innerHTML = '';
 
         renderDeals();
@@ -1507,6 +2080,36 @@
         els.tryControls.hidden = watch;
         els.finish.hidden = true;
         els.decide.hidden = !(state.algo === 'insertion' || state.algo === 'bubble');
+      }
+
+      var PILL_TIPS = {
+        Iteration: 'Iteration: repeating steps, as in For each and Repeat until.',
+        Selection: 'Selection: choosing what to do with If. (A building block, not selection sort.)',
+        Sequencing: 'Sequencing: steps that run one after another, in order.'
+      };
+      var TERM_TIPS = {
+        Comparisons: 'Each time two cards are compared. The slides use this to measure the work.',
+        Flips: 'Each card turned over. Fewer flips means a faster search.',
+        Swaps: 'Each time two cards change places.',
+        Mistakes: 'Wrong moves, plus each time you used Show me.'
+      };
+      var DEAL_TIPS = {
+        lecture: 'The deal from the W5A slides',
+        nearly: 'Almost in order: one pair is out of place',
+        sortShuffle: 'A random order',
+        linearShuffle: 'A random order and a random card to find',
+        binaryShuffle: 'The same sorted cards, a random card to find'
+      };
+
+      function term(holder, word) {
+        holder.textContent = '';
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'term';
+        b.textContent = word;
+        b.dataset.tip = TERM_TIPS[word];
+        b.dataset.toggle = '';
+        holder.appendChild(b);
       }
 
       function renderDeals() {
@@ -1529,6 +2132,7 @@
           b.className = 'btn';
           b.textContent = o[1];
           b.dataset.preset = o[0];
+          b.dataset.tip = o[0] === 'shuffle' ? DEAL_TIPS[g + 'Shuffle'] : DEAL_TIPS[o[0]];
           if (o[0] !== 'shuffle') b.setAttribute('aria-pressed', String(deal().preset === o[0]));
           b.addEventListener('click', function () { setDeal(o[0]); });
           els.deals.appendChild(b);
@@ -1543,10 +2147,13 @@
         setPlaying(false);
         var d = deal();
         state.steps = E.run(state.algo, d.cards, { target: d.target });
+        state.asks = state.steps.map(function (s, i) { return s.ask ? i : -1; }).filter(function (i) { return i >= 0; });
         state.idx = 0;
         state.mistakes = 0;
         state.waiting = false;
+        state.retry = false;
         state.done = false;
+        hideTip();
         renderStatic();
         buildRow();
         if (state.mode === 'watch') {
@@ -1578,12 +2185,21 @@
         load();
       }
 
-      function setSpeed(speed) {
-        state.speed = speed;
-        document.documentElement.style.setProperty('--anim', Math.round(SPEEDS[speed] * 0.38) + 'ms');
-        Array.prototype.forEach.call(document.querySelectorAll('[data-speed]'), function (b) {
-          b.setAttribute('aria-pressed', String(b.dataset.speed === speed));
+      function setSpeed(index) {
+        if (!(index >= 0)) index = NORMAL_SPEED; // NaN from a bad saved value
+        state.speed = Math.max(0, Math.min(SPEED_STEPS.length - 1, Math.round(index)));
+        document.documentElement.style.setProperty('--anim', Math.round(stepMs() * 0.38) + 'ms');
+        Array.prototype.forEach.call(document.querySelectorAll('.speed-input'), function (input) {
+          input.value = String(state.speed);
+          input.setAttribute('aria-valuetext', SPEED_NAMES[state.speed]);
         });
+        Array.prototype.forEach.call(document.querySelectorAll('.speed-out'), function (out) {
+          out.textContent = speedLabel();
+        });
+        writePref('speed', String(state.speed));
+        if (!state.steps.length) return;
+        if (state.mode === 'watch' && state.playing) tick(); // the next step at the new pace
+        renderStatus();
       }
 
       // Watch mode ------------------------------------------------------
@@ -1613,14 +2229,15 @@
         els.play.querySelector('.icon').innerHTML = on ? '&#10074;&#10074;' : '&#9654;';
         els.play.lastElementChild.textContent = on ? 'Pause' : 'Play';
         if (!on && state.mode === 'watch') stopTimer();
+        if (state.steps.length) renderStatus();
       }
 
       function tick() {
-        state.timer = setTimeout(function () {
+        schedule(function () {
           go(state.idx + 1);
           if (state.idx >= lastIdx()) setPlaying(false);
           else tick();
-        }, SPEEDS[state.speed]);
+        }, stepMs());
       }
 
       function togglePlay() {
@@ -1656,6 +2273,7 @@
         // A swap step's `say` gives the answer away, so only the question shows.
         var text = lead || (s.ask && s.ask.kind === 'swap' ? '' : s.say);
         state.waiting = !!s.ask && state.idx < lastIdx();
+        state.retry = false;
         state.readyAt = now() + SETTLE_MS;
         render({ animate: state.idx > 0 });
         updateTryButtons();
@@ -1669,10 +2287,10 @@
           return;
         }
         narrate(text);
-        var delay = SPEEDS[state.speed];
+        var delay = stepMs();
         if (lead) delay *= 1.3;
         else if (state.algo === 'selection' && (s.line === 1 || s.line === 2)) delay *= 0.45;
-        state.timer = setTimeout(function () {
+        schedule(function () {
           state.idx++;
           enterTry(null);
         }, delay);
@@ -1700,8 +2318,10 @@
           return;
         }
         state.mistakes++;
+        state.retry = true;
         state.readyAt = now() + SETTLE_MS;
         renderCounts();
+        renderStatus();
         shake(el);
         narrate(E.explainWrong(state.algo, s, choice, cardsById), null, true);
       }
@@ -1740,6 +2360,7 @@
         els.tryControls.hidden = true;
         els.finish.hidden = false;
         if (focusLost) els.again.focus({ preventScroll: true });
+        renderStatus();
         wave();
       }
 
@@ -1751,8 +2372,20 @@
       els.back.addEventListener('click', back);
       els.next.addEventListener('click', next);
       els.play.addEventListener('click', togglePlay);
-      Array.prototype.forEach.call(document.querySelectorAll('[data-speed]'), function (b) {
-        b.addEventListener('click', function () { setSpeed(b.dataset.speed); });
+      Array.prototype.forEach.call(document.querySelectorAll('.speed-input'), function (input) {
+        input.addEventListener('input', function () { setSpeed(Number(input.value)); });
+      });
+      els.scrub.addEventListener('input', function () {
+        var to = Number(els.scrub.value); // read first: pausing redraws the timeline
+        setPlaying(false);
+        go(to);
+      });
+      // After a drag with the mouse or a finger, a slider lets go of focus, so the arrow keys
+      // and a clicker go back to stepping through the algorithm.
+      Array.prototype.forEach.call(document.querySelectorAll('input[type="range"]'), function (input) {
+        input.addEventListener('pointerup', function () {
+          setTimeout(function () { input.blur(); }, 0);
+        });
       });
 
       // e.detail > 1 is the second click of a double click; keyboard presses have detail 0.
@@ -1787,11 +2420,46 @@
       // Presentation clickers send Page Up / Page Down.
       var spaceHandled = false;
       document.addEventListener('keydown', function (e) {
+        if (tour.open) {
+          tourKey(e);
+          return;
+        }
+        if (e.key === 'Escape' && !els.tip.hidden) {
+          hideTip();
+          return;
+        }
         if (e.altKey || e.ctrlKey || e.metaKey) return;
         var t = e.target;
-        if (t.closest && t.closest('input, select, textarea, [contenteditable]')) return;
+        // A presentation clicker sends Page Up / Page Down: those always step, even when a
+        // slider has focus. Other keys on a slider adjust the slider.
+        var clicker = e.key === 'PageDown' || e.key === 'PageUp';
+        var onRange = t.matches && t.matches('input[type="range"]');
+        if (!(clicker && onRange) && t.closest && t.closest('input, select, textarea, [contenteditable]')) return;
+        if (e.key === '?') {
+          e.preventDefault();
+          startTour();
+          return;
+        }
+        if (e.key === '+' || e.key === '=') {
+          e.preventDefault();
+          setSpeed(state.speed + 1);
+          return;
+        }
+        if (e.key === '-' || e.key === '_') {
+          e.preventDefault();
+          setSpeed(state.speed - 1);
+          return;
+        }
+        if (/^[1-5]$/.test(e.key)) {
+          setAlgo(E.ORDER[Number(e.key) - 1]);
+          return;
+        }
         if (state.mode !== 'watch') return;
-        if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+        if (e.key === 'Home' || e.key === 'End') {
+          e.preventDefault();
+          setPlaying(false);
+          go(e.key === 'Home' ? 0 : lastIdx());
+        } else if (e.key === 'ArrowRight' || e.key === 'PageDown') {
           e.preventDefault();
           next();
         } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
@@ -1828,7 +2496,283 @@
         window.addEventListener('resize', layout);
       }
 
-      setSpeed('normal');
+      // Tooltips ----------------------------------------------------------
+      // Anything with data-tip gets a tooltip on hover (after a short pause) or keyboard focus.
+      // With data-toggle it also opens on a click or tap, for phones and definitions.
+
+      var TIPS = [
+        [els.modeWatch, 'Watch the algorithm, one step at a time'],
+        [els.modeTry, 'Make each decision yourself'],
+        [els.reset, 'Back to the first step', 'Home'],
+        [els.back, 'One step back', '\u2190'],
+        [els.play, 'Play the steps on their own', 'Space'],
+        [els.next, 'One step forward', '\u2192'],
+        [els.swap, 'Swap the two highlighted cards'],
+        [els.noswap, 'Leave the two highlighted cards where they are'],
+        [els.show, 'Make the right move for you. It counts as a mistake.'],
+        [els.again, 'A new shuffle, same algorithm'],
+        [els.watchIt, 'Watch the algorithm on this same deal']
+      ];
+      TIPS.forEach(function (t) {
+        t[0].dataset.tip = t[1];
+        if (t[2]) t[0].dataset.keys = t[2];
+      });
+
+      var tipOwner = null; // the element whose data-tip is showing
+      var tipFor = null; // the element described by it, for screen readers
+      var tipSticky = false; // opened by a click or tap
+      var tipTimer = 0;
+
+      function showTip(owner, described, sticky) {
+        if (tour.open) return;
+        hideTip();
+        els.tip.textContent = owner.dataset.tip;
+        if (owner.dataset.keys) {
+          var keys = document.createElement('span');
+          keys.className = 'tip-keys';
+          keys.appendChild(document.createTextNode(' Key: '));
+          owner.dataset.keys.split(' ').forEach(function (k, i) {
+            if (i) keys.appendChild(document.createTextNode(' '));
+            var kbd = document.createElement('kbd');
+            kbd.textContent = k;
+            keys.appendChild(kbd);
+          });
+          els.tip.appendChild(keys);
+        }
+        els.tip.hidden = false;
+        tipOwner = owner;
+        tipFor = described || owner;
+        tipSticky = !!sticky;
+        tipFor.setAttribute('aria-describedby', 'tip');
+        placeTip();
+      }
+
+      function hideTip() {
+        clearTimeout(tipTimer);
+        if (tipFor) tipFor.removeAttribute('aria-describedby');
+        tipOwner = tipFor = null;
+        tipSticky = false;
+        els.tip.hidden = true;
+      }
+
+      // Above the element if there is room, otherwise below; always inside the window.
+      function placeTip() {
+        if (!tipOwner) return;
+        var r = tipOwner.getBoundingClientRect();
+        var w = els.tip.offsetWidth;
+        var h = els.tip.offsetHeight;
+        var vw = document.documentElement.clientWidth;
+        var top = r.top - h - 8;
+        if (top < 8) top = r.bottom + 8;
+        var left = Math.max(16, Math.min(vw - 16 - w, r.left + r.width / 2 - w / 2));
+        els.tip.style.top = Math.round(top + window.scrollY) + 'px';
+        els.tip.style.left = Math.round(left + window.scrollX) + 'px';
+      }
+
+      function tipOwnerOf(node) {
+        return node && node.closest ? node.closest('[data-tip]') : null;
+      }
+
+      document.addEventListener('pointerover', function (e) {
+        if (e.pointerType !== 'mouse') return;
+        var owner = tipOwnerOf(e.target);
+        if (!owner || owner === tipOwner) return;
+        clearTimeout(tipTimer);
+        tipTimer = setTimeout(function () { showTip(owner); }, 450);
+      });
+      document.addEventListener('pointerout', function (e) {
+        var owner = tipOwnerOf(e.target);
+        if (!owner || owner.contains(e.relatedTarget)) return;
+        clearTimeout(tipTimer);
+        if (owner === tipOwner && !tipSticky) hideTip();
+      });
+      document.addEventListener('pointerdown', function (e) {
+        var t = e.target.closest && e.target.closest('[data-toggle]');
+        if (!t || t !== tipOwner) hideTip();
+      });
+      document.addEventListener('click', function (e) {
+        var t = e.target.closest && e.target.closest('[data-toggle]');
+        if (!t) return;
+        if (t === tipOwner && tipSticky) hideTip();
+        else showTip(t, t, true);
+      });
+      document.addEventListener('focusin', function (e) {
+        var owner = tipOwnerOf(e.target);
+        if (owner && focusVisible(e.target)) showTip(owner, e.target);
+      });
+      document.addEventListener('focusout', function (e) {
+        if (e.target === tipFor && !tipSticky) hideTip();
+      });
+      window.addEventListener('resize', hideTip);
+
+      // Tour ---------------------------------------------------------------
+      // A guided tour: a spotlight on each part of the page, with a short note beside it.
+
+      var tour = { open: false, i: 0, steps: [], opener: null, resume: false };
+
+      function visibleSpeed() {
+        return document.querySelector((state.mode === 'watch' ? '#watch-controls' : '#try-controls') + ' .speed');
+      }
+
+      var TOUR = [
+        { el: function () { return els.tabs; }, title: 'Pick an algorithm',
+          text: 'Five algorithms from the W5A lecture: two ways to search and three ways to sort. The number keys 1 to 5 switch between them.' },
+        { el: function () { return els.modeWatch.parentElement; }, title: 'Watch, then try',
+          text: 'Watch shows every step. Try it hands each decision to you, and says why when a move breaks the rule.' },
+        { el: function () { return els.table; }, title: 'The cards',
+          text: 'Cards being compared lift and get a gold outline. Locked-in cards get a gold edge. In binary search, ruled-out cards fade.' },
+        { el: function () { return els.statePill.parentElement; }, title: 'What is happening now',
+          text: function () {
+            return state.mode === 'watch'
+              ? 'Ready, playing, paused or finished, and where the algorithm is: which pass, or which card.'
+              : 'Your turn, or the algorithm moving on its own, and how many decisions are left.';
+          } },
+        { el: function () { return els.narration; }, title: 'Each step, explained',
+          text: 'This line says what just happened and why. Screen readers read it out as it changes.' },
+        { el: function () { return els.scrub.parentElement; }, title: 'Where you are',
+          text: function () {
+            return state.mode === 'watch'
+              ? 'The timeline fills as the steps go by. Drag it to jump to any step. The thin gold line fills before each automatic step.'
+              : 'This bar fills with each decision you make. The thin gold line fills before the algorithm moves on its own.';
+          } },
+        { el: function () { return state.mode === 'watch' ? els.watchControls.querySelector('.controls') : els.tryControls; },
+          title: function () { return state.mode === 'watch' ? 'Step through it' : 'Make your move'; },
+          text: function () {
+            if (state.mode === 'watch') {
+              return 'Back and Next move one step; Play runs on its own. The arrow keys, Space, Home and End work too, and so does a presentation clicker.';
+            }
+            return els.decide.hidden
+              ? 'Click the card the algorithm would choose next. Show me makes the move for you, and counts it as a mistake.'
+              : 'At each comparison, choose Swap or Don\'t swap. Show me makes the move for you, and counts it as a mistake.';
+          } },
+        { el: visibleSpeed, title: 'Set the pace',
+          text: 'Slide from a quarter speed to three times as fast. The minus and plus keys work too, and this browser remembers your choice.' },
+        { el: function () { return els.code.parentElement; }, title: 'The algorithm',
+          text: 'The pseudocode from the slides. The highlighted line is the one running now. The coloured pills name its building blocks: tap one to see what it means.' },
+        { el: function () { return els.numA.parentElement.parentElement; }, title: 'Keep count',
+          text: 'Comparisons and swaps, or flips for a search. Compare these numbers between algorithms on the same deal. Tap a name to see what it counts.' },
+        { el: function () { return els.deals; }, title: 'Try another deal',
+          text: 'The deal from the slides, a nearly sorted one, or a new shuffle.' },
+        { el: function () { return els.tourBtn; }, title: 'That is the tour',
+          text: 'Hover over or focus any control for a hint. Press Tour, or the question mark key, to see this again.' }
+      ];
+
+      function textOf(v) {
+        return typeof v === 'function' ? v() : v;
+      }
+
+      function startTour() {
+        if (tour.open) return;
+        hideTip();
+        tour.opener = document.activeElement;
+        // Nothing moves on its own while the tour is open.
+        if (state.mode === 'watch') {
+          setPlaying(false);
+        } else if (state.timer) {
+          stopTimer();
+          tour.resume = true;
+        }
+        tour.steps = TOUR.filter(function (t) {
+          var el = t.el();
+          return el && el.getClientRects().length > 0;
+        });
+        tour.open = true;
+        els.intro.hidden = true;
+        document.documentElement.classList.add('touring');
+        els.tour.hidden = false;
+        showTourStep(0);
+      }
+
+      function showTourStep(i) {
+        tour.i = Math.max(0, Math.min(tour.steps.length - 1, i));
+        var t = tour.steps[tour.i];
+        t.el().scrollIntoView({ block: 'center', inline: 'nearest' });
+        els.tourCount.textContent = (tour.i + 1) + ' of ' + tour.steps.length;
+        els.tourTitle.textContent = textOf(t.title);
+        els.tourText.textContent = textOf(t.text);
+        els.tourBack.hidden = tour.i === 0;
+        els.tourNext.textContent = tour.i === tour.steps.length - 1 ? 'Done' : 'Next';
+        placeTour();
+        els.tourTitle.focus({ preventScroll: true });
+      }
+
+      // The spotlight hugs the element; the note sits below it, above it, or at the bottom.
+      function placeTour() {
+        if (!tour.open) return;
+        var r = tour.steps[tour.i].el().getBoundingClientRect();
+        var pad = 6;
+        var vw = document.documentElement.clientWidth;
+        var vh = window.innerHeight;
+        var spot = { top: r.top - pad, left: r.left - pad, width: r.width + pad * 2, height: r.height + pad * 2 };
+        els.tourSpot.style.top = spot.top + 'px';
+        els.tourSpot.style.left = spot.left + 'px';
+        els.tourSpot.style.width = spot.width + 'px';
+        els.tourSpot.style.height = spot.height + 'px';
+        var cw = els.tourCard.offsetWidth;
+        var ch = els.tourCard.offsetHeight;
+        var top;
+        if (spot.top + spot.height + 12 + ch <= vh - 8) top = spot.top + spot.height + 12;
+        else if (spot.top - 12 - ch >= 8) top = spot.top - 12 - ch;
+        else top = Math.max(8, vh - ch - 8);
+        var left = Math.max(16, Math.min(vw - 16 - cw, r.left + r.width / 2 - cw / 2));
+        els.tourCard.style.top = Math.round(top) + 'px';
+        els.tourCard.style.left = Math.round(left) + 'px';
+      }
+
+      function endTour() {
+        if (!tour.open) return;
+        tour.open = false;
+        els.tour.hidden = true;
+        document.documentElement.classList.remove('touring');
+        writePref('tourSeen', '1');
+        var back = tour.opener && tour.opener !== document.body && document.contains(tour.opener) &&
+          tour.opener.getClientRects().length ? tour.opener : els.tourBtn;
+        back.focus({ preventScroll: true });
+        if (tour.resume) {
+          tour.resume = false;
+          if (state.mode === 'try' && !state.waiting && !state.done) enterTry(null);
+        }
+      }
+
+      // While the tour is open, keys belong to it: Escape ends it, the arrows move through it,
+      // and Tab stays inside the note.
+      function tourKey(e) {
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          endTour();
+        } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          if (tour.i < tour.steps.length - 1) showTourStep(tour.i + 1);
+        } else if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          if (tour.i > 0) showTourStep(tour.i - 1);
+        } else if (e.key === 'Tab') {
+          var items = [els.tourBack, els.tourNext, els.tourClose].filter(function (b) { return !b.hidden; });
+          var at = items.indexOf(document.activeElement);
+          e.preventDefault();
+          var next = e.shiftKey ? (at <= 0 ? items.length - 1 : at - 1) : (at === -1 || at === items.length - 1 ? 0 : at + 1);
+          items[next].focus();
+        }
+      }
+
+      els.tourBtn.addEventListener('click', startTour);
+      els.introTour.addEventListener('click', startTour);
+      els.introDismiss.addEventListener('click', function () {
+        writePref('tourSeen', '1');
+        els.intro.hidden = true;
+        els.tourBtn.focus({ preventScroll: true });
+      });
+      els.tourNext.addEventListener('click', function () {
+        if (tour.i === tour.steps.length - 1) endTour();
+        else showTourStep(tour.i + 1);
+      });
+      els.tourBack.addEventListener('click', function () { showTourStep(tour.i - 1); });
+      els.tourClose.addEventListener('click', endTour);
+      window.addEventListener('resize', placeTour);
+
+      if (!readPref('tourSeen')) els.intro.hidden = false;
+      var savedSpeed = readPref('speed');
+      setSpeed(savedSpeed === null ? NORMAL_SPEED : Number(savedSpeed));
       load();
     })();
   </script>
