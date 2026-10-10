@@ -29,8 +29,14 @@ concurrency:
 
 jobs:
   test:
+    name: ${{ matrix.browser }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        # One runner per browser: faster, and one browser cannot slow down another.
+        browser: [chromium, firefox, webkit]
     # Playwright's own image, the same version as tests/package.json, with Chromium,
     # Firefox and WebKit installed. Screenshots are compared against the -linux baselines.
     container:
@@ -48,10 +54,11 @@ jobs:
         run: npm ci --no-audit --no-fund
 
       - name: Unit tests
+        if: matrix.browser == 'chromium'
         run: npm run test:unit
 
-      - name: Browser tests (Chromium, Firefox, WebKit)
-        run: npx playwright test
+      - name: Browser tests
+        run: npx playwright test --project=${{ matrix.browser }}
         env:
           CI: 'true'
 
@@ -59,7 +66,7 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          name: test-results
+          name: test-results-${{ matrix.browser }}
           path: |
             tests/test-results/
             tests/browser/visual.spec.js-snapshots/
