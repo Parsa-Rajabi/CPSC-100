@@ -1119,9 +1119,13 @@
       z-index: 50;
     }
 
-    /* While the tour is open the page holds still; the tour scrolls to each stop itself. */
+    /* While the tour is open the page holds still; the tour scrolls to each stop itself.
+       The root takes the dimmed colour too: a classic scrollbar's gutter (Windows, Linux)
+       sits outside the fixed overlay and would otherwise stay bright. */
     html.touring {
       overflow: hidden;
+      background-color: rgb(98, 113, 136);
+      background-color: color-mix(in srgb, var(--navy) 62%, var(--page));
     }
 
     .tour-spot {
@@ -2482,19 +2486,19 @@
 
       // Re-fit the cards when the table width changes. The work waits for the next frame:
       // changing the table's height inside the observer callback is a resize loop.
-      if (window.ResizeObserver) {
-        var lastWidth = -1;
-        var frame = 0;
-        new ResizeObserver(function (entries) {
-          var width = entries[0].contentRect.width;
-          if (width === lastWidth) return;
-          lastWidth = width;
-          cancelAnimationFrame(frame);
-          frame = requestAnimationFrame(layout);
-        }).observe(els.table);
-      } else {
-        window.addEventListener('resize', layout);
+      // A window resize also asks, in case the observer is slow to report (seen in WebKit).
+      var lastWidth = -1;
+      var frame = 0;
+      function refit(width) {
+        if (width === lastWidth) return;
+        lastWidth = width;
+        cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(layout);
       }
+      if (window.ResizeObserver) {
+        new ResizeObserver(function (entries) { refit(entries[0].contentRect.width); }).observe(els.table);
+      }
+      window.addEventListener('resize', function () { refit(els.table.getBoundingClientRect().width); });
 
       // Tooltips ----------------------------------------------------------
       // Anything with data-tip gets a tooltip on hover (after a short pause) or keyboard focus.
