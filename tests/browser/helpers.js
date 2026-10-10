@@ -69,6 +69,12 @@ async function relayout(page) {
   await tick(page, 50);
 }
 
+// The key a keyboard user presses to move to the next control. WebKit on macOS follows
+// Safari's default, where Tab skips buttons and Option+Tab reaches every control.
+function tabKey(browserName) {
+  return browserName === 'webkit' && process.platform === 'darwin' ? 'Alt+Tab' : 'Tab';
+}
+
 // Let timers and animation frames run, as if `ms` had passed.
 async function tick(page, ms) {
   await page.clock.runFor(ms);
@@ -203,6 +209,6 @@ async function playTry(page, key, options = {}) {
 }
 
 module.exports = {
-  ALGOS, NAMES, useLocalFonts, openDemo, tick, relayout, settleAnimations, chooseAlgo, chooseMode, chooseDeal, chooseSpeed, readTable,
+  ALGOS, NAMES, useLocalFonts, openDemo, tick, tabKey, relayout, settleAnimations, chooseAlgo, chooseMode, chooseDeal, chooseSpeed, readTable,
   engineSteps, expectTableMatches, untilWaiting, answerWith, answerWrong, playTry
 };

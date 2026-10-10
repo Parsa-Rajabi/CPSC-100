@@ -30,7 +30,9 @@ module.exports = defineConfig({
   timeout: 60_000,
   fullyParallel: true,
   forbidOnly: true,
-  reporter: [['list']],
+  // In CI, one retry; a test that only passes on retry is reported as flaky, not hidden.
+  retries: process.env.CI ? 1 : 0,
+  reporter: process.env.CI ? [['list'], ['github']] : [['list']],
   expect: {
     timeout: 10_000,
     toHaveScreenshot: { animations: 'disabled', caret: 'hide', maxDiffPixels: 10 }

@@ -4,7 +4,7 @@
 
 const { test, expect } = require('@playwright/test');
 const {
-  ALGOS, openDemo, tick, settleAnimations, chooseAlgo, chooseMode, chooseDeal, readTable, untilWaiting
+  ALGOS, openDemo, tick, tabKey, settleAnimations, chooseAlgo, chooseMode, chooseDeal, readTable, untilWaiting
 } = require('./helpers');
 
 let errors;
@@ -81,7 +81,7 @@ test('cards are labelled: "5 of hearts", "face-down card 3", and their state', a
   expect(t.cards[0].label).toMatch(/^ace of hearts, .*sorted$/);
 });
 
-test('in Try it, pickable cards are tab stops in left-to-right order', async ({ page }) => {
+test('in Try it, pickable cards are tab stops in left-to-right order', async ({ page, browserName }) => {
   await chooseMode(page, 'try');
   await chooseDeal(page, 'Lecture deal');
   await untilWaiting(page);
@@ -91,7 +91,7 @@ test('in Try it, pickable cards are tab stops in left-to-right order', async ({ 
   const visited = [];
   for (let i = 0; i < 9; i++) {
     visited.push(await page.evaluate(() => document.activeElement.dataset.id));
-    await page.keyboard.press('Tab');
+    await page.keyboard.press(tabKey(browserName));
   }
   expect(visited).toEqual(t.order);
   // While the algorithm plays on its own, cards say they are not available.
@@ -122,14 +122,14 @@ test('the narration is a polite live region that changes on every step', async (
   }
 });
 
-test('focus is always visible', async ({ page }) => {
+test('focus is always visible', async ({ page, browserName }) => {
   for (const mode of ['watch', 'try']) {
     await chooseMode(page, mode);
     await page.locator('body').click({ position: { x: 2, y: 300 } });
     await page.evaluate(() => document.activeElement && document.activeElement.blur());
     const seen = [];
     for (let i = 0; i < 40; i++) {
-      await page.keyboard.press('Tab');
+      await page.keyboard.press(tabKey(browserName));
       const f = await page.evaluate(() => {
         const el = document.activeElement;
         if (!el || el === document.body) return null;

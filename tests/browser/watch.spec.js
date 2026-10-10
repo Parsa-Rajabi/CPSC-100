@@ -3,7 +3,7 @@
 
 const { test, expect } = require('@playwright/test');
 const {
-  ALGOS, openDemo, tick, chooseAlgo, chooseMode, chooseDeal, chooseSpeed, readTable,
+  ALGOS, openDemo, tick, tabKey, chooseAlgo, chooseMode, chooseDeal, chooseSpeed, readTable,
   engineSteps, expectTableMatches
 } = require('./helpers');
 
@@ -145,10 +145,10 @@ test('Space after a mouse click on a deal button plays, instead of dealing again
   expect(t.order).toEqual(steps[1].order);
 });
 
-test('Space on a button reached with Tab presses that button', async ({ page }) => {
+test('Space on a button reached with Tab presses that button', async ({ page, browserName }) => {
   await chooseAlgo(page, 'selection');
   await page.locator('#btn-play').focus();
-  await page.keyboard.press('Tab'); // to Next, as a keyboard user would
+  await page.keyboard.press(tabKey(browserName)); // to Next, as a keyboard user would
   await expect(page.locator('#btn-next')).toBeFocused();
   await page.keyboard.press('Space');
   expect((await readTable(page)).c).toMatch(/^1 of/);
@@ -256,10 +256,12 @@ test('linear search: New shuffle changes the row and the target is always on it'
   }
 });
 
-test('a deal button keeps keyboard focus after dealing', async ({ page }) => {
+test('a deal button keeps keyboard focus after dealing', async ({ page, browserName }) => {
   await chooseAlgo(page, 'insertion');
-  const shuffle = page.locator('#deals .btn', { hasText: 'New shuffle' });
-  await shuffle.focus();
+  // Reach it with the keyboard, as a keyboard user would (Firefox decides at that moment).
+  await page.locator('#deals .btn', { hasText: 'Nearly sorted' }).focus();
+  await page.keyboard.press(tabKey(browserName));
+  await expect(page.locator('#deals .btn', { hasText: 'New shuffle' })).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('#deals .btn', { hasText: 'New shuffle' })).toBeFocused();
 });
