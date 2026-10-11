@@ -1,6 +1,7 @@
 # Drop-in Hours
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time this page changes. Newest first. -->
 
@@ -8,6 +9,8 @@
 | :--: | :----- |
 | Oct 5 | Parsa S.'s Tuesday 1:30-2:30pm hours are cancelled for Tue Oct 6 only. |
 | Sep 24 | Reworded for readability. Fixed a room number (X241). |
+
+</details>
 
 Drop-in hours are extra time with the teaching team outside of lecture and lab. No appointment, no sign-up, and no need to arrive with a question. Turn up whenever it suits you.
 

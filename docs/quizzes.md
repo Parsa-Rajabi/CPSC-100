@@ -1,6 +1,7 @@
 # Quizzes
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time a quiz date, window, or policy moves. Newest first. -->
 
@@ -15,6 +16,8 @@
 | Sep 28 | Quiz sitting windows now run through the weekend, Wednesday to Sunday. Added what to do if no session is available. |
 | Sep 24 | Reworded for readability. Removed the in-development note. |
 | Sep 14 | Quiz 0 details updated. The sitting window now runs to Sunday Sep 20 rather than Friday Sep 18. |
+
+</details>
 
 ## Overview
 

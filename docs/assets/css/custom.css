@@ -63,6 +63,48 @@ body .markdown-section {
     margin-bottom: 1.5rem;
 }
 
+/* "Updated" badge on the collapsed changelog at the top of each page, added to the summary
+   by index.html from the newest row. A change from the last week gets a filled badge and
+   older changes a quiet outline, so the filled one keeps its pull. Fill against outline
+   still reads in greyscale and with colour vision deficiencies, and the date itself is
+   always in the text. The badge sits inside the summary, so the whole line stays one
+   click target.
+
+   Text contrast is 7.0:1 or more in both themes, above the 4.5:1 WCAG AA requirement.
+   Outlines are 3.1:1 (light) and 3.5:1 (dark) against the page, above the 3:1 required
+   for non-text contrast. */
+.markdown-section .changelog-badge {
+    display: inline-block;
+    margin-left: 0.5em;
+    padding: 0.1em 0.6em;
+    border: 1px solid #8A949B;
+    border-radius: 999px;
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #4A5560;
+    white-space: nowrap;
+}
+
+.markdown-section .changelog-badge-recent {
+    border-color: #0055B7;
+    background-color: #0055B7;
+    color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    .markdown-section .changelog-badge {
+        border-color: #7D878E;
+        color: #C9CED2;
+    }
+
+    .markdown-section .changelog-badge-recent {
+        border-color: #6FB1E7;
+        background-color: #6FB1E7;
+        color: #0B1F33;
+    }
+}
+
 
 /* Role flags for the two people named Parsa. Parsa Rajabi is the instructor and Parsa
    Seyfourian is a TA, so on the Drop-in Hours schedule those two names carry a flag and

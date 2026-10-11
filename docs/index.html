@@ -290,7 +290,43 @@
                 }
               }
             }
-              
+
+            // Each page's changelog is collapsed into <details class="changelog">. Badge its
+            // summary with the date of the newest (first) row, so students can see when the page
+            // last changed without opening it, and nobody has to update it by hand. A change from
+            // the last week gets a filled badge. Older ones stay quiet so "recent" keeps its pull.
+            var RECENT_DAYS = 7;
+            var MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+            htmlElement.querySelectorAll('details.changelog').forEach(function (details) {
+              var summary = details.querySelector('summary');
+              var newest = details.querySelector('tbody tr td');
+              if (!summary || !newest) return;
+
+              var label = newest.textContent.trim();
+              var badge = document.createElement('time');
+              badge.className = 'changelog-badge';
+              badge.textContent = 'Updated ' + label;
+
+              // Rows are dated like "Oct 6", with no year. Assume this year, or last year if that
+              // would put the change in the future (a December entry read in January).
+              var match = /^([a-z]{3})[a-z]*\.?\s+(\d{1,2})$/i.exec(label);
+              var month = match ? MONTHS.indexOf(match[1].toLowerCase()) : -1;
+              if (month !== -1) {
+                var today = new Date();
+                today.setHours(0, 0, 0, 0);
+                var changed = new Date(today.getFullYear(), month, Number(match[2]));
+                if (changed > today) changed.setFullYear(changed.getFullYear() - 1);
+                badge.setAttribute('datetime', changed.getFullYear() + '-' +
+                  String(month + 1).padStart(2, '0') + '-' + match[2].padStart(2, '0'));
+
+                // Round, not floor: a daylight saving change makes some days 23 or 25 hours.
+                if (Math.round((today - changed) / 86400000) <= RECENT_DAYS) {
+                  badge.classList.add('changelog-badge-recent');
+                }
+              }
+              summary.append(' ', badge);
+            });
+
             /* JS to change Embedly cards to light or dark theme based on system setting when using the light + dark theme (uncomment to use) */
             /*
             const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))

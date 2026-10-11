@@ -3,7 +3,8 @@
 > [!NOTE]
 > This page is still being written. Project 1 is fully described on the [Project 1](project-1.md) page. Project 2 is described at a high level for now, and its full specification, deadlines, and grading will be published before it starts.
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time this page changes. Newest first. -->
 
@@ -13,6 +14,8 @@
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
 | Sep 24 | Reworded for readability. |
+
+</details>
 
 ## Overview
 

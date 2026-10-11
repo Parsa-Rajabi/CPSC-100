@@ -1,12 +1,15 @@
 # Anonymous Feedback Form
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time this page changes. Newest first. -->
 
 | Date | Update |
 | :--: | :----- |
 | Sep 24 | Reworded for readability. |
+
+</details>
 
 Please let me know if you have any comments, thoughts, questions, and feedback about the course or me as an instructor. This form is completely anonymous and no identifiable information will be collected or stored. I hope you will consider this a safe space to provide genuine feedback to your instructor (Parsa Rajabi).
 

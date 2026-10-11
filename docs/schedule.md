@@ -5,7 +5,8 @@
 > We will fill in details as we go, but what is here is enough to show you what to expect.
 > Check back regularly, and watch the Changelog below for anything that moved.
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time a topic, lab, or deadline moves. Newest first. -->
 
@@ -16,6 +17,8 @@
 | Sep 28 | Quiz windows now run through the weekend, Wednesday to Sunday. Added the retrospective due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added the group contract deadlines: Fri Sep 25, and Thu Oct 1 for re-submissions. |
 | Sep 24 | Updated Weeks 2-3 lectures. Corrected quiz days to Wednesday, Thursday or Friday. Reworded for readability. |
+
+</details>
 
 ## Weekly Schedule
 

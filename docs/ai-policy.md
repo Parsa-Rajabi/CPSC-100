@@ -3,7 +3,8 @@
 Initial policy release: September 14, 2026  
 Finalized: September 16, 2026
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time the policy changes. Newest first. -->
 
@@ -13,6 +14,8 @@ Finalized: September 16, 2026
 | Sep 24 | Removed draft wording. Requirements unchanged. |
 | Sep 16 | Policy finalized. No changes to the requirements after the feedback period. |
 | Sep 14 | Initial policy release. Open for feedback before finalization on September 16. |
+
+</details>
 
 ## Policy
 
