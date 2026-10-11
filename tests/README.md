@@ -21,8 +21,10 @@ Run `npm test` before merging any change to `docs/demos/`.
 ## On GitHub
 
 `.github/workflows/card-demos.yml` runs every test on pull requests and pushes to `main`,
-but only when one of these changes: `docs/demos/`, `docs/_sidebar.md`, `docs/index.html`,
-`tests/`, or the workflow itself. Edits to other course pages do not run it.
+but only when one of these changes: `docs/demos/`, `tests/`, the workflow itself, or the
+Card Demos line in `docs/_sidebar.md` and the lines around it. Edits to other course pages,
+the rest of the sidebar, or `docs/index.html` do not run it. To run it anyway, for example
+after updating docsify, start it by hand from the Actions tab.
 
 It runs inside Playwright's own Linux image, the same version as `package.json`, with one
 job each for Chromium, Firefox and WebKit (the engine behind Safari on iPhones).

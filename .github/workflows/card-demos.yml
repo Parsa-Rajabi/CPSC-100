@@ -1,5 +1,6 @@
-# Tests for the Card Demos page (docs/demos/). They run only when the page, its tests,
-# or the site files it depends on change; edits to other course pages skip them.
+# Tests for the Card Demos page (docs/demos/). They run only when the page, its tests or this
+# workflow change, or when a sidebar edit touches the Card Demos link or the lines around it.
+# Edits to other course pages, the rest of the sidebar, or the site shell skip them.
 name: Card demo tests
 
 on:
@@ -7,7 +8,6 @@ on:
     paths:
       - 'docs/demos/**'
       - 'docs/_sidebar.md'
-      - 'docs/index.html'
       - 'tests/**'
       - '.github/workflows/card-demos.yml'
   push:
@@ -15,7 +15,6 @@ on:
     paths:
       - 'docs/demos/**'
       - 'docs/_sidebar.md'
-      - 'docs/index.html'
       - 'tests/**'
       - '.github/workflows/card-demos.yml'
   workflow_dispatch:
@@ -28,8 +27,40 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # The paths above cannot tell a sidebar edit near the Card Demos link from one elsewhere in
+  # the sidebar, so look at the diff. A sidebar change counts when its patch (the changed lines
+  # plus three lines of context) includes the link, which covers the order the tests check.
+  changes:
+    name: Check for card changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      cards: ${{ steps.check.outputs.cards }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = workflow_dispatch ]; then
+            echo cards=true >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          gh api "repos/$GITHUB_REPOSITORY/compare/$BASE...$HEAD" > compare.json
+          # A sidebar file with no patch (too large to show) counts as a card change.
+          cards=$(jq 'any(.files[];
+            (.filename | startswith("docs/demos/") or startswith("tests/"))
+            or .filename == ".github/workflows/card-demos.yml"
+            or (.filename == "docs/_sidebar.md"
+                and ((.patch // "demos/cards.html") | contains("demos/cards.html"))))' compare.json)
+          [ "$cards" = true ] || echo "Only sidebar lines away from the Card Demos link changed; skipping the tests."
+          echo "cards=$cards" >> "$GITHUB_OUTPUT"
+
   test:
     name: ${{ matrix.browser }}
+    needs: changes
+    if: needs.changes.outputs.cards == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     strategy:
