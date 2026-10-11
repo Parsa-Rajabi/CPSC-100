@@ -57,8 +57,9 @@ It has three parts, a mix of individual and group work:
 
 ## Grade breakdown
 
-The course project is 30% of your course grade: 15% for Project 1 and 15% for Project 2. Both
-projects have the same three parts, worth the same amounts.
+This section shows how the project adds up to 30% of your course grade, so you can see where your
+effort counts. Project 1 and Project 2 are 15% each, and both have the same three parts, worth the
+same amounts.
 
 | Part | Weight | Who does it | Project 1 | Project 2 | How it is marked |
 | :--: | :--: | :-- | :-- | :-- | :-- |
@@ -70,7 +71,9 @@ The weights are percentages of your course grade, so each project adds up to 15%
 
 ### What makes up Part C <!-- {docsify-ignore} -->
 
-Part C is the heaviest part of each project, and it has three components.
+Part C is the heaviest part of each project. Most of it is your group's main piece of work. A
+small part rewards the habits that keep a group working well: posting your stand-ups each week, and
+reflecting together in the retrospective.
 
 | Component | Share of Part C | Of your course grade | Marked as | Based on |
 | :-- | :--: | :--: | :-- | :-- |
@@ -90,8 +93,9 @@ Part C is the heaviest part of each project, and it has three components.
 
 ### Your individual Part C mark <!-- {docsify-ignore} -->
 
-Part C is the only group part where your mark can differ from your teammates' marks. It is worked out in
-four steps:
+Part C is the only group part where your mark can differ from your teammates' marks. This is
+deliberate: it lets your grade reflect your own contribution, not only your group's. It is worked
+out in four steps:
 
 1. Add up the three components: 90% report and video (or viva voce), 5% your stand-ups, and 5% the
    retrospective.

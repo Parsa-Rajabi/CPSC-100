@@ -522,12 +522,20 @@ failure you didn't find.
 
 ### Going further in Part B <!-- {docsify-ignore} -->
 
-Everything above describes work that meets expectations, which earns an A- or an A on each
-criterion. The work in this section is optional. It is the only way a criterion reaches Exceeds
-expectations (A+), and every item is something your TA can check and count.
+This section is for groups aiming for an A+. Everything above is what Meets expectations asks
+for, and doing it well earns an A- or an A on each criterion. That is a strong result, and it is
+all the instructions require.
+
+The items below are optional, and they are the only way a criterion reaches Exceeds expectations
+(A+). None of them asks for more pages. Each one asks for the extra precision a careful researcher
+would add, and each one is something your TA can check and count.
+
+> [!TIP]
+> Decide early, as a group, which criteria you are aiming to exceed. These items are much easier to
+> build in as you go than to add the night before the deadline.
 
 To reach Exceeds on a criterion, do everything it asks for at Meets, plus every item listed for it
-here.
+below.
 
 | Criterion | To reach Exceeds, also do this |
 | :-- | :-- |
@@ -540,9 +548,10 @@ The dataset criterion has no Going further work. It was marked at the October 1 
 
 ### Part B rubric <!-- {docsify-ignore} -->
 
-Part B is marked on five criteria. Each criterion gets one of the bands described in
+Your TA marks Part B on five criteria. Each criterion gets one of the four bands described in
 [How this is graded](#how-this-is-graded), and your Part B grade is the weighted average of the
-five.
+five. The closer look carries the most weight, because it is where your group explains what its
+results actually mean.
 
 | Criterion | Weight |
 | :-- | :--: |
@@ -555,7 +564,8 @@ five.
 #### 1. Dataset
 
 Your dataset was marked at the October 1 sign-off, using the rubric below. That mark carries into
-Part B unchanged. If you re-submitted, your re-submission mark is the one that counts.
+Part B unchanged, so there is nothing more to do for this criterion. If you re-submitted, your
+re-submission mark is the one that counts.
 
 <details>
 <summary> A+ (90-100) </summary>
@@ -833,12 +843,15 @@ answer about any part of it, not only their own section.
 
 ### Going further in Part C <!-- {docsify-ignore} -->
 
-As in Part B, everything above describes work that meets expectations (A- or A). The work in this
-section is optional, it is the only way a criterion reaches Exceeds expectations (A+), and every
-item is something your TA can check and count.
+As in Part B, everything above is what Meets expectations asks for, and doing it well earns an A-
+or an A on each criterion. The items below are optional, and they are the only way a criterion
+reaches Exceeds expectations (A+).
+
+Think of them as the difference between describing a case and taking it apart. Each item asks you
+to show one more step of your reasoning, and each one is something your TA can check and count.
 
 To reach Exceeds on a criterion, do everything it asks for at Meets, plus every item listed for it
-here.
+below.
 
 | Criterion | To reach Exceeds, also do this |
 | :-- | :-- |
@@ -851,11 +864,14 @@ here.
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
-Your report and video are 90% of Part C. They are marked on six criteria, in the same way as Part
+Your report and video are 90% of Part C. Your TA marks them on six criteria, the same way as Part
 B: each criterion gets a band, and the report and video mark is the weighted average of the six.
-Your stand-ups (5%) and the retrospective (5%) make up the rest of Part C, and your peer
-evaluation multiplier then applies to all of it. See the
-[grade breakdown](project.md#your-individual-part-c-mark).
+The mechanism carries the most weight, because naming it is what turns a summary of the case into
+an analysis of it.
+
+The other 10% of Part C is your stand-ups (5%) and the retrospective (5%). Your peer evaluation
+multiplier then applies to all of Part C. The [grade breakdown](project.md#your-individual-part-c-mark)
+shows how the pieces add up.
 
 | Criterion | Weight within the report and video |
 | :-- | :--: |
@@ -866,8 +882,8 @@ evaluation multiplier then applies to all of it. See the
 | 5. Should they change it? Section 8 | 10% |
 | 6. The video | 15% |
 
-Sections 6, 7 and 8 are marked once each, using the report and the video together. The video
-criterion covers how the video itself meets its requirements.
+Sections 6, 7 and 8 are each marked once, using the report and the video together, so you are not
+marked twice for the same point. The video criterion covers only the video's own requirements.
 
 #### 1. Case and sources (10%)
 
@@ -1155,9 +1171,10 @@ dev-repo draft's notes, which say "check before this goes to students":
 
 Part A has its own [rubric](#part-a-rubric), marked complete, partial or incomplete. Parts B and C
 are marked with the [Part B rubric](#part-b-rubric) and the [Part C rubric](#part-c-rubric). Every
-criterion in them matches something this page asks for. The only additions are the optional
-Going further items, which are listed in [Part B](#going-further-in-part-b) and
-[Part C](#going-further-in-part-c).
+criterion in them matches something this page already asks for, so there are no hidden
+requirements. The only additions are the optional Going further items in
+[Part B](#going-further-in-part-b) and [Part C](#going-further-in-part-c), for groups aiming for an
+A+.
 
 ### The four bands <!-- {docsify-ignore} -->
 
@@ -1175,10 +1192,10 @@ A criterion with nothing submitted for it gets 0.
 
 Three things to know:
 
-- Meets is a strong result. Doing everything this page asks for, and doing it well, earns an A- or
-  an A on that criterion.
-- Exceeds is optional, and it is defined in advance. Going further work only counts on top of
-  Meets: it does not make up for something the instructions require. If you do some of a
+- Meets is a strong result, not a near miss. Doing everything this page asks for, and doing it
+  well, earns an A- or an A on that criterion.
+- Exceeds is optional, and it is defined in advance, so you know exactly what an A+ asks for before
+  you start. Going further work only counts on top of Meets: it does not make up for something the instructions require. If you do some of a
   criterion's Going further items but not all of them, your TA can raise your mark toward the top
   of Meets, but only all of them reach Exceeds.
 - Your TA picks the band first, then your mark within it. Small mistakes move your mark down inside
@@ -1189,8 +1206,9 @@ October 1 sign-off.
 
 ### Making an argument with PEEL <!-- {docsify-ignore} -->
 
-PEEL is a way to build each point of an argument so that a reader can check it. You use it in the
-Part B closer look, and in Part C sections 6, 7 and 8 and the video.
+PEEL is a way to build each point of an argument so that a reader can check it. It is how
+researchers, journalists and policy analysts make a claim that someone else can verify. Your TA
+looks for it in the Part B closer look, and in Part C sections 6, 7 and 8 and the video.
 
 | Step | What it does |
 | :-- | :-- |
