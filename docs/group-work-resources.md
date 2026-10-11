@@ -6,7 +6,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Made clear there are three required retrospectives, counting the practice round, and that the contract names dates for the two graded ones. |
 | Sep 28 | Added the retrospective template and how to use it. |
 | Sep 25 | Noted that a late contract and extra re-submissions cost marks on Part B. |
 | Sep 24 | Reworded for readability. |
@@ -49,7 +48,7 @@ The template walks through these sections:
 | Group AI Usage Policy | Which tools are allowed, how output is checked, and consequences for not disclosing AI use |
 | Group Participation and Accountability | Attendance, contribution, response time, meeting deadlines |
 | Group Conflict Resolution | Your internal process, consequences, and repeat infractions |
-| Team Retrospective and Peer Evaluation | Dates for the two graded retrospectives (meetings where the team looks back at how it is working), and how feedback stays constructive. The third is the practice round |
+| Team Retrospective and Peer Evaluation | Dates for the two required retrospectives (meetings where the team looks back at how it is working), and how feedback stays constructive |
 | Signatures | Every member signs to accept the terms and consequences |
 
 ## Start Here
@@ -417,7 +416,7 @@ Rotate the meeting roles each round. Start each retrospective by reviewing the t
 <details open>
 <summary>Team Retrospectives</summary>
 
-There are three required retrospectives: the practice round on Thu Oct 1, then one before each graded peer evaluation. Your contract must name dates and times for the two graded ones. Book them when you write the contract, not when the deadline arrives. Use the template in those meetings.
+Your contract must name dates and times for two required retrospective meetings, one before each graded peer evaluation. Book them when you write the contract, not when the deadline arrives. Use the template in those meetings.
 
 Run a shorter one any time the team feels stuck. It does not need the template. Suggested agenda:
 

@@ -6,7 +6,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Parsa R. is at the Friday 3:00-4:00pm session only until 3:20pm. |
 | Oct 5 | Parsa S.'s Tuesday 1:30-2:30pm hours are cancelled for Tue Oct 6 only. |
 | Sep 24 | Reworded for readability. Fixed a room number (X241). |
 

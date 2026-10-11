@@ -131,8 +131,8 @@ was A 0, B 5 to 6, C 6 to 8. Neither is confirmed. -->
 
 ## Part A: Your Digital Footprint
 
-Part A was individual work, worth 1%, and it ran in [Lab 3](labs.md) on October 7 and 8. You
-annotated the script during the lab, and handed in everything on Canvas by the day after your
+Part A is individual work, worth 1%, and it runs in [Lab 3](labs.md) on October 7 and 8. You
+annotate the script during the lab, and you hand in everything on Canvas by the day after your
 lab.
 
 <details>
@@ -804,11 +804,12 @@ How it works:
 <details>
 <summary>Stand-up 0, the practice round from October 2</summary>
 
-Stand-up 0, on Friday October 2, was a practice round, but you still had to post it. It was there
-to check that your group's channel works, see what a stand-up looks like, and ask us about
-anything that was unclear. Its late penalty is smaller than the others, because it was practice.
+Stand-up 0, on Friday October 2, is a practice round, but you still have to post it. Use it to
+check that your group's channel works, see what a stand-up looks like, and ask us about anything
+that is unclear. Its late penalty is smaller than the others, because it is practice.
 
-The peer evaluation practice round ran the day before, on Thursday October 1, for the same reason.
+The peer evaluation practice round runs the day before, on Thursday October 1, for the same
+reason.
 
 </details>
 
@@ -906,8 +907,8 @@ submitted together.
 <details>
 <summary>iPeer 0, the practice round from October 1</summary>
 
-There was a practice round first, iPeer 0, due Thursday October 1. It was required but not graded,
-and it was there so everyone understands the process before it starts counting. A late iPeer 0
+There is a practice round first, iPeer 0, due Thursday October 1. It is required but not graded,
+and it is there so everyone understands the process before it starts counting. A late iPeer 0
 costs 0.25% of your individual Part C mark for every 12 hours late, or part of 12 hours.
 
 </details>
