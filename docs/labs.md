@@ -10,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 11 | Lab 7 now includes Project 2A, and the viva voce runs from Wed Dec 2 to Fri Dec 4, beyond the Lab 10 slots. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
 
 </details>
@@ -56,11 +57,11 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 |  6   |   4    | Oct 14 / 15 | [Project 1B](project-1.md#part-b-the-ai-detector-experiment)  |
 |  7   |   5    | Oct 21 / 22 | [Project 1C](project-1.md#part-c-algorithmic-bias-case-study) |
 |  8   |   6    | Oct 28 / 29 | Project 2 intro                                               |
-|  9   |   7    | Nov 4 / 5   | Python                                                        |
+|  9   |   7    | Nov 4 / 5   | Python, and [Project 2A](project.md)                          |
 |  10  | *none* |             | *No lab. Midterm Break.*                                      |
 |  11  |   8    | Nov 18 / 19 | [Project 2B](project.md)                                      |
 |  12  |   9    | Nov 25 / 26 | [Project 2](project.md) work session                          |
-|  13  |   10   | Dec 2 / 3   | [Viva voce](project.md). Details announced closer to the date |
+|  13  |   10   | Dec 2 / 3   | [Viva voce](project.md), which runs Wed Dec 2 to Fri Dec 4. Details announced closer to the date |
 
 Need to reach your TA? Start with Ed Discussion, which is where lab questions belong. Email addresses and which kind of question goes where are on [Course Communication](communication.md). If you would rather ask in person, see [Drop-in Hours](drop-in-hours.md).
 

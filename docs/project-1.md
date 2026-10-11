@@ -19,7 +19,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Added the Part B and Part C rubrics, the optional Going further work that earns Exceeds expectations on each criterion, and a short guide to PEEL. The Part B dataset rubric is unchanged. Stand-ups and the retrospective are now each 5% of Part C, and peer evaluation covers your work in Parts B and C. |
+| Oct 11 | Added the Part B and Part C rubrics, the optional Going further work that earns Exceeds expectations on each criterion, and a short guide to PEEL. The Part B dataset rubric is unchanged. Stand-ups and the retrospective are now each 5% of Part C, and peer evaluation covers your work in Parts B and C. Parts B and C are due at 11:59pm. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -58,6 +58,8 @@ have read one, tested several, and taken one apart.
 | A | Your digital footprint | Individual | 1% | The day after your Lab 3, Thu Oct 8 or Fri Oct 9 |
 | B | The AI detector experiment | Starts individual, becomes group | 4% | Tue Oct 20 |
 | C | Algorithmic bias case study | Group | 10% | Tue Oct 27 |
+
+Parts B and C are due at 11:59pm Pacific.
 
 Those weights are percentages of your final course grade, not shares of this project. Together
 they come to 15%, and Project 2 is the other 15%. See
@@ -311,7 +313,7 @@ checking before Lab 3 runs. -->
 ## Part B: The AI Detector Experiment
 
 Part B starts as individual work and turns into group work. It's worth 4%, there's a working block
-for it in [Lab 4](labs.md), and it's due on Tuesday October 20.
+for it in [Lab 4](labs.md), and it is due on Tuesday October 20 at 11:59pm.
 
 Scroll far enough and you'll pass images that a machine made, whether you notice or not. Telling
 them apart by eye is getting harder every year.
@@ -649,8 +651,8 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 ## Part C: Algorithmic Bias Case Study
 
-Part C is group work, worth 10%. There's a working block for it in [Lab 5](labs.md), and it's due
-on Tuesday October 27.
+Part C is group work, worth 10%. There is a working block for it in [Lab 5](labs.md), and it is due
+on Tuesday October 27 at 11:59pm.
 
 Algorithmic systems are already making decisions that change people's lives: who gets a loan, who
 gets flagged at a border, whose exam grade is revised downward. When one of them gets it badly
@@ -1266,7 +1268,8 @@ Project 2 gets announced later in the term, but a few things you can plan around
 - It runs from Week 8 to Week 13
 - It moves from Snap! into Python. You'll write and annotate a program in Snap!, then translate it
   into Python code
-- Its final part, Part 2C, is a viva voce: a short live presentation by your group, in person,
+- Its final part, Part 2C, is a viva voce, held from Wed Dec 2 to Fri Dec 4. It is a short live
+  presentation by your group, in person,
   where you demonstrate your program and answer questions about the decisions behind it. Every
   member speaks
 - The viva voce is a [passing requirement](syllabus.md#passing-criteria), so you have to attend

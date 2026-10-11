@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Added the grade breakdown for both projects. Stand-ups and the retrospective are now each 5% of Part C, peer evaluation covers your work in Parts B and C, and the multiplier applies to all of Part C. The Project 2 viva voce is now a live group presentation, not one-on-one. |
+| Oct 11 | Added the grade breakdown for both projects. Stand-ups and the retrospective are now each 5% of Part C, peer evaluation covers your work in Parts B and C, and the multiplier applies to all of Part C. The Project 2 viva voce is now a live group presentation, not one-on-one. Added the Project 2 due dates, and the viva voce runs from Wed Dec 2 to Fri Dec 4. |
 | Sep 30 | Added the stand-up schedule and late penalties, and late penalties for retrospectives. Late stand-ups, retrospectives and peer evaluations are now listed as exceptions to the no-late-work rule. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
@@ -33,7 +33,7 @@ Each project is built from several parts. You submit them separately, not as one
 
 ## Project 1: From Data to Decisions
 
-Runs from Week 2 to Week 7. Full details are on the [Project 1](project-1.md) page.
+Runs from Week 2 to Week 8. Full details are on the [Project 1](project-1.md) page.
 
 Project 1 is about telling real from synthetic (computer-generated), and noticing where automated judgements go wrong. You will look at your own online footprint and test how well AI-detection tools actually perform. You will also study a documented case where an algorithmic system caused harm.
 
@@ -51,9 +51,9 @@ Project 2 is about moving from visual programming (building programs from blocks
 
 It has three parts, a mix of individual and group work:
 
-- Part A, a Snap! program with annotations, done in lab. Individual.
-- Part B, translating that program into Python. Group.
-- Part C, the viva voce: a short live presentation by your group. You demo your program and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
+- Part A, a Snap! program with annotations, done in your Lab 7. Individual. Due at 11:59pm the day after your lab, Thu Nov 5 or Fri Nov 6, the same way as Project 1 Part A.
+- Part B, translating that program into Python. Group. Due Tue Nov 24 at 11:59pm.
+- Part C, the viva voce: a short live presentation by your group, held from Wed Dec 2 to Fri Dec 4. You demo your program and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
 
 ## Grade breakdown
 

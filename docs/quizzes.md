@@ -7,7 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Corrected when booking opens. Quiz booking opens on a Tuesday, about two weeks before the quiz window, and viewing booking opens on the Sunday before the viewing window. No dates changed. The viva voce is now a group presentation, not one-on-one. |
+| Oct 11 | Corrected when booking opens. Quiz booking opens on a Tuesday, about two weeks before the quiz window, and viewing booking opens on the Sunday before the viewing window. No dates changed. The viva voce is now a group presentation, not one-on-one, held from Wed Dec 2 to Fri Dec 4. |
 | Oct 6 | Added the Quiz 4 and Quiz 5 viewing windows. Quiz 5 booking now opens Tue Nov 3. The all-quiz viewing now runs Thu Nov 19 to Mon Dec 7, with booking from Sun Nov 15. |
 | Oct 5 | Added where to find your quiz grade: in PrairieLearn after you finish, not in PrairieTest. |
 | Oct 5 | Added the tentative new material for Quizzes 4 and 5. |
@@ -47,7 +47,7 @@ Each quiz mostly covers the content since the previous quiz. In programming, tho
 - **New material** uses the lecture codes from the [Schedule](schedule.md), so W2A is the first lecture of Week 2. It is where most of the marks are, but it is not the only material that can appear.
 - Quiz 5 is the last quiz. The new material for Quizzes 4 and 5 is tentative. It is confirmed in class, in the last lecture before each quiz window opens.
 - All times are Pacific.
-- The viva voce on Dec 2 or 3, in your Lab 10 slot (a short live presentation by your project group), is not a quiz. It is graded as [Project 2C](project.md).
+- The viva voce, held from Wed Dec 2 to Fri Dec 4 (a short live presentation by your project group), is not a quiz. It is graded as [Project 2C](project.md).
 
 <details>
 <summary>Quiz 0, the practice run</summary>
