@@ -1,4 +1,4 @@
-- [Syllabus](syllabus.md)
+- [Syllabus](/)
 - [Schedule](schedule.md)
 - [Card Demos](demos/cards.html ':ignore :target=_self')
 - [AI Policy](ai-policy.md)
