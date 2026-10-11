@@ -6,6 +6,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 11 | Made clear there are three required retrospectives, counting the practice round, and that the contract names dates for the two graded ones. |
 | Sep 28 | Added the retrospective template and how to use it. |
 | Sep 25 | Noted that a late contract and extra re-submissions cost marks on Part B. |
 | Sep 24 | Reworded for readability. |
@@ -48,7 +49,7 @@ The template walks through these sections:
 | Group AI Usage Policy | Which tools are allowed, how output is checked, and consequences for not disclosing AI use |
 | Group Participation and Accountability | Attendance, contribution, response time, meeting deadlines |
 | Group Conflict Resolution | Your internal process, consequences, and repeat infractions |
-| Team Retrospective and Peer Evaluation | Dates for the two required retrospectives (meetings where the team looks back at how it is working), and how feedback stays constructive |
+| Team Retrospective and Peer Evaluation | Dates for the two graded retrospectives (meetings where the team looks back at how it is working), and how feedback stays constructive. The third is the practice round |
 | Signatures | Every member signs to accept the terms and consequences |
 
 ## Start Here
@@ -65,7 +66,7 @@ Your group contract should describe how your team will actually work. Avoid vagu
 
 <div class="accordion">
 
-<details open>
+<details>
 <summary>Preparing for the Contract Meeting</summary>
 
 Before your contract meeting, each team member should prepare their own answers to these questions:
@@ -99,7 +100,7 @@ Everyone in the group counts as a project contributor. That is your primary role
 
 Separate responsibility from authority. A role means someone is responsible for making sure a kind of work is visible, coordinated, and completed. It does not mean that person makes decisions alone. It also does not mean they do all the work in that area.
 
-### Required Roles
+### Required Roles <!-- {docsify-ignore} -->
 
 The contract requires that one person holds each of these three roles.
 
@@ -109,7 +110,7 @@ The contract requires that one person holds each of these three roles.
 | TA Liaison | Coordinates communication and meetings with the TA and instructor as needed. | Questions are collected before lab, and answers are summarized for the group. |
 | Submission Coordinator | Makes sure all group submissions go in through the course platform and on time, including any AI disclosure (a statement of how the group used AI). | Submissions are on time, complete, and the AI disclosure is attached. |
 
-### Additional Duties
+### Additional Duties <!-- {docsify-ignore} -->
 
 The contract also asks you to assign these. Someone can hold one of these as well as a required role. But avoid piling them all on one person.
 
@@ -120,7 +121,7 @@ The contract also asks you to assign these. Someone can hold one of these as wel
 | Quality Assurance | Reviews submissions against the assignment criteria and rubric. |
 | Version Control Manager | Keeps track of document versions, so the team always knows which file is current. |
 
-### Role Assignment Template
+### Role Assignment Template <!-- {docsify-ignore} -->
 
 Use a table like this in your contract or team notes. Naming a backup is not required by the contract. But it stops the team from being blocked when someone is away.
 
@@ -134,7 +135,7 @@ Use a table like this in your contract or team notes. Naming a backup is not req
 | Quality Assurance | | | Rubric fit and missing evidence | 48 hours before submission |
 | Version Control Manager | | | Which file version is current | Ongoing |
 
-### Choosing Roles Well
+### Choosing Roles Well <!-- {docsify-ignore} -->
 
 Do not assign roles only based on who is already good at something. Use roles to balance learning and reliability.
 
@@ -148,7 +149,7 @@ Good role assignments consider:
 
 Roles should be revisited at each milestone (a major project checkpoint). At minimum, check whether the role assignments still make sense after each graded deliverable.
 
-### What Roles Should Not Do
+### What Roles Should Not Do <!-- {docsify-ignore} -->
 
 Roles should not create hierarchy or hide unequal work.
 
@@ -272,7 +273,7 @@ Use this process before contacting the teaching team. The exception is an issue 
 <details open>
 <summary>Step-by-Step Conflict Process</summary>
 
-### Step 1: Pause and Name the Issue
+### Step 1: Pause and Name the Issue <!-- {docsify-ignore} -->
 
 Focus on the behaviour or decision, not the person's character.
 
@@ -288,7 +289,7 @@ Use:
 
 > The last two assigned tasks were not finished by the internal deadline, and the team had to redistribute them the night before submission.
 
-### Step 2: Check Perspectives
+### Step 2: Check Perspectives <!-- {docsify-ignore} -->
 
 People often disagree because they are using different definitions of fairness, quality, or urgency. Ask each person to explain how they see the situation.
 
@@ -300,7 +301,7 @@ Useful questions:
 - What does a fair outcome look like to you?
 - What evidence, rubric requirement, or deadline should guide this decision?
 
-### Step 3: Look for Shared Goals
+### Step 3: Look for Shared Goals <!-- {docsify-ignore} -->
 
 Shift from "my side versus your side" to the shared project outcome.
 
@@ -317,7 +318,7 @@ Shared goals might include:
 - protecting the team's peer evaluation process
 - maintaining a respectful working relationship
 
-### Step 4: Identify the Underlying Concern
+### Step 4: Identify the Underlying Concern <!-- {docsify-ignore} -->
 
 Many conflicts are not really about the first issue that gets named. They may be about trust, workload, unclear standards, lack of recognition, or fear that the project is going in the wrong direction.
 
@@ -328,7 +329,7 @@ Ask:
 - What would make this feel fair?
 - What information do we need before deciding?
 
-### Step 5: Agree on a Specific Next Action
+### Step 5: Agree on a Specific Next Action <!-- {docsify-ignore} -->
 
 End the conversation with concrete next steps.
 
@@ -416,7 +417,7 @@ Rotate the meeting roles each round. Start each retrospective by reviewing the t
 <details open>
 <summary>Team Retrospectives</summary>
 
-Your contract must name dates and times for two required retrospective meetings, one before each graded peer evaluation. Book them when you write the contract, not when the deadline arrives. Use the template in those meetings.
+There are three required retrospectives: the practice round on Thu Oct 1, then one before each graded peer evaluation. Your contract must name dates and times for the two graded ones. Book them when you write the contract, not when the deadline arrives. Use the template in those meetings.
 
 Run a shorter one any time the team feels stuck. It does not need the template. Suggested agenda:
 
