@@ -7,7 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | In iPeer 1 and iPeer 2 you now rate each teammate's contribution to Parts B and C. The multiplier applies to your whole Part C mark, which now includes your stand-ups and the retrospective. The formula is unchanged. |
+| Oct 11 | In iPeer 1 and iPeer 2 you now rate each teammate's contribution to Parts B and C. The multiplier applies to your whole Part C mark, which now includes your stand-ups and the retrospective. The formula is unchanged. Corrected the late-penalty example to 0.8417 and 75.75%. |
 | Sep 30 | iPeer 0 is now required, with a small late penalty and no quality deductions. Every round must be submitted, even late. |
 | Sep 24 | Reworded for readability. |
 
@@ -149,13 +149,13 @@ For example, using the same scenario above:
 
 The adjusted multiplier would be:
 
-25.25 / 30 = 0.8416
+25.25 / 30 = 0.8417
 
 If the group grade for that milestone was 90%, the student's individual grade for that milestone would be:
 
-90% × 0.8416 = 75.74%
+90% × 0.8417 = 75.75%
 
-So after the late penalty, the student's individual grade for that milestone would be 75.74%.
+So after the late penalty, the student's individual grade for that milestone would be 75.75%.
 
 ---
 

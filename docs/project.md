@@ -63,7 +63,7 @@ projects have the same three parts, worth the same amounts.
 | Part | Weight | Who does it | Project 1 | Project 2 | How it is marked |
 | :--: | :--: | :-- | :-- | :-- | :-- |
 | A | 1% | Individual, in lab | Your digital footprint | A Snap! program with annotations | Complete, partial or incomplete |
-| B | 4% | Group, with lab time to work on it | The AI detector experiment | Translating your program into Python | A rubric, with one grade for the group |
+| B | 4% | Group, after some individual work, with lab time to work on it | The AI detector experiment | Translating your program into Python | A rubric, with one grade for the group |
 | C | 10% | Group, with an individual multiplier | Algorithmic bias case study: a report and a recorded video | Viva voce: a live group presentation | A rubric, plus your stand-ups and the retrospective |
 
 The weights are percentages of your course grade, so each project adds up to 15%.
@@ -90,7 +90,7 @@ Part C is the heaviest part of each project, and it has three components.
 
 ### Your individual Part C mark <!-- {docsify-ignore} -->
 
-Part C is the only part where your mark can differ from your teammates' marks. It is worked out in
+Part C is the only group part where your mark can differ from your teammates' marks. It is worked out in
 four steps:
 
 1. Add up the three components: 90% report and video (or viva voce), 5% your stand-ups, and 5% the
@@ -224,7 +224,7 @@ Everyone in the group gets 25% on Part B.
 
 ### If contribution is uneven
 
-By default, everyone in a group receives the same grade. If lab records and peer evaluations agree that somebody contributed significantly less, that person's grade may be adjusted down.
+By default, everyone in a group receives the same grade for the work the group submits together. If lab records and peer evaluations agree that somebody contributed significantly less, that person's grade may be adjusted down.
 
 Raise problems early. Fixing a group takes one to two weeks to actually work. If you leave it until the week before a deadline, there's no time left for anything to change.
 

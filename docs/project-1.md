@@ -2,10 +2,12 @@
 
 > [!NOTE]
 > This page is not finished yet, but everything below is solid enough to plan around. Please read
-> it now. One thing is still to come:
+> it now. A few things are still to come:
 >
 > - How to disclose your AI use in Parts B and C: the process and the form to use. Part A has its
 >   own [AI use line](#using-ai-in-part-a)
+> - How to submit the Part C video, and the Part C page limit
+> - Rough time estimates for each part
 >
 > The rubrics for all three parts are posted: [Part A](#part-a-rubric), [Part B](#part-b-rubric)
 > and [Part C](#part-c-rubric). [How this is graded](#how-this-is-graded) explains how they work.
@@ -603,7 +605,7 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 | :-- | :-- |
 | Exceeds (A+) | Everything in Meets, plus the [Going further](#going-further-in-part-b) items for this criterion: a quote and its section for every terms of service answer, and at least one tool that checks information stored inside the file. |
 | Meets (A-, A) | One tool per group member, with a minimum of three. For every tool: its cost, availability, claims, reputation and your reason for use, a link to the terms of service you read, and an answer to each of the three questions. |
-| Approaching (B- to B+) | The same gap appears for two or more tools. For example, one of the five things, the terms of service link, or an answer that addresses its question is missing for two or more tools. Also Approaching: one tool fewer than the number of group members, as long as there are at least three. |
+| Approaching (B- to B+) | The same gap appears for two or more tools. For example, one of the five things, the terms of service link, or an answer that addresses its question is missing for two or more tools. Also Approaching: fewer tools than group members, as long as there are at least three. |
 | Not meeting (C+ and below) | There are fewer than three tools, or the five things or the three questions are missing for most tools. |
 
 #### 3. Results (20%)
@@ -1096,7 +1098,7 @@ costs 0.25% of your individual Part C mark for every 12 hours late, or part of 1
 <details>
 <summary>If contribution in your group is uneven</summary>
 
-By default everyone in a group gets the same grade. If lab records, stand-ups and peer evaluations
+By default everyone in a group gets the same grade for the work the group submits together. If lab records, stand-ups and peer evaluations
 all suggest someone contributed significantly less, that person's grade may be adjusted down.
 
 Raise problems early. Fixing a group takes one to two weeks to actually work, so leaving it until
@@ -1176,7 +1178,9 @@ Three things to know:
 - Meets is a strong result. Doing everything this page asks for, and doing it well, earns an A- or
   an A on that criterion.
 - Exceeds is optional, and it is defined in advance. Going further work only counts on top of
-  Meets: it does not make up for something the instructions require.
+  Meets: it does not make up for something the instructions require. If you do some of a
+  criterion's Going further items but not all of them, your TA can raise your mark toward the top
+  of Meets, but only all of them reach Exceeds.
 - Your TA picks the band first, then your mark within it. Small mistakes move your mark down inside
   the band, and your feedback names what they were.
 
@@ -1214,7 +1218,7 @@ to guess why the evidence matters. The Link is what turns separate points into o
 ### What is already decided <!-- {docsify-ignore} -->
 
 - Part A is graded individually and is not affected by peer evaluation
-- Parts B and C receive a group grade
+- Part B, and the report and video in Part C, receive a group grade
 - Part C is 90% report and video, 5% your stand-ups and 5% the retrospective. See the
   [grade breakdown](project.md#grade-breakdown)
 - Peer evaluation rates your contribution to Parts B and C, and its multiplier applies to your
@@ -1244,11 +1248,14 @@ Project 2 gets announced later in the term, but a few things you can plan around
 - It runs from Week 8 to Week 13
 - It moves from Snap! into Python. You'll write and annotate a program in Snap!, then translate it
   into Python code
-- Its final part, Part 2C, is a viva voce: a short oral exam, in person, where you demonstrate
-  your program and answer questions about the decisions behind it
+- Its final part, Part 2C, is a viva voce: a short live presentation by your group, in person,
+  where you demonstrate your program and answer questions about the decisions behind it. Every
+  member speaks
 - The viva voce is a [passing requirement](syllabus.md#passing-criteria), so you have to attend
   and take part in person
-- Peer evaluation applies to Part 2C, in the same way it applies to Part 1C
+- Part 2C is marked the same way as Part 1C: 90% the viva voce, 5% your stand-ups and 5% the
+  retrospective, with peer evaluation applied to all of it. See the
+  [grade breakdown](project.md#grade-breakdown)
 
 ---
 
