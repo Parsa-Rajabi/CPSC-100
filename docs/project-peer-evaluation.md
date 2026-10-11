@@ -1,6 +1,7 @@
 # Project Peer Evaluation
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time this page changes. Newest first. -->
 
@@ -8,6 +9,8 @@
 | :--: | :----- |
 | Sep 30 | iPeer 0 is now required, with a small late penalty and no quality deductions. Every round must be submitted, even late. |
 | Sep 24 | Reworded for readability. |
+
+</details>
 
 > [!NOTE]
 > The peer evaluation mechanism below is final for Fall 2026.

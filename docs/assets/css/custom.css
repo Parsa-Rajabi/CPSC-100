@@ -63,6 +63,22 @@ body .markdown-section {
     margin-bottom: 1.5rem;
 }
 
+/* Collapsed changelog at the top of each page. The "Last updated" date is added to the
+   summary by index.html from the newest row. Muted so it reads as page metadata rather
+   than a link: #5E6A71 is 5.6:1 on the light page and #B2B4B4 is 6.2:1 on the dark one,
+   against the 4.5:1 WCAG AA requirement. */
+.markdown-section .changelog-date {
+    margin-left: 0.5em;
+    font-size: 0.85em;
+    color: #5E6A71;
+}
+
+@media (prefers-color-scheme: dark) {
+    .markdown-section .changelog-date {
+        color: #B2B4B4;
+    }
+}
+
 
 /* Role flags for the two people named Parsa. Parsa Rajabi is the instructor and Parsa
    Seyfourian is a TA, so on the Drop-in Hours schedule those two names carry a flag and

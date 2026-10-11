@@ -1,12 +1,15 @@
 # Code of Conduct
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time this page changes. Newest first. -->
 
 | Date | Update |
 | :--: | :----- |
 | Sep 24 | Reworded for readability. |
+
+</details>
 
 CPSC 100 is designed to be a collaborative and inclusive learning environment. Many of you are in your first year, and for some of you this is your first university course in computer science. No prior computing experience is expected, and no question is too basic. To ensure that all students can learn and contribute effectively, we have established the following code of conduct.
 

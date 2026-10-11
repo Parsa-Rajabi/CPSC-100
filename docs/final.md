@@ -5,11 +5,14 @@
 > are published partway through the term. This page will be updated as soon as the date,
 > time, and room are announced.
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 | Date | Update |
 | :--: | :----- |
 | Sep 24 | Reworded for readability. |
+
+</details>
 
 ## Quick Facts
 

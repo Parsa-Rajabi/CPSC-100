@@ -11,7 +11,8 @@
 >
 > The schedule below may still change. Anything that moves gets recorded in the changelog.
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 | Date | Update |
 | :--: | :----- |
@@ -21,7 +22,7 @@
 | Sep 25 | Corrected the group contract deadline to Fri Sep 25 and added the Thu Oct 1 re-submission deadline. Noted that contract penalties come off Part B. |
 | Sep 22 | Added the dataset requirements for Part B and the project resources. |
 
----
+</details>
 
 ## Overview
 

@@ -3,13 +3,16 @@
 > [!NOTE]
 > This page is in development. Details will be filled in as the term goes on. What is here shows you what to expect.
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time a participation policy or deduction changes. Newest first. -->
 
 | Date | Update |
 | :--: | :----- |
 | Sep 24 | Clarified: one free lab late arrival per semester. Reworded for readability. |
+
+</details>
 
 ## Overview
 

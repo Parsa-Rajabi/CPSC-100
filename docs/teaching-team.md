@@ -1,12 +1,15 @@
 # Teaching Team
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time a TA, pronoun, photo, or lab assignment changes. Newest first. -->
 
 | Date | Update |
 | :--: | :----- |
 | Sep 24 | Added team photos and TA pronouns. |
+
+</details>
 
 > [!TIP]
 > Looking for how to reach us? Email addresses, the Ed Discussion link, and a flowchart showing where each kind of question belongs are all on [Course Communication](communication.md).

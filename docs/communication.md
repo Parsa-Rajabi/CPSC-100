@@ -1,12 +1,15 @@
 # Course Communication
 
-## Changelog
+<details class="changelog">
+<summary>Changelog</summary>
 
 <!-- Add a dated entry every time this page changes. Newest first. -->
 
 | Date | Update |
 | :--: | :----- |
 | Sep 24 | Reworded for readability. |
+
+</details>
 
 Everything about how to reach the teaching team lives on this page. When in doubt, start with Ed Discussion.
 

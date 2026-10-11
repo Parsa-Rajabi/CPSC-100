@@ -290,7 +290,21 @@
                 }
               }
             }
-              
+
+            // Each page's changelog is collapsed into <details class="changelog">. Show the
+            // date of its newest (first) row in the summary, so students can see whether a
+            // page changed recently without opening it, and nobody has to update it by hand.
+            htmlElement.querySelectorAll('details.changelog').forEach(function (details) {
+              var summary = details.querySelector('summary');
+              var newest = details.querySelector('tbody tr td');
+              if (summary && newest) {
+                var date = document.createElement('span');
+                date.className = 'changelog-date';
+                date.textContent = 'Last updated ' + newest.textContent.trim();
+                summary.append(' ', date);
+              }
+            });
+
             /* JS to change Embedly cards to light or dark theme based on system setting when using the light + dark theme (uncomment to use) */
             /*
             const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))
