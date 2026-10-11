@@ -68,21 +68,19 @@ async function settleAnimations(page) {
   await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished.catch(() => null))));
 }
 
-// After a resize: wait until the cards have re-fitted. The resize observer runs on a real
-// frame, then asks for an animation frame on the fake clock, so let both happen, a little at
-// a time, until every card is inside the table (up to 5 seconds on a slow machine).
+// After a resize: wait until the cards have been fitted to the table's new width (the page
+// records it in data-fit). The resize observer runs on a real frame, then asks for an
+// animation frame on the fake clock, so let both happen, a little at a time, for up to 5
+// seconds on a slow machine.
 async function relayout(page) {
   for (let i = 0; i < 100; i++) {
     await page.waitForTimeout(50);
     await tick(page, 20);
     const fitted = await page.evaluate(() => {
       const table = document.getElementById('table');
-      const t = table.getBoundingClientRect();
-      const inner = table.clientWidth - parseFloat(getComputedStyle(table).paddingLeft) * 2;
-      const cards = [...document.querySelectorAll('#row .card')].map((c) => c.getBoundingClientRect());
-      const sideways = inner >= 720 && !document.getElementById('target').hidden;
-      return cards.every((r) => r.left >= t.left - 0.5 && r.right <= t.right + 0.5) &&
-        (document.getElementById('target').hidden || table.classList.contains('target-top') === !sideways);
+      const style = getComputedStyle(table);
+      const inner = table.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+      return table.dataset.fit === String(Math.round(inner));
     });
     if (fitted) return;
   }

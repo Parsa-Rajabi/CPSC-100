@@ -1811,6 +1811,7 @@
         els.table.style.setProperty('--gap', gap + 'px');
         els.table.classList.toggle('is-tiny', w < 56);
         els.table.classList.toggle('target-top', search && !side);
+        els.table.dataset.fit = String(Math.round(inner)); // the width the cards were fitted to
       }
 
       // Rendering one snapshot ------------------------------------------

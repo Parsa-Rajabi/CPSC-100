@@ -3,7 +3,7 @@
 
 const { test, expect } = require('@playwright/test');
 const {
-  ALGOS, openDemo, tick, chooseAlgo, chooseMode, chooseDeal, readTable, engineSteps,
+  ALGOS, openDemo, tick, chooseAlgo, chooseMode, chooseDeal, chooseSpeed, readTable, engineSteps,
   expectTableMatches, untilWaiting, answerWith, playTry
 } = require('./helpers');
 
@@ -40,7 +40,9 @@ for (const key of ALGOS) {
   });
 
   test(key + ': random deals, with mistakes and Show me, count every mistake once', async ({ page }) => {
+    test.slow(); // three whole rounds: allow three times as long on a slow machine
     await startTry(page, key);
+    await chooseSpeed(page, 3); // fewer clock ticks between decisions
     for (let round = 0; round < 3; round++) {
       if (round) await page.locator('#btn-again').click();
       const mistakes = [0, 2];
