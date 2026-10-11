@@ -10,12 +10,24 @@ cd tests
 npm install          # once: Playwright, as a dev-only dependency
 npm test             # everything: unit tests, then browser tests
 npm run test:unit    # engine and page checks only, no browser (about 30 seconds)
-npm run test:browser # the page in a real browser (about 2 minutes)
+npm run test:browser # the page in Chromium (about 2 minutes)
+npm run test:browsers # Chromium, Firefox and WebKit (about 8 minutes)
 ```
 
 The first browser run may ask for `npx playwright install chromium`.
 
 Run `npm test` before merging any change to `docs/demos/`.
+
+## On GitHub
+
+`.github/workflows/card-demos.yml` runs every test on pull requests and pushes to `main`,
+but only when one of these changes: `docs/demos/`, `docs/_sidebar.md`, `docs/index.html`,
+`tests/`, or the workflow itself. Edits to other course pages do not run it.
+
+It runs inside Playwright's own Linux image, the same version as `package.json`, with one
+job each for Chromium, Firefox and WebKit (the engine behind Safari on iPhones).
+When a run fails, its screenshots, traces and error details are attached to the run as
+`test-results`.
 
 ## What is covered
 
@@ -48,13 +60,20 @@ Run `npm test` before merging any change to `docs/demos/`.
   fit and stay readable, 34px cards on a 375px phone, and the projector view at 1280x720.
 - `a11y.spec.js`: labels, aria-pressed, the live narration, visible focus, highlights that
   do not rely on colour alone, and WCAG AA text contrast in every state.
+- `hci.spec.js`: the status line (Ready, Playing at the chosen speed, Your turn, Try again,
+  Finished, and where the run is), the timeline you can drag, the countdown before each
+  automatic step, the speed slider from x0.25 to x3 and its keys, the shortcuts, the
+  tooltips, and the tour (every stop is spotlit, the note stays on screen, keys and Tab
+  stay inside it, and it pauses what is playing).
+- `first-visit.spec.js`: the "New here?" banner and remembering it, blocked storage, and
+  a missing or stale engine file.
 - `motion.spec.js`: reduced motion makes everything instant. Slides, flips and the finish
   wave run and settle. Pressing Next very fast never leaves a card stuck mid-slide.
 - `site.spec.js`: docsify still renders every sidebar page. The link opens the demo in the
   same tab, and Back to course site returns. This one needs the network, because docsify
   loads from public CDNs.
-- `visual.spec.js`: screenshots of 15 key states, compared with the saved images in
-  `browser/visual.spec.js-snapshots/`.
+- `visual.spec.js`: screenshots of 20 key states, including the tour, a tooltip and the
+  first-visit banner, compared with the saved images in `browser/visual.spec.js-snapshots/`.
 
 The browser tests run with a fake clock and seeded "random" deals, so they are fast and give
 the same result every time. Google Fonts requests are answered from `fixtures/fonts/`, so the
@@ -69,14 +88,23 @@ before committing it:
 npm run test:update-screenshots
 ```
 
-The saved images are from macOS (their names end in `-darwin`). Font rendering differs
-between operating systems, so on Linux or Windows the first run writes that system's own
-images instead of comparing.
+Font rendering differs between operating systems, so there are two sets of saved images:
+`-darwin` for running the tests on a Mac, and `-linux` for GitHub. To update the Linux set
+after a deliberate change, either run the update inside the same image as GitHub (from
+`tests/`; the extra volume keeps the Linux packages away from your own `node_modules`):
+
+```bash
+docker run --rm -v "$PWD/..":/work -v /work/tests/node_modules -w /work/tests mcr.microsoft.com/playwright:v1.61.1-noble sh -c "npm ci && npm run test:update-screenshots"
+```
+
+or push the change: the failed run attaches the new images under `test-results`, to look
+at and then commit.
 
 ## Firefox and Safari
 
-The behaviour tests (everything except screenshots) also run in Firefox and WebKit, the
-engine behind Safari on iPhones, once those browsers are installed:
+On a Mac, `npm run test:browsers` also runs the behaviour tests (everything except
+screenshots) in Firefox and WebKit, once those browsers are installed. WebKit on macOS follows Safari's default, where
+Tab skips buttons, so those tests press Option+Tab as a Safari keyboard user would.
 
 ```bash
 npx playwright install firefox webkit

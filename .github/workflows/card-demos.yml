@@ -1,0 +1,73 @@
+# Tests for the Card Demos page (docs/demos/). They run only when the page, its tests,
+# or the site files it depends on change; edits to other course pages skip them.
+name: Card demo tests
+
+on:
+  pull_request:
+    paths:
+      - 'docs/demos/**'
+      - 'docs/_sidebar.md'
+      - 'docs/index.html'
+      - 'tests/**'
+      - '.github/workflows/card-demos.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/demos/**'
+      - 'docs/_sidebar.md'
+      - 'docs/index.html'
+      - 'tests/**'
+      - '.github/workflows/card-demos.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: card-demo-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: ${{ matrix.browser }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        # One runner per browser: faster, and one browser cannot slow down another.
+        browser: [chromium, firefox, webkit]
+    # Playwright's own image, the same version as tests/package.json, with Chromium,
+    # Firefox and WebKit installed. Screenshots are compared against the -linux baselines.
+    container:
+      image: mcr.microsoft.com/playwright:v1.61.1-noble
+      options: --user 1001
+    defaults:
+      run:
+        working-directory: tests
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install
+        run: npm ci --no-audit --no-fund
+
+      - name: Unit tests
+        if: matrix.browser == 'chromium'
+        run: npm run test:unit
+
+      - name: Browser tests
+        run: npx playwright test --project=${{ matrix.browser }}
+        env:
+          CI: 'true'
+
+      - name: Upload results
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: test-results-${{ matrix.browser }}
+          path: |
+            tests/test-results/
+            tests/browser/visual.spec.js-snapshots/
+          retention-days: 14

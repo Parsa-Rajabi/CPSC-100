@@ -24,11 +24,17 @@ test('the inline script and the engine are valid JavaScript', () => {
 
 test('no libraries: the only script is the engine, the only stylesheet is the font', () => {
   const srcs = [...html.matchAll(/<script\b[^>]*\bsrc="([^"]+)"/g)].map((m) => m[1]);
-  assert.deepEqual(srcs, ['cards-engine.js']);
+  assert.deepEqual(srcs, ['cards-engine.js?v=' + require(path.join(DOCS, 'demos', 'cards-engine.js')).VERSION]);
   const sheets = [...html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*>/g)].map((m) => m[0]);
   assert.equal(sheets.length, 1);
   assert.match(sheets[0], /href="https:\/\/fonts\.googleapis\.com\/css2\?family=Source\+Sans\+Pro/);
   assert.doesNotMatch(html, /\bimport\s*\(|\bhttp:\/\//);
+});
+
+test('the page, its script tag and the engine agree on the engine version', () => {
+  const version = require(path.join(DOCS, 'demos', 'cards-engine.js')).VERSION;
+  assert.match(html, new RegExp('<script src="cards-engine\\.js\\?v=' + version + '"></script>'));
+  assert.match(inlineScripts[0], new RegExp('var ENGINE_VERSION = ' + version + ';'));
 });
 
 test('page basics', () => {

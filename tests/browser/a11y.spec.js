@@ -4,7 +4,7 @@
 
 const { test, expect } = require('@playwright/test');
 const {
-  ALGOS, openDemo, tick, settleAnimations, chooseAlgo, chooseMode, chooseDeal, readTable, untilWaiting
+  ALGOS, openDemo, tick, tabKey, settleAnimations, lowContrast, chooseAlgo, chooseMode, chooseDeal, readTable, untilWaiting
 } = require('./helpers');
 
 let errors;
@@ -49,8 +49,9 @@ test('selected tab, mode, speed and deal are announced with aria-pressed', async
   await expect(page.getByRole('button', { name: 'Bubble sort', pressed: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Insertion sort', pressed: false })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Watch', pressed: true })).toBeVisible();
-  await page.locator('[data-speed="slow"]:visible').click();
-  await expect(page.getByRole('button', { name: 'Slow', pressed: true }).first()).toBeVisible();
+  // The speed slider says its value in words.
+  await page.locator('.speed-input:visible').fill('1');
+  await expect(page.locator('.speed-input:visible')).toHaveAttribute('aria-valuetext', 'half speed');
   await chooseDeal(page, 'Nearly sorted');
   await expect(page.getByRole('button', { name: 'Nearly sorted', pressed: true })).toBeVisible();
 });
@@ -81,7 +82,7 @@ test('cards are labelled: "5 of hearts", "face-down card 3", and their state', a
   expect(t.cards[0].label).toMatch(/^ace of hearts, .*sorted$/);
 });
 
-test('in Try it, pickable cards are tab stops in left-to-right order', async ({ page }) => {
+test('in Try it, pickable cards are tab stops in left-to-right order', async ({ page, browserName }) => {
   await chooseMode(page, 'try');
   await chooseDeal(page, 'Lecture deal');
   await untilWaiting(page);
@@ -91,7 +92,7 @@ test('in Try it, pickable cards are tab stops in left-to-right order', async ({ 
   const visited = [];
   for (let i = 0; i < 9; i++) {
     visited.push(await page.evaluate(() => document.activeElement.dataset.id));
-    await page.keyboard.press('Tab');
+    await page.keyboard.press(tabKey(browserName));
   }
   expect(visited).toEqual(t.order);
   // While the algorithm plays on its own, cards say they are not available.
@@ -122,14 +123,14 @@ test('the narration is a polite live region that changes on every step', async (
   }
 });
 
-test('focus is always visible', async ({ page }) => {
+test('focus is always visible', async ({ page, browserName }) => {
   for (const mode of ['watch', 'try']) {
     await chooseMode(page, mode);
     await page.locator('body').click({ position: { x: 2, y: 300 } });
     await page.evaluate(() => document.activeElement && document.activeElement.blur());
     const seen = [];
     for (let i = 0; i < 40; i++) {
-      await page.keyboard.press('Tab');
+      await page.keyboard.press(tabKey(browserName));
       const f = await page.evaluate(() => {
         const el = document.activeElement;
         if (!el || el === document.body) return null;
@@ -196,70 +197,13 @@ test('highlights do not rely on colour alone', async ({ page }) => {
 });
 
 test('text contrast meets WCAG AA in every state', async ({ page }) => {
-  async function lowContrast() {
-    return page.evaluate(() => {
-      const parse = (c) => {
-        const m = c.match(/rgba?\(([^)]+)\)/);
-        if (!m) return null;
-        const [r, g, b, a = 1] = m[1].split(/[ ,/]+/).filter(Boolean).map(Number);
-        return { r, g, b, a };
-      };
-      const lum = ({ r, g, b }) => {
-        const f = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
-        return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
-      };
-      const over = (top, bottom) => ({
-        r: top.r * top.a + bottom.r * (1 - top.a),
-        g: top.g * top.a + bottom.g * (1 - top.a),
-        b: top.b * top.a + bottom.b * (1 - top.a),
-        a: 1
-      });
-      // Background behind an element: blend each layer up the tree onto the page colour.
-      const background = (el) => {
-        const layers = [];
-        for (let n = el; n && n.nodeType === 1; n = n.parentElement) {
-          const bg = parse(getComputedStyle(n).backgroundColor);
-          if (bg && bg.a > 0) {
-            layers.push(bg);
-            if (bg.a === 1) break;
-          }
-        }
-        let color = { r: 255, g: 255, b: 255, a: 1 };
-        for (let i = layers.length - 1; i >= 0; i--) color = over(layers[i], color);
-        return color;
-      };
-      const dimmed = (el) => {
-        for (let n = el; n && n.nodeType === 1; n = n.parentElement) {
-          if (parseFloat(getComputedStyle(n).opacity) < 1 || n.getAttribute('aria-disabled') === 'true' || n.disabled) return true;
-        }
-        return false;
-      };
-      const out = [];
-      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-      for (let node = walker.nextNode(); node; node = walker.nextNode()) {
-        const el = node.parentElement;
-        if (!node.textContent.trim() || !el.getClientRects().length) continue;
-        const cs = getComputedStyle(el);
-        if (cs.visibility === 'hidden' || el.closest('[hidden], script, style, noscript, .back')) continue;
-        if (dimmed(el)) continue; // disabled controls and ruled-out cards are exempt
-        const fg = over(parse(cs.color), background(el));
-        const bg = background(el);
-        const [l1, l2] = [lum(fg), lum(bg)].sort((a, b) => b - a);
-        const ratio = (l1 + 0.05) / (l2 + 0.05);
-        const size = parseFloat(cs.fontSize);
-        const large = size >= 24 || (size >= 18.66 && Number(cs.fontWeight) >= 700);
-        if (ratio < (large ? 3 : 4.5)) out.push(node.textContent.trim().slice(0, 30) + ' ' + ratio.toFixed(2));
-      }
-      return out;
-    });
-  }
   for (const mode of ['watch', 'try']) {
     await chooseMode(page, mode);
     for (const key of ALGOS) {
       await chooseAlgo(page, key);
       for (let i = 0; i < 3; i++) {
         await settleAnimations(page);
-        expect(await lowContrast(), mode + ' ' + key).toEqual([]);
+        expect(await lowContrast(page), mode + ' ' + key).toEqual([]);
         if (mode === 'watch') for (let k = 0; k < 3; k++) await page.keyboard.press('ArrowRight');
         else await tick(page, 2500);
       }
@@ -274,5 +218,5 @@ test('text contrast meets WCAG AA in every state', async ({ page }) => {
   await tick(page, 300);
   await page.locator('#btn-swap').click();
   await page.locator('#btn-noswap').click({ force: true });
-  expect(await lowContrast(), 'feedback').toEqual([]);
+  expect(await lowContrast(page), 'feedback').toEqual([]);
 });

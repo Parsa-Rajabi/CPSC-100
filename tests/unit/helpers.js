@@ -136,7 +136,8 @@ function assertCleanText(text, where) {
   checkedText.add(text);
 }
 
-const STEP_KEYS = 'ask,counts,faceUp,focus,line,marked,order,ruledOut,say,sorted';
+const STEP_KEYS = 'ask,counts,faceUp,focus,line,marked,order,phase,ruledOut,say,sorted';
+const checkedPhase = new Set();
 
 function sameSet(a, b) {
   if (a.length !== b.length) return false;
@@ -193,6 +194,13 @@ function validateSteps(key, deal, steps, target) {
     assert.ok(s.line === null || (Number.isInteger(s.line) && s.line >= 0 && s.line < algo.code.length),
       w + ': bad line ' + s.line);
     assertCleanText(s.say, w + ' say');
+    // The status line: short, no sentence punctuation, full words.
+    if (!checkedPhase.has(s.phase)) {
+      assert.equal(typeof s.phase, 'string', w + ': phase');
+      assert.match(s.phase, /^[A-Z0-9][\w \u00B7]{2,40}$/, w + ': phase ' + JSON.stringify(s.phase));
+      assert.doesNotMatch(s.phase, /undefined|NaN|'|\b1 (cards|unsorted cards)\b/, w + ': phase ' + s.phase);
+      checkedPhase.add(s.phase);
+    }
     assert.equal(Object.keys(s.counts).sort().join(), sort ? 'comparisons,swaps' : 'flips', w + ': count names');
     for (const v of Object.values(s.counts)) assert.ok(Number.isInteger(v) && v >= 0, w + ': count ' + v);
 
@@ -254,6 +262,7 @@ function validateSteps(key, deal, steps, target) {
     }
 
     if (i === 0) {
+      assert.match(s.phase, /^Ready to (sort|search)/, w + ': step 0 phase');
       assert.deepEqual(s.order, ids, w + ': step 0 is the deal');
       assert.deepEqual(s.focus, [], w);
       assert.deepEqual(s.sorted, [], w);
@@ -319,6 +328,7 @@ function validateSteps(key, deal, steps, target) {
 
   const end = last(steps);
   assert.equal(end.ask, null);
+  assert.equal(end.phase, sort ? 'Sorted' : 'Found it', key + ': final phase');
   if (sort) {
     assert.deepEqual(end.order, finalOrder, key + ': did not sort ' + labels(ids));
     assert.deepEqual(end.sorted.slice().sort(), ids.slice().sort(), key + ': not every card locked in');

@@ -3,7 +3,7 @@
 
 const { test, expect } = require('@playwright/test');
 const {
-  ALGOS, openDemo, tick, chooseAlgo, chooseMode, chooseDeal, chooseSpeed, readTable,
+  ALGOS, SPEED_STEPS, BASE_MS, openDemo, tick, tabKey, chooseAlgo, chooseMode, chooseDeal, chooseSpeed, readTable,
   engineSteps, expectTableMatches
 } = require('./helpers');
 
@@ -71,7 +71,7 @@ test('Reset goes back to step 0 from the middle', async ({ page }) => {
 
 test('Play steps on its own, Pause stops it, and it stops at the end', async ({ page }) => {
   await chooseAlgo(page, 'binary'); // 4 steps
-  await chooseSpeed(page, 'fast'); // 600 ms a step
+  await chooseSpeed(page, 2); // 600 ms a step
   await page.locator('#btn-play').click();
   await expect(page.locator('#btn-play')).toHaveText(/Pause/);
   expect((await readTable(page)).c).toBe('1 of 4'); // Play moves at once
@@ -92,12 +92,13 @@ test('Play steps on its own, Pause stops it, and it stops at the end', async ({ 
   expect((await readTable(page)).c).toBe('1 of 4');
 });
 
-test('each speed sets the time per step', async ({ page }) => {
+test('each speed sets the time per step: 1200ms divided by the multiplier', async ({ page }) => {
   await chooseAlgo(page, 'insertion');
-  for (const [speed, ms] of [['slow', 2000], ['normal', 1200], ['fast', 600]]) {
+  for (const speed of SPEED_STEPS) {
+    const ms = BASE_MS / speed;
     await page.locator('#btn-reset').click({ force: true }); // aria-disabled at step 0
     await chooseSpeed(page, speed);
-    await expect(page.locator('[data-speed="' + speed + '"]').first()).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.locator('.speed-out:visible')).toHaveText('\u00D7' + speed);
     await page.locator('#btn-play').click(); // to step 1
     await tick(page, ms - 50);
     expect((await readTable(page)).c, speed).toMatch(/^1 of/);
@@ -145,10 +146,10 @@ test('Space after a mouse click on a deal button plays, instead of dealing again
   expect(t.order).toEqual(steps[1].order);
 });
 
-test('Space on a button reached with Tab presses that button', async ({ page }) => {
+test('Space on a button reached with Tab presses that button', async ({ page, browserName }) => {
   await chooseAlgo(page, 'selection');
   await page.locator('#btn-play').focus();
-  await page.keyboard.press('Tab'); // to Next, as a keyboard user would
+  await page.keyboard.press(tabKey(browserName)); // to Next, as a keyboard user would
   await expect(page.locator('#btn-next')).toBeFocused();
   await page.keyboard.press('Space');
   expect((await readTable(page)).c).toMatch(/^1 of/);
@@ -170,7 +171,7 @@ test('keys do nothing in Try it mode', async ({ page }) => {
 });
 
 test('switching algorithm, deal or mode while playing leaves no stray timers', async ({ page }) => {
-  await chooseSpeed(page, 'fast');
+  await chooseSpeed(page, 2);
   for (const change of [
     () => chooseAlgo(page, 'bubble'),
     () => chooseDeal(page, 'Nearly sorted'),
@@ -256,10 +257,12 @@ test('linear search: New shuffle changes the row and the target is always on it'
   }
 });
 
-test('a deal button keeps keyboard focus after dealing', async ({ page }) => {
+test('a deal button keeps keyboard focus after dealing', async ({ page, browserName }) => {
   await chooseAlgo(page, 'insertion');
-  const shuffle = page.locator('#deals .btn', { hasText: 'New shuffle' });
-  await shuffle.focus();
+  // Reach it with the keyboard, as a keyboard user would (Firefox decides at that moment).
+  await page.locator('#deals .btn', { hasText: 'Nearly sorted' }).focus();
+  await page.keyboard.press(tabKey(browserName));
+  await expect(page.locator('#deals .btn', { hasText: 'New shuffle' })).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('#deals .btn', { hasText: 'New shuffle' })).toBeFocused();
 });

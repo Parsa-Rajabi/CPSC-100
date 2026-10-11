@@ -90,6 +90,7 @@
     this.sorted = [];
     this.ruledOut = [];
     this.marked = [];
+    this.phase = ''; // where the run is, for the status line: "Pass 2 of 7 \u00B7 7 unsorted"
     this.counts = {};
     countKeys.forEach(function (key) { self.counts[key] = 0; });
     this.steps = [];
@@ -103,6 +104,7 @@
       sorted: this.sorted.slice(),
       ruledOut: this.ruledOut.slice(),
       marked: this.marked.slice(), // selection sort: the smallest card so far
+      phase: this.phase,
       line: line, // null when no pseudocode line applies
       say: say,
       counts: Object.assign({}, this.counts),
@@ -146,6 +148,7 @@
       };
     }
 
+    r.phase = 'Ready to search ' + plural(r.order.length, 'card');
     r.push(0, 'Find the ' + cardName(r.cards[target]) + '. The cards are face down and ' +
       'in no particular order, so check them one at a time, left to right.', pickAsk(0));
 
@@ -154,7 +157,9 @@
       r.faceUp.push(id);
       r.focus = [id];
       r.counts.flips++;
+      r.phase = 'Card ' + (i + 1) + ' of ' + r.order.length;
       if (id === target) {
+        r.phase = 'Found it';
         r.push(2, 'Flip card ' + (i + 1) + ': it is the ' + t + '. Stop, found it! That took ' +
           plural(r.counts.flips, 'flip') + '.');
         return r.steps;
@@ -198,6 +203,7 @@
       };
     }
 
+    r.phase = 'Ready to search ' + plural(r.order.length, 'sorted card');
     r.push(null, 'Find the ' + cardName(r.cards[target]) + '. The cards are face down, ' +
       'sorted from A (smallest) on the left to 9 (largest) on the right.', pickAsk());
 
@@ -219,10 +225,12 @@
           ? ' (' + (left === 2 ? 'both' : 'two') + ' are in the middle, so take the left one)'
           : '');
       }
+      r.phase = left === 1 ? 'One card left' : 'Middle of ' + left + ' cards';
       r.push(first ? 0 : 4, flip + ': it is the ' + r.label(id) + '.');
       first = false;
 
       if (id === target) {
+        r.phase = 'Found it';
         r.push(1, 'That is the ' + t + ', so stop repeating. Found it in ' +
           plural(r.counts.flips, 'flip') + '!');
         return r.steps;
@@ -243,6 +251,7 @@
       }
       r.focus = [];
       var remaining = high - low + 1;
+      r.phase = (remaining === 1 ? 'One card' : remaining + ' cards') + ' left';
       r.push(line, say + ' ' + (remaining === 1 ? 'One card is' : remaining + ' cards are') +
         ' left.', pickAsk());
     }
@@ -256,6 +265,7 @@
     var n = r.order.length;
     r.faceUp = r.order.slice();
 
+    r.phase = 'Ready to sort';
     r.push(null, 'Ready to sort ' + plural(n, 'card') + ' from smallest to largest.');
 
     for (var i = 0; i < n - 1; i++) {
@@ -267,6 +277,7 @@
 
       r.focus = [];
       r.marked = [];
+      r.phase = 'Pass ' + (i + 1) + ' of ' + (n - 1) + ' \u00B7 ' + (n - i) + ' unsorted';
       r.push(0, 'Pass ' + (i + 1) + ': ' + plural(n - i, 'card') + ' are still unsorted. ' +
         'Find the smallest of them.', {
         kind: 'pick',
@@ -321,6 +332,7 @@
 
     r.focus = [];
     r.sorted = r.order.slice();
+    r.phase = 'Sorted';
     r.push(0, (n > 0 ? 'Only ' + r.label(r.order[n - 1]) + ' is left, so it is in place too. ' : '') +
       sortTotals(r));
     return r.steps;
@@ -333,6 +345,7 @@
     var n = r.order.length;
     r.faceUp = r.order.slice();
 
+    r.phase = 'Ready to sort';
     r.push(null, 'Ready to sort ' + plural(n, 'card') + ' from smallest to largest.' +
       (n > 1 ? ' The first card, ' + r.label(r.order[0]) + ', starts on its own.' : ''));
 
@@ -340,6 +353,7 @@
       var id = r.order[i];
       var c = r.label(id);
       r.focus = [id];
+      r.phase = 'Card ' + (i + 1) + ' of ' + n;
       r.push(0, 'Take the ' + ordinal(i + 1) + ' card, ' + c + '.');
 
       var j = i;
@@ -377,6 +391,7 @@
 
     r.focus = [];
     r.sorted = r.order.slice();
+    r.phase = 'Sorted';
     r.push(null, 'Every card is in place. ' + sortTotals(r));
     return r.steps;
   }
@@ -388,6 +403,7 @@
     var n = r.order.length;
     r.faceUp = r.order.slice();
 
+    r.phase = 'Ready to sort';
     r.push(null, 'Ready to sort ' + plural(n, 'card') + ' from smallest to largest.');
 
     var end = n - 1; // index of the last unsorted card
@@ -396,6 +412,7 @@
       pass++;
       var swaps = 0;
       r.focus = [];
+      r.phase = 'Pass ' + pass + ' \u00B7 ' + (end + 1) + ' unsorted';
       r.push(1, 'Pass ' + pass + ': check each pair of neighbours in the ' +
         plural(end + 1, 'unsorted card') + ', from the left.');
 
@@ -430,6 +447,7 @@
       r.focus = [];
       if (swaps === 0) {
         r.sorted = r.order.slice();
+        r.phase = 'Sorted';
         r.push(0, 'This pass made no swaps, so the cards are in order. Stop. ' + sortTotals(r));
         return r.steps;
       }
@@ -441,6 +459,7 @@
     }
 
     r.sorted = r.order.slice();
+    r.phase = 'Sorted';
     r.push(0, (n > 0 ? 'Only ' + r.label(r.order[0]) + ' is left unsorted, so it is in place too. ' : '') +
       sortTotals(r));
     return r.steps;
@@ -591,6 +610,9 @@
   }
 
   return {
+    // The page loads this file as cards-engine.js?v=VERSION and checks the number, so a
+    // cached older engine is never used with a newer page. Change both together.
+    VERSION: 2,
     SUIT_SYMBOL: SUIT_SYMBOL,
     ALGORITHMS: ALGORITHMS,
     ORDER: ORDER,
