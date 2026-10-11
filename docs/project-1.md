@@ -2,12 +2,13 @@
 
 > [!NOTE]
 > This page is not finished yet, but everything below is solid enough to plan around. Please read
-> it now. Two things are still to come:
+> it now. One thing is still to come:
 >
-> - The full grading rubric for Parts B and C. The [Part A rubric](#part-a-rubric) and the
->   [rubric for the Part B dataset](#rubric) are already posted
 > - How to disclose your AI use in Parts B and C: the process and the form to use. Part A has its
 >   own [AI use line](#using-ai-in-part-a)
+>
+> The rubrics for all three parts are posted: [Part A](#part-a-rubric), [Part B](#part-b-rubric)
+> and [Part C](#part-c-rubric). [How this is graded](#how-this-is-graded) explains how they work.
 >
 > The schedule below may still change. Anything that moves gets recorded in the changelog.
 
@@ -16,6 +17,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 11 | Added the Part B and Part C rubrics, the optional Going further work that earns Exceeds expectations on each criterion, and a short guide to PEEL. The Part B dataset rubric is unchanged. Stand-ups and the retrospective are now each 5% of Part C, and peer evaluation covers your work in Parts B and C. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -482,7 +484,8 @@ The second is your evaluation, covering this for each tool you tested:
 - A link to the terms of service you read, and your answers to the three questions
 - A results table covering every image and every tool
 - A closer look at one tool: how it says it works, how it performed on your dataset, where it
-  failed, and whether there was a pattern to its mistakes
+  failed, and whether there was a pattern to its mistakes. Make each point using
+  [PEEL](#making-an-argument-with-peel), with your own results as the evidence
 - A recommendation. Of the tools you tested, which one would you recommend to your family, and
   why?
 - A short reflection. What does it cost when a tool wrongly says an image is AI-generated? What
@@ -515,12 +518,42 @@ failure you didn't find.
 
 </details>
 
-### Rubric
+### Going further in Part B <!-- {docsify-ignore} -->
 
-> [!NOTE]
-> This rubric covers only the Part B dataset. A more detailed rubric for Project 1 Parts A, B and C
-> will be released before [Lab 3](labs.md). We will also discuss the grade contract for the project
-> soon.
+Everything above describes work that meets expectations, which earns an A- or an A on each
+criterion. The work in this section is optional. It is the only way a criterion reaches Exceeds
+expectations (A+), and every item is something your TA can check and count.
+
+To reach Exceeds on a criterion, do everything it asks for at Meets, plus every item listed for it
+here.
+
+| Criterion | To reach Exceeds, also do this |
+| :-- | :-- |
+| Tools and terms of service | For every answer to the three terms of service questions, quote the wording from the policy and name the section or heading it comes from. Also include at least one tool that checks information stored inside the file, such as Optic. |
+| Results | Under your results table, give each tool's number of false positives (it said AI-generated about a real image) and false negatives (it said real about an AI-generated image). |
+| Closer look | Refer to every failure you discuss by its row in your results table. Then use the pattern you found to predict one more image, not in your dataset, that the tool will get wrong. Run it, add the screenshot to your appendix, and say whether your prediction held. A prediction that turns out wrong still counts, as long as you report it honestly. |
+| Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers. In your reflection, tie each cost to at least one specific error from your own results. |
+
+The dataset criterion has no Going further work. It was marked at the October 1 sign-off.
+
+### Part B rubric <!-- {docsify-ignore} -->
+
+Part B is marked on five criteria. Each criterion gets one of the bands described in
+[How this is graded](#how-this-is-graded), and your Part B grade is the weighted average of the
+five.
+
+| Criterion | Weight |
+| :-- | :--: |
+| 1. Dataset | 15% |
+| 2. Tools and terms of service | 20% |
+| 3. Results | 20% |
+| 4. Closer look at one tool | 25% |
+| 5. Recommendation and reflection | 20% |
+
+#### 1. Dataset
+
+Your dataset was marked at the October 1 sign-off, using the rubric below. That mark carries into
+Part B unchanged. If you re-submitted, your re-submission mark is the one that counts.
 
 <details>
 <summary> A+ (90-100) </summary>
@@ -563,6 +596,42 @@ Several images are missing labels, or a label field is missing across the set. C
 If the quality of the submission is deemed below the standard for a B, your TA will ask you to re-submit your dataset.
 
 </details>
+
+#### 2. Tools and terms of service (20%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus the [Going further](#going-further-in-part-b) items for this criterion: a quote and its section for every terms of service answer, and at least one tool that checks information stored inside the file. |
+| Meets (A-, A) | One tool per group member, with a minimum of three. For every tool: its cost, availability, claims, reputation and your reason for use, a link to the terms of service you read, and an answer to each of the three questions. |
+| Approaching (B- to B+) | The same gap appears for two or more tools. For example, one of the five things, the terms of service link, or an answer that addresses its question is missing for two or more tools. Also Approaching: one tool fewer than the number of group members, as long as there are at least three. |
+| Not meeting (C+ and below) | There are fewer than three tools, or the five things or the three questions are missing for most tools. |
+
+#### 3. Results (20%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus each tool's number of false positives and false negatives under the table, as described in [Going further](#going-further-in-part-b). |
+| Meets (A-, A) | One results table covering every image and every tool. Each cell records the verdict, the confidence score if the tool gives one, and what the image actually was. For tools that give a percentage, your cut-off is written down and used the same way throughout. The appendix has screenshots of your results, each showing your computer clock. |
+| Approaching (B- to B+) | The table or the appendix has gaps. For example, more than one result in ten is missing, the table records only "correct" or "incorrect" instead of the verdicts, or none of the screenshots show the clock. |
+| Not meeting (C+ and below) | Results are missing for at least one tool or for most images, or there are no screenshots. |
+
+#### 4. Closer look at one tool (25%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus every failure referred to by its row in your results table, and one prediction tested on a new image and reported, as described in [Going further](#going-further-in-part-b). |
+| Meets (A-, A) | Covers how the tool says it works, how it performed on your dataset, where it failed, and whether there was a pattern to its mistakes. Each point is made using [PEEL](#making-an-argument-with-peel), and the evidence comes from your own results. If the tool made no mistakes, you say so and explain what you would need to test to find one. |
+| Approaching (B- to B+) | All four parts are there, but at least one is thin. For example, failures are listed but not explained, a pattern is claimed without results to back it up, or how the tool works is described without connecting it to your results. |
+| Not meeting (C+ and below) | One or more of the four parts is missing, or the section describes the tool without using your results. |
+
+#### 5. Recommendation and reflection (20%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus a recommendation backed by a number from your results and a terms of service answer, and a reflection that ties each cost to a specific error from your results, as described in [Going further](#going-further-in-part-b). |
+| Meets (A-, A) | You recommend one of the tools you tested to your family and say why. Your reflection says what it costs when a tool wrongly says an image is AI-generated, what it costs when it wrongly says an image is real, and who pays in each case. |
+| Approaching (B- to B+) | The recommendation gives no reason or is for a tool you did not test, or the reflection covers only one kind of error, or it does not say who pays. |
+| Not meeting (C+ and below) | The recommendation or the reflection is missing, or the reflection only defines the two kinds of error. |
 
 ---
 
@@ -748,6 +817,8 @@ answer about any part of it, not only their own section.
 - The written report, all nine sections. A maximum page count will be announced later
 - At least three sources, of which at least two are primary, and all of them checked
 - A recorded video with every member speaking, up to 2 minutes each, covering sections 6, 7 and 8
+- Sections 6, 7 and 8, in the report and in the video, make their points using
+  [PEEL](#making-an-argument-with-peel)
 - A case connected to Canada or a country in Asia, claimed on Ed Discussion
 
 ### Where you have a choice <!-- {docsify-ignore} -->
@@ -757,6 +828,101 @@ answer about any part of it, not only their own section.
 - Which mechanism you name, if more than one fits. Say so if several do
 - How you present the video: slides, a screen recording, people speaking to camera, or a mix
 - How you divide up the speaking, as long as everyone speaks
+
+### Going further in Part C <!-- {docsify-ignore} -->
+
+As in Part B, everything above describes work that meets expectations (A- or A). The work in this
+section is optional, it is the only way a criterion reaches Exceeds expectations (A+), and every
+item is something your TA can check and count.
+
+To reach Exceeds on a criterion, do everything it asks for at Meets, plus every item listed for it
+here.
+
+| Criterion | To reach Exceeds, also do this |
+| :-- | :-- |
+| Case and sources | After every fact in sections 2 to 4, say which of your sources it comes from, for example "(Source 2)". |
+| The facts of the case | In section 2 or 3, state at least one thing about the system that is not public, and say where you looked for it. In section 5, include at least one stakeholder who neither runs the system nor has decisions made about them by it, such as a regulator, a bystander or the public. |
+| Benjamin's categories | Name at least one fact from sections 2 to 4 that fits your chosen category but not the alternative, or the other way round. Use it to explain why your reading wins, or why both readings hold. |
+| The mechanism | Add a counterfactual: if one specific part of the system were removed or changed, which part of the harm would not have happened, and why. |
+| Should they change it? | For each of your two arguments, name who gains and who loses, using stakeholders from your section 5 table. |
+| The video | Each speaker connects their part to another speaker's part at least once, so the video makes one argument rather than separate pieces. For example: "This is the feedback loop Sam described, and it is also why the alternative reading falls short." |
+
+### Part C rubric <!-- {docsify-ignore} -->
+
+Your report and video are 90% of Part C. They are marked on six criteria, in the same way as Part
+B: each criterion gets a band, and the report and video mark is the weighted average of the six.
+Your stand-ups (5%) and the retrospective (5%) make up the rest of Part C, and your peer
+evaluation multiplier then applies to all of it. See the
+[grade breakdown](project.md#your-individual-part-c-mark).
+
+| Criterion | Weight within the report and video |
+| :-- | :--: |
+| 1. Case and sources | 10% |
+| 2. The facts of the case: sections 1 to 5 | 20% |
+| 3. Benjamin's categories: section 6 | 20% |
+| 4. The mechanism: section 7 | 25% |
+| 5. Should they change it? Section 8 | 10% |
+| 6. The video | 15% |
+
+Sections 6, 7 and 8 are marked once each, using the report and the video together. The video
+criterion covers how the video itself meets its requirements.
+
+#### 1. Case and sources (10%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus a source named after every fact in sections 2 to 4, as described in [Going further](#going-further-in-part-c). |
+| Meets (A-, A) | The case is connected to Canada or a country in Asia, is claimed on Ed Discussion, and is documented by a regulator's report, a court filing or investigative journalism. Section 9 lists at least three sources, at least two of them primary, with news coverage of one event counted as one source. |
+| Approaching (B- to B+) | The case is in scope and claimed, but the sources fall short. For example, fewer than two are primary, or several of them repeat the same news coverage. |
+| Not meeting (C+ and below) | The case is outside the scope or is documented only by blog posts or a single news story, or there are fewer than two sources. |
+
+A source that does not exist, or that does not say what you claim, is not marked here. It is
+handled under [Academic integrity](#academic-integrity).
+
+#### 2. The facts of the case: sections 1 to 5 (20%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus at least one thing that is not public with where you looked for it, and a stakeholder who neither runs the system nor has decisions made about them by it, as described in [Going further](#going-further-in-part-c). |
+| Meets (A-, A) | All five sections are filled in. Someone new to the case can follow section 1. Section 2 says what data went in, where it came from, and whether the people it described agreed. Section 3 explains what the system did with that data, at the level of the example in the template. Section 4 says what happened, to whom, and any response. Section 5 has at least three stakeholders, each with one positive and one negative effect. |
+| Approaching (B- to B+) | All five sections are there, but one is thin. For example, section 2 does not say where the data came from or whether people agreed, section 3 says only that the system used the data to decide, or two or more stakeholders are missing a positive or a negative effect. |
+| Not meeting (C+ and below) | A section is missing, or section 5 has fewer than three stakeholders. |
+
+#### 3. Benjamin's categories: section 6 (20%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus a fact that separates the two readings, used to explain why your reading wins or why both hold, as described in [Going further](#going-further-in-part-c). |
+| Meets (A-, A) | You name the category that fits best and support it with specific facts from sections 2 to 4. You give an alternative reading that someone could reasonably argue for, and say what it would be based on. Each point uses PEEL. |
+| Approaching (B- to B+) | The category is supported only in general terms, or the alternative reading is named but not explained. |
+| Not meeting (C+ and below) | The category is stated without any facts behind it, or there is no alternative reading. |
+
+#### 4. The mechanism: section 7 (25%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus a counterfactual tied to a specific part of the system, as described in [Going further](#going-further-in-part-c). |
+| Meets (A-, A) | You name a concept from the course list under "What naming the mechanism means" and explain, in two or three sentences, how it produced the harm in your case: the process, not only the outcome. If more than one concept fits, you say so. Each point uses PEEL. |
+| Approaching (B- to B+) | A concept is named and defined, but the link to the harm in your case is implied rather than explained, or the explanation describes the outcome instead of the process. |
+| Not meeting (C+ and below) | No concept from the course is named, or the concept does not match what happened in the case. |
+
+#### 5. Should they change it? Section 8 (10%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus who gains and who loses from each argument, using your section 5 stakeholders, as described in [Going further](#going-further-in-part-c). |
+| Meets (A-, A) | One argument for changing the system and one against, each based on a real trade-off. Each point uses PEEL. |
+| Approaching (B- to B+) | Both arguments are there, but at least one is an easy target rather than a real trade-off. |
+| Not meeting (C+ and below) | One of the two arguments is missing. |
+
+#### 6. The video (15%)
+
+| Band | What your work shows |
+| :-- | :-- |
+| Exceeds (A+) | Everything in Meets, plus every speaker connecting their part to another speaker's part at least once, as described in [Going further](#going-further-in-part-c). |
+| Meets (A-, A) | Every group member speaks, for up to 2 minutes each. The video covers sections 6, 7 and 8, and explains your reasoning in your own words rather than reading the report aloud, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). Each point uses PEEL. |
+| Approaching (B- to B+) | All three sections are covered, but a member does not speak, the video runs more than 30 seconds over its time limit, or two of the three sections are read from the report rather than explained. |
+| Not meeting (C+ and below) | One of sections 6, 7 or 8 is not covered, or all three are read aloud from the report. |
 
 ---
 
@@ -786,6 +952,8 @@ How it works:
 - You post in your own group's Ed Discussion channel
 - Every member posts their own. One person cannot post on behalf of the group
 - The time on your Ed post is the time we use to decide whether it is late
+- Each stand-up is marked complete (it answers all three questions), partial (it is missing an
+  answer) or incomplete (it was not posted). Stand-ups 1 to 4 together are 5% of your Part C mark
 
 #### Stand-up schedule
 
@@ -844,11 +1012,12 @@ stand-up is more than 72 hours late, the penalty counts only the time after the 
 <details>
 <summary>How stand-up penalties work with peer evaluation: a worked example</summary>
 
-Your individual grade on Part C starts from your group's grade. It is multiplied by your peer
-evaluation multiplier, and then any stand-up penalties are subtracted. That is why two people in
-the same group can end up with different marks.
+Your individual grade on Part C starts from your Part C score: your group's report and video, your
+own stand-ups, and the retrospective. It is multiplied by your peer evaluation multiplier, and then
+any stand-up penalties are subtracted. That is why two people in the same group can end up with
+different marks.
 
-Suppose your group scores 85% on Part C, and your peer evaluation multiplier is 0.95.
+Suppose your Part C score is 85%, and your peer evaluation multiplier is 0.95.
 
 | Situation | Calculation | Your mark |
 | :-------- | :---------- | :-------: |
@@ -872,7 +1041,8 @@ questions:
 - What did not work?
 - What will you change next time?
 
-Completing it is part of your project grade. It doesn't need to be long, and it isn't a performance
+It is 5% of your Part C mark: complete if it answers all three questions, partial if it is missing
+an answer, and incomplete if it is not submitted. It does not need to be long, and it is not a performance
 review of anybody. It's the conversation that stops Project 2 repeating Project 1's mistakes.
 
 The Project 1 retrospective is due at the same time as iPeer 1. There's guidance on running one on
@@ -888,8 +1058,9 @@ and a worked example are on the [Project](project.md#retrospectives) page.
 > [!WARNING]
 > Peer evaluation is what makes your individual grade differ from your teammates' grades.
 >
-> It runs for Part 1C and Part 2C, the heaviest part of each project. Your teammates' ratings of
-> your contribution become a multiplier, which is applied to your group's grade for that part.
+> Your teammates rate your contribution to Parts B and C. Their ratings become a multiplier, which
+> is applied to your whole Part C mark, the heaviest part of each project. Parts A and B are not
+> multiplied.
 >
 > The full mechanics, criteria and formula are on the
 > [Project Peer Evaluation](project-peer-evaluation.md) page. Read it before iPeer 1, due
@@ -900,9 +1071,9 @@ In short:
 - It runs in iPeer
 - You evaluate each of your teammates, and each of them evaluates you
 - Each evaluation is out of 30. Your multiplier is your average received score divided by 30
-- Your individual mark is your group mark multiplied by your multiplier
+- Your individual Part C mark is your Part C score multiplied by your multiplier
 
-So a group grade of 90% with a multiplier of 0.875 gives you 78.75%, on work the whole group
+So a Part C score of 90% with a multiplier of 0.875 gives you 78.75%, on work the whole group
 submitted together.
 
 <details>
@@ -980,20 +1151,74 @@ dev-repo draft's notes, which say "check before this goes to students":
 
 ## How this is graded
 
-> [!NOTE]
-> The [Part A rubric](#part-a-rubric) is posted. The rubric for Parts B and C is still being
-> finalized and will be released in the coming weeks.
->
-> It will describe what successful work looks like for each part. Every criterion will match
-> something this page has already asked for, so nothing new gets added to the requirements above.
->
-> The process for disclosing AI use will be published at the same time.
+Part A has its own [rubric](#part-a-rubric), marked complete, partial or incomplete. Parts B and C
+are marked with the [Part B rubric](#part-b-rubric) and the [Part C rubric](#part-c-rubric). Every
+criterion in them matches something this page asks for. The only additions are the optional
+Going further items, which are listed in [Part B](#going-further-in-part-b) and
+[Part C](#going-further-in-part-c).
 
-What's already decided:
+### The four bands <!-- {docsify-ignore} -->
+
+Each criterion in Parts B and C gets one of four bands. The band sets the range your mark for that
+criterion falls in.
+
+| Band | What it means | UBC letter grades | Mark |
+| :-- | :-- | :-- | :--: |
+| Exceeds expectations | Everything in Meets, plus every Going further item for that criterion | A+ | 90 to 100 |
+| Meets expectations | Everything the instructions ask for, done well | A-, A | 80 to 89 |
+| Approaching expectations | The work is mostly there, but something important is thin, unclear or missing | B-, B, B+ | 68 to 79 |
+| Not meeting expectations | Important parts are missing, or there is not yet enough evidence of the work | C+ and below | 0 to 67 |
+
+A criterion with nothing submitted for it gets 0.
+
+Three things to know:
+
+- Meets is a strong result. Doing everything this page asks for, and doing it well, earns an A- or
+  an A on that criterion.
+- Exceeds is optional, and it is defined in advance. Going further work only counts on top of
+  Meets: it does not make up for something the instructions require.
+- Your TA picks the band first, then your mark within it. Small mistakes move your mark down inside
+  the band, and your feedback names what they were.
+
+The Part B dataset criterion is the one exception. It keeps the rubric it was marked with at the
+October 1 sign-off.
+
+### Making an argument with PEEL <!-- {docsify-ignore} -->
+
+PEEL is a way to build each point of an argument so that a reader can check it. You use it in the
+Part B closer look, and in Part C sections 6, 7 and 8 and the video.
+
+| Step | What it does |
+| :-- | :-- |
+| Point | Say the claim you are making, in one sentence |
+| Evidence | Give the specific fact that supports it: a result from your table, or a fact from your case |
+| Explain | Say how that evidence supports your point |
+| Link | Connect the point back to your question: your recommendation, your category, or your mechanism |
+
+Here is one point from a Part B closer look, written with PEEL:
+
+> Point: Tool X struggles with lightly edited photos.
+>
+> Evidence: It labelled both of our edited camera photos, rows 5 and 9 in our results table, as
+> AI-generated, at 92% and 88%.
+>
+> Explain: Tool X says it looks for unusually smooth textures, and colour correction smooths
+> textures.
+>
+> Link: So a family member who edits their photos before posting them could be wrongly flagged,
+> which is part of why we do not recommend it.
+
+A point without evidence is an opinion. A point with evidence but no explanation leaves the reader
+to guess why the evidence matters. The Link is what turns separate points into one argument.
+
+### What is already decided <!-- {docsify-ignore} -->
 
 - Part A is graded individually and is not affected by peer evaluation
 - Parts B and C receive a group grade
-- Peer evaluation applies to Part C. See [Working as a group](#working-as-a-group)
+- Part C is 90% report and video, 5% your stand-ups and 5% the retrospective. See the
+  [grade breakdown](project.md#grade-breakdown)
+- Peer evaluation rates your contribution to Parts B and C, and its multiplier applies to your
+  whole Part C mark. See [Working as a group](#working-as-a-group)
 - Group contract penalties come off the Part B group grade. See
   [Group contract](project.md#group-contract)
 
