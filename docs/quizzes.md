@@ -7,6 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 11 | Corrected when booking opens. Quiz booking opens on a Tuesday, about two weeks before the quiz window, and viewing booking opens on the Sunday before the viewing window. No dates changed. |
 | Oct 6 | Added the Quiz 4 and Quiz 5 viewing windows. Quiz 5 booking now opens Tue Nov 3. The all-quiz viewing now runs Thu Nov 19 to Mon Dec 7, with booking from Sun Nov 15. |
 | Oct 5 | Added where to find your quiz grade: in PrairieLearn after you finish, not in PrairieTest. |
 | Oct 5 | Added the tentative new material for Quizzes 4 and 5. |
@@ -59,7 +60,7 @@ Quiz 0 was a practice run of the whole ORCA process. It covered the [syllabus](s
 
 You book your own seat at [us.prairietest.com](https://us.prairietest.com), the PrairieTest booking site. Nobody assigns you one, and a quiz you never booked scores 0.
 
-Booking opens at 10am on the date in the [schedule](#schedule), first come, first served. Seats are shared with other courses and they do run out, especially around midday, so book early. Sessions usually run from about 11am to 6pm, seven days a week, with fewer on weekends. ORCA sets these hours and can change them, so the sessions PrairieTest offers you are the real answer.
+Booking opens at 10am on the date in the [schedule](#schedule). For the remaining quizzes, that is a Tuesday about two weeks before the quiz window opens. It is first come, first served. Seats are shared with other courses and they do run out, especially around midday, so book early. Sessions usually run from about 11am to 6pm, seven days a week, with fewer on weekends. ORCA sets these hours and can change them, so the sessions PrairieTest offers you are the real answer.
 
 > [!ATTENTION]
 > If there is nothing available anywhere in a quiz's window, email ORCA at [orca.support@ubc.ca](mailto:orca.support@ubc.ca) and copy us in at [cpsc100-team@cs.ubc.ca](mailto:cpsc100-team@cs.ubc.ca). Do it as soon as you see the problem, not on the last day of the window. ORCA can open more capacity, and copying us means we know a seat was not available to you.
@@ -86,7 +87,7 @@ In this course, quizzes and the final exam will be held in UBC's ORCA (Open Reso
 
 Your assessments in this course will be self-scheduled in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available from around 11 AM until roughly 6 PM, Monday to Sunday, with reduced availability on Saturdays and Sundays. These hours are set by ORCA according to its operational needs and may change without notice, so check what is actually on offer when you book.
 
-Reservations for assessments open on the Tuesday of the week before your assessment, at 10 AM. Reservations for exam viewings (sessions where you view your results) open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
+Reservations for quizzes open at 10 AM on a Tuesday, about two weeks before the quiz window opens. Reservations for exam viewings (sessions where you view your results) open at 10 AM on the Sunday before the viewing window. The exact date for every quiz and viewing is in the [schedule](#schedule) on this page. If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
 
 </details>
 
@@ -105,7 +106,7 @@ Quizzes are open book, but only in one direction. Inside ORCA, the course slides
 
 Quizzes run on PrairieLearn, an online assessment system, and they are marked by the computer. Your grade does not appear in PrairieTest when you finish a quiz. It is available in PrairieLearn after you finish.
 
-To see the questions and your answers, book a 20-minute viewing session in ORCA, the same way you book a quiz.
+To see the questions and your answers, book a 20-minute viewing session in ORCA, the same way you book a quiz. For the remaining viewings, booking opens at 10am on the Sunday before the viewing window.
 
 | Viewing | Booking opens | Viewing window |
 | :------ | :------------ | :------------- |

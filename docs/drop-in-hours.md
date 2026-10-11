@@ -28,7 +28,7 @@ Drop-in hours are extra time with the teaching team outside of lecture and lab. 
 | Wed | 5:00-6:00pm | [ICICS X241](#icics-x241-and-x341) | Kate |
 | Thu | 1:00-2:00pm | [ICICS X241](#icics-x241-and-x341) | Tarvin |
 | Fri | 10:30-11:00am | [ICICS X341](#icics-x241-and-x341) | Sally |
-| Fri| 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> 
+| Fri| 3:00-4:00pm | [SWING 110](#swing-110) | Tarvin, <span class="who">Parsa R. <span class="role role-instructor">Instructor</span></span> until 3:20pm |
 
 > [!NOTE]
 > Two people in this course are called Parsa, so those two names are flagged above. Parsa R. <span class="role role-instructor">Instructor</span> is Parsa Rajabi, your instructor. Parsa S. <span class="role role-ta">TA</span> is Parsa Seyfourian, one of your five TAs. Everyone else listed is a TA. Full names and who leads which lab are on the [Teaching Team](teaching-team.md) page.

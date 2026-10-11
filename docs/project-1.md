@@ -89,8 +89,8 @@ Along the way you will also submit:
 ## The flow
 
 > [!NOTE]
-> This schedule is tentative and may still change, though most of it will be settled by
-> Wednesday, September 23. Lab dates, rooms and section times are on the [Labs](labs.md) page.
+> This schedule may still change. Lab dates, rooms and section times are on the
+> [Labs](labs.md) page.
 
 | Week | Lab | What happens | Due that week |
 | :--: | :-: | :----------- | :------------ |
@@ -136,6 +136,9 @@ Part A is individual work, worth 1%, and it runs in [Lab 3](labs.md) on October 
 annotate the script during the lab, and you hand in everything on Canvas by the day after your
 lab.
 
+<details>
+<summary>Part A instructions, AI use line and rubric, from Week 5</summary>
+
 Most of your digital life is invisible to you. It built up across different platforms over years,
 and there's nowhere you can go to see the shape of it all at once.
 
@@ -157,7 +160,7 @@ changed in that half hour, but your score probably has. Part A asks you to expla
 >
 > Nobody collects your answer sheet, so your answers stay on your own screen.
 
-### What you will do
+### What you will do <!-- {docsify-ignore} -->
 
 - Fill in your Pre-lab 3 answer sheet beforehand, so that round 2 uses the same answers as
   round 1 rather than a second guess
@@ -203,7 +206,7 @@ Annotate these three parts:
 
 </details>
 
-### What you need to hand in
+### What you need to hand in <!-- {docsify-ignore} -->
 
 You hand in two files on Canvas, together in one submission to Project 1A.
 
@@ -234,7 +237,7 @@ Question 4 counts for the most, because it asks you to think past the tool itsel
 
 </details>
 
-### Using AI in Part A
+### Using AI in Part A <!-- {docsify-ignore} -->
 
 We strongly encourage you to write your annotations and your reflection without AI. Part A is
 practice at reading code and explaining it in your own words, and that practice only works if the
@@ -256,7 +259,7 @@ If you do use AI, do not give it your answers to the calculator questions. The A
 to [use fictional examples](ai-policy.md#protect-privacy-and-course-material) for your digital
 footprint.
 
-### Where you have a choice
+### Where you have a choice <!-- {docsify-ignore} -->
 
 - Which counting factor you annotate
 - How you organise the reflection
@@ -278,7 +281,7 @@ change: hand in both files on Canvas by 11:59pm the day after your scheduled lab
 
 </details>
 
-### Part A rubric
+### Part A rubric <!-- {docsify-ignore} -->
 
 Part A is graded as one criterion, using all three deliverables together. Your TA reads your
 annotations in your Snap! project and everything else in your PDF.
@@ -296,6 +299,8 @@ Factor count verified against CPSC-100-dev/labs/assets/lab3.xml: six weighted fa
 reached through nine prompts of which seven or eight fire per student. Note that factorTier
 defines a "childhood" tier that no prompt appears to reach, which may be a dead branch worth
 checking before Lab 3 runs. -->
+
+</details>
 
 ---
 
@@ -318,7 +323,7 @@ This isn't a made-up exercise, since how well these tools perform is still an op
 question. For an example, see
 [this 2026 review of detection tool performance](https://pmc.ncbi.nlm.nih.gov/articles/PMC12752165/).
 
-### What you will do
+### What you will do <!-- {docsify-ignore} -->
 
 - Build an image dataset of real and AI-generated images, and record where each one came from.
   Due Thursday October 1 for TA sign-off
@@ -460,7 +465,7 @@ For each tool, answer three questions:
 
 </details>
 
-### What you need to hand in
+### What you need to hand in <!-- {docsify-ignore} -->
 
 Part B is two documents.
 
@@ -489,7 +494,7 @@ The second is your evaluation, covering this for each tool you tested:
 > confidence score and what the image actually was is enough. If a tool says something surprising
 > about why it decided as it did, put that in your closer look instead.
 
-### Where you have a choice
+### Where you have a choice <!-- {docsify-ignore} -->
 
 - Which tools you test, beyond the minimum number
 - Which tool you look at more closely. Choose the one that behaved most unusually, rather than
@@ -581,7 +586,7 @@ It's the largest piece of Project 1, and it has two deliverables:
 The split is deliberate: the report sets out the facts of the case, while the video is where you
 explain your reasoning out loud, in your own words. That's a harder skill than writing it down.
 
-### What you will do
+### What you will do <!-- {docsify-ignore} -->
 
 - Choose a real, documented case where an algorithmic system caused harm
 - Fill in the 9-section report template
@@ -738,14 +743,14 @@ answer about any part of it, not only their own section.
      defeat a recording of this length, so this needs a stated route and a fallback.
   5. Captions: not currently required. Consider requiring automatic captions at minimum. -->
 
-### What you need to hand in
+### What you need to hand in <!-- {docsify-ignore} -->
 
 - The written report, all nine sections. A maximum page count will be announced later
 - At least three sources, of which at least two are primary, and all of them checked
 - A recorded video with every member speaking, up to 2 minutes each, covering sections 6, 7 and 8
 - A case connected to Canada or a country in Asia, claimed on Ed Discussion
 
-### Where you have a choice
+### Where you have a choice <!-- {docsify-ignore} -->
 
 - Your case, within the limits above
 - Which of Benjamin's categories you argue for, and which you argue against
@@ -797,13 +802,17 @@ How it works:
 | 8 | Fri Nov 27 | Project 2, Part C |
 | 9 | Fri Dec 4  | Project 2, Part C |
 
-> [!NOTE]
-> Stand-up 0, on Friday October 2, is a practice round, but you still have to post it. Use it to
-> check that your group's channel works, see what a stand-up looks like, and ask us about anything
-> that is unclear. Its late penalty is smaller than the others, because it is practice.
->
-> The peer evaluation practice round runs the day before, on Thursday October 1, for the same
-> reason.
+<details>
+<summary>Stand-up 0, the practice round from October 2</summary>
+
+Stand-up 0, on Friday October 2, is a practice round, but you still have to post it. Use it to
+check that your group's channel works, see what a stand-up looks like, and ask us about anything
+that is unclear. Its late penalty is smaller than the others, because it is practice.
+
+The peer evaluation practice round runs the day before, on Thursday October 1, for the same
+reason.
+
+</details>
 
 > [!NOTE]
 > Posting publicly rather than emailing us means your group and your TA can both see it. Raising a
@@ -883,7 +892,8 @@ and a worked example are on the [Project](project.md#retrospectives) page.
 > your contribution become a multiplier, which is applied to your group's grade for that part.
 >
 > The full mechanics, criteria and formula are on the
-> [Project Peer Evaluation](project-peer-evaluation.md) page. Read it before October 1.
+> [Project Peer Evaluation](project-peer-evaluation.md) page. Read it before iPeer 1, due
+> Thursday October 29.
 
 In short:
 
@@ -895,9 +905,14 @@ In short:
 So a group grade of 90% with a multiplier of 0.875 gives you 78.75%, on work the whole group
 submitted together.
 
+<details>
+<summary>iPeer 0, the practice round from October 1</summary>
+
 There is a practice round first, iPeer 0, due Thursday October 1. It is required but not graded,
 and it is there so everyone understands the process before it starts counting. A late iPeer 0
 costs 0.25% of your individual Part C mark for every 12 hours late, or part of 12 hours.
+
+</details>
 
 > [!NOTE]
 > Write your evaluations carefully. Vague comments like "good job" or "did not help" can cost you

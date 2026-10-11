@@ -432,15 +432,44 @@
         },
         // Docsify does not scroll to a ?id= anchor when a page is first opened from outside the
         // site (a link in Canvas or Ed, or the Canvas iframe), so scroll once that page renders.
+        // A target inside a closed <details> has nowhere to scroll to, so open it first. That is
+        // what keeps links into collapsed sections, such as Part A on Project 1, working.
         function (hook, vm) {
           var firstLoad = true;
+
+          // Open every closed <details> around the target, and say whether any was opened.
+          function reveal(target) {
+            var opened = false;
+            for (var el = target.parentElement; el; el = el.parentElement) {
+              if (el.tagName === 'DETAILS' && !el.open) {
+                el.open = true;
+                opened = true;
+              }
+            }
+            return opened;
+          }
+
+          function scrollToTarget(target) {
+            // window.scrollTo, not scrollIntoView, so the Canvas page around an iframe stays put.
+            setTimeout(function () { window.scrollTo(0, target.getBoundingClientRect().top + window.scrollY); }, 0);
+          }
+
           hook.doneEach(function () {
-            var id = firstLoad && vm.route.query.id;
-            firstLoad = false;
+            var id = vm.route.query.id;
             var target = id && document.getElementById(id);
-            if (target) {
-              // window.scrollTo, not scrollIntoView, so the Canvas page around an iframe stays put.
-              setTimeout(function () { window.scrollTo(0, target.getBoundingClientRect().top + window.scrollY); }, 0);
+            if (target && (reveal(target) || firstLoad)) {
+              scrollToTarget(target);
+            }
+            firstLoad = false;
+          });
+
+          // A link to another part of the same page only changes ?id=, so Docsify scrolls without
+          // re-rendering and doneEach does not run.
+          window.addEventListener('hashchange', function () {
+            var match = location.hash.match(/[?&]id=([^&]*)/);
+            var target = match && document.getElementById(decodeURIComponent(match[1]));
+            if (target && reveal(target)) {
+              scrollToTarget(target);
             }
           });
         }

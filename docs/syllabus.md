@@ -93,13 +93,13 @@ Each component has its own page with the full details. Click through for format,
 
 Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.
 
-### Labs
+### Labs <!-- {docsify-ignore} -->
 
 Labs are hands-on and interactive, and built to support your project work. They are not standalone worksheets: what you practice in lab feeds directly into your project milestones. Labs are in-person only.
 
 Section times, room, and which TA leads each section are on the [Labs](labs.md) page.
 
-### Exams
+### Exams <!-- {docsify-ignore} -->
 
 There is no midterm this term. Refer to [Final Exam](final.md) and [Quizzes](quizzes.md) page for more details.
 
@@ -109,25 +109,11 @@ In this course, quizzes and the final exam will be held in UBC's ORCA (Open Reso
 
 Your assessments in this course will be self-scheduled in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available from around 11 AM until roughly 6 PM, Monday to Sunday, with reduced availability on Saturdays and Sundays. These hours are set by ORCA according to its operational needs and may change without notice, so check what is actually on offer when you book.
 
-Reservations for assessments open on the Tuesday of the week before your assessment, at 10 AM. Reservations for exam viewings open 3 to 4 days before the viewing window. You can find the scheduled assessment dates and times in the [course schedule](schedule.md). If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
+Reservations for quizzes open at 10 AM on a Tuesday, about two weeks before the quiz window opens. Reservations for exam viewings open at 10 AM on the Sunday before the viewing window. The exact date for every quiz and viewing is on the [Quizzes](quizzes.md#schedule) page. If you miss your reservation, see [this section of the ORCA website](https://orca.ubc.ca/students/policies/#missed-reservations) for next steps.
 
-#### Enrolling in PrairieTest
+How to enrol in PrairieTest and book a quiz, step by step, is on the [Quizzes](quizzes.md#booking-your-seat) page.
 
-To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started page for students](https://orca.ubc.ca/students/getting-started/), which includes a video walking you through the setup process.
-
-#### Booking your first assessment
-
-1. Go to our course in Canvas and, on the left sidebar, click ORCA Reservations.
-2. Open the link in a new tab.
-3. Click Enrol to join the PrairieTest course.
-4. Click Home. Your course now shows up on the PrairieTest home page.
-5. At the moment, you will likely see the message: "You don't currently have any exams available for reservations".
-6. Once we make your first quiz visible for reservations, you will be able to book a session for the assessment.
-7. You are able to cancel or change your reservation at any time, up to 30 minutes before your reservation, during the assessment window.
-
-The exact reservation opening date for every quiz is on the [Quizzes](quizzes.md#schedule) page.
-
-### Project
+### Project <!-- {docsify-ignore} -->
 
 The project is a semester-long group assignment. Full details are on the [Project](project.md) page, and the peer evaluation mechanism is on the [Project Peer Evaluation](project-peer-evaluation.md) page.
 
@@ -148,7 +134,7 @@ Students who fail to meet these requirements will have a final grade of 45% or l
 
 Refer to the [remarking policy](#remarking-policy) for more details on how to request a re-grade if you believe there has been an error in the grading of your work.
 
-### Grade Solicitation Policy
+### Grade Solicitation Policy <!-- {docsify-ignore} -->
 
 Requests for grade adjustments (especially final course grade) based on non-academic reasons are not appropriate and are considered unprofessional. Examples include, but are not limited to, statements such as "I need this grade," "I deserve a higher grade" or any similar personal circumstances.
 
@@ -156,7 +142,7 @@ Students are expected to meet the academic requirements of the course as outline
 
 If you have concerns about your performance, seek feedback early. Use the resources available, such as drop-in hours and course support services, to deal with problems before they grow.
 
-### Review of Assigned Standing (RAS)
+### Review of Assigned Standing (RAS) <!-- {docsify-ignore} -->
 
 If you are not satisfied with your assigned standing, you are encouraged to first discuss your standing with your course instructor, when possible.
 
@@ -183,7 +169,7 @@ A week-by-week view of lecture topics, labs, and deliverables is on the [Schedul
 
 Students in CPSC 100 have diverse backgrounds and learning needs. Various resources are available to help you explore topics of interest in depth. Many students find that attending lectures and labs alone is not enough. You are strongly advised to use the available resources. Needing extra practice is not a sign that you're "not good at" the material. It means you need more practice, which is a different thing. The people who seem to be having no trouble have almost certainly had more practice than you. Or they're having trouble and not showing it, or both! Don't freak out. Ask questions and use the help resources: that's what they're for.
 
-TAs and your instructor hold drop-in hours. No appointment is needed and you do not need to arrive with a question. See [what drop-in hours are for](communication.md#drop-in-hours). If you need a longer or private meeting instead, email to arrange one with a few days notice. TAs are also available during scheduled lab times, though during lab they prioritize helping students with that week's lab work.
+TAs and your instructor hold drop-in hours. No appointment is needed and you do not need to arrive with a question. See [what drop-in hours are for](communication.md#drop-in-hours). If you need a longer or private meeting instead, arrange one with a few days notice using a private post on [Ed Discussion](communication.md). Please do not email to arrange it. TAs are also available during scheduled lab times, though during lab they prioritize helping students with that week's lab work.
 
 Your classmates are an excellent resource for discussion and peer support. In addition to opportunities to chat before and after class, the discussion board is also available.
 
@@ -229,7 +215,7 @@ We will read articles, watch videos, and explore other resources as a class. The
 
 All of it lives on one page: [Course Communication](communication.md). That page has the Ed Discussion sign-up link, a flowchart showing where each kind of question belongs, every teaching team email address, and what to include in an email.
 
-### Professionalism
+### Professionalism <!-- {docsify-ignore} -->
 
 Students are expected to maintain a high level of professionalism in all course activities and communication with the instructor and peers. This includes proper email etiquette, respectful communication in class, and adherence to deadlines. See [Course Communication](communication.md) for what to include in an email.
 
@@ -238,7 +224,7 @@ Students are expected to maintain a high level of professionalism in all course 
 
 > Repeated unprofessional behavior will result in grade deduction from your final grade, with each violation resulting in a 1% deduction from your final grade. Students will be notified of possible deductions after the first official warning.
 
-### Code of Conduct
+### Code of Conduct <!-- {docsify-ignore} -->
 
 CPSC 100 has a [Code of Conduct](code-of-conduct.md) covering respectful conduct, teamwork and accountability, and academic integrity. By remaining enrolled in this course, you agree to uphold it. Please read it in full.
 
@@ -260,7 +246,7 @@ A more detailed description of academic integrity, including the University's po
 
 See the [Artificial Intelligence Use Policy](ai-policy.md) page for details on how AI tools may be used in this course.
 
-### Course Waitlist
+### Course Waitlist <!-- {docsify-ignore} -->
 
 - Course waitlists are being handled centrally by the Computer Science department. Go [here](https://www.cs.ubc.ca/students/undergrad/courses/waitlists) for more information. Students who attend labs will be given waitlist priority.
 - If you do not plan to take the course, please remove yourself from the lecture or waitlist, so others may get in.
@@ -374,7 +360,7 @@ Course grades are considered final on a rolling basis (e.g. as we progress throu
 
 The re-marking request will be reviewed by the teaching team and if accepted, the item will be re-marked in its entirety by both the course instructor and the marking TA. This may result in a higher, unchanged, or lower mark overall which will be final. 
 
-### Exam Viewing
+### Exam Viewing <!-- {docsify-ignore} -->
 
 In order to protect the integrity of exam questions, exams will not be returned to students. 
 
@@ -406,7 +392,7 @@ For immediate mental health support (evenings AND weekends):
   - Call or visit VGH Access and Assessment Centre: 604-675-3700 (7:30am to 11:00pm)
   - Visit your nearest emergency room
 
-### Privacy
+### Privacy <!-- {docsify-ignore} -->
 
 CPSC 100 utilizes Ed Discussion to enhance class discussions and communication. Your personal information is collected and disclosed to Ed Discussion under the authority of section 26(c) of the Freedom of Information and Protection of Privacy Act (FIPPA).
 
@@ -416,7 +402,7 @@ For more information on how Ed Discussion handles your data, please refer to the
 
 For questions or concerns about how this information is collected, used, or stored, please contact the instructor.
 
-### Extreme Weather - Course Policy
+### Extreme Weather - Course Policy <!-- {docsify-ignore} -->
 
 UBC's Vancouver campus experiences a unique micro-climate that can differ significantly from surrounding areas. Weather conditions can change quickly, and it's important to be prepared for all types of extreme weather. 
 
