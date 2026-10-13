@@ -903,8 +903,9 @@ these:
 >
 > If the link does not work when your TA opens it, 5 points come off your report and video score,
 > and your TA emails every member of your group. Reply to that email with a working link. Another 5
-> points come off for every 12 hours, or part of 12 hours, until your reply arrives, up to 35 points
-> in total. Check your UBC email after you submit.
+> points come off for every 12 hours, or part of 12 hours, until your reply arrives. The most a
+> broken link can cost is 35 points: if you never send a working link, your video cannot be marked,
+> and you lose its 35 points instead. Check your UBC email after you submit.
 >
 > Keep the video and its link available until your Part C grade is returned.
 
