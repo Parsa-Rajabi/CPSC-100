@@ -547,10 +547,10 @@ Meets Expectations, plus every item listed for it below.
 
 | Criterion | To reach Exceeds Expectations, also do this |
 | :-- | :-- |
-| Tools and terms of service | Test 6 tools if your group has 4 members, or 8 tools if it has 5, and record everything Meets Expectations asks for on every one of them. For every answer to the three terms of service questions, quote the wording from the policy, name the section or heading it comes from, and add a screenshot of that part of the policy to your appendix with the wording highlighted. |
-| Results | For every tool that gives a percentage, count how many of its verdicts would change if your cut-off moved up or down by 10 percentage points, and give those counts under your results table. |
-| Closer look | Refer to every failure you discuss by its row in your results table. For each one, say how the other tools in your table did on the same image, and use that to explain whether the mistake comes from this tool or from something about the image. |
-| Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers. In your reflection, tie each cost to at least one specific error from your own results. |
+| Tools and terms of service | Test 6 tools if your group has 4 members, or 8 tools if it has 5, and record everything Meets Expectations asks for on every one of them. For every answer to the three terms of service questions, quote the wording from the policy, name the section or heading it comes from, and add a screenshot of that part of the policy to your appendix with the wording highlighted. If the policy does not answer a question, say so, and add a screenshot of the section where you looked. |
+| Results | Pick one tool that gives a percentage. Using the scores in your table, count how many of its verdicts would change if your cut-off moved 10 percentage points higher, and how many if it moved 10 lower. Then use your image labels to say whether those changes would fix mistakes or create new ones. If none of your tools gives a percentage, compare two tools instead: count the images they disagree on, and use your labels to say which tool was right each time. |
+| Closer look | Refer to every failure you discuss by its row in your results table. For each one, say how the other tools in your table did on the same image, and explain whether the mistake is shared by other tools or only this tool's, and what that suggests. If the tool made no mistakes, pick one image from your table, compare how the other tools did on it, and explain why your results do not prove the tool is reliable on other images. |
+| Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers, and say how each one supports your choice. In your reflection, tie each cost to at least one specific error from your own results. If your results have no error of one kind, say so, and use an image from your table to explain what that error would have cost. |
 
 ### Part B rubric <!-- {docsify-ignore} -->
 
@@ -618,7 +618,7 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations for 6 tools (a group of 4) or 8 tools (a group of 5), plus a quote, its section and a highlighted screenshot for every terms of service answer. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations for 6 tools (a group of 4) or 8 tools (a group of 5), plus a quote, its section and a highlighted screenshot for every terms of service answer, or a screenshot of where you looked when the policy does not answer. |
 | Meets Expectations (A-, A) | 17.5 | One tool per group member. For every tool: its cost, availability, claims, reputation and your reason for use, a link to the terms of service you read, and an answer to each of the three questions. |
 | Approaches Expectations (B- to B+) | 15.5 | The same gap appears for two or more tools. For example, one of the five things, the terms of service link, or an answer that addresses its question is missing for two or more tools. Also Approaches Expectations: fewer tools than group members, as long as there are at least three. |
 | Not Within Expectations (C+ and below) | 13 | There are fewer than three tools, or the five things or the three questions are missing for most tools. |
@@ -627,26 +627,26 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus, for every tool that gives a percentage, how many verdicts would change if your cut-off moved up or down by 10 percentage points. |
-| Meets Expectations (A-, A) | 17.5 | One results table covering every image and every tool. Each cell records the verdict, the confidence score if the tool gives one, and what the image actually was. For tools that give a percentage, your cut-off is written down and used the same way throughout. The appendix has screenshots of your results, each showing your computer clock. |
-| Approaches Expectations (B- to B+) | 15.5 | The table or the appendix has gaps. For example, more than one result in ten is missing, the table records only "correct" or "incorrect" instead of the verdicts, or none of the screenshots show the clock. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus, for one tool that gives a percentage, how many verdicts would change if the cut-off moved 10 percentage points higher or lower, and whether those changes fix or create mistakes. |
+| Meets Expectations (A-, A) | 17.5 | One results table covering every image and every tool. Each image has its real or AI-generated label recorded once, and each result records the verdict and the confidence score if the tool gives one. If a tool refuses an image, recording the refusal counts as a result. For tools that give a percentage rather than a verdict, your cut-off is written down and used the same way throughout. The appendix has screenshots of your results, each showing your computer clock. |
+| Approaches Expectations (B- to B+) | 15.5 | More than one result in ten is missing, the table records only "correct" or "incorrect" instead of the verdicts, or none of the screenshots show the clock. |
 | Not Within Expectations (C+ and below) | 13 | Results are missing for at least one tool or for most images, or there are no screenshots. |
 
 #### 4. Closer look at one tool (25 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus every failure referred to by its row in your results table, with how the other tools did on the same image and what that says about the cause. |
+| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus every failure referred to by its row in your results table, with how the other tools did on the same image and whether the mistake was shared. If the tool made no mistakes, one image compared across tools instead. |
 | Meets Expectations (A-, A) | 22 | Covers how the tool says it works, how it performed on your dataset, where it failed, and whether there was a pattern to its mistakes. Each point is made using [PEEL](#making-an-argument-with-peel), and the evidence comes from your own results. If the tool made no mistakes, you say so and explain what you would need to test to find one. |
-| Approaches Expectations (B- to B+) | 19.5 | All four parts are there, but at least one is thin. For example, failures are listed but not explained, a pattern is claimed without results to back it up, or how the tool works is described without connecting it to your results. |
+| Approaches Expectations (B- to B+) | 19.5 | All four parts are there, but at least one is missing its explanation or evidence. For example, failures are listed but not explained, a pattern is claimed without results to back it up, how the tool works is described without connecting it to your results, or the tool made no mistakes and you do not explain what you would need to test to find one. |
 | Not Within Expectations (C+ and below) | 16.5 | One or more of the four parts is missing, or the section describes the tool without using your results. |
 
 #### 5. Recommendation and reflection (20 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a recommendation backed by a number from your results and a terms of service answer, and a reflection that ties each cost to a specific error from your results. |
-| Meets Expectations (A-, A) | 17.5 | You recommend one of the tools you tested to your family and say why. Your reflection says what it costs when a tool wrongly says an image is AI-generated, what it costs when it wrongly says an image is real, and who pays in each case. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a recommendation backed by a number from your results and a terms of service answer, each explained, and a reflection that ties each cost to a specific error from your results, or to an image from your table if that kind of error did not happen. |
+| Meets Expectations (A-, A) | 17.5 | You recommend one of the tools you tested to your family and say why. Your reflection says what it costs when a tool wrongly says an image is AI-generated, what it costs when it wrongly says an image is real, and who pays in each case. A cost can be money, time, trust or reputation. |
 | Approaches Expectations (B- to B+) | 15.5 | The recommendation gives no reason or is for a tool you did not test, or the reflection covers only one kind of error, or it does not say who pays. |
 | Not Within Expectations (C+ and below) | 13 | The recommendation or the reflection is missing, or the reflection only defines the two kinds of error. |
 
@@ -872,10 +872,10 @@ Meets Expectations, plus every item listed for it below.
 | :-- | :-- |
 | Case and sources | After every fact in sections 2 to 4, say which of your sources it comes from, for example "(Source 2)". |
 | The facts of the case | In section 2 or 3, state at least one thing about the system that is not public, and say where you looked for it. In section 5, include at least one stakeholder who neither runs the system nor has decisions made about them by it, such as a regulator, a bystander or the public. |
-| Benjamin's categories | Name at least one fact from sections 2 to 4 that fits your chosen category but not the alternative, or the other way round. Use it to explain why your reading wins, or why both readings hold. |
+| Benjamin's categories | Name at least one fact from sections 2 to 4 that gives stronger support to one reading than the other. Use it to explain why your reading wins, or why both readings hold. |
 | The mechanism | Add a counterfactual: if one specific part of the system were removed or changed, which part of the harm would not have happened, and why. |
 | Should they change it? | For each of your two arguments, name who gains and who loses, using stakeholders from your section 5 table. |
-| The video | Each speaker connects their part to another speaker's part at least once, so the video makes one argument rather than separate pieces. For example: "This is the feedback loop Sam described, and it is also why the alternative reading falls short." |
+| The video | Each speaker explains, at least once, how a specific point another speaker made supports, challenges or builds on their own. Handing over to the next speaker does not count. For example: "This is the feedback loop Sam described, and it is also why the alternative reading falls short." |
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
@@ -908,7 +908,7 @@ marked twice for the same point. The video criterion covers only the video's own
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus a source named after every fact in sections 2 to 4. |
 | Meets Expectations (A-, A) | 8.5 | The case is connected to Canada or a country in Asia, is claimed on Ed Discussion, and is documented by a regulator's report, a court filing or investigative journalism. Section 9 lists at least three sources, at least two of them primary, with news coverage of one event counted as one source. |
-| Approaches Expectations (B- to B+) | 7.5 | The case is in scope and claimed, but the sources fall short. For example, fewer than two are primary, or several of them repeat the same news coverage. |
+| Approaches Expectations (B- to B+) | 7.5 | The case is in scope and claimed, but the sources fall short once news coverage of one event is counted as one source. For example, there are only two sources, or fewer than two are primary. Extra coverage beyond the requirement does not lower the band. |
 | Not Within Expectations (C+ and below) | 6.5 | The case is outside the scope or is documented only by blog posts or a single news story, or there are fewer than two sources. |
 
 A source that does not exist, or that does not say what you claim, is not marked here. It is
@@ -920,23 +920,23 @@ handled under [Academic integrity](#academic-integrity).
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus at least one thing that is not public with where you looked for it, and a stakeholder who neither runs the system nor has decisions made about them by it. |
 | Meets Expectations (A-, A) | 17.5 | All five sections are filled in. Someone new to the case can follow section 1. Section 2 says what data went in, where it came from, and whether the people it described agreed. Section 3 explains what the system did with that data, at the level of the example in the template. Section 4 says what happened, to whom, and any response. Section 5 has at least three stakeholders, each with one positive and one negative effect. |
-| Approaches Expectations (B- to B+) | 15.5 | All five sections are there, but one is thin. For example, section 2 does not say where the data came from or whether people agreed, section 3 says only that the system used the data to decide, or two or more stakeholders are missing a positive or a negative effect. |
+| Approaches Expectations (B- to B+) | 15.5 | All five sections are there, but one is missing something it asks for. For example, section 2 does not say where the data came from or whether people agreed, section 3 says only that the system used the data to decide, or two or more stakeholders are missing a positive or a negative effect. |
 | Not Within Expectations (C+ and below) | 13 | A section is missing, or section 5 has fewer than three stakeholders. |
 
 #### 3. Benjamin's categories: section 6 (20 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a fact that separates the two readings, used to explain why your reading wins or why both hold. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a fact that supports one reading more strongly than the other, used to explain why your reading wins or why both hold. |
 | Meets Expectations (A-, A) | 17.5 | You name the category that fits best and support it with specific facts from sections 2 to 4. You give an alternative reading that someone could reasonably argue for, and say what it would be based on. Each point uses PEEL. |
-| Approaches Expectations (B- to B+) | 15.5 | The category is supported only in general terms, or the alternative reading is named but not explained. |
-| Not Within Expectations (C+ and below) | 13 | The category is stated without any facts behind it, or there is no alternative reading. |
+| Approaches Expectations (B- to B+) | 15.5 | At least one fact from the case supports the category, but the explanation of why it fits is incomplete, or the alternative reading is named without saying what it would be based on, or it is a reading nobody could reasonably argue. |
+| Not Within Expectations (C+ and below) | 13 | No fact from the case supports the category (for example, only its definition is given), or there is no alternative reading. |
 
 #### 4. The mechanism: section 7 (25 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus a counterfactual tied to a specific part of the system. |
+| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus a counterfactual: one specific change to the system, which part of the harm it would have prevented, and why. |
 | Meets Expectations (A-, A) | 22 | You name a concept from the course list under "What naming the mechanism means" and explain, in two or three sentences, how it produced the harm in your case: the process, not only the outcome. If more than one concept fits, you say so. Each point uses PEEL. |
 | Approaches Expectations (B- to B+) | 19.5 | A concept is named and defined, but the link to the harm in your case is implied rather than explained, or the explanation describes the outcome instead of the process. |
 | Not Within Expectations (C+ and below) | 16.5 | No concept from the course is named, or the concept does not match what happened in the case. |
@@ -946,17 +946,17 @@ handled under [Academic integrity](#academic-integrity).
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus who gains and who loses from each argument, using your section 5 stakeholders. |
-| Meets Expectations (A-, A) | 8.5 | One argument for changing the system and one against, each based on a real trade-off. Each point uses PEEL. |
-| Approaches Expectations (B- to B+) | 7.5 | Both arguments are there, but at least one is an easy target rather than a real trade-off. |
+| Meets Expectations (A-, A) | 8.5 | One argument for changing the system and one against. Each names a specific benefit or cost in your case and explains why it matters, rather than an easy target. Each point uses PEEL. |
+| Approaches Expectations (B- to B+) | 7.5 | Both arguments are there, but at least one does not name a specific benefit or cost in your case, or is an easy target. |
 | Not Within Expectations (C+ and below) | 6.5 | One of the two arguments is missing. |
 
 #### 6. The video (15 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus every speaker connecting their part to another speaker's part at least once. |
-| Meets Expectations (A-, A) | 13 | Every group member speaks, for up to 2 minutes each. The video covers sections 6, 7 and 8, and explains your reasoning in your own words rather than reading the report aloud, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). Each point uses PEEL. |
-| Approaches Expectations (B- to B+) | 11.5 | All three sections are covered, but a member does not speak, the video runs more than 30 seconds over its time limit, or two of the three sections are read from the report rather than explained. |
+| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus every speaker explaining how another speaker's point supports, challenges or builds on their own. |
+| Meets Expectations (A-, A) | 13 | Every group member speaks, for up to 2 minutes each. The video covers sections 6, 7 and 8, and explains your reasoning in your own words rather than reading the report aloud, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). |
+| Approaches Expectations (B- to B+) | 11.5 | All three sections are covered, but a member does not speak, the video or any one speaker runs more than 30 seconds over the time limit, or two of the three sections are read from the report rather than explained. |
 | Not Within Expectations (C+ and below) | 10 | One of sections 6, 7 or 8 is not covered, or all three are read aloud from the report. |
 
 ---
@@ -1201,11 +1201,12 @@ band sets the share of those points you can earn.
 | Band | What it means | UBC letter grades | Share of the criterion's points |
 | :-- | :-- | :-- | :--: |
 | Exceeds Expectations | Everything in Meets Expectations, plus every Going further item for that criterion | A+ | 90% to 100% |
-| Meets Expectations | Everything the instructions ask for, done well | A-, A | 80% to 89% |
-| Approaches Expectations | The work is mostly there, but something important is thin, unclear or missing | B-, B, B+ | 68% to 79% |
+| Meets Expectations | The required work is complete and matches the description. Small slips cost points within the band | A-, A | 80% to 89% |
+| Approaches Expectations | The work is mostly there, but something important is unclear, incomplete or missing | B-, B, B+ | 68% to 79% |
 | Not Within Expectations | Important parts are missing, or there is not yet enough evidence of the work | C+ and below | 0% to 67% |
 
-A criterion with nothing submitted for it gets 0.
+A criterion with nothing submitted for it gets 0. If your work matches the descriptions of more than
+one band, your TA uses the lowest one that applies.
 
 Three things to know:
 
@@ -1237,8 +1238,8 @@ Here is one point from a Part B closer look, written with PEEL:
 > Evidence: It labelled both of our edited camera photos, rows 5 and 9 in our results table, as
 > AI-generated, at 92% and 88%.
 >
-> Explain: Tool X says it looks for unusually smooth textures, and colour correction smooths
-> textures.
+> Explain: Tool X says it looks for unusually smooth textures, and colour correction can smooth
+> textures, which may be why both edited photos were flagged.
 >
 > Link: So a family member who edits their photos before posting them could be wrongly flagged,
 > which is part of why we do not recommend it.
@@ -1260,8 +1261,10 @@ to guess why the evidence matters. The Link is what turns separate points into o
 > [!ATTENTION]
 > Late work is not accepted on the project. Nothing submitted after a deadline is marked.
 >
-> The group contract is an exception. A late contract is still required, and it costs marks on
-> Part B. See [Group contract](project.md#group-contract).
+> Some submissions are exceptions: a late one is still required, and it costs marks instead. These
+> are the [group contract](project.md#group-contract), [stand-ups](#weekly-stand-ups),
+> [retrospectives](project.md#retrospectives) and
+> [peer evaluations](project-peer-evaluation.md#late-peer-evaluations).
 >
 > If you're running out of time, submit a partial document rather than nothing. An incomplete
 > submission earns some marks; a missing one earns none.
