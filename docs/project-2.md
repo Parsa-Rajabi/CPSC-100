@@ -460,54 +460,56 @@ Meets Expectations, plus every item listed for it below.
 
 ### Part B rubric <!-- {docsify-ignore} -->
 
-Use this rubric to check your work before you submit. Your TA marks Part B on four criteria, and
-each criterion gets one of the four bands described in [How this is graded](#how-this-is-graded).
-Your Part B grade is the weighted average of the four. Testing carries the most weight, so plan the
-most time for it. The Exceeds Expectations row of each table summarizes that criterion's
-[Going further](#going-further-in-part-b) items.
+Use this rubric to check your work before you submit. Part B is out of 100 points across four
+criteria. Your TA places each criterion in one of the four bands described in
+[How this is graded](#how-this-is-graded), starts at the top of that band, and takes points off for
+mistakes within it. Testing is worth the most points, so plan the most time for it. The Exceeds
+Expectations row of each table summarizes that criterion's [Going further](#going-further-in-part-b)
+items.
 
-| Criterion | Weight |
+| Criterion | Points |
 | :-- | :--: |
-| 1. Design requirements document | 20% |
-| 2. The app and its course concepts | 20% |
-| 3. Testing | 35% |
-| 4. Working with Copilot | 25% |
+| 1. Design requirements document | 20 |
+| 2. The app and its course concepts | 20 |
+| 3. Testing | 35 |
+| 4. Working with Copilot | 25 |
+| Total | 100 |
 
-#### 1. Design requirements document (20%)
+#### 1. Design requirements document (20 points)
 
-| Band | What your work shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus every risk tied to a numbered feature and the app's response, and every change log entry tied to a test or a Copilot conversation. |
-| Meets Expectations (A-, A) | One to two pages with all six sections, matching your final app. Your user and their problem are specific. Features are numbered, and each says what the app must do in a way that can be tested. Interactions cover every button and input. At least three course concepts, each linked to the features that use it. Risks are specific to your app. The design change log records each change and its reason, or says that nothing changed. |
-| Approaches Expectations (B- to B+) | All six sections are there, but one or two are thin. For example, features are not numbered or cannot be tested ("the app is easy to use"), a concept is named without the features that use it, the risks would fit any app, or the change log lists changes without reasons. |
-| Not Within Expectations (C+ and below) | A section is missing, there are fewer than three course concepts, or the document does not describe the app you submitted. |
+| Band | Starts at | What your work shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus every risk tied to a numbered feature and the app's response, and every change log entry tied to a test or a Copilot conversation. |
+| Meets Expectations (A-, A) | 17.5 | One to two pages with all six sections, matching your final app. Your user and their problem are specific. Features are numbered, and each says what the app must do in a way that can be tested. Interactions cover every button and input. At least three course concepts, each linked to the features that use it. Risks are specific to your app. The design change log records each change and its reason, or says that nothing changed. |
+| Approaches Expectations (B- to B+) | 15.5 | All six sections are there, but one or two are thin. For example, features are not numbered or cannot be tested ("the app is easy to use"), a concept is named without the features that use it, the risks would fit any app, or the change log lists changes without reasons. |
+| Not Within Expectations (C+ and below) | 13 | A section is missing, there are fewer than three course concepts, or the document does not describe the app you submitted. |
 
-#### 2. The app and its course concepts (20%)
+#### 2. The app and its course concepts (20 points)
 
-| Band | What your work shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus, for each course concept, the code that carries it named and explained. |
-| Meets Expectations (A-, A) | One .html file that opens and runs in a web browser. It does everything in your features list, or your design change log explains why a feature changed or was dropped. Each course concept in your design document can be seen in the app, in the features you linked it to. |
-| Approaches Expectations (B- to B+) | The app runs, but a feature is missing or does not work and the change log does not explain why, or a course concept in your document does not appear in the app. |
-| Not Within Expectations (C+ and below) | The app does not open or run, most features are missing, or fewer than three course concepts appear in it. |
+| Band | Starts at | What your work shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus, for each course concept, the code that carries it named and explained. |
+| Meets Expectations (A-, A) | 17.5 | One .html file that opens and runs in a web browser. It does everything in your features list, or your design change log explains why a feature changed or was dropped. Each course concept in your design document can be seen in the app, in the features you linked it to. |
+| Approaches Expectations (B- to B+) | 15.5 | The app runs, but a feature is missing or does not work and the change log does not explain why, or a course concept in your document does not appear in the app. |
+| Not Within Expectations (C+ and below) | 13 | The app does not open or run, most features are missing, or fewer than three course concepts appear in it. |
 
-#### 3. Testing (35%)
+#### 3. Testing (35 points)
 
-| Band | What your work shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus a test for every risk, and one test with someone outside your group, with what you observed. |
-| Meets Expectations (A-, A) | Your report explains how you decided what to test, and why. Every feature has at least one test, linked by its number. Each test records what you tested and why, what you expected, what happened and what you changed. Every failed test you fixed was run again, and its new result is recorded. The appendix has a labelled screenshot for each test. The report is 2 to 4 pages, not counting the appendix. |
-| Approaches Expectations (B- to B+) | The testing has gaps. For example, a feature has no test, some rows are missing the expected or actual result, fixed failures were not run again, or several tests have no screenshot. |
-| Not Within Expectations (C+ and below) | There is no test table, most features have no test, or there are no screenshots. |
+| Band | Starts at | What your work shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 35 | Everything in Meets Expectations, plus a test for every risk, and one test with someone outside your group, with what you observed. |
+| Meets Expectations (A-, A) | 31 | Your report explains how you decided what to test, and why. Every feature has at least one test, linked by its number. Each test records what you tested and why, what you expected, what happened and what you changed. Every failed test you fixed was run again, and its new result is recorded. The appendix has a labelled screenshot for each test. The report is 2 to 4 pages, not counting the appendix. |
+| Approaches Expectations (B- to B+) | 27.5 | The testing has gaps. For example, a feature has no test, some rows are missing the expected or actual result, fixed failures were not run again, or several tests have no screenshot. |
+| Not Within Expectations (C+ and below) | 23 | There is no test table, most features have no test, or there are no screenshots. |
 
-#### 4. Working with Copilot (25%)
+#### 4. Working with Copilot (25 points)
 
-| Band | What your work shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus at least two places where Copilot got something wrong, each with its transcript page, how you noticed and what fixed it. |
-| Meets Expectations (A-, A) | One PDF with every Copilot conversation used to build the app, in order, from the first prompt to the final code. The prompts work from your design document, one feature or fix at a time. Your testing report lists any code edited by hand, and it starts with your AI use statement. |
-| Approaches Expectations (B- to B+) | The transcripts have gaps, such as a missing conversation or no path to the final code. Also Approaches Expectations: most prompts ask for large parts of the app at once without reference to your design, or the AI use statement is missing. |
-| Not Within Expectations (C+ and below) | There are no transcripts, or the transcripts do not lead to the app you submitted. |
+| Band | Starts at | What your work shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus at least two places where Copilot got something wrong, each with its transcript page, how you noticed and what fixed it. |
+| Meets Expectations (A-, A) | 22 | One PDF with every Copilot conversation used to build the app, in order, from the first prompt to the final code. The prompts work from your design document, one feature or fix at a time. Your testing report lists any code edited by hand, and it starts with your AI use statement. |
+| Approaches Expectations (B- to B+) | 19.5 | The transcripts have gaps, such as a missing conversation or no path to the final code. Also Approaches Expectations: most prompts ask for large parts of the app at once without reference to your design, or the AI use statement is missing. |
+| Not Within Expectations (C+ and below) | 16.5 | There are no transcripts, or the transcripts do not lead to the app you submitted. |
 
 ---
 
@@ -618,68 +620,68 @@ Meets Expectations, plus every item listed for it below.
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
-Use this rubric to prepare for your viva voce. The viva voce is 90% of Part C. The teaching team
-marks it on five criteria, the same way as Part B, and its mark is the weighted average of the
-five. Design decisions and testing carry the most weight, so give them the most preparation time.
-The Exceeds Expectations row of each table summarizes that criterion's
-[Going further](#going-further-in-part-c) items.
+Use this rubric to prepare for your viva voce. The teaching team marks it out of 100 points across
+five criteria, the same way as Part B, and that score is 90% of Part C. Design decisions and testing
+are worth the most points, so give them the most preparation time. The Exceeds Expectations row of
+each table summarizes that criterion's [Going further](#going-further-in-part-c) items.
 
 The other 10% of Part C is your stand-ups 5 to 9 (5%) and the Project 2 retrospective (5%), and
 your peer evaluation multiplier applies to all of Part C. The
 [grade breakdown](project.md#your-individual-part-c-mark) shows how the pieces add up.
 
-| Criterion | Weight within the viva voce |
+| Criterion | Points |
 | :-- | :--: |
-| 1. Demonstration | 15% |
-| 2. Design decisions and course concepts | 25% |
-| 3. Testing and bugs | 25% |
-| 4. Changes along the way | 15% |
-| 5. Answering as a group | 20% |
+| 1. Demonstration | 15 |
+| 2. Design decisions and course concepts | 25 |
+| 3. Testing and bugs | 25 |
+| 4. Changes along the way | 15 |
+| 5. Answering as a group | 20 |
+| Total | 100 |
 
-#### 1. Demonstration (15%)
+#### 1. Demonstration (15 points)
 
-| Band | What your viva voce shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus one realistic user task shown from start to finish, with a risk handled. |
-| Meets Expectations (A-, A) | The app runs on the device you present with. You show its main features working, and say which need of your user each one serves. |
-| Approaches Expectations (B- to B+) | The app runs, but a main feature fails during the demo and your group cannot explain why, or the demo lists features without connecting them to your user. |
-| Not Within Expectations (C+ and below) | The app does not run, or there is no demo. |
+| Band | Starts at | What your viva voce shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one realistic user task shown from start to finish, with a risk handled. |
+| Meets Expectations (A-, A) | 13 | The app runs on the device you present with. You show its main features working, and say which need of your user each one serves. |
+| Approaches Expectations (B- to B+) | 11.5 | The app runs, but a main feature fails during the demo and your group cannot explain why, or the demo lists features without connecting them to your user. |
+| Not Within Expectations (C+ and below) | 10 | The app does not run, or there is no demo. |
 
-#### 2. Design decisions and course concepts (25%)
+#### 2. Design decisions and course concepts (25 points)
 
-| Band | What your viva voce shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus, for two features, a design you considered and why you chose against it. |
-| Meets Expectations (A-, A) | Your answers explain who your user is, how each feature helps them, and why you designed the app this way. You can show where each course concept appears in the app and explain how it works there. Your reasons come from your user, not from what Copilot suggested. |
-| Approaches Expectations (B- to B+) | Your answers describe what the app does without saying why, or a course concept is named but your group cannot show or explain where it appears. |
-| Not Within Expectations (C+ and below) | Your group cannot answer most design questions, or the course concepts are not in the app. |
+| Band | Starts at | What your viva voce shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus, for two features, a design you considered and why you chose against it. |
+| Meets Expectations (A-, A) | 22 | Your answers explain who your user is, how each feature helps them, and why you designed the app this way. You can show where each course concept appears in the app and explain how it works there. Your reasons come from your user, not from what Copilot suggested. |
+| Approaches Expectations (B- to B+) | 19.5 | Your answers describe what the app does without saying why, or a course concept is named but your group cannot show or explain where it appears. |
+| Not Within Expectations (C+ and below) | 16.5 | Your group cannot answer most design questions, or the course concepts are not in the app. |
 
-#### 3. Testing and bugs (25%)
+#### 3. Testing and bugs (25 points)
 
-| Band | What your viva voce shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus one bug explained at the level of the code that caused it. |
-| Meets Expectations (A-, A) | You explain how you decided what to test and which methods you used. You walk through one bug you found: how you found it, and how you fixed it. |
-| Approaches Expectations (B- to B+) | Testing is described only in general terms, such as "we tried everything", or the bug walk-through leaves out how you found it or how you fixed it. |
-| Not Within Expectations (C+ and below) | Your group cannot describe a test you ran or a bug you found. |
+| Band | Starts at | What your viva voce shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus one bug explained at the level of the code that caused it. |
+| Meets Expectations (A-, A) | 22 | You explain how you decided what to test and which methods you used. You walk through one bug you found: how you found it, and how you fixed it. |
+| Approaches Expectations (B- to B+) | 19.5 | Testing is described only in general terms, such as "we tried everything", or the bug walk-through leaves out how you found it or how you fixed it. |
+| Not Within Expectations (C+ and below) | 16.5 | Your group cannot describe a test you ran or a bug you found. |
 
-#### 4. Changes along the way (15%)
+#### 4. Changes along the way (15 points)
 
-| Band | What your viva voce shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus one change in how you prompted Copilot after it went wrong, and what happened next. |
-| Meets Expectations (A-, A) | You explain what changed from your design requirements document and why. You describe at least one place where Copilot got it wrong, and how you noticed. |
-| Approaches Expectations (B- to B+) | Changes are listed without reasons, or the Copilot example does not say how you noticed. |
-| Not Within Expectations (C+ and below) | Your group cannot name a change, or a place where Copilot got it wrong. |
+| Band | Starts at | What your viva voce shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one change in how you prompted Copilot after it went wrong, and what happened next. |
+| Meets Expectations (A-, A) | 13 | You explain what changed from your design requirements document and why. You describe at least one place where Copilot got it wrong, and how you noticed. |
+| Approaches Expectations (B- to B+) | 11.5 | Changes are listed without reasons, or the Copilot example does not say how you noticed. |
+| Not Within Expectations (C+ and below) | 10 | Your group cannot name a change, or a place where Copilot got it wrong. |
 
-#### 5. Answering as a group (20%)
+#### 5. Answering as a group (20 points)
 
-| Band | What your viva voce shows |
-| :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus every member building on a teammate's answer at least once. |
-| Meets Expectations (A-, A) | Every member answers questions, including about parts of the app they did not build. The answers are your own, given without AI, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). |
-| Approaches Expectations (B- to B+) | A member does not answer, or members can answer only about the parts they built. |
-| Not Within Expectations (C+ and below) | One or two members give almost every answer, or answers are read from a script. |
+| Band | Starts at | What your viva voce shows |
+| :-- | :--: | :-- |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus every member building on a teammate's answer at least once. |
+| Meets Expectations (A-, A) | 17.5 | Every member answers questions, including about parts of the app they did not build. The answers are your own, given without AI, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). |
+| Approaches Expectations (B- to B+) | 15.5 | A member does not answer, or members can answer only about the parts they built. |
+| Not Within Expectations (C+ and below) | 13 | One or two members give almost every answer, or answers are read from a script. |
 
 ---
 
@@ -776,15 +778,15 @@ aiming for an A+.
 
 ### The four bands <!-- {docsify-ignore} -->
 
-Each criterion in Parts B and C gets one of four bands. The band sets the range your mark for that
-criterion falls in.
+Each criterion in Parts B and C is worth a set number of points and gets one of four bands. The
+band sets the share of those points you can earn.
 
-| Band | What it means | UBC letter grades | Mark |
+| Band | What it means | UBC letter grades | Share of the criterion's points |
 | :-- | :-- | :-- | :--: |
-| Exceeds Expectations | Everything in Meets Expectations, plus every Going further item for that criterion | A+ | 90 to 100 |
-| Meets Expectations | Everything the instructions ask for, done well | A-, A | 80 to 89 |
-| Approaches Expectations | The work is mostly there, but something important is thin, unclear or missing | B-, B, B+ | 68 to 79 |
-| Not Within Expectations | Important parts are missing, or there is not yet enough evidence of the work | C+ and below | 0 to 67 |
+| Exceeds Expectations | Everything in Meets Expectations, plus every Going further item for that criterion | A+ | 90% to 100% |
+| Meets Expectations | Everything the instructions ask for, done well | A-, A | 80% to 89% |
+| Approaches Expectations | The work is mostly there, but something important is thin, unclear or missing | B-, B, B+ | 68% to 79% |
+| Not Within Expectations | Important parts are missing, or there is not yet enough evidence of the work | C+ and below | 0% to 67% |
 
 A criterion with nothing submitted for it gets 0.
 
@@ -794,10 +796,10 @@ Three things to know:
   well, earns an A- or an A on that criterion.
 - Exceeds Expectations is optional and defined in advance. Complete everything at Meets
   Expectations first, because Going further work does not make up for a missing requirement.
-  Doing some of a criterion's Going further items can raise your mark toward the top of Meets
-  Expectations, but only all of them reach Exceeds Expectations.
-- The teaching team picks the band first, then your mark within it. Small mistakes move your mark
-  down inside the band, and your feedback names what they were.
+  Doing only some of a criterion's Going further items keeps it in Meets Expectations.
+- Your TA, or the teaching team for the viva voce, picks the band first and starts at the top of
+  it, the Starts at number in each rubric table. Small mistakes take points off within the band,
+  and your feedback names each one.
 
 ### What is already decided <!-- {docsify-ignore} -->
 
