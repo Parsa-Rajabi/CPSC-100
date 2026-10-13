@@ -7,6 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 13 | The viva voce now links to its section on the Project 2 page. |
 | Oct 13 | The viva voce is now a group presentation, held from Wed Dec 2 to Fri Dec 4. |
 | Oct 11 | Corrected when booking opens. Quiz booking opens on a Tuesday, about two weeks before the quiz window, and viewing booking opens on the Sunday before the viewing window. No dates changed. |
 | Oct 6 | Added the Quiz 4 and Quiz 5 viewing windows. Quiz 5 booking now opens Tue Nov 3. The all-quiz viewing now runs Thu Nov 19 to Mon Dec 7, with booking from Sun Nov 15. |

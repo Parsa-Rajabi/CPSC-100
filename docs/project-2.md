@@ -481,8 +481,8 @@ Meets Expectations, plus every item listed for it below.
 | :-- | :-- |
 | Design requirements document | Each risk names the feature it affects, by its number, and how the app should respond. Each entry in the design change log names the test, by its number, or the Copilot conversation that led to the change. |
 | The app and its course concepts | For each course concept, name the part of the code that carries it, such as a function or a variable, and explain in one or two sentences what that code does. Put this in the course concepts section of your design document. |
-| Testing | Give every risk in your design document its own test, as well as every feature. Run at least one test with someone outside your group who uses the app without help, and record where they hesitated or went wrong. |
-| Working with Copilot | In your testing report, describe at least two places where Copilot got something wrong. For each one, give the page of your transcripts where it happened, say how you noticed, and say what fixed it. |
+| Testing | Give every risk in your design document its own test, as well as every feature. Run at least one test with someone outside your group who uses the app without help, and record where they hesitated or went wrong. If they had no trouble, say so, and record what they did. |
+| Working with Copilot | In your testing report, describe at least two places where Copilot got something wrong. For each one, give the page of your transcripts where it happened, say how you noticed, and say what fixed it. If Copilot got fewer than two things wrong, describe each one it did, and make up the rest with a feature where its first answer worked: give the transcript page and the test, by its number, that showed it was right. |
 
 ### Part B rubric <!-- {docsify-ignore} -->
 
@@ -507,7 +507,7 @@ items.
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus every risk tied to a numbered feature and the app's response, and every change log entry tied to a test or a Copilot conversation. |
 | Meets Expectations (A-, A) | 17.5 | One to two pages with all six sections, matching your final app. Your user and their problem are specific. Features are numbered, and each says what the app must do in a way that can be tested. Interactions cover every button and input. At least three course concepts, each linked to the features that use it. Risks are specific to your app. The design change log records each change and its reason, or says that nothing changed. |
-| Approaches Expectations (B- to B+) | 15.5 | All six sections are there, but one or two are thin. For example, features are not numbered or cannot be tested ("the app is easy to use"), a concept is named without the features that use it, the risks would fit any app, or the change log lists changes without reasons. |
+| Approaches Expectations (B- to B+) | 15.5 | All six sections are there, but one or two are missing something they ask for. For example, features are not numbered or cannot be tested ("the app is easy to use"), a concept is named without the features that use it, the risks would fit any app, or the change log lists changes without reasons. |
 | Not Within Expectations (C+ and below) | 13 | A section is missing, there are fewer than three course concepts, or the document does not describe the app you submitted. |
 
 #### 2. The app and its course concepts (20 points)
@@ -523,7 +523,7 @@ items.
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 35 | Everything in Meets Expectations, plus a test for every risk, and one test with someone outside your group, with what you observed. |
+| Exceeds Expectations (A+) | 35 | Everything in Meets Expectations, plus a test for every risk, and one test with someone outside your group, with what you observed, or a note that they had no trouble. |
 | Meets Expectations (A-, A) | 31 | Your report explains how you decided what to test, and why. Every feature has at least one test, linked by its number. Each test records what you tested and why, what you expected, what happened and what you changed. Every failed test you fixed was run again, and its new result is recorded. The appendix has a labelled screenshot for each test. The report is 2 to 4 pages, not counting the appendix. |
 | Approaches Expectations (B- to B+) | 27.5 | The testing has gaps. For example, a feature has no test, some rows are missing the expected or actual result, fixed failures were not run again, or several tests have no screenshot. |
 | Not Within Expectations (C+ and below) | 23 | There is no test table, most features have no test, or there are no screenshots. |
@@ -532,7 +532,7 @@ items.
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus at least two places where Copilot got something wrong, each with its transcript page, how you noticed and what fixed it. |
+| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus at least two places where Copilot got something wrong, each with its transcript page, how you noticed and what fixed it. If there were fewer than two, a feature where its first answer worked, with its transcript page and test number, for each one missing. |
 | Meets Expectations (A-, A) | 22 | One PDF with every Copilot conversation used to build the app, in order, from the first prompt to the final code. The prompts work from your design document, one feature or fix at a time. Your testing report lists any code edited by hand, and it starts with your AI use statement. |
 | Approaches Expectations (B- to B+) | 19.5 | The transcripts have gaps, such as a missing conversation or no path to the final code. Also Approaches Expectations: most prompts ask for large parts of the app at once without reference to your design, or the AI use statement is missing. |
 | Not Within Expectations (C+ and below) | 16.5 | There are no transcripts, or the transcripts do not lead to the app you submitted. |
@@ -605,7 +605,7 @@ Testing and finding bugs:
 Changes along the way:
 
 - What changed from your design requirements document, and why?
-- Where did Copilot get it wrong, and how did you notice?
+- Where did Copilot get it wrong, and how did you notice? If it never did, how did you check its code?
 
 Connect your answers to your user. "Copilot suggested it" is not a reason on its own. "We kept it
 because it makes the next meal easier for our user to find" is.
@@ -643,9 +643,9 @@ Meets Expectations, plus every item listed for it below.
 | :-- | :-- |
 | Demonstration | Demonstrate one realistic task your user would do, from start to finish, and show the app handling at least one of the risks in your design document. |
 | Design decisions and course concepts | For at least two features, name a different design you considered and the reason, tied to your user, that you chose against it. |
-| Testing and bugs | For one bug, explain its cause in the code: which part of the code was wrong and why, not only what the user saw. |
-| Changes along the way | Explain one change you made to how you prompted Copilot after it got something wrong, and what happened after that change. |
-| Answering as a group | Each member, at least once, builds on a teammate's answer by connecting it to another part of the app or to a course concept. |
+| Testing and bugs | For one bug, explain its cause in the code: which part of the code was wrong and why, not only what the user saw. If you found no bugs, explain in the code how your app handles the input from your riskiest test. |
+| Changes along the way | Explain one change you made to how you prompted Copilot after it got something wrong, and what happened after that change. If Copilot never got anything wrong, explain one change you made to how you prompted it as the app grew, and why. |
+| Answering as a group | Each member, at least once, builds on a teammate's answer by connecting it to another part of the app or to a course concept. Handing the next question to a teammate does not count. |
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
@@ -689,17 +689,17 @@ your peer evaluation multiplier applies to all of Part C. The
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus one bug explained at the level of the code that caused it. |
-| Meets Expectations (A-, A) | 22 | You explain how you decided what to test and which methods you used. You walk through one bug you found: how you found it, and how you fixed it. |
-| Approaches Expectations (B- to B+) | 19.5 | Testing is described only in general terms, such as "we tried everything", or the bug walk-through leaves out how you found it or how you fixed it. |
+| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus one bug explained at the level of the code that caused it. If you found no bugs, the code that handles your riskiest test explained instead. |
+| Meets Expectations (A-, A) | 22 | You explain how you decided what to test and which methods you used. You walk through one bug you found: how you found it, and how you fixed it. If you found no bugs, you say so and explain which test was most likely to find one, and why. |
+| Approaches Expectations (B- to B+) | 19.5 | Testing is described only in general terms, such as "we tried everything", the bug walk-through leaves out how you found it or how you fixed it, or you found no bugs and do not say which test was most likely to find one. |
 | Not Within Expectations (C+ and below) | 16.5 | Your group cannot describe a test you ran or a bug you found. |
 
 #### 4. Changes along the way (15 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one change in how you prompted Copilot after it went wrong, and what happened next. |
-| Meets Expectations (A-, A) | 13 | You explain what changed from your design requirements document and why. You describe at least one place where Copilot got it wrong, and how you noticed. |
+| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one change in how you prompted Copilot after it went wrong, and what happened next. If it never went wrong, one change in how you prompted it as the app grew, and why. |
+| Meets Expectations (A-, A) | 13 | You explain what changed from your design requirements document and why. You describe at least one place where Copilot got it wrong, and how you noticed. If Copilot never got anything wrong, you say so and explain how you checked its code. |
 | Approaches Expectations (B- to B+) | 11.5 | Changes are listed without reasons, or the Copilot example does not say how you noticed. |
 | Not Within Expectations (C+ and below) | 10 | Your group cannot name a change, or a place where Copilot got it wrong. |
 
@@ -819,11 +819,12 @@ band sets the share of those points you can earn.
 | Band | What it means | UBC letter grades | Share of the criterion's points |
 | :-- | :-- | :-- | :--: |
 | Exceeds Expectations | Everything in Meets Expectations, plus every Going further item for that criterion | A+ | 90% to 100% |
-| Meets Expectations | Everything the instructions ask for, done well | A-, A | 80% to 89% |
-| Approaches Expectations | The work is mostly there, but something important is thin, unclear or missing | B-, B, B+ | 68% to 79% |
+| Meets Expectations | The required work is complete and matches the description. Small slips cost points within the band | A-, A | 80% to 89% |
+| Approaches Expectations | The work is mostly there, but something important is unclear, incomplete or missing | B-, B, B+ | 68% to 79% |
 | Not Within Expectations | Important parts are missing, or there is not yet enough evidence of the work | C+ and below | 0% to 67% |
 
-A criterion with nothing submitted for it gets 0.
+A criterion with nothing submitted for it gets 0. If your work matches the descriptions of more than
+one band, your TA uses the lowest one that applies.
 
 Three things to know:
 
@@ -848,8 +849,9 @@ Three things to know:
 > [!ATTENTION]
 > Late work is not accepted on the project. Nothing submitted after a deadline is marked.
 >
-> Stand-ups, retrospectives and peer evaluations are exceptions. A late one is still required, and
-> it costs marks instead. See [Where to submit](project.md#where-to-submit).
+> Some submissions are exceptions: a late one is still required, and it costs marks instead. These
+> are [stand-ups](#weekly-stand-ups), [retrospectives](project.md#retrospectives) and
+> [peer evaluations](project-peer-evaluation.md#late-peer-evaluations).
 >
 > If you are running out of time, submit a partial document rather than nothing. An incomplete
 > submission earns some marks; a missing one earns none.
