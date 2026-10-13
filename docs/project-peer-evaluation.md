@@ -8,7 +8,7 @@
 | Date | Update |
 | :--: | :----- |
 | Oct 13 | iPeer 2 now links to the Project 2 page. |
-| Oct 13 | In iPeer 1 and iPeer 2 you now rate contribution to Parts B and C, and the multiplier applies to your whole Part C mark. Corrected the late-penalty example to 0.8417 and 75.75%. |
+| Oct 13 | iPeer now covers Parts B and C, and the multiplier applies to all of Part C. Corrected the late-penalty example. |
 | Sep 30 | iPeer 0 is now required, with a small late penalty and no quality deductions. Every round must be submitted, even late. |
 | Sep 24 | Reworded for readability. |
 
