@@ -329,6 +329,23 @@ This isn't a made-up exercise, since how well these tools perform is still an op
 question. For an example, see
 [this 2026 review of detection tool performance](https://pmc.ncbi.nlm.nih.gov/articles/PMC12752165/).
 
+### Before you start <!-- {docsify-ignore} -->
+
+Before reading the instructions for this part of the project, review the [rubric](#part-b-rubric),
+especially the A+ / Exceeding Expectations category.
+
+As a group, discuss which grade bracket you are aiming for and what it will take to get there. Be
+realistic about everyone's availability and willingness to put in the work. Do not overpromise and
+underdeliver to each other. Agree on expectations that everyone understands and can commit to.
+
+To reach the A+ / Exceeding Expectations category, your submission must meet the minimum
+requirements and demonstrate the additional depth and attention to detail described in the rubric.
+Plan for these expectations from the beginning. They are difficult to address well as last-minute
+additions.
+
+These criteria have been chosen deliberately, and TAs will look for clear evidence of them in your
+work.
+
 ### What you will do <!-- {docsify-ignore} -->
 
 - Build an image dataset of real and AI-generated images, and record where each one came from.
@@ -524,10 +541,8 @@ failure you didn't find.
 
 ### Going further in Part B <!-- {docsify-ignore} -->
 
-This section is for groups aiming for an A+. Everything above is what Meets expectations asks
-for, and doing it well earns an A- or an A on each criterion. To reach Exceeds (A+) on a criterion,
-also do every item listed for it below. The items are optional, none of them asks for more pages,
-and each one is something your TA can check and count.
+To reach the A+ / Exceeding Expectations category on a criterion, do everything it asks for at
+Meets, plus every item listed for it below.
 
 | Criterion | To reach Exceeds, also do this |
 | :-- | :-- |
@@ -535,10 +550,6 @@ and each one is something your TA can check and count.
 | Results | Under your results table, give each tool's number of false positives (it said AI-generated about a real image) and false negatives (it said real about an AI-generated image). |
 | Closer look | Refer to every failure you discuss by its row in your results table. Then use the pattern you found to predict one more image, not in your dataset, that the tool will get wrong. Run it, add the screenshot to your appendix, and say whether your prediction held. A prediction that turns out wrong still counts, as long as you report it honestly. |
 | Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers. In your reflection, tie each cost to at least one specific error from your own results. |
-
-> [!TIP]
-> Decide early, as a group, which criteria you are aiming to exceed. These items are much easier to
-> build in as you go than to add the night before the deadline.
 
 The dataset criterion has no Going further work.
 
@@ -663,6 +674,23 @@ It's the largest piece of Project 1, and it has two deliverables:
 
 The split is deliberate: the report sets out the facts of the case, while the video is where you
 explain your reasoning out loud, in your own words. That's a harder skill than writing it down.
+
+### Before you start <!-- {docsify-ignore} -->
+
+Before reading the instructions for this part of the project, review the [rubric](#part-c-rubric),
+especially the A+ / Exceeding Expectations category.
+
+As a group, discuss which grade bracket you are aiming for and what it will take to get there. Be
+realistic about everyone's availability and willingness to put in the work. Do not overpromise and
+underdeliver to each other. Agree on expectations that everyone understands and can commit to.
+
+To reach the A+ / Exceeding Expectations category, your submission must meet the minimum
+requirements and demonstrate the additional depth and attention to detail described in the rubric.
+Plan for these expectations from the beginning. They are difficult to address well as last-minute
+additions.
+
+These criteria have been chosen deliberately, and TAs will look for clear evidence of them in your
+work.
 
 ### What you will do <!-- {docsify-ignore} -->
 
@@ -840,10 +868,8 @@ answer about any part of it, not only their own section.
 
 ### Going further in Part C <!-- {docsify-ignore} -->
 
-As in Part B, everything above is what Meets expectations asks for (A- or A), and the items below
-are the optional route to Exceeds (A+). To reach Exceeds on a criterion, also do every item listed
-for it. Each item asks for one more step of your reasoning: the difference between describing a
-case and taking it apart.
+To reach the A+ / Exceeding Expectations category on a criterion, do everything it asks for at
+Meets, plus every item listed for it below.
 
 | Criterion | To reach Exceeds, also do this |
 | :-- | :-- |
