@@ -879,10 +879,11 @@ want better sound or a steadier picture, UBC lends equipment and rooms to studen
   cost $5 a day. UBC does not lend webcams, but a phone camera on a tripod works well. The
   [Technology Borrowing](https://services.library.ubc.ca/computers-technology/technology-borrowing/)
   page lists everything and the loan times.
-- Recording remotely: hold a Microsoft Teams meeting with your UBC account and record it. The
-  recording saves to the OneDrive of the person who pressed record. Remove its expiry date so the
-  link keeps working. See the [Microsoft Teams guide](https://lthub.ubc.ca/guides/microsoft-teams-guide/).
-  Free Zoom accounts stop at 40 minutes.
+- Recording remotely: hold a Zoom or Microsoft Teams call and record it. A free Zoom meeting lasts
+  up to 40 minutes, which is plenty for a video of up to 10 minutes. A Teams recording saves to the
+  OneDrive of the person who pressed record, so remove its expiry date to keep the link working.
+  See the [Zoom student guide](https://ltic.ubc.ca/lt-hub/guides/zoom-student-guide/) and the
+  [Microsoft Teams guide](https://lthub.ubc.ca/guides/microsoft-teams-guide/).
 - Guides: [Recording 101](https://learningcommons.ubc.ca/recording-101/) covers sound and speaking
   tips, and [DIY Media @ UBC](https://diy.open.ubc.ca/video/) covers planning and making a video.
 
