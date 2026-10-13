@@ -12,8 +12,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Added the Project 2 dates. |
-| Oct 13 | Added Pre-lab 5, your Project 1 case, due Mon Oct 19. |
+| Oct 13 | Added the Project 2 dates and Pre-lab 5, due Mon Oct 19. |
 | Oct 11 | Corrected the Project 1A due date in Week 5: the day after your lab, Thu Oct 8 or Fri Oct 9, not the end of the lab hour. |
 | Oct 5 | Quiz 5 is now the last quiz. Quiz 3 runs Wed Oct 7 to Wed Oct 14, Quiz 4 moved to Wed Oct 28 to Wed Nov 4, and Quiz 5 to Wed Nov 18 to Wed Nov 25. No quiz in Weeks 6 and 12. |
 | Sep 30 | Added the weekly stand-ups, due Fridays at 4:00pm from Oct 2 to Dec 4. Marked iPeer 0 as required. |

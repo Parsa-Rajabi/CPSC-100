@@ -10,9 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
-| Oct 13 | Pre-lab 5 is due earlier than the others, so the teaching team can check your Project 1 cases before Lab 5. |
-| Oct 13 | Clarified: pre-labs are marked for completion, and a pre-lab is done when PrairieLearn shows 100%. |
+| Oct 13 | Pre-labs are marked for completion, and Pre-lab 5 is due early. Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
 
 </details>

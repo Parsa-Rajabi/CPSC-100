@@ -19,11 +19,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Added the Part B and Part C rubrics, with new rules for the Part C video and sources. |
-| Oct 13 | Part C: the report now covers the facts and sources, and the video covers the argument and carries most of the marks. |
-| Oct 13 | Part C: each member now proposes a case in Pre-lab 5, which replaces claiming a case on Ed Discussion. |
-| Oct 13 | Parts B and C are handed in as PDF files, in one group submission on Canvas. |
-| Oct 13 | Part B: added your group's steps, from 3 tools each to one deep dive with annotated screenshots. Exceeds Expectations no longer asks for more tools. |
+| Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
