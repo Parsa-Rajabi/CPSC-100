@@ -36,15 +36,15 @@ Project 2 takes you from reading code to building with it, and then to explainin
 - Part C. In the viva voce, your group demonstrates the app and answers our questions about the
   decisions behind it, in person.
 
-One idea runs through all three parts. Code you hand in is code you vouch for, whether you wrote
-it, fixed it or prompted an AI tool to write it. Each part asks you to show that you understand
-what your code does and why.
+One idea runs through all three parts. Code you hand in is code you take responsibility for, whether
+you wrote it, fixed it or prompted an AI tool to write it. Each part asks you to show that you
+understand what your code does and why.
 
 | Part | What it is | Who does it | Weight | Due |
 | :--: | :--------- | :---------- | :----: | :-- |
 | A | Learning to communicate: debugging a Python program | Individual, in Lab 7 | 1% | The day after your Lab 7, Thu Nov 5 or Fri Nov 6, 11:59pm |
 | B | Vibe coding: building a web app with Copilot | Group | 4% | Tue Nov 24, 11:59pm |
-| C | Viva voce | Group, with an individual multiplier | 10% | Your session, between Wed Dec 2 and Fri Dec 4 |
+| C | Viva voce | Group, with an individual multiplier from [peer evaluation](#peer-evaluation) | 10% | Your session, between Wed Dec 2 and Fri Dec 4 |
 
 Those weights are percentages of your final course grade, not shares of this project. Together
 they come to 15%, and Project 1 is the other 15%. See
@@ -64,8 +64,9 @@ they come to 15%, and Project 1 is the other 15%. See
 
 ## What you hand in
 
-Check each deadline on its assignment page in [Canvas](https://canvas.ubc.ca/courses/190791/assignments), which is also where you hand in your
-work. The table lists every Project 2 deadline so you can plan, in Pacific time.
+Check each deadline on its assignment page in [Canvas](https://canvas.ubc.ca/courses/190791/assignments), which is also where
+you hand in your work. The table lists every Project 2 deadline so you can plan. All times are
+Pacific time.
 
 | What you hand in | Who | Due | Where |
 | :--------------- | :-- | :-- | :---- |
@@ -93,7 +94,7 @@ own page once the Project 2A, Pre-lab 8, Project 2B and retrospective assignment
 | 8 | Lab 6 | Project 2 begins. Debugging practice in Snap!, on a program we give everyone. | Project 1 deadlines. See [Project 1](project-1.md#the-flow) |
 | 9 | Lab 7 | Part A runs in lab, start to finish. | Part A, the day after your lab<br>Stand-up 5, Fri Nov 6 |
 | 10 | *no lab* | Midterm Break. Your group agrees on its app and writes its proposal. | Pre-lab 8, your proposal and sketch, Thu Nov 12<br>Stand-up 6, Fri Nov 13 |
-| 11 | Lab 8 | Working with an AI coding assistant. Feedback on your proposal, then a working block for Part B. | Stand-up 7, Fri Nov 20 |
+| 11 | Lab 8 | Working with an AI coding assistant. Feedback on your proposal, then time to work on Part B. | Stand-up 7, Fri Nov 20 |
 | 12 | Lab 9 | Work session to prepare for the viva voce. | Part B, Tue Nov 24<br>Stand-up 8, Fri Nov 27 |
 | 13 | Lab 10 | Viva voce, held from Wed Dec 2 to Fri Dec 4. | Your viva voce<br>Retrospective and [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, Fri Dec 4 |
 
@@ -114,33 +115,36 @@ Three things to notice:
 Part A is individual work, worth 1%, and it runs in [Lab 7](labs.md). You fix the program during
 the lab, and you hand it in on Canvas by your section's deadline in the table below.
 
-Finding a bug and explaining it are different skills. A comment that says what you changed only
-describes your edit. A comment that says why the old code was wrong shows that you understand the
-program, and that is what Part A marks.
+Part A marks your explanations, not only your fixes. Each comment must say why the old code was
+wrong, not only what you changed.
 
 In Lab 6 you practise on a Snap! program that we give everyone. In Lab 7 you get your Part A
 program: a Python program, in a Jupyter notebook, that does not work. Fix it, and explain every
 bug you find.
 
 If you get stuck, try [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging):
-explain out loud, line by line, what each part of the program should do, until your explanation and
-the code disagree.
+explain out loud, line by line, what each part of the program should do. When what you say and
+what the code does are different, you have found a bug.
 
 ### What you will do <!-- {docsify-ignore} -->
 
-- Open your Part A notebook in Lab 7. It says what the program is meant to do
-- Run the program, and read its error messages and its output
-- Find and fix every bug you can, until the program does what the notebook says it should
-- Test it with values of your own, not only the ones in the program. Some bugs only show up with
-  particular values
-- At each fix, add a comment that names the kind of error and explains what was wrong and why your
-  fix works
-- Download your notebook as an .ipynb file
+1. Open your Part A notebook in Lab 7. It says what the program is meant to do
+2. Run the program, and read its error messages and its output
+3. Find and fix every bug you can, until the program does what the notebook says it should
+4. Test it with values of your own, not only the ones in the program. Some bugs only show up with
+   particular values
+5. At each fix, add a comment that names the kind of error and explains what was wrong and why
+   your fix works
+6. Download your notebook as an .ipynb file, and hand it in on Canvas
 
 <details>
 <summary>Writing a comment for each fix</summary>
 
-Name the kind of error first, using the terms from lecture:
+Each comment needs three things, in your own words:
+
+1. The kind of error, using the terms from lecture in the table below
+2. What was wrong
+3. Why your fix works
 
 | Kind of error | What you see |
 | :------------ | :----------- |
@@ -148,9 +152,8 @@ Name the kind of error first, using the terms from lecture:
 | Runtime error | The program starts, then stops partway through with an error message |
 | Logic error | The program runs to the end, but the result is wrong |
 
-Then say what was wrong and why your fix works, in your own words. Put each comment directly above
-the line it explains. If one fix changes several lines, one comment above the first of them is
-enough.
+Put each comment directly above the line it explains. If one fix changes several lines, one comment
+above the first of them is enough.
 
 The difference between describing an edit and explaining a bug is easiest to see side by side.
 
@@ -164,9 +167,9 @@ total = 0
 Stronger:
 
 ```python
-# Logic error: total was set to 0 inside the loop, so it was reset on every pass
-# and only kept the last price. Setting it once, before the loop, lets it add up
-# every price.
+# Logic error: total was set to 0 inside the loop, so it went back to 0 every time
+# the loop ran and only kept the last price. Setting it once, before the loop, lets
+# it add up every price.
 total = 0
 for price in prices:
     total = total + price
@@ -189,20 +192,22 @@ You hand in one file on [Canvas](https://canvas.ubc.ca/courses/190791/assignment
 | :--- | :--------------- |
 | Your fixed notebook, downloaded as an .ipynb file | Your AI use line, as a comment at the top of the first cell. Then the fixed program, with a comment at each fix |
 
+To download your notebook, open the File menu in Jupyter and choose Download. In some versions it
+is Download as, then Notebook. Do this before you leave the lab, so you have a copy.
+
+Hand it in by your section's deadline:
+
 | Your lab | Lab 7 | Part A due |
 | :------- | :---- | :--------- |
 | Wednesday, L1A to L1D | Wed Nov 4 | Thu Nov 5, 11:59pm |
 | Thursday, L1E | Thu Nov 5 | Fri Nov 6, 11:59pm |
-
-To download your notebook, open the File menu in Jupyter and choose Download. In some versions it
-is Download as, then Notebook. Do this before you leave the lab, so you have a copy.
 
 All of it must be your own work, written by you.
 
 ### Using AI in Part A <!-- {docsify-ignore} -->
 
 We strongly encourage you to fix the program and write your comments without AI. An AI tool can fix
-this program in seconds, but Part A is practice at explaining code in your own words, and that
+this program in seconds. But Part A is practice at explaining code in your own words, and that
 practice only works if the thinking is yours. Part B is where you build with AI.
 
 Start your notebook with the one line below that is true for you, as a comment in the first cell.
@@ -251,21 +256,24 @@ As written, "including for values your TA tries" makes it Partial. -->
 
 ## Part B: Vibe Coding
 
-Part B is group work, worth 4%. It starts with your proposal, Pre-lab 8, and [Lab 8](labs.md) is a
-working block for it. Both deadlines are in [What you hand in](#what-you-hand-in).
+Part B is group work, worth 4%. It starts with Pre-lab 8, your group's proposal.
+[Lab 8](labs.md) gives you time to work on it. Both deadlines are in
+[What you hand in](#what-you-hand-in).
 
 Vibe coding means building software by describing what you want to an AI tool and refining what it
-gives back, instead of writing every line yourself. AI coding assistants are now used this way in
-research labs and in industry. They still need someone who knows what the program must do, who can
-guide them one step at a time, and who can tell when the result is wrong. That takes the
-programming concepts you have learned in this course.
+gives back, instead of writing every line yourself.
 
-Anything you submit under your name, in this course or anywhere else, is work you are vouching
-for. That includes code an AI tool generated. Generated code often looks finished and still does
-not work, so you have to check it yourself.
+AI coding assistants are now used this way in research labs and in industry. They still need
+someone who knows what the program must do, who can guide them one step at a time, and who can
+tell when the result is wrong. That takes the programming concepts you have learned in this
+course.
 
-In Part B your group uses Microsoft Copilot to build a small web app, then shows with evidence that
-it works for the person it is for.
+Anything you submit under your name, in this course or anywhere else, is work you take
+responsibility for. That includes code an AI tool generated. Generated code often looks finished and
+still does not work, so you have to check it yourself.
+
+In Part B your group uses Microsoft Copilot to build a small web app. Then you test it and show
+that it works for the person it is for.
 
 ### Before you start <!-- {docsify-ignore} -->
 
@@ -286,11 +294,12 @@ work.
 
 ### What you will do <!-- {docsify-ignore} -->
 
-- Choose your user and your app idea, and hand in your proposal and sketch as Pre-lab 8
-- Write your design requirements document before you prompt Copilot
-- Build the app with Copilot, one feature at a time, working from your design document
-- Test every feature, record what you find, and fix what fails
-- Keep every Copilot conversation, and export them all as one PDF
+1. Choose your user and your app idea, and hand in your proposal and sketch as Pre-lab 8
+2. Write your design requirements document before you prompt Copilot
+3. Build the app with Copilot, one feature at a time, working from your design document
+4. Test every feature, record what you find, and fix what fails
+5. Keep every Copilot conversation, and export them all as one PDF
+6. Hand in your four files on Canvas, as one submission for your group
 
 <details>
 <summary>What you will build</summary>
@@ -310,7 +319,7 @@ Your app must use at least three course concepts. For example:
 | Privacy and consent | What data you collect, and whether the user knows and agrees |
 | Algorithms and decision systems | Logic that makes choices, such as sorting, filtering or scoring |
 | Recommender systems | Suggesting something based on what the user enters |
-| Algorithmic bias and responsible use | Who your app might treat unfairly, or miss |
+| Algorithmic bias and responsible use | Who your app might treat unfairly, or leave out |
 
 </details>
 
@@ -321,19 +330,26 @@ sketch are Pre-lab 8, handed in on [Canvas](https://canvas.ubc.ca/courses/190791
 
 One member submits one PDF for the group. It contains:
 
-- Your proposal, about one page: who your user is, what problem your app solves for them, the main
-  features you plan, and the three or more course concepts it will use
+- Your proposal, about one page, covering:
+  - who your user is
+  - what problem your app solves for them
+  - the main features you plan
+  - the three or more course concepts it will use
 - A sketch of your app's main screen: what the user sees, and what they can click or type. A photo
   of a drawing on paper is fine
 
 Your TA reads it before Lab 8 and gives your group feedback in the lab, before you start building.
-It counts as Pre-lab 8 for every member of your group, so it is part of your Lab 8 grade rather than
-your project grade. Unlike the other pre-labs, it is handed in on Canvas, and it is due the week
-before your lab rather than when your section starts.
 
-Because Pre-lab 8 is off the lab schedule, the course's default
-[late penalty](syllabus.md#late-deliverables) applies to it instead of the pre-lab deductions on the
-[Labs](labs.md#the-pre-lab) page:
+Pre-lab 8 is different from the other pre-labs:
+
+- It is handed in on Canvas, not PrairieLearn
+- It is one submission for the whole group, and it counts as Pre-lab 8 for every member. It is part
+  of your Lab 8 grade, not your project grade
+- It is due the week before Lab 8, not when your section starts. Because it is off the lab
+  schedule, the course's default [late penalty](syllabus.md#late-deliverables) applies instead of
+  the pre-lab deductions on the [Labs](labs.md#the-pre-lab) page
+
+The late penalty for Pre-lab 8:
 
 | Handed in | What it costs |
 | :-------- | :------------ |
@@ -383,10 +399,12 @@ Read what Copilot gives you before you use it, and run the app after every chang
 know which change broke something.
 
 Keep every conversation, from the first prompt to your final code, including the ones on each
-member's account. Save each conversation as a PDF, for example by opening it and printing the page
-to PDF, then combine them into one file in the order you had them.
+member's account. To make your transcripts PDF:
 
-If anyone in your group edits the code by hand, note where in your testing report.
+1. Open each conversation and print the page to PDF
+2. Combine all the PDFs into one file, in the order you had the conversations
+
+If anyone in your group edits the code by hand, write down where in your testing report.
 
 > [!TIP]
 > Use made-up data when you build and test. Do not put your own or anyone else's real personal
@@ -407,7 +425,7 @@ a test fails, fix the problem, run the test again, and record the new result.
 Take a screenshot of each test's result and label it with the test number. The screenshots go in
 an appendix at the end of your testing report.
 
-Here is one row of a test table:
+Here is an example row for your test table:
 
 | Test | Feature | What we tested and why | Expected | Actual | What we changed |
 | :--: | :-----: | :--------------------- | :------- | :----- | :-------------- |
@@ -423,14 +441,14 @@ Some ways to find bugs:
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
-You hand in four files on [Canvas](https://canvas.ubc.ca/courses/190791/assignments), together in one submission to Project 2B. One member submits for
-the group.
+You hand in four files on [Canvas](https://canvas.ubc.ca/courses/190791/assignments), together in one submission to
+Project 2B. One member submits for the group.
 
 | File | What it contains |
 | :--- | :--------------- |
 | Design requirements document, a PDF of 1 to 2 pages | The six sections above, updated to match your final app |
 | Your app, one .html file | The final version. It must open and run in a web browser, with nothing else to install |
-| Testing report, a PDF of 2 to 4 pages, plus an appendix | Your AI use statement at the top. How you decided what to test, and why. Your test table, with every test linked to a feature. Where anyone edited the code by hand. An appendix with one labelled screenshot for each test, which does not count toward the page limit |
+| Testing report, a PDF of 2 to 4 pages, plus an appendix | Your AI use statement, at the top<br>How you decided what to test, and why<br>Your test table, with every test linked to a feature<br>Where anyone edited the code by hand<br>An appendix with one labelled screenshot for each test. The appendix does not count toward the page limit |
 | Copilot transcripts, one PDF | Every Copilot conversation your group used to build the app, in order, from the first prompt to the final code |
 
 ### Using AI in Part B <!-- {docsify-ignore} -->
@@ -523,8 +541,8 @@ items.
 
 ## Part C: Viva Voce
 
-Part C is group work, worth 10%. Your group presents in person, in one session during the viva
-voce days in [What you hand in](#what-you-hand-in). Attending is mandatory, and it is a
+Part C is group work, worth 10%. Your group presents in person, in one session in Week 13. The
+dates are in [What you hand in](#what-you-hand-in). Attending is mandatory, and it is a
 [passing requirement](syllabus.md#passing-criteria).
 
 A viva voce is an oral exam. Your group demonstrates its app, explains the decisions behind it, and
@@ -556,7 +574,7 @@ work.
 
 ### What happens <!-- {docsify-ignore} -->
 
-- Demo. Show your app running, and walk through its main features
+- Demo. Show your app running, and show each of its main features
 - Explain your choices. Justify your design and code decisions
 - Questions. The teaching team asks questions, and any member may be asked about any part of the
   app, not only the part they built
@@ -613,7 +631,7 @@ because it makes the next meal easier for our user to find" is.
 > AI can help you prepare, within what the policy allows, but you need to understand everything
 > you say.
 
-There are no regrades for viva voces. The teaching team calibrates its marking before the sessions,
+There are no regrades for viva voces. The teaching team agrees on how to mark before the sessions,
 so every group is marked to the same standard.
 
 ### Going further in Part C <!-- {docsify-ignore} -->
@@ -698,11 +716,10 @@ your peer evaluation multiplier applies to all of Part C. The
 
 ## Working as a group
 
-Weekly stand-ups, a retrospective and peer evaluation run alongside Project 2, as they did in
-Project 1, and all three affect your individual Part C mark. The rules are the same as in Project
-1. The full details and worked examples are under
-[Working as a group](project-1.md#working-as-a-group) on the Project 1 page and on the
-[Project](project.md#group-process) page.
+Three things run alongside Project 2, the same way as in Project 1: weekly stand-ups, a
+retrospective and peer evaluation. All three affect your individual Part C mark. The full rules
+and worked examples are under [Working as a group](project-1.md#working-as-a-group) on the
+Project 1 page and on the [Project](project.md#group-process) page.
 
 ### Weekly stand-ups <!-- {docsify-ignore} -->
 
@@ -718,27 +735,27 @@ toward Project 2:
 | 9 | Fri Dec 4  |
 
 Each one is marked complete, partial or incomplete, and together they are 5% of your Part C mark.
-A late stand-up costs 0.5% of your individual Part C mark for every 12 hours late, or part of 12
-hours, unless your one free late stand-up for the term covers it. See
+A late stand-up costs 0.5% of your individual Part C mark for every 12 hours it is late. Part of
+12 hours counts as a full 12 hours. Your one free late stand-up for the term covers the first one
+you post late, up to 72 hours. See
 [Late and missing stand-ups](project-1.md#late-and-missing-stand-ups).
 
 ### Retrospective <!-- {docsify-ignore} -->
 
 Your group's second retrospective covers teamwork during Project 2, and lessons for future groups.
-It is 5% of your Part C mark, and its deadline is in [What you hand in](#what-you-hand-in). A late retrospective
-costs your group 1% of its Part C grade for every 12 hours late, or part of 12 hours. See
-[Retrospectives](project.md#retrospectives).
+It is 5% of your Part C mark, and its deadline is in [What you hand in](#what-you-hand-in).
+
+A late retrospective costs your group 1% of its Part C grade for every 12 hours it is late. Part of
+12 hours counts as a full 12 hours. See [Retrospectives](project.md#retrospectives).
 
 ### Peer evaluation <!-- {docsify-ignore} -->
 
-Your teammates rate your contribution to Parts B and C, so
-how you work with your group in Part B counts too. Their ratings become a multiplier on your whole
-Part C mark, the heaviest part of each project. Parts A and B are not multiplied. See
-[Project Peer Evaluation](project-peer-evaluation.md).
+Your teammates rate your contribution to Parts B and C, so how you work with your group in Part B
+counts too. Their ratings become a multiplier on your whole Part C mark, the heaviest part of each
+project. Parts A and B are not multiplied. See [Project Peer Evaluation](project-peer-evaluation.md).
 
-iPeer is a small weighted scoring system: it turns ratings about a person into a decision that
-affects their grade. Rate your teammates on what they did, with the care you would expect from any
-system this course has asked you to examine.
+iPeer turns your ratings into part of each teammate's grade. Rate them on what they did, with the
+same care you would want from them.
 
 ### If contribution is uneven <!-- {docsify-ignore} -->
 
@@ -776,7 +793,7 @@ fabrication.
 
 AI use is covered by the [AI Policy](ai-policy.md). Whatever tools you use, you are responsible for
 the accuracy of what you hand in, and you should be able to explain anything submitted under your
-name. The viva voce is where we ask you to.
+name. In the viva voce, we will ask you to.
 
 <!-- TODO: instructor decision required. The fabrication policy mirrors Project 1's, including its
 two open items: who gets the project-level zero when the responsible member cannot be identified,
