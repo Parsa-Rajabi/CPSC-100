@@ -547,9 +547,9 @@ Meets Expectations, plus every item listed for it below.
 
 | Criterion | To reach Exceeds Expectations, also do this |
 | :-- | :-- |
-| Tools and terms of service | For every answer to the three terms of service questions, quote the wording from the policy and name the section or heading it comes from. Also include at least one tool that checks information stored inside the file, such as Optic. |
+| Tools and terms of service | For every answer to the three terms of service questions, quote the wording from the policy and name the section or heading it comes from. |
 | Results | Under your results table, give each tool's number of false positives (it said AI-generated about a real image) and false negatives (it said real about an AI-generated image). |
-| Closer look | Refer to every failure you discuss by its row in your results table. Then use the pattern you found to predict one more image, not in your dataset, that the tool will get wrong. Run it, add the screenshot to your appendix, and say whether your prediction held. A prediction that turns out wrong still counts, as long as you report it honestly. |
+| Closer look | Refer to every failure you discuss by its row in your results table. For each one, say how the other tools in your table did on the same image, and use that to explain whether the mistake comes from this tool or from something about the image. |
 | Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers. In your reflection, tie each cost to at least one specific error from your own results. |
 
 The dataset criterion has no Going further work.
@@ -622,7 +622,7 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 | Band | What your work shows |
 | :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus a quote and its section for every terms of service answer, and at least one tool that checks information stored inside the file. |
+| Exceeds Expectations (A+) | Everything in Meets Expectations, plus a quote and its section for every terms of service answer. |
 | Meets Expectations (A-, A) | One tool per group member, with a minimum of three. For every tool: its cost, availability, claims, reputation and your reason for use, a link to the terms of service you read, and an answer to each of the three questions. |
 | Approaches Expectations (B- to B+) | The same gap appears for two or more tools. For example, one of the five things, the terms of service link, or an answer that addresses its question is missing for two or more tools. Also Approaches Expectations: fewer tools than group members, as long as there are at least three. |
 | Not Within Expectations (C+ and below) | There are fewer than three tools, or the five things or the three questions are missing for most tools. |
@@ -640,7 +640,7 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 | Band | What your work shows |
 | :-- | :-- |
-| Exceeds Expectations (A+) | Everything in Meets Expectations, plus every failure referred to by its row in your results table, and one prediction tested on a new image and reported. |
+| Exceeds Expectations (A+) | Everything in Meets Expectations, plus every failure referred to by its row in your results table, with how the other tools did on the same image and what that says about the cause. |
 | Meets Expectations (A-, A) | Covers how the tool says it works, how it performed on your dataset, where it failed, and whether there was a pattern to its mistakes. Each point is made using [PEEL](#making-an-argument-with-peel), and the evidence comes from your own results. If the tool made no mistakes, you say so and explain what you would need to test to find one. |
 | Approaches Expectations (B- to B+) | All four parts are there, but at least one is thin. For example, failures are listed but not explained, a pattern is claimed without results to back it up, or how the tool works is described without connecting it to your results. |
 | Not Within Expectations (C+ and below) | One or more of the four parts is missing, or the section describes the tool without using your results. |
