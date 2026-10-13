@@ -547,7 +547,7 @@ Meets Expectations, plus every item listed for it below.
 
 | Criterion | To reach Exceeds Expectations, also do this |
 | :-- | :-- |
-| Tools and terms of service | For every answer to the three terms of service questions, quote the wording from the policy, name the section or heading it comes from, and add a screenshot of that part of the policy to your appendix with the wording highlighted. |
+| Tools and terms of service | Test 6 tools if your group has 4 members, or 8 tools if it has 5, and record everything Meets Expectations asks for on every one of them. For every answer to the three terms of service questions, quote the wording from the policy, name the section or heading it comes from, and add a screenshot of that part of the policy to your appendix with the wording highlighted. |
 | Results | For every tool that gives a percentage, count how many of its verdicts would change if your cut-off moved up or down by 10 percentage points, and give those counts under your results table. |
 | Closer look | Refer to every failure you discuss by its row in your results table. For each one, say how the other tools in your table did on the same image, and use that to explain whether the mistake comes from this tool or from something about the image. |
 | Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers. In your reflection, tie each cost to at least one specific error from your own results. |
@@ -618,7 +618,7 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a quote, its section and a highlighted screenshot for every terms of service answer. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations for 6 tools (a group of 4) or 8 tools (a group of 5), plus a quote, its section and a highlighted screenshot for every terms of service answer. |
 | Meets Expectations (A-, A) | 17.5 | One tool per group member. For every tool: its cost, availability, claims, reputation and your reason for use, a link to the terms of service you read, and an answer to each of the three questions. |
 | Approaches Expectations (B- to B+) | 15.5 | The same gap appears for two or more tools. For example, one of the five things, the terms of service link, or an answer that addresses its question is missing for two or more tools. Also Approaches Expectations: fewer tools than group members, as long as there are at least three. |
 | Not Within Expectations (C+ and below) | 13 | There are fewer than three tools, or the five things or the three questions are missing for most tools. |
