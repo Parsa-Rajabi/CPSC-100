@@ -46,15 +46,15 @@ It has three parts, a mix of individual and group work:
 
 ## Project 2: From Blocks to Code
 
-Runs from Week 8 to Week 13. Full details are on the [Project 2](project-2.md) page.
+Runs from Week 8 to Week 13. Full details are on the [Project 2](project-2.md) page, and every deadline is in its [What you hand in](project-2.md#what-you-hand-in) table.
 
 Project 2 is about moving from visual programming (building programs from blocks) into real code, and being able to explain what you built. You will fix a Python program and explain each bug, build a small web app with Microsoft Copilot and test that it works, then demonstrate it and answer questions about it in person.
 
 It has three parts, a mix of individual and group work:
 
-- [Part A](project-2.md#part-a-learning-to-communicate), debugging a Python program, done in your Lab 7. Individual. Due at 11:59pm the day after your lab, Thu Nov 5 or Fri Nov 6, the same way as Project 1 Part A.
-- [Part B](project-2.md#part-b-vibe-coding), building a web app with Microsoft Copilot and testing it. Group. Due Tue Nov 24 at 11:59pm. Your group's proposal for it is Pre-lab 8, due Thu Nov 12.
-- [Part C](project-2.md#part-c-viva-voce), the viva voce: a short live presentation by your group, held from Wed Dec 2 to Fri Dec 4. You demo your app and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
+- [Part A](project-2.md#part-a-learning-to-communicate), debugging a Python program, done in your Lab 7. Individual. Due the day after your lab, the same way as Project 1 Part A.
+- [Part B](project-2.md#part-b-vibe-coding), building a web app with Microsoft Copilot and testing it. Group. It starts with your group's proposal, Pre-lab 8.
+- [Part C](project-2.md#part-c-viva-voce), the viva voce: a short live presentation by your group, in Week 13. You demo your app and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
 
 ## Grade breakdown
 

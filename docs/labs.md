@@ -104,7 +104,7 @@ Every lab opens with your group already working, which only works if everyone ar
 
 Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs 0.25 points, and turning up late costs another 0.25 points, because each one leaves your group waiting on you. The two deductions stack, so doing both costs 0.5 points. Your one free late arrival for the semester is covered under [Attendance and late arrival](#attendance-and-late-arrival).
 
-Pre-lab 8 is the exception. It is your group's [Project 2 proposal and sketch](project-2.md#pre-lab-8-your-proposal-and-sketch), handed in on Canvas by Thursday November 12 at 11:59pm, the week before Lab 8. Because it is off the lab schedule, the course's default [late penalty](syllabus.md#late-deliverables) applies to it instead of the deductions above: up to 24 hours late with a 25% penalty, and not accepted after that.
+Pre-lab 8 is the exception. It is your group's [Project 2 proposal and sketch](project-2.md#pre-lab-8-your-proposal-and-sketch), handed in on Canvas the week before Lab 8. Because it is off the lab schedule, the course's default [late penalty](syllabus.md#late-deliverables) applies to it instead of the deductions above. Its deadline and late window are in the table on [the Project 2 page](project-2.md#pre-lab-8-your-proposal-and-sketch), and on Canvas.
 
 <details>
 <summary>Lab 0, the setup homework from Week 1</summary>

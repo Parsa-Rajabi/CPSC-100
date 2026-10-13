@@ -42,11 +42,9 @@ what your code does and why.
 
 | Part | What it is | Who does it | Weight | Due |
 | :--: | :--------- | :---------- | :----: | :-- |
-| A | Learning to communicate: debugging a Python program | Individual, in Lab 7 | 1% | The day after your Lab 7, Thu Nov 5 or Fri Nov 6 |
-| B | Vibe coding: building a web app with Copilot | Group | 4% | Tue Nov 24 |
+| A | Learning to communicate: debugging a Python program | Individual, in Lab 7 | 1% | The day after your Lab 7, Thu Nov 5 or Fri Nov 6, 11:59pm |
+| B | Vibe coding: building a web app with Copilot | Group | 4% | Tue Nov 24, 11:59pm |
 | C | Viva voce | Group, with an individual multiplier | 10% | Your session, between Wed Dec 2 and Fri Dec 4 |
-
-Parts A and B are due at 11:59pm Pacific.
 
 Those weights are percentages of your final course grade, not shares of this project. Together
 they come to 15%, and Project 1 is the other 15%. See
@@ -66,19 +64,21 @@ they come to 15%, and Project 1 is the other 15%. See
 
 ## What you hand in
 
-| Part | Deliverable | Where |
-| :--: | :---------- | :---- |
-| A | Your fixed Python notebook, with a comment at each fix | Canvas |
-| B | Four files: your design requirements document, your app as one .html file, your testing report, and your Copilot transcripts | Canvas |
-| C | Nothing to hand in. Your group presents its app in person | In person |
+Check each deadline on its assignment page in [Canvas](https://canvas.ubc.ca/courses/190791/assignments), which is also where you hand in your
+work. The table lists every Project 2 deadline so you can plan, in Pacific time.
 
-Along the way you will also submit:
+| What you hand in | Who | Due | Where |
+| :--------------- | :-- | :-- | :---- |
+| Part A: your fixed Python notebook, with a comment at each fix | Individual | The day after your Lab 7: Thu Nov 5 (L1A to L1D) or Fri Nov 6 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch): your project idea proposal and sketch | Group | Thu Nov 12, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| Part B: your design requirements document, your app as one .html file, your testing report, and your Copilot transcripts | Group | Tue Nov 24, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| Part C: nothing to hand in. Your group presents its app in person | Group | Your session, between Wed Dec 2 and Fri Dec 4 | In person |
+| [Stand-ups](#weekly-stand-ups) 5 to 9 | Individual | Every Friday from Nov 6 to Dec 4, 4:00pm | Ed Discussion |
+| [Retrospective](#retrospective) 2 | Group | Thu Dec 3, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| [iPeer 2](#peer-evaluation) | Individual | Thu Dec 3, 11:59pm | iPeer |
 
-- [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch), your group's project idea proposal and sketch,
-  on Canvas, on Thursday November 12
-- A [stand-up](#working-as-a-group) post on Ed Discussion, every Friday from November 6 to
-  December 4
-- A peer evaluation in iPeer, and a group retrospective, on Thursday December 3
+<!-- The Canvas links go to the course's Assignments page. Replace each one with its assignment's
+own page once the Project 2A, Pre-lab 8, Project 2B and retrospective assignments exist. -->
 
 ---
 
@@ -101,18 +101,18 @@ Three things to notice:
 
 - Lab 6 is practice. The Snap! program builds the skill that Part A uses, and it is marked like
   any other lab, not as part of your project grade.
-- Week 10 has no lab, but your proposal is due that week. Part A fills Lab 7, so arrange a time
-  for your group to meet before Thursday November 12.
-- Part B is due on Tuesday November 24, the day before Lab 9. Lab 8 is your only lab for building
-  the app, so most of Part B happens outside lab. Lab 9, and the project work day in lecture on
-  Wednesday November 25, are for preparing your viva voce.
+- Week 10 has no lab, but Pre-lab 8 is due that week. Part A fills Lab 7, so arrange a time for
+  your group to meet before Pre-lab 8 is due.
+- Part B is due the day before Lab 9. Lab 8 is your only lab for building the app, so most of Part
+  B happens outside lab. Lab 9, and the project work day in lecture that week, are for preparing
+  your viva voce.
 
 ---
 
 ## Part A: Learning to Communicate
 
-Part A is individual work, worth 1%, and it runs in [Lab 7](labs.md) on November 4 and 5. You fix
-the program during the lab, and you hand it in on Canvas by the day after your lab.
+Part A is individual work, worth 1%, and it runs in [Lab 7](labs.md). You fix the program during
+the lab, and you hand it in on Canvas by your section's deadline in the table below.
 
 Finding a bug and explaining it are different skills. A comment that says what you changed only
 describes your edit. A comment that says why the old code was wrong shows that you understand the
@@ -183,14 +183,16 @@ doing, why that was wrong, and why the fix works.
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
-You hand in one file on Canvas, to Project 2A.
+You hand in one file on [Canvas](https://canvas.ubc.ca/courses/190791/assignments), to Project 2A.
 
 | File | What it contains |
 | :--- | :--------------- |
 | Your fixed notebook, downloaded as an .ipynb file | Your AI use line, as a comment at the top of the first cell. Then the fixed program, with a comment at each fix |
 
-Part A is due at 11:59pm Thursday November 5 if your lab is on Wednesday (L1A to L1D), and at
-11:59pm Friday November 6 if your lab is on Thursday (L1E).
+| Your lab | Lab 7 | Part A due |
+| :------- | :---- | :--------- |
+| Wednesday, L1A to L1D | Wed Nov 4 | Thu Nov 5, 11:59pm |
+| Thursday, L1E | Thu Nov 5 | Fri Nov 6, 11:59pm |
 
 To download your notebook, open the File menu in Jupyter and choose Download. In some versions it
 is Download as, then Notebook. Do this before you leave the lab, so you have a copy.
@@ -228,8 +230,8 @@ line you choose, and choosing honestly is what the
 We will post the Part A notebook after the lab, so you can do Part A on your own. You will lose the
 lab mark for that week, but Part A is still open to you.
 
-Your deadline does not change: hand in your notebook on Canvas by 11:59pm the day after your
-scheduled lab.
+Your deadline does not change: hand in your notebook on Canvas by your section's deadline in the
+table under What you need to hand in.
 
 </details>
 
@@ -249,9 +251,8 @@ As written, "including for values your TA tries" makes it Partial. -->
 
 ## Part B: Vibe Coding
 
-Part B is group work, worth 4%. Your proposal is due as Pre-lab 8 on Thursday November 12,
-[Lab 8](labs.md) on November 18 and 19 is a working block for it, and Part B is due on Tuesday
-November 24 at 11:59pm.
+Part B is group work, worth 4%. It starts with your proposal, Pre-lab 8, and [Lab 8](labs.md) is a
+working block for it. Both deadlines are in [What you hand in](#what-you-hand-in).
 
 Vibe coding means building software by describing what you want to an AI tool and refining what it
 gives back, instead of writing every line yourself. AI coding assistants are now used this way in
@@ -285,8 +286,7 @@ work.
 
 ### What you will do <!-- {docsify-ignore} -->
 
-- Choose your user and your app idea, and hand in your proposal and sketch as Pre-lab 8 by
-  Thursday November 12
+- Choose your user and your app idea, and hand in your proposal and sketch as Pre-lab 8
 - Write your design requirements document before you prompt Copilot
 - Build the app with Copilot, one feature at a time, working from your design document
 - Test every feature, record what you find, and fix what fails
@@ -317,7 +317,7 @@ Your app must use at least three course concepts. For example:
 ### Pre-lab 8: your proposal and sketch <!-- {docsify-ignore} -->
 
 Agree on your app before Lab 8, so your group can spend the lab building it. Your proposal and
-sketch are Pre-lab 8, due on Canvas on Thursday November 12 at 11:59pm.
+sketch are Pre-lab 8, handed in on [Canvas](https://canvas.ubc.ca/courses/190791/assignments).
 
 One member submits one PDF for the group. It contains:
 
@@ -331,10 +331,15 @@ It counts as Pre-lab 8 for every member of your group, so it is part of your Lab
 your project grade. Unlike the other pre-labs, it is handed in on Canvas, and it is due the week
 before your lab rather than when your section starts.
 
-Because Pre-lab 8 is off the lab schedule, the course's default late penalty applies to it instead
-of the pre-lab deductions on the [Labs](labs.md#the-pre-lab) page. You can hand it in up to 24 hours
-late, by 11:59pm Friday November 13, with a 25% penalty. After that it is not accepted, and it
-scores 0. See [Late Deliverables](syllabus.md#late-deliverables).
+Because Pre-lab 8 is off the lab schedule, the course's default
+[late penalty](syllabus.md#late-deliverables) applies to it instead of the pre-lab deductions on the
+[Labs](labs.md#the-pre-lab) page:
+
+| Handed in | What it costs |
+| :-------- | :------------ |
+| By Thu Nov 12, 11:59pm | Nothing |
+| Up to 24 hours late, by Fri Nov 13, 11:59pm | 25% of your Pre-lab 8 mark |
+| More than 24 hours late | Not accepted, and it scores 0 |
 
 <!-- TODO: instructor decision required. Pre-lab 8 details chosen while drafting, from "Pre-lab 8 =>
 Project Idea Proposal + Sketch, due on Thursday, Nov 12 via Canvas":
@@ -418,7 +423,7 @@ Some ways to find bugs:
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
-You hand in four files on Canvas, together in one submission to Project 2B. One member submits for
+You hand in four files on [Canvas](https://canvas.ubc.ca/courses/190791/assignments), together in one submission to Project 2B. One member submits for
 the group.
 
 | File | What it contains |
@@ -518,8 +523,8 @@ items.
 
 ## Part C: Viva Voce
 
-Part C is group work, worth 10%. Your group presents in person, in a session between Wednesday
-December 2 and Friday December 4. Attending is mandatory, and it is a
+Part C is group work, worth 10%. Your group presents in person, in one session during the viva
+voce days in [What you hand in](#what-you-hand-in). Attending is mandatory, and it is a
 [passing requirement](syllabus.md#passing-criteria).
 
 A viva voce is an oral exam. Your group demonstrates its app, explains the decisions behind it, and
@@ -701,8 +706,8 @@ Project 1, and all three affect your individual Part C mark. The rules are the s
 
 ### Weekly stand-ups <!-- {docsify-ignore} -->
 
-Post your own stand-up in your group's Ed Discussion channel by 4:00pm Pacific each Friday.
-Stand-ups 5 to 9 count toward Project 2:
+Post your own stand-up in your group's Ed Discussion channel each week. Stand-ups 5 to 9 count
+toward Project 2:
 
 | Stand-up | Due, 4:00pm Pacific |
 | :------: | :------------------ |
@@ -720,13 +725,13 @@ hours, unless your one free late stand-up for the term covers it. See
 ### Retrospective <!-- {docsify-ignore} -->
 
 Your group's second retrospective covers teamwork during Project 2, and lessons for future groups.
-It is due on Thursday December 3 at 11:59pm, and it is 5% of your Part C mark. A late retrospective
+It is 5% of your Part C mark, and its deadline is in [What you hand in](#what-you-hand-in). A late retrospective
 costs your group 1% of its Part C grade for every 12 hours late, or part of 12 hours. See
 [Retrospectives](project.md#retrospectives).
 
 ### Peer evaluation <!-- {docsify-ignore} -->
 
-iPeer 2 is due on Thursday December 3. Your teammates rate your contribution to Parts B and C, so
+Your teammates rate your contribution to Parts B and C, so
 how you work with your group in Part B counts too. Their ratings become a multiplier on your whole
 Part C mark, the heaviest part of each project. Parts A and B are not multiplied. See
 [Project Peer Evaluation](project-peer-evaluation.md).
@@ -739,8 +744,14 @@ system this course has asked you to examine.
 
 Raise problems early, with your group first and then with your TA. If you need us to step in,
 contact us at least 12 days before the deadline, and set up a meeting with everyone present at least
-9 days before it. For Part B, that means contacting us by Thursday November 12 and meeting by
-Sunday November 15. The full process is under
+9 days before it:
+
+| Deadline | Contact us by | Meet with us by |
+| :------- | :------------ | :-------------- |
+| Part B, Tue Nov 24 | Thu Nov 12 | Sun Nov 15 |
+| Viva voce, from Wed Dec 2 | Fri Nov 20 | Mon Nov 23 |
+
+The full process is under
 [If contribution is uneven](project.md#if-contribution-is-uneven) on the Project page.
 
 ---
