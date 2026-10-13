@@ -1,7 +1,7 @@
 # Project
 
 > [!NOTE]
-> This page is still being written. Project 1 is fully described on the [Project 1](project-1.md) page. Project 2 is described at a high level for now, and its full specification, deadlines, and grading will be published before it starts.
+> This page is still being written. Project 1 is fully described on the [Project 1](project-1.md) page. Project 2 is described at a high level for now, and its full specification, deadlines, and rubric will be published before it starts. The [grade breakdown](#grade-breakdown) below covers both projects.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -10,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 13 | Added the grade breakdown and the Project 2 dates, and corrected the viva voce description: it is a group presentation. |
 | Sep 30 | Added the stand-up schedule and late penalties, and late penalties for retrospectives. Late stand-ups, retrospectives and peer evaluations are now listed as exceptions to the no-late-work rule. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
@@ -32,7 +33,7 @@ Each project is built from several parts. You submit them separately, not as one
 
 ## Project 1: From Data to Decisions
 
-Runs from Week 2 to Week 7. Full details are on the [Project 1](project-1.md) page.
+Runs from Week 2 to Week 8. Full details are on the [Project 1](project-1.md) page.
 
 Project 1 is about telling real from synthetic (computer-generated), and noticing where automated judgements go wrong. You will look at your own online footprint and test how well AI-detection tools actually perform. You will also study a documented case where an algorithmic system caused harm.
 
@@ -50,9 +51,78 @@ Project 2 is about moving from visual programming (building programs from blocks
 
 It has three parts, a mix of individual and group work:
 
-- Part A, a Snap! program with annotations. Individual.
-- Part B, translating that program into Python. Group.
-- Part C, the viva voce: a short live oral presentation, one-on-one. You demo your program and answer questions about the decisions behind it. Individually assessed, mandatory, and a [passing requirement](syllabus.md#passing-criteria).
+- Part A, a Snap! program with annotations, done in your Lab 7. Individual. Due at 11:59pm the day after your lab, Thu Nov 5 or Fri Nov 6, the same way as Project 1 Part A.
+- Part B, translating that program into Python. Group. Due Tue Nov 24 at 11:59pm.
+- Part C, the viva voce: a short live presentation by your group, held from Wed Dec 2 to Fri Dec 4. You demo your program and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
+
+## Grade breakdown
+
+Use this breakdown to plan where your group spends its time. The project is 30% of your course
+grade, 15% for each project, and both projects have the same three parts. The weights below are
+percentages of your course grade.
+
+| Part | Weight | Who does it | Project 1 | Project 2 | How it is marked |
+| :--: | :--: | :-- | :-- | :-- | :-- |
+| A | 1% | Individual, in lab | Your digital footprint | A Snap! program with annotations | Complete, partial or incomplete |
+| B | 4% | Group, after some individual work, with lab time to work on it | The AI detector experiment | Translating your program into Python | A rubric, with one grade for the group |
+| C | 10% | Group, with an individual multiplier | Algorithmic bias case study: a report and a recorded video | Viva voce: a live group presentation | A rubric, plus your stand-ups and the retrospective |
+
+### What makes up Part C <!-- {docsify-ignore} -->
+
+Part C is the heaviest part of each project. Most of it is your group's main deliverable, and the
+rest comes from your stand-ups and the retrospective. Post every stand-up and complete the
+retrospective together. They are small marks, but they depend only on you and your group showing
+up.
+
+| Component | Share of Part C | Of your course grade | Marked as | Based on |
+| :-- | :--: | :--: | :-- | :-- |
+| Report and video (Project 1), or viva voce (Project 2) | 90% | 9% | A rubric with four bands | Your group's work |
+| Stand-ups | 5% | 0.5% | Each stand-up: complete, partial or incomplete | Your own posts |
+| Retrospective | 5% | 0.5% | Complete, partial or incomplete | Your group's work |
+
+- Project 1 Part C counts stand-ups 1 to 4 and the Project 1 retrospective. Project 2 Part C
+  counts stand-ups 5 to 9 and the Project 2 retrospective.
+- Stand-up 0 and the practice retrospective are not marked, but they are still required, and their
+  late penalties come off Project 1 Part C.
+- A stand-up is complete when you post it yourself and it answers all three questions, partial
+  when it is missing an answer, and incomplete when it is not posted. A late stand-up can still be
+  complete. Its late penalty is separate.
+- A retrospective is complete when it answers all three of its questions, partial when it is
+  missing an answer, and incomplete when it is not submitted.
+
+### Your individual Part C mark <!-- {docsify-ignore} -->
+
+Part C is the only group part where your mark can differ from your teammates' marks. This is
+deliberate: it lets your grade reflect your own contribution, not only your group's. It is worked
+out in four steps:
+
+1. Add up the three components: 90% report and video (or viva voce), 5% your stand-ups, and 5% the
+   retrospective.
+2. Subtract any late retrospective penalty. It comes off for the whole group.
+3. Multiply by your [peer evaluation](project-peer-evaluation.md) multiplier.
+4. Subtract any late stand-up penalties, and for Project 1, any late iPeer 0 penalty.
+
+Your teammates rate your contribution across Parts B and C, so the work you do in Part B counts
+toward your multiplier. The multiplier changes only your Part C mark. Parts A and B are not
+multiplied.
+
+<details>
+<summary>Worked example</summary>
+
+Your group's report and video scores 85%, and its retrospective is complete. You posted stand-ups 1
+to 4, and one of them was missing an answer, so your stand-ups score (1 + 1 + 1 + 0.5) ÷ 4 = 87.5%.
+Your peer evaluation multiplier is 0.95, and nothing was late.
+
+| Step | Calculation | Result |
+| :-- | :-- | :--: |
+| 1. Add up the components | 0.90 × 85 + 0.05 × 87.5 + 0.05 × 100 | 85.875 |
+| 2. Late retrospective penalty | None | 85.875 |
+| 3. Peer evaluation multiplier | 85.875 × 0.95 | 81.58 |
+| 4. Late stand-up and iPeer 0 penalties | None | 81.58% |
+
+Part C is 10% of your course grade, so 81.58% on Part C adds 8.16% to your course grade.
+
+</details>
 
 ## Group process
 
@@ -60,7 +130,7 @@ Alongside the project parts themselves, three things run all term: weekly stand-
 
 ### Weekly stand-ups
 
-A stand-up is a short written progress update. Every Friday at 4:00pm Pacific, from Oct 2 to Dec 4, each student posts three or four sentences in their group's Ed Discussion channel. Ed Discussion is the course's online discussion forum. Your post covers what you did, what is next, and what is blocking you. Posting on Ed instead of emailing us means your group and your TA can both see it. That makes it the easiest way to flag a blocker before it becomes a problem. Stand-up 0, on Oct 2, is a practice round, but it is still required. Stand-ups 1 to 4 count toward your individual Project 1 Part C mark, and stand-ups 5 to 9 count toward Project 2 Part C. Late stand-ups lose marks, and every student gets one free late stand-up for the term. The schedule and penalties are in [Weekly stand-ups](project-1.md#weekly-stand-ups).
+A stand-up is a short written progress update. Every Friday, each student posts three or four sentences in their group's Ed Discussion channel. Ed Discussion is the course's online discussion forum. Your post covers what you did, what is next, and what is blocking you. Posting on Ed instead of emailing us means your group and your TA can both see it. That makes it the easiest way to flag a blocker before it becomes a problem. Stand-up 0, on Oct 2, is a practice round, but it is still required. Stand-ups 1 to 4 count toward your individual Project 1 Part C mark, and stand-ups 5 to 9 count toward Project 2 Part C. Each one is marked complete, partial or incomplete, and together they are 5% of Part C. See [What makes up Part C](#what-makes-up-part-c). Late stand-ups lose marks, and every student gets one free late stand-up for the term. The schedule and penalties are in [Weekly stand-ups](project-1.md#weekly-stand-ups).
 
 ### Retrospectives
 
@@ -72,7 +142,7 @@ A retrospective is a group conversation about how you worked together and what t
 | 1 | Teamwork during Project 1 | Thu Oct 29 |
 | 2 | Teamwork during Project 2, and lessons for future groups | Thu Dec 3 |
 
-All three are due at 11:59pm Pacific. The retrospectives after Project 1 and Project 2 are part of your project grade.
+All three are due at 11:59pm Pacific. The retrospectives after Project 1 and Project 2 are each 5% of that project's Part C, marked complete, partial or incomplete. See [What makes up Part C](#what-makes-up-part-c).
 
 Your group must submit every retrospective, including the practice round, even if it is late. A retrospective that has not been submitted keeps getting the late penalty until your group submits it. The penalty comes off your group's grade for Part C, so every member loses the same amount. Your peer evaluation multiplier is then applied to that lower grade.
 
@@ -108,7 +178,7 @@ Use the retrospective template, available in both formats:
 
 ### Peer evaluation
 
-In peer evaluation, group members rate each other's contribution. It runs in iPeer and acts as a multiplier on Part C of each project, the heaviest part. It's what allows people in the same group to end up with different grades. See [Project Peer Evaluation](project-peer-evaluation.md) for the formula and the criteria.
+In peer evaluation, group members rate each other's contribution to Parts B and C. It runs in iPeer and acts as a multiplier on your whole Part C mark, the heaviest part of each project. It is what allows people in the same group to end up with different grades. [Your individual Part C mark](#your-individual-part-c-mark) shows the steps, and [Project Peer Evaluation](project-peer-evaluation.md) has the formula and the criteria.
 
 ### Group contract
 
@@ -157,7 +227,7 @@ Everyone in the group gets 25% on Part B.
 
 ### If contribution is uneven
 
-By default, everyone in a group receives the same grade. If lab records and peer evaluations agree that somebody contributed significantly less, that person's grade may be adjusted down.
+By default, everyone in a group receives the same grade for the work the group submits together. If lab records and peer evaluations agree that somebody contributed significantly less, that person's grade may be adjusted down.
 
 Raise problems early. Fixing a group takes one to two weeks to actually work. If you leave it until the week before a deadline, there's no time left for anything to change.
 
