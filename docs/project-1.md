@@ -910,8 +910,6 @@ these:
 - Google Drive: set the link so that anyone with the link can view
 - YouTube: upload it as unlisted, not public and not private
 
-When you submit your report on Canvas, paste the same link in the comment box.
-
 > [!WARNING]
 > Check the link before you submit. Ask a group member who did not upload the video to open it,
 > and make sure it plays all the way through.
@@ -935,8 +933,8 @@ submits for the whole group. Your group needs:
   the top
 - At least three sources, of which at least two are primary, all of them checked and listed in one
   citation style that you name at the top of the list
-- A recorded video, linked at the top of your report and in the comment box of your submission,
-  with every member on camera and speaking, up to 2 minutes each, covering the four parts
+- A recorded video, linked at the top of your report, with every member on camera and speaking, up
+  to 2 minutes each, covering the four parts
 - The four parts of the video make their points using [PEEL](#making-an-argument-with-peel), with
   your sources as evidence
 - A case connected to Canada or a country in Asia
