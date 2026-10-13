@@ -19,6 +19,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 13 | Updated the Project 2 preview to match the new Project 2 page. |
 | Oct 13 | Added the Part B and Part C rubrics, with new rules for the Part C video and sources. |
 | Oct 13 | Part C: the report now covers the facts and sources, and the video covers the argument and carries most of the marks. |
 | Oct 13 | Part C: each member now proposes a case in Pre-lab 5, which replaces claiming a case on Ed Discussion. |
@@ -1368,14 +1369,15 @@ to guess why the evidence matters. The Link is what turns separate points into o
 
 ## What comes next: Project 2
 
-Project 2 gets announced later in the term, but a few things you can plan around already:
+Project 2 starts in Week 8, and it is described in full on the [Project 2](project-2.md) page. A
+few things to plan around:
 
 - It runs from Week 8 to Week 13
-- It moves from Snap! into Python. You'll write and annotate a program in Snap!, then translate it
-  into Python code
+- It moves from Snap! into Python. In Part A you fix a Python program and explain each bug, and in
+  Part B your group builds a web app with Microsoft Copilot and tests it
 - Its final part, Part 2C, is a viva voce, held from Wed Dec 2 to Fri Dec 4. It is a short live
-  presentation by your group, in person, where you demonstrate your program and answer questions
-  about the decisions behind it. Every member speaks
+  presentation by your group, in person, where you demonstrate your app and answer questions about
+  the decisions behind it. Every member speaks
 - The viva voce is a [passing requirement](syllabus.md#passing-criteria), so you have to attend
   and take part in person
 - Part 2C is marked the same way as Part 1C: 90% the viva voce, 5% your stand-ups and 5% the

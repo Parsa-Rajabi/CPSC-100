@@ -12,6 +12,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 13 | Added Pre-lab 8, the Project 2 proposal, due Thu Nov 12. |
 | Oct 13 | Added the Project 2 dates. |
 | Oct 13 | Added Pre-lab 5, your Project 1 case, due Mon Oct 19. |
 | Oct 11 | Corrected the Project 1A due date in Week 5: the day after your lab, Thu Oct 8 or Fri Oct 9, not the end of the lab hour. |
@@ -37,11 +38,11 @@ Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and 
 | 6 | Oct 12 - 16 | W6A: no class, Thanksgiving<br>W6B: Algorithmic Bias<br>W6C: Snap 4, functions and lists | *No quiz* | [Lab 4](labs.md#schedule) | Stand-up 2, Fri Oct 16, 4:00pm |
 | 7 | Oct 19 - 23 | W7A: Clustering (k-means), unsupervised learning<br>W7B: Recommender systems<br>W7C: Python 1, intro to Jupyter | *No quiz*, project due | [Lab 5](labs.md#schedule) | [Pre-lab 5](project-1.md#what-you-hand-in), your Part C case, Mon Oct 19<br>[Project 1B](project-1.md#part-b-the-ai-detector-experiment), Tue Oct 20<br>Stand-up 3, Fri Oct 23, 4:00pm |
 | 8 | Oct 26 - 30 | W8A: Programming 1<br>W8B: Programming 2<br>W8C: Python 2, control flow implementation | [Quiz 4](quizzes.md#schedule), Wed Oct 28 to Wed Nov 4 | [Lab 6](labs.md#schedule) | [Project 1C](project-1.md#part-c-algorithmic-bias-case-study), Tue Oct 27<br>Project 1 [retrospective](project-1.md#retrospectives) + [iPeer 1](project-peer-evaluation.md), Thu Oct 29<br>Stand-up 4, Fri Oct 30, 4:00pm |
-| 9 | Nov 2 - 6 | W9A: Programming 3<br>W9B: Programming 4<br>W9C: Python 3, putting it together | Quiz 4 continues to Wed Nov 4 | [Lab 7](labs.md#schedule) | [Project 2A](project.md), the day after your lab, Thu Nov 5 or Fri Nov 6<br>Stand-up 5, Fri Nov 6, 4:00pm |
-| 10 | Nov 9 - 13 | W10A: no class, Midterm Break<br>W10B: no class, Midterm Break<br>W10C: Digital Adolescence consolidation | *No quiz* | *No lab this week* | Stand-up 6, Fri Nov 13, 4:00pm |
+| 9 | Nov 2 - 6 | W9A: Programming 3<br>W9B: Programming 4<br>W9C: Python 3, putting it together | Quiz 4 continues to Wed Nov 4 | [Lab 7](labs.md#schedule) | [Project 2A](project-2.md#part-a-learning-to-communicate), the day after your lab, Thu Nov 5 or Fri Nov 6<br>Stand-up 5, Fri Nov 6, 4:00pm |
+| 10 | Nov 9 - 13 | W10A: no class, Midterm Break<br>W10B: no class, Midterm Break<br>W10C: Digital Adolescence consolidation | *No quiz* | *No lab this week* | [Pre-lab 8](project-2.md#pre-lab-8-your-proposal-and-sketch), your Project 2 proposal and sketch, Thu Nov 12<br>Stand-up 6, Fri Nov 13, 4:00pm |
 | 11 | Nov 16 - 20 | W11A: Artificial Intelligence 1<br>W11B: Artificial Intelligence 2<br>W11C: Artificial Intelligence 3 | [Quiz 5](quizzes.md#schedule), Wed Nov 18 to Wed Nov 25 | [Lab 8](labs.md#schedule) | Stand-up 7, Fri Nov 20, 4:00pm |
-| 12 | Nov 23 - 27 | W12A: Artificial Intelligence 4<br>W12B: Project work day<br>W12C: Digital Consent | Quiz 5 continues to Wed Nov 25 | [Lab 9](labs.md#schedule) | [Project 2B](project.md), Tue Nov 24<br>Stand-up 8, Fri Nov 27, 4:00pm |
-| 13 | Nov 30 - Dec 4 | W13A: Digital Traces<br>W13B: Computers and Society<br>W13C: Digital Adulthood consolidation | *No quiz* | [Lab 10](labs.md#schedule) | [Project 2C](project.md), the viva voce, Wed Dec 2 to Fri Dec 4<br>Project 2 [retrospective](project.md#retrospectives) + [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, the last one, Fri Dec 4, 4:00pm |
+| 12 | Nov 23 - 27 | W12A: Artificial Intelligence 4<br>W12B: Project work day<br>W12C: Digital Consent | Quiz 5 continues to Wed Nov 25 | [Lab 9](labs.md#schedule) | [Project 2B](project-2.md#part-b-vibe-coding), Tue Nov 24<br>Stand-up 8, Fri Nov 27, 4:00pm |
+| 13 | Nov 30 - Dec 4 | W13A: Digital Traces<br>W13B: Computers and Society<br>W13C: Digital Adulthood consolidation | *No quiz* | [Lab 10](labs.md#schedule) | [Project 2C](project-2.md#part-c-viva-voce), the viva voce, Wed Dec 2 to Fri Dec 4<br>Project 2 [retrospective](project.md#retrospectives) + [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, the last one, Fri Dec 4, 4:00pm |
 | 14 | Dec 7 | W14A: Course wrap-up. Last day of class. | | | |
 | - | see [important dates](syllabus.md#important-dates) | Final Exam Period | | | [Final Exam](final.md) |
 

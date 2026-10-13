@@ -10,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 13 | Pre-lab 8 is now your Project 2 proposal, on Canvas. |
 | Oct 13 | Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
 | Oct 13 | Pre-lab 5 is due earlier than the others, so the teaching team can check your Project 1 cases before Lab 5. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
@@ -46,7 +47,7 @@ Each section has a lead TA who runs it and a support TA who assists, so you see 
 Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation Day, or in Week 10, for Midterm Break. The focus below is a rough guide. What each lab actually covers is posted on PrairieLearn before the session.
 
 > [!NOTE]
-> Project deadlines aren't listed here. Labs 1 to 5 all support [Project 1](project-1.md), and every Project 1 date lives on [the Project 1 page](project-1.md#the-flow). That keeps a single copy to maintain.
+> Project deadlines aren't listed here. Labs 1 to 5 all support [Project 1](project-1.md), and every Project 1 date lives on [the Project 1 page](project-1.md#the-flow). Labs 6 to 10 support [Project 2](project-2.md), and its dates are on [the Project 2 page](project-2.md#the-flow). That keeps a single copy to maintain.
 
 | Week |  Lab   | Wed / Thu   | Focus                                                         |
 | :--: | :----: | :---------- | :------------------------------------------------------------ |
@@ -57,12 +58,12 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 |  5   |   3    | Oct 7 / 8   | [Project 1A](project-1.md#part-a-your-digital-footprint)      |
 |  6   |   4    | Oct 14 / 15 | [Project 1B](project-1.md#part-b-the-ai-detector-experiment)  |
 |  7   |   5    | Oct 21 / 22 | [Project 1C](project-1.md#part-c-algorithmic-bias-case-study) |
-|  8   |   6    | Oct 28 / 29 | Project 2 intro                                               |
-|  9   |   7    | Nov 4 / 5   | Python, and [Project 2A](project.md)                          |
+|  8   |   6    | Oct 28 / 29 | [Project 2](project-2.md) intro: debugging practice in Snap!   |
+|  9   |   7    | Nov 4 / 5   | Python, and [Project 2A](project-2.md#part-a-learning-to-communicate) |
 |  10  | *none* |             | *No lab. Midterm Break.*                                      |
-|  11  |   8    | Nov 18 / 19 | [Project 2B](project.md)                                      |
-|  12  |   9    | Nov 25 / 26 | [Project 2](project.md) work session                          |
-|  13  |   10   | Dec 2 / 3   | [Viva voce](project.md), which runs Wed Dec 2 to Fri Dec 4. Details announced closer to the date |
+|  11  |   8    | Nov 18 / 19 | [Project 2B](project-2.md#part-b-vibe-coding): building with an AI coding assistant |
+|  12  |   9    | Nov 25 / 26 | [Project 2](project-2.md) work session                        |
+|  13  |   10   | Dec 2 / 3   | [Viva voce](project-2.md#part-c-viva-voce), which runs Wed Dec 2 to Fri Dec 4. Details announced closer to the date |
 
 Need to reach your TA? Start with Ed Discussion, which is where lab questions belong. Email addresses and which kind of question goes where are on [Course Communication](communication.md). If you would rather ask in person, see [Drop-in Hours](drop-in-hours.md).
 
@@ -103,6 +104,8 @@ Most labs are marked in the session itself and need nothing from you afterwards.
 Every lab opens with your group already working, which only works if everyone arrives having thought about the problem first. That's what the pre-lab is for. It's a short set of questions on PrairieLearn, and it counts as part of that lab's grade rather than as a separate score.
 
 Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs 0.25 points, and turning up late costs another 0.25 points, because each one leaves your group waiting on you. The two deductions stack, so doing both costs 0.5 points. Your one free late arrival for the semester is covered under [Attendance and late arrival](#attendance-and-late-arrival). Pre-lab 5 is due earlier than the others, so the teaching team has time to check that no two groups in a lab section take the same Project 1 case. Its deadline is in the [What you hand in](project-1.md#what-you-hand-in) table on the Project 1 page.
+
+Pre-lab 8 is also an exception. It is your group's [Project 2 proposal and sketch](project-2.md#pre-lab-8-your-proposal-and-sketch), handed in on Canvas the week before Lab 8, so your TA has time to read it and give your group feedback in the lab. Because it is off the lab schedule, the course's default [late penalty](syllabus.md#late-deliverables) applies to it instead of the deductions above. Its deadline and late window are in the table on [the Project 2 page](project-2.md#pre-lab-8-your-proposal-and-sketch), and on Canvas.
 
 <details>
 <summary>Lab 0, the setup homework from Week 1</summary>

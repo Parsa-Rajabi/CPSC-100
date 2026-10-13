@@ -12,6 +12,7 @@
 - **Course Project**
   - [Project Overview](project.md)
   - [Project 1: From Data to Decisions](project-1.md)
+  - [Project 2: From Blocks to Code](project-2.md)
   - [Group Work Resources](group-work-resources.md)
   - [Peer Evaluation](project-peer-evaluation.md)
 
