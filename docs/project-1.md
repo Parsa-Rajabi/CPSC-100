@@ -547,19 +547,18 @@ Meets Expectations, plus every item listed for it below.
 
 | Criterion | To reach Exceeds Expectations, also do this |
 | :-- | :-- |
-| Tools and terms of service | For every answer to the three terms of service questions, quote the wording from the policy and name the section or heading it comes from. |
-| Results | Under your results table, give each tool's number of false positives (it said AI-generated about a real image) and false negatives (it said real about an AI-generated image). |
+| Tools and terms of service | For every answer to the three terms of service questions, quote the wording from the policy, name the section or heading it comes from, and add a screenshot of that part of the policy to your appendix with the wording highlighted. |
+| Results | For every tool that gives a percentage, count how many of its verdicts would change if your cut-off moved up or down by 10 percentage points, and give those counts under your results table. |
 | Closer look | Refer to every failure you discuss by its row in your results table. For each one, say how the other tools in your table did on the same image, and use that to explain whether the mistake comes from this tool or from something about the image. |
 | Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers. In your reflection, tie each cost to at least one specific error from your own results. |
-
-The dataset criterion has no Going further work.
 
 ### Part B rubric <!-- {docsify-ignore} -->
 
 Use this rubric to check your work before you submit. Part B is out of 100 points across five
 criteria. Your TA places each criterion in one of the four bands described in
 [How this is graded](#how-this-is-graded), starts at the top of that band, and takes points off for
-mistakes within it. The closer look is worth the most points, so plan the most time for it. The Exceeds Expectations row of each table summarizes that criterion's
+mistakes within it. The closer look is worth the most points, so plan the most time for it. The
+Exceeds Expectations row of each table summarizes that criterion's
 [Going further](#going-further-in-part-b) items.
 
 | Criterion | Points |
@@ -572,11 +571,6 @@ mistakes within it. The closer look is worth the most points, so plan the most t
 | Total | 100 |
 
 #### 1. Dataset (15 points)
-
-Your dataset was marked at the October 1 sign-off, using the rubric below. That mark carries into
-Part B unchanged, so there is nothing more to do for this criterion. If you re-submitted, your
-re-submission mark is the one that counts. The dataset is worth 15 points, so a sign-off mark of 90%
-gives 13.5 points.
 
 <details>
 <summary> A+ (90-100) </summary>
@@ -624,8 +618,8 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a quote and its section for every terms of service answer. |
-| Meets Expectations (A-, A) | 17.5 | One tool per group member, with a minimum of three. For every tool: its cost, availability, claims, reputation and your reason for use, a link to the terms of service you read, and an answer to each of the three questions. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a quote, its section and a highlighted screenshot for every terms of service answer. |
+| Meets Expectations (A-, A) | 17.5 | One tool per group member. For every tool: its cost, availability, claims, reputation and your reason for use, a link to the terms of service you read, and an answer to each of the three questions. |
 | Approaches Expectations (B- to B+) | 15.5 | The same gap appears for two or more tools. For example, one of the five things, the terms of service link, or an answer that addresses its question is missing for two or more tools. Also Approaches Expectations: fewer tools than group members, as long as there are at least three. |
 | Not Within Expectations (C+ and below) | 13 | There are fewer than three tools, or the five things or the three questions are missing for most tools. |
 
@@ -633,7 +627,7 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus each tool's number of false positives and false negatives under the table. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus, for every tool that gives a percentage, how many verdicts would change if your cut-off moved up or down by 10 percentage points. |
 | Meets Expectations (A-, A) | 17.5 | One results table covering every image and every tool. Each cell records the verdict, the confidence score if the tool gives one, and what the image actually was. For tools that give a percentage, your cut-off is written down and used the same way throughout. The appendix has screenshots of your results, each showing your computer clock. |
 | Approaches Expectations (B- to B+) | 15.5 | The table or the appendix has gaps. For example, more than one result in ten is missing, the table records only "correct" or "incorrect" instead of the verdicts, or none of the screenshots show the clock. |
 | Not Within Expectations (C+ and below) | 13 | Results are missing for at least one tool or for most images, or there are no screenshots. |
@@ -1222,9 +1216,6 @@ Three things to know:
   Doing only some of a criterion's Going further items keeps it in Meets Expectations.
 - Your TA picks the band first and starts at the top of it, the Starts at number in each rubric
   table. Small mistakes take points off within the band, and your feedback names each one.
-
-The Part B dataset criterion is the one exception. It keeps the rubric it was marked with at the
-October 1 sign-off.
 
 ### Making an argument with PEEL <!-- {docsify-ignore} -->
 
