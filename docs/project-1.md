@@ -19,7 +19,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Added the Part B and Part C rubrics, the optional Going further work that earns Exceeds expectations on each criterion, and a short guide to PEEL. The Part B dataset rubric is unchanged. Stand-ups and the retrospective are now each 5% of Part C, and peer evaluation covers your work in Parts B and C. Parts B and C are due at 11:59pm. |
+| Oct 13 | Added the Part B and Part C rubrics, the optional Going further work for an A+, and a guide to PEEL. Part C now includes your stand-ups and the retrospective, peer evaluation covers Parts B and C, and Parts B and C are due at 11:59pm. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -525,18 +525,9 @@ failure you didn't find.
 ### Going further in Part B <!-- {docsify-ignore} -->
 
 This section is for groups aiming for an A+. Everything above is what Meets expectations asks
-for, and doing it well earns an A- or an A on each criterion.
-
-The items below are optional, and they are the only way a criterion reaches Exceeds expectations
-(A+). None of them asks for more pages. Each one asks for more precision, and each one is something
-your TA can check and count.
-
-> [!TIP]
-> Decide early, as a group, which criteria you are aiming to exceed. These items are much easier to
-> build in as you go than to add the night before the deadline.
-
-To reach Exceeds on a criterion, do everything it asks for at Meets, plus every item listed for it
-below.
+for, and doing it well earns an A- or an A on each criterion. To reach Exceeds (A+) on a criterion,
+also do every item listed for it below. The items are optional, none of them asks for more pages,
+and each one is something your TA can check and count.
 
 | Criterion | To reach Exceeds, also do this |
 | :-- | :-- |
@@ -545,7 +536,11 @@ below.
 | Closer look | Refer to every failure you discuss by its row in your results table. Then use the pattern you found to predict one more image, not in your dataset, that the tool will get wrong. Run it, add the screenshot to your appendix, and say whether your prediction held. A prediction that turns out wrong still counts, as long as you report it honestly. |
 | Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers. In your reflection, tie each cost to at least one specific error from your own results. |
 
-The dataset criterion has no Going further work. It was marked at the October 1 sign-off.
+> [!TIP]
+> Decide early, as a group, which criteria you are aiming to exceed. These items are much easier to
+> build in as you go than to add the night before the deadline.
+
+The dataset criterion has no Going further work.
 
 ### Part B rubric <!-- {docsify-ignore} -->
 
@@ -845,15 +840,10 @@ answer about any part of it, not only their own section.
 
 ### Going further in Part C <!-- {docsify-ignore} -->
 
-As in Part B, everything above is what Meets expectations asks for, and doing it well earns an A-
-or an A on each criterion. The items below are optional, and they are the only way a criterion
-reaches Exceeds expectations (A+).
-
-Think of them as the difference between describing a case and taking it apart. Each item asks you
-to show one more step of your reasoning, and each one is something your TA can check and count.
-
-To reach Exceeds on a criterion, do everything it asks for at Meets, plus every item listed for it
-below.
+As in Part B, everything above is what Meets expectations asks for (A- or A), and the items below
+are the optional route to Exceeds (A+). To reach Exceeds on a criterion, also do every item listed
+for it. Each item asks for one more step of your reasoning: the difference between describing a
+case and taking it apart.
 
 | Criterion | To reach Exceeds, also do this |
 | :-- | :-- |
@@ -1197,10 +1187,10 @@ Three things to know:
 
 - Meets is a strong result. Doing everything this page asks for, and doing it well, earns an A-
   or an A on that criterion.
-- Exceeds is optional, and it is defined in advance, so you know exactly what an A+ asks for before
-  you start. Going further work only counts on top of Meets: it does not make up for something the instructions require. If you do some of a
-  criterion's Going further items but not all of them, your TA can raise your mark toward the top
-  of Meets, but only all of them reach Exceeds.
+- Exceeds is optional and defined in advance, so you know what an A+ asks for before you start.
+  Going further work counts only on top of Meets: it does not make up for something the
+  instructions require. Doing some of a criterion's Going further items can raise your mark toward
+  the top of Meets, but only all of them reach Exceeds.
 - Your TA picks the band first, then your mark within it. Small mistakes move your mark down inside
   the band, and your feedback names what they were.
 
@@ -1270,9 +1260,8 @@ Project 2 gets announced later in the term, but a few things you can plan around
 - It moves from Snap! into Python. You'll write and annotate a program in Snap!, then translate it
   into Python code
 - Its final part, Part 2C, is a viva voce, held from Wed Dec 2 to Fri Dec 4. It is a short live
-  presentation by your group, in person,
-  where you demonstrate your program and answer questions about the decisions behind it. Every
-  member speaks
+  presentation by your group, in person, where you demonstrate your program and answer questions
+  about the decisions behind it. Every member speaks
 - The viva voce is a [passing requirement](syllabus.md#passing-criteria), so you have to attend
   and take part in person
 - Part 2C is marked the same way as Part 1C: 90% the viva voce, 5% your stand-ups and 5% the

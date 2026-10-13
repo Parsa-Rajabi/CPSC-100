@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Added the grade breakdown for both projects. Stand-ups and the retrospective are now each 5% of Part C, peer evaluation covers your work in Parts B and C, and the multiplier applies to all of Part C. The Project 2 viva voce is now a live group presentation, not one-on-one. Added the Project 2 due dates, and the viva voce runs from Wed Dec 2 to Fri Dec 4. |
+| Oct 13 | Added the grade breakdown: Part C now includes your stand-ups and the retrospective, and peer evaluation covers Parts B and C. Added the Project 2 dates, and the viva voce is now a live group presentation from Wed Dec 2 to Fri Dec 4. |
 | Sep 30 | Added the stand-up schedule and late penalties, and late penalties for retrospectives. Late stand-ups, retrospectives and peer evaluations are now listed as exceptions to the no-late-work rule. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
 | Sep 25 | Added group contract penalties and the Thu Oct 1 re-submission deadline. |
@@ -57,17 +57,14 @@ It has three parts, a mix of individual and group work:
 
 ## Grade breakdown
 
-This section shows how the project adds up to 30% of your course grade, so you can see where your
-effort counts. Project 1 and Project 2 are 15% each, and both have the same three parts, worth the
-same amounts.
+The project is 30% of your course grade, 15% for each project. Both projects have the same three
+parts, and the weights below are percentages of your course grade.
 
 | Part | Weight | Who does it | Project 1 | Project 2 | How it is marked |
 | :--: | :--: | :-- | :-- | :-- | :-- |
 | A | 1% | Individual, in lab | Your digital footprint | A Snap! program with annotations | Complete, partial or incomplete |
 | B | 4% | Group, after some individual work, with lab time to work on it | The AI detector experiment | Translating your program into Python | A rubric, with one grade for the group |
 | C | 10% | Group, with an individual multiplier | Algorithmic bias case study: a report and a recorded video | Viva voce: a live group presentation | A rubric, plus your stand-ups and the retrospective |
-
-The weights are percentages of your course grade, so each project adds up to 15%.
 
 ### What makes up Part C <!-- {docsify-ignore} -->
 
@@ -179,7 +176,7 @@ Use the retrospective template, available in both formats:
 
 ### Peer evaluation
 
-In peer evaluation, group members rate each other's contribution to Parts B and C. It runs in iPeer and acts as a multiplier on your whole Part C mark, the heaviest part of each project. It is what allows people in the same group to end up with different grades. See [Your individual Part C mark](#your-individual-part-c-mark). See [Project Peer Evaluation](project-peer-evaluation.md) for the formula and the criteria.
+In peer evaluation, group members rate each other's contribution to Parts B and C. It runs in iPeer and acts as a multiplier on your whole Part C mark, the heaviest part of each project. It is what allows people in the same group to end up with different grades. [Your individual Part C mark](#your-individual-part-c-mark) shows the steps, and [Project Peer Evaluation](project-peer-evaluation.md) has the formula and the criteria.
 
 ### Group contract
 

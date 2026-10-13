@@ -7,7 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | In iPeer 1 and iPeer 2 you now rate each teammate's contribution to Parts B and C. The multiplier applies to your whole Part C mark, which now includes your stand-ups and the retrospective. The formula is unchanged. Corrected the late-penalty example to 0.8417 and 75.75%. |
+| Oct 13 | In iPeer 1 and iPeer 2 you now rate contribution to Parts B and C, and the multiplier applies to your whole Part C mark. Corrected the late-penalty example to 0.8417 and 75.75%. |
 | Sep 30 | iPeer 0 is now required, with a small late penalty and no quality deductions. Every round must be submitted, even late. |
 | Sep 24 | Reworded for readability. |
 
@@ -28,7 +28,7 @@ All three are due at 11:59pm Pacific. The [Schedule](schedule.md) page shows the
 
 The graded rounds count for marks. They apply a peer evaluation multiplier to each student's milestone grade. A multiplier is a number that your grade gets multiplied by.
 
-In iPeer 1 and iPeer 2, rate each teammate's contribution across Parts B and C of that project, since both are group work. The milestone the multiplier applies to is your whole Part C mark: the report and video or viva voce, your stand-ups, and the retrospective. Parts A and B are not multiplied. The steps are on the Project page, under [Your individual Part C mark](project.md#your-individual-part-c-mark).
+In iPeer 1 and iPeer 2, rate each teammate's contribution across Parts B and C of that project, since both are group work. The multiplier applies to your whole Part C mark: the report and video or viva voce, your stand-ups, and the retrospective. Parts A and B are not multiplied. The steps are on the Project page, under [Your individual Part C mark](project.md#your-individual-part-c-mark).
 
 The purpose of this policy is to recognize meaningful contribution, reliability, collaboration, and professionalism in team-based work. Peer evaluation is not meant to reward popularity or penalize personality differences. It is meant to help the teaching team work out how the work was actually shared within the group.
 

@@ -12,7 +12,8 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Corrected the Project 1A due date in Week 5: the day after your lab, Thu Oct 8 or Fri Oct 9, not the end of the lab hour. Added the Project 2 dates: Part A the day after your Lab 7, Part B on Tue Nov 24, and the viva voce from Wed Dec 2 to Fri Dec 4. |
+| Oct 13 | Added the Project 2 dates: Part A the day after your Lab 7, Part B on Tue Nov 24, and the viva voce from Wed Dec 2 to Fri Dec 4. |
+| Oct 11 | Corrected the Project 1A due date in Week 5: the day after your lab, Thu Oct 8 or Fri Oct 9, not the end of the lab hour. |
 | Oct 5 | Quiz 5 is now the last quiz. Quiz 3 runs Wed Oct 7 to Wed Oct 14, Quiz 4 moved to Wed Oct 28 to Wed Nov 4, and Quiz 5 to Wed Nov 18 to Wed Nov 25. No quiz in Weeks 6 and 12. |
 | Sep 30 | Added the weekly stand-ups, due Fridays at 4:00pm from Oct 2 to Dec 4. Marked iPeer 0 as required. |
 | Sep 28 | Quiz windows now run through the weekend, Wednesday to Sunday. Added the retrospective due dates, including a practice round on Thu Oct 1. |

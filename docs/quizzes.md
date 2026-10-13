@@ -7,7 +7,8 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 11 | Corrected when booking opens. Quiz booking opens on a Tuesday, about two weeks before the quiz window, and viewing booking opens on the Sunday before the viewing window. No dates changed. The viva voce is now a group presentation, not one-on-one, held from Wed Dec 2 to Fri Dec 4. |
+| Oct 13 | The viva voce is now a group presentation, held from Wed Dec 2 to Fri Dec 4. |
+| Oct 11 | Corrected when booking opens. Quiz booking opens on a Tuesday, about two weeks before the quiz window, and viewing booking opens on the Sunday before the viewing window. No dates changed. |
 | Oct 6 | Added the Quiz 4 and Quiz 5 viewing windows. Quiz 5 booking now opens Tue Nov 3. The all-quiz viewing now runs Thu Nov 19 to Mon Dec 7, with booking from Sun Nov 15. |
 | Oct 5 | Added where to find your quiz grade: in PrairieLearn after you finish, not in PrairieTest. |
 | Oct 5 | Added the tentative new material for Quizzes 4 and 5. |
