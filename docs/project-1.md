@@ -21,6 +21,7 @@
 | Date | Update |
 | :--: | :----- |
 | Oct 13 | Added the Part B and Part C rubrics, the optional Going further work for an A+, and a guide to PEEL. Part C now includes your stand-ups and the retrospective, peer evaluation covers Parts B and C, and Parts B and C are due at 11:59pm. |
+| Oct 13 | Part C sources must now use one citation style, named at the top of your list. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -620,7 +621,7 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations for 6 tools (a group of 4) or 8 tools (a group of 5), plus a quote, its section and a highlighted screenshot for every terms of service answer, or a screenshot of where you looked when the policy does not answer. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations on 6 tools for groups of 4, or 8 for groups of 5, plus a quote, its section and a highlighted screenshot for every terms of service answer, or a screenshot of where you looked when the policy does not answer. |
 | Meets Expectations (A-, A) | 17.5 | One tool per group member. For every tool: its cost, availability, claims, reputation and your reason for use, a link to the terms of service you read, and an answer to each of the three questions. |
 | Approaches Expectations (B- to B+) | 15.5 | The same gap appears for two or more tools. For example, one of the five things, the terms of service link, or an answer that addresses its question is missing for two or more tools. Also Approaches Expectations: fewer tools than group members, as long as there are at least three. |
 | Not Within Expectations (C+ and below) | 13 | There are fewer than three tools, or the five things or the three questions are missing for most tools. |
@@ -762,7 +763,8 @@ At the top, give the case name, the country, and your group members.
 8. Should they change it? Give one argument for changing the system and one against, both based
    on a real trade-off rather than an easy target.
 9. Sources. At least three, of which at least two are primary. News coverage of a single event
-   counts as one source, not three.
+   counts as one source, not three. List them in one citation style, such as APA or IEEE, and
+   write the name of the style at the top of the list. Any style is fine, as long as you use one.
 
 </details>
 
@@ -851,7 +853,8 @@ answer about any part of it, not only their own section.
 ### What you need to hand in <!-- {docsify-ignore} -->
 
 - The written report, all nine sections. A maximum page count will be announced later
-- At least three sources, of which at least two are primary, and all of them checked
+- At least three sources, of which at least two are primary, all of them checked and listed in one
+  citation style that you name at the top of the list
 - A recorded video with every member speaking, up to 2 minutes each, covering sections 6, 7 and 8
 - Sections 6, 7 and 8, in the report and in the video, make their points using
   [PEEL](#making-an-argument-with-peel)
@@ -909,7 +912,7 @@ marked twice for the same point. The video criterion covers only the video's own
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus a source named after every fact in sections 2 to 4. |
-| Meets Expectations (A-, A) | 8.5 | The case is connected to Canada or a country in Asia, is claimed on Ed Discussion, and is documented by a regulator's report, a court filing or investigative journalism. Section 9 lists at least three sources, at least two of them primary, with news coverage of one event counted as one source. |
+| Meets Expectations (A-, A) | 8.5 | The case is connected to Canada or a country in Asia, is claimed on Ed Discussion, and is documented by a regulator's report, a court filing or investigative journalism. Section 9 lists at least three sources, at least two of them primary, with news coverage of one event counted as one source. The list uses one citation style, named at the top of the list. |
 | Approaches Expectations (B- to B+) | 7.5 | The case is in scope and claimed, but the sources fall short once news coverage of one event is counted as one source. For example, there are only two sources, or fewer than two are primary. Extra coverage beyond the requirement does not lower the band. |
 | Not Within Expectations (C+ and below) | 6.5 | The case is outside the scope or is documented only by blog posts or a single news story, or there are fewer than two sources. |
 
