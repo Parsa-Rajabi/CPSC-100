@@ -12,6 +12,7 @@
 | :--: | :----- |
 | Oct 13 | Pre-lab 8 is now your Project 2 proposal, on Canvas. |
 | Oct 13 | Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
+| Oct 13 | Pre-lab 5 is due earlier than the others, so the teaching team can check your Project 1 cases before Lab 5. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
 
 </details>
@@ -102,7 +103,7 @@ Most labs are marked in the session itself and need nothing from you afterwards.
 
 Every lab opens with your group already working, which only works if everyone arrives having thought about the problem first. That's what the pre-lab is for. It's a short set of questions on PrairieLearn, and it counts as part of that lab's grade rather than as a separate score.
 
-Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs 0.25 points, and turning up late costs another 0.25 points, because each one leaves your group waiting on you. The two deductions stack, so doing both costs 0.5 points. Your one free late arrival for the semester is covered under [Attendance and late arrival](#attendance-and-late-arrival).
+Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs 0.25 points, and turning up late costs another 0.25 points, because each one leaves your group waiting on you. The two deductions stack, so doing both costs 0.5 points. Your one free late arrival for the semester is covered under [Attendance and late arrival](#attendance-and-late-arrival). Pre-lab 5 is due earlier than the others, so the teaching team has time to check that no two groups in a lab section take the same Project 1 case. Its deadline is in the [What you hand in](project-1.md#what-you-hand-in) table on the Project 1 page.
 
 Pre-lab 8 is the exception. It is your group's [Project 2 proposal and sketch](project-2.md#pre-lab-8-your-proposal-and-sketch), handed in on Canvas the week before Lab 8. Because it is off the lab schedule, the course's default [late penalty](syllabus.md#late-deliverables) applies to it instead of the deductions above. Its deadline and late window are in the table on [the Project 2 page](project-2.md#pre-lab-8-your-proposal-and-sketch), and on Canvas.
 

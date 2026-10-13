@@ -6,7 +6,6 @@
 >
 > - How to disclose your AI use in Parts B and C: the process and the form to use. Part A has its
 >   own [AI use line](#using-ai-in-part-a)
-> - How to submit the Part C video, and the Part C page limit
 > - Rough time estimates for each part
 >
 > The rubrics for all three parts are posted: [Part A](#part-a-rubric), [Part B](#part-b-rubric)
@@ -23,6 +22,7 @@
 | Oct 13 | Updated the Project 2 preview to match the new Project 2 page. |
 | Oct 13 | Added the Part B and Part C rubrics, with new rules for the Part C video and sources. |
 | Oct 13 | Part C: the report now covers the facts and sources, and the video covers the argument and carries most of the marks. |
+| Oct 13 | Part C: each member now proposes a case in Pre-lab 5, which replaces claiming a case on Ed Discussion. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -85,6 +85,7 @@ Pacific time.
 | What you hand in | Who | Due | Where |
 | :--------------- | :-- | :-- | :---- |
 | Part A: your annotated Snap! project, and one PDF with your two scores and a short reflection | Individual | The day after your Lab 3: Thu Oct 8 (L1A to L1D) or Fri Oct 9 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2597084) |
+| Pre-lab 5: one proposed case for Part C | Individual | Mon Oct 19, 11:59pm | [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/) |
 | Part B: two documents, your image dataset and your evaluation | Group | Tue Oct 20, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | Part C: a short written report (sections 1 to 5), with the link to your recorded video at the top | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Stand-ups](#weekly-stand-ups) 1 to 4 | Individual | Every Friday from Oct 9 to Oct 30, 4:00pm | Ed Discussion |
@@ -110,7 +111,7 @@ own page once the Project 1B and Project 1C assignments exist. -->
 | 4 | *no lab* | Independent work. Truth and Reconciliation Day. | Image dataset for TA sign-off, Thu Oct 1<br>[Peer evaluation practice round](project-peer-evaluation.md), Thu Oct 1<br>[Group contract](project.md#group-contract) re-submissions, Thu Oct 1<br>[Stand-up 0](#weekly-stand-ups), a required practice round, Fri Oct 2 |
 | 5 | Lab 3 | Part A runs in lab, start to finish. | Part A, the day after your lab<br>Stand-up 1, Fri Oct 9 |
 | 6 | Lab 4 | Working block for Part B. | Stand-up 2, Fri Oct 16 |
-| 7 | Lab 5 | Working block for Part C. | Part B, Tue Oct 20<br>Stand-up 3, Fri Oct 23 |
+| 7 | Lab 5 | Working block for Part C. | Pre-lab 5, Mon Oct 19<br>Part B, Tue Oct 20<br>Stand-up 3, Fri Oct 23 |
 | 8 | Lab 6 | Project 2 begins. | Part C, Tue Oct 27<br>Retrospective and [iPeer 1](project-peer-evaluation.md)<br>Stand-up 4, Fri Oct 30 |
 
 Three things to notice:
@@ -711,8 +712,8 @@ Your case needs to:
 - Be connected to Canada or to a country in Asia
 - Be chosen after the Algorithmic Bias lecture on October 14, which gives you Ruha Benjamin's
   four categories. Your video is built around them
-- Be claimed on Ed Discussion, by replying to the Part C thread. Read the existing replies before
-  you settle on a case
+- Be proposed in Pre-lab 5 on [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/).
+  Each member proposes a different case
 - Be documented, meaning there is a regulator's report, a court filing, or investigative
   journalism about it. A blog post asserting that something happened is not enough
 
@@ -720,11 +721,16 @@ Your case needs to:
 > If you can't find a regulator's finding, a court document or an official statement, your case
 > may not be documented well enough to use. Talk to your TA early, not in the final week.
 
-<!-- TODO: instructor decision required. Whether two groups in the same lab section may take the
-same case. The earlier docs/ draft made this a firm rule; the dev-repo draft lists it as open.
-With five sections and a Canada-or-Asia scope, well-documented cases may be thin enough that a
-hard rule causes problems. Currently written as "claim it and read the replies", which nudges
-without forbidding. -->
+No two groups in the same lab section can take the same case. The teaching team checks every
+Pre-lab 5 case before Lab 5, and lets your group know which of its cases are taken:
+
+1. If two groups in your section propose the same case, the group whose member submitted it first
+   keeps it.
+2. Cases submitted after the Pre-lab 5 deadline are checked after the ones submitted on time.
+3. Your group brings its remaining cases to Lab 5 and picks one there.
+
+The Pre-lab 5 deadline is in the [What you hand in](#what-you-hand-in) table. It is earlier than
+the usual pre-lab deadline so the teaching team has Tuesday to check the cases.
 
 </details>
 
@@ -925,7 +931,7 @@ these:
   to 2 minutes each, covering the four parts
 - The four parts of the video make their points using [PEEL](#making-an-argument-with-peel), with
   your sources as evidence
-- A case connected to Canada or a country in Asia, claimed on Ed Discussion
+- A case connected to Canada or a country in Asia
 
 ### Where you have a choice <!-- {docsify-ignore} -->
 
@@ -984,8 +990,8 @@ word, both Delivery and the criterion for the part they covered drop to Approach
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus a source named after every fact in report sections 2 to 4. |
-| Meets Expectations (A-, A) | 8.5 | The case is connected to Canada or a country in Asia, is claimed on Ed Discussion, and is documented by a regulator's report, a court filing or investigative journalism. Section 5 lists at least three sources, at least two of them primary, with news coverage of one event counted as one source. The list uses one citation style, named at the top of the list. |
-| Approaches Expectations (B- to B+) | 7.5 | The case is in scope and claimed, but the sources fall short once news coverage of one event is counted as one source. For example, there are only two sources, or fewer than two are primary. Extra coverage beyond the requirement does not lower the band. |
+| Meets Expectations (A-, A) | 8.5 | The case is connected to Canada or a country in Asia, and is documented by a regulator's report, a court filing or investigative journalism. Section 5 lists at least three sources, at least two of them primary, with news coverage of one event counted as one source. The list uses one citation style, named at the top of the list. |
+| Approaches Expectations (B- to B+) | 7.5 | The case is in scope, but the sources fall short once news coverage of one event is counted as one source. For example, there are only two sources, or fewer than two are primary. Extra coverage beyond the requirement does not lower the band. |
 | Not Within Expectations (C+ and below) | 6.5 | The case is outside the scope or is documented only by blog posts or a single news story, or there are fewer than two sources. |
 
 A source that does not exist, or that does not say what you claim, is not marked here. It is
