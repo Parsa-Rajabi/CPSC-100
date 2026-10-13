@@ -21,7 +21,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Added the Project 2 instructions and dates, the rubrics for all three parts, the optional Going further work for an A+, and Pre-lab 8 with its late penalty. |
+| Oct 13 | Added the Project 2 instructions, dates and rubrics. |
 
 </details>
 

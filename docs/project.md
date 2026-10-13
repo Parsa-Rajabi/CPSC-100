@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Project 2 is now described in full on the [Project 2](project-2.md) page. Part A is now debugging a Python program, and Part B is building a web app with Microsoft Copilot. |
+| Oct 13 | Added the [Project 2](project-2.md) page. Part A is now Python debugging, and Part B is a Copilot web app. |
 | Oct 13 | Added the grade breakdown and the Project 2 dates. The viva voce is now a group presentation. |
 | Sep 30 | Added the stand-up schedule and late penalties, and late penalties for retrospectives. Late stand-ups, retrospectives and peer evaluations are now listed as exceptions to the no-late-work rule. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |

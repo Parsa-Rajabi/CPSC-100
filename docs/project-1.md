@@ -20,7 +20,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Updated the Project 2 preview: Part A is now debugging a Python program, and Part B is building a web app with Copilot. |
+| Oct 13 | Updated the Project 2 preview to match the new Project 2 page. |
 | Oct 13 | Added the Part B and Part C rubrics, with new rules for the Part C video and sources. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |

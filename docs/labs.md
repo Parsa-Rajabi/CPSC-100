@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Pre-lab 8 is your group's Project 2 proposal and sketch, handed in on Canvas by Thu Nov 12 instead of on PrairieLearn, with the course's default late penalty. |
+| Oct 13 | Pre-lab 8 is now your Project 2 proposal, on Canvas. |
 | Oct 13 | Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
 
