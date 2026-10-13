@@ -1,8 +1,8 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> Read this page with your group before Lab 7. Everything below is solid enough to plan around, and
-> a few details are still to come:
+> This page is not finished yet, but everything below is solid enough to plan around. Please read
+> it now. A few things are still to come:
 >
 > - The viva voce format: how long each session is, how to book your slot, where it takes place,
 >   and what you may bring
@@ -21,7 +21,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Published the Project 2 instructions, rubrics and dates. |
+| Oct 13 | Added the Project 2 instructions and dates, the rubrics for all three parts, the optional Going further work for an A+, and Pre-lab 8 with its late penalty. |
 
 </details>
 
@@ -331,13 +331,16 @@ It counts as Pre-lab 8 for every member of your group, so it is part of your Lab
 your project grade. Unlike the other pre-labs, it is handed in on Canvas, and it is due the week
 before your lab rather than when your section starts.
 
+Because Pre-lab 8 is off the lab schedule, the course's default late penalty applies to it instead
+of the pre-lab deductions on the [Labs](labs.md#the-pre-lab) page. You can hand it in up to 24 hours
+late, by 11:59pm Friday November 13, with a 25% penalty. After that it is not accepted, and it
+scores 0. See [Late Deliverables](syllabus.md#late-deliverables).
+
 <!-- TODO: instructor decision required. Pre-lab 8 details chosen while drafting, from "Pre-lab 8 =>
 Project Idea Proposal + Sketch, due on Thursday, Nov 12 via Canvas":
   1. One submission per group, credited to every member. The other pre-labs are individual.
   2. Due at 11:59pm, the course default.
-  3. What a late or missing Pre-lab 8 costs. The Labs page charges 0.25 points for a pre-lab not
-     done on arrival, which does not map onto a deadline a week before the lab.
-  4. TA feedback in Lab 8. -->
+  3. TA feedback in Lab 8. -->
 
 <details>
 <summary>Your design requirements document</summary>
@@ -538,13 +541,13 @@ As a group, discuss which grade bracket you are aiming for and what it will take
 realistic about everyone's availability and willingness to put in the work. Do not overpromise and
 underdeliver to each other. Agree on expectations that everyone understands and can commit to.
 
-To reach the A+ / Exceeds Expectations category, your viva voce must meet all of the expectations
-and demonstrate the additional depth and attention to detail described in the rubric. Plan for
-these expectations from the beginning. They are difficult to address well as last-minute
+To reach the A+ / Exceeds Expectations category, your submission must meet all of the
+expectations and demonstrate the additional depth and attention to detail described in the rubric.
+Plan for these expectations from the beginning. They are difficult to address well as last-minute
 additions.
 
 These criteria have been chosen deliberately, and TAs will look for clear evidence of them in your
-viva voce.
+work.
 
 ### What happens <!-- {docsify-ignore} -->
 
@@ -599,8 +602,11 @@ because it makes the next meal easier for our user to find" is.
 > The viva voce is where you show your own understanding, and it is covered by the
 > [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries).
 >
-> You must explain your work and answer questions yourself, without AI during the session. AI can
-> help you prepare, within what the policy allows, but you need to understand everything you say.
+> You need to explain your work and your group's decisions yourself, and answer questions without
+> AI during the session.
+>
+> AI can help you prepare, within what the policy allows, but you need to understand everything
+> you say.
 
 There are no regrades for viva voces. The teaching team calibrates its marking before the sessions,
 so every group is marked to the same standard.
@@ -620,10 +626,10 @@ Meets Expectations, plus every item listed for it below.
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
-Use this rubric to prepare for your viva voce. The teaching team marks it out of 100 points across
-five criteria, the same way as Part B, and that score is 90% of Part C. Design decisions and testing
-are worth the most points, so give them the most preparation time. The Exceeds Expectations row of
-each table summarizes that criterion's [Going further](#going-further-in-part-c) items.
+Use this rubric to prepare for your viva voce. It is marked out of 100 points across five
+criteria, the same way as Part B, and that score is 90% of Part C. Design decisions and testing are
+worth the most points, so give them the most time. The Exceeds Expectations row of each table
+summarizes that criterion's [Going further](#going-further-in-part-c) items.
 
 The other 10% of Part C is your stand-ups 5 to 9 (5%) and the Project 2 retrospective (5%), and
 your peer evaluation multiplier applies to all of Part C. The
@@ -640,7 +646,7 @@ your peer evaluation multiplier applies to all of Part C. The
 
 #### 1. Demonstration (15 points)
 
-| Band | Starts at | What your viva voce shows |
+| Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one realistic user task shown from start to finish, with a risk handled. |
 | Meets Expectations (A-, A) | 13 | The app runs on the device you present with. You show its main features working, and say which need of your user each one serves. |
@@ -649,7 +655,7 @@ your peer evaluation multiplier applies to all of Part C. The
 
 #### 2. Design decisions and course concepts (25 points)
 
-| Band | Starts at | What your viva voce shows |
+| Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus, for two features, a design you considered and why you chose against it. |
 | Meets Expectations (A-, A) | 22 | Your answers explain who your user is, how each feature helps them, and why you designed the app this way. You can show where each course concept appears in the app and explain how it works there. Your reasons come from your user, not from what Copilot suggested. |
@@ -658,7 +664,7 @@ your peer evaluation multiplier applies to all of Part C. The
 
 #### 3. Testing and bugs (25 points)
 
-| Band | Starts at | What your viva voce shows |
+| Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus one bug explained at the level of the code that caused it. |
 | Meets Expectations (A-, A) | 22 | You explain how you decided what to test and which methods you used. You walk through one bug you found: how you found it, and how you fixed it. |
@@ -667,7 +673,7 @@ your peer evaluation multiplier applies to all of Part C. The
 
 #### 4. Changes along the way (15 points)
 
-| Band | Starts at | What your viva voce shows |
+| Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one change in how you prompted Copilot after it went wrong, and what happened next. |
 | Meets Expectations (A-, A) | 13 | You explain what changed from your design requirements document and why. You describe at least one place where Copilot got it wrong, and how you noticed. |
@@ -676,7 +682,7 @@ your peer evaluation multiplier applies to all of Part C. The
 
 #### 5. Answering as a group (20 points)
 
-| Band | Starts at | What your viva voce shows |
+| Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus every member building on a teammate's answer at least once. |
 | Meets Expectations (A-, A) | 17.5 | Every member answers questions, including about parts of the app they did not build. The answers are your own, given without AI, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). |
@@ -720,8 +726,9 @@ costs your group 1% of its Part C grade for every 12 hours late, or part of 12 h
 
 ### Peer evaluation <!-- {docsify-ignore} -->
 
-iPeer 2 is due on Thursday December 3. Your teammates rate your contribution to Parts B and C, and
-the multiplier applies to your whole Part C mark. Parts A and B are not multiplied. See
+iPeer 2 is due on Thursday December 3. Your teammates rate your contribution to Parts B and C, so
+how you work with your group in Part B counts too. Their ratings become a multiplier on your whole
+Part C mark, the heaviest part of each project. Parts A and B are not multiplied. See
 [Project Peer Evaluation](project-peer-evaluation.md).
 
 iPeer is a small weighted scoring system: it turns ratings about a person into a decision that
@@ -754,10 +761,10 @@ fabrication.
 > Fabrication means a zero on the project for the student responsible. The rest of the group gets
 > a zero on Part B.
 >
-> Your individual Part A is not affected by a fabrication finding in Part B.
+> Your individual Part A is not affected by a fabrication finding in a group part.
 
 AI use is covered by the [AI Policy](ai-policy.md). Whatever tools you use, you are responsible for
-the accuracy of what you hand in, and you must be able to explain anything submitted under your
+the accuracy of what you hand in, and you should be able to explain anything submitted under your
 name. The viva voce is where we ask you to.
 
 <!-- TODO: instructor decision required. The fabrication policy mirrors Project 1's, including its
@@ -797,18 +804,17 @@ Three things to know:
 - Exceeds Expectations is optional and defined in advance. Complete everything at Meets
   Expectations first, because Going further work does not make up for a missing requirement.
   Doing only some of a criterion's Going further items keeps it in Meets Expectations.
-- Your TA, or the teaching team for the viva voce, picks the band first and starts at the top of
-  it, the Starts at number in each rubric table. Small mistakes take points off within the band,
-  and your feedback names each one.
+- Your TA picks the band first and starts at the top of it, the Starts at number in each rubric
+  table. Small mistakes take points off within the band, and your feedback names each one.
 
 ### What is already decided <!-- {docsify-ignore} -->
 
 - Part A is graded individually and is not affected by peer evaluation
-- Part B and the viva voce receive a group grade
-- Part C is 90% the viva voce, 5% your stand-ups and 5% the retrospective. See the
+- Part B, and the viva voce in Part C, receive a group grade
+- Part C is 90% viva voce, 5% your stand-ups and 5% the retrospective. See the
   [grade breakdown](project.md#grade-breakdown)
 - Peer evaluation rates your contribution to Parts B and C, and its multiplier applies to your
-  whole Part C mark
+  whole Part C mark. See [Working as a group](#working-as-a-group)
 - Pre-lab 8 is part of your Lab 8 grade, not your project grade
 
 > [!ATTENTION]
@@ -817,8 +823,8 @@ Three things to know:
 > Stand-ups, retrospectives and peer evaluations are exceptions. A late one is still required, and
 > it costs marks instead. See [Where to submit](project.md#where-to-submit).
 >
-> If you are running out of time, submit a partial version rather than nothing. An incomplete
-> submission earns some marks, and a missing one earns none.
+> If you are running out of time, submit a partial document rather than nothing. An incomplete
+> submission earns some marks; a missing one earns none.
 >
 > If something serious or ongoing is happening, use the
 > [academic concession](syllabus.md#academic-concessions) process and tell us early rather than
