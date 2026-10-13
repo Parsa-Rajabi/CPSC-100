@@ -493,13 +493,13 @@ mistakes within it. Testing is worth the most points, so plan the most time for 
 Expectations row of each table summarizes that criterion's [Going further](#going-further-in-part-b)
 items.
 
-| Criterion | Points |
-| :-- | :--: |
-| 1. Design requirements document | 20 |
-| 2. The app and its course concepts | 20 |
-| 3. Testing | 35 |
-| 4. Working with Copilot | 25 |
-| Total | 100 |
+| Criterion | Marked from | Points |
+| :-- | :-- | :--: |
+| 1. Design requirements document | Design requirements document | 20 |
+| 2. The app and its course concepts | Your app and your design requirements document | 20 |
+| 3. Testing | Testing report | 35 |
+| 4. Working with Copilot | Copilot transcripts and testing report | 25 |
+| Total | | 100 |
 
 #### 1. Design requirements document (20 points)
 
@@ -605,7 +605,8 @@ Testing and finding bugs:
 Changes along the way:
 
 - What changed from your design requirements document, and why?
-- Where did Copilot get it wrong, and how did you notice? If it never did, how did you check its code?
+- Where did Copilot get it wrong, and how did you notice? If it never did, how did you check its
+  code?
 
 Connect your answers to your user. "Copilot suggested it" is not a reason on its own. "We kept it
 because it makes the next meal easier for our user to find" is.
@@ -618,15 +619,30 @@ because it makes the next meal easier for our user to find" is.
 - Re-read your design requirements document and your testing report
 - Make sure every member can explain every part of the app, including code they did not prompt for
 - Test your demo on the device you will present with
+- Decide who demonstrates which feature, and practise the handovers
 
 </details>
 
+### How to present <!-- {docsify-ignore} -->
+
+These rules exist because the viva voce is where you show your own understanding. Your own words
+make that visible.
+
+- Speak, do not read. A few words of notes are fine. Reading an answer word for word from a script,
+  your documents or your slides puts your delivery, and the criterion that answer belongs to, in
+  Approaches Expectations.
+- Speak so that everyone in the room can hear you. If you do not hear or understand a question, ask
+  us to repeat it.
+- Use your documents as evidence. When you mention a feature or a test, name it by its number, such
+  as F2 or T3.
+- Practise together before your session. A demo that runs without restarts or long pauses, with
+  each member picking up from the one before, is what reaches Exceeds Expectations.
+
 > [!WARNING]
-> The viva voce is where you show your own understanding, and it is covered by the
-> [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries).
->
-> You need to explain your work and your group's decisions yourself, and answer questions without
-> AI during the session.
+> The viva voce is covered by the
+> [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). You need to explain
+> your work and your group's decisions yourself, and answer questions without AI during the
+> session. Do not read from a script an AI tool wrote.
 >
 > AI can help you prepare, within what the policy allows, but you need to understand everything
 > you say.
@@ -645,7 +661,7 @@ Meets Expectations, plus every item listed for it below.
 | Design decisions and course concepts | For at least two features, name a different design you considered and the reason, tied to your user, that you chose against it. |
 | Testing and bugs | For one bug, explain its cause in the code: which part of the code was wrong and why, not only what the user saw. If you found no bugs, explain in the code how your app handles the input from your riskiest test. |
 | Changes along the way | Explain one change you made to how you prompted Copilot after it got something wrong, and what happened after that change. If Copilot never got anything wrong, explain one change you made to how you prompted it as the app grew, and why. |
-| Answering as a group | Each member, at least once, builds on a teammate's answer by connecting it to another part of the app or to a course concept. Handing the next question to a teammate does not count. |
+| Delivery | Practise until your demo and answers run without restarts, long pauses or anyone looking down to read. Each member, at least once, builds on a teammate's answer by connecting it to another part of the app or to a course concept. Handing the next question to a teammate does not count. |
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
@@ -664,8 +680,11 @@ your peer evaluation multiplier applies to all of Part C. The
 | 2. Design decisions and course concepts | 25 |
 | 3. Testing and bugs | 25 |
 | 4. Changes along the way | 15 |
-| 5. Answering as a group | 20 |
+| 5. Delivery | 20 |
 | Total | 100 |
+
+Every criterion is marked from what happens in the viva voce. If a member reads an answer word for
+word, both Delivery and the criterion that answer belongs to drop to Approaches Expectations.
 
 #### 1. Demonstration (15 points)
 
@@ -703,14 +722,14 @@ your peer evaluation multiplier applies to all of Part C. The
 | Approaches Expectations (B- to B+) | 11.5 | Changes are listed without reasons, or the Copilot example does not say how you noticed. |
 | Not Within Expectations (C+ and below) | 10 | Your group cannot name a change, or a place where Copilot got it wrong. |
 
-#### 5. Answering as a group (20 points)
+#### 5. Delivery (20 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus every member building on a teammate's answer at least once. |
-| Meets Expectations (A-, A) | 17.5 | Every member answers questions, including about parts of the app they did not build. The answers are your own, given without AI, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). |
-| Approaches Expectations (B- to B+) | 15.5 | A member does not answer, or members can answer only about the parts they built. |
-| Not Within Expectations (C+ and below) | 13 | One or two members give almost every answer, or answers are read from a script. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a well-practised session: no restarts, long pauses or anyone looking down to read, and every member building on a teammate's answer at least once. |
+| Meets Expectations (A-, A) | 17.5 | Every member answers questions, including about parts of the app they did not build. Each member answers in their own words, from a few words of notes at most, without AI, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). |
+| Approaches Expectations (B- to B+) | 15.5 | At least one of these happens: a member does not answer; members can answer only about the parts they built; or a member reads an answer word for word from a script, notes or slides. |
+| Not Within Expectations (C+ and below) | 13 | One or two members give almost every answer, or most answers are read aloud. |
 
 ---
 
