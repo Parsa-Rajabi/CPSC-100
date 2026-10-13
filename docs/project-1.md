@@ -20,8 +20,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Added the Part B and Part C rubrics, the optional Going further work for an A+, and a guide to PEEL. Part C now includes your stand-ups and the retrospective, peer evaluation covers Parts B and C, and Parts B and C are due at 11:59pm. |
-| Oct 13 | Part C: the video is now worth more, every speaker must be on camera and speak without a script, and a broken video link loses points until you fix it. Sources use one citation style, named at the top of your list. |
+| Oct 13 | Added the Part B and Part C rubrics, with new rules for the Part C video and sources. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -949,9 +948,8 @@ Meets Expectations, plus every item listed for it below.
 
 Use this rubric to check your report and video before you submit. They are marked out of 100
 points across six criteria, the same way as Part B, and that score is 90% of Part C. The video is
-worth the most points, so plan and practise it early. The Exceeds
-Expectations row of each table summarizes that criterion's [Going further](#going-further-in-part-c)
-items.
+worth the most points, so plan and practise it early. The Exceeds Expectations row of each table
+summarizes that criterion's [Going further](#going-further-in-part-c) items.
 
 The other 10% of Part C is your stand-ups (5%) and the retrospective (5%), and your peer evaluation
 multiplier applies to all of Part C. The [grade breakdown](project.md#your-individual-part-c-mark)

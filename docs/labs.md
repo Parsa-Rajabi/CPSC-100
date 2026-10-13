@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Lab 7 now includes Project 2A, and the viva voce runs from Wed Dec 2 to Fri Dec 4, beyond the Lab 10 slots. |
+| Oct 13 | Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
 
 </details>
