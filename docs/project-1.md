@@ -57,10 +57,8 @@ have read one, tested several, and taken one apart.
 | Part | What it is | Who does it | Weight | Due |
 | :--: | :--------- | :---------- | :----: | :-- |
 | A | Your digital footprint | Individual | 1% | The day after your Lab 3, Thu Oct 8 or Fri Oct 9 |
-| B | The AI detector experiment | Starts individual, becomes group | 4% | Tue Oct 20 |
-| C | Algorithmic bias case study | Group | 10% | Tue Oct 27 |
-
-Parts B and C are due at 11:59pm Pacific.
+| B | The AI detector experiment | Starts individual, becomes group | 4% | Tue Oct 20, 11:59pm |
+| C | Algorithmic bias case study | Group | 10% | Tue Oct 27, 11:59pm |
 
 Those weights are percentages of your final course grade, not shares of this project. Together
 they come to 15%, and Project 2 is the other 15%. See
@@ -78,17 +76,21 @@ they come to 15%, and Project 2 is the other 15%. See
 
 ## What you hand in
 
-| Part | Deliverable                                                               | Where  |
-| :--: | :------------------------------------------------------------------------ | :----- |
-|  A   | Your annotated Snap! project, and one PDF with your two scores and a short reflection | Canvas |
-|  B   | Two documents: your image dataset, and your evaluation                    | Canvas |
-|  C   | A written report using the 9-section template, and a recorded video       | Canvas |
+Check each deadline on its assignment page in [Canvas](https://canvas.ubc.ca/courses/190791/assignments), which is also where
+you hand in your work. The table lists every Project 1 deadline so you can plan. All times are
+Pacific time.
 
-Along the way you will also submit:
+| What you hand in | Who | Due | Where |
+| :--------------- | :-- | :-- | :---- |
+| Part A: your annotated Snap! project, and one PDF with your two scores and a short reflection | Individual | The day after your Lab 3: Thu Oct 8 (L1A to L1D) or Fri Oct 9 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2597084) |
+| Part B: two documents, your image dataset and your evaluation | Group | Tue Oct 20, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| Part C: a written report using the 9-section template, and a recorded video | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| [Stand-ups](#weekly-stand-ups) 1 to 4 | Individual | Every Friday from Oct 9 to Oct 30, 4:00pm | Ed Discussion |
+| [Retrospective](#retrospectives) 1 | Group | Thu Oct 29, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2592835) |
+| [iPeer 1](#peer-evaluation) | Individual | Thu Oct 29, 11:59pm | iPeer |
 
-- Your image dataset, for TA sign-off, on Thursday October 1
-- A [stand-up](#weekly-stand-ups) post on Ed Discussion, every Friday from October 2 to October 30
-- A peer evaluation in iPeer, and a group retrospective, after Part C
+<!-- Part B and Part C link to the course's Assignments page. Replace each with its assignment's
+own page once the Project 1B and Project 1C assignments exist. -->
 
 
 ---
@@ -313,8 +315,8 @@ checking before Lab 3 runs. -->
 
 ## Part B: The AI Detector Experiment
 
-Part B starts as individual work and turns into group work. It's worth 4%, there's a working block
-for it in [Lab 4](labs.md), and it is due on Tuesday October 20 at 11:59pm.
+Part B starts as individual work and turns into group work. It is worth 4%, and there is a working
+block for it in [Lab 4](labs.md). Its deadline is in [What you hand in](#what-you-hand-in).
 
 Scroll far enough and you'll pass images that a machine made, whether you notice or not. Telling
 them apart by eye is getting harder every year.
@@ -654,8 +656,8 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 ## Part C: Algorithmic Bias Case Study
 
-Part C is group work, worth 10%. There is a working block for it in [Lab 5](labs.md), and it is due
-on Tuesday October 27 at 11:59pm.
+Part C is group work, worth 10%. There is a working block for it in [Lab 5](labs.md), and its
+deadline is in [What you hand in](#what-you-hand-in).
 
 Algorithmic systems are already making decisions that change people's lives: who gets a loan, who
 gets flagged at a border, whose exam grade is revised downward. When one of them gets it badly
@@ -983,7 +985,7 @@ early, while there's still time to do something about them.
 
 How it works:
 
-- Stand-ups are due every Friday at 4:00pm Pacific, from Friday October 2 to Friday December 4
+- Stand-ups are due every Friday. The [stand-up schedule](#stand-up-schedule) below lists each date and time
 - You post in your own group's Ed Discussion channel
 - Every member posts their own. One person cannot post on behalf of the group
 - The time on your Ed post is the time we use to decide whether it is late
@@ -1098,8 +1100,8 @@ and a worked example are on the [Project](project.md#retrospectives) page.
 > project. Parts A and B are not multiplied.
 >
 > The full mechanics, criteria and formula are on the
-> [Project Peer Evaluation](project-peer-evaluation.md) page. Read it before iPeer 1, due
-> Thursday October 29.
+> [Project Peer Evaluation](project-peer-evaluation.md) page. Read it before iPeer 1, whose
+> deadline is in [What you hand in](#what-you-hand-in).
 
 In short:
 
