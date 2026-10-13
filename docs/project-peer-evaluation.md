@@ -22,7 +22,7 @@ This course includes a lot of team project work. We will use project peer evalua
 | :------ | :--------- | :------------------------------------- | :-------------- |
 | iPeer 0 | Thu Oct 1  | Group formation and the group contract | No. Practice round, but required |
 | iPeer 1 | Thu Oct 29 | [Project 1](project.md), Parts B and C | Yes             |
-| iPeer 2 | Thu Dec 3  | [Project 2](project.md), Parts B and C | Yes             |
+| iPeer 2 | Thu Dec 3  | [Project 2](project-2.md), Parts B and C | Yes             |
 
 All three are due at 11:59pm Pacific. The [Schedule](schedule.md) page shows them alongside everything else due that week.
 

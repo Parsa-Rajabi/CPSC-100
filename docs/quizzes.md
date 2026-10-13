@@ -48,7 +48,7 @@ Each quiz mostly covers the content since the previous quiz. In programming, tho
 - **New material** uses the lecture codes from the [Schedule](schedule.md), so W2A is the first lecture of Week 2. It is where most of the marks are, but it is not the only material that can appear.
 - Quiz 5 is the last quiz. The new material for Quizzes 4 and 5 is tentative. It is confirmed in class, in the last lecture before each quiz window opens.
 - All times are Pacific.
-- The viva voce, held from Wed Dec 2 to Fri Dec 4 (a short live presentation by your project group), is not a quiz. It is graded as [Project 2C](project.md).
+- The viva voce, held from Wed Dec 2 to Fri Dec 4 (a short live presentation by your project group), is not a quiz. It is graded as [Project 2C](project-2.md#part-c-viva-voce).
 
 <details>
 <summary>Quiz 0, the practice run</summary>

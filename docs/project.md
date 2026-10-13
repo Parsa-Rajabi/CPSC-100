@@ -1,7 +1,7 @@
 # Project
 
 > [!NOTE]
-> This page is still being written. Project 1 is fully described on the [Project 1](project-1.md) page. Project 2 is described at a high level for now, and its full specification, deadlines, and rubric will be published before it starts. The [grade breakdown](#grade-breakdown) below covers both projects.
+> This page is still being written. Each project is fully described on its own page: [Project 1](project-1.md) and [Project 2](project-2.md). The [grade breakdown](#grade-breakdown) below covers both projects.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -10,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 13 | Project 2 is now described in full on the [Project 2](project-2.md) page. Part A is now debugging a Python program, and Part B is building a web app with Microsoft Copilot. |
 | Oct 13 | Added the grade breakdown: Part C now includes your stand-ups and the retrospective, and peer evaluation covers Parts B and C. Added the Project 2 dates, and the viva voce is now a live group presentation from Wed Dec 2 to Fri Dec 4. |
 | Sep 30 | Added the stand-up schedule and late penalties, and late penalties for retrospectives. Late stand-ups, retrospectives and peer evaluations are now listed as exceptions to the no-late-work rule. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
@@ -45,15 +46,15 @@ It has three parts, a mix of individual and group work:
 
 ## Project 2: From Blocks to Code
 
-Runs from Week 8 to Week 13.
+Runs from Week 8 to Week 13. Full details are on the [Project 2](project-2.md) page.
 
-Project 2 is about moving from visual programming (building programs from blocks) into real code. It's also about being able to explain what you built. You will write and annotate a program in Snap!, which means adding notes that explain it. Then you will translate it into Python and account for the result in person.
+Project 2 is about moving from visual programming (building programs from blocks) into real code, and being able to explain what you built. You will fix a Python program and explain each bug, build a small web app with Microsoft Copilot and test that it works, then demonstrate it and answer questions about it in person.
 
 It has three parts, a mix of individual and group work:
 
-- Part A, a Snap! program with annotations, done in your Lab 7. Individual. Due at 11:59pm the day after your lab, Thu Nov 5 or Fri Nov 6, the same way as Project 1 Part A.
-- Part B, translating that program into Python. Group. Due Tue Nov 24 at 11:59pm.
-- Part C, the viva voce: a short live presentation by your group, held from Wed Dec 2 to Fri Dec 4. You demo your program and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
+- [Part A](project-2.md#part-a-learning-to-communicate), debugging a Python program, done in your Lab 7. Individual. Due at 11:59pm the day after your lab, Thu Nov 5 or Fri Nov 6, the same way as Project 1 Part A.
+- [Part B](project-2.md#part-b-vibe-coding), building a web app with Microsoft Copilot and testing it. Group. Due Tue Nov 24 at 11:59pm. Your group's proposal for it is Pre-lab 8, due Thu Nov 12.
+- [Part C](project-2.md#part-c-viva-voce), the viva voce: a short live presentation by your group, held from Wed Dec 2 to Fri Dec 4. You demo your app and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
 
 ## Grade breakdown
 
@@ -63,8 +64,8 @@ percentages of your course grade.
 
 | Part | Weight | Who does it | Project 1 | Project 2 | How it is marked |
 | :--: | :--: | :-- | :-- | :-- | :-- |
-| A | 1% | Individual, in lab | Your digital footprint | A Snap! program with annotations | Complete, partial or incomplete |
-| B | 4% | Group, after some individual work, with lab time to work on it | The AI detector experiment | Translating your program into Python | A rubric, with one grade for the group |
+| A | 1% | Individual, in lab | Your digital footprint | Debugging a Python program | Complete, partial or incomplete |
+| B | 4% | Group, with lab time to work on it. In Project 1, it starts with some individual work | The AI detector experiment | Building a web app with Copilot | A rubric, with one grade for the group |
 | C | 10% | Group, with an individual multiplier | Algorithmic bias case study: a report and a recorded video | Viva voce: a live group presentation | A rubric, plus your stand-ups and the retrospective |
 
 ### What makes up Part C <!-- {docsify-ignore} -->
