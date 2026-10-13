@@ -10,7 +10,8 @@
 > - Rough time estimates for each part
 >
 > The rubrics for all three parts are posted: [Part A](#part-a-rubric), [Part B](#part-b-rubric)
-> and [Part C](#part-c-rubric). [How this is graded](#how-this-is-graded) explains how they work.
+> and [Part C](#part-c-rubric). Read [How this is graded](#how-this-is-graded) before you start
+> Part B or Part C.
 >
 > The schedule below may still change. Anything that moves gets recorded in the changelog.
 
@@ -555,10 +556,10 @@ The dataset criterion has no Going further work.
 
 ### Part B rubric <!-- {docsify-ignore} -->
 
-Your TA marks Part B on five criteria. Each criterion gets one of the four bands described in
-[How this is graded](#how-this-is-graded), and your Part B grade is the weighted average of the
-five. The closer look carries the most weight, because it is where your group explains what its
-results mean. Each Exceeds Expectations row below summarizes that criterion's
+Use this rubric to check your work before you submit. Your TA marks Part B on five criteria, and
+each criterion gets one of the four bands described in [How this is graded](#how-this-is-graded).
+Your Part B grade is the weighted average of the five. The closer look carries the most weight, so
+plan the most time for it. The Exceeds Expectations row of each table summarizes that criterion's
 [Going further](#going-further-in-part-b) items.
 
 | Criterion | Weight |
@@ -882,14 +883,14 @@ Meets Expectations, plus every item listed for it below.
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
-Your report and video are 90% of Part C. Your TA marks them on six criteria, the same way as Part
-B: each criterion gets a band, and the report and video mark is the weighted average of the six.
-The mechanism carries the most weight, because naming it is what turns a summary of the case into
-an analysis of it. Each Exceeds Expectations row below summarizes that criterion's
-[Going further](#going-further-in-part-c) items.
+Use this rubric to check your report and video before you submit. Together they are 90% of Part
+C. Your TA marks them on six criteria, the same way as Part B, and their mark is the weighted
+average of the six. The mechanism carries the most weight, so give it the most time. The Exceeds
+Expectations row of each table summarizes that criterion's [Going further](#going-further-in-part-c)
+items.
 
-The other 10% of Part C is your stand-ups (5%) and the retrospective (5%). Your peer evaluation
-multiplier then applies to all of Part C. The [grade breakdown](project.md#your-individual-part-c-mark)
+The other 10% of Part C is your stand-ups (5%) and the retrospective (5%), and your peer evaluation
+multiplier applies to all of Part C. The [grade breakdown](project.md#your-individual-part-c-mark)
 shows how the pieces add up.
 
 | Criterion | Weight within the report and video |
@@ -1095,9 +1096,9 @@ and a worked example are on the [Project](project.md#retrospectives) page.
 > [!WARNING]
 > Peer evaluation is what makes your individual grade differ from your teammates' grades.
 >
-> Your teammates rate your contribution to Parts B and C. Their ratings become a multiplier, which
-> is applied to your whole Part C mark, the heaviest part of each project. Parts A and B are not
-> multiplied.
+> Your teammates rate your contribution to Parts B and C, so how you work with your group in Part B
+> counts too. Their ratings become a multiplier on your whole Part C mark, the heaviest part of each
+> project. Parts A and B are not multiplied.
 >
 > The full mechanics, criteria and formula are on the
 > [Project Peer Evaluation](project-peer-evaluation.md) page. Read it before iPeer 1, due
@@ -1188,12 +1189,12 @@ dev-repo draft's notes, which say "check before this goes to students":
 
 ## How this is graded
 
-Part A has its own [rubric](#part-a-rubric), marked complete, partial or incomplete. Parts B and C
-are marked with the [Part B rubric](#part-b-rubric) and the [Part C rubric](#part-c-rubric). Every
-criterion in them matches something this page already asks for, so there are no hidden
-requirements. The only additions are the optional Going further items in
-[Part B](#going-further-in-part-b) and [Part C](#going-further-in-part-c), for groups aiming for an
-A+.
+Read this section before you start Part B or Part C. Part A has its own [rubric](#part-a-rubric),
+marked complete, partial or incomplete. Parts B and C use the [Part B rubric](#part-b-rubric) and
+the [Part C rubric](#part-c-rubric). Every criterion in them matches something this page already
+asks for, so there are no hidden requirements. The only additions are the optional Going further
+items in [Part B](#going-further-in-part-b) and [Part C](#going-further-in-part-c), for groups
+aiming for an A+.
 
 ### The four bands <!-- {docsify-ignore} -->
 
@@ -1213,10 +1214,10 @@ Three things to know:
 
 - Meets Expectations is the expected result. Doing everything this page asks for, and doing it
   well, earns an A- or an A on that criterion.
-- Exceeds Expectations is optional and defined in advance, so you know what an A+ asks for before you start.
-  Going further work counts only on top of Meets Expectations: it does not make up for something the
-  instructions require. Doing some of a criterion's Going further items can raise your mark toward
-  the top of Meets Expectations, but only all of them reach Exceeds Expectations.
+- Exceeds Expectations is optional and defined in advance. Complete everything at Meets
+  Expectations first, because Going further work does not make up for a missing requirement.
+  Doing some of a criterion's Going further items can raise your mark toward the top of Meets
+  Expectations, but only all of them reach Exceeds Expectations.
 - Your TA picks the band first, then your mark within it. Small mistakes move your mark down inside
   the band, and your feedback names what they were.
 
@@ -1225,9 +1226,9 @@ October 1 sign-off.
 
 ### Making an argument with PEEL <!-- {docsify-ignore} -->
 
-PEEL is a way to build each point of an argument so that a reader can check it. It is how
-researchers, journalists and policy analysts make a claim that someone else can verify. Your TA
-looks for it in the Part B closer look, and in Part C sections 6, 7 and 8 and the video.
+Use PEEL for every point you make in the Part B closer look, and in Part C sections 6, 7 and 8 and
+the video. It builds each point so that a reader can check it, and your TA will look for all four
+steps.
 
 | Step | What it does |
 | :-- | :-- |

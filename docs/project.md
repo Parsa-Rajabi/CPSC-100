@@ -57,8 +57,9 @@ It has three parts, a mix of individual and group work:
 
 ## Grade breakdown
 
-The project is 30% of your course grade, 15% for each project. Both projects have the same three
-parts, and the weights below are percentages of your course grade.
+Use this breakdown to plan where your group spends its time. The project is 30% of your course
+grade, 15% for each project, and both projects have the same three parts. The weights below are
+percentages of your course grade.
 
 | Part | Weight | Who does it | Project 1 | Project 2 | How it is marked |
 | :--: | :--: | :-- | :-- | :-- | :-- |
@@ -68,9 +69,10 @@ parts, and the weights below are percentages of your course grade.
 
 ### What makes up Part C <!-- {docsify-ignore} -->
 
-Part C is the heaviest part of each project. Most of it is your group's main piece of work. A
-small part rewards the habits that keep a group working well: posting your stand-ups each week, and
-reflecting together in the retrospective.
+Part C is the heaviest part of each project. Most of it is your group's main deliverable, and the
+rest comes from your stand-ups and the retrospective. Post every stand-up and complete the
+retrospective together. They are small marks, but they depend only on you and your group showing
+up.
 
 | Component | Share of Part C | Of your course grade | Marked as | Based on |
 | :-- | :--: | :--: | :-- | :-- |
