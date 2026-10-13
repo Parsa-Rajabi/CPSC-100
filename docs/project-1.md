@@ -22,6 +22,7 @@
 | Oct 13 | Added the Part B and Part C rubrics, with new rules for the Part C video and sources. |
 | Oct 13 | Part C: the report now covers the facts and sources, and the video covers the argument and carries most of the marks. |
 | Oct 13 | Part C: each member now proposes a case in Pre-lab 5, which replaces claiming a case on Ed Discussion. |
+| Oct 13 | Parts B and C are handed in as PDF files, in one group submission on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -85,8 +86,8 @@ Pacific time.
 | :--------------- | :-- | :-- | :---- |
 | Part A: your annotated Snap! project, and one PDF with your two scores and a short reflection | Individual | The day after your Lab 3: Thu Oct 8 (L1A to L1D) or Fri Oct 9 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2597084) |
 | Pre-lab 5: one proposed case for Part C | Individual | Mon Oct 19, 11:59pm | [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/) |
-| Part B: two documents, your image dataset and your evaluation | Group | Tue Oct 20, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
-| Part C: a short written report (sections 1 to 5), with the link to your recorded video at the top | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| Part B: two documents, your image dataset and your evaluation, as PDF files | Group | Tue Oct 20, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| Part C: a short written report (sections 1 to 5) as one PDF, with the link to your recorded video at the top | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Stand-ups](#weekly-stand-ups) 1 to 4 | Individual | Every Friday from Oct 9 to Oct 30, 4:00pm | Ed Discussion |
 | [Retrospective](#retrospectives) 1 | Group | Thu Oct 29, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2592835) |
 | [iPeer 1](#peer-evaluation) | Individual | Thu Oct 29, 11:59pm | iPeer |
@@ -495,7 +496,8 @@ For each tool, answer three questions:
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
-Part B is two documents.
+Part B is two documents. Hand them in as PDF files, together in one submission to Project 1B
+(Group) on Canvas. One member submits for the whole group.
 
 The first is your data, with one row per image recording:
 
@@ -559,7 +561,9 @@ Meets Expectations, plus every item listed for it below.
 ### Part B rubric <!-- {docsify-ignore} -->
 
 Use this rubric to check your work before you submit. Part B is out of 100 points across five
-criteria. Your TA places each criterion in one of the four bands described in
+criteria. In Canvas, Project 1B (Group) is out of 85 points: your Dataset criterion (15 points) was
+marked when your TA signed off your dataset, and it has its own Canvas column, Project 1B - Dataset
+(Group). Your TA places each criterion in one of the four bands described in
 [How this is graded](#how-this-is-graded), starts at the top of that band, and takes points off for
 mistakes within it. The closer look is worth the most points, so plan the most time for it. The
 Exceeds Expectations row of each table summarizes that criterion's
@@ -906,6 +910,8 @@ these:
 - Google Drive: set the link so that anyone with the link can view
 - YouTube: upload it as unlisted, not public and not private
 
+When you submit your report on Canvas, paste the same link in the comment box.
+
 > [!WARNING]
 > Check the link before you submit. Ask a group member who did not upload the video to open it,
 > and make sure it plays all the way through.
@@ -922,12 +928,15 @@ these:
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
+Hand in your report as one PDF, in one submission to Project 1C (Group) on Canvas. One member
+submits for the whole group. Your group needs:
+
 - The written report: sections 1 to 4 in 2 to 3 pages, then your sources, with your video link at
   the top
 - At least three sources, of which at least two are primary, all of them checked and listed in one
   citation style that you name at the top of the list
-- A recorded video, linked at the top of your report, with every member on camera and speaking, up
-  to 2 minutes each, covering the four parts
+- A recorded video, linked at the top of your report and in the comment box of your submission,
+  with every member on camera and speaking, up to 2 minutes each, covering the four parts
 - The four parts of the video make their points using [PEEL](#making-an-argument-with-peel), with
   your sources as evidence
 - A case connected to Canada or a country in Asia
