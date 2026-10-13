@@ -21,7 +21,7 @@
 | Date | Update |
 | :--: | :----- |
 | Oct 13 | Added the Part B and Part C rubrics, the optional Going further work for an A+, and a guide to PEEL. Part C now includes your stand-ups and the retrospective, peer evaluation covers Parts B and C, and Parts B and C are due at 11:59pm. |
-| Oct 13 | Part C: the video is now worth more, every speaker must be on camera and speak without a script, and a broken video link costs 10 points. Sources use one citation style, named at the top of your list. |
+| Oct 13 | Part C: the video is now worth more, every speaker must be on camera and speak without a script, and a broken video link loses points until you fix it. Sources use one citation style, named at the top of your list. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -899,14 +899,16 @@ these:
 
 > [!WARNING]
 > Check the link before you submit. Ask a group member who did not upload the video to open it,
-> and make sure it plays all the way through. If the link does not work when your TA opens it, 10
-> points come off your report and video score.
+> and make sure it plays all the way through.
+>
+> If the link does not work when your TA opens it, 5 points come off your report and video score,
+> and your TA emails every member of your group. Reply to that email with a working link. Another 5
+> points come off for every 12 hours, or part of 12 hours, until your reply arrives, up to 35 points
+> in total. Check your UBC email after you submit.
 >
 > Keep the video and its link available until your Part C grade is returned.
 
-<!-- TODO: instructor decision required. Video items still open: whether to require automatic
-captions, and what happens after a broken link (for example, one request for a working link before
-the video is marked). -->
+<!-- TODO: instructor decision required. Whether to require automatic captions on the video. -->
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
@@ -964,7 +966,8 @@ shows how the pieces add up.
 | 6. The video | 35 |
 | Total | 100 |
 
-If your video link does not work when your TA opens it, 10 points come off this score.
+If your video link does not work when your TA opens it, points come off this score until you send a
+working link. See [Submitting your video](#submitting-your-video).
 
 Sections 6, 7 and 8 are each marked once, using the report and the video together, so you are not
 marked twice for the same point. The video criterion covers how you present: who speaks, how they
