@@ -19,7 +19,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
+| Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
 | Sep 29 | Added the rubric for the Part B dataset submission. |
@@ -355,9 +355,8 @@ work.
   Due Thursday October 1 for TA sign-off
 - Pick at least 3 detection tools each, and set up access to them before Lab 4: create accounts,
   check the free limits and test that you can log in
-- Work through your own tools in Lab 4: what each one costs and claims, and what its terms of
-  service say
-- Narrow your group's tools down to one per member, and run your dataset through the tool you kept
+- In Lab 4, choose one tool each from your shortlist and work through it: what it costs and
+  claims, what its terms of service say, and how it does on your dataset
 - Analyze one tool in depth as a group: how it says it works, and where it failed
 - Recommend one tool to your family, and reflect on what its mistakes cost
 
@@ -367,15 +366,15 @@ Part B mixes work you do on your own with work you do as a group. Follow these s
 
 | Step | Who | What you do |
 | :-- | :-- | :-- |
-| 1. Before Lab 4 | On your own | In Pre-lab 4, pick at least 3 tools. Your picks can overlap with your group members' picks. Create an account on each and test that you can log in. |
-| 2. In Lab 4 | On your own | Work through each of your tools: record the five things below, read its terms of service, and answer the three questions. Put it all in your group's shared document, under your name. |
-| 3. After Lab 4 | As a group | Compare everyone's tools and narrow them down to one tool per member. Each member keeps a different tool. |
-| 4. After Lab 4 | On your own | Run the whole dataset through the tool you kept, and record every result in your group's shared results table. Annotate 2 to 3 of your results. |
-| 5. After Lab 4 | As a group | Pick one of your tools for the deep dive. Annotate its result on every image, and analyze it together. |
-| 6. Before the deadline | As a group | Write the recommendation and the reflection, put the submission together, and have one member submit it. |
+| 1. Before Lab 4 | On your own | In Pre-lab 4, find at least 3 tools for your shortlist. Your picks can overlap with your group members' picks. Create an account on each and test that you can log in. |
+| 2. Start of Lab 4 | As a group | Each member chooses one tool from their shortlist. Each member chooses a different tool. |
+| 3. In Lab 4 | On your own | For your tool, record the five things below, read its terms of service and answer the three questions. Then run the whole dataset through it, record every result in your group's results table, and take 2 to 3 screenshots of your results. Finish after the lab if you need to. |
+| 4. After Lab 4 | As a group | Pick one of your tools for the deep dive. Take a screenshot of its result on every image, annotate each one, and analyze the tool together. |
+| 5. Before the deadline | As a group | Write the recommendation and the reflection, put the submission together, and have one member submit it. |
 
 Each tool entry is one member's work, with their name at the top. A missing entry lowers your
-group's score for tools and terms of service, so agree early who keeps which tool.
+group's score for tools and terms of service, so agree at the start of Lab 4 who chooses which
+tool.
 
 <details>
 <summary>Building the dataset</summary>
@@ -436,11 +435,11 @@ covers it.
 <details>
 <summary>Choosing your tools, and a starter list</summary>
 
-Each member picks at least 3 tools for Pre-lab 4, and your picks can overlap with your group
-members' picks. After Lab 4, your group narrows these down to one tool per member, and each member
-keeps a different tool.
+Each member finds at least 3 tools for Pre-lab 4, and your picks can overlap with your group
+members' picks. At the start of Lab 4, each member chooses one tool from their shortlist, and each
+member chooses a different tool.
 
-For each of your tools, record five things:
+For the tool you choose, record five things:
 
 | What to record | What it means |
 | :------------- | :------------ |
@@ -448,7 +447,7 @@ For each of your tools, record five things:
 | Availability | What the free version actually allows, such as scans per day |
 | Claims | The accuracy the tool advertises, in its own words |
 | Reputation | Reviews, ratings, and who recommends it |
-| Reason for use | Why you picked it |
+| Reason for use | Why you chose it |
 
 Try to spread your choices across the list, because most review sites name the same one or two
 tools. Groups that don't think about it end up testing the same handful, and the class learns
@@ -471,11 +470,12 @@ group tests Optic, you can compare the two approaches directly.
 <details>
 <summary>Running the experiment and recording results</summary>
 
-Do this after your group has narrowed down its tools. Each member runs the whole dataset through
-the tool they kept.
+Start this in Lab 4, once each member has chosen a tool. Each member runs the whole dataset through
+their own tool.
 
 Agree on one shared table before anyone starts: one row per image, one column per tool. If
-everyone records results differently, you will spend the next week trying to reconcile them.
+everyone records results differently, you will spend the next week trying to reconcile them. This
+table is Appendix A of your submission.
 
 > [!TIP]
 > Record what the tool said, not whether it was right.
@@ -489,15 +489,17 @@ everyone records results differently, you will spend the next week trying to rec
 Note anything unusual the moment it happens: a file the tool refuses, a confidence score that
 doesn't match the verdict, an image that breaks the tool. You won't remember any of it later.
 
-Then annotate 2 to 3 of your own results, including at least one mistake if your tool made one.
-For each one:
+Each member also takes 2 to 3 screenshots of their tool's results, including at least one mistake
+if the tool made one. Every screenshot must show your computer clock.
 
-1. Take a screenshot of the tool's result that shows your computer clock.
+For the deep dive, your group takes a screenshot of the deep-dive tool's result on every image and
+annotates each one:
+
+1. Check that the screenshot shows your computer clock.
 2. Mark at least one feature on the image, with a circle or an arrow.
 3. Write next to it what that feature suggests, real or AI-generated, and why.
 
-For the deep dive, your group does the same for the deep-dive tool's result on every image. All of
-your annotated screenshots go in Appendix A.
+All of your screenshots go in Appendix B.
 
 </details>
 
@@ -535,19 +537,19 @@ The first is your data, with one row per image recording:
 The second is your evaluation, in this order:
 
 1. Tool entries, one per member, each with the member's name at the top: the five things for the
-   tool you kept, a link to the terms of service you read, and your answers to the three questions
-2. Your results table, covering every image and every member's tool
-3. The deep dive, written as a group: how the tool says it works, how it performed on your
+   tool you chose, a link to the terms of service you read, and your answers to the three questions
+2. The deep dive, written as a group: how the tool says it works, how it performed on your
    dataset, where it failed, and whether there was a pattern to its mistakes. Make each point using
    [PEEL](#making-an-argument-with-peel), with your own results as the evidence
-4. A recommendation. Of the tools you tested, which one would you recommend to your family, and
+3. A recommendation. Of the tools you tested, which one would you recommend to your family, and
    why?
-5. A short reflection. What does it cost when a tool wrongly says an image is AI-generated, a false
+4. A short reflection. What does it cost when a tool wrongly says an image is AI-generated, a false
    positive? What does it cost when it wrongly says an image is real, a false negative? Who pays in
    each case?
-6. Appendix A, your annotated screenshots: the deep-dive tool's result on every image, then each
-   member's 2 to 3 annotated results. Every screenshot shows your computer clock and is labelled
-   with what the image actually is
+5. Appendix A, your results table: one row per image and one column per member's tool
+6. Appendix B, your screenshots: the deep-dive tool's result on every image, annotated, then 2 to 3
+   screenshots of each other member's tool. Every screenshot shows your computer clock and is
+   labelled with what the image actually is
 
 > [!NOTE]
 > You don't need to copy out each tool's own explanation of its verdict. The verdict, the
@@ -556,7 +558,7 @@ The second is your evaluation, in this order:
 
 ### Where you have a choice <!-- {docsify-ignore} -->
 
-- Which tools you pick, and which one each member keeps
+- Which tools you shortlist, and which one each member chooses
 - Which tool your group picks for the deep dive. Choose the one that behaved most unusually,
   rather than the one that scored best
 - How you divide the work. This is the one part of the project where splitting the work by tool,
@@ -582,9 +584,9 @@ Meets Expectations, plus every item listed for it below.
 
 | Criterion | To reach Exceeds Expectations, also do this |
 | :-- | :-- |
-| Tools and terms of service | For every answer to the three terms of service questions, quote the wording from the policy, name the section or heading it comes from, and add a screenshot of that part of the policy to your appendix with the wording highlighted. If the policy does not answer a question, say so, and add a screenshot of the section where you looked. |
+| Tools and terms of service | For every answer to the three terms of service questions, quote the wording from the policy, name the section or heading it comes from, and add a screenshot of that part of the policy to Appendix B with the wording highlighted. If the policy does not answer a question, say so, and add a screenshot of the section where you looked. |
 | Results | Pick one tool that gives a percentage. Using the scores in your table, count how many of its verdicts would change if your cut-off moved 10 percentage points higher, and how many if it moved 10 lower. Then use your image labels to say whether those changes would fix mistakes or create new ones. If none of your tools gives a percentage, compare two tools instead: count the images they disagree on, and use your labels to say which tool was right each time. |
-| Deep dive | For every image the tool got wrong, mark on its Appendix A screenshot the feature that most likely misled the tool, and explain why. Refer to each failure by its figure in Appendix A and its row in your results table. Say how the other members' tools did on the same image, and explain whether the mistake is shared by other tools or only this tool's, and what that suggests. If the tool made no mistakes, pick one image from your table, compare how the other tools did on it, and explain why your results do not prove the tool is reliable on other images. |
+| Deep dive | For every image the tool got wrong, mark on its Appendix B screenshot the feature that most likely misled the tool, and explain why. Refer to each failure by its figure in Appendix B and its row in your results table in Appendix A. Say how the other members' tools did on the same image, and explain whether the mistake is shared by other tools or only this tool's, and what that suggests. If the tool made no mistakes, pick one image from your table, compare how the other tools did on it, and explain why your results do not prove the tool is reliable on other images. |
 | Recommendation and reflection | Support your recommendation with at least one number from your results and at least one of your terms of service answers, and say how each one supports your choice. In your reflection, tie each cost to at least one specific error from your own results. If your results have no error of one kind, say so, and use an image from your table to explain what that error would have cost. |
 
 ### Part B rubric <!-- {docsify-ignore} -->
@@ -665,17 +667,17 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus, for one tool that gives a percentage, how many verdicts would change if the cut-off moved 10 percentage points higher or lower, and whether those changes fix or create mistakes. |
-| Meets Expectations (A-, A) | 17.5 | One results table covering every image and every member's tool. Each image has its real or AI-generated label recorded once, and each result records the verdict and the confidence score if the tool gives one. If a tool refuses an image, recording the refusal counts as a result. For tools that give a percentage rather than a verdict, your cut-off is written down and used the same way throughout. Each member has 2 to 3 annotated results in Appendix A, including at least one mistake if their tool made one: a screenshot showing your computer clock, with at least one feature marked on the image and what it suggests. |
-| Approaches Expectations (B- to B+) | 15.5 | More than one result in ten is missing, the table records only "correct" or "incorrect" instead of the verdicts, a member has no annotated results, or none of the screenshots show the clock. |
+| Meets Expectations (A-, A) | 17.5 | One results table in Appendix A covering every image and every member's tool. Each image has its real or AI-generated label recorded once, and each result records the verdict and the confidence score if the tool gives one. If a tool refuses an image, recording the refusal counts as a result. For tools that give a percentage rather than a verdict, your cut-off is written down and used the same way throughout. Appendix B has 2 to 3 screenshots of each member's results, including at least one mistake if their tool made one, each showing your computer clock. |
+| Approaches Expectations (B- to B+) | 15.5 | More than one result in ten is missing, the table records only "correct" or "incorrect" instead of the verdicts, a member's tool has no screenshots, or none of the screenshots show the clock. |
 | Not Within Expectations (C+ and below) | 13 | Results are missing for at least one tool or for most images, or there are no screenshots. |
 
 #### 4. Deep dive into one tool (25 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus, for every image the tool got wrong, the feature that most likely misled it, marked on its Appendix A screenshot and explained. Every failure is referred to by its figure and its row in your results table, with how the other tools did on the same image and whether the mistake was shared. If the tool made no mistakes, one image compared across tools instead. |
-| Meets Expectations (A-, A) | 22 | Appendix A has the tool's result on every image: a screenshot showing your computer clock, labelled with what the image actually is, with at least one feature marked and what it suggests. The deep dive covers how the tool says it works, how it performed on your dataset, where it failed, and whether there was a pattern to its mistakes. Each point is made using [PEEL](#making-an-argument-with-peel), and the evidence comes from your own results. If the tool made no mistakes, you say so and explain what you would need to test to find one. |
-| Approaches Expectations (B- to B+) | 19.5 | All four parts are there, but at least one is missing its explanation or evidence, or some images are missing from Appendix A. For example, failures are listed but not explained, a pattern is claimed without results to back it up, how the tool works is described without connecting it to your results, or the tool made no mistakes and you do not explain what you would need to test to find one. |
+| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus, for every image the tool got wrong, the feature that most likely misled it, marked on its Appendix B screenshot and explained. Every failure is referred to by its figure in Appendix B and its row in Appendix A, with how the other tools did on the same image and whether the mistake was shared. If the tool made no mistakes, one image compared across tools instead. |
+| Meets Expectations (A-, A) | 22 | Appendix B has the tool's result on every image: a screenshot showing your computer clock, labelled with what the image actually is, with at least one feature marked and what it suggests. The deep dive covers how the tool says it works, how it performed on your dataset, where it failed, and whether there was a pattern to its mistakes. Each point is made using [PEEL](#making-an-argument-with-peel), and the evidence comes from your own results. If the tool made no mistakes, you say so and explain what you would need to test to find one. |
+| Approaches Expectations (B- to B+) | 19.5 | All four parts are there, but at least one is missing its explanation or evidence, or some images are missing from Appendix B. For example, failures are listed but not explained, a pattern is claimed without results to back it up, how the tool works is described without connecting it to your results, or the tool made no mistakes and you do not explain what you would need to test to find one. |
 | Not Within Expectations (C+ and below) | 16.5 | One or more of the four parts is missing, or the section describes the tool without using your results. |
 
 #### 5. Recommendation and reflection (20 points)
