@@ -368,8 +368,8 @@ Part B mixes work you do on your own with work you do as a group. Follow these s
 | :-- | :-- | :-- |
 | 1. Before Lab 4 | On your own | In Pre-lab 4, find at least 3 tools for your shortlist. Your picks can overlap with your group members' picks. Create an account on each and test that you can log in. |
 | 2. Start of Lab 4 | As a group | Each member chooses one tool from their shortlist. Each member chooses a different tool. |
-| 3. In Lab 4 | On your own | For your tool, record the five things below, read its terms of service and answer the three questions. Then run the whole dataset through it, record every result in your group's results table, and take 2 to 3 screenshots of your results. Finish after the lab if you need to. |
-| 4. After Lab 4 | As a group | Pick one of your tools for the deep dive. Take a screenshot of its result on every image, annotate each one, and analyze the tool together. |
+| 3. In Lab 4 | On your own | For your tool, record the five things below, read its terms of service and answer the three questions. Then run the whole dataset through it, record every result in your group's results table, and take a screenshot of each result with the computer clock visible. Finish after the lab if you need to. |
+| 4. After Lab 4 | As a group | Pick one of your tools for the deep dive. Annonotate each screenshot of the tool's result on every image and analyze the tool together. |
 | 5. Before the deadline | As a group | Write the recommendation and the reflection, put the submission together, and have one member submit it. |
 
 Each tool entry is one member's work, with their name at the top. A missing entry lowers your
@@ -489,11 +489,10 @@ table is Appendix A of your submission.
 Note anything unusual the moment it happens: a file the tool refuses, a confidence score that
 doesn't match the verdict, an image that breaks the tool. You won't remember any of it later.
 
-Each member also takes 2 to 3 screenshots of their tool's results, including at least one mistake
+Each member screenshots every result given by their tool. Once the deep-dive tool has been chosen by the group, 2 to 3 screenshots of every other non-deep-dive tool's results should be added to Appendix B, including at least one mistake
 if the tool made one. Every screenshot must show your computer clock.
 
-For the deep dive, your group takes a screenshot of the deep-dive tool's result on every image and
-annotates each one:
+For the deep dive, your group annotates the screenshots of the deep-dive tool's results on every image:
 
 1. Check that the screenshot shows your computer clock.
 2. Mark at least one feature on the image, with a circle or an arrow.
