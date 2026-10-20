@@ -5,7 +5,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 20 | Added a cover page to the Part C report, with two AI disclosures from every member, one for the report and one for the video. A missing or incomplete disclosure lowers your group's report and video score. Part B does not need an AI disclosure. |
+| Oct 20 | Added a Part C cover page with two AI disclosures from every member, and a lower score if any are missing or incomplete. Part B needs no AI disclosure. Reworded Part C for readability, with the same requirements. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
@@ -662,24 +662,23 @@ If the quality of the submission is deemed below the standard for a B, your TA w
 
 ## Part C: Algorithmic Bias Case Study
 
-Part C is group work, worth 10%. There is a working block for it in [Lab 5](labs.md), and its
-deadline is in [What you hand in](#what-you-hand-in).
+Part C is group work, worth 10% of your course grade. You can work on it during
+[Lab 5](labs.md). The deadline is in [What you hand in](#what-you-hand-in).
 
-Algorithmic systems are already making decisions that change people's lives: who gets a loan, who
-gets flagged at a border, whose exam grade is revised downward. When one of them gets it badly
-wrong, the people affected rarely find out why. Part C is where you work out why, for one real
-case that has been documented properly.
+Algorithmic systems make decisions that change people's lives: who gets a loan, who is stopped at
+a border, whose exam grade is lowered. When one of these systems makes a wrong decision, the people
+affected often do not learn why. In Part C, your group studies one real case like this and
+explains why the harm happened.
 
-It's the largest piece of Project 1, and it has two deliverables:
+Part C is the largest part of Project 1. Your group makes two things:
 
-| Deliverable | What it covers |
-| :---------- | :------------- |
-| A written report | The facts: what the system was, what data it used, how it decided, what happened, and your sources |
-| A recorded video | The argument: who it affected, which of Benjamin's categories fits and the reading against it, the mechanism, and whether they should change it |
+| What you make | What it covers |
+| :------------ | :------------- |
+| A written report | The facts: what the system was, what data it used, how it made decisions, what happened, and your sources |
+| A recorded video | Your argument: who the system affected, which of Benjamin's categories fits the case and another way to read it, the mechanism, and whether the system should change |
 
-The split is deliberate: the report sets out the facts of the case, while the video is where you
-explain your reasoning out loud, in your own words. That is a harder skill than writing it down,
-and it is why the video carries most of the marks.
+The report gives the facts. In the video, you explain your reasoning out loud, in your own words.
+Explaining out loud is harder than writing, so the video is worth 78 of the 100 points.
 
 ### Before you start <!-- {docsify-ignore} -->
 
@@ -700,33 +699,34 @@ work.
 
 ### What you will do <!-- {docsify-ignore} -->
 
-- Choose a real, documented case where an algorithmic system caused harm
-- Write a short report with the facts of the case and your sources
-- Name the mechanism, using vocabulary from the course
-- Argue for a reading of the case that you do not agree with
+- Choose a real, documented case where an algorithmic system harmed people
+- Write a report of 2 to 3 pages with the facts of the case and your sources
+- Name the mechanism: the course concept that explains how the harm happened
+- Explain a second way to read the case, one that your group does not agree with
 - Record the video, with every group member on camera and speaking
-- Check that every source you cite is real before you submit
+- Before you submit, open every source you cite and check that it says what you claim
 - Write your own two AI disclosures on the cover page, one for the report and one for the video
 
 <details>
 <summary>Choosing a case</summary>
 
-Your case needs to:
+Your case must:
 
 - Be connected to Canada or to a country in Asia
-- Be chosen after the Algorithmic Bias lecture on October 14, which gives you Ruha Benjamin's
-  four categories. Your video is built around them
+- Be chosen after the Algorithmic Bias lecture on October 14. That lecture teaches Ruha Benjamin's
+  four categories, and your video uses them
 - Be proposed in Pre-lab 5 on [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/).
   Each member proposes a different case
-- Be documented, meaning there is a regulator's report, a court filing, or investigative
-  journalism about it. A blog post asserting that something happened is not enough
+- Be documented. This means there is a regulator's report, a court filing (a document from a court
+  case), or investigative journalism (news reporting where journalists did their own research)
+  about it. A blog post that says something happened is not enough
 
 > [!WARNING]
-> If you can't find a regulator's finding, a court document or an official statement, your case
-> may not be documented well enough to use. Talk to your TA early, not in the final week.
+> If you cannot find a regulator's finding, a court document or an official statement about your
+> case, it may not have enough evidence to use. Talk to your TA as soon as you can.
 
-No two groups in the same lab section can take the same case. The teaching team checks every
-Pre-lab 5 case before Lab 5, and lets your group know which of its cases are taken:
+Two groups in the same lab section cannot use the same case. Before Lab 5, the teaching team checks
+every Pre-lab 5 case and tells your group which of its cases are taken:
 
 1. If two groups in your section propose the same case, the group whose member submitted it first
    keeps it.
@@ -741,9 +741,9 @@ the usual pre-lab deadline so the teaching team has Tuesday to check the cases.
 <details>
 <summary>The report</summary>
 
-The report sets out the facts. Fill in every section, using bullet points wherever they are clearer
-than prose. Sections 1 to 4 should fit in 2 to 3 pages. Your cover page, sources list and any
-appendix do not count toward that limit.
+The report gives the facts of the case. Fill in all five sections below. Use bullet points when
+they are clearer than paragraphs. Sections 1 to 4 should be 2 to 3 pages, and must not be longer
+than 3 pages. The cover page, the sources list and any appendix do not count toward this limit.
 
 Start with a cover page. It must include:
 
@@ -755,19 +755,20 @@ Start with a cover page. It must include:
 
 [Using AI in Part C](#using-ai-in-part-c) explains the disclosures and shows an example cover page.
 
-1. What happened. One paragraph covering what the system was, who used it, and what went wrong.
-   Write it so that someone who has never heard of the case can follow it.
-2. Input. What data went into the system, where that data came from, and whether the people it
-   described agreed to it being used this way.
-3. Decision logic. What the system did with that data to reach a result. You do not need the
-   source code. "A submitted photo is compared against a database of scraped photos to identify a
-   person" is the right level of detail.
+1. What happened. One paragraph: what the system was, who used it, and what went wrong. Someone
+   who has never heard of the case must be able to understand it.
+2. Input. What data went into the system, where that data came from, and whether the people in
+   the data agreed to this use.
+3. Decision logic. What the system did with the data to reach a result. You do not need the
+   code. This example shows enough detail: "A submitted photo is compared against a database of
+   photos collected from websites to identify a person".
 4. Outcome. What happened, and to whom. Include any response, such as a regulator's finding, a
    court ruling or a change by the company.
-5. Sources. At least three, of which at least two are primary. News coverage of a single event
-   counts as one source, not three. List them in one citation style, and write the name of the
-   style at the top of the list. We recommend IEEE or ACM, the styles computer science uses, and
-   APA or MLA are also fine. UBC Library's [How to Cite](https://guides.library.ubc.ca/howtocite)
+5. Sources. At least three, and at least two of them primary. A primary source comes from the
+   people or organizations involved, for example a regulator's report, a court document or an
+   official statement. Several news articles about the same event count as one source. Use one
+   citation style for the whole list, and write the name of the style at the top of the list. We
+   recommend IEEE or ACM, the styles used in computer science. APA and MLA are also accepted. UBC Library's [How to Cite](https://guides.library.ubc.ca/howtocite)
    guide explains each style, with full guides for [APA](https://guides.library.ubc.ca/apacitationstyle)
    and [MLA](https://guides.library.ubc.ca/MLAHome). ACM's format is on
    [ACM's site](https://www.acm.org/publications/authors/reference-formatting).
@@ -777,110 +778,110 @@ Start with a cover page. It must include:
 <details>
 <summary>What naming the mechanism means</summary>
 
-Choose from the concepts covered in the course:
+The mechanism is the course concept that explains how the harm happened. Choose from this list:
 
 - Decision tree, or classification
 - Weighted scoring and thresholds
 - Feedback loop
 - A gap in the training data
-- A proxy variable, meaning something measured that stands in for something else
+- A proxy variable: something the system measures and uses in place of something else
 
-The difference between describing an outcome and naming a mechanism is easiest to see side by
-side.
+These two examples show the difference between describing an outcome and naming a mechanism.
 
-Weaker:
+Describes the outcome only:
 
 > The algorithm was biased against certain neighbourhoods.
 
-Stronger:
+Names the mechanism:
 
 > This is a feedback loop. Because the system sent fewer drivers to that area, fewer ride
 > requests came from it, and the system read that drop as confirmation that demand there was low.
 
-The second version explains how the harm kept itself going. Groups usually leave this part
-unfinished because they describe what happened without explaining the process behind it.
+The second example explains the process that kept the harm going. Groups often lose points here
+because they describe what happened, but not the process that caused it.
 
 </details>
 
 <details>
-<summary>Why the alternative reading is required</summary>
+<summary>Why you must give a second reading</summary>
 
-If a case seems to have only one defensible reading, nobody has looked at it closely enough.
+A reading is one way to interpret the case: here, the Benjamin category you say fits. Most cases
+can be read in more than one way.
 
-Clearview AI reads most easily as coded exposure, since it's a surveillance system. It also reads
-as default discrimination, because the RCMP never checked whether the data was collected legally.
-Both can be argued, and an argument that mentions only the easier one is weaker for it.
+For example, Clearview AI fits coded exposure, because it is a surveillance system. It also fits
+default discrimination, because the RCMP never checked whether the data was collected legally.
+Both readings can be argued. An argument that gives only one of them is incomplete.
 
-If your group genuinely disagrees about which category fits, that's useful rather than a problem,
-so present both readings. The categories part of your video exists for exactly that, and a real
-disagreement makes a stronger argument than a forced agreement.
+If your group does not agree on which category fits, present both readings in the video. The
+categories part of the video is for this.
 
 </details>
 
 ### The video
 
-The video is where your group explains its reasoning out loud, in your own words. It carries most
-of the marks for Part C, so plan, practise and record it with care.
+In the video, your group explains its reasoning out loud, in your own words. The video is worth 78
+of the 100 points, so start planning and practising early.
 
-Do not read the report aloud. We read the report ourselves. The video covers four parts, and each
-one builds on the facts in your report:
+Do not read the report aloud. Your TA reads the report separately. The video has four parts, and
+each part uses the facts in your report:
 
-1. Stakeholders. At least three stakeholders, each with one positive and one negative effect.
-   Every system benefits someone, so if you cannot find a single positive effect anywhere, look
-   again. A table on a slide helps.
-2. Benjamin's categories. Which of the four fits your case best? Say why, pointing to specific
-   facts from report sections 2 to 4. Then give a reading that someone else could reasonably argue
-   for, and explain what they would base it on. This part is required.
+1. Stakeholders. Name at least three stakeholders: people or groups who are affected by the
+   system or have an interest in it. For each one, give one positive effect and one negative
+   effect. Every system benefits someone, so if you cannot find a positive effect, look again. You
+   can show the effects in a table on a slide.
+2. Benjamin's categories. Say which of the four categories fits your case best, and why. Use
+   specific facts from report sections 2 to 4. Then give a second reading: a category that someone
+   else could reasonably argue for. Say which facts that reading would be based on. You must
+   include this second reading.
 
    | Category | What it means |
    | :------- | :------------ |
-   | Engineered inequity | Unequal outcomes by design, or deliberate targeting |
-   | Default discrimination | Nobody intended harm. It followed from indifference and from defaults nobody examined |
-   | Coded exposure | Being made visible to a system without consenting to it |
-   | Technological benevolence | Presented as helping people who are disadvantaged, while the real purpose is extracting something from them |
+   | Engineered inequity | The system was designed to give unequal results, or to target a group on purpose |
+   | Default discrimination | Nobody meant to cause harm. The harm came from people not paying attention, and from default choices that nobody checked |
+   | Coded exposure | People are made visible to a system without agreeing to it |
+   | Technological benevolence | The system is presented as helping disadvantaged people, but its real purpose is to take something from them |
 
-3. The mechanism. Name the concept from the course that your case turns on, and explain how it
-   produced the harm. This part does more than any other to separate a strong video from a
-   summary, so give it the time it needs.
-4. Should they change it? Give one argument for changing the system and one against, both based
-   on a real trade-off rather than an easy target.
+3. The mechanism. Name the course concept that explains your case, and explain how it caused the
+   harm. This part is worth 20 points, more than any of the other three parts, so plan the most
+   time for it.
+4. Should they change it? Give one argument for changing the system and one argument against it.
+   Each argument must name a specific benefit or cost in your case, and explain why it matters.
+   Choose arguments that a reasonable person could make, not arguments that are easy to reject.
 
 Use your sources as evidence while you speak. Name the source, for example "the privacy
 commissioner's report", or show it on a slide.
 
-Every group member speaks, and each of you gets up to 2 minutes. A group of five therefore has up
-to 10 minutes in total, and a group of four has up to 8. Split the four parts across your group.
-In a group of five, one member can introduce the case from your report and tie the parts together
-at the end. Decide who covers what before you start recording.
+Every group member must speak, for up to 2 minutes each. A group of five has up to 10 minutes in
+total, and a group of four has up to 8 minutes. Divide the four parts among your group. In a group
+of five, one member can introduce the case and connect the parts at the end. Decide who covers each
+part before you record.
 
 #### How to record it <!-- {docsify-ignore} -->
 
-These rules exist because the video is where you show your own understanding. Your face and your
-own words make that visible.
+Follow these rules. They let your TA see that each speaker understands their own part.
 
-- Every member is on camera while they speak, with their face visible. A voice over slides is not
-  enough. If you cannot appear on camera for an accessibility, safety or privacy reason, tell your
-  TA before you record, and this rule will not apply to you.
-- Speak, do not read. A few words of notes are fine. Reading sentences word for word from a
-  script, the report or your slides puts your delivery, and the part you cover, in Approaches
-  Expectations.
+- Every member must be on camera, with their face visible, while they speak. Speaking over slides
+  without your face on screen is not enough. If you cannot appear on camera for an accessibility,
+  safety or privacy reason, tell your TA before you record. This rule will then not apply to you.
+- Speak, do not read. You may use notes of a few words. If you read sentences word for word from a
+  script, the report or your slides, your TA marks Delivery, and the criterion for your part, at
+  Approaches Expectations.
 - Make every word easy to hear. Record somewhere quiet, keep the microphone close, and test the
   sound before you record the whole video.
-- Do not speed up the recording to fit the time limit. Cut what you say instead.
-- Practise together before you record. A video that runs without restarts or long pauses, with
-  each speaker picking up from the one before, is what reaches Exceeds Expectations.
+- Do not speed up the recording to fit the time limit. Say less instead.
+- Practise together before you record. The Delivery row in
+  [Going further](#going-further-in-part-c) lists what the video needs for Exceeds Expectations.
 
 > [!WARNING]
-> The video is covered by the
-> [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). You need to explain
-> your work and your group's decisions yourself. Do not read from a script an AI tool wrote, and do
-> not use AI-generated voices or avatars instead of speaking.
+> The [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries) applies to the
+> video. You must explain your work and your group's decisions yourself. Do not read from a script
+> an AI tool wrote. Do not use AI-generated voices or avatars instead of speaking.
 >
-> AI can help you prepare, within what the policy allows, but you need to understand everything
-> you say.
+> You may use AI to help you prepare, as the policy allows, but you must understand everything you
+> say.
 
-The teaching team may follow up with questions about your video. Every member should be able to
-answer about any part of it, not only their own section.
+The teaching team may ask you questions about your video. Every member should be able to answer
+questions about any part of it, not only their own part.
 
 #### Where to record and what to borrow <!-- {docsify-ignore} -->
 
@@ -902,7 +903,7 @@ want better sound or a steadier picture, UBC lends equipment and rooms to studen
   [Technology Borrowing](https://services.library.ubc.ca/computers-technology/technology-borrowing/)
   page lists everything and the loan times.
 - Recording remotely: hold a Zoom or Microsoft Teams call and record it. A free Zoom meeting lasts
-  up to 40 minutes, which is plenty for a video of up to 10 minutes. A Teams recording saves to the
+  up to 40 minutes, which is enough for a video of up to 10 minutes. A Teams recording saves to the
   OneDrive of the person who pressed record, so remove its expiry date to keep the link working.
   See the [Zoom student guide](https://ltic.ubc.ca/lt-hub/guides/zoom-student-guide/) and the
   [Microsoft Teams guide](https://lthub.ubc.ca/guides/microsoft-teams-guide/).
@@ -920,22 +921,27 @@ Upload your video and put its link on your report's cover page. Use one of these
 
 > [!WARNING]
 > Check the link before you submit. Ask a group member who did not upload the video to open it,
-> and make sure it plays all the way through.
+> and check that it plays to the end.
 >
-> If the link does not work when your TA opens it, 5 points come off your report and video score,
-> and your TA emails every member of your group. Reply to that email with a working link. Another 5
-> points come off for every 12 hours, or part of 12 hours, until your reply arrives. The most a
-> broken link can cost is 35 points: if you never send a working link, your video cannot be marked,
-> and you lose its 35 points instead. Check your UBC email after you submit.
+> If the link does not work when your TA opens it:
 >
-> Keep the video and its link available until your Part C grade is returned.
+> 1. Your TA takes 5 points off your report and video score, and emails every member of your
+>    group.
+> 2. Reply to that email with a working link.
+> 3. Your TA takes another 5 points off for every 12 hours, or part of 12 hours, until your reply
+>    arrives.
+>
+> The most your TA takes off for a broken link is 35 points. If you never send a working link, your video
+> cannot be marked, and you lose its 35 points instead. Check your UBC email after you submit.
+>
+> Keep the video and its link working until your Part C grade is returned.
 
 <!-- TODO: instructor decision required. Whether to require automatic captions on the video. -->
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
 Hand in your report as one PDF, in one submission to Project 1C (Group) on Canvas. One member
-submits for the whole group. Your group needs:
+submits for the whole group. Your group must hand in:
 
 - The written report: a cover page, then sections 1 to 4 in 2 to 3 pages, then your sources
 - Two AI disclosures from every member on the cover page, one for the report and one for the video
@@ -943,8 +949,8 @@ submits for the whole group. Your group needs:
   citation style that you name at the top of the list
 - A recorded video, linked on your cover page, with every member on camera and speaking, up to 2
   minutes each, covering the four parts
-- The four parts of the video make their points using [PEEL](#making-an-argument-with-peel), with
-  your sources as evidence
+- In all four parts of the video, each point uses [PEEL](#making-an-argument-with-peel), with your
+  sources as evidence
 - A case connected to Canada or a country in Asia
 
 ### Using AI in Part C <!-- {docsify-ignore} -->
@@ -970,12 +976,12 @@ For the video:
 | 🔴 | Red | AI made some of what you showed in your part of the video, for example a slide or an image. |
 
 If you choose Yellow or Red, add one or two lines after the colour that say which tools you used
-and how. Keep them brief and general, as in the example cover page below.
+and how. Keep them short and general, as in the example cover page below.
 
-No colour costs marks on its own. Your work is graded on the [rubric](#part-c-rubric), whichever
-colours you choose, and choosing honestly is what the
-[AI Policy](ai-policy.md#be-transparent-about-ai-use) asks of you. A missing or incomplete
-disclosure does cost your group marks, as explained in [AI disclosures](#ai-disclosures).
+The colour you choose does not change your grade. Your TA marks your work with the
+[rubric](#part-c-rubric), whatever colours you choose. The
+[AI Policy](ai-policy.md#be-transparent-about-ai-use) asks you to choose honestly. A missing or
+incomplete disclosure does lower your group's score. See [AI disclosures](#ai-disclosures).
 
 The [video rules](#how-to-record-it) apply whichever colour you choose. Do not read from a script
 an AI tool wrote, and do not use AI-generated voices or avatars.
@@ -1023,11 +1029,11 @@ suggest a clearer order for the points in my script.
 
 ### Where you have a choice <!-- {docsify-ignore} -->
 
-- Your case, within the limits above
+- Your case, if it meets the rules in Choosing a case
 - Which of Benjamin's categories you argue for, and which you argue against
 - Which mechanism you name, if more than one fits. Say so if several do
-- How you present the video: slides or a screen recording can sit alongside your faces, as long as
-  each speaker is on camera while speaking
+- How you present the video. You can show slides or a screen recording next to your faces, as long
+  as each speaker is on camera while speaking
 - How you divide up the speaking, as long as everyone speaks
 
 ### Going further in Part C <!-- {docsify-ignore} -->
@@ -1038,23 +1044,23 @@ Meets Expectations, plus every item listed for it below.
 | Criterion | To reach Exceeds Expectations, also do this |
 | :-- | :-- |
 | Case and sources | After every fact in report sections 2 to 4, say which of your sources it comes from, for example "(Source 2)". |
-| The facts of the case | In section 2 or 3, state at least one thing about the system that is not public, and say where you looked for it. |
-| Stakeholders | Include at least one stakeholder who neither runs the system nor has decisions made about them by it, such as a regulator, a bystander or the public. |
-| Benjamin's categories | Name at least one fact from report sections 2 to 4 that gives stronger support to one reading than the other. Use it to explain why your reading wins, or why both readings hold. |
-| The mechanism | Add a counterfactual: if one specific part of the system were removed or changed, which part of the harm would not have happened, and why. |
+| The facts of the case | In section 2 or 3, name at least one thing about the system that has not been made public, and say where you looked for it. |
+| Stakeholders | Include at least one stakeholder who does not run the system and is not the subject of its decisions, for example a regulator, a bystander or the public. |
+| Benjamin's categories | Name at least one fact from report sections 2 to 4 that supports one reading more than the other. Use it to explain why your reading fits better, or why both readings fit. |
+| The mechanism | Add a counterfactual. Choose one specific part of the system, and explain which part of the harm would not have happened if that part were removed or changed, and why. |
 | Should they change it? | For each of your two arguments, name who gains and who loses, using the stakeholders from your video. |
-| Delivery | Practise until the video runs without restarts, long pauses or anyone looking down to read. Plan the handovers: each speaker explains, at least once, how a specific point another speaker made supports, challenges or builds on their own. Handing over to the next speaker does not count. Appear together at least once, in one room or one video call, and speak to the camera with energy. For example: "This is the feedback loop Sam described, and it is also why the alternative reading falls short." |
+| Delivery | Practise until the video has no restarts, no long pauses and no one looking down to read. At least once, each speaker explains how a specific point from another speaker supports, challenges or adds to their own point. Only introducing the next speaker does not count. The whole group appears together at least once, in one room or one video call. Every speaker talks to the camera with energy. An example of a connection: "This is the feedback loop Sam described, and it is also why the alternative reading does not work." |
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
-Use this rubric to check your report and video before you submit. They are marked out of 100
-points across seven criteria, the same way as Part B, and that score is 90% of Part C. The report
-is worth 22 points and the video 78, so plan and practise the video early. The Exceeds Expectations
-row of each table summarizes that criterion's [Going further](#going-further-in-part-c) items.
+Use this rubric to check your report and video before you submit. Your TA marks them out of 100
+points, across seven criteria. This score is 90% of Part C. The report is worth 22 points and the
+video is worth 78 points. The Exceeds Expectations row of each table is a short version of that
+criterion's [Going further](#going-further-in-part-c) items.
 
-The other 10% of Part C is your stand-ups (5%) and the retrospective (5%), and your peer evaluation
-multiplier applies to all of Part C. The [grade breakdown](project.md#your-individual-part-c-mark)
-shows how the pieces add up.
+The other 10% of Part C comes from your stand-ups (5%) and the retrospective (5%). Your peer
+evaluation multiplier applies to all of Part C. The
+[grade breakdown](project.md#your-individual-part-c-mark) shows how these add up.
 
 | Criterion | Marked from | Points |
 | :-- | :-- | :--: |
@@ -1070,11 +1076,12 @@ shows how the pieces add up.
 If your video link does not work when your TA opens it, points come off this score until you send a
 working link. See [Submitting your video](#submitting-your-video).
 
-If any member's AI disclosure is missing or incomplete, this score has a limit. See
-[AI disclosures](#ai-disclosures).
+If any member's AI disclosure is missing or incomplete, your TA lowers the highest score your group
+can get. See [AI disclosures](#ai-disclosures).
 
-Criteria 3 to 6 are marked from what is said in the video. If a speaker reads their part word for
-word, both Delivery and the criterion for the part they covered drop to Approaches Expectations.
+Your TA marks criteria 3 to 6 from what each speaker says in the video. If a speaker reads their
+part word for word, your TA marks both Delivery and the criterion for that part at Approaches
+Expectations.
 
 #### 1. Case and sources (10 points)
 
@@ -1082,8 +1089,8 @@ word, both Delivery and the criterion for the part they covered drop to Approach
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus a source named after every fact in report sections 2 to 4. |
 | Meets Expectations (A-, A) | 8.5 | The case is connected to Canada or a country in Asia, and is documented by a regulator's report, a court filing or investigative journalism. Section 5 lists at least three sources, at least two of them primary, with news coverage of one event counted as one source. The list uses one citation style, named at the top of the list. |
-| Approaches Expectations (B- to B+) | 7.5 | The case is in scope, but the sources fall short once news coverage of one event is counted as one source. For example, there are only two sources, or fewer than two are primary. Extra coverage beyond the requirement does not lower the band. |
-| Not Within Expectations (C+ and below) | 6.5 | The case is outside the scope or is documented only by blog posts or a single news story, or there are fewer than two sources. |
+| Approaches Expectations (B- to B+) | 7.5 | The case meets the case rules, but there are not enough sources once news coverage of one event is counted as one source. For example, there are only two sources, or fewer than two are primary. Extra coverage beyond the requirement does not lower the band. |
+| Not Within Expectations (C+ and below) | 6.5 | The case does not meet the case rules, or is documented only by blog posts or a single news story, or there are fewer than two sources. |
 
 A source that does not exist, or that does not say what you claim, is not marked here. It is
 handled under [Academic integrity](#academic-integrity).
@@ -1092,7 +1099,7 @@ handled under [Academic integrity](#academic-integrity).
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 12 | Everything in Meets Expectations, plus at least one thing that is not public with where you looked for it. |
+| Exceeds Expectations (A+) | 12 | Everything in Meets Expectations, plus at least one thing about the system that has not been made public, and where you looked for it. |
 | Meets Expectations (A-, A) | 10.5 | All four sections are filled in, in 3 pages or fewer. Someone new to the case can follow section 1. Section 2 says what data went in, where it came from, and whether the people it described agreed. Section 3 explains what the system did with that data, at the level of the example in the report instructions. Section 4 says what happened, to whom, and any response. |
 | Approaches Expectations (B- to B+) | 9 | All four sections are there, but one is missing something it asks for. For example, section 2 does not say where the data came from or whether people agreed, or section 3 says only that the system used the data to decide. |
 | Not Within Expectations (C+ and below) | 8 | A section is missing. |
@@ -1102,15 +1109,15 @@ handled under [Academic integrity](#academic-integrity).
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus a stakeholder who neither runs the system nor has decisions made about them by it. |
-| Meets Expectations (A-, A) | 8.5 | The video names at least three stakeholders, each with one positive and one negative effect, backed by facts from your report or sources. Each point uses PEEL. |
-| Approaches Expectations (B- to B+) | 7.5 | Two or more stakeholders are missing a positive or a negative effect, or the effects are stated without facts behind them. |
+| Meets Expectations (A-, A) | 8.5 | The video names at least three stakeholders, each with one positive and one negative effect, supported by facts from your report or sources. Each point uses PEEL. |
+| Approaches Expectations (B- to B+) | 7.5 | Two or more stakeholders are missing a positive or a negative effect, or the effects are stated without supporting facts. |
 | Not Within Expectations (C+ and below) | 6.5 | There are fewer than three stakeholders. |
 
 #### 4. Benjamin's categories (15 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus a fact that supports one reading more strongly than the other, used to explain why your reading wins or why both hold. |
+| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus a fact that supports one reading more than the other, used to explain why your reading fits better or why both fit. |
 | Meets Expectations (A-, A) | 13 | You name the category that fits best and support it with specific facts from report sections 2 to 4. You give an alternative reading that someone could reasonably argue for, and say what it would be based on. Each point uses PEEL. |
 | Approaches Expectations (B- to B+) | 11.5 | At least one fact from the case supports the category, but the explanation of why it fits is incomplete, or the alternative reading is named without saying what it would be based on, or it is a reading nobody could reasonably argue. |
 | Not Within Expectations (C+ and below) | 10 | No fact from the case supports the category (for example, only its definition is given), or there is no alternative reading. |
@@ -1129,15 +1136,15 @@ handled under [Academic integrity](#academic-integrity).
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus who gains and who loses from each argument, using your stakeholders. |
-| Meets Expectations (A-, A) | 8.5 | One argument for changing the system and one against. Each names a specific benefit or cost in your case and explains why it matters, rather than an easy target. Each point uses PEEL. |
-| Approaches Expectations (B- to B+) | 7.5 | Both arguments are there, but at least one does not name a specific benefit or cost in your case, or is an easy target. |
+| Meets Expectations (A-, A) | 8.5 | One argument for changing the system and one against. Each names a specific benefit or cost in your case and explains why it matters. Neither is an argument that is easy to reject. Each point uses PEEL. |
+| Approaches Expectations (B- to B+) | 7.5 | Both arguments are there, but at least one does not name a specific benefit or cost in your case, or is an argument that is easy to reject. |
 | Not Within Expectations (C+ and below) | 6.5 | One of the two arguments is missing. |
 
 #### 7. Delivery (23 points)
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 23 | Everything in Meets Expectations, plus a well-practised video: no restarts, long pauses or anyone looking down to read, every speaker picking up a specific point from another, the whole group on screen together at least once, and every speaker talking to the camera with energy. |
+| Exceeds Expectations (A+) | 23 | Everything in Meets Expectations, plus a practised video: no restarts, no long pauses and no one looking down to read, every speaker connecting to a specific point from another speaker, the whole group on screen together at least once, and every speaker talking to the camera with energy. |
 | Meets Expectations (A-, A) | 20 | Every group member speaks, for up to 2 minutes each, and is on camera with their face visible while speaking. The video covers all four parts. Each speaker explains in their own words, from a few words of notes at most, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries), and every word is easy to hear. |
 | Approaches Expectations (B- to B+) | 18 | At least one of these happens: a speaker reads from a script, the report or slides; a speaker is not on camera, unless your TA approved an exception; parts are hard to hear; a member does not speak; or the video or any one speaker runs more than 30 seconds over the time limit. |
 | Not Within Expectations (C+ and below) | 15 | Most of the video is read aloud, or most speakers are not on camera. |
@@ -1281,8 +1288,8 @@ what to write.
 A member's disclosures are incomplete if either colour is missing, or if a Yellow or Red has no
 line saying which tools they used and how.
 
-The disclosures earn no points. If any are incomplete, your TA lowers your group's report and video
-score, the 90% of Part C, to the highest score in this table:
+The disclosures are not worth any points. If any are incomplete, your TA lowers your group's report
+and video score (90% of Part C) to the maximum in this table:
 
 | Members with incomplete disclosures | Highest report and video score |
 | :-- | :--: |
@@ -1294,7 +1301,8 @@ For example, if your group's report and video earns 94 points and one member's v
 missing, your score becomes 89. Your TA applies the limit first, then any
 [broken link](#submitting-your-video) deduction.
 
-The limit applies to the whole group, so one member's missing disclosure costs every member the same.
+The limit applies to the whole group. If one member's disclosure is missing, every member gets the
+same lower score.
 
 ### Peer evaluation
 
