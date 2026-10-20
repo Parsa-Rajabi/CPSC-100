@@ -5,7 +5,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 20 | Added a Part C cover page with two AI disclosures from every member, and a lower score if any are missing or incomplete. Part B needs no AI disclosure. Reworded Part C for readability, with the same requirements. |
+| Oct 20 | Added a Part C cover page with every member's AI disclosures, which lower your score if missing. Reworded Part C, defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
@@ -764,9 +764,11 @@ Start with a cover page. It must include:
    photos collected from websites to identify a person".
 4. Outcome. What happened, and to whom. Include any response, such as a regulator's finding, a
    court ruling or a change by the company.
-5. Sources. At least three, and at least two of them primary. A primary source comes from the
-   people or organizations involved, for example a regulator's report, a court document or an
-   official statement. Several news articles about the same event count as one source. Use one
+5. Sources. At least three, and at least two of them primary. UBC Library defines a
+   [primary source](https://guides.library.ubc.ca/primarysources) as direct, first-hand evidence
+   of events, before anyone else has analyzed or explained them. For your case, primary sources
+   include regulator reports, court documents and official statements. Several news articles about
+   the same event count as one source. Use one
    citation style for the whole list, and write the name of the style at the top of the list. We
    recommend IEEE or ACM, the styles used in computer science. APA and MLA are also accepted. UBC Library's [How to Cite](https://guides.library.ubc.ca/howtocite)
    guide explains each style, with full guides for [APA](https://guides.library.ubc.ca/apacitationstyle)
@@ -931,8 +933,9 @@ Upload your video and put its link on your report's cover page. Use one of these
 > 3. Your TA takes another 5 points off for every 12 hours, or part of 12 hours, until your reply
 >    arrives.
 >
-> The most your TA takes off for a broken link is 35 points. If you never send a working link, your video
-> cannot be marked, and you lose its 35 points instead. Check your UBC email after you submit.
+> The most your TA takes off for a broken link is 35 points. If you never send a working link,
+> your video cannot be marked, and you lose all 78 video points instead. Check your UBC email after
+> you submit.
 >
 > Keep the video and its link working until your Part C grade is returned.
 
