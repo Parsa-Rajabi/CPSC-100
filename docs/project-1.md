@@ -118,12 +118,12 @@ three.
 
 ## Part A: Your Digital Footprint
 
+<details>
+<summary>Part A instructions, AI use line and rubric, from Week 5</summary>
+
 Part A is individual work, worth 1%, and it runs in [Lab 3](labs.md) on October 7 and 8. You
 annotate the script during the lab, and you hand in everything on Canvas by the day after your
 lab.
-
-<details>
-<summary>Part A instructions, AI use line and rubric, from Week 5</summary>
 
 Most of your digital life is invisible to you. It built up across different platforms over years,
 and there's nowhere you can go to see the shape of it all at once.
