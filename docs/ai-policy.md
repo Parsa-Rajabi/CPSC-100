@@ -50,7 +50,7 @@ Outside the independent assessments and restrictions below, you may use AI to ex
 | Project 1 Part A | We strongly encourage you to write your annotations and reflection without AI. Start your PDF with a green, yellow or red AI use line, as described in [Using AI in Part A](project-1.md#using-ai-in-part-a). |
 | Project 1 AI detector experiment | Create AI-generated image samples and evaluate AI detection tools as instructed. Record actual results and examine accuracy, errors, and limitations. |
 | Preparation for Project 1C and 2C | AI may support preparation as the project instructions permit, including developing permitted materials and generating practice questions. You must understand everything you present. |
-| Project 1 Part C report and video | Every member writes two AI disclosures on the report's cover page, one for the report and one for the video, as described in [Using AI in Part C](project-1.md#using-ai-in-part-c). A missing or incomplete disclosure lowers your group's score. |
+| Project 1 Part C report and video | Every member writes two AI disclosures on the report's cover page, one for the report and one for the video, as described in [Using AI in Part C](project-1.md#using-ai-in-part-c). Each missing disclosure takes 2 points off your group's report and video score. |
 | Peer evaluations | AI must not generate or rewrite ratings or comments, including in the practice round. Use your own observations and judgment. Ordinary spellcheck is permitted. |
 | Stand-ups, retrospectives, and reflections | Report your actual work and experiences. Follow any AI limits in the instructions. Never invent progress, contributions, meetings, or lessons learned. |
 
