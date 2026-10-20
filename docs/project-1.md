@@ -988,8 +988,9 @@ submits for the whole group. Your group must hand in:
 ### Using AI in Part C <!-- {docsify-ignore} -->
 
 Every member must write two AI disclosures on the cover page: one for the report and one for the
-video. Each disclosure is one colour, Green, Yellow or Red, and covers your own part of the work.
-Choose the colour that is true for you.
+video. Each disclosure is one colour, 🟢 Green, 🟡 Yellow or 🔴 Red, and covers your own part of the
+work. Choose the colour that is true for you. Write the circle and the colour, for example
+"Report: 🟡 Yellow".
 
 For the report:
 
@@ -1007,7 +1008,7 @@ For the video:
 | 🟡 | Yellow | You used AI for your part of the video, for example to edit it or to help with your script, but you chose what to say and said it in your own words. |
 | 🔴 | Red | AI made some of what you showed in your part of the video, for example a slide or an image. |
 
-If you choose Yellow or Red, add one or two lines after the colour that say which tools you used
+If you choose 🟡 Yellow or 🔴 Red, add one or two lines after the colour that say which tools you used
 and how. Keep them short and general, as in the example cover page below.
 
 The colour you choose does not change your grade. Your TA marks your work with the
@@ -1039,21 +1040,21 @@ Student D, 45678901
 AI disclosures
 
 Student A
-Report: Green
-Video: Green
+Report: 🟢 Green
+Video: 🟢 Green
 
 Student B
-Report: Yellow. Microsoft Copilot, to explain the privacy
+Report: 🟡 Yellow. Microsoft Copilot, to explain the privacy
 commissioner's findings in plainer words.
-Video: Green
+Video: 🟢 Green
 
 Student C
-Report: Green
-Video: Red. Canva, to design my stakeholder slide.
+Report: 🟢 Green
+Video: 🔴 Red. Canva, to design my stakeholder slide.
 
 Student D
-Report: Yellow. ChatGPT, to suggest shorter wording for section 3.
-Video: Yellow. Clipchamp, to add captions to my part. ChatGPT, to
+Report: 🟡 Yellow. ChatGPT, to suggest shorter wording for section 3.
+Video: 🟡 Yellow. Clipchamp, to add captions to my part. ChatGPT, to
 suggest a clearer order for the points in my script.
 ```
 
@@ -1318,7 +1319,7 @@ Before your group submits Part C, check that the cover page has two AI disclosur
 member, one for the report and one for the video. [Using AI in Part C](#using-ai-in-part-c) shows
 what to write.
 
-A member's disclosures are incomplete if either colour is missing, or if a Yellow or Red has no
+A member's disclosures are incomplete if either colour is missing, or if a 🟡 Yellow or 🔴 Red has no
 line saying which tools they used and how.
 
 The disclosures are not worth any points. If any are incomplete, your TA lowers your group's report
