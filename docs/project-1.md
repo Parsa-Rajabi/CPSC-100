@@ -803,10 +803,10 @@ of the marks for Part C, so plan, practise and record it with care.
 Do not read the report aloud. We read the report ourselves. The video covers four parts, and each
 one builds on the facts in your report:
 
-1. Stakeholders. At least three stakeholders, each with one positive and one negative effect.
+1. <b>Stakeholders.</b> At least three stakeholders, each with one positive and one negative effect.
    Every system benefits someone, so if you cannot find a single positive effect anywhere, look
    again. A table on a slide helps.
-2. Benjamin's categories. Which of the four fits your case best? Say why, pointing to specific
+2. <b>Benjamin's categories.</b> Which of the four fits your case best? Say why, pointing to specific
    facts from report sections 2 to 4. Then give a reading that someone else could reasonably argue
    for, and explain what they would base it on. This part is required.
 
@@ -833,7 +833,7 @@ disagreement makes a stronger argument than a forced agreement.
 
 </details>
 
-3. The mechanism. Name the concept from the course that your case turns on, and explain how it
+3. <b>The mechanism</b>. Name the concept from the course that your case turns on, and explain how it
    produced the harm. This part does more than any other to separate a strong video from a
    summary, so give it the time it needs.
 
@@ -867,7 +867,7 @@ unfinished because they describe what happened without explaining the process be
 </details>
 
 
-4. Should they change it? Give one argument for changing the system and one against, both based
+4. <b>Should they change it?</b> Give one argument for changing the system and one against, both based
    on a real trade-off rather than an easy target.
 
 Use your sources as evidence while you speak. Name the source, for example "the privacy
@@ -878,7 +878,7 @@ to 10 minutes in total, and a group of four has up to 8. Split the four parts ac
 In a group of five, one member can introduce the case from your report and tie the parts together
 at the end. Decide who covers what before you start recording.
 
-#### How to record it <!-- {docsify-ignore} -->
+##### How to record it <!-- {docsify-ignore} -->
 
 These rules exist because the video is where you show your own understanding. Your face and your
 own words make that visible.
@@ -907,7 +907,7 @@ own words make that visible.
 The teaching team may follow up with questions about your video. Every member should be able to
 answer about any part of it, not only their own section.
 
-#### Where to record and what to borrow <!-- {docsify-ignore} -->
+##### Where to record and what to borrow <!-- {docsify-ignore} -->
 
 You do not need special equipment. A phone on a steady surface in a quiet room is enough. If you
 want better sound or a steadier picture, UBC lends equipment and rooms to students for free.
@@ -934,7 +934,7 @@ want better sound or a steadier picture, UBC lends equipment and rooms to studen
 - Guides: [Recording 101](https://learningcommons.ubc.ca/recording-101/) covers sound and speaking
   tips, and [DIY Media @ UBC](https://diy.open.ubc.ca/video/) covers planning and making a video.
 
-#### Submitting your video <!-- {docsify-ignore} -->
+##### Submitting your video <!-- {docsify-ignore} -->
 
 Upload your video and put its link at the top of your report, under your group members. Use one of
 these:
@@ -944,19 +944,9 @@ these:
 - Google Drive: set the link so that anyone with the link can view
 - YouTube: upload it as unlisted, not public and not private
 
-> [!WARNING]
-> Check the link before you submit. Ask a group member who did not upload the video to open it,
-> and make sure it plays all the way through.
->
-> If the link does not work when your TA opens it, 5 points come off your report and video score,
-> and your TA emails every member of your group. Reply to that email with a working link. Another 5
-> points come off for every 12 hours, or part of 12 hours, until your reply arrives. The most a
-> broken link can cost is 35 points: if you never send a working link, your video cannot be marked,
-> and you lose its 35 points instead. Check your UBC email after you submit.
->
-> Keep the video and its link available until your Part C grade is returned.
+If your video link does not work when your TA opens it, points come off your project score until you send a
+working link. See [the rubric](#part-c-rubric) for the detailed breakdown
 
-<!-- TODO: instructor decision required. Whether to require automatic captions on the video. -->
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
@@ -973,29 +963,6 @@ submits for the whole group. Your group needs:
   your sources as evidence
 - A case connected to Canada or a country in Asia
 
-### Where you have a choice <!-- {docsify-ignore} -->
-
-- Your case, within the limits above
-- Which of Benjamin's categories you argue for, and which you argue against
-- Which mechanism you name, if more than one fits. Say so if several do
-- How you present the video: slides or a screen recording can sit alongside your faces, as long as
-  each speaker is on camera while speaking
-- How you divide up the speaking, as long as everyone speaks
-
-### Going further in Part C <!-- {docsify-ignore} -->
-
-To reach the A+ / Exceeds Expectations category on a criterion, do everything it asks for at
-Meets Expectations, plus every item listed for it below.
-
-| Criterion | To reach Exceeds Expectations, also do this |
-| :-- | :-- |
-| Case and sources | After every fact in report sections 2 to 4, say which of your sources it comes from, for example "(Source 2)". |
-| The facts of the case | In section 2 or 3, state at least one thing about the system that is not public, and say where you looked for it. |
-| Stakeholders | Include at least one stakeholder who neither runs the system nor has decisions made about them by it, such as a regulator, a bystander or the public. |
-| Benjamin's categories | Name at least one fact from report sections 2 to 4 that gives stronger support to one reading than the other. Use it to explain why your reading wins, or why both readings hold. |
-| The mechanism | Add a counterfactual: if one specific part of the system were removed or changed, which part of the harm would not have happened, and why. |
-| Should they change it? | For each of your two arguments, name who gains and who loses, using the stakeholders from your video. |
-| Delivery | Practise until the video runs without restarts, long pauses or anyone looking down to read. Plan the handovers: each speaker explains, at least once, how a specific point another speaker made supports, challenges or builds on their own. Handing over to the next speaker does not count. Appear together at least once, in one room or one video call, and speak to the camera with energy. For example: "This is the feedback loop Sam described, and it is also why the alternative reading falls short." |
 
 ### Part C rubric <!-- {docsify-ignore} -->
 
@@ -1019,17 +986,12 @@ shows how the pieces add up.
 | 7. Delivery | Video | 23 |
 | Total | | 100 |
 
-If your video link does not work when your TA opens it, points come off this score until you send a
-working link. See [Submitting your video](#submitting-your-video).
-
-Criteria 3 to 6 are marked from what is said in the video. If a speaker reads their part word for
-word, both Delivery and the criterion for the part they covered drop to Approaches Expectations.
-
-#### 1. Case and sources (10 points)
+<details>
+<summary><strong> 1. Case and sources (10 points)</strong></summary>
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus a source named after every fact in report sections 2 to 4. |
+| Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, and after every fact in report sections 2 to 4, say which of your sources it comes from, for example "(Source 2)". |
 | Meets Expectations (A-, A) | 8.5 | The case is connected to Canada or a country in Asia, and is documented by a regulator's report, a court filing or investigative journalism. Section 5 lists at least three sources, at least two of them primary, with news coverage of one event counted as one source. The list uses one citation style, named at the top of the list. |
 | Approaches Expectations (B- to B+) | 7.5 | The case is in scope, but the sources fall short once news coverage of one event is counted as one source. For example, there are only two sources, or fewer than two are primary. Extra coverage beyond the requirement does not lower the band. |
 | Not Within Expectations (C+ and below) | 6.5 | The case is outside the scope or is documented only by blog posts or a single news story, or there are fewer than two sources. |
@@ -1037,34 +999,46 @@ word, both Delivery and the criterion for the part they covered drop to Approach
 A source that does not exist, or that does not say what you claim, is not marked here. It is
 handled under [Academic integrity](#academic-integrity).
 
-#### 2. The facts of the case: sections 1 to 4 (12 points)
+</details>
+
+<details>
+<summary><strong> 2. The facts of the case: sections 1 to 4 (12 points)</strong></summary>
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 12 | Everything in Meets Expectations, plus at least one thing that is not public with where you looked for it. |
+| Exceeds Expectations (A+) | 12 | Everything in Meets Expectations, and state in section 2 or 3 at least one thing about the system that is not public with where you looked for it.|
 | Meets Expectations (A-, A) | 10.5 | All four sections are filled in, in 3 pages or fewer. Someone new to the case can follow section 1. Section 2 says what data went in, where it came from, and whether the people it described agreed. Section 3 explains what the system did with that data, at the level of the example in the report instructions. Section 4 says what happened, to whom, and any response. |
 | Approaches Expectations (B- to B+) | 9 | All four sections are there, but one is missing something it asks for. For example, section 2 does not say where the data came from or whether people agreed, or section 3 says only that the system used the data to decide. |
 | Not Within Expectations (C+ and below) | 8 | A section is missing. |
 
-#### 3. Stakeholders (10 points)
+</details>
+
+<details>
+<summary><strong> 3. Stakeholders (10 points)</strong></summary>
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus a stakeholder who neither runs the system nor has decisions made about them by it. |
+| Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus a stakeholder who neither runs the system nor has decisions made about them by it (such as a regulator, a bystander or the public).|
 | Meets Expectations (A-, A) | 8.5 | The video names at least three stakeholders, each with one positive and one negative effect, backed by facts from your report or sources. Each point uses PEEL. |
 | Approaches Expectations (B- to B+) | 7.5 | Two or more stakeholders are missing a positive or a negative effect, or the effects are stated without facts behind them. |
 | Not Within Expectations (C+ and below) | 6.5 | There are fewer than three stakeholders. |
 
-#### 4. Benjamin's categories (15 points)
+</details>
+
+<details>
+<summary><strong> 4. Benjamin's categories (15 points)</strong></summary>
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus a fact that supports one reading more strongly than the other, used to explain why your reading wins or why both hold. |
+| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus at least one fact from report sections 2 to 4 that gives stronger support to one reading than the other, using it to explain why your reading wins, or why both readings hold. |
 | Meets Expectations (A-, A) | 13 | You name the category that fits best and support it with specific facts from report sections 2 to 4. You give an alternative reading that someone could reasonably argue for, and say what it would be based on. Each point uses PEEL. |
 | Approaches Expectations (B- to B+) | 11.5 | At least one fact from the case supports the category, but the explanation of why it fits is incomplete, or the alternative reading is named without saying what it would be based on, or it is a reading nobody could reasonably argue. |
 | Not Within Expectations (C+ and below) | 10 | No fact from the case supports the category (for example, only its definition is given), or there is no alternative reading. |
 
-#### 5. The mechanism (20 points)
+</details>
+
+<details>
+<summary><strong> 5. The mechanism (20 points)</strong></summary>
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
@@ -1073,25 +1047,49 @@ handled under [Academic integrity](#academic-integrity).
 | Approaches Expectations (B- to B+) | 15.5 | A concept is named and defined, but the link to the harm in your case is implied rather than explained, or the explanation describes the outcome instead of the process. |
 | Not Within Expectations (C+ and below) | 13 | No concept from the course is named, or the concept does not match what happened in the case. |
 
-#### 6. Should they change it? (10 points)
+</details>
+
+<details>
+<summary><strong> 6. Should they change it? (10 points) </strong></summary>
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, plus who gains and who loses from each argument, using your stakeholders. |
+| Exceeds Expectations (A+) | 10 | Everything in Meets Expectations, and for each of your two arguments, name who gains and who loses, using the stakeholders from your video. |
 | Meets Expectations (A-, A) | 8.5 | One argument for changing the system and one against. Each names a specific benefit or cost in your case and explains why it matters, rather than an easy target. Each point uses PEEL. |
 | Approaches Expectations (B- to B+) | 7.5 | Both arguments are there, but at least one does not name a specific benefit or cost in your case, or is an easy target. |
 | Not Within Expectations (C+ and below) | 6.5 | One of the two arguments is missing. |
 
-#### 7. Delivery (23 points)
+</details>
+
+<details>
+<summary><strong> 7. Delivery (23 points)</strong></summary>
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 23 | Everything in Meets Expectations, plus a well-practised video: no restarts, long pauses or anyone looking down to read, every speaker picking up a specific point from another, the whole group on screen together at least once, and every speaker talking to the camera with energy. |
+| Exceeds Expectations (A+) | 23 | Everything in Meets Expectations, plus a well-practised video: no restarts, long pauses or anyone looking down to read, every speaker picking up a specific point from another and how it supports, challenges or builds on their own, the whole group on screen together at least once (in one room or one video call), and every speaker talking to the camera with energy. |
 | Meets Expectations (A-, A) | 20 | Every group member speaks, for up to 2 minutes each, and is on camera with their face visible while speaking. The video covers all four parts. Each speaker explains in their own words, from a few words of notes at most, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries), and every word is easy to hear. |
 | Approaches Expectations (B- to B+) | 18 | At least one of these happens: a speaker reads from a script, the report or slides; a speaker is not on camera, unless your TA approved an exception; parts are hard to hear; a member does not speak; or the video or any one speaker runs more than 30 seconds over the time limit. |
 | Not Within Expectations (C+ and below) | 15 | Most of the video is read aloud, or most speakers are not on camera. |
 
----
+</details>
+
+
+Criteria 3 to 6 are marked from what is said in the video. If a speaker reads their part word for
+word, both Delivery and the criterion for the part they covered drop to Approaches Expectations.
+
+> [!WARNING]
+> Check your submitted video link before you submit. Ask a group member who did not upload the video to open it,
+> and make sure it plays all the way through.
+>
+> If the link does not work when your TA opens it, 5 points come off your report and video score,
+> and your TA emails every member of your group. Reply to that email with a working link. Another 5
+> points come off for every 12 hours, or part of 12 hours, until your reply arrives. The most a
+> broken link can cost is 35 points: if you never send a working link, your video cannot be marked,
+> and you lose its 35 points instead. Check your UBC email after you submit.
+>
+> Keep the video and its link available until your Part C grade is returned.
+
+<!-- TODO: instructor decision required. Whether to require automatic captions on the video. -->
 
 ## Working as a group
 
