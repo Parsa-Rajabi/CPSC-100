@@ -83,14 +83,11 @@ Pacific time.
 | :--------------- | :-- | :-- | :---- |
 | Part A: your annotated Snap! project, and one PDF with your two scores and a short reflection | Individual | The day after your Lab 3: Thu Oct 8 (L1A to L1D) or Fri Oct 9 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2597084) |
 | Pre-lab 5: one proposed case for Part C | Individual | Mon Oct 19, 11:59pm | [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/) |
-| Part B: two documents, your image dataset and your evaluation, as PDF files | Group | Tue Oct 20, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
-| Part C: a short written report (sections 1 to 5) as one PDF. Its cover page has the link to your recorded video and every member's AI disclosures | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| Part B: two documents, your image dataset and your evaluation, as PDF files | Group | Tue Oct 20, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2599621) |
+| Part C: a short written report (sections 1 to 5) as one PDF. Its cover page has the link to your recorded video and every member's AI disclosures | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2599622) |
 | [Stand-ups](#weekly-stand-ups) 1 to 4 | Individual | Every Friday from Oct 9 to Oct 30, 4:00pm | Ed Discussion |
 | [Retrospective](#retrospectives) 1 | Group | Thu Oct 29, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2592835) |
 | [iPeer 1](#peer-evaluation) | Individual | Thu Oct 29, 11:59pm | iPeer |
-
-<!-- Part B and Part C link to the course's Assignments page. Replace each with its assignment's
-own page once the Project 1B and Project 1C assignments exist. -->
 
 
 ---
@@ -386,13 +383,6 @@ then adds a few more of their own.
 - E.g. A group of 4 members must have a dataset of 8 images + 4 starter images, so 12 images in total. 
 
 Whatever the final count, your dataset needs to:
-
-<!-- TODO: instructor decision required. Dataset image counts left as TBD at your request. The
-earlier draft said four starter images (two real, two AI-generated) plus two per group member,
-one of each, giving ten images for a group of three and fourteen for a group of five. The
-composition minimums below (one lightly edited camera photo, one building, one nature scene) and
-the tool count rule (one per member, minimum three) were NOT changed, since you specified image
-counts. Say if those should go to TBD too. -->
 
 - Record where every image came from, and how you know whether it is real or AI-generated
 - Include at least one photo taken with a camera and lightly edited using an editor that does
