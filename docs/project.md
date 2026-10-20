@@ -86,8 +86,8 @@ up.
 - Stand-up 0 and the practice retrospective are not marked, but they are still required, and their
   late penalties come off Project 1 Part C.
 - Project 1's report has two AI disclosures from every member on its cover page. They earn no
-  points, but each missing disclosure takes 2 points off the report and video score. See
-  [AI disclosures](project-1.md#ai-disclosures).
+  points, but each missing disclosure takes 2 points off the report and video score, and a Yellow
+  or Red without its note takes 1 point off. See [AI disclosures](project-1.md#ai-disclosures).
 - A stand-up is complete when you post it yourself and it answers all three questions, partial
   when it is missing an answer, and incomplete when it is not posted. A late stand-up can still be
   complete. Its late penalty is separate.
