@@ -767,8 +767,8 @@ the usual pre-lab deadline so the teaching team has Tuesday to check the cases.
 
 </details>
 
-<details>
-<summary>The report</summary>
+
+### The report
 
 The report sets out the facts. Fill in every section, using bullet points wherever they are clearer
 than prose. Sections 1 to 4 should fit in 2 to 3 pages. Your sources list and any appendix do not
@@ -793,7 +793,50 @@ At the top, give the case name, the country, your group members, and the link to
    and [MLA](https://guides.library.ubc.ca/MLAHome). ACM's format is on
    [ACM's site](https://www.acm.org/publications/authors/reference-formatting).
 
+
+
+### The video
+
+The video is where your group explains its reasoning out loud, in your own words. It carries most
+of the marks for Part C, so plan, practise and record it with care.
+
+Do not read the report aloud. We read the report ourselves. The video covers four parts, and each
+one builds on the facts in your report:
+
+1. Stakeholders. At least three stakeholders, each with one positive and one negative effect.
+   Every system benefits someone, so if you cannot find a single positive effect anywhere, look
+   again. A table on a slide helps.
+2. Benjamin's categories. Which of the four fits your case best? Say why, pointing to specific
+   facts from report sections 2 to 4. Then give a reading that someone else could reasonably argue
+   for, and explain what they would base it on. This part is required.
+
+   | Category | What it means |
+   | :------- | :------------ |
+   | Engineered inequity | Unequal outcomes by design, or deliberate targeting |
+   | Default discrimination | Nobody intended harm. It followed from indifference and from defaults nobody examined |
+   | Coded exposure | Being made visible to a system without consenting to it |
+   | Technological benevolence | Presented as helping people who are disadvantaged, while the real purpose is extracting something from them |
+
+
+<details>
+<summary>Why the alternative reading is required</summary>
+
+If a case seems to have only one defensible reading, nobody has looked at it closely enough.
+
+Clearview AI reads most easily as coded exposure, since it's a surveillance system. It also reads
+as default discrimination, because the RCMP never checked whether the data was collected legally.
+Both can be argued, and an argument that mentions only the easier one is weaker for it.
+
+If your group genuinely disagrees about which category fits, that's useful rather than a problem,
+so present both readings. The categories part of your video exists for exactly that, and a real
+disagreement makes a stronger argument than a forced agreement.
+
 </details>
+
+3. The mechanism. Name the concept from the course that your case turns on, and explain how it
+   produced the harm. This part does more than any other to separate a strong video from a
+   summary, so give it the time it needs.
+
 
 <details>
 <summary>What naming the mechanism means</summary>
@@ -823,46 +866,7 @@ unfinished because they describe what happened without explaining the process be
 
 </details>
 
-<details>
-<summary>Why the alternative reading is required</summary>
 
-If a case seems to have only one defensible reading, nobody has looked at it closely enough.
-
-Clearview AI reads most easily as coded exposure, since it's a surveillance system. It also reads
-as default discrimination, because the RCMP never checked whether the data was collected legally.
-Both can be argued, and an argument that mentions only the easier one is weaker for it.
-
-If your group genuinely disagrees about which category fits, that's useful rather than a problem,
-so present both readings. The categories part of your video exists for exactly that, and a real
-disagreement makes a stronger argument than a forced agreement.
-
-</details>
-
-### The video
-
-The video is where your group explains its reasoning out loud, in your own words. It carries most
-of the marks for Part C, so plan, practise and record it with care.
-
-Do not read the report aloud. We read the report ourselves. The video covers four parts, and each
-one builds on the facts in your report:
-
-1. Stakeholders. At least three stakeholders, each with one positive and one negative effect.
-   Every system benefits someone, so if you cannot find a single positive effect anywhere, look
-   again. A table on a slide helps.
-2. Benjamin's categories. Which of the four fits your case best? Say why, pointing to specific
-   facts from report sections 2 to 4. Then give a reading that someone else could reasonably argue
-   for, and explain what they would base it on. This part is required.
-
-   | Category | What it means |
-   | :------- | :------------ |
-   | Engineered inequity | Unequal outcomes by design, or deliberate targeting |
-   | Default discrimination | Nobody intended harm. It followed from indifference and from defaults nobody examined |
-   | Coded exposure | Being made visible to a system without consenting to it |
-   | Technological benevolence | Presented as helping people who are disadvantaged, while the real purpose is extracting something from them |
-
-3. The mechanism. Name the concept from the course that your case turns on, and explain how it
-   produced the harm. This part does more than any other to separate a strong video from a
-   summary, so give it the time it needs.
 4. Should they change it? Give one argument for changing the system and one against, both based
    on a real trade-off rather than an easy target.
 
