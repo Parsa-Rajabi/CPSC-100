@@ -5,7 +5,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 20 | Added a Part C cover page with every member's AI disclosures, which lower your score if missing, and page numbers for the report. Reworded Part C, added examples for naming the mechanism, defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
+| Oct 20 | Added a Part C cover page with every member's AI disclosures, which lower your score if missing, and page numbers for the report. The mechanism can now be any course concept or related concept, not only one from the list. Reworded Part C, defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
@@ -791,23 +791,25 @@ course. It is not the same as Benjamin's category. The category says how the har
 Benjamin's terms, for example coded exposure. The mechanism says what in the system caused it. Your
 video needs both.
 
-Choose the mechanism from this list. The last column says which lectures cover it, so you can
-review the slides.
+The table below lists some course concepts that can be a mechanism. It is a list of examples, not
+a complete list. Your mechanism can also come from lecture slides, lab slides, class discussions,
+a case study covered in the course, or a related concept. If you are unsure whether a concept
+fits, or it comes from outside the course, ask your project TA before you record.
 
 | Concept | What it means | Look for this in your case | Lectures |
 | :-- | :-- | :-- | :-- |
-| Decision tree, or classification | The system puts each person or item into a category, using patterns it learned from labelled past examples | A yes or no decision, or a label, based on past decisions | W5B, W5C, W6B |
-| Weighted scoring and thresholds | The system multiplies each input by a weight, adds them into a score, and compares the score to a cut-off | A score or a ranking, and a cut-off where the decision changes | W5B, and the Exposure Index in Part A |
-| Feedback loop | The system's output becomes its next input | A result that makes the same result more likely the next time | W5B |
-| A gap in the training data | The data the system learned from is missing some people or situations, or has very few examples of them | A system that makes more mistakes for one group than for others | W5C, W7A |
-| A proxy variable | The system cannot measure what it needs, so it measures something else and uses that instead | An input, such as a postal code, used to estimate something the system cannot measure directly | W5B, W6B |
+| Decision tree, or classification | Sorting into categories | A label or a yes or no decision | W5B, W5C, W6B |
+| Weighted scoring and thresholds | A score with a cut-off | A score or a ranking | W5B |
+| Feedback loop | Output becomes input | A result that repeats | W5B |
+| A gap in the training data | Data that is missing | More mistakes for one group | W5C, W7A |
+| A proxy variable | One measure used for another | An input used in place of another | W5B, W6B |
 
 To name the mechanism in your case:
 
 1. Find the input: what data went into the system. This is report section 2.
 2. Find the decision logic: what the system did with that data. This is report section 3.
-3. Choose the concept from the table that matches the decision logic. If more than one fits, say
-   so.
+3. Choose the concept that matches the decision logic, from the table or from elsewhere in the
+   course. If more than one fits, say so.
 4. In the video, explain each step from the input to the harm: what went in, what the system did
    with it, what result came out, and who was harmed. Use facts from your report.
 
@@ -1081,7 +1083,8 @@ suggest a clearer order for the points in my script.
 
 - Your case, if it meets the rules in Choosing a case
 - Which of Benjamin's categories you argue for, and which you argue against
-- Which mechanism you name, if more than one fits. Say so if several do
+- Which mechanism you name. It can come from the list in What naming the mechanism means or from
+  elsewhere in the course. Say so if several fit
 - How you present the video. You can show slides or a screen recording next to your faces, as long
   as each speaker is on camera while speaking
 - How you divide up the speaking, as long as everyone speaks
@@ -1177,9 +1180,9 @@ handled under [Academic integrity](#academic-integrity).
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a counterfactual: one specific change to the system, which part of the harm it would have prevented, and why. |
-| Meets Expectations (A-, A) | 17.5 | You name a concept from the course list under "What naming the mechanism means" and explain how it produced the harm in your case: the process, not only the outcome. If more than one concept fits, you say so. Each point uses PEEL. |
+| Meets Expectations (A-, A) | 17.5 | You name a concept from the course, such as one listed under "What naming the mechanism means", or a related concept, and explain how it produced the harm in your case: the process, not only the outcome. If more than one concept fits, you say so. Each point uses PEEL. |
 | Approaches Expectations (B- to B+) | 15.5 | A concept is named and defined, but the link to the harm in your case is implied rather than explained, or the explanation describes the outcome instead of the process. |
-| Not Within Expectations (C+ and below) | 13 | No concept from the course is named, or the concept does not match what happened in the case. |
+| Not Within Expectations (C+ and below) | 13 | No concept from the course or related to it is named, or the concept does not match what happened in the case. |
 
 #### 6. Should they change it? (10 points)
 
