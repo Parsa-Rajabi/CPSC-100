@@ -5,7 +5,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 20 | Added a Part C cover page with every member's AI disclosures, which lower your score if missing, and page numbers for the report. Reworded Part C, defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
+| Oct 20 | Added a Part C cover page with every member's AI disclosures, which lower your score if missing, and page numbers for the report. Reworded Part C, added examples for naming the mechanism, defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
@@ -786,13 +786,30 @@ Start with a cover page. It must include:
 <details>
 <summary>What naming the mechanism means</summary>
 
-The mechanism is the course concept that explains how the harm happened. Choose from this list:
+The mechanism is the part of the system that caused the harm, named with a concept from the
+course. It is not the same as Benjamin's category. The category says how the harm happened in
+Benjamin's terms, for example coded exposure. The mechanism says what in the system caused it. Your
+video needs both.
 
-- Decision tree, or classification
-- Weighted scoring and thresholds
-- Feedback loop
-- A gap in the training data
-- A proxy variable: something the system measures and uses in place of something else
+Choose the mechanism from this list. The last column says which lectures cover it, so you can
+review the slides.
+
+| Concept | What it means | Look for this in your case | Lectures |
+| :-- | :-- | :-- | :-- |
+| Decision tree, or classification | The system puts each person or item into a category, using patterns it learned from labelled past examples | A yes or no decision, or a label, based on past decisions | W5B, W5C, W6B |
+| Weighted scoring and thresholds | The system multiplies each input by a weight, adds them into a score, and compares the score to a cut-off | A score or a ranking, and a cut-off where the decision changes | W5B, and the Exposure Index in Part A |
+| Feedback loop | The system's output becomes its next input | A result that makes the same result more likely the next time | W5B |
+| A gap in the training data | The data the system learned from is missing some people or situations, or has very few examples of them | A system that makes more mistakes for one group than for others | W5C, W7A |
+| A proxy variable | The system cannot measure what it needs, so it measures something else and uses that instead | An input, such as a postal code, used to estimate something the system cannot measure directly | W5B, W6B |
+
+To name the mechanism in your case:
+
+1. Find the input: what data went into the system. This is report section 2.
+2. Find the decision logic: what the system did with that data. This is report section 3.
+3. Choose the concept from the table that matches the decision logic. If more than one fits, say
+   so.
+4. In the video, explain each step from the input to the harm: what went in, what the system did
+   with it, what result came out, and who was harmed. Use facts from your report.
 
 These two examples show the difference between describing an outcome and naming a mechanism.
 
@@ -807,6 +824,29 @@ Names the mechanism:
 
 The second example explains the process that kept the harm going. Groups often lose points here
 because they describe what happened, but not the process that caused it.
+
+Here is one short example for each concept. Each one names the mechanism and explains the process.
+These examples are made up to show the idea. They are not documented cases, so you cannot use them
+as your case. Your video must use the facts of your own case.
+
+- Decision tree, or classification: "The hiring system is a classifier. It learned from past
+  hiring decisions, and those decisions favoured men. So it learned to rank women lower, and it
+  applied that pattern to every new applicant."
+- Weighted scoring and thresholds: "Each student's final grade came from a weighted score, and the
+  school's past results had the largest weight. Students at schools with low past results fell
+  below the cut-off for a higher grade, even when their own marks were high."
+- Feedback loop: "Videos that people finish and share are shown to more people, and that brings
+  more shares. Videos that start with fewer views are shown to fewer people, so they keep getting
+  fewer views."
+- A gap in the training data: "The face recognition system learned from photos that showed very
+  few people with darker skin. It makes more mistakes on those faces, so those people are wrongly
+  matched more often."
+- A proxy variable: "The insurer cannot measure how safely each person drives, so it uses their
+  postal code instead. Postal codes are linked to income and background, so people in some
+  neighbourhoods pay more for the same driving record."
+
+To reach Exceeds Expectations on this criterion, also add a counterfactual, as described in
+[Going further](#going-further-in-part-c).
 
 </details>
 
