@@ -5,7 +5,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 20 | Added a Part C cover page with every member's AI disclosures, which lower your score if missing. Reworded Part C, defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
+| Oct 20 | Added a Part C cover page with every member's AI disclosures, which lower your score if missing, and page numbers for the report. Reworded Part C, defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
@@ -743,7 +743,13 @@ the usual pre-lab deadline so the teaching team has Tuesday to check the cases.
 
 The report gives the facts of the case. Fill in all five sections below. Use bullet points when
 they are clearer than paragraphs. Sections 1 to 4 should be 2 to 3 pages, and must not be longer
-than 3 pages. The cover page, the sources list and any appendix do not count toward this limit.
+than 3 pages.
+
+The cover page does not count toward the page limit. The sources list and any appendix do not
+count either.
+
+Add page numbers to your report. The cover page has no number. The page where section 1 starts is
+page 1.
 
 Start with a cover page. It must include:
 
@@ -946,7 +952,8 @@ Upload your video and put its link on your report's cover page. Use one of these
 Hand in your report as one PDF, in one submission to Project 1C (Group) on Canvas. One member
 submits for the whole group. Your group must hand in:
 
-- The written report: a cover page, then sections 1 to 4 in 2 to 3 pages, then your sources
+- The written report: a cover page, then sections 1 to 4 in 2 to 3 pages, then your sources, with
+  page numbers starting at 1 after the cover page
 - Two AI disclosures from every member on the cover page, one for the report and one for the video
 - At least three sources, of which at least two are primary, all of them checked and listed in one
   citation style that you name at the top of the list
