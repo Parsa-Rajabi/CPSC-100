@@ -4,8 +4,9 @@
 > This page is not finished yet, but everything below is solid enough to plan around. Please read
 > it now. A few things are still to come:
 >
-> - How to disclose your AI use in Parts B and C: the process and the form to use. Part A has its
->   own [AI use line](#using-ai-in-part-a)
+> - How to disclose your AI use in Part B: the process and the form to use. Part A has its own
+>   [AI use line](#using-ai-in-part-a), and Part C has [AI disclosures](#using-ai-in-part-c) on
+>   the report's cover page
 > - Rough time estimates for each part
 >
 > The rubrics for all three parts are posted: [Part A](#part-a-rubric), [Part B](#part-b-rubric)
@@ -19,6 +20,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 20 | Added a cover page to the Part C report, with two AI disclosures from every member, one for the report and one for the video. A missing or incomplete disclosure lowers your group's report and video score. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
@@ -84,7 +86,7 @@ Pacific time.
 | Part A: your annotated Snap! project, and one PDF with your two scores and a short reflection | Individual | The day after your Lab 3: Thu Oct 8 (L1A to L1D) or Fri Oct 9 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2597084) |
 | Pre-lab 5: one proposed case for Part C | Individual | Mon Oct 19, 11:59pm | [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/) |
 | Part B: two documents, your image dataset and your evaluation, as PDF files | Group | Tue Oct 20, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
-| Part C: a short written report (sections 1 to 5) as one PDF, with the link to your recorded video at the top | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| Part C: a short written report (sections 1 to 5) as one PDF. Its cover page has the link to your recorded video and every member's AI disclosures | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Stand-ups](#weekly-stand-ups) 1 to 4 | Individual | Every Friday from Oct 9 to Oct 30, 4:00pm | Ed Discussion |
 | [Retrospective](#retrospectives) 1 | Group | Thu Oct 29, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2592835) |
 | [iPeer 1](#peer-evaluation) | Individual | Thu Oct 29, 11:59pm | iPeer |
@@ -736,6 +738,7 @@ work.
 - Argue for a reading of the case that you do not agree with
 - Record the video, with every group member on camera and speaking
 - Check that every source you cite is real before you submit
+- Write your own two AI disclosures on the cover page, one for the report and one for the video
 
 <details>
 <summary>Choosing a case</summary>
@@ -771,10 +774,18 @@ the usual pre-lab deadline so the teaching team has Tuesday to check the cases.
 <summary>The report</summary>
 
 The report sets out the facts. Fill in every section, using bullet points wherever they are clearer
-than prose. Sections 1 to 4 should fit in 2 to 3 pages. Your sources list and any appendix do not
-count toward that limit.
+than prose. Sections 1 to 4 should fit in 2 to 3 pages. Your cover page, sources list and any
+appendix do not count toward that limit.
 
-At the top, give the case name, the country, your group members, and the link to your video.
+Start with a cover page. It must include:
+
+- Your case name and its country
+- The date you submit
+- Every member's full name and student number
+- The link to your video
+- Every member's two AI disclosures, one for the report and one for the video
+
+[Using AI in Part C](#using-ai-in-part-c) explains the disclosures and shows an example cover page.
 
 1. What happened. One paragraph covering what the system was, who used it, and what went wrong.
    Write it so that someone who has never heard of the case can follow it.
@@ -932,8 +943,7 @@ want better sound or a steadier picture, UBC lends equipment and rooms to studen
 
 #### Submitting your video <!-- {docsify-ignore} -->
 
-Upload your video and put its link at the top of your report, under your group members. Use one of
-these:
+Upload your video and put its link on your report's cover page. Use one of these:
 
 - UBC OneDrive, which we recommend: share the video with people at UBC. The
   [OneDrive student guide](https://lthub.ubc.ca/guides/microsoft-onedrive-student-guide/) shows how
@@ -959,15 +969,93 @@ these:
 Hand in your report as one PDF, in one submission to Project 1C (Group) on Canvas. One member
 submits for the whole group. Your group needs:
 
-- The written report: sections 1 to 4 in 2 to 3 pages, then your sources, with your video link at
-  the top
+- The written report: a cover page, then sections 1 to 4 in 2 to 3 pages, then your sources
+- Two AI disclosures from every member on the cover page, one for the report and one for the video
 - At least three sources, of which at least two are primary, all of them checked and listed in one
   citation style that you name at the top of the list
-- A recorded video, linked at the top of your report, with every member on camera and speaking, up
-  to 2 minutes each, covering the four parts
+- A recorded video, linked on your cover page, with every member on camera and speaking, up to 2
+  minutes each, covering the four parts
 - The four parts of the video make their points using [PEEL](#making-an-argument-with-peel), with
   your sources as evidence
 - A case connected to Canada or a country in Asia
+
+### Using AI in Part C <!-- {docsify-ignore} -->
+
+Every member must write two AI disclosures on the cover page: one for the report and one for the
+video. Each disclosure covers your own part of the work. Copy the one line below that is true for
+you, as it is written.
+
+For the report:
+
+| | Line to copy |
+| :-: | :----------- |
+| 🟢 | Report AI use: Green. I did not use AI for my part of the report. |
+| 🟡 | Report AI use: Yellow. I used AI to find or understand sources, or to check my wording, but everything I wrote is in my own words. |
+| 🔴 | Report AI use: Red. AI wrote some of my part of the report. |
+
+For the video:
+
+| | Line to copy |
+| :-: | :----------- |
+| 🟢 | Video AI use: Green. I did not use AI to prepare my part of the video. |
+| 🟡 | Video AI use: Yellow. I used AI to prepare, for example to get practice questions, but I chose what to say and said it in my own words. |
+| 🔴 | Video AI use: Red. AI made some of what I showed in my part of the video, for example a slide or an image. |
+
+If you choose Yellow or Red, add one or two sentences under that line: which tool you used, what it
+did, and how you checked its output.
+
+No colour costs marks on its own. Your work is graded on the [rubric](#part-c-rubric), whichever
+lines you choose, and choosing honestly is what the
+[AI Policy](ai-policy.md#be-transparent-about-ai-use) asks of you. A missing or incomplete
+disclosure does cost your group marks, as explained in [AI disclosures](#ai-disclosures).
+
+The [video rules](#how-to-record-it) apply whichever line you choose. Do not read from a script an
+AI tool wrote, and do not use AI-generated voices or avatars.
+
+Here is an example cover page for a group of four. Your cover page needs the same items.
+
+```text
+Case: Clearview AI and the RCMP
+Country: Canada
+Date: October 27, 2026
+Video: (your OneDrive, Google Drive or YouTube link)
+
+Group members
+Sam Lee, 12345678
+Priya Singh, 23456789
+Alex Chen, 34567890
+Jordan Tremblay, 45678901
+
+AI disclosures
+
+Sam Lee
+Report AI use: Green. I did not use AI for my part of the report.
+Video AI use: Green. I did not use AI to prepare my part of the video.
+
+Priya Singh
+Report AI use: Yellow. I used AI to find or understand sources, or to
+check my wording, but everything I wrote is in my own words.
+Microsoft Copilot explained the privacy commissioner's findings in
+plainer words. I checked its summary against the report (Source 1).
+Video AI use: Green. I did not use AI to prepare my part of the video.
+
+Alex Chen
+Report AI use: Green. I did not use AI for my part of the report.
+Video AI use: Red. AI made some of what I showed in my part of the
+video, for example a slide or an image.
+Canva's Magic Design laid out my stakeholder slide. I checked that
+every effect on the slide matches section 4 of our report.
+
+Jordan Tremblay
+Report AI use: Yellow. I used AI to find or understand sources, or to
+check my wording, but everything I wrote is in my own words.
+ChatGPT suggested shorter wording for section 3. I kept only the
+changes that still matched Source 2.
+Video AI use: Yellow. I used AI to prepare, for example to get practice
+questions, but I chose what to say and said it in my own words.
+ChatGPT gave me five practice questions about the mechanism. I answered
+them without notes, then checked my answers against our report.
+```
 
 ### Where you have a choice <!-- {docsify-ignore} -->
 
@@ -1017,6 +1105,9 @@ shows how the pieces add up.
 
 If your video link does not work when your TA opens it, points come off this score until you send a
 working link. See [Submitting your video](#submitting-your-video).
+
+If any member's AI disclosure is missing or incomplete, this score has a limit. See
+[AI disclosures](#ai-disclosures).
 
 Criteria 3 to 6 are marked from what is said in the video. If a speaker reads their part word for
 word, both Delivery and the criterion for the part they covered drop to Approaches Expectations.
@@ -1096,7 +1187,8 @@ handled under [Academic integrity](#academic-integrity).
 > the project, and usually because they forgot rather than because it was hard.
 
 Three things run alongside the project parts: weekly stand-ups, a retrospective, and peer
-evaluation. All three affect your individual grade.
+evaluation. All three affect your individual grade. In Part C, your group's
+[AI disclosures](#ai-disclosures) also affect your group grade.
 
 ### Weekly stand-ups
 
@@ -1215,6 +1307,30 @@ Your group must submit every retrospective, even if it is late. A late retrospec
 group 1% of its Part C grade for every 12 hours late, or part of 12 hours. The practice round costs
 0.25%. The penalty comes off the group grade, so every member loses the same amount. The details
 and a worked example are on the [Project](project.md#retrospectives) page.
+
+### AI disclosures
+
+Before your group submits Part C, check that the cover page has two AI disclosures from every
+member, one for the report and one for the video. [Using AI in Part C](#using-ai-in-part-c) shows
+what to write.
+
+A member's disclosures are incomplete if either line is missing, or if a Yellow or Red line has no
+sentences saying which tool, what it did and how they checked it.
+
+The disclosures earn no points. If any are incomplete, your TA lowers your group's report and video
+score, the 90% of Part C, to the highest score in this table:
+
+| Members with incomplete disclosures | Highest report and video score |
+| :-- | :--: |
+| None | 100 points (A+) |
+| One | 89 points (A) |
+| More than one | 75 points (B) |
+
+For example, if your group's report and video earns 94 points and one member's video line is
+missing, your score becomes 89. Your TA applies the limit first, then any
+[broken link](#submitting-your-video) deduction.
+
+The limit applies to the whole group, so one member's missing line costs every member the same.
 
 ### Peer evaluation
 
