@@ -776,16 +776,16 @@ count toward that limit.
 
 At the top, give the case name, the country, your group members, and the link to your video.
 
-1. What happened. One paragraph covering what the system was, who used it, and what went wrong.
+1. <b>What happened.</b> One paragraph covering what the system was, who used it, and what went wrong.
    Write it so that someone who has never heard of the case can follow it.
-2. Input. What data went into the system, where that data came from, and whether the people it
+2. <b>Input.</b> What data went into the system, where that data came from, and whether the people it
    described agreed to it being used this way.
-3. Decision logic. What the system did with that data to reach a result. You do not need the
+3. <b>Decision logic.</b> What the system did with that data to reach a result. You do not need the
    source code. "A submitted photo is compared against a database of scraped photos to identify a
    person" is the right level of detail.
-4. Outcome. What happened, and to whom. Include any response, such as a regulator's finding, a
+4. <b>Outcome. </b> What happened, and to whom. Include any response, such as a regulator's finding, a
    court ruling or a change by the company.
-5. Sources. At least three, of which at least two are primary. News coverage of a single event
+5. <b>Sources. </b> At least three, of which at least two are primary. News coverage of a single event
    counts as one source, not three. List them in one citation style, and write the name of the
    style at the top of the list. We recommend IEEE or ACM, the styles computer science uses, and
    APA or MLA are also fine. UBC Library's [How to Cite](https://guides.library.ubc.ca/howtocite)
@@ -878,7 +878,8 @@ to 10 minutes in total, and a group of four has up to 8. Split the four parts ac
 In a group of five, one member can introduce the case from your report and tie the parts together
 at the end. Decide who covers what before you start recording.
 
-##### How to record it <!-- {docsify-ignore} -->
+<details>
+<summary> How to record it</summary> <!-- {docsify-ignore} -->
 
 These rules exist because the video is where you show your own understanding. Your face and your
 own words make that visible.
@@ -907,7 +908,10 @@ own words make that visible.
 The teaching team may follow up with questions about your video. Every member should be able to
 answer about any part of it, not only their own section.
 
-##### Where to record and what to borrow <!-- {docsify-ignore} -->
+</details>
+
+<details>
+<summary> Where to record and what to borrow </summary><!-- {docsify-ignore} -->
 
 You do not need special equipment. A phone on a steady surface in a quiet room is enough. If you
 want better sound or a steadier picture, UBC lends equipment and rooms to students for free.
@@ -934,7 +938,10 @@ want better sound or a steadier picture, UBC lends equipment and rooms to studen
 - Guides: [Recording 101](https://learningcommons.ubc.ca/recording-101/) covers sound and speaking
   tips, and [DIY Media @ UBC](https://diy.open.ubc.ca/video/) covers planning and making a video.
 
-##### Submitting your video <!-- {docsify-ignore} -->
+  </details>
+
+<details>
+<summary>  Submitting your video </summary><!-- {docsify-ignore} -->
 
 Upload your video and put its link at the top of your report, under your group members. Use one of
 these:
@@ -947,6 +954,7 @@ these:
 If your video link does not work when your TA opens it, points come off your project score until you send a
 working link. See [the rubric](#part-c-rubric) for the detailed breakdown
 
+</details>
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
