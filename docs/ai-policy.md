@@ -10,7 +10,7 @@ Finalized: September 16, 2026
 
 | Date | Update |
 | :--: | :----- |
-| Oct 20 | Added the AI disclosure rule for Project 1 Part C. |
+| Oct 20 | Added the AI disclosure rule for Project 1 Part C. Part B does not need a disclosure. |
 | Oct 6 | Added the AI use rule for Project 1 Part A. |
 | Sep 24 | Removed draft wording. Requirements unchanged. |
 | Sep 16 | Policy finalized. No changes to the requirements after the feedback period. |
@@ -80,7 +80,7 @@ Using AI as instructed is legitimate course work. Submitting content you cannot 
 
 You will be required to disclose your AI use in course work. We are finalizing the process to make it straightforward for students to submit and for the teaching team to review.
 
-For Project 1, the disclosure is part of what you hand in. Part A starts with an [AI use line](project-1.md#using-ai-in-part-a), and the Part C report has [two disclosures from every member](project-1.md#using-ai-in-part-c) on its cover page.
+For Project 1, the disclosure is part of what you hand in. Part A starts with an [AI use line](project-1.md#using-ai-in-part-a), Part B does not need a disclosure, and the Part C report has [two disclosures from every member](project-1.md#using-ai-in-part-c) on its cover page.
 
 This will likely involve a short Qualtrics survey, but the format is not yet confirmed. We will share the instructions, including what to submit and when, and update the policy changelog once the process is finalized.
 

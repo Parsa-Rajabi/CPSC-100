@@ -2,12 +2,10 @@
 
 > [!NOTE]
 > This page is not finished yet, but everything below is solid enough to plan around. Please read
-> it now. A few things are still to come:
+> it now. Rough time estimates for each part are still to come.
 >
-> - How to disclose your AI use in Part B: the process and the form to use. Part A has its own
->   [AI use line](#using-ai-in-part-a), and Part C has [AI disclosures](#using-ai-in-part-c) on
->   the report's cover page
-> - Rough time estimates for each part
+> Part A has its own [AI use line](#using-ai-in-part-a), Part B does not need an AI disclosure, and
+> Part C has [AI disclosures](#using-ai-in-part-c) on the report's cover page.
 >
 > The rubrics for all three parts are posted: [Part A](#part-a-rubric), [Part B](#part-b-rubric)
 > and [Part C](#part-c-rubric). Read [How this is graded](#how-this-is-graded) before you start
@@ -20,7 +18,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 20 | Added a cover page to the Part C report, with two AI disclosures from every member, one for the report and one for the video. A missing or incomplete disclosure lowers your group's report and video score. |
+| Oct 20 | Added a cover page to the Part C report, with two AI disclosures from every member, one for the report and one for the video. A missing or incomplete disclosure lowers your group's report and video score. Part B does not need an AI disclosure. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
@@ -526,7 +524,7 @@ For each tool, answer three questions:
 ### What you need to hand in <!-- {docsify-ignore} -->
 
 Part B is two documents. Hand them in as PDF files, together in one submission to Project 1B
-(Group) on Canvas. One member submits for the whole group.
+(Group) on Canvas. One member submits for the whole group. Part B does not need an AI disclosure.
 
 The first is your data, with one row per image recording:
 
