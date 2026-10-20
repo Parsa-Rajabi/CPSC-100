@@ -1,18 +1,5 @@
 # Project 1: From Data to Decisions
 
-> [!NOTE]
-> This page is not finished yet, but everything below is solid enough to plan around. Please read
-> it now. Rough time estimates for each part are still to come.
->
-> Part A has its own [AI use line](#using-ai-in-part-a), Part B does not need an AI disclosure, and
-> Part C has [AI disclosures](#using-ai-in-part-c) on the report's cover page.
->
-> The rubrics for all three parts are posted: [Part A](#part-a-rubric), [Part B](#part-b-rubric)
-> and [Part C](#part-c-rubric). Read [How this is graded](#how-this-is-graded) before you start
-> Part B or Part C.
->
-> The schedule below may still change. Anything that moves gets recorded in the changelog.
-
 <details class="changelog">
 <summary>Changelog</summary>
 
@@ -120,17 +107,10 @@ Three things to notice:
 <details>
 <summary>Roughly how long each part takes</summary>
 
-Hour estimates for each part are still being worked out, and they'll be added here once they're
-settled.
-
-What we can tell you now is the shape of it. Part A happens mostly inside the lab hour, and
+Part A happens mostly inside the lab hour, and
 only the short reflection needs time outside lab. Part B's hours are spread thinly across several weeks, and most of
 that is collecting images. Part C's are concentrated into two weeks, and it's the biggest of the
 three.
-
-<!-- TODO: instructor decision required. Time estimates left as TBD at your request. The earlier
-draft figures were A 1 hour, B 7 to 8, C 3 to 4, which predate the 1/4/10 weighting; my revision
-was A 0, B 5 to 6, C 6 to 8. Neither is confirmed. -->
 
 </details>
 
