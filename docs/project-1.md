@@ -980,37 +980,41 @@ submits for the whole group. Your group needs:
 ### Using AI in Part C <!-- {docsify-ignore} -->
 
 Every member must write two AI disclosures on the cover page: one for the report and one for the
-video. Each disclosure covers your own part of the work. Copy the one line below that is true for
-you, as it is written.
+video. Each disclosure is one colour, Green, Yellow or Red, and covers your own part of the work.
+Choose the colour that is true for you.
 
 For the report:
 
-| | Line to copy |
-| :-: | :----------- |
-| 🟢 | Report AI use: Green. I did not use AI for my part of the report. |
-| 🟡 | Report AI use: Yellow. I used AI to find or understand sources, or to check my wording, but everything I wrote is in my own words. |
-| 🔴 | Report AI use: Red. AI wrote some of my part of the report. |
+| | Colour | What it means |
+| :-: | :-- | :-- |
+| 🟢 | Green | You did not use AI for your part of the report. |
+| 🟡 | Yellow | You used AI to find or understand sources, or to check your wording, but everything you wrote is in your own words. |
+| 🔴 | Red | AI wrote some of your part of the report. |
 
 For the video:
 
-| | Line to copy |
-| :-: | :----------- |
-| 🟢 | Video AI use: Green. I did not use AI to prepare my part of the video. |
-| 🟡 | Video AI use: Yellow. I used AI for my part of the video, for example to edit it or to help with my script, but I chose what to say and said it in my own words. |
-| 🔴 | Video AI use: Red. AI made some of what I showed in my part of the video, for example a slide or an image. |
+| | Colour | What it means |
+| :-: | :-- | :-- |
+| 🟢 | Green | You did not use AI for your part of the video. |
+| 🟡 | Yellow | You used AI for your part of the video, for example to edit it or to help with your script, but you chose what to say and said it in your own words. |
+| 🔴 | Red | AI made some of what you showed in your part of the video, for example a slide or an image. |
 
-If you choose Yellow or Red, add one or two sentences under that line: which tool you used, what it
-did, and how you checked its output.
+If you choose Yellow or Red, add one or two lines after the colour that say which tools you used
+and how. Keep them brief and general, as in the example cover page below.
 
 No colour costs marks on its own. Your work is graded on the [rubric](#part-c-rubric), whichever
-lines you choose, and choosing honestly is what the
+colours you choose, and choosing honestly is what the
 [AI Policy](ai-policy.md#be-transparent-about-ai-use) asks of you. A missing or incomplete
 disclosure does cost your group marks, as explained in [AI disclosures](#ai-disclosures).
 
-The [video rules](#how-to-record-it) apply whichever line you choose. Do not read from a script an
-AI tool wrote, and do not use AI-generated voices or avatars.
+The [video rules](#how-to-record-it) apply whichever colour you choose. Do not read from a script
+an AI tool wrote, and do not use AI-generated voices or avatars.
 
-Here is an example cover page for a group of four. Your cover page needs the same items.
+<details>
+<summary>Example cover page</summary>
+
+This example is for a group of four. Your cover page needs the same items, with each member's full
+name where the example says Student A, B, C or D.
 
 ```text
 Case: Clearview AI and the RCMP
@@ -1019,43 +1023,33 @@ Date: October 27, 2026
 Video: (your OneDrive, Google Drive or YouTube link)
 
 Group members
-Sam Lee, 12345678
-Priya Singh, 23456789
-Alex Chen, 34567890
-Jordan Tremblay, 45678901
+Student A, 12345678
+Student B, 23456789
+Student C, 34567890
+Student D, 45678901
 
 AI disclosures
 
-Sam Lee
-Report AI use: Green. I did not use AI for my part of the report.
-Video AI use: Green. I did not use AI to prepare my part of the video.
+Student A
+Report: Green
+Video: Green
 
-Priya Singh
-Report AI use: Yellow. I used AI to find or understand sources, or to
-check my wording, but everything I wrote is in my own words.
-Microsoft Copilot explained the privacy commissioner's findings in
-plainer words. I checked its summary against the report (Source 1).
-Video AI use: Green. I did not use AI to prepare my part of the video.
+Student B
+Report: Yellow. Microsoft Copilot, to explain the privacy
+commissioner's findings in plainer words.
+Video: Green
 
-Alex Chen
-Report AI use: Green. I did not use AI for my part of the report.
-Video AI use: Red. AI made some of what I showed in my part of the
-video, for example a slide or an image.
-Canva's Magic Design laid out my stakeholder slide. I checked that
-every effect on the slide matches section 4 of our report.
+Student C
+Report: Green
+Video: Red. Canva, to design my stakeholder slide.
 
-Jordan Tremblay
-Report AI use: Yellow. I used AI to find or understand sources, or to
-check my wording, but everything I wrote is in my own words.
-ChatGPT suggested shorter wording for section 3. I kept only the
-changes that still matched Source 2.
-Video AI use: Yellow. I used AI for my part of the video, for example to
-edit it or to help with my script, but I chose what to say and said it
-in my own words.
-Clipchamp added captions to my part, and I fixed two words it got
-wrong. ChatGPT suggested a clearer order for the points in my script,
-and I checked each point against our report.
+Student D
+Report: Yellow. ChatGPT, to suggest shorter wording for section 3.
+Video: Yellow. Clipchamp, to add captions to my part. ChatGPT, to
+suggest a clearer order for the points in my script.
 ```
+
+</details>
 
 ### Where you have a choice <!-- {docsify-ignore} -->
 
@@ -1314,8 +1308,8 @@ Before your group submits Part C, check that the cover page has two AI disclosur
 member, one for the report and one for the video. [Using AI in Part C](#using-ai-in-part-c) shows
 what to write.
 
-A member's disclosures are incomplete if either line is missing, or if a Yellow or Red line has no
-sentences saying which tool, what it did and how they checked it.
+A member's disclosures are incomplete if either colour is missing, or if a Yellow or Red has no
+line saying which tools they used and how.
 
 The disclosures earn no points. If any are incomplete, your TA lowers your group's report and video
 score, the 90% of Part C, to the highest score in this table:
@@ -1326,11 +1320,11 @@ score, the 90% of Part C, to the highest score in this table:
 | One | 89 points (A) |
 | More than one | 75 points (B) |
 
-For example, if your group's report and video earns 94 points and one member's video line is
+For example, if your group's report and video earns 94 points and one member's video disclosure is
 missing, your score becomes 89. Your TA applies the limit first, then any
 [broken link](#submitting-your-video) deduction.
 
-The limit applies to the whole group, so one member's missing line costs every member the same.
+The limit applies to the whole group, so one member's missing disclosure costs every member the same.
 
 ### Peer evaluation
 
