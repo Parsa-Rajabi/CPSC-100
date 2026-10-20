@@ -827,26 +827,6 @@ Names the mechanism:
 The second example explains the process that kept the harm going. Groups often lose points here
 because they describe what happened, but not the process that caused it.
 
-Here is one short example for each concept. Each one names the mechanism and explains the process.
-These examples are made up to show the idea. They are not documented cases, so you cannot use them
-as your case. Your video must use the facts of your own case.
-
-- Decision tree, or classification: "The hiring system is a classifier. It learned from past
-  hiring decisions, and those decisions favoured men. So it learned to rank women lower, and it
-  applied that pattern to every new applicant."
-- Weighted scoring and thresholds: "Each student's final grade came from a weighted score, and the
-  school's past results had the largest weight. Students at schools with low past results fell
-  below the cut-off for a higher grade, even when their own marks were high."
-- Feedback loop: "Videos that people finish and share are shown to more people, and that brings
-  more shares. Videos that start with fewer views are shown to fewer people, so they keep getting
-  fewer views."
-- A gap in the training data: "The face recognition system learned from photos that showed very
-  few people with darker skin. It makes more mistakes on those faces, so those people are wrongly
-  matched more often."
-- A proxy variable: "The insurer cannot measure how safely each person drives, so it uses their
-  postal code instead. Postal codes are linked to income and background, so people in some
-  neighbourhoods pay more for the same driving record."
-
 To reach Exceeds Expectations on this criterion, also add a counterfactual, as described in
 [Going further](#going-further-in-part-c).
 
