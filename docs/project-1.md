@@ -670,10 +670,10 @@ a border, whose exam grade is lowered. When one of these systems makes a wrong d
 affected often do not learn why. In Part C, your group studies one real case like this and
 explains why the harm happened.
 
-Part C is the largest part of Project 1. Your group makes two things:
+Part C is the largest part of Project 1, and it has two deliverables:
 
-| What you make | What it covers |
-| :------------ | :------------- |
+| Deliverable | What it covers |
+| :---------- | :------------- |
 | A written report | The facts: what the system was, what data it used, how it made decisions, what happened, and your sources |
 | A recorded video | Your argument: who the system affected, which of Benjamin's categories fits the case and another way to read it, the mechanism, and whether the system should change |
 
