@@ -996,7 +996,7 @@ For the video:
 | | Line to copy |
 | :-: | :----------- |
 | 🟢 | Video AI use: Green. I did not use AI to prepare my part of the video. |
-| 🟡 | Video AI use: Yellow. I used AI to prepare, for example to get practice questions, but I chose what to say and said it in my own words. |
+| 🟡 | Video AI use: Yellow. I used AI for my part of the video, for example to edit it or to help with my script, but I chose what to say and said it in my own words. |
 | 🔴 | Video AI use: Red. AI made some of what I showed in my part of the video, for example a slide or an image. |
 
 If you choose Yellow or Red, add one or two sentences under that line: which tool you used, what it
@@ -1049,10 +1049,12 @@ Report AI use: Yellow. I used AI to find or understand sources, or to
 check my wording, but everything I wrote is in my own words.
 ChatGPT suggested shorter wording for section 3. I kept only the
 changes that still matched Source 2.
-Video AI use: Yellow. I used AI to prepare, for example to get practice
-questions, but I chose what to say and said it in my own words.
-ChatGPT gave me five practice questions about the mechanism. I answered
-them without notes, then checked my answers against our report.
+Video AI use: Yellow. I used AI for my part of the video, for example to
+edit it or to help with my script, but I chose what to say and said it
+in my own words.
+Clipchamp added captions to my part, and I fixed two words it got
+wrong. ChatGPT suggested a clearer order for the points in my script,
+and I checked each point against our report.
 ```
 
 ### Where you have a choice <!-- {docsify-ignore} -->
