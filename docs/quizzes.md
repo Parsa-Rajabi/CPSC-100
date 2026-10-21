@@ -7,6 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 21 | Confirmed the new material for Quizzes 4 and 5. W7C moved from Quiz 4 to Quiz 5. |
 | Oct 13 | Corrected the viva voce description: it is a group presentation. |
 | Oct 11 | Corrected when booking opens. Quiz booking opens on a Tuesday, about two weeks before the quiz window, and viewing booking opens on the Sunday before the viewing window. No dates changed. |
 | Oct 6 | Added the Quiz 4 and Quiz 5 viewing windows. Quiz 5 booking now opens Tue Nov 3. The all-quiz viewing now runs Thu Nov 19 to Mon Dec 7, with booking from Sun Nov 15. |
@@ -41,12 +42,12 @@ Each quiz mostly covers the content since the previous quiz. In programming, tho
 | Quiz&nbsp;1 | W1C to W2C | Tue Sep 15, 10am | Wed Sep 23 to Sun Sep 27 |
 | Quiz&nbsp;2 | W3A to W3C | Tue Sep 15, 10am | Thu Oct 1 to Sun Oct 4 |
 | Quiz&nbsp;3 | W4A to W4C | Tue Sep 22, 10am | Wed Oct 7 to Wed Oct 14 |
-| Quiz&nbsp;4 | W5A to W7C, *tentative* | Tue Oct 13, 10am | Wed Oct 28 to Wed Nov 4 |
-| Quiz&nbsp;5 | W8A to W9C, *tentative* | Tue Nov 3, 10am | Wed Nov 18 to Wed Nov 25 |
+| Quiz&nbsp;4 | W5A to W7B | Tue Oct 13, 10am | Wed Oct 28 to Wed Nov 4 |
+| Quiz&nbsp;5 | W7C to W9C | Tue Nov 3, 10am | Wed Nov 18 to Wed Nov 25 |
 
 - A window includes its first and last day. You can sit the quiz in any session PrairieTest offers you inside it.
 - **New material** uses the lecture codes from the [Schedule](schedule.md), so W2A is the first lecture of Week 2. It is where most of the marks are, but it is not the only material that can appear.
-- Quiz 5 is the last quiz. The new material for Quizzes 4 and 5 is tentative. It is confirmed in class, in the last lecture before each quiz window opens.
+- Quiz 5 is the last quiz.
 - All times are Pacific.
 - The viva voce, held from Wed Dec 2 to Fri Dec 4 (a short live presentation by your project group), is not a quiz. It is graded as [Project 2C](project.md).
 
