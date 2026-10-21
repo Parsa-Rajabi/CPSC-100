@@ -5,7 +5,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 20 | Added a Part C cover page with every member's AI disclosures, and page numbers for the report. A missing disclosure takes 2 points off your group's report and video score, and a Yellow or Red without its note takes 1. Reorganized and reworded Part C: the Going further items are now in the rubric, and the mechanism can be any related course concept. Defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
+| Oct 21 | Added a Part C cover page with every member's AI disclosures, and page numbers for the report. A missing disclosure takes 2 points off your group's report and video score, and a Yellow or Red without its note takes 1. Reorganized and reworded Part C: the report is sections 1 to 5 and the video sections 6 to 9, the Going further items are now in the rubric, and the mechanism can be any related course concept. Defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
 | Sep 30 | Added the stand-up schedule and late penalties, and the iPeer 0 late penalty. Added late penalties for retrospectives. Stand-up 0 is now required, and late penalties are subtracted from Part C instead of applied as a multiplier. |
@@ -674,8 +674,8 @@ Part C is the largest part of Project 1, and it has two deliverables:
 
 | Deliverable | What it covers |
 | :---------- | :------------- |
-| A written report | The facts: what the system was, what data it used, how it made decisions, what happened, and your sources |
-| A recorded video | Your argument: who the system affected, which of Benjamin's categories fits the case and another way to read it, the mechanism, and whether the system should change |
+| A written report, sections 1 to 5 | The facts: what the system was, what data it used, how it made decisions, what happened, and your sources |
+| A recorded video, sections 6 to 9 | Your argument: who the system affected, which of Benjamin's categories fits the case and another way to read it, the mechanism, and whether the system should change |
 
 The video is worth 78 of the 100 points, because explaining out loud is harder than writing.
 
@@ -733,9 +733,9 @@ every Pre-lab 5 case and tells your group which of its cases are taken:
 
 ### The report
 
-Fill in all five sections below, with bullet points where they are clearer. Sections 1 to 4 should
-be 2 to 3 pages, and no longer than 3. The cover page, sources list and any appendix do not count
-toward this limit.
+Fill in sections 1 to 5 below, with bullet points where they are clearer. Sections 1 to 4 should be
+2 to 3 pages, and no longer than 3. The cover page, section 5 (sources) and any appendix do not
+count toward this limit.
 
 Number the pages from 1 where section 1 starts. The cover page has no number.
 
@@ -772,13 +772,13 @@ Start with a cover page. It must include:
 ### The video
 
 Start planning and practising early. Do not read the report aloud, because your TA reads it
-separately. The video has four parts, and each uses the facts in your report:
+separately. The video has four sections, 6 to 9, and each uses the facts in your report:
 
-1. <b>Stakeholders.</b> Name at least three stakeholders: people or groups who are affected by the
+6. <b>Stakeholders.</b> Name at least three stakeholders: people or groups who are affected by the
    system or have an interest in it. For each one, give one positive effect and one negative
    effect. Every system benefits someone, so if you cannot find a positive effect, look again. You
    can show the effects in a table on a slide.
-2. <b>Benjamin's categories.</b> Say which of the four categories fits your case best, and why. Use
+7. <b>Benjamin's categories.</b> Say which of the four categories fits your case best, and why. Use
    specific facts from report sections 2 to 4. Then give a second reading: a category that someone
    else could reasonably argue for. Say which facts that reading would be based on.
 
@@ -803,9 +803,9 @@ If your group does not agree on which category fits, present both readings.
 
 </details>
 
-3. <b>The mechanism.</b> Name the course concept that explains your case, and explain how it caused the
-   harm. This part is worth 20 points, more than any of the other three parts, so plan the most
-   time for it.
+8. <b>The mechanism.</b> Name the course concept that explains your case, and explain how it caused the
+   harm. This section is worth 20 points, more than any other video section, so plan the most time
+   for it.
 
 <details>
 <summary>What naming the mechanism means</summary>
@@ -853,7 +853,7 @@ mechanism [rubric](#part-c-rubric).
 
 </details>
 
-4. <b>Should they change it?</b> Give one argument for changing the system and one against. Each
+9. <b>Should they change it?</b> Give one argument for changing the system and one against. Each
    must name a specific benefit or cost in your case and explain why it matters. Choose arguments
    a reasonable person could make, not ones that are easy to reject.
 
@@ -861,8 +861,8 @@ Use your sources as evidence while you speak. Name the source, for example "the 
 commissioner's report", or show it on a slide.
 
 Every member must speak, for up to 2 minutes each: up to 8 minutes in total for a group of four,
-and 10 for a group of five. Before you record, decide who covers each of the four parts. In a group
-of five, one member can introduce the case and connect the parts at the end.
+and 10 for a group of five. Before you record, decide who covers each of sections 6 to 9. In a
+group of five, one member can introduce the case and connect the sections at the end.
 
 <details>
 <summary>How to record it</summary>
@@ -952,10 +952,10 @@ submit, check that you have:
 
 - A cover page with the video link and two AI disclosures from every member
 - Sections 1 to 4 in 2 to 3 pages, with page numbers starting at 1 after the cover page
-- At least three sources, at least two of them primary, all checked and listed in one named
-  citation style
-- A video with every member on camera and speaking, up to 2 minutes each, covering the four
-  parts, with each point using [PEEL](#making-an-argument-with-peel)
+- Section 5: at least three sources, at least two of them primary, all checked and listed in one
+  named citation style
+- A video with every member on camera and speaking, up to 2 minutes each, covering sections 6 to
+  9, with each point using [PEEL](#making-an-argument-with-peel)
 - A case connected to Canada or a country in Asia
 
 ### Using AI in Part C <!-- {docsify-ignore} -->
@@ -1043,13 +1043,13 @@ evaluation multiplier applies to all of Part C. The
 
 | Criterion | Marked from | Points |
 | :-- | :-- | :--: |
-| 1. Case and sources | Report | 10 |
-| 2. The facts of the case: sections 1 to 4 | Report | 12 |
-| 3. Stakeholders | Video | 10 |
-| 4. Benjamin's categories | Video | 15 |
-| 5. The mechanism | Video | 20 |
-| 6. Should they change it? | Video | 10 |
-| 7. Delivery | Video | 23 |
+| 1. Case and sources | Report: your case and section 5 | 10 |
+| 2. The facts of the case: sections 1 to 4 | Report: sections 1 to 4 | 12 |
+| 3. Stakeholders | Video: section 6 | 10 |
+| 4. Benjamin's categories | Video: section 7 | 15 |
+| 5. The mechanism | Video: section 8 | 20 |
+| 6. Should they change it? | Video: section 9 | 10 |
+| 7. Delivery | Video: all sections | 23 |
 | Total | | 100 |
 
 Each missing AI disclosure takes 2 points off this score, and each 🟡 Yellow or 🔴 Red without its
@@ -1136,15 +1136,15 @@ handled under [Academic integrity](#academic-integrity).
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 23 | Everything in Meets Expectations, plus a practised video. It has no restarts, no long pauses and no one looking down to read. At least once, each speaker explains how a specific point from another speaker supports, challenges or adds to their own point. Only introducing the next speaker does not count. The whole group appears together at least once, in one room or one video call, and every speaker talks to the camera with energy. For example: "This is the feedback loop Sam described, and it is also why the alternative reading does not work." |
-| Meets Expectations (A-, A) | 20 | Every group member speaks, for up to 2 minutes each, and is on camera with their face visible while speaking. The video covers all four parts. Each speaker explains in their own words, from a few words of notes at most, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries), and every word is easy to hear. |
+| Meets Expectations (A-, A) | 20 | Every group member speaks, for up to 2 minutes each, and is on camera with their face visible while speaking. The video covers sections 6 to 9. Each speaker explains in their own words, from a few words of notes at most, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries), and every word is easy to hear. |
 | Approaches Expectations (B- to B+) | 18 | At least one of these happens: a speaker reads from a script, the report or slides; a speaker is not on camera, unless your TA approved an exception; parts are hard to hear; a member does not speak; or the video or any one speaker runs more than 30 seconds over the time limit. |
 | Not Within Expectations (C+ and below) | 15 | Most of the video is read aloud, or most speakers are not on camera. |
 
 </details>
 
-Your TA marks criteria 3 to 6 from what each speaker says in the video. If a speaker reads their
-part word for word, your TA marks both Delivery and the criterion for that part at Approaches
-Expectations.
+Your TA marks criteria 3 to 6, which cover video sections 6 to 9, from what each speaker says in the
+video. If a speaker reads their part word for word, your TA marks both Delivery and the criterion
+for that part at Approaches Expectations.
 
 > [!WARNING]
 > Check the link before you submit. Ask a group member who did not upload the video to open it,
