@@ -10,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 20 | Added the Project 1 Part C AI disclosures, which can lower the report and video score. |
 | Oct 13 | Added the grade breakdown and the Project 2 dates, and corrected the viva voce description: it is a group presentation. |
 | Sep 30 | Added the stand-up schedule and late penalties, and late penalties for retrospectives. Late stand-ups, retrospectives and peer evaluations are now listed as exceptions to the no-late-work rule. |
 | Sep 28 | Added the retrospective template and due dates, including a practice round on Thu Oct 1. |
@@ -84,6 +85,9 @@ up.
   counts stand-ups 5 to 9 and the Project 2 retrospective.
 - Stand-up 0 and the practice retrospective are not marked, but they are still required, and their
   late penalties come off Project 1 Part C.
+- Project 1's report has two AI disclosures from every member on its cover page. They earn no
+  points, but each missing disclosure takes 2 points off the report and video score, and a Yellow
+  or Red without its note takes 1 point off. See [AI disclosures](project-1.md#ai-disclosures).
 - A stand-up is complete when you post it yourself and it answers all three questions, partial
   when it is missing an answer, and incomplete when it is not posted. A late stand-up can still be
   complete. Its late penalty is separate.
