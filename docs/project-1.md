@@ -71,7 +71,7 @@ Pacific time.
 | Part A: your annotated Snap! project, and one PDF with your two scores and a short reflection | Individual | The day after your Lab 3: Thu Oct 8 (L1A to L1D) or Fri Oct 9 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2597084) |
 | Pre-lab 5: one proposed case for Part C | Individual | Mon Oct 19, 11:59pm | [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/) |
 | Part B: two documents, your image dataset and your evaluation, as PDF files | Group | Tue Oct 20, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2599621) |
-| Part C: a short written report (sections 1 to 5) as one PDF. Its cover page has the link to your recorded video and every member's AI disclosures | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2599622) |
+| Part C: a short written report (sections 1 to 5) as one PDF. Its cover page has the link to your recorded video (sections 6 to 9) and every member's AI disclosures | Group | Tue Oct 27, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2599622) |
 | [Stand-ups](#weekly-stand-ups) 1 to 4 | Individual | Every Friday from Oct 9 to Oct 30, 4:00pm | Ed Discussion |
 | [Retrospective](#retrospectives) 1 | Group | Thu Oct 29, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments/2592835) |
 | [iPeer 1](#peer-evaluation) | Individual | Thu Oct 29, 11:59pm | iPeer |
@@ -812,7 +812,8 @@ If your group does not agree on which category fits, present both readings.
 <summary>What naming the mechanism means</summary>
 
 The mechanism is what in the system caused the harm, named with a concept from the course or a
-related one. Benjamin's category says how the harm happened, for example coded exposure. Your video needs both.
+related one. Benjamin's category says how the harm happened, for example coded exposure. Your video
+needs both.
 
 The table gives examples, not a complete list. Your mechanism can also come from lecture or lab
 slides, class discussions, a case study from the course, or a related concept. If you are unsure,
@@ -894,7 +895,7 @@ Follow these rules. They let your TA see that each speaker understands their own
 > You may use AI to help you prepare, as the policy allows, but you must understand everything you
 > say.
 
-The teaching team may ask any member about any part of the video, not only their own, so every
+The teaching team may ask any member about any section of the video, not only their own, so every
 member should be able to answer.
 
 </details>
