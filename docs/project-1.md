@@ -675,7 +675,7 @@ Part C is the largest part of Project 1, and it has two deliverables:
 | Deliverable | What it covers |
 | :---------- | :------------- |
 | A written report, sections 1 to 5 | The facts: what the system was, what data it used, how it made decisions, what happened, and your sources |
-| A recorded video, sections 6 to 9 | Your argument: who the system affected, which of Benjamin's categories fits the case and another way to read it, the mechanism, and whether the system should change |
+| A recorded video, sections 6 to 9 | Your argument: who the system affected, which of Benjamin's categories fits the case and an alternative reading, the mechanism, and whether the system should change |
 
 The video is worth 78 of the 100 points, because explaining out loud is harder than writing.
 
@@ -699,9 +699,10 @@ work.
 ### What you will do <!-- {docsify-ignore} -->
 
 - Choose a real, documented case where an algorithmic system harmed people
-- Write a report of 2 to 3 pages with the facts of the case and your sources
-- Name the mechanism: the course concept that explains how the harm happened
-- Explain a second way to read the case, one that your group does not agree with
+- Write the report: the facts of the case in sections 1 to 4, and your sources in section 5
+- Name the mechanism: the part of the system that caused the harm, using a concept from the course
+  or a related one
+- Give an alternative reading of the case, one that your group does not agree with
 - Record the video, with every group member on camera and speaking
 - Before you submit, open every source you cite and check that it says what you claim
 - Write your own two AI disclosures on the cover page, one for the report and one for the video
@@ -733,11 +734,11 @@ every Pre-lab 5 case and tells your group which of its cases are taken:
 
 ### The report
 
-Fill in sections 1 to 5 below, with bullet points where they are clearer. Sections 1 to 4 should be
-2 to 3 pages, and no longer than 3. The cover page, section 5 (sources) and any appendix do not
-count toward this limit.
+Fill in sections 1 to 5 below, with bullet points where they are clearer. Sections 1 to 4 should
+take two to three pages, and no more than three. The cover page, section 5 (sources) and any
+appendix do not count toward this limit.
 
-Number the pages from 1 where section 1 starts. The cover page has no number.
+Number the pages, starting on the page where section 1 begins. The cover page has no number.
 
 Start with a cover page. It must include:
 
@@ -779,8 +780,8 @@ separately. The video has four sections, 6 to 9, and each uses the facts in your
    effect. Every system benefits someone, so if you cannot find a positive effect, look again. You
    can show the effects in a table on a slide.
 7. <b>Benjamin's categories.</b> Say which of the four categories fits your case best, and why. Use
-   specific facts from report sections 2 to 4. Then give a second reading: a category that someone
-   else could reasonably argue for. Say which facts that reading would be based on.
+   specific facts from report sections 2 to 4. Then give an alternative reading: a category that
+   someone else could reasonably argue for. Say which facts that reading would be based on.
 
    | Category | What it means |
    | :------- | :------------ |
@@ -790,7 +791,7 @@ separately. The video has four sections, 6 to 9, and each uses the facts in your
    | Technological benevolence | The system is presented as helping disadvantaged people, but its real purpose is to take something from them |
 
 <details>
-<summary>Why you must give a second reading</summary>
+<summary>Why you must give an alternative reading</summary>
 
 A reading is one way to interpret the case: here, the Benjamin category you say fits. Most cases
 can be read in more than one way.
@@ -803,15 +804,15 @@ If your group does not agree on which category fits, present both readings.
 
 </details>
 
-8. <b>The mechanism.</b> Name the course concept that explains your case, and explain how it caused the
-   harm. This section is worth 20 points, more than any other video section, so plan the most time
+8. <b>The mechanism.</b> Name the concept, from the course or a related one, that explains your case,
+   and explain how it caused the harm. This section is worth 20 points, more than any other video section, so plan the most time
    for it.
 
 <details>
 <summary>What naming the mechanism means</summary>
 
-The mechanism is what in the system caused the harm, named with a course concept. Benjamin's
-category says how the harm happened, for example coded exposure. Your video needs both.
+The mechanism is what in the system caused the harm, named with a concept from the course or a
+related one. Benjamin's category says how the harm happened, for example coded exposure. Your video needs both.
 
 The table gives examples, not a complete list. Your mechanism can also come from lecture or lab
 slides, class discussions, a case study from the course, or a related concept. If you are unsure,
@@ -861,7 +862,8 @@ Use your sources as evidence while you speak. Name the source, for example "the 
 commissioner's report", or show it on a slide.
 
 Every member must speak, for up to 2 minutes each: up to 8 minutes in total for a group of four,
-and 10 for a group of five. Before you record, decide who covers each of sections 6 to 9. In a
+and 10 for a group of five. If the video, or one speaker, runs more than 30 seconds over, Delivery
+drops to Approaches Expectations. Before you record, decide who covers each of sections 6 to 9. In a
 group of five, one member can introduce the case and connect the sections at the end.
 
 <details>
@@ -876,7 +878,7 @@ Follow these rules. They let your TA see that each speaker understands their own
   safety or privacy reason, tell your TA before you record, and this rule will not apply to you.
 - You can show slides or a screen recording next to your face.
 - Speak, do not read. You may use notes of a few words. If you read sentences word for word from a
-  script, the report or your slides, your TA marks Delivery, and the criterion for your part, at
+  script, the report or your slides, your TA marks Delivery, and the criterion for your section, at
   Approaches Expectations.
 - Make every word easy to hear. Record somewhere quiet, keep the microphone close, and test the
   sound before you record the whole video.
@@ -950,8 +952,9 @@ your report and video score until you send a working link. The warning after the
 Hand in one PDF to Project 1C (Group) on Canvas. One member submits for the whole group. Before you
 submit, check that you have:
 
-- A cover page with the video link and two AI disclosures from every member
-- Sections 1 to 4 in 2 to 3 pages, with page numbers starting at 1 after the cover page
+- A cover page with your case and its country, the date, every member's name and student number,
+  the video link, and two AI disclosures from every member
+- Sections 1 to 4 on two to three pages, with page numbers that start after the cover page
 - Section 5: at least three sources, at least two of them primary, all checked and listed in one
   named citation style
 - A video with every member on camera and speaking, up to 2 minutes each, covering sections 6 to
@@ -980,8 +983,8 @@ For the video:
 | 🟡 | Yellow | You used AI for your part of the video, for example to edit it or to help with your script, but you chose what to say and said it in your own words. |
 | 🔴 | Red | AI made some of what you showed in your part of the video, for example a slide or an image. |
 
-For 🟡 Yellow or 🔴 Red, add one or two short lines on which tools you used and how, as in the
-example cover page below.
+For 🟡 Yellow or 🔴 Red, add a note of one or two short lines on which tools you used and how, as in
+the example cover page below.
 
 The colour does not change your grade, and the
 [AI Policy](ai-policy.md#be-transparent-about-ai-use) asks you to choose honestly. A missing
@@ -1076,8 +1079,8 @@ handled under [Academic integrity](#academic-integrity).
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 12 | Everything in Meets Expectations, plus at least one thing about the system that has not been made public, named in section 2 or 3, and where you looked for it. |
-| Meets Expectations (A-, A) | 10.5 | All four sections are filled in, in 3 pages or fewer. Someone new to the case can follow section 1. Section 2 says what data went in, where it came from, and whether the people it described agreed. Section 3 explains what the system did with that data, at the level of the example in the report instructions. Section 4 says what happened, to whom, and any response. |
-| Approaches Expectations (B- to B+) | 9 | All four sections are there, but one is missing something it asks for. For example, section 2 does not say where the data came from or whether people agreed, or section 3 says only that the system used the data to decide. |
+| Meets Expectations (A-, A) | 10.5 | Sections 1 to 4 are all filled in, in three pages or fewer. Someone new to the case can follow section 1. Section 2 says what data went in, where it came from, and whether the people it described agreed. Section 3 explains what the system did with that data, at the level of the example in the report instructions. Section 4 says what happened, to whom, and any response. |
+| Approaches Expectations (B- to B+) | 9 | Sections 1 to 4 are all there, but one is missing something it asks for. For example, section 2 does not say where the data came from or whether people agreed, or section 3 says only that the system used the data to decide. |
 | Not Within Expectations (C+ and below) | 8 | A section is missing. |
 
 </details>
@@ -1143,8 +1146,8 @@ handled under [Academic integrity](#academic-integrity).
 </details>
 
 Your TA marks criteria 3 to 6, which cover video sections 6 to 9, from what each speaker says in the
-video. If a speaker reads their part word for word, your TA marks both Delivery and the criterion
-for that part at Approaches Expectations.
+video. If a speaker reads their section word for word, your TA marks both Delivery and the
+criterion for that section at Approaches Expectations.
 
 > [!WARNING]
 > Check the link before you submit. Ask a group member who did not upload the video to open it,
@@ -1304,7 +1307,7 @@ what to write.
 
 The disclosures are not worth any points. For each missing disclosure, your TA takes 2 points off
 your group's report and video score, which is out of 100 and is 90% of Part C. A 🟡 Yellow or 🔴 Red
-with no line saying which tools were used and how takes 1 point off.
+without its note on which tools were used and how takes 1 point off.
 
 Every member has two disclosures, so a member with neither takes 4 points off the group's score.
 For example, if your group's report and video earns 85 points and one member's video disclosure is
@@ -1444,7 +1447,7 @@ Three things to know:
 
 ### Making an argument with PEEL <!-- {docsify-ignore} -->
 
-Use PEEL for every point you make in the Part B deep dive, and in the four parts of the Part C
+Use PEEL for every point you make in the Part B deep dive, and in sections 6 to 9 of the Part C
 video. It builds each point so that a reader can check it, and your TA will look for all four
 steps.
 
