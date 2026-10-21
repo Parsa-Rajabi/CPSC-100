@@ -760,16 +760,16 @@ Start with a cover page. It must include:
 
 [Using AI in Part C](#using-ai-in-part-c) explains the disclosures and shows an example cover page.
 
-1. What happened. One paragraph: what the system was, who used it, and what went wrong. Someone
+1. <b>What happened.</b> One paragraph: what the system was, who used it, and what went wrong. Someone
    who has never heard of the case must be able to understand it.
-2. Input. What data went into the system, where that data came from, and whether the people in
+2. <b>Input.</b> What data went into the system, where that data came from, and whether the people in
    the data agreed to this use.
-3. Decision logic. What the system did with the data to reach a result. You do not need the
+3. <b>Decision logic.</b> What the system did with the data to reach a result. You do not need the
    code. This example shows enough detail: "A submitted photo is compared against a database of
    photos collected from websites to identify a person".
-4. Outcome. What happened, and to whom. Include any response, such as a regulator's finding, a
+4. <b>Outcome.</b> What happened, and to whom. Include any response, such as a regulator's finding, a
    court ruling or a change by the company.
-5. Sources. At least three, and at least two of them primary. UBC Library defines a
+5. <b>Sources.</b> At least three, and at least two of them primary. UBC Library defines a
    [primary source](https://guides.library.ubc.ca/primarysources) as direct, first-hand evidence
    of events, before anyone else has analyzed or explained them. For your case, primary sources
    include regulator reports, court documents and official statements. Several news articles about
@@ -788,11 +788,11 @@ of the 100 points, so start planning and practising early.
 Do not read the report aloud. Your TA reads the report separately. The video has four parts, and
 each part uses the facts in your report:
 
-1. Stakeholders. Name at least three stakeholders: people or groups who are affected by the
+1. <b>Stakeholders.</b> Name at least three stakeholders: people or groups who are affected by the
    system or have an interest in it. For each one, give one positive effect and one negative
    effect. Every system benefits someone, so if you cannot find a positive effect, look again. You
    can show the effects in a table on a slide.
-2. Benjamin's categories. Say which of the four categories fits your case best, and why. Use
+2. <b>Benjamin's categories.</b> Say which of the four categories fits your case best, and why. Use
    specific facts from report sections 2 to 4. Then give a second reading: a category that someone
    else could reasonably argue for. Say which facts that reading would be based on. You must
    include this second reading.
@@ -819,7 +819,7 @@ categories part of the video is for this.
 
 </details>
 
-3. The mechanism. Name the course concept that explains your case, and explain how it caused the
+3. <b>The mechanism.</b> Name the course concept that explains your case, and explain how it caused the
    harm. This part is worth 20 points, more than any of the other three parts, so plan the most
    time for it.
 
@@ -872,7 +872,7 @@ mechanism [rubric](#part-c-rubric).
 
 </details>
 
-4. Should they change it? Give one argument for changing the system and one argument against it.
+4. <b>Should they change it?</b> Give one argument for changing the system and one argument against it.
    Each argument must name a specific benefit or cost in your case, and explain why it matters.
    Choose arguments that a reasonable person could make, not arguments that are easy to reject.
 
