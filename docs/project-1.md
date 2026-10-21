@@ -876,7 +876,7 @@ Follow these rules. They let your TA see that each speaker understands their own
 
 - Every member must be on camera, with their face visible, while they speak. Speaking over slides
   without your face on screen is not enough. If you cannot appear on camera for an accessibility,
-  safety or privacy reason, tell your TA before you record, and this rule will not apply to you.
+  safety or privacy reason, tell your TA before you record.
 - You can show slides or a screen recording next to your face.
 - Speak, do not read. You may use notes of a few words. If you read sentences word for word from a
   script, the report or your slides, your TA marks Delivery, and the criterion for your section, at
