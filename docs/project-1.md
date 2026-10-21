@@ -5,6 +5,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Oct 21 | Reworded the camera exception in the Part C video rules. |
 | Oct 20 | Added a Part C cover page with every member's AI disclosures, and page numbers for the report. A missing disclosure takes 2 points off your group's report and video score, and a Yellow or Red without its note takes 1. Reorganized and reworded Part C: the report is sections 1 to 5 and the video sections 6 to 9, the Going further items are now in the rubric, and the mechanism can be any related course concept. Defined a primary source, and corrected the points for a video link that never works: 78, not 35. Part B needs no AI disclosure. |
 | Oct 13 | Added the Part B and Part C rubrics, your group's steps for Part B, and the Part C video rules. In Part B, each member chooses one tool in Lab 4, and Appendix A is the results table. Cases now come from Pre-lab 5, and Parts B and C are handed in as PDFs on Canvas. |
 | Oct 6 | Added the Part A rubric and the AI use rule for Part A. Part A is now handed in on Canvas, as your annotated Snap! project and one PDF, due the day after your lab instead of at the end of it. |
@@ -876,7 +877,7 @@ Follow these rules. They let your TA see that each speaker understands their own
 
 - Every member must be on camera, with their face visible, while they speak. Speaking over slides
   without your face on screen is not enough. If you cannot appear on camera for an accessibility,
-  safety or privacy reason, tell your TA before you record, and this rule will not apply to you.
+  safety or privacy reason, tell your TA before you record.
 - You can show slides or a screen recording next to your face.
 - Speak, do not read. You may use notes of a few words. If you read sentences word for word from a
   script, the report or your slides, your TA marks Delivery, and the criterion for your section, at
