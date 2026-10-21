@@ -677,8 +677,7 @@ Part C is the largest part of Project 1, and it has two deliverables:
 | A written report | The facts: what the system was, what data it used, how it made decisions, what happened, and your sources |
 | A recorded video | Your argument: who the system affected, which of Benjamin's categories fits the case and another way to read it, the mechanism, and whether the system should change |
 
-The report gives the facts. In the video, you explain your reasoning out loud, in your own words.
-Explaining out loud is harder than writing, so the video is worth 78 of the 100 points.
+The video is worth 78 of the 100 points, because explaining out loud is harder than writing.
 
 ### Before you start <!-- {docsify-ignore} -->
 
@@ -713,8 +712,6 @@ work.
 Your case must:
 
 - Be connected to Canada or to a country in Asia
-- Be chosen after the Algorithmic Bias lecture on October 14. That lecture teaches Ruha Benjamin's
-  four categories, and your video uses them
 - Be proposed in Pre-lab 5 on [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/).
   Each member proposes a different case
 - Be documented. This means there is a regulator's report, a court filing (a document from a court
@@ -722,8 +719,7 @@ Your case must:
   about it. A blog post that says something happened is not enough
 
 > [!WARNING]
-> If you cannot find a regulator's finding, a court document or an official statement about your
-> case, it may not have enough evidence to use. Talk to your TA as soon as you can.
+> If you cannot find any of these for your case, talk to your TA as soon as you can.
 
 Two groups in the same lab section cannot use the same case. Before Lab 5, the teaching team checks
 every Pre-lab 5 case and tells your group which of its cases are taken:
@@ -733,22 +729,15 @@ every Pre-lab 5 case and tells your group which of its cases are taken:
 2. Cases submitted after the Pre-lab 5 deadline are checked after the ones submitted on time.
 3. Your group brings its remaining cases to Lab 5 and picks one there.
 
-The Pre-lab 5 deadline is in the [What you hand in](#what-you-hand-in) table. It is earlier than
-the usual pre-lab deadline so the teaching team has Tuesday to check the cases.
-
 </details>
 
 ### The report
 
-The report gives the facts of the case. Fill in all five sections below. Use bullet points when
-they are clearer than paragraphs. Sections 1 to 4 should be 2 to 3 pages, and must not be longer
-than 3 pages.
+Fill in all five sections below, with bullet points where they are clearer. Sections 1 to 4 should
+be 2 to 3 pages, and no longer than 3. The cover page, sources list and any appendix do not count
+toward this limit.
 
-The cover page does not count toward the page limit. The sources list and any appendix do not
-count either.
-
-Add page numbers to your report. The cover page has no number. The page where section 1 starts is
-page 1.
+Number the pages from 1 where section 1 starts. The cover page has no number.
 
 Start with a cover page. It must include:
 
@@ -773,20 +762,17 @@ Start with a cover page. It must include:
    [primary source](https://guides.library.ubc.ca/primarysources) as direct, first-hand evidence
    of events, before anyone else has analyzed or explained them. For your case, primary sources
    include regulator reports, court documents and official statements. Several news articles about
-   the same event count as one source. Use one
-   citation style for the whole list, and write the name of the style at the top of the list. We
-   recommend IEEE or ACM, the styles used in computer science. APA and MLA are also accepted. UBC Library's [How to Cite](https://guides.library.ubc.ca/howtocite)
-   guide explains each style, with full guides for [APA](https://guides.library.ubc.ca/apacitationstyle)
+   the same event count as one source. Use one citation style, and name it at the top of the list.
+   We recommend IEEE or ACM, the styles used in computer science. APA and MLA are also accepted.
+   UBC Library's [How to Cite](https://guides.library.ubc.ca/howtocite) guide explains each style,
+   with full guides for [APA](https://guides.library.ubc.ca/apacitationstyle)
    and [MLA](https://guides.library.ubc.ca/MLAHome). ACM's format is on
    [ACM's site](https://www.acm.org/publications/authors/reference-formatting).
 
 ### The video
 
-In the video, your group explains its reasoning out loud, in your own words. The video is worth 78
-of the 100 points, so start planning and practising early.
-
-Do not read the report aloud. Your TA reads the report separately. The video has four parts, and
-each part uses the facts in your report:
+Start planning and practising early. Do not read the report aloud, because your TA reads it
+separately. The video has four parts, and each uses the facts in your report:
 
 1. <b>Stakeholders.</b> Name at least three stakeholders: people or groups who are affected by the
    system or have an interest in it. For each one, give one positive effect and one negative
@@ -794,8 +780,7 @@ each part uses the facts in your report:
    can show the effects in a table on a slide.
 2. <b>Benjamin's categories.</b> Say which of the four categories fits your case best, and why. Use
    specific facts from report sections 2 to 4. Then give a second reading: a category that someone
-   else could reasonably argue for. Say which facts that reading would be based on. You must
-   include this second reading.
+   else could reasonably argue for. Say which facts that reading would be based on.
 
    | Category | What it means |
    | :------- | :------------ |
@@ -812,10 +797,9 @@ can be read in more than one way.
 
 For example, Clearview AI fits coded exposure, because it is a surveillance system. It also fits
 default discrimination, because the RCMP never checked whether the data was collected legally.
-Both readings can be argued. An argument that gives only one of them is incomplete.
+An argument that gives only one of them is incomplete.
 
-If your group does not agree on which category fits, present both readings in the video. The
-categories part of the video is for this.
+If your group does not agree on which category fits, present both readings.
 
 </details>
 
@@ -826,15 +810,12 @@ categories part of the video is for this.
 <details>
 <summary>What naming the mechanism means</summary>
 
-The mechanism is the part of the system that caused the harm, named with a concept from the
-course. It is not the same as Benjamin's category. The category says how the harm happened in
-Benjamin's terms, for example coded exposure. The mechanism says what in the system caused it. Your
-video needs both.
+The mechanism is what in the system caused the harm, named with a course concept. Benjamin's
+category says how the harm happened, for example coded exposure. Your video needs both.
 
-The table below lists some course concepts that can be a mechanism. It is a list of examples, not
-a complete list. Your mechanism can also come from lecture slides, lab slides, class discussions,
-a case study covered in the course, or a related concept. If you are unsure whether a concept
-fits, or it comes from outside the course, ask your project TA before you record.
+The table gives examples, not a complete list. Your mechanism can also come from lecture or lab
+slides, class discussions, a case study from the course, or a related concept. If you are unsure,
+or the concept comes from outside the course, ask your project TA before you record.
 
 | Concept | What it means | Look for this in your case | Lectures |
 | :-- | :-- | :-- | :-- |
@@ -846,8 +827,8 @@ fits, or it comes from outside the course, ask your project TA before you record
 
 To name the mechanism in your case:
 
-1. Find the input: what data went into the system. This is report section 2.
-2. Find the decision logic: what the system did with that data. This is report section 3.
+1. Find the input: the data that went into the system (report section 2).
+2. Find the decision logic: what the system did with it (report section 3).
 3. Choose the concept that matches the decision logic, from the table or from elsewhere in the
    course. If more than one fits, say so.
 4. In the video, explain each step from the input to the harm: what went in, what the system did
@@ -864,25 +845,24 @@ Names the mechanism:
 > This is a feedback loop. Because the system sent fewer drivers to that area, fewer ride
 > requests came from it, and the system read that drop as confirmation that demand there was low.
 
-The second example explains the process that kept the harm going. Groups often lose points here
-because they describe what happened, but not the process that caused it.
+The second explains the process that kept the harm going. Groups often lose points by describing
+only what happened.
 
 To reach Exceeds Expectations on this criterion, also add a counterfactual, as described in the
 mechanism [rubric](#part-c-rubric).
 
 </details>
 
-4. <b>Should they change it?</b> Give one argument for changing the system and one argument against it.
-   Each argument must name a specific benefit or cost in your case, and explain why it matters.
-   Choose arguments that a reasonable person could make, not arguments that are easy to reject.
+4. <b>Should they change it?</b> Give one argument for changing the system and one against. Each
+   must name a specific benefit or cost in your case and explain why it matters. Choose arguments
+   a reasonable person could make, not ones that are easy to reject.
 
 Use your sources as evidence while you speak. Name the source, for example "the privacy
 commissioner's report", or show it on a slide.
 
-Every group member must speak, for up to 2 minutes each. A group of five has up to 10 minutes in
-total, and a group of four has up to 8 minutes. Divide the four parts among your group. In a group
-of five, one member can introduce the case and connect the parts at the end. Decide who covers each
-part before you record.
+Every member must speak, for up to 2 minutes each: up to 8 minutes in total for a group of four,
+and 10 for a group of five. Before you record, decide who covers each of the four parts. In a group
+of five, one member can introduce the case and connect the parts at the end.
 
 <details>
 <summary>How to record it</summary>
@@ -893,9 +873,8 @@ Follow these rules. They let your TA see that each speaker understands their own
 
 - Every member must be on camera, with their face visible, while they speak. Speaking over slides
   without your face on screen is not enough. If you cannot appear on camera for an accessibility,
-  safety or privacy reason, tell your TA before you record. This rule will then not apply to you.
-- You can show slides or a screen recording next to your faces, as long as each speaker is on
-  camera while speaking.
+  safety or privacy reason, tell your TA before you record, and this rule will not apply to you.
+- You can show slides or a screen recording next to your face.
 - Speak, do not read. You may use notes of a few words. If you read sentences word for word from a
   script, the report or your slides, your TA marks Delivery, and the criterion for your part, at
   Approaches Expectations.
@@ -913,8 +892,8 @@ Follow these rules. They let your TA see that each speaker understands their own
 > You may use AI to help you prepare, as the policy allows, but you must understand everything you
 > say.
 
-The teaching team may ask you questions about your video. Every member should be able to answer
-questions about any part of it, not only their own part.
+The teaching team may ask any member about any part of the video, not only their own, so every
+member should be able to answer.
 
 </details>
 
@@ -968,26 +947,22 @@ your report and video score until you send a working link. The warning after the
 
 ### What you need to hand in <!-- {docsify-ignore} -->
 
-Hand in your report as one PDF, in one submission to Project 1C (Group) on Canvas. One member
-submits for the whole group. Your group must hand in:
+Hand in one PDF to Project 1C (Group) on Canvas. One member submits for the whole group. Before you
+submit, check that you have:
 
-- The written report: a cover page, then sections 1 to 4 in 2 to 3 pages, then your sources, with
-  page numbers starting at 1 after the cover page
-- Two AI disclosures from every member on the cover page, one for the report and one for the video
-- At least three sources, of which at least two are primary, all of them checked and listed in one
-  citation style that you name at the top of the list
-- A recorded video, linked on your cover page, with every member on camera and speaking, up to 2
-  minutes each, covering the four parts
-- In all four parts of the video, each point uses [PEEL](#making-an-argument-with-peel), with your
-  sources as evidence
+- A cover page with the video link and two AI disclosures from every member
+- Sections 1 to 4 in 2 to 3 pages, with page numbers starting at 1 after the cover page
+- At least three sources, at least two of them primary, all checked and listed in one named
+  citation style
+- A video with every member on camera and speaking, up to 2 minutes each, covering the four
+  parts, with each point using [PEEL](#making-an-argument-with-peel)
 - A case connected to Canada or a country in Asia
 
 ### Using AI in Part C <!-- {docsify-ignore} -->
 
-Every member must write two AI disclosures on the cover page: one for the report and one for the
-video. Each disclosure is one colour, 🟢 Green, 🟡 Yellow or 🔴 Red, and covers your own part of the
-work. Choose the colour that is true for you. Write the circle and the colour, for example
-"Report: 🟡 Yellow".
+Every member must write two AI disclosures on the cover page, one for the report and one for the
+video. Each is the colour that is true for your own part, 🟢 Green, 🟡 Yellow or 🔴 Red, written
+with its circle, for example "Report: 🟡 Yellow".
 
 For the report:
 
@@ -1005,17 +980,14 @@ For the video:
 | 🟡 | Yellow | You used AI for your part of the video, for example to edit it or to help with your script, but you chose what to say and said it in your own words. |
 | 🔴 | Red | AI made some of what you showed in your part of the video, for example a slide or an image. |
 
-If you choose 🟡 Yellow or 🔴 Red, add one or two lines after the colour that say which tools you used
-and how. Keep them short and general, as in the example cover page below.
+For 🟡 Yellow or 🔴 Red, add one or two short lines on which tools you used and how, as in the
+example cover page below.
 
-The colour you choose does not change your grade. Your TA marks your work with the
-[rubric](#part-c-rubric), whatever colours you choose. The
-[AI Policy](ai-policy.md#be-transparent-about-ai-use) asks you to choose honestly. Each missing
-disclosure takes 2 points off your group's score, and a 🟡 Yellow or 🔴 Red without its note takes 1
-point off. See [AI disclosures](#ai-disclosures).
-
-The [video rules](#how-to-record-it) apply whichever colour you choose. Do not read from a script
-an AI tool wrote, and do not use AI-generated voices or avatars.
+The colour does not change your grade, and the
+[AI Policy](ai-policy.md#be-transparent-about-ai-use) asks you to choose honestly. A missing
+disclosure takes 2 points off your group's score, and a 🟡 Yellow or 🔴 Red without its note takes 1.
+See [AI disclosures](#ai-disclosures). The [video rules](#how-to-record-it) on AI apply whichever
+colour you choose.
 
 <details>
 <summary>Example cover page</summary>
@@ -1334,9 +1306,9 @@ The disclosures are not worth any points. For each missing disclosure, your TA t
 your group's report and video score, which is out of 100 and is 90% of Part C. A 🟡 Yellow or 🔴 Red
 with no line saying which tools were used and how takes 1 point off.
 
-Every member has two disclosures, so a member with neither costs the group 4 points. For example,
-if your group's report and video earns 85 points and one member's video disclosure is missing, your
-score becomes 83.
+Every member has two disclosures, so a member with neither takes 4 points off the group's score.
+For example, if your group's report and video earns 85 points and one member's video disclosure is
+missing, your score becomes 83.
 
 The deduction applies to the whole group, so every member loses the same points.
 
