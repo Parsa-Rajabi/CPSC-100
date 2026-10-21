@@ -10,7 +10,7 @@ Finalized: September 16, 2026
 
 | Date | Update |
 | :--: | :----- |
-| Oct 21 | Added the AI disclosure rule for Project 1 Part C. Part B does not need a disclosure. |
+| Oct 20 | Added the AI disclosure rule for Project 1 Part C. Part B does not need a disclosure. |
 | Oct 6 | Added the AI use rule for Project 1 Part A. |
 | Sep 24 | Removed draft wording. Requirements unchanged. |
 | Sep 16 | Policy finalized. No changes to the requirements after the feedback period. |
