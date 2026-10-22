@@ -7,7 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Linked iPeer 2 to the Project 2 page. |
+| Oct 22 | Linked iPeer 2 to the Project 2 page. |
 | Oct 13 | iPeer now covers Parts B and C, and the multiplier applies to all of Part C. Corrected the late-penalty example. |
 | Sep 30 | iPeer 0 is now required, with a small late penalty and no quality deductions. Every round must be submitted, even late. |
 | Sep 24 | Reworded for readability. |

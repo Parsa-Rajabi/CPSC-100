@@ -21,7 +21,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 13 | Added the Project 2 instructions, dates and rubrics. |
+| Oct 22 | Added the Project 2 instructions, dates and rubrics. |
 
 </details>
 
