@@ -30,7 +30,7 @@ wrong, and why your fix works. Your TA marks your explanations, not only your fi
 - Your program is a Python program in a Jupyter notebook on PrairieLearn. It does not work when you
   first open it
 - Lab 6 prepares you for Part A. In Lab 6 you go from Snap! to Python
-- You hand in your notebook on Canvas, by your section's deadline under [Submission](#submission)
+- You submit your notebook on PrairieLearn, by your section's deadline under [Submission](#submission)
 
 ### What you will do <!-- {docsify-ignore} -->
 
@@ -40,7 +40,7 @@ wrong, and why your fix works. Your TA marks your explanations, not only your fi
 4. Test the program with your own values, not only the values in the program. Some bugs only appear
    with certain values
 5. At each fix, add a comment. Name the kind of error, say what was wrong, and say why your fix works
-6. Download your notebook as an .ipynb file, rename it, and hand it in on Canvas
+6. Save your notebook and submit it on PrairieLearn
 
 > [!TIP]
 > If you cannot find a bug, try [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
@@ -57,19 +57,13 @@ wrong, and why your fix works. Your TA marks your explanations, not only your fi
 
 ## Submission
 
-- Hand in one file on [Canvas](https://canvas.ubc.ca/courses/190791/assignments), to Project 2A
-- The file is your notebook, downloaded from PrairieLearn as an .ipynb file
-- File name: `CPSC100-2A-[StudentNumber].ipynb`, for example `CPSC100-2A-12345678.ipynb`
+- Submission of the project is on PrairieLearn itself. Submit your Part A notebook there
 - The first cell starts with your AI use line, as a comment. The lines to copy are under
   [AI disclosure](#ai-disclosure)
 - The rest of the notebook is your fixed program, with a comment at each fix
 - All of the work must be your own
 
-To download your notebook, open the File menu in Jupyter and choose Download. In some versions,
-choose Download as, then Notebook. Download it before you leave the lab, so you have a copy. Then
-rename the file.
-
-Hand it in by your section's deadline:
+Submit it on PrairieLearn by your section's deadline:
 
 | Your lab | Lab 7 | Part A due |
 | :------- | :---- | :--------- |
@@ -111,7 +105,7 @@ The line you choose does not change your mark. Your work is marked with the
 We will post the Part A notebook after the lab, so you can do Part A on your own. You lose the lab
 mark for that week, but you can still do Part A.
 
-Your deadline does not change. Hand in your notebook on Canvas by your section's deadline under
+Your deadline does not change. Submit your notebook on PrairieLearn by your section's deadline under
 [Submission](#submission).
 
 </details>
