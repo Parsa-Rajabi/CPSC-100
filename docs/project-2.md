@@ -1,8 +1,8 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> Still to come: how long each viva voce session is, how to book your session, where it takes
-> place, and what you may bring.
+> Still to come: the viva voce grading criteria, how long each session is, how to book your session,
+> where it takes place, and what you may bring.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -204,11 +204,10 @@ integrity process. -->
 
 - Part A has its own [rubric](project-2a.md#grading-criteria), marked complete, partial or
   incomplete
-- Parts B and C use the [Part B rubric](project-2b.md#grading-criteria) and the
-  [Part C rubric](project-2c.md#grading-criteria)
+- Part B uses the [Part B rubric](project-2b.md#grading-criteria). The Part C rubric will be
+  released later
 - The rubrics ask only for what each part's page asks for, plus the optional Exceeds Expectations
-  items listed under each criterion in [Part B](project-2b.md#grading-scale) and
-  [Part C](project-2c.md#grading-scale)
+  items listed under each criterion in [Part B](project-2b.md#grading-scale)
 
 ### The four bands <!-- {docsify-ignore} -->
 

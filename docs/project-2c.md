@@ -13,7 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 22 | Added the Part C instructions and rubric. |
+| Oct 22 | Added the Part C instructions. The grading criteria will be released later. |
 
 </details>
 
@@ -141,51 +141,20 @@ We ask about the changes you made while building:
 ### Delivery <!-- {docsify-ignore} -->
 
 - Make sure every member can explain every part of the app, including code they did not prompt for
-- Speak, do not read. A few words of notes are fine
-- If you read a full answer aloud from a script, your documents or your slides, two criteria
-  drop to Approaches Expectations: Delivery, and the criterion that answer belongs to
+- Speak, do not read. A few words of notes are fine. Do not read a full answer aloud from a script,
+  your documents or your slides
 - Speak so that everyone in the room can hear you. If you do not hear or understand a question, ask
   us to repeat it
 - Use your documents as evidence. When you mention a feature or a test, name it by its number, such
   as F2 or T3
-- Practise together before your session. To reach Exceeds Expectations, your demo runs without
-  restarts or pauses longer than 10 seconds, and each member continues from where the last
-  one stopped
+- Practise together before your session, so that your demo runs without restarts or pauses longer
+  than 10 seconds, and each member continues from where the last one stopped
 
 ---
 
 ## Grading criteria
 
-Your viva voce score is based on five criteria, out of 100 points:
-
-1. Demonstration, 15 points. We will evaluate whether your app runs and you show its main features
-   working, each connected to a need of your user.
-2. Design decisions and course concepts, 25 points. We will evaluate whether you can explain why you
-   designed the app this way, and show where each course concept is in the app.
-3. Testing and bugs, 25 points. We will evaluate whether you can explain how you chose your tests,
-   and explain one bug from how you found it to how you fixed it.
-4. Changes along the way, 15 points. We will evaluate whether you can explain what changed from your
-   design document, and where Copilot made a mistake.
-5. Delivery, 20 points. We will evaluate whether every member answers, in their own words, without
-   reading and without AI.
-
-How your TA marks each criterion:
-
-- Every criterion is marked from what happens in the viva voce
-- Your TA places each criterion in one of the four bands described in
-  [How this is graded](project-2.md#how-this-is-graded), using the bullets under
-  [Grading scale](#grading-scale)
-- If your work matches the descriptions of more than one band, your TA uses the lowest one that
-  applies
-- Your TA starts at that band's Starts at score, and subtracts points for small mistakes within the
-  band. Your TA decides what counts as a small mistake
-- Exceeds Expectations needs everything in Meets Expectations, plus every Exceeds Expectations item
-  for that criterion
-- If a member reads a full answer aloud from a script, notes or slides, both Delivery and the
-  criterion that answer belongs to
-  drop to Approaches Expectations
-
-Design decisions and testing are worth the most points, so give them the most time.
+The grading criteria for the viva voce will be released later.
 
 Your viva voce score is 90% of your Part C mark. The other 10% is:
 
@@ -199,128 +168,7 @@ Your peer evaluation multiplier applies to all of Part C. The
 
 ## Grading scale
 
-### 1. Demonstration (15 points) <!-- {docsify-ignore} -->
-
-Exceeds Expectations (A+), starts at 15. Everything in Meets Expectations, plus all of these:
-
-- You demonstrate one realistic task your user would do, from the first step to the last
-- The demo shows the app handling at least one of the risks in your design document
-
-Meets Expectations (A-, A), starts at 13. All of these:
-
-- The app runs on the device you present with
-- You show its main features working
-- For each feature, you say which need of your user it serves
-
-Approaches Expectations (B- to B+), starts at 11.5. Any of these:
-
-- The app runs, but a main feature fails during the demo and your group cannot explain why
-- The demo lists features without connecting them to your user
-
-Not Within Expectations (C+ and below), starts at 10. Any of these:
-
-- The app does not run
-- There is no demo
-
-### 2. Design decisions and course concepts (25 points) <!-- {docsify-ignore} -->
-
-Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
-
-- For at least two features, you name a different design you considered, and the reason, based on
-  your user, that you did not use it
-
-Meets Expectations (A-, A), starts at 22. All of these:
-
-- Your answers explain who your user is, and how each feature helps them
-- Your answers explain why you designed the app this way
-- You can show where each course concept appears in the app, and explain how it works there
-- Your reasons are based on your user, not on what Copilot suggested
-
-Approaches Expectations (B- to B+), starts at 19.5. Any of these:
-
-- Your answers describe what the app does without saying why
-- A course concept is named, but your group cannot show or explain where it appears
-
-Not Within Expectations (C+ and below), starts at 16.5. Any of these:
-
-- Your group cannot answer most design questions
-- The course concepts are not in the app
-
-### 3. Testing and bugs (25 points) <!-- {docsify-ignore} -->
-
-Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
-
-- For one bug, you explain its cause in the app's steps: which step the app did wrong, why, and how
-  your fix changed that step, not only what the user saw. If you found no bugs, you explain the
-  steps your app follows for the input from your riskiest test
-
-Meets Expectations (A-, A), starts at 22. All of these:
-
-- You explain how you decided what to test
-- You explain which methods you used to find bugs
-- You explain one bug you found: how you found it, and how you fixed it. If you found
-  no bugs, you say so, and explain which test was most likely to find one, and why
-
-Approaches Expectations (B- to B+), starts at 19.5. Any of these:
-
-- Testing is described only in general terms, such as "we tried everything"
-- The bug explanation does not say how you found it, or how you fixed it
-- You found no bugs, and you do not say which test was most likely to find one
-
-Not Within Expectations (C+ and below), starts at 16.5. Any of these:
-
-- Your group cannot describe a test you ran
-- Your group cannot describe a bug you found
-
-### 4. Changes along the way (15 points) <!-- {docsify-ignore} -->
-
-Exceeds Expectations (A+), starts at 15. Everything in Meets Expectations, plus this:
-
-- You explain one change you made to how you prompted Copilot after it made a mistake, and what
-  happened after that change. If Copilot never made a mistake, you explain one change you
-  made to how you prompted it as the app grew, and why
-
-Meets Expectations (A-, A), starts at 13. All of these:
-
-- You explain what changed from your design requirements document, and why
-- You describe at least one place where Copilot made a mistake, and how you noticed. If Copilot
-  never made a mistake, you say so, and explain how you checked its code
-
-Approaches Expectations (B- to B+), starts at 11.5. Any of these:
-
-- Changes are listed without reasons
-- The Copilot example does not say how you noticed
-
-Not Within Expectations (C+ and below), starts at 10. Any of these:
-
-- Your group cannot name a change
-- Your group cannot name a place where Copilot made a mistake
-
-### 5. Delivery (20 points) <!-- {docsify-ignore} -->
-
-Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus all of these:
-
-- No restarts, no pauses longer than 10 seconds, and no one reads from notes or slides
-- Each member, at least once, adds to a teammate's answer by connecting it to another part of the
-  app or to a course concept. Asking a teammate to answer the next question does not count
-
-Meets Expectations (A-, A), starts at 17.5. All of these:
-
-- Every member answers questions, including about parts of the app they did not build
-- Each member answers in their own words, from a few words of notes at most
-- No one uses AI, as the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries)
-  requires
-
-Approaches Expectations (B- to B+), starts at 15.5. Any of these:
-
-- A member does not answer
-- Members can answer only about the parts they built
-- A member reads a full answer aloud from a script, notes or slides
-
-Not Within Expectations (C+ and below), starts at 13. Any of these:
-
-- One or two members give almost every answer
-- Most answers are read aloud
+The grading scale for the viva voce will be released later, with the grading criteria.
 
 ---
 
