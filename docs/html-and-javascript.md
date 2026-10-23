@@ -1,0 +1,72 @@
+# HTML and JavaScript
+
+<details class="changelog">
+<summary>Changelog</summary>
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
+
+| Date | Update |
+| :--: | :----- |
+| Oct 23 | Added this page for Project 2B. |
+
+</details>
+
+Your [Project 2B](project-2b.md) app is a website that runs in your web browser. Copilot writes its
+code. You do not need to read or write that code yourself. Knowing what the parts are called helps
+you describe what you want when you prompt Copilot.
+
+There are no quiz questions on HTML, CSS or JavaScript.
+
+---
+
+## What a website is made of
+
+Every web page is built from three kinds of code. Your browser, such as Chrome, Safari, Edge or
+Firefox, reads the code and shows you the page.
+
+| Code | What it does | Example |
+| :--- | :----------- | :------ |
+| HTML | The content and structure of the page: headings, text, buttons, input boxes and lists | A button labelled "Add", and a box where the user types |
+| CSS | How the page looks: colours, fonts, sizes and layout | The button is blue, and it sits next to the box |
+| JavaScript | What happens when the user does something, such as clicking, typing or opening the page | Clicking "Add" puts what the user typed into a list |
+
+HTML and CSS describe the page. JavaScript is a programming language, like Python and Snap!. It
+uses the same ideas you learn in this course: variables, if statements, loops, lists and functions.
+That is why you can guide Copilot. You know each step the program must take, even if you
+cannot write the code.
+
+---
+
+## Your app is one file
+
+In Project 2B, all three kinds of code go in one file that ends in .html.
+
+We recommend [Visual Studio Code](https://code.visualstudio.com/) (VS Code) for editing your app. It
+is a free code editor for Windows, Mac and Linux. It shows HTML, CSS and JavaScript in different
+colours, so the parts of your file are easier to see.
+
+1. When you prompt Copilot, ask for one HTML file that includes its CSS and JavaScript, and that
+   does not save any data
+2. In VS Code, create a new file, and paste the code Copilot gives you into it
+3. Save the file with a name that ends in .html
+4. Open the file in a web browser. Double-click it, or drag it into a browser window. Nothing else
+   needs to be installed
+5. After each change, save the file again and reload the page in the browser to see the new version
+
+If you cannot install VS Code, a plain text editor also works, such as Notepad on Windows or TextEdit
+on a Mac. In TextEdit, choose Format, then Make Plain Text, before you paste.
+
+Reloading the page deletes everything the user entered. This is expected. For this course, your app
+must not save any data: no database, no online service and no browser storage.
+
+---
+
+## Optional reading
+
+These pages are for students who want to know more. You do not need them for Project 2B.
+
+- [How the web works](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works),
+  from MDN Web Docs
+- [What is HTML?](https://www.w3schools.com/whatis/whatis_html.asp), from W3Schools
+- [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript),
+  from MDN Web Docs
