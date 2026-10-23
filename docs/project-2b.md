@@ -202,7 +202,7 @@ The PDF contains:
    - who your user is
    - what problem your app solves for them
    - how your app uses data, and how it could benefit people or society
-   - the main features you plan
+   - the features you plan, numbered F1, F2 and so on: at least one feature for each group member
    - the three or more course concepts it will use
 
 Keep your sketches. Comparing your sketch with your final app is one of the Exceeds Expectations
@@ -235,13 +235,18 @@ Write it before you prompt Copilot. Start from your proposal and your TA's feedb
 pages, with six sections in this order:
 
 1. User. Who your user is, and what problem your app solves for them.
-2. Features. What the app must do, numbered F1, F2 and so on. Write each one so that it can be
-   tested, for example "F1: The user can add a meal by typing its name and calories."
+2. Features. What the app must do, numbered F1, F2 and so on. List at least one feature for each
+   group member: 4 for a group of 4, 5 for a group of 5. Write each one so that it can be tested,
+   for example "F1: The user can add a meal by typing its name and calories."
 3. Interactions. What happens when the user clicks each button or enters data.
 4. Course concepts. Which three or more concepts your app uses, and which features use them.
 5. Risks. What could confuse the user or go wrong, such as empty input, unclear labels or a privacy
    concern.
 6. Design change log. What changed while you were building, and why.
+
+A feature is one thing the user can do in your app, and see the result of. For example, the user
+enters something, sees a result, or changes a setting. Each feature has its own number and at least
+one test.
 
 Use the document to guide your prompts, and later to decide what to test. When your design
 changes, update the document. Record the change and its reason in the design change log.
@@ -355,6 +360,7 @@ Part B receives a group grade, and it is not multiplied by peer evaluation.
 
 Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus all of these:
 
+- At least 1.5 times as many features as group members: 6 for a group of 4, 8 for a group of 5
 - Each risk names the feature it affects, by its number, and how the app should respond
 - Each entry in the design change log names the test, by its number, or the Copilot conversation
   that led to the change
@@ -368,6 +374,7 @@ Meets Expectations (A-, A), starts at 17.5. All of these:
 - One to two pages, with all six sections
 - The document matches your final app
 - Your user and their problem are specific
+- At least one feature for each group member: 4 for a group of 4, 5 for a group of 5
 - Features are numbered, and each says what the app must do in a way that can be tested
 - Interactions cover every button and input
 - At least three course concepts, each linked to the features that use it
@@ -377,6 +384,7 @@ Meets Expectations (A-, A), starts at 17.5. All of these:
 Approaches Expectations (B- to B+), starts at 15.5. All six sections are there, but one or two are
 missing something they ask for. Any of these:
 
+- There are fewer features than group members
 - Features are not numbered, or cannot be tested ("the app is easy to use")
 - A concept is named without the features that use it
 - The risks would fit any app
