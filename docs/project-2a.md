@@ -26,8 +26,6 @@ wrong, and why your fix works. Your TA marks your explanations, not only your fi
 - Lab 6 prepares you for Part A. In Lab 6 you go from Snap! to Python
 - You hand in your notebook on Canvas, by your section's deadline under [Submission](#submission)
 
-How Part A fits into Project 2 is on the [Project 2](project-2.md) page.
-
 ### What you will do <!-- {docsify-ignore} -->
 
 1. In Lab 7, open your Part A notebook on PrairieLearn. The notebook says what the program should do
@@ -183,8 +181,6 @@ Part A is graded individually, and it is not affected by peer evaluation.
 ---
 
 ## Grading scale
-
-Part A has one criterion and three levels:
 
 | Criterion | Complete (1) | Partial (0.5) | Incomplete or absent (0) |
 | :-- | :-- | :-- | :-- |

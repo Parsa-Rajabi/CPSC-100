@@ -94,9 +94,7 @@ presentation instructions", so this page must eventually say what is allowed). -
 
 ## Details
 
-The five sections before Going further match the five criteria in the
-[rubric](#grading-criteria). Before your session, re-read your design requirements document and
-your testing report.
+Before your session, re-read your design requirements document and your testing report.
 
 ### Demonstration <!-- {docsify-ignore} -->
 
@@ -136,9 +134,6 @@ We ask about the changes you made while building:
 
 ### Delivery <!-- {docsify-ignore} -->
 
-These rules exist because the viva voce is where you show your own understanding. Your own words
-make that visible.
-
 - Make sure every member can explain every part of the app, including code they did not prompt for
 - Speak, do not read. A few words of notes are fine
 - If you read an answer word for word from a script, your documents or your slides, two criteria
@@ -167,8 +162,7 @@ Meets Expectations, plus every item listed for it below.
 
 ## Grading criteria
 
-Use this rubric to prepare for your viva voce. Your viva voce score is based on five criteria, out
-of 100 points:
+Your viva voce score is based on five criteria, out of 100 points:
 
 | Criterion | Points |
 | :-- | :--: |
@@ -204,8 +198,8 @@ Your peer evaluation multiplier applies to all of Part C. The
 
 ## Grading scale
 
-Each criterion has its own table. If your work matches the descriptions of more than one band, your
-TA uses the lowest one that applies.
+If your work matches the descriptions of more than one band, your TA uses the lowest one that
+applies.
 
 ### 1. Demonstration (15 points) <!-- {docsify-ignore} -->
 

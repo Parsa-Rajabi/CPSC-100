@@ -1,18 +1,11 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> This page is not finished yet, but everything below is ready for you to plan with. Please read it
-> now. A few things are still to come:
+> Still to come:
 >
 > - The viva voce format: how long each session is, how to book your session, where it takes place,
 >   and what you may bring
 > - Rough time estimates for each part
->
-> The rubrics for all three parts are posted: [Part A](project-2a.md#grading-criteria),
-> [Part B](project-2b.md#grading-criteria) and [Part C](project-2c.md#grading-criteria). Read
-> [How this is graded](#how-this-is-graded) before you start Part B or Part C.
->
-> The schedule below may still change. If anything changes, we record it in the changelog.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -41,9 +34,6 @@ The goal of all three parts is the same. You are responsible for any code you ha
 wrote it, fixed it or asked an AI tool to write it. Each part asks you to show that you understand
 what your code does, and why.
 
-Each part has its own page, with the same sections in the same order: Overview, Submission, AI
-disclosure, Late policy, Details, Grading criteria, Grading scale and Regrading criteria.
-
 | Part | What it is | Who does it | Weight | Due |
 | :--: | :--------- | :---------- | :----: | :-- |
 | A | Learning to communicate: debugging a Python program | Individual, in Lab 7 | 1% | The day after your Lab 7, Thu Nov 5 or Fri Nov 6, 11:59pm |
@@ -68,9 +58,8 @@ are 15% of your grade, and Project 1 is the other 15%. All course weights are in
 
 ## What you hand in
 
-You hand in your work on [Canvas](https://canvas.ubc.ca/courses/190791/assignments). Each assignment
-page on Canvas shows its deadline, so check the deadline there. The table lists every Project 2
-deadline so you can plan. All times are Pacific time.
+Hand in your work on [Canvas](https://canvas.ubc.ca/courses/190791/assignments). Each assignment
+page on Canvas shows its deadline. All times are Pacific time.
 
 | What you hand in | Who | Due | Where |
 | :--------------- | :-- | :-- | :---- |
@@ -215,16 +204,12 @@ integrity process. -->
 
 ## How this is graded
 
-Read this section before you start Part B or Part C.
-
 - Part A has its own [rubric](project-2a.md#grading-criteria), marked complete, partial or
   incomplete
 - Parts B and C use the [Part B rubric](project-2b.md#grading-criteria) and the
   [Part C rubric](project-2c.md#grading-criteria)
-- Every criterion in these rubrics matches something its part's page already asks for, so there are
-  no hidden requirements
-- The only additions are the optional Going further items in [Part B](project-2b.md#going-further)
-  and [Part C](project-2c.md#going-further), for groups aiming for an A+
+- The rubrics ask only for what each part's page asks for, plus the optional Going further items in
+  [Part B](project-2b.md#going-further) and [Part C](project-2c.md#going-further)
 
 ### The four bands <!-- {docsify-ignore} -->
 

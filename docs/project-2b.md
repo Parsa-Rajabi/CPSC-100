@@ -27,18 +27,8 @@ document, your tests, and the full record of how you built it.
 Vibe coding means building software by describing what you want to an AI tool, then improving what
 it produces, instead of writing every line yourself.
 
-AI coding assistants are now used this way in research labs and in industry. They still need
-someone who:
-
-- knows what the program must do
-- can guide them one step at a time
-- can tell when the result is wrong
-
-That takes the programming concepts you have learned in this course.
-
-Anything you submit under your name, in this course or anywhere else, is your responsibility. That
-includes code an AI tool wrote. Generated code often looks finished and still does not work, so you
-must check it yourself.
+You are responsible for any code you submit, including code an AI tool wrote. Generated code often
+looks finished and still does not work, so you must check it yourself.
 
 ### Before you start <!-- {docsify-ignore} -->
 
@@ -130,10 +120,6 @@ If you used no AI tools apart from Copilot, say so.
 ---
 
 ## Details
-
-The sections below follow the order you will work in. Four of them match the four criteria in the
-[rubric](#grading-criteria): The app and its course concepts, Design requirements document, Working
-with Copilot, and Testing.
 
 ### The app and its course concepts <!-- {docsify-ignore} -->
 
@@ -286,8 +272,7 @@ Meets Expectations, plus every item listed for it below.
 
 ## Grading criteria
 
-Use this rubric to check your work before you submit. Your Part B grade is based on four criteria,
-out of 100 points:
+Your Part B grade is based on four criteria, out of 100 points:
 
 | Criterion | Marked from | Points |
 | :-- | :-- | :--: |
@@ -313,8 +298,8 @@ Part B receives a group grade, and it is not multiplied by peer evaluation.
 
 ## Grading scale
 
-Each criterion has its own table. If your work matches the descriptions of more than one band, your
-TA uses the lowest one that applies.
+If your work matches the descriptions of more than one band, your TA uses the lowest one that
+applies.
 
 ### 1. Design requirements document (20 points) <!-- {docsify-ignore} -->
 
