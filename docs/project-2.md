@@ -55,12 +55,13 @@ are 15% of your grade, and Project 1 is the other 15%. All course weights are in
 
 ## What you hand in
 
-Hand in your work on [Canvas](https://canvas.ubc.ca/courses/190791/assignments). Each assignment
-page on Canvas shows its deadline. All times are Pacific time.
+Hand in Part A on PrairieLearn. Hand in everything else on
+[Canvas](https://canvas.ubc.ca/courses/190791/assignments). Each assignment page shows its deadline.
+All times are Pacific time.
 
 | What you hand in | Who | Due | Where |
 | :--------------- | :-- | :-- | :---- |
-| [Part A](project-2a.md#submission): your fixed Python notebook, with a comment at each fix | Individual | The day after your Lab 7: Thu Nov 5 (L1A to L1D) or Fri Nov 6 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| [Part A](project-2a.md#submission): your fixed Python notebook, with a comment at each fix | Individual | The day after your Lab 7: Thu Nov 5 (L1A to L1D) or Fri Nov 6 (L1E), 11:59pm | PrairieLearn |
 | [Pre-lab 8](project-2b.md#pre-lab-8-your-ideas-sketches-and-proposal): your project ideas, sketches and proposal | Group | Thu Nov 12, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Part B](project-2b.md#submission): your design requirements document, your app as one .html file, your testing report, and your AI transcripts | Group | Tue Nov 24, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Part C](project-2c.md): nothing to hand in. Your group presents its app in person | Group | Your session, between Wed Dec 2 and Fri Dec 4 | In person |
@@ -69,7 +70,7 @@ page on Canvas shows its deadline. All times are Pacific time.
 | [iPeer 2](#peer-evaluation) | Individual | Thu Dec 3, 11:59pm | iPeer |
 
 <!-- The Canvas links go to the course's Assignments page. Replace each one with its assignment's
-own page once the Project 2A, Pre-lab 8, Project 2B and retrospective assignments exist. -->
+own page once the Pre-lab 8, Project 2B and retrospective assignments exist. -->
 
 ---
 
