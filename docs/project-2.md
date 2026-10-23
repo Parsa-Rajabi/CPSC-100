@@ -1,11 +1,8 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> Still to come:
->
-> - The viva voce format: how long each session is, how to book your session, where it takes place,
->   and what you may bring
-> - Rough time estimates for each part
+> Still to come: how long each viva voce session is, how to book your session, where it takes
+> place, and what you may bring.
 
 <details class="changelog">
 <summary>Changelog</summary>
