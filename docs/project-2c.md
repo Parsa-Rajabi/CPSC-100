@@ -13,7 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 22 | Added the Part C instructions. The grading criteria will be released later. |
+| Oct 23 | Added the Part C instructions. The grading criteria will be released later. |
 
 </details>
 

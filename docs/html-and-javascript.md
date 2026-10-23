@@ -7,7 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 22 | Added this page for Project 2B. |
+| Oct 23 | Added this page for Project 2B. |
 
 </details>
 
@@ -41,14 +41,20 @@ cannot write the code.
 
 In Project 2B, all three kinds of code go in one file that ends in .html.
 
+We recommend [Visual Studio Code](https://code.visualstudio.com/) (VS Code) for editing your app. It
+is a free code editor for Windows, Mac and Linux. It shows HTML, CSS and JavaScript in different
+colours, so the parts of your file are easier to see.
+
 1. When you prompt Copilot, ask for one HTML file that includes its CSS and JavaScript, and that
    does not save any data
-2. Copy the code Copilot gives you into a plain text editor, such as Notepad on Windows or TextEdit
-   on a Mac. In TextEdit, choose Format, then Make Plain Text, before you paste
+2. In VS Code, create a new file, and paste the code Copilot gives you into it
 3. Save the file with a name that ends in .html
 4. Open the file in a web browser. Double-click it, or drag it into a browser window. Nothing else
    needs to be installed
 5. After each change, save the file again and reload the page in the browser to see the new version
+
+If you cannot install VS Code, a plain text editor also works, such as Notepad on Windows or TextEdit
+on a Mac. In TextEdit, choose Format, then Make Plain Text, before you paste.
 
 Reloading the page deletes everything the user entered. This is expected. For this course, your app
 must not save any data: no database, no online service and no browser storage.

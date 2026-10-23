@@ -13,7 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 22 | Added the Part A instructions and rubric. |
+| Oct 23 | Added the Part A instructions and rubric. |
 
 </details>
 

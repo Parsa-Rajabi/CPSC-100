@@ -7,7 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 22 | Linked the viva voce to the Project 2 page. |
+| Oct 23 | Linked the viva voce to the Project 2 page. |
 | Oct 21 | Confirmed the new material for Quizzes 4 and 5. W7C moved from Quiz 4 to Quiz 5. |
 | Oct 13 | Corrected the viva voce description: it is a group presentation. |
 | Oct 11 | Corrected when booking opens. Quiz booking opens on a Tuesday, about two weeks before the quiz window, and viewing booking opens on the Sunday before the viewing window. No dates changed. |

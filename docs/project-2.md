@@ -11,7 +11,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 22 | Added the Project 2 overview and dates. Parts A, B and C each have their own page. |
+| Oct 23 | Added the Project 2 overview and dates. Parts A, B and C each have their own page. |
 
 </details>
 

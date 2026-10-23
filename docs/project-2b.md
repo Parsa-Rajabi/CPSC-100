@@ -13,7 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 22 | Added the Part B instructions, Pre-lab 8 and the rubric. |
+| Oct 23 | Added the Part B instructions, Pre-lab 8 and the rubric. |
 
 </details>
 
@@ -41,7 +41,8 @@ and notice when it is wrong. You can use this skill with any AI tool, in any fie
 
 Your app is written in HTML and JavaScript, the code that runs websites. You do not need to learn
 these languages, and there are no quiz questions on them. [HTML and JavaScript](html-and-javascript.md)
-explains what they are, and how to open and run your app.
+explains what they are, and how to open and run your app. Guides on writing prompts and on
+HTML, CSS and JavaScript are under [Resources](#resources).
 
 You are responsible for any code you submit, including code an AI tool wrote. Generated code often
 looks finished and still does not work, so you must check it yourself.
@@ -259,6 +260,9 @@ Use Microsoft Copilot, signed in with your UBC student account. That way, your c
 covered by UBC's data protection. UBC IT's
 [Microsoft Copilot at UBC](https://it.ubc.ca/services/artificial-intelligence/microsoft-copilot-ubc)
 page explains how to sign in.
+
+We recommend [Visual Studio Code](https://code.visualstudio.com/) (VS Code) for editing and saving
+your app. The steps are on [HTML and JavaScript](html-and-javascript.md#your-app-is-one-file).
 
 Microsoft Copilot is the only AI tool that is fully approved for this course. You may also use
 other AI tools or models, but you do not need to. UBC has privacy concerns about AI tools from
@@ -501,3 +505,35 @@ Not Within Expectations (C+ and below), starts at 10. Any of these:
 ## Regrading criteria
 
 To ask for a regrade, follow the [remarking policy](syllabus.md#remarking-policy) in the Syllabus.
+
+---
+
+## Resources
+
+These guides are optional. You do not need them to complete Part B.
+
+Writing prompts:
+
+- [Get started writing prompts in Microsoft Copilot](https://support.microsoft.com/en-us/microsoft-365-copilot/get-started-writing-prompts-in-microsoft-365-copilot),
+  from Microsoft
+- [Get better Copilot responses with great prompting](https://support.microsoft.com/en-us/microsoft-365-copilot/get-better-copilot-responses-with-great-prompting),
+  from Microsoft
+- [10 things UBC students should know about generative AI](https://academic.ubc.ca/teaching-learning/10-things-ubc-students-should-know/generative-ai),
+  from UBC
+- [Prompt Engineering for Assignment Planning](https://guides.library.ubc.ca/GenAI/assignmentplanning),
+  from the UBC Library
+
+HTML, CSS and JavaScript:
+
+- [HTML and JavaScript](html-and-javascript.md): what your app is made of, and how to run it
+- [Your first website](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website),
+  from MDN Web Docs: a short series on HTML, CSS and JavaScript for beginners
+- [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/) and
+  [JavaScript](https://www.w3schools.com/js/) tutorials, from W3Schools
+
+Tools:
+
+- [Visual Studio Code](https://code.visualstudio.com/), the free code editor we recommend
+- [HTML in Visual Studio Code](https://code.visualstudio.com/docs/languages/html), from Microsoft
+- [Microsoft Copilot at UBC](https://it.ubc.ca/services/artificial-intelligence/microsoft-copilot-ubc),
+  from UBC IT: how to sign in with your UBC account
