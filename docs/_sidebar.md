@@ -15,6 +15,7 @@
   - [Project 2: From Blocks to Code](project-2.md)
     - [Part A: Learning to Communicate](project-2a.md)
     - [Part B: Vibe Coding](project-2b.md)
+      - [HTML and JavaScript](html-and-javascript.md)
     - [Part C: Viva Voce](project-2c.md)
   - [Group Work Resources](group-work-resources.md)
   - [Peer Evaluation](project-peer-evaluation.md)

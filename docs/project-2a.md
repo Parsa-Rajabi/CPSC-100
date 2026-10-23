@@ -1,5 +1,11 @@
 # Project 2A: Learning to Communicate
 
+> [!NOTE]
+> This is the first release of the Part A instructions. The teaching team is still reviewing them,
+> and some parts, including the rubric, may change before Lab 7. The final version will be ready
+> by the day of Lab 7, and we aim to finish sooner. We do not expect large changes. Every change
+> will be listed in the changelog. We will remove this note when this page is final.
+
 <details class="changelog">
 <summary>Changelog</summary>
 

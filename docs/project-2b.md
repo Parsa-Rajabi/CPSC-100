@@ -1,5 +1,11 @@
 # Project 2B: Vibe Coding
 
+> [!NOTE]
+> This is the first release of the Part B instructions. The teaching team is still reviewing them,
+> and some parts, including the rubric, may change before Lab 8. The final version will be ready
+> by the day of Lab 8, and we aim to finish sooner. We do not expect large changes. Every change
+> will be listed in the changelog. We will remove this note when this page is final.
+
 <details class="changelog">
 <summary>Changelog</summary>
 
@@ -20,12 +26,21 @@ The goal is an app that does what its user needs, and the evidence that it works
 document, your tests, and the full record of how you built it.
 
 - Part B is group work, worth 4% of your course grade
-- It starts with [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch), your group's proposal
+- It starts with [Pre-lab 8](#pre-lab-8-your-ideas-sketches-and-proposal), your group's proposal
 - [Lab 8](labs.md) gives you time to work on it
 - Both deadlines are in [What you hand in](project-2.md#what-you-hand-in) on the Project 2 page
 
 Vibe coding means building software by describing what you want to an AI tool, then improving what
-it produces, instead of writing every line yourself.
+it produces, instead of writing every line yourself. The term was coined in February 2025 by
+[Andrej Karpathy](https://x.com/karpathy/status/1886192184808149383), a computer scientist and a
+co-founder of OpenAI.
+
+Vibe coding is a skill of its own. You describe what you want clearly, check what the AI produces,
+and notice when it is wrong. You can use this skill with any AI tool, in any field.
+
+Your app is written in HTML and JavaScript, the code that runs websites. You do not need to learn
+these languages, and there are no quiz questions on them. [HTML and JavaScript](html-and-javascript.md)
+explains what they are, and how to open and run your app.
 
 You are responsible for any code you submit, including code an AI tool wrote. Generated code often
 looks finished and still does not work, so you must check it yourself.
@@ -49,7 +64,8 @@ work.
 
 ### What you will do <!-- {docsify-ignore} -->
 
-1. Choose your user and your app idea, and hand in your proposal and sketch as Pre-lab 8
+1. Sketch at least three ideas, choose one, and hand in your ideas, sketches and proposal as
+   Pre-lab 8
 2. Write your design requirements document before you prompt Copilot
 3. Build the app with Copilot, one feature at a time, working from your design document
 4. Test every feature, record what you find, and fix what fails
@@ -58,7 +74,7 @@ work.
 
 ### Where you have a choice <!-- {docsify-ignore} -->
 
-- What your app does, and who it is for
+- What your app does, and who it is for, within the theme Data and society
 - Which three or more course concepts it uses
 - How you test it, as long as every feature has at least one test
 - How you divide the work. Divide it by feature, not by file, so that every member prompts, tests
@@ -73,7 +89,7 @@ work.
 - One member submits for the group
 - Each file has the file name shown in the table below. For example, group 3 in L1A names its
   design document `CPSC100-2B-Design-L1A-3.pdf`
-- Pre-lab 8 is a separate submission. See [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch)
+- Pre-lab 8 is a separate submission. See [Pre-lab 8](#pre-lab-8-your-ideas-sketches-and-proposal)
 
 The four files:
 
@@ -115,7 +131,7 @@ If you used no AI tools apart from Copilot, say so.
 - If something serious or ongoing is happening, use the
   [academic concession](syllabus.md#academic-concessions) process. Tell us early, not afterwards
 - Pre-lab 8 has a different late penalty. It is under
-  [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch)
+  [Pre-lab 8](#pre-lab-8-your-ideas-sketches-and-proposal)
 
 ---
 
@@ -123,12 +139,29 @@ If you used no AI tools apart from Copilot, say so.
 
 ### The app and its course concepts <!-- {docsify-ignore} -->
 
-You build a single-file web app: one .html file that opens and runs in a browser.
+You build a single-file web app: one .html file that opens and runs in a browser. What HTML and
+JavaScript are, and how to run your file, is on [HTML and JavaScript](html-and-javascript.md).
 
-- Choose something useful to a real person
-- Some ideas are a study planner, a meal tracker, a budget helper, a habit tracker, or a recommender
-  such as "what should I cook tonight"
-- Your own ideas are welcome
+Your app must fit the theme Data and society:
+
+- Data is central to what your app does: it collects, stores, sorts, compares or presents data
+- Your app aims to have a positive effect on people or society
+- Your app is useful to a real person
+
+Some areas you can work in:
+
+- Health and wellbeing
+- Learning and education
+- Environment and sustainability
+- Community, accessibility and inclusion
+- Money and everyday decisions
+- Privacy and personal data
+
+These are areas, not project ideas. Your group comes up with its own idea.
+
+Your group is responsible for making sure your project is appropriate for coursework at a
+university. Creativity is encouraged, but the teaching team will not allow projects that it
+considers extreme or inappropriate. If you are not sure, ask your TA before you hand in Pre-lab 8.
 
 You do not need to write HTML or JavaScript yourself. Your job is to guide Copilot clearly and to
 check what it produces.
@@ -143,7 +176,7 @@ Your app must use at least three course concepts. For example:
 | Recommender systems | Suggesting something based on what the user enters |
 | Algorithmic bias and responsible use | Who your app might treat unfairly, or leave out |
 
-### Pre-lab 8: your proposal and sketch <!-- {docsify-ignore} -->
+### Pre-lab 8: your ideas, sketches and proposal <!-- {docsify-ignore} -->
 
 Agree on your app before Lab 8, so your group can spend the lab building it.
 
@@ -152,13 +185,21 @@ Agree on your app before Lab 8, so your group can spend the lab building it.
 
 The PDF contains:
 
-- Your proposal, about one page. It covers:
-  - who your user is
-  - what problem your app solves for them
-  - the main features you plan
-  - the three or more course concepts it will use
-- A sketch of your app's main screen: what the user sees, and what they can click or type. A photo
-  of a drawing on paper is fine
+1. At least three different ideas for your app. These are raw ideas, so they do not need to be
+   polished. For each idea:
+   - one or two sentences: who it is for, and how it uses data
+   - a rough sketch of its main screen: what the user sees, and what they can click or type. A
+     photo of a drawing on paper is fine
+2. Your proposal for the idea you chose, about one page. It covers:
+   - which idea you chose, and why
+   - who your user is
+   - what problem your app solves for them
+   - how your app uses data, and how it could benefit people or society
+   - the main features you plan
+   - the three or more course concepts it will use
+
+Keep your sketches. Comparing your sketch with your final app is one of the Exceeds Expectations
+items for the [design requirements document](#_1-design-requirements-document-20-points).
 
 Your TA reads it before Lab 8. Your TA then gives your group feedback in the lab, before you start
 building.
@@ -301,6 +342,10 @@ Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus 
 - Each risk names the feature it affects, by its number, and how the app should respond
 - Each entry in the design change log names the test, by its number, or the Copilot conversation
   that led to the change
+- Your design change log compares your Pre-lab 8 sketch of the idea you chose with your final app.
+  It shows the sketch next to a screenshot of your final app's main screen, and explains what
+  changed, why, and how each change improved the app for your user. The sketch and the screenshot
+  can go on an extra page at the end, which does not count toward the page limit
 
 Meets Expectations (A-, A), starts at 17.5. All of these:
 

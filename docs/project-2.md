@@ -61,7 +61,7 @@ page on Canvas shows its deadline. All times are Pacific time.
 | What you hand in | Who | Due | Where |
 | :--------------- | :-- | :-- | :---- |
 | [Part A](project-2a.md#submission): your fixed Python notebook, with a comment at each fix | Individual | The day after your Lab 7: Thu Nov 5 (L1A to L1D) or Fri Nov 6 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
-| [Pre-lab 8](project-2b.md#pre-lab-8-your-proposal-and-sketch): your project idea proposal and sketch | Group | Thu Nov 12, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| [Pre-lab 8](project-2b.md#pre-lab-8-your-ideas-sketches-and-proposal): your project ideas, sketches and proposal | Group | Thu Nov 12, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Part B](project-2b.md#submission): your design requirements document, your app as one .html file, your testing report, and your Copilot transcripts | Group | Tue Nov 24, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Part C](project-2c.md): nothing to hand in. Your group presents its app in person | Group | Your session, between Wed Dec 2 and Fri Dec 4 | In person |
 | [Stand-ups](#weekly-stand-ups) 5 to 9 | Individual | Every Friday from Nov 6 to Dec 4, 4:00pm | Ed Discussion |
@@ -83,7 +83,7 @@ own page once the Project 2A, Pre-lab 8, Project 2B and retrospective assignment
 | :--: | :-: | :----------- | :------------ |
 | 8 | Lab 6 | Project 2 begins. You go from Snap! to Python. | Project 1 deadlines. See [Project 1](project-1.md#the-flow) |
 | 9 | Lab 7 | Part A runs during the lab. | Part A, the day after your lab<br>Stand-up 5, Fri Nov 6 |
-| 10 | *no lab* | Midterm Break. Your group agrees on its app and writes its proposal. | Pre-lab 8, your proposal and sketch, Thu Nov 12<br>Stand-up 6, Fri Nov 13 |
+| 10 | *no lab* | Midterm Break. Your group agrees on its app and writes its proposal. | Pre-lab 8, your ideas, sketches and proposal, Thu Nov 12<br>Stand-up 6, Fri Nov 13 |
 | 11 | Lab 8 | Working with an AI coding assistant. Feedback on your proposal, then time to work on Part B. | Stand-up 7, Fri Nov 20 |
 | 12 | Lab 9 | Work session to prepare for the viva voce. | Part B, Tue Nov 24<br>Stand-up 8, Fri Nov 27 |
 | 13 | Lab 10 | Viva voce, held from Wed Dec 2 to Fri Dec 4. | Your viva voce<br>Retrospective and [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, Fri Dec 4 |
