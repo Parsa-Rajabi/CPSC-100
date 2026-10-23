@@ -208,8 +208,9 @@ integrity process. -->
   incomplete
 - Parts B and C use the [Part B rubric](project-2b.md#grading-criteria) and the
   [Part C rubric](project-2c.md#grading-criteria)
-- The rubrics ask only for what each part's page asks for, plus the optional Going further items in
-  [Part B](project-2b.md#going-further) and [Part C](project-2c.md#going-further)
+- The rubrics ask only for what each part's page asks for, plus the optional Exceeds Expectations
+  items listed under each criterion in [Part B](project-2b.md#grading-scale) and
+  [Part C](project-2c.md#grading-scale)
 
 ### The four bands <!-- {docsify-ignore} -->
 
@@ -218,7 +219,7 @@ band sets the share of those points you can earn.
 
 | Band | What it means | UBC letter grades | Share of the criterion's points |
 | :-- | :-- | :-- | :--: |
-| Exceeds Expectations | Everything in Meets Expectations, plus every Going further item for that criterion | A+ | 90% to 100% |
+| Exceeds Expectations | Everything in Meets Expectations, plus every Exceeds Expectations item for that criterion | A+ | 90% to 100% |
 | Meets Expectations | The required work is complete and matches the description. Small mistakes lower the score within the band | A-, A | 80% to 89% |
 | Approaches Expectations | The work is mostly there, but something important is unclear, incomplete or missing | B-, B, B+ | 68% to 79% |
 | Not Within Expectations | Important parts are missing, or there is not yet enough evidence of the work | C+ and below | 0% to 67% |
@@ -231,9 +232,9 @@ Three things to know:
 - Meets Expectations is the expected result. Doing everything the part's page asks for, and doing
   it well, earns an A- or an A on that criterion.
 - Exceeds Expectations is optional and defined in advance. Complete everything at Meets
-  Expectations first, because Going further work does not replace a missing requirement. Doing only
-  some of a criterion's Going further items keeps it in Meets Expectations.
-- Your TA picks the band first, then starts at that band's Starts at score in the rubric table.
+  Expectations first, because Exceeds Expectations work does not replace a missing requirement.
+  Doing only some of a criterion's Exceeds Expectations items keeps it in Meets Expectations.
+- Your TA picks the band first, then starts at that band's Starts at score in the rubric.
   Small mistakes take points off within the band, and your feedback names each one.
 
 ### What is already decided <!-- {docsify-ignore} -->

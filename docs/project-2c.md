@@ -143,20 +143,8 @@ We ask about the changes you made while building:
 - Use your documents as evidence. When you mention a feature or a test, name it by its number, such
   as F2 or T3
 - Practise together before your session. To reach Exceeds Expectations, your demo runs without
-  restarts or long pauses, and each member continues from where the last one stopped
-
-### Going further <!-- {docsify-ignore} -->
-
-To reach the A+ / Exceeds Expectations category on a criterion, do everything it asks for at
-Meets Expectations, plus every item listed for it below.
-
-| Criterion | To reach Exceeds Expectations, also do this |
-| :-- | :-- |
-| Demonstration | Demonstrate one realistic task your user would do, from start to finish, and show the app handling at least one of the risks in your design document. |
-| Design decisions and course concepts | For at least two features, name a different design you considered and the reason, tied to your user, that you chose against it. |
-| Testing and bugs | For one bug, explain its cause in the code: which part of the code was wrong and why, not only what the user saw. If you found no bugs, explain in the code how your app handles the input from your riskiest test. |
-| Changes along the way | Explain one change you made to how you prompted Copilot after it got something wrong, and what happened after that change. If Copilot never got anything wrong, explain one change you made to how you prompted it as the app grew, and why. |
-| Delivery | Practise until your demo and answers run without restarts, long pauses or anyone looking down to read. Each member, at least once, adds to a teammate's answer by connecting it to another part of the app or to a course concept. Handing the next question to a teammate does not count. |
+  restarts or pauses longer than 10 seconds, and each member continues from where the last
+  one stopped
 
 ---
 
@@ -164,27 +152,33 @@ Meets Expectations, plus every item listed for it below.
 
 Your viva voce score is based on five criteria, out of 100 points:
 
-| Criterion | Points |
-| :-- | :--: |
-| 1. Demonstration | 15 |
-| 2. Design decisions and course concepts | 25 |
-| 3. Testing and bugs | 25 |
-| 4. Changes along the way | 15 |
-| 5. Delivery | 20 |
-| Total | 100 |
+1. Demonstration, 15 points. We will evaluate whether your app runs and you show its main features
+   working, each connected to a need of your user.
+2. Design decisions and course concepts, 25 points. We will evaluate whether you can explain why you
+   designed the app this way, and show where each course concept is in the app.
+3. Testing and bugs, 25 points. We will evaluate whether you can explain how you chose your tests,
+   and explain one bug from how you found it to how you fixed it.
+4. Changes along the way, 15 points. We will evaluate whether you can explain what changed from your
+   design document, and where Copilot got something wrong.
+5. Delivery, 20 points. We will evaluate whether every member answers, in their own words, without
+   reading and without AI.
 
 How your TA marks each criterion:
 
 - Every criterion is marked from what happens in the viva voce
 - Your TA places each criterion in one of the four bands described in
-  [How this is graded](project-2.md#how-this-is-graded)
-- Your TA starts at that band's Starts at score, in the tables under [Grading scale](#grading-scale),
-  and takes points off for mistakes within the band
+  [How this is graded](project-2.md#how-this-is-graded), using the bullets under
+  [Grading scale](#grading-scale)
+- If your work matches the descriptions of more than one band, your TA uses the lowest one that
+  applies
+- Your TA starts at that band's Starts at score, and takes points off for small mistakes within the
+  band. Your TA decides what counts as a small mistake
+- Exceeds Expectations needs everything in Meets Expectations, plus every Exceeds Expectations item
+  for that criterion
 - If a member reads an answer word for word, both Delivery and the criterion that answer belongs to
   drop to Approaches Expectations
 
-Design decisions and testing are worth the most points, so give them the most time. The Exceeds
-Expectations row of each table summarizes that criterion's [Going further](#going-further) items.
+Design decisions and testing are worth the most points, so give them the most time.
 
 Your viva voce score is 90% of your Part C mark. The other 10% is:
 
@@ -198,53 +192,128 @@ Your peer evaluation multiplier applies to all of Part C. The
 
 ## Grading scale
 
-If your work matches the descriptions of more than one band, your TA uses the lowest one that
-applies.
-
 ### 1. Demonstration (15 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one realistic user task shown from start to finish, with a risk handled. |
-| Meets Expectations (A-, A) | 13 | The app runs on the device you present with. You show its main features working, and say which need of your user each one serves. |
-| Approaches Expectations (B- to B+) | 11.5 | The app runs, but a main feature fails during the demo and your group cannot explain why, or the demo lists features without connecting them to your user. |
-| Not Within Expectations (C+ and below) | 10 | The app does not run, or there is no demo. |
+Exceeds Expectations (A+), starts at 15. Everything in Meets Expectations, plus all of these:
+
+- You demonstrate one realistic task your user would do, from start to finish
+- The demo shows the app handling at least one of the risks in your design document
+
+Meets Expectations (A-, A), starts at 13. All of these:
+
+- The app runs on the device you present with
+- You show its main features working
+- For each feature, you say which need of your user it serves
+
+Approaches Expectations (B- to B+), starts at 11.5. Any of these:
+
+- The app runs, but a main feature fails during the demo and your group cannot explain why
+- The demo lists features without connecting them to your user
+
+Not Within Expectations (C+ and below), starts at 10. Any of these:
+
+- The app does not run
+- There is no demo
 
 ### 2. Design decisions and course concepts (25 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus, for two features, a design you considered and why you chose against it. |
-| Meets Expectations (A-, A) | 22 | Your answers explain who your user is, how each feature helps them, and why you designed the app this way. You can show where each course concept appears in the app and explain how it works there. Your reasons come from your user, not from what Copilot suggested. |
-| Approaches Expectations (B- to B+) | 19.5 | Your answers describe what the app does without saying why, or a course concept is named but your group cannot show or explain where it appears. |
-| Not Within Expectations (C+ and below) | 16.5 | Your group cannot answer most design questions, or the course concepts are not in the app. |
+Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
+
+- For at least two features, you name a different design you considered, and the reason, tied to
+  your user, that you chose against it
+
+Meets Expectations (A-, A), starts at 22. All of these:
+
+- Your answers explain who your user is, and how each feature helps them
+- Your answers explain why you designed the app this way
+- You can show where each course concept appears in the app, and explain how it works there
+- Your reasons come from your user, not from what Copilot suggested
+
+Approaches Expectations (B- to B+), starts at 19.5. Any of these:
+
+- Your answers describe what the app does without saying why
+- A course concept is named, but your group cannot show or explain where it appears
+
+Not Within Expectations (C+ and below), starts at 16.5. Any of these:
+
+- Your group cannot answer most design questions
+- The course concepts are not in the app
 
 ### 3. Testing and bugs (25 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus one bug explained at the level of the code that caused it. If you found no bugs, the code that handles your riskiest test explained instead. |
-| Meets Expectations (A-, A) | 22 | You explain how you decided what to test and which methods you used. You explain one bug you found, step by step: how you found it, and how you fixed it. If you found no bugs, you say so and explain which test was most likely to find one, and why. |
-| Approaches Expectations (B- to B+) | 19.5 | Testing is described only in general terms, such as "we tried everything", the bug explanation leaves out how you found it or how you fixed it, or you found no bugs and do not say which test was most likely to find one. |
-| Not Within Expectations (C+ and below) | 16.5 | Your group cannot describe a test you ran or a bug you found. |
+Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
+
+- For one bug, you explain its cause in the code: which part of the code was wrong and why, not only
+  what the user saw. If you found no bugs, you explain in the code how your app handles the input
+  from your riskiest test
+
+Meets Expectations (A-, A), starts at 22. All of these:
+
+- You explain how you decided what to test
+- You explain which methods you used to find bugs
+- You explain one bug you found, step by step: how you found it, and how you fixed it. If you found
+  no bugs, you say so, and explain which test was most likely to find one, and why
+
+Approaches Expectations (B- to B+), starts at 19.5. Any of these:
+
+- Testing is described only in general terms, such as "we tried everything"
+- The bug explanation leaves out how you found it, or how you fixed it
+- You found no bugs, and you do not say which test was most likely to find one
+
+Not Within Expectations (C+ and below), starts at 16.5. Any of these:
+
+- Your group cannot describe a test you ran
+- Your group cannot describe a bug you found
 
 ### 4. Changes along the way (15 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one change in how you prompted Copilot after it got something wrong, and what happened next. If it never got anything wrong, one change in how you prompted it as the app grew, and why. |
-| Meets Expectations (A-, A) | 13 | You explain what changed from your design requirements document and why. You describe at least one place where Copilot got something wrong, and how you noticed. If Copilot never got anything wrong, you say so and explain how you checked its code. |
-| Approaches Expectations (B- to B+) | 11.5 | Changes are listed without reasons, or the Copilot example does not say how you noticed. |
-| Not Within Expectations (C+ and below) | 10 | Your group cannot name a change, or a place where Copilot got something wrong. |
+Exceeds Expectations (A+), starts at 15. Everything in Meets Expectations, plus this:
+
+- You explain one change you made to how you prompted Copilot after it got something wrong, and
+  what happened after that change. If Copilot never got anything wrong, you explain one change you
+  made to how you prompted it as the app grew, and why
+
+Meets Expectations (A-, A), starts at 13. All of these:
+
+- You explain what changed from your design requirements document, and why
+- You describe at least one place where Copilot got something wrong, and how you noticed. If Copilot
+  never got anything wrong, you say so, and explain how you checked its code
+
+Approaches Expectations (B- to B+), starts at 11.5. Any of these:
+
+- Changes are listed without reasons
+- The Copilot example does not say how you noticed
+
+Not Within Expectations (C+ and below), starts at 10. Any of these:
+
+- Your group cannot name a change
+- Your group cannot name a place where Copilot got something wrong
 
 ### 5. Delivery (20 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a well-practised session: no restarts, long pauses or anyone looking down to read, and every member adding to a teammate's answer at least once. |
-| Meets Expectations (A-, A) | 17.5 | Every member answers questions, including about parts of the app they did not build. Each member answers in their own words, from a few words of notes at most, without AI, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). |
-| Approaches Expectations (B- to B+) | 15.5 | At least one of these happens: a member does not answer; members can answer only about the parts they built; or a member reads an answer word for word from a script, notes or slides. |
-| Not Within Expectations (C+ and below) | 13 | One or two members give almost every answer, or most answers are read aloud. |
+Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus all of these:
+
+- No restarts, no pauses longer than 10 seconds, and no one looks down to read
+- Each member, at least once, adds to a teammate's answer by connecting it to another part of the
+  app or to a course concept. Handing the next question to a teammate does not count
+
+Meets Expectations (A-, A), starts at 17.5. All of these:
+
+- Every member answers questions, including about parts of the app they did not build
+- Each member answers in their own words, from a few words of notes at most
+- No one uses AI, as the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries)
+  requires
+
+Approaches Expectations (B- to B+), starts at 15.5. Any of these:
+
+- A member does not answer
+- Members can answer only about the parts they built
+- A member reads an answer word for word from a script, notes or slides
+
+Not Within Expectations (C+ and below), starts at 13. Any of these:
+
+- One or two members give almost every answer
+- Most answers are read aloud
 
 ---
 

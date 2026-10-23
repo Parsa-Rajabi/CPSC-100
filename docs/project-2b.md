@@ -256,41 +256,37 @@ Some ways to find bugs:
 - Click every button, including in an unexpected order
 - Ask someone who has not seen the app to use it without help, and watch where they have trouble
 
-### Going further <!-- {docsify-ignore} -->
-
-To reach the A+ / Exceeds Expectations category on a criterion, do everything it asks for at
-Meets Expectations, plus every item listed for it below.
-
-| Criterion | To reach Exceeds Expectations, also do this |
-| :-- | :-- |
-| Design requirements document | Each risk names the feature it affects, by its number, and how the app should respond. Each entry in the design change log names the test, by its number, or the Copilot conversation that led to the change. |
-| The app and its course concepts | For each course concept, name the part of the code that carries it, such as a function or a variable, and explain in one or two sentences what that code does. Put this in the course concepts section of your design document. |
-| Testing | Give every risk in your design document its own test, as well as every feature. Run at least one test with someone outside your group who uses the app without help, and record where they hesitated or went wrong. If they had no trouble, say so, and record what they did. |
-| Working with Copilot | In your testing report, describe at least two places where Copilot got something wrong. For each one, give the page of your transcripts where it happened, say how you noticed, and say what fixed it. If Copilot got fewer than two things wrong, describe each one it did. For each example still missing, describe a feature where Copilot's first answer worked, and give the transcript page and the test, by its number, that showed it was right. |
-
 ---
 
 ## Grading criteria
 
 Your Part B grade is based on four criteria, out of 100 points:
 
-| Criterion | Marked from | Points |
-| :-- | :-- | :--: |
-| 1. Design requirements document | Design requirements document | 20 |
-| 2. The app and its course concepts | Your app and your design requirements document | 20 |
-| 3. Testing | Testing report | 35 |
-| 4. Working with Copilot | Copilot transcripts and testing report | 25 |
-| Total | | 100 |
+1. Design requirements document, 20 points. Marked from your design requirements document. We will
+   evaluate whether it has all six sections, matches your final app, and describes features and
+   risks you can test.
+2. The app and its course concepts, 20 points. Marked from your app and your design requirements
+   document. We will evaluate whether the app runs, does what your features list says, and uses at
+   least three course concepts.
+3. Testing, 35 points. Marked from your testing report. We will evaluate whether you tested every
+   feature, recorded each result, and tested again what you fixed.
+4. Working with Copilot, 25 points. Marked from your Copilot transcripts and testing report. We will
+   evaluate whether your transcripts show the whole build, one feature or fix at a time, working
+   from your design document.
 
 How your TA marks each criterion:
 
 - Your TA places it in one of the four bands described in
-  [How this is graded](project-2.md#how-this-is-graded)
-- Your TA starts at that band's Starts at score, in the tables under [Grading scale](#grading-scale)
-- Your TA takes points off for mistakes within the band
+  [How this is graded](project-2.md#how-this-is-graded), using the bullets under
+  [Grading scale](#grading-scale)
+- If your work matches the descriptions of more than one band, your TA uses the lowest one that
+  applies
+- Your TA starts at that band's Starts at score, and takes points off for small mistakes within the
+  band. Your TA decides what counts as a small mistake
+- Exceeds Expectations needs everything in Meets Expectations, plus every Exceeds Expectations item
+  for that criterion
 
-Testing is worth the most points, so plan the most time for it. The Exceeds Expectations row of
-each table summarizes that criterion's [Going further](#going-further) items.
+Testing is worth the most points, so plan the most time for it.
 
 Part B receives a group grade, and it is not multiplied by peer evaluation.
 
@@ -298,44 +294,126 @@ Part B receives a group grade, and it is not multiplied by peer evaluation.
 
 ## Grading scale
 
-If your work matches the descriptions of more than one band, your TA uses the lowest one that
-applies.
-
 ### 1. Design requirements document (20 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus every risk tied to a numbered feature and the app's response, and every change log entry tied to a test or a Copilot conversation. |
-| Meets Expectations (A-, A) | 17.5 | One to two pages with all six sections, matching your final app. Your user and their problem are specific. Features are numbered, and each says what the app must do in a way that can be tested. Interactions cover every button and input. At least three course concepts, each linked to the features that use it. Risks are specific to your app. The design change log records each change and its reason, or says that nothing changed. |
-| Approaches Expectations (B- to B+) | 15.5 | All six sections are there, but one or two are missing something they ask for. For example, features are not numbered or cannot be tested ("the app is easy to use"), a concept is named without the features that use it, the risks would fit any app, or the change log lists changes without reasons. |
-| Not Within Expectations (C+ and below) | 13 | A section is missing, there are fewer than three course concepts, or the document does not describe the app you submitted. |
+Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus all of these:
+
+- Each risk names the feature it affects, by its number, and how the app should respond
+- Each entry in the design change log names the test, by its number, or the Copilot conversation
+  that led to the change
+
+Meets Expectations (A-, A), starts at 17.5. All of these:
+
+- One to two pages, with all six sections
+- The document matches your final app
+- Your user and their problem are specific
+- Features are numbered, and each says what the app must do in a way that can be tested
+- Interactions cover every button and input
+- At least three course concepts, each linked to the features that use it
+- Risks are specific to your app
+- The design change log records each change and its reason, or says that nothing changed
+
+Approaches Expectations (B- to B+), starts at 15.5. All six sections are there, but one or two are
+missing something they ask for. Any of these:
+
+- Features are not numbered, or cannot be tested ("the app is easy to use")
+- A concept is named without the features that use it
+- The risks would fit any app
+- The change log lists changes without reasons
+
+Not Within Expectations (C+ and below), starts at 13. Any of these:
+
+- A section is missing
+- There are fewer than three course concepts
+- The document does not describe the app you submitted
 
 ### 2. The app and its course concepts (20 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus, for each course concept, the code that carries it named and explained. |
-| Meets Expectations (A-, A) | 17.5 | One .html file that opens and runs in a web browser. It does everything in your features list, or your design change log explains why a feature changed or was dropped. Each course concept in your design document can be seen in the app, in the features you linked it to. |
-| Approaches Expectations (B- to B+) | 15.5 | The app runs, but a feature is missing or does not work and the change log does not explain why, or a course concept in your document does not appear in the app. |
-| Not Within Expectations (C+ and below) | 13 | The app does not open or run, most features are missing, or fewer than three course concepts appear in it. |
+Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus this:
+
+- For each course concept, you name the part of the code that carries it, such as a function or a
+  variable, and explain in one or two sentences what that code does. Put this in the course
+  concepts section of your design document
+
+Meets Expectations (A-, A), starts at 17.5. All of these:
+
+- One .html file that opens and runs in a web browser
+- The app does everything in your features list, or your design change log explains why a feature
+  changed or was dropped
+- Each course concept in your design document can be seen in the app, in the features you linked
+  it to
+
+Approaches Expectations (B- to B+), starts at 15.5. The app runs, but any of these:
+
+- A feature is missing or does not work, and the change log does not explain why
+- A course concept in your document does not appear in the app
+
+Not Within Expectations (C+ and below), starts at 13. Any of these:
+
+- The app does not open or run
+- Most features are missing
+- Fewer than three course concepts appear in the app
 
 ### 3. Testing (35 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 35 | Everything in Meets Expectations, plus a test for every risk, and one test with someone outside your group, with what you observed, or a note that they had no trouble. |
-| Meets Expectations (A-, A) | 31 | Your report explains how you decided what to test, and why. Every feature has at least one test, linked by its number. Each test records what you tested and why, what you expected, what happened and what you changed. Every failed test you fixed was run again, and its new result is recorded. The appendix has a labelled screenshot for each test. The report is 2 to 4 pages, not counting the appendix. |
-| Approaches Expectations (B- to B+) | 27.5 | The testing is incomplete. For example, a feature has no test, some rows are missing the expected or actual result, fixed failures were not run again, or several tests have no screenshot. |
-| Not Within Expectations (C+ and below) | 23 | There is no test table, most features have no test, or there are no screenshots. |
+Exceeds Expectations (A+), starts at 35. Everything in Meets Expectations, plus all of these:
+
+- Every risk in your design document has its own test, as well as every feature
+- At least one test is run with someone outside your group who uses the app without help. You
+  record where they hesitated or went wrong. If they had no trouble, you say so, and record what
+  they did
+
+Meets Expectations (A-, A), starts at 31. All of these:
+
+- Your report explains how you decided what to test, and why
+- Every feature has at least one test, linked by its number
+- Each test records what you tested and why, what you expected, what happened and what you changed
+- Every failed test you fixed was run again, and its new result is recorded
+- The appendix has a labelled screenshot for each test
+- The report is 2 to 4 pages, not counting the appendix
+
+Approaches Expectations (B- to B+), starts at 27.5. The testing is incomplete. Any of these:
+
+- A feature has no test
+- Some rows are missing the expected or actual result
+- Fixed failures were not run again
+- Several tests have no screenshot
+
+Not Within Expectations (C+ and below), starts at 23. Any of these:
+
+- There is no test table
+- Most features have no test
+- There are no screenshots
 
 ### 4. Working with Copilot (25 points) <!-- {docsify-ignore} -->
 
-| Band | Starts at | What your work shows |
-| :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus at least two places where Copilot got something wrong, each with its transcript page, how you noticed and what fixed it. If there were fewer than two, a feature where its first answer worked, with its transcript page and test number, for each one missing. |
-| Meets Expectations (A-, A) | 22 | One PDF with every Copilot conversation used to build the app, in order, from the first prompt to the final code. The prompts work from your design document, one feature or fix at a time. Your testing report lists any code edited by hand, and it starts with your AI use statement. |
-| Approaches Expectations (B- to B+) | 19.5 | The transcripts are incomplete, such as a missing conversation, or they do not show how you reached the final code. Also Approaches Expectations: most prompts ask for large parts of the app at once without reference to your design, or the AI use statement is missing. |
-| Not Within Expectations (C+ and below) | 16.5 | There are no transcripts, or the transcripts do not lead to the app you submitted. |
+Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
+
+- In your testing report, you describe at least two places where Copilot got something wrong. For
+  each one, give the page of your transcripts where it happened, say how you noticed, and say what
+  fixed it. If Copilot got fewer than two things wrong, describe each one it did. For each example
+  still missing, describe a feature where Copilot's first answer worked, and give the transcript
+  page and the test, by its number, that showed it was right
+
+Meets Expectations (A-, A), starts at 22. All of these:
+
+- One PDF with every Copilot conversation used to build the app, in order, from the first prompt to
+  the final code
+- The prompts work from your design document, one feature or fix at a time
+- Your testing report lists any code edited by hand
+- Your testing report starts with your AI use statement
+
+Approaches Expectations (B- to B+), starts at 19.5. Any of these:
+
+- The transcripts are incomplete, such as a missing conversation
+- The transcripts do not show how you reached the final code
+- Most prompts ask for large parts of the app at once, without reference to your design
+- The AI use statement is missing
+
+Not Within Expectations (C+ and below), starts at 16.5. Any of these:
+
+- There are no transcripts
+- The transcripts do not lead to the app you submitted
 
 ---
 

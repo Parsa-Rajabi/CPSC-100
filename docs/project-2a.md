@@ -168,23 +168,28 @@ was doing, why that was wrong, and why the fix works.
 
 ## Grading criteria
 
-Your Part A grade is based on one area:
+Your Part A grade is based on one area: your fixed program and your comments. We will evaluate
+whether the program works, and whether every fix has a comment that explains it.
 
-- Your fixed program and your comments (whether the program works, and whether every fix has a
-  comment that explains it)
-
-Your TA runs your notebook and reads every comment. Part A is marked Complete, Partial or
-Incomplete.
-
-Part A is graded individually, and it is not affected by peer evaluation.
+Your TA runs your notebook and reads every comment. Part A is graded individually, and it is not
+affected by peer evaluation.
 
 ---
 
 ## Grading scale
 
-| Criterion | Complete (1) | Partial (0.5) | Incomplete or absent (0) |
-| :-- | :-- | :-- | :-- |
-| Your fixed program and your comments | The program runs from start to finish and does what the notebook says it should, including for values your TA tries. Every fix has a comment that names the kind of error and explains, in your own words, what was wrong and why the fix works. | The notebook is handed in, but something is missing or wrong. For example, the program still stops with an error or gives a wrong result, a fix has no comment, or a comment only says that something changed, such as "fixed this line". | No notebook is handed in, or none of the fixes has a comment. |
+To be marked Complete, your notebook must meet all three of these:
+
+1. The program runs from start to finish
+2. It does what the notebook says it should, including for values your TA tries
+3. Every fix has a comment that names the kind of error and explains, in your own words, what was
+   wrong and why the fix works
+
+| Mark | When |
+| :-- | :-- |
+| Complete (1) | All three items above. |
+| Partial (0.5) | The notebook is handed in, but at least one item is missing. For example, the program still stops with an error or gives a wrong result, a fix has no comment, or a comment only says that something changed, such as "fixed this line". |
+| Incomplete or absent (0) | No notebook is handed in, or none of the fixes has a comment. |
 
 ---
 
