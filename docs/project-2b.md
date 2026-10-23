@@ -28,6 +28,7 @@ document, your tests, and the full record of how you built it.
 - Part B is group work, worth 4% of your course grade
 - It starts with [Pre-lab 8](#pre-lab-8-your-ideas-sketches-and-proposal), your group's proposal
 - [Lab 8](labs.md) gives you time to work on it
+- Your app is one .html file that runs in a web browser. It must not save any data
 - Both deadlines are in [What you hand in](project-2.md#what-you-hand-in) on the Project 2 page
 
 Vibe coding means building software by describing what you want to an AI tool, then improving what
@@ -96,7 +97,7 @@ The four files:
 | File | File name | What it contains |
 | :--- | :-------- | :--------------- |
 | Design requirements document, a PDF of 1 to 2 pages | `CPSC100-2B-Design-[Section]-[GroupNumber].pdf` | The six sections in [Design requirements document](#design-requirements-document), updated to match your final app |
-| Your app, one .html file | `CPSC100-2B-App-[Section]-[GroupNumber].html` | The final version. It must open and run in a web browser, with nothing else to install |
+| Your app, one .html file | `CPSC100-2B-App-[Section]-[GroupNumber].html` | The final version. It must open and run in a web browser, with nothing else to install. It must not save any data |
 | Testing report, a PDF of 2 to 4 pages, plus an appendix | `CPSC100-2B-Testing-[Section]-[GroupNumber].pdf` | Your AI use statement, at the top<br>How you decided what to test, and why<br>Your test table, with every test linked to a feature<br>Where anyone edited the code by hand<br>An appendix with one labelled screenshot for each test. The appendix does not count toward the page limit |
 | Copilot transcripts, one PDF | `CPSC100-2B-Transcripts-[Section]-[GroupNumber].pdf` | Every Copilot conversation your group used to build the app, in order, from the first prompt to the final code |
 
@@ -142,9 +143,15 @@ If you used no AI tools apart from Copilot, say so.
 You build a single-file web app: one .html file that opens and runs in a browser. What HTML and
 JavaScript are, and how to run your file, is on [HTML and JavaScript](html-and-javascript.md).
 
+> [!WARNING]
+> For this course, your app must not save any data. It cannot use a database, an online service or
+> the browser's storage to keep data. Everything the user enters is deleted when the page is
+> refreshed or closed. When you prompt Copilot, say that the app must not save any data.
+
 Your app must fit the theme Data and society:
 
-- Data is central to what your app does: it collects, stores, sorts, compares or presents data
+- Data is central to what your app does: it collects, sorts, compares or presents data while the
+  page is open
 - Your app aims to have a positive effect on people or society
 - Your app is useful to a real person
 
@@ -170,7 +177,7 @@ Your app must use at least three course concepts. For example:
 
 | Course concept | What it could look like in your app |
 | :------------- | :---------------------------------- |
-| Data representation and storage | How your app stores and structures the user's data |
+| Data representation and storage | How your app structures the user's data while the page is open |
 | Privacy and consent | What data you collect, and whether the user knows and agrees |
 | Algorithms and decision systems | Logic that makes choices, such as sorting, filtering or scoring |
 | Recommender systems | Suggesting something based on what the user enters |
@@ -248,6 +255,7 @@ page explains how to sign in.
 
 How to prompt:
 
+- Tell Copilot that the app must be one HTML file, and that it must not save any data
 - Work from your design document
 - Prompt for one feature or one fix at a time, and describe it the way your design document does.
   A prompt for the whole app at once gives you code that is hard to check and hard to explain
@@ -289,13 +297,21 @@ Here is an example row for your test table:
 
 | Test | Feature | What we tested and why | Expected | Actual | What we changed |
 | :--: | :-----: | :--------------------- | :------- | :----- | :-------------- |
-| T1 | F1 | Adding a meal with a blank name, since users may skip fields | An error message | The app saved an empty entry | Asked Copilot to add input validation, then ran T1 again: passed |
+| T1 | F1 | Adding a meal with a blank name, since users may skip fields | An error message | The app accepted an empty entry | Asked Copilot to add input validation, then ran T1 again: passed |
 
 Some ways to find bugs:
 
 - Try empty, very large or unexpected input
 - Click every button, including in an unexpected order
 - Ask someone who has not seen the app to use it without help, and watch where they have trouble
+
+### Putting your app online (optional) <!-- {docsify-ignore} -->
+
+You may put your app on the internet, so that anyone with the link can open it. This is not
+required, and it is not part of your grade. It can be a fun way to show your work to your friends
+and family.
+
+To get started, visit one of your TAs' [drop-in hours](drop-in-hours.md).
 
 ---
 
