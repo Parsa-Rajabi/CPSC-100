@@ -411,9 +411,10 @@ Not Within Expectations (C+ and below), starts at 20. Any of these:
 
 Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
 
-- For each course concept, you name the part of the code that uses it, such as a function or a
-  variable, and explain in one or two sentences what that code does. Put this in the course
-  concepts section of your design document
+- For each course concept, you name the feature that uses it, by its number, and list in plain
+  words the steps the app follows for it. For example: "F3: when the user clicks Sort, the app
+  compares the scores, puts the highest first, and shows the new list." Put this in the course
+  concepts section of your design document. You do not need to read or quote any code
 
 Meets Expectations (A-, A), starts at 22. All of these:
 

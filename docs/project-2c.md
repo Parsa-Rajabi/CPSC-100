@@ -250,9 +250,9 @@ Not Within Expectations (C+ and below), starts at 16.5. Any of these:
 
 Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
 
-- For one bug, you explain its cause in the code: which part of the code was wrong and why, not only
-  what the user saw. If you found no bugs, you explain in the code how your app handles the input
-  from your riskiest test
+- For one bug, you explain its cause in the app's steps: which step the app did wrong, why, and how
+  your fix changed that step, not only what the user saw. If you found no bugs, you explain the
+  steps your app follows for the input from your riskiest test
 
 Meets Expectations (A-, A), starts at 22. All of these:
 
