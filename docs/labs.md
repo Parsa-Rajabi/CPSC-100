@@ -20,7 +20,7 @@
 
 Labs are where this course stops being abstract. Each one is a 50-minute in-person session in ICCS X050. You build a piece of something your [project](project.md) needs later, working alongside the group you'll submit it with. They aren't standalone worksheets, and your TA usually marks you in the lab itself, on what you do during the session.
 
-There are ten numbered labs, Lab 1 through Lab 10, plus Lab 0. Labs 1 to 9 are graded and your best eight count, so one dropped lab is already built into your grade. Lab 0 is homework rather than a session. Lab 10 is the [viva voce](project.md), graded as part of Project 2 rather than as a lab.
+There are ten numbered labs, Lab 1 through Lab 10, plus Lab 0. Labs 1 to 9 are graded and your best eight count, so one dropped lab is already built into your grade. Lab 0 is homework rather than a session. Lab 10 is the [viva voce](project-2c.md), graded as part of Project 2 rather than as a lab.
 
 You are marked individually, even though most of the work is collaborative, and you attend the section you are registered in.
 
@@ -58,11 +58,11 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 |  6   |   4    | Oct 14 / 15 | [Project 1B](project-1.md#part-b-the-ai-detector-experiment)  |
 |  7   |   5    | Oct 21 / 22 | [Project 1C](project-1.md#part-c-algorithmic-bias-case-study) |
 |  8   |   6    | Oct 28 / 29 | [Project 2](project-2.md) intro: debugging practice in Snap!   |
-|  9   |   7    | Nov 4 / 5   | Python, and [Project 2A](project-2.md#part-a-learning-to-communicate) |
+|  9   |   7    | Nov 4 / 5   | Python, and [Project 2A](project-2a.md) |
 |  10  | *none* |             | *No lab. Midterm Break.*                                      |
-|  11  |   8    | Nov 18 / 19 | [Project 2B](project-2.md#part-b-vibe-coding): building with an AI coding assistant |
+|  11  |   8    | Nov 18 / 19 | [Project 2B](project-2b.md): building with an AI coding assistant |
 |  12  |   9    | Nov 25 / 26 | [Project 2](project-2.md) work session                        |
-|  13  |   10   | Dec 2 / 3   | [Viva voce](project-2.md#part-c-viva-voce), which runs Wed Dec 2 to Fri Dec 4. Details announced closer to the date |
+|  13  |   10   | Dec 2 / 3   | [Viva voce](project-2c.md), which runs Wed Dec 2 to Fri Dec 4. Details announced closer to the date |
 
 Need to reach your TA? Start with Ed Discussion, which is where lab questions belong. Email addresses and which kind of question goes where are on [Course Communication](communication.md). If you would rather ask in person, see [Drop-in Hours](drop-in-hours.md).
 
@@ -104,7 +104,7 @@ Every lab opens with your group already working, which only works if everyone ar
 
 Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2:00pm Thursday for L1E, and so on down the [section times](#schedule) above. Turning up without it done costs 0.25 points, and turning up late costs another 0.25 points, because each one leaves your group waiting on you. The two deductions stack, so doing both costs 0.5 points. Your one free late arrival for the semester is covered under [Attendance and late arrival](#attendance-and-late-arrival). Pre-lab 5 is due earlier than the others, so the teaching team has time to check that no two groups in a lab section take the same Project 1 case. Its deadline is in the [What you hand in](project-1.md#what-you-hand-in) table on the Project 1 page. If you finish Pre-lab 5 after its deadline, PrairieLearn shows 99%, and that still counts as done.
 
-Pre-lab 8 is also an exception. It is your group's [Project 2 proposal and sketch](project-2.md#pre-lab-8-your-proposal-and-sketch), handed in on Canvas the week before Lab 8, so your TA has time to read it and give your group feedback in the lab. Because it is off the lab schedule, the course's default [late penalty](syllabus.md#late-deliverables) applies to it instead of the deductions above. Its deadline and late window are in the table on [the Project 2 page](project-2.md#pre-lab-8-your-proposal-and-sketch), and on Canvas.
+Pre-lab 8 is also an exception. It is your group's [Project 2 proposal and sketch](project-2b.md#pre-lab-8-your-proposal-and-sketch), handed in on Canvas the week before Lab 8, so your TA has time to read it and give your group feedback in the lab. Because it is off the lab schedule, the course's default [late penalty](syllabus.md#late-deliverables) applies to it instead of the deductions above. Its deadline and late window are in the table on [the Project 2 page](project-2b.md#pre-lab-8-your-proposal-and-sketch), and on Canvas.
 
 <details>
 <summary>Lab 0, the setup homework from Week 1</summary>

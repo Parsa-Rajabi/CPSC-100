@@ -53,9 +53,9 @@ Project 2 is about moving from visual programming (building programs from blocks
 
 It has three parts, a mix of individual and group work:
 
-- [Part A](project-2.md#part-a-learning-to-communicate), debugging a Python program, done in your Lab 7. Individual. Due the day after your lab, the same way as Project 1 Part A.
-- [Part B](project-2.md#part-b-vibe-coding), building a web app with Microsoft Copilot and testing it. Group. It starts with your group's proposal, Pre-lab 8.
-- [Part C](project-2.md#part-c-viva-voce), the viva voce: a short live presentation by your group, in Week 13. You demo your app and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
+- [Part A](project-2a.md), debugging a Python program, done in your Lab 7. Individual. Due the day after your lab, the same way as Project 1 Part A.
+- [Part B](project-2b.md), building a web app with Microsoft Copilot and testing it. Group. It starts with your group's proposal, Pre-lab 8.
+- [Part C](project-2c.md), the viva voce: a short live presentation by your group, in Week 13. You demo your app and answer questions about the decisions behind it, and every member speaks. Group grade with an individual multiplier. Attending is mandatory and a [passing requirement](syllabus.md#passing-criteria).
 
 ## Grade breakdown
 
