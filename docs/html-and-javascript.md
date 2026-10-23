@@ -32,7 +32,7 @@ Firefox, reads the code and shows you the page.
 
 HTML and CSS describe the page. JavaScript is a programming language, like Python and Snap!. It
 uses the same ideas you learn in this course: variables, if statements, loops, lists and functions.
-That is why you can guide Copilot. You know what the program must do, step by step, even if you
+That is why you can guide Copilot. You know each step the program must take, even if you
 cannot write the code.
 
 ---

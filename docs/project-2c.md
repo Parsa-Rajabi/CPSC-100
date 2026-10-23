@@ -22,8 +22,8 @@
 Part C is where your group shows, in person, that it understands the app it built, including the
 code Copilot wrote.
 
-A viva voce is an oral exam. Your group demonstrates its app, explains the decisions behind it, and
-answers our questions out loud.
+A viva voce is an oral exam. Your group demonstrates its app, explains its design decisions, and
+answers our questions aloud.
 
 The goal is that every member can explain any part of your app: what it does, why you designed it
 that way, and how you tested it.
@@ -135,14 +135,14 @@ We ask about testing and finding bugs:
 We ask about the changes you made while building:
 
 - What changed from your design requirements document, and why?
-- Where did Copilot get something wrong, and how did you notice? If it never did, how did you check
+- Where did Copilot make a mistake, and how did you notice? If it never did, how did you check
   its code?
 
 ### Delivery <!-- {docsify-ignore} -->
 
 - Make sure every member can explain every part of the app, including code they did not prompt for
 - Speak, do not read. A few words of notes are fine
-- If you read an answer word for word from a script, your documents or your slides, two criteria
+- If you read a full answer aloud from a script, your documents or your slides, two criteria
   drop to Approaches Expectations: Delivery, and the criterion that answer belongs to
 - Speak so that everyone in the room can hear you. If you do not hear or understand a question, ask
   us to repeat it
@@ -165,7 +165,7 @@ Your viva voce score is based on five criteria, out of 100 points:
 3. Testing and bugs, 25 points. We will evaluate whether you can explain how you chose your tests,
    and explain one bug from how you found it to how you fixed it.
 4. Changes along the way, 15 points. We will evaluate whether you can explain what changed from your
-   design document, and where Copilot got something wrong.
+   design document, and where Copilot made a mistake.
 5. Delivery, 20 points. We will evaluate whether every member answers, in their own words, without
    reading and without AI.
 
@@ -177,11 +177,12 @@ How your TA marks each criterion:
   [Grading scale](#grading-scale)
 - If your work matches the descriptions of more than one band, your TA uses the lowest one that
   applies
-- Your TA starts at that band's Starts at score, and takes points off for small mistakes within the
+- Your TA starts at that band's Starts at score, and subtracts points for small mistakes within the
   band. Your TA decides what counts as a small mistake
 - Exceeds Expectations needs everything in Meets Expectations, plus every Exceeds Expectations item
   for that criterion
-- If a member reads an answer word for word, both Delivery and the criterion that answer belongs to
+- If a member reads a full answer aloud from a script, notes or slides, both Delivery and the
+  criterion that answer belongs to
   drop to Approaches Expectations
 
 Design decisions and testing are worth the most points, so give them the most time.
@@ -192,7 +193,7 @@ Your viva voce score is 90% of your Part C mark. The other 10% is:
 - the Project 2 retrospective (5%)
 
 Your peer evaluation multiplier applies to all of Part C. The
-[grade breakdown](project.md#your-individual-part-c-mark) shows how the pieces add up.
+[grade breakdown](project.md#your-individual-part-c-mark) shows how the parts are combined.
 
 ---
 
@@ -202,7 +203,7 @@ Your peer evaluation multiplier applies to all of Part C. The
 
 Exceeds Expectations (A+), starts at 15. Everything in Meets Expectations, plus all of these:
 
-- You demonstrate one realistic task your user would do, from start to finish
+- You demonstrate one realistic task your user would do, from the first step to the last
 - The demo shows the app handling at least one of the risks in your design document
 
 Meets Expectations (A-, A), starts at 13. All of these:
@@ -225,15 +226,15 @@ Not Within Expectations (C+ and below), starts at 10. Any of these:
 
 Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
 
-- For at least two features, you name a different design you considered, and the reason, tied to
-  your user, that you chose against it
+- For at least two features, you name a different design you considered, and the reason, based on
+  your user, that you did not use it
 
 Meets Expectations (A-, A), starts at 22. All of these:
 
 - Your answers explain who your user is, and how each feature helps them
 - Your answers explain why you designed the app this way
 - You can show where each course concept appears in the app, and explain how it works there
-- Your reasons come from your user, not from what Copilot suggested
+- Your reasons are based on your user, not on what Copilot suggested
 
 Approaches Expectations (B- to B+), starts at 19.5. Any of these:
 
@@ -257,13 +258,13 @@ Meets Expectations (A-, A), starts at 22. All of these:
 
 - You explain how you decided what to test
 - You explain which methods you used to find bugs
-- You explain one bug you found, step by step: how you found it, and how you fixed it. If you found
+- You explain one bug you found: how you found it, and how you fixed it. If you found
   no bugs, you say so, and explain which test was most likely to find one, and why
 
 Approaches Expectations (B- to B+), starts at 19.5. Any of these:
 
 - Testing is described only in general terms, such as "we tried everything"
-- The bug explanation leaves out how you found it, or how you fixed it
+- The bug explanation does not say how you found it, or how you fixed it
 - You found no bugs, and you do not say which test was most likely to find one
 
 Not Within Expectations (C+ and below), starts at 16.5. Any of these:
@@ -275,15 +276,15 @@ Not Within Expectations (C+ and below), starts at 16.5. Any of these:
 
 Exceeds Expectations (A+), starts at 15. Everything in Meets Expectations, plus this:
 
-- You explain one change you made to how you prompted Copilot after it got something wrong, and
-  what happened after that change. If Copilot never got anything wrong, you explain one change you
+- You explain one change you made to how you prompted Copilot after it made a mistake, and what
+  happened after that change. If Copilot never made a mistake, you explain one change you
   made to how you prompted it as the app grew, and why
 
 Meets Expectations (A-, A), starts at 13. All of these:
 
 - You explain what changed from your design requirements document, and why
-- You describe at least one place where Copilot got something wrong, and how you noticed. If Copilot
-  never got anything wrong, you say so, and explain how you checked its code
+- You describe at least one place where Copilot made a mistake, and how you noticed. If Copilot
+  never made a mistake, you say so, and explain how you checked its code
 
 Approaches Expectations (B- to B+), starts at 11.5. Any of these:
 
@@ -293,15 +294,15 @@ Approaches Expectations (B- to B+), starts at 11.5. Any of these:
 Not Within Expectations (C+ and below), starts at 10. Any of these:
 
 - Your group cannot name a change
-- Your group cannot name a place where Copilot got something wrong
+- Your group cannot name a place where Copilot made a mistake
 
 ### 5. Delivery (20 points) <!-- {docsify-ignore} -->
 
 Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus all of these:
 
-- No restarts, no pauses longer than 10 seconds, and no one looks down to read
+- No restarts, no pauses longer than 10 seconds, and no one reads from notes or slides
 - Each member, at least once, adds to a teammate's answer by connecting it to another part of the
-  app or to a course concept. Handing the next question to a teammate does not count
+  app or to a course concept. Asking a teammate to answer the next question does not count
 
 Meets Expectations (A-, A), starts at 17.5. All of these:
 
@@ -314,7 +315,7 @@ Approaches Expectations (B- to B+), starts at 15.5. Any of these:
 
 - A member does not answer
 - Members can answer only about the parts they built
-- A member reads an answer word for word from a script, notes or slides
+- A member reads a full answer aloud from a script, notes or slides
 
 Not Within Expectations (C+ and below), starts at 13. Any of these:
 

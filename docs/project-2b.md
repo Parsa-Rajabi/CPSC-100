@@ -70,7 +70,7 @@ work.
 2. Write your design requirements document before you prompt Copilot
 3. Build the app with Copilot, one feature at a time, working from your design document
 4. Test every feature, record what you find, and fix what fails
-5. Keep every Copilot conversation, and export them all as one PDF
+5. Keep every AI conversation, and export them all as one PDF
 6. Hand in your four files on Canvas, as one submission for your group
 
 ### Where you have a choice <!-- {docsify-ignore} -->
@@ -98,15 +98,15 @@ The four files:
 | :--- | :-------- | :--------------- |
 | Design requirements document, a PDF of 1 to 2 pages | `CPSC100-2B-Design-[Section]-[GroupNumber].pdf` | The six sections in [Design requirements document](#design-requirements-document), updated to match your final app |
 | Your app, one .html file | `CPSC100-2B-App-[Section]-[GroupNumber].html` | The final version. It must open and run in a web browser, with nothing else to install. It must not save any data |
-| Testing report, a PDF of 2 to 4 pages, plus an appendix | `CPSC100-2B-Testing-[Section]-[GroupNumber].pdf` | Your AI use statement, at the top<br>How you decided what to test, and why<br>Your test table, with every test linked to a feature<br>Where anyone edited the code by hand<br>An appendix with one labelled screenshot for each test. The appendix does not count toward the page limit |
-| Copilot transcripts, one PDF | `CPSC100-2B-Transcripts-[Section]-[GroupNumber].pdf` | Every Copilot conversation your group used to build the app, in order, from the first prompt to the final code |
+| Testing report, a PDF of 2 to 4 pages, plus an appendix | `CPSC100-2B-Testing-[Section]-[GroupNumber].pdf` | Your AI use statement, at the top<br>How you decided what to test, and why<br>Your test table, with every test linked to a feature<br>Where anyone changed the code without Copilot<br>An appendix with one labelled screenshot for each test. The appendix does not count toward the page limit |
+| AI transcripts, one PDF | `CPSC100-2B-Transcripts-[Section]-[GroupNumber].pdf` | Every AI conversation your group used to build the app, in Copilot or any other AI tool, in order, from the first prompt to the final code |
 
 ---
 
 ## AI disclosure
 
-Part B requires AI for the code. Copilot builds the app, and your transcripts are the record of
-that use.
+Part B requires AI for the code. Copilot is the approved tool for building the app, and your
+transcripts are the record of every AI tool you used.
 
 Your design document and testing report are different:
 
@@ -164,7 +164,7 @@ Some areas you can work in:
 - Money and everyday decisions
 - Privacy and personal data
 
-These are areas, not project ideas. Your group comes up with its own idea.
+These are areas, not project ideas. Your group chooses its own idea.
 
 Your group is responsible for making sure your project is appropriate for coursework at a
 university. Creativity is encouraged, but the teaching team will not allow projects that it
@@ -181,14 +181,17 @@ Your app must use at least three course concepts. For example:
 | Privacy and consent | What data you collect, and whether the user knows and agrees |
 | Algorithms and decision systems | Logic that makes choices, such as sorting, filtering or scoring |
 | Recommender systems | Suggesting something based on what the user enters |
-| Algorithmic bias and responsible use | Who your app might treat unfairly, or leave out |
+| Algorithmic bias and responsible use | Who your app might treat unfairly, or exclude |
 
 ### Pre-lab 8: your ideas, sketches and proposal <!-- {docsify-ignore} -->
 
 Agree on your app before Lab 8, so your group can spend the lab building it.
 
+> [!NOTE]
+> Pre-lab 8 is a group submission, unlike the other pre-labs. One member hands in one PDF for the
+> whole group, and it counts as Pre-lab 8 for every member.
+
 - Hand in Pre-lab 8 on [Canvas](https://canvas.ubc.ca/courses/190791/assignments)
-- One member submits one PDF for the group
 
 The PDF contains:
 
@@ -206,7 +209,7 @@ The PDF contains:
    - the three or more course concepts it will use
 
 Keep your sketches. Comparing your sketch with your final app is one of the Exceeds Expectations
-items for the [design requirements document](#_1-design-requirements-document-20-points).
+items for the [design requirements document](#_1-design-requirements-document-30-points).
 
 Your TA reads it before Lab 8. Your TA then gives your group feedback in the lab, before you start
 building.
@@ -214,7 +217,6 @@ building.
 Pre-lab 8 is different from the other pre-labs:
 
 - It is handed in on Canvas, not PrairieLearn
-- It is one submission for the whole group, and it counts as Pre-lab 8 for every member
 - It is part of your Lab 8 grade, not your project grade
 - It is due the week before Lab 8, not when your section starts
 - Because it is not due at the start of a lab, the course's default
@@ -223,7 +225,7 @@ Pre-lab 8 is different from the other pre-labs:
 
 The late penalty for Pre-lab 8:
 
-| Handed in | What it costs |
+| Handed in | Penalty |
 | :-------- | :------------ |
 | By Thu Nov 12, 11:59pm | Nothing |
 | Up to 24 hours late, by Fri Nov 13, 11:59pm | 25% of your Pre-lab 8 mark |
@@ -240,7 +242,7 @@ pages, with six sections in this order:
    for example "F1: The user can add a meal by typing its name and calories."
 3. Interactions. What happens when the user clicks each button or enters data.
 4. Course concepts. Which three or more concepts your app uses, and which features use them.
-5. Risks. What could confuse the user or go wrong, such as empty input, unclear labels or a privacy
+5. Risks. What could confuse the user or fail, such as empty input, unclear labels or a privacy
    concern.
 6. Design change log. What changed while you were building, and why.
 
@@ -258,6 +260,13 @@ covered by UBC's data protection. UBC IT's
 [Microsoft Copilot at UBC](https://it.ubc.ca/services/artificial-intelligence/microsoft-copilot-ubc)
 page explains how to sign in.
 
+Microsoft Copilot is the only AI tool that is fully approved for this course. You may also use
+other AI tools or models, but you do not need to. UBC has privacy concerns about AI tools from
+outside UBC, so if you use one, you are responsible for any privacy risk.
+
+Whatever AI tools you use, you must keep every prompt and conversation, and hand them in with your
+transcripts.
+
 How to prompt:
 
 - Tell Copilot that the app must be one HTML file, and that it must not save any data
@@ -268,12 +277,13 @@ How to prompt:
 - Run the app after every change, so you know which change broke something
 
 Keep every conversation, from the first prompt to your final code. This includes the conversations
-on each member's account. To make your transcripts PDF:
+on each member's account, and the conversations in any other AI tool you used. To make your
+transcripts PDF:
 
 1. Open each conversation and print the page to PDF
 2. Combine all the PDFs into one file, in the order you had the conversations
 
-If anyone in your group edits the code by hand, say where in your testing report.
+If anyone in your group changes the code without Copilot, say where in your testing report.
 
 > [!TIP]
 > Use invented data when you build and test. Do not put your own or anyone else's real personal
@@ -316,7 +326,7 @@ You may put your app on the internet, so that anyone with the link can open it. 
 required, and it is not part of your grade. It can be a fun way to show your work to your friends
 and family.
 
-To get started, visit one of your TAs' [drop-in hours](drop-in-hours.md).
+To start, visit one of your TAs' [drop-in hours](drop-in-hours.md).
 
 ---
 
@@ -324,15 +334,15 @@ To get started, visit one of your TAs' [drop-in hours](drop-in-hours.md).
 
 Your Part B grade is based on four criteria, out of 100 points:
 
-1. Design requirements document, 20 points. Marked from your design requirements document. We will
+1. Design requirements document, 30 points. Marked from your design requirements document. We will
    evaluate whether it has all six sections, matches your final app, and describes features and
    risks you can test.
-2. The app and its course concepts, 20 points. Marked from your app and your design requirements
+2. The app and its course concepts, 25 points. Marked from your app and your design requirements
    document. We will evaluate whether the app runs, does what your features list says, and uses at
    least three course concepts.
-3. Testing, 35 points. Marked from your testing report. We will evaluate whether you tested every
+3. Testing, 30 points. Marked from your testing report. We will evaluate whether you tested every
    feature, recorded each result, and tested again what you fixed.
-4. Working with Copilot, 25 points. Marked from your Copilot transcripts and testing report. We will
+4. Working with Copilot, 15 points. Marked from your AI transcripts and testing report. We will
    evaluate whether your transcripts show the whole build, one feature or fix at a time, working
    from your design document.
 
@@ -343,12 +353,13 @@ How your TA marks each criterion:
   [Grading scale](#grading-scale)
 - If your work matches the descriptions of more than one band, your TA uses the lowest one that
   applies
-- Your TA starts at that band's Starts at score, and takes points off for small mistakes within the
+- Your TA starts at that band's Starts at score, and subtracts points for small mistakes within the
   band. Your TA decides what counts as a small mistake
 - Exceeds Expectations needs everything in Meets Expectations, plus every Exceeds Expectations item
   for that criterion
 
-Testing is worth the most points, so plan the most time for it.
+The design requirements document and testing are worth the most points, so plan the most time for
+them.
 
 Part B receives a group grade, and it is not multiplied by peer evaluation.
 
@@ -356,20 +367,20 @@ Part B receives a group grade, and it is not multiplied by peer evaluation.
 
 ## Grading scale
 
-### 1. Design requirements document (20 points) <!-- {docsify-ignore} -->
+### 1. Design requirements document (30 points) <!-- {docsify-ignore} -->
 
-Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus all of these:
+Exceeds Expectations (A+), starts at 30. Everything in Meets Expectations, plus all of these:
 
 - At least 1.5 times as many features as group members: 6 for a group of 4, 8 for a group of 5
 - Each risk names the feature it affects, by its number, and how the app should respond
-- Each entry in the design change log names the test, by its number, or the Copilot conversation
-  that led to the change
+- Each entry in the design change log names the test, by its number, or the AI conversation that
+  led to the change
 - Your design change log compares your Pre-lab 8 sketch of the idea you chose with your final app.
   It shows the sketch next to a screenshot of your final app's main screen, and explains what
   changed, why, and how each change improved the app for your user. The sketch and the screenshot
   can go on an extra page at the end, which does not count toward the page limit
 
-Meets Expectations (A-, A), starts at 17.5. All of these:
+Meets Expectations (A-, A), starts at 26.5. All of these:
 
 - One to two pages, with all six sections
 - The document matches your final app
@@ -381,30 +392,30 @@ Meets Expectations (A-, A), starts at 17.5. All of these:
 - Risks are specific to your app
 - The design change log records each change and its reason, or says that nothing changed
 
-Approaches Expectations (B- to B+), starts at 15.5. All six sections are there, but one or two are
+Approaches Expectations (B- to B+), starts at 23.5. All six sections are there, but one or two are
 missing something they ask for. Any of these:
 
 - There are fewer features than group members
 - Features are not numbered, or cannot be tested ("the app is easy to use")
 - A concept is named without the features that use it
-- The risks would fit any app
+- The risks could apply to any app
 - The change log lists changes without reasons
 
-Not Within Expectations (C+ and below), starts at 13. Any of these:
+Not Within Expectations (C+ and below), starts at 20. Any of these:
 
 - A section is missing
 - There are fewer than three course concepts
 - The document does not describe the app you submitted
 
-### 2. The app and its course concepts (20 points) <!-- {docsify-ignore} -->
+### 2. The app and its course concepts (25 points) <!-- {docsify-ignore} -->
 
-Exceeds Expectations (A+), starts at 20. Everything in Meets Expectations, plus this:
+Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
 
-- For each course concept, you name the part of the code that carries it, such as a function or a
+- For each course concept, you name the part of the code that uses it, such as a function or a
   variable, and explain in one or two sentences what that code does. Put this in the course
   concepts section of your design document
 
-Meets Expectations (A-, A), starts at 17.5. All of these:
+Meets Expectations (A-, A), starts at 22. All of these:
 
 - One .html file that opens and runs in a web browser
 - The app does everything in your features list, or your design change log explains why a feature
@@ -412,27 +423,27 @@ Meets Expectations (A-, A), starts at 17.5. All of these:
 - Each course concept in your design document can be seen in the app, in the features you linked
   it to
 
-Approaches Expectations (B- to B+), starts at 15.5. The app runs, but any of these:
+Approaches Expectations (B- to B+), starts at 19.5. The app runs, but any of these:
 
 - A feature is missing or does not work, and the change log does not explain why
 - A course concept in your document does not appear in the app
 
-Not Within Expectations (C+ and below), starts at 13. Any of these:
+Not Within Expectations (C+ and below), starts at 16.5. Any of these:
 
 - The app does not open or run
 - Most features are missing
 - Fewer than three course concepts appear in the app
 
-### 3. Testing (35 points) <!-- {docsify-ignore} -->
+### 3. Testing (30 points) <!-- {docsify-ignore} -->
 
-Exceeds Expectations (A+), starts at 35. Everything in Meets Expectations, plus all of these:
+Exceeds Expectations (A+), starts at 30. Everything in Meets Expectations, plus all of these:
 
 - Every risk in your design document has its own test, as well as every feature
 - At least one test is run with someone outside your group who uses the app without help. You
-  record where they hesitated or went wrong. If they had no trouble, you say so, and record what
+  record where they hesitated or made a mistake. If they had no trouble, you say so, and record what
   they did
 
-Meets Expectations (A-, A), starts at 31. All of these:
+Meets Expectations (A-, A), starts at 26.5. All of these:
 
 - Your report explains how you decided what to test, and why
 - Every feature has at least one test, linked by its number
@@ -441,48 +452,48 @@ Meets Expectations (A-, A), starts at 31. All of these:
 - The appendix has a labelled screenshot for each test
 - The report is 2 to 4 pages, not counting the appendix
 
-Approaches Expectations (B- to B+), starts at 27.5. The testing is incomplete. Any of these:
+Approaches Expectations (B- to B+), starts at 23.5. The testing is incomplete. Any of these:
 
 - A feature has no test
 - Some rows are missing the expected or actual result
 - Fixed failures were not run again
 - Several tests have no screenshot
 
-Not Within Expectations (C+ and below), starts at 23. Any of these:
+Not Within Expectations (C+ and below), starts at 20. Any of these:
 
 - There is no test table
 - Most features have no test
 - There are no screenshots
 
-### 4. Working with Copilot (25 points) <!-- {docsify-ignore} -->
+### 4. Working with Copilot (15 points) <!-- {docsify-ignore} -->
 
-Exceeds Expectations (A+), starts at 25. Everything in Meets Expectations, plus this:
+Exceeds Expectations (A+), starts at 15. Everything in Meets Expectations, plus this:
 
-- In your testing report, you describe at least two places where Copilot got something wrong. For
+- In your testing report, you describe at least two places where Copilot made a mistake. For
   each one, give the page of your transcripts where it happened, say how you noticed, and say what
-  fixed it. If Copilot got fewer than two things wrong, describe each one it did. For each example
+  fixed it. If Copilot made fewer than two mistakes, describe each one. For each example
   still missing, describe a feature where Copilot's first answer worked, and give the transcript
   page and the test, by its number, that showed it was right
 
-Meets Expectations (A-, A), starts at 22. All of these:
+Meets Expectations (A-, A), starts at 13. All of these:
 
-- One PDF with every Copilot conversation used to build the app, in order, from the first prompt to
-  the final code
+- One PDF with every AI conversation used to build the app, in Copilot or any other AI tool, in
+  order, from the first prompt to the final code
 - The prompts work from your design document, one feature or fix at a time
-- Your testing report lists any code edited by hand
+- Your testing report lists any code changed without Copilot
 - Your testing report starts with your AI use statement
 
-Approaches Expectations (B- to B+), starts at 19.5. Any of these:
+Approaches Expectations (B- to B+), starts at 11.5. Any of these:
 
 - The transcripts are incomplete, such as a missing conversation
 - The transcripts do not show how you reached the final code
 - Most prompts ask for large parts of the app at once, without reference to your design
 - The AI use statement is missing
 
-Not Within Expectations (C+ and below), starts at 16.5. Any of these:
+Not Within Expectations (C+ and below), starts at 10. Any of these:
 
 - There are no transcripts
-- The transcripts do not lead to the app you submitted
+- The transcripts do not end with the code of the app you submitted
 
 ---
 

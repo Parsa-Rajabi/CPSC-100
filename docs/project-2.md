@@ -25,7 +25,7 @@ Project 2 is where you fix code, build with code, and explain what you built.
 - [Part B](project-2b.md). Your group uses Microsoft Copilot to build a small web app for a real
   user. Then you test it, and show the evidence that it works.
 - [Part C](project-2c.md). In the viva voce, your group demonstrates the app and answers our
-  questions about the decisions behind it, in person.
+  questions about its design decisions, in person.
 
 The goal of all three parts is the same. You are responsible for any code you hand in, whether you
 wrote it, fixed it or asked an AI tool to write it. Each part asks you to show that you understand
@@ -48,7 +48,7 @@ are 15% of your grade, and Project 1 is the other 15%. All course weights are in
 
 > [!ATTENTION]
 > To pass this course you need at least 50% on the course project overall, counting Project 1 and
-> Project 2 together. You must also attend and take part in the viva voce in person. The full list
+> Project 2 together. You must also attend and participate in the viva voce in person. The full list
 > is in [Passing Criteria](syllabus.md#passing-criteria).
 
 ---
@@ -62,7 +62,7 @@ page on Canvas shows its deadline. All times are Pacific time.
 | :--------------- | :-- | :-- | :---- |
 | [Part A](project-2a.md#submission): your fixed Python notebook, with a comment at each fix | Individual | The day after your Lab 7: Thu Nov 5 (L1A to L1D) or Fri Nov 6 (L1E), 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Pre-lab 8](project-2b.md#pre-lab-8-your-ideas-sketches-and-proposal): your project ideas, sketches and proposal | Group | Thu Nov 12, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
-| [Part B](project-2b.md#submission): your design requirements document, your app as one .html file, your testing report, and your Copilot transcripts | Group | Tue Nov 24, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
+| [Part B](project-2b.md#submission): your design requirements document, your app as one .html file, your testing report, and your AI transcripts | Group | Tue Nov 24, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Part C](project-2c.md): nothing to hand in. Your group presents its app in person | Group | Your session, between Wed Dec 2 and Fri Dec 4 | In person |
 | [Stand-ups](#weekly-stand-ups) 5 to 9 | Individual | Every Friday from Nov 6 to Dec 4, 4:00pm | Ed Discussion |
 | [Retrospective](#retrospective) 2 | Group | Thu Dec 3, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
@@ -83,7 +83,7 @@ own page once the Project 2A, Pre-lab 8, Project 2B and retrospective assignment
 | :--: | :-: | :----------- | :------------ |
 | 8 | Lab 6 | Project 2 begins. You go from Snap! to Python. | Project 1 deadlines. See [Project 1](project-1.md#the-flow) |
 | 9 | Lab 7 | Part A runs during the lab. | Part A, the day after your lab<br>Stand-up 5, Fri Nov 6 |
-| 10 | *no lab* | Midterm Break. Your group agrees on its app and writes its proposal. | Pre-lab 8, your ideas, sketches and proposal, Thu Nov 12<br>Stand-up 6, Fri Nov 13 |
+| 10 | *no lab* | Midterm Break. Your group agrees on its app and writes its proposal. | Pre-lab 8, your group's ideas, sketches and proposal (one submission per group), Thu Nov 12<br>Stand-up 6, Fri Nov 13 |
 | 11 | Lab 8 | Working with an AI coding assistant. Feedback on your proposal, then time to work on Part B. | Stand-up 7, Fri Nov 20 |
 | 12 | Lab 9 | Work session to prepare for the viva voce. | Part B, Tue Nov 24<br>Stand-up 8, Fri Nov 27 |
 | 13 | Lab 10 | Viva voce, held from Wed Dec 2 to Fri Dec 4. | Your viva voce<br>Retrospective and [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, Fri Dec 4 |
@@ -124,7 +124,7 @@ How stand-ups are marked:
 
 - Each one is marked complete, partial or incomplete
 - Together they are 5% of your Part C mark
-- A late stand-up costs 0.5% of your individual Part C mark for every 12 hours it is late. Part of
+- For every 12 hours a stand-up is late, you lose 0.5% of your individual Part C mark. Part of
   12 hours counts as a full 12 hours
 - Your one free late stand-up for the term covers the first one you post late, up to 72 hours. See
   [Late and missing stand-ups](project-1.md#late-and-missing-stand-ups)
@@ -135,7 +135,7 @@ Your group's second retrospective covers teamwork during Project 2, and lessons 
 
 - It is 5% of your Part C mark
 - Its deadline is in [What you hand in](#what-you-hand-in)
-- A late retrospective costs your group 1% of its Part C grade for every 12 hours it is late. Part
+- For every 12 hours a retrospective is late, your group loses 1% of its Part C grade. Part
   of 12 hours counts as a full 12 hours. See [Retrospectives](project.md#retrospectives)
 
 ### Peer evaluation <!-- {docsify-ignore} -->
@@ -148,12 +148,13 @@ counts too.
 - Parts A and B are not multiplied
 - The details are on [Project Peer Evaluation](project-peer-evaluation.md)
 
-iPeer turns your ratings into part of each teammate's grade. Rate them on what they did, with the
+iPeer uses your ratings to calculate part of each teammate's grade. Rate them on what they did, with
+the
 same care you would want from them.
 
 ### If contribution is uneven <!-- {docsify-ignore} -->
 
-Raise problems early, with your group first and then with your TA. If you need the teaching team to
+Tell your group about problems early, and then tell your TA. If you need the teaching team to
 help:
 
 - Contact us at least 12 days before the deadline
@@ -177,7 +178,7 @@ includes:
 - Reporting a test you did not run, or a result you did not get
 - Handing in a screenshot that was edited, or that shows a different version of the app than the
   one you describe
-- Changing what a Copilot transcript says, or handing in a conversation your group did not have
+- Changing what an AI transcript says, or handing in a conversation your group did not have
 
 A wrong test number, a mislabelled screenshot or a formatting mistake is an error, not
 fabrication.
@@ -232,7 +233,7 @@ Three things to know:
   Expectations first, because Exceeds Expectations work does not replace a missing requirement.
   Doing only some of a criterion's Exceeds Expectations items keeps it in Meets Expectations.
 - Your TA picks the band first, then starts at that band's Starts at score in the rubric.
-  Small mistakes take points off within the band, and your feedback names each one.
+  Small mistakes lower the score within the band, and your feedback names each one.
 
 ### What is already decided <!-- {docsify-ignore} -->
 
@@ -242,7 +243,7 @@ Three things to know:
   [grade breakdown](project.md#grade-breakdown)
 - Peer evaluation rates your contribution to Parts B and C, and its multiplier applies to your
   whole Part C mark. See [Working as a group](#working-as-a-group)
-- Pre-lab 8 is part of your Lab 8 grade, not your project grade
+- Pre-lab 8 is a group submission, and it is part of your Lab 8 grade, not your project grade
 
 > [!ATTENTION]
 > Late work is not accepted on the project. Nothing submitted after a deadline is marked.
@@ -268,4 +269,4 @@ Three things to know:
 - [Project Peer Evaluation](project-peer-evaluation.md): the multiplier, the criteria and the formula
 - [Labs](labs.md): Labs 6 to 10 support this project
 - [AI Policy](ai-policy.md): what is required, what is permitted and what is not allowed
-- [Schedule](schedule.md): the whole term in context
+- [Schedule](schedule.md): the whole term, week by week

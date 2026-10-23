@@ -28,7 +28,7 @@ wrong, and why your fix works. Your TA marks your explanations, not only your fi
 - Part A is individual work, worth 1% of your course grade
 - It runs in [Lab 7](labs.md). You fix the program during the lab
 - Your program is a Python program in a Jupyter notebook on PrairieLearn. It does not work when you
-  get it
+  first open it
 - Lab 6 prepares you for Part A. In Lab 6 you go from Snap! to Python
 - You hand in your notebook on Canvas, by your section's deadline under [Submission](#submission)
 
@@ -44,7 +44,7 @@ wrong, and why your fix works. Your TA marks your explanations, not only your fi
 
 > [!TIP]
 > If you cannot find a bug, try [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
-> Explain out loud, line by line, what each part of the program should do. When what you say and
+> Explain aloud, line by line, what each part of the program should do. When what you say and
 > what the code does are different, you have found a bug.
 
 ### Where you have a choice <!-- {docsify-ignore} -->
@@ -157,7 +157,7 @@ Stronger:
 ```python
 # Logic error: total was set to 0 inside the loop, so it went back to 0 every time
 # the loop ran and only kept the last price. Setting it once, before the loop, lets
-# it add up every price.
+# it add every price to the total.
 total = 0
 for price in prices:
     total = total + price
@@ -186,7 +186,7 @@ affected by peer evaluation.
 
 To be marked Complete, your notebook must meet all three of these:
 
-1. The program runs from start to finish
+1. The program runs to the end without stopping
 2. It does what the notebook says it should, including for values your TA tries
 3. Every fix has a comment that names the kind of error and explains, in your own words, what was
    wrong and why the fix works
