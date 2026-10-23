@@ -13,24 +13,32 @@
 
 ## Overview
 
-Part B is group work, worth 4%. It starts with [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch),
-your group's proposal. [Lab 8](labs.md) gives you time to work on it. Both deadlines are in
-[What you hand in](project-2.md#what-you-hand-in) on the Project 2 page.
+Part B is where your group uses Microsoft Copilot to build a small web app for a real person, tests
+it, and shows that it works for that person.
 
-Vibe coding means building software by describing what you want to an AI tool and refining what it
-gives back, instead of writing every line yourself.
+The goal is an app that does what its user needs, and the evidence that it works: a design
+document, your tests, and the full record of how you built it.
+
+- Part B is group work, worth 4% of your course grade
+- It starts with [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch), your group's proposal
+- [Lab 8](labs.md) gives you time to work on it
+- Both deadlines are in [What you hand in](project-2.md#what-you-hand-in) on the Project 2 page
+
+Vibe coding means building software by describing what you want to an AI tool, then improving what
+it produces, instead of writing every line yourself.
 
 AI coding assistants are now used this way in research labs and in industry. They still need
-someone who knows what the program must do, who can guide them one step at a time, and who can
-tell when the result is wrong. That takes the programming concepts you have learned in this
-course.
+someone who:
 
-Anything you submit under your name, in this course or anywhere else, is work you take
-responsibility for. That includes code an AI tool generated. Generated code often looks finished and
-still does not work, so you have to check it yourself.
+- knows what the program must do
+- can guide them one step at a time
+- can tell when the result is wrong
 
-In Part B your group uses Microsoft Copilot to build a small web app. Then you test it and show
-that it works for the person it is for.
+That takes the programming concepts you have learned in this course.
+
+Anything you submit under your name, in this course or anywhere else, is your responsibility. That
+includes code an AI tool wrote. Generated code often looks finished and still does not work, so you
+must check it yourself.
 
 ### Before you start <!-- {docsify-ignore} -->
 
@@ -63,15 +71,21 @@ work.
 - What your app does, and who it is for
 - Which three or more course concepts it uses
 - How you test it, as long as every feature has at least one test
-- How you divide the work. Split it by feature rather than by file, so that every member prompts,
-  tests and can explain part of the app. In the viva voce you will all need to explain all of it
+- How you divide the work. Divide it by feature, not by file, so that every member prompts, tests
+  and can explain part of the app. In the viva voce, every member will need to explain all of it
 
 ---
 
 ## Submission
 
-You hand in four files on [Canvas](https://canvas.ubc.ca/courses/190791/assignments), together in one submission to
-Project 2B. One member submits for the group.
+- Hand in four files on [Canvas](https://canvas.ubc.ca/courses/190791/assignments), together in
+  one submission to Project 2B
+- One member submits for the group
+- Each file has the file name shown in the table below. For example, group 3 in L1A names its
+  design document `CPSC100-2B-Design-L1A-3.pdf`
+- Pre-lab 8 is a separate submission. See [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch)
+
+The four files:
 
 | File | File name | What it contains |
 | :--- | :-------- | :--------------- |
@@ -80,11 +94,6 @@ Project 2B. One member submits for the group.
 | Testing report, a PDF of 2 to 4 pages, plus an appendix | `CPSC100-2B-Testing-[Section]-[GroupNumber].pdf` | Your AI use statement, at the top<br>How you decided what to test, and why<br>Your test table, with every test linked to a feature<br>Where anyone edited the code by hand<br>An appendix with one labelled screenshot for each test. The appendix does not count toward the page limit |
 | Copilot transcripts, one PDF | `CPSC100-2B-Transcripts-[Section]-[GroupNumber].pdf` | Every Copilot conversation your group used to build the app, in order, from the first prompt to the final code |
 
-For example, group 3 in L1A names its design document `CPSC100-2B-Design-L1A-3.pdf`.
-
-Pre-lab 8 is a separate submission, described under
-[Pre-lab 8](#pre-lab-8-your-proposal-and-sketch).
-
 ---
 
 ## AI disclosure
@@ -92,39 +101,48 @@ Pre-lab 8 is a separate submission, described under
 Part B requires AI for the code. Copilot builds the app, and your transcripts are the record of
 that use.
 
-Your design document and testing report are different. The user, the features, the tests and the
-explanations must be your group's own thinking. You may use AI to check your wording, but not to
-decide what to test or to write your analysis.
+Your design document and testing report are different:
 
-At the top of your testing report, write a short AI use statement. Say which AI tools you used
-apart from Copilot, for which part of Part B, and what was entirely your group's own work. If you
-used none, say so.
+- The user, the features, the tests and the explanations must be your group's own thinking
+- You may use AI to check your wording
+- You may not use AI to decide what to test, or to write your analysis
+
+At the top of your testing report, write a short AI use statement. It must say:
+
+- which AI tools you used, apart from Copilot
+- which part of Part B you used each one for
+- what was entirely your group's own work
+
+If you used no AI tools apart from Copilot, say so.
 
 ---
 
 ## Late policy
 
-Late work is not accepted on the project. Nothing submitted after a deadline is marked.
-
-If you are running out of time, submit a partial document rather than nothing. An incomplete
-submission earns some marks; a missing one earns none.
-
-If something serious or ongoing is happening, use the
-[academic concession](syllabus.md#academic-concessions) process and tell us early rather than
-afterwards.
-
-Pre-lab 8 is an exception. Its late penalty is under
-[Pre-lab 8](#pre-lab-8-your-proposal-and-sketch).
+- Late work is not accepted on the project. Nothing submitted after a deadline is marked
+- If you cannot finish in time, submit what you have. An incomplete submission earns some marks. A
+  missing one earns none
+- If something serious or ongoing is happening, use the
+  [academic concession](syllabus.md#academic-concessions) process. Tell us early, not afterwards
+- Pre-lab 8 has a different late penalty. It is under
+  [Pre-lab 8](#pre-lab-8-your-proposal-and-sketch)
 
 ---
 
 ## Details
 
+The sections below follow the order you will work in. Four of them match the four criteria in the
+[rubric](#grading-criteria): The app and its course concepts, Design requirements document, Working
+with Copilot, and Testing.
+
 ### The app and its course concepts <!-- {docsify-ignore} -->
 
-You build a single-file web app: one .html file that opens and runs in a browser. Choose something
-useful to a real person. Some ideas are a study planner, a meal tracker, a budget helper, a habit
-tracker, or a recommender such as "what should I cook tonight". Original ideas are welcome.
+You build a single-file web app: one .html file that opens and runs in a browser.
+
+- Choose something useful to a real person
+- Some ideas are a study planner, a meal tracker, a budget helper, a habit tracker, or a recommender
+  such as "what should I cook tonight"
+- Your own ideas are welcome
 
 You do not need to write HTML or JavaScript yourself. Your job is to guide Copilot clearly and to
 check what it produces.
@@ -141,12 +159,14 @@ Your app must use at least three course concepts. For example:
 
 ### Pre-lab 8: your proposal and sketch <!-- {docsify-ignore} -->
 
-Agree on your app before Lab 8, so your group can spend the lab building it. Your proposal and
-sketch are Pre-lab 8, handed in on [Canvas](https://canvas.ubc.ca/courses/190791/assignments).
+Agree on your app before Lab 8, so your group can spend the lab building it.
 
-One member submits one PDF for the group. It contains:
+- Hand in Pre-lab 8 on [Canvas](https://canvas.ubc.ca/courses/190791/assignments)
+- One member submits one PDF for the group
 
-- Your proposal, about one page, covering:
+The PDF contains:
+
+- Your proposal, about one page. It covers:
   - who your user is
   - what problem your app solves for them
   - the main features you plan
@@ -154,16 +174,18 @@ One member submits one PDF for the group. It contains:
 - A sketch of your app's main screen: what the user sees, and what they can click or type. A photo
   of a drawing on paper is fine
 
-Your TA reads it before Lab 8 and gives your group feedback in the lab, before you start building.
+Your TA reads it before Lab 8. Your TA then gives your group feedback in the lab, before you start
+building.
 
 Pre-lab 8 is different from the other pre-labs:
 
 - It is handed in on Canvas, not PrairieLearn
-- It is one submission for the whole group, and it counts as Pre-lab 8 for every member. It is part
-  of your Lab 8 grade, not your project grade
-- It is due the week before Lab 8, not when your section starts. Because it is off the lab
-  schedule, the course's default [late penalty](syllabus.md#late-deliverables) applies instead of
-  the pre-lab deductions on the [Labs](labs.md#the-pre-lab) page
+- It is one submission for the whole group, and it counts as Pre-lab 8 for every member
+- It is part of your Lab 8 grade, not your project grade
+- It is due the week before Lab 8, not when your section starts
+- Because it is not due at the start of a lab, the course's default
+  [late penalty](syllabus.md#late-deliverables) applies to it. The pre-lab deductions on the
+  [Labs](labs.md#the-pre-lab) page do not
 
 The late penalty for Pre-lab 8:
 
@@ -175,8 +197,8 @@ The late penalty for Pre-lab 8:
 
 ### Design requirements document <!-- {docsify-ignore} -->
 
-Write it before you prompt Copilot, starting from your proposal and your TA's feedback. It is 1 to
-2 pages, with six sections:
+Write it before you prompt Copilot. Start from your proposal and your TA's feedback. It is 1 to 2
+pages, with six sections in this order:
 
 1. User. Who your user is, and what problem your app solves for them.
 2. Features. What the app must do, numbered F1, F2 and so on. Write each one so that it can be
@@ -188,44 +210,52 @@ Write it before you prompt Copilot, starting from your proposal and your TA's fe
 6. Design change log. What changed while you were building, and why.
 
 Use the document to guide your prompts, and later to decide what to test. When your design
-changes, update the document and record the change and its reason in the design change log.
+changes, update the document. Record the change and its reason in the design change log.
 
 ### Working with Copilot <!-- {docsify-ignore} -->
 
-Use Microsoft Copilot, signed in with your UBC student account, so your conversations are covered
-by UBC's data protection. UBC IT's
+Use Microsoft Copilot, signed in with your UBC student account. That way, your conversations are
+covered by UBC's data protection. UBC IT's
 [Microsoft Copilot at UBC](https://it.ubc.ca/services/artificial-intelligence/microsoft-copilot-ubc)
 page explains how to sign in.
 
-Work from your design document. Prompt for one feature or one fix at a time, and describe it the
-way your design document does. A prompt for the whole app at once gives you code that is hard to
-check and hard to explain.
+How to prompt:
 
-Read what Copilot gives you before you use it, and run the app after every change. That way you
-know which change broke something.
+- Work from your design document
+- Prompt for one feature or one fix at a time, and describe it the way your design document does.
+  A prompt for the whole app at once gives you code that is hard to check and hard to explain
+- Read what Copilot gives you before you use it
+- Run the app after every change, so you know which change broke something
 
-Keep every conversation, from the first prompt to your final code, including the ones on each
-member's account. To make your transcripts PDF:
+Keep every conversation, from the first prompt to your final code. This includes the conversations
+on each member's account. To make your transcripts PDF:
 
 1. Open each conversation and print the page to PDF
 2. Combine all the PDFs into one file, in the order you had the conversations
 
-If anyone in your group edits the code by hand, write down where in your testing report.
+If anyone in your group edits the code by hand, say where in your testing report.
 
 > [!TIP]
-> Use made-up data when you build and test. Do not put your own or anyone else's real personal
+> Use invented data when you build and test. Do not put your own or anyone else's real personal
 > information into Copilot or into your app. The AI Policy asks you to
 > [protect privacy](ai-policy.md#protect-privacy-and-course-material).
 
 ### Testing <!-- {docsify-ignore} -->
 
-Decide what needs testing, and why, before you start. Begin with your design document: every
-feature needs at least one test, and your risks tell you where the app is most likely to fail.
+Decide what needs testing, and why, before you start. Begin with your design document:
 
-For each test, record what you tested and why, what you expected, and what actually happened. When
-a test fails, fix the problem, run the test again, and record the new result.
+- Every feature needs at least one test
+- Your risks show you where the app is most likely to fail
 
-Take a screenshot of each test's result and label it with the test number. The screenshots go in
+For each test, record:
+
+- what you tested, and why
+- what you expected
+- what actually happened
+
+When a test fails, fix the problem, run the test again, and record the new result.
+
+Take a screenshot of each test's result, and label it with the test number. The screenshots go in
 an appendix at the end of your testing report.
 
 Here is an example row for your test table:
@@ -238,7 +268,7 @@ Some ways to find bugs:
 
 - Try empty, very large or unexpected input
 - Click every button, including in an unexpected order
-- Ask someone who has not seen the app to use it without help, and watch where they get stuck
+- Ask someone who has not seen the app to use it without help, and watch where they have trouble
 
 ### Going further <!-- {docsify-ignore} -->
 
@@ -250,18 +280,14 @@ Meets Expectations, plus every item listed for it below.
 | Design requirements document | Each risk names the feature it affects, by its number, and how the app should respond. Each entry in the design change log names the test, by its number, or the Copilot conversation that led to the change. |
 | The app and its course concepts | For each course concept, name the part of the code that carries it, such as a function or a variable, and explain in one or two sentences what that code does. Put this in the course concepts section of your design document. |
 | Testing | Give every risk in your design document its own test, as well as every feature. Run at least one test with someone outside your group who uses the app without help, and record where they hesitated or went wrong. If they had no trouble, say so, and record what they did. |
-| Working with Copilot | In your testing report, describe at least two places where Copilot got something wrong. For each one, give the page of your transcripts where it happened, say how you noticed, and say what fixed it. If Copilot got fewer than two things wrong, describe each one it did, and make up the rest with a feature where its first answer worked: give the transcript page and the test, by its number, that showed it was right. |
+| Working with Copilot | In your testing report, describe at least two places where Copilot got something wrong. For each one, give the page of your transcripts where it happened, say how you noticed, and say what fixed it. If Copilot got fewer than two things wrong, describe each one it did. For each example still missing, describe a feature where Copilot's first answer worked, and give the transcript page and the test, by its number, that showed it was right. |
 
 ---
 
 ## Grading criteria
 
-Use this rubric to check your work before you submit. Part B is out of 100 points across four
-criteria. Your TA places each criterion in one of the four bands described in
-[How this is graded](project-2.md#how-this-is-graded), starts at the top of that band, and takes
-points off for mistakes within it. Testing is worth the most points, so plan the most time for it.
-The Exceeds Expectations row of each table summarizes that criterion's
-[Going further](#going-further) items.
+Use this rubric to check your work before you submit. Your Part B grade is based on four criteria,
+out of 100 points:
 
 | Criterion | Marked from | Points |
 | :-- | :-- | :--: |
@@ -270,6 +296,16 @@ The Exceeds Expectations row of each table summarizes that criterion's
 | 3. Testing | Testing report | 35 |
 | 4. Working with Copilot | Copilot transcripts and testing report | 25 |
 | Total | | 100 |
+
+How your TA marks each criterion:
+
+- Your TA places it in one of the four bands described in
+  [How this is graded](project-2.md#how-this-is-graded)
+- Your TA starts at that band's Starts at score, in the tables under [Grading scale](#grading-scale)
+- Your TA takes points off for mistakes within the band
+
+Testing is worth the most points, so plan the most time for it. The Exceeds Expectations row of
+each table summarizes that criterion's [Going further](#going-further) items.
 
 Part B receives a group grade, and it is not multiplied by peer evaluation.
 
@@ -304,7 +340,7 @@ TA uses the lowest one that applies.
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 35 | Everything in Meets Expectations, plus a test for every risk, and one test with someone outside your group, with what you observed, or a note that they had no trouble. |
 | Meets Expectations (A-, A) | 31 | Your report explains how you decided what to test, and why. Every feature has at least one test, linked by its number. Each test records what you tested and why, what you expected, what happened and what you changed. Every failed test you fixed was run again, and its new result is recorded. The appendix has a labelled screenshot for each test. The report is 2 to 4 pages, not counting the appendix. |
-| Approaches Expectations (B- to B+) | 27.5 | The testing has gaps. For example, a feature has no test, some rows are missing the expected or actual result, fixed failures were not run again, or several tests have no screenshot. |
+| Approaches Expectations (B- to B+) | 27.5 | The testing is incomplete. For example, a feature has no test, some rows are missing the expected or actual result, fixed failures were not run again, or several tests have no screenshot. |
 | Not Within Expectations (C+ and below) | 23 | There is no test table, most features have no test, or there are no screenshots. |
 
 ### 4. Working with Copilot (25 points) <!-- {docsify-ignore} -->
@@ -313,7 +349,7 @@ TA uses the lowest one that applies.
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus at least two places where Copilot got something wrong, each with its transcript page, how you noticed and what fixed it. If there were fewer than two, a feature where its first answer worked, with its transcript page and test number, for each one missing. |
 | Meets Expectations (A-, A) | 22 | One PDF with every Copilot conversation used to build the app, in order, from the first prompt to the final code. The prompts work from your design document, one feature or fix at a time. Your testing report lists any code edited by hand, and it starts with your AI use statement. |
-| Approaches Expectations (B- to B+) | 19.5 | The transcripts have gaps, such as a missing conversation or no path to the final code. Also Approaches Expectations: most prompts ask for large parts of the app at once without reference to your design, or the AI use statement is missing. |
+| Approaches Expectations (B- to B+) | 19.5 | The transcripts are incomplete, such as a missing conversation, or they do not show how you reached the final code. Also Approaches Expectations: most prompts ask for large parts of the app at once without reference to your design, or the AI use statement is missing. |
 | Not Within Expectations (C+ and below) | 16.5 | There are no transcripts, or the transcripts do not lead to the app you submitted. |
 
 ---

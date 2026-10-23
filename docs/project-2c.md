@@ -13,13 +13,19 @@
 
 ## Overview
 
-Part C is group work, worth 10%. Your group presents in person, in one session in Week 13. The
-dates are in [What you hand in](project-2.md#what-you-hand-in) on the Project 2 page. Attending is
-mandatory, and it is a [passing requirement](syllabus.md#passing-criteria).
+Part C is where your group shows, in person, that it understands the app it built, including the
+code Copilot wrote.
 
 A viva voce is an oral exam. Your group demonstrates its app, explains the decisions behind it, and
-answers our questions out loud. It is where you show that your group understands what it built,
-including the code Copilot wrote.
+answers our questions out loud.
+
+The goal is that every member can explain any part of your app: what it does, why you designed it
+that way, and how you tested it.
+
+- Part C is group work, worth 10% of your course grade
+- Your group presents in person, in one session in Week 13. The dates are in
+  [What you hand in](project-2.md#what-you-hand-in) on the Project 2 page
+- Attending is mandatory, and it is a [passing requirement](syllabus.md#passing-criteria)
 
 ### Before you start <!-- {docsify-ignore} -->
 
@@ -42,11 +48,15 @@ work.
 
 - Demo. Show your app running, and show each of its main features
 - Explain your choices. Justify your design and code decisions
-- Questions. The teaching team asks questions, and any member may be asked about any part of the
-  app, not only the part they built
+- Questions. The teaching team asks questions. Any member may be asked about any part of the app,
+  not only the part they built
 
-How long each session is, how to book your slot, where it takes place and what you may bring will
-be announced closer to the date.
+We will announce these details closer to the date:
+
+- how long each session is
+- how to book your session
+- where it takes place
+- what you may bring
 
 <!-- TODO: instructor decision required. Session length and split between demo and questions,
 booking, room, and permitted materials (the AI Policy says "Any prepared materials must follow the
@@ -56,7 +66,8 @@ presentation instructions", so this page must eventually say what is allowed). -
 
 ## Submission
 
-There is nothing to hand in for Part C. Your group presents its app in person, in your session.
+- There is nothing to hand in for Part C
+- Your group presents its app in person, in your session
 
 ---
 
@@ -75,11 +86,9 @@ There is nothing to hand in for Part C. Your group presents its app in person, i
 
 ## Late policy
 
-Attending is mandatory, and it is a [passing requirement](syllabus.md#passing-criteria).
-
-If something serious or ongoing is happening, use the
-[academic concession](syllabus.md#academic-concessions) process and tell us early rather than
-afterwards.
+- Attending is mandatory, and it is a [passing requirement](syllabus.md#passing-criteria)
+- If something serious or ongoing is happening, use the
+  [academic concession](syllabus.md#academic-concessions) process. Tell us early, not afterwards
 
 ---
 
@@ -94,7 +103,8 @@ your testing report.
 To prepare your demo:
 
 - Test your demo on the device you will present with
-- Decide who demonstrates which feature, and practise the handovers
+- Decide who demonstrates which feature
+- Practise moving from one speaker to the next
 
 ### Design decisions and course concepts <!-- {docsify-ignore} -->
 
@@ -104,25 +114,25 @@ We ask about your design decisions:
 - Why did you design it this way instead of another way?
 - How does your app use the course concepts you chose?
 
-Connect your answers to your user. "Copilot suggested it" is not a reason on its own. "We kept it
-because it makes the next meal easier for our user to find" is.
+Connect your answers to your user. "Copilot suggested it" is not enough as a reason. "We kept it
+because it makes the next meal easier for our user to find" is a reason.
 
 ### Testing and bugs <!-- {docsify-ignore} -->
 
 We ask about testing and finding bugs:
 
 - How did you decide what to test?
-- What methods did you use to catch bugs, such as unexpected input, clicking every button, or
+- What methods did you use to find bugs, such as unexpected input, clicking every button, or
   having someone else try the app?
 - Tell us about a bug you found. How did you find it, and how did you fix it?
 
 ### Changes along the way <!-- {docsify-ignore} -->
 
-We ask about changes along the way:
+We ask about the changes you made while building:
 
 - What changed from your design requirements document, and why?
-- Where did Copilot get it wrong, and how did you notice? If it never did, how did you check its
-  code?
+- Where did Copilot get something wrong, and how did you notice? If it never did, how did you check
+  its code?
 
 ### Delivery <!-- {docsify-ignore} -->
 
@@ -130,15 +140,15 @@ These rules exist because the viva voce is where you show your own understanding
 make that visible.
 
 - Make sure every member can explain every part of the app, including code they did not prompt for
-- Speak, do not read. A few words of notes are fine. Reading an answer word for word from a script,
-  your documents or your slides puts your delivery, and the criterion that answer belongs to, in
-  Approaches Expectations.
+- Speak, do not read. A few words of notes are fine
+- If you read an answer word for word from a script, your documents or your slides, two criteria
+  drop to Approaches Expectations: Delivery, and the criterion that answer belongs to
 - Speak so that everyone in the room can hear you. If you do not hear or understand a question, ask
-  us to repeat it.
+  us to repeat it
 - Use your documents as evidence. When you mention a feature or a test, name it by its number, such
-  as F2 or T3.
-- Practise together before your session. A demo that runs without restarts or long pauses, with
-  each member picking up from the one before, is what reaches Exceeds Expectations.
+  as F2 or T3
+- Practise together before your session. To reach Exceeds Expectations, your demo runs without
+  restarts or long pauses, and each member continues from where the last one stopped
 
 ### Going further <!-- {docsify-ignore} -->
 
@@ -151,20 +161,14 @@ Meets Expectations, plus every item listed for it below.
 | Design decisions and course concepts | For at least two features, name a different design you considered and the reason, tied to your user, that you chose against it. |
 | Testing and bugs | For one bug, explain its cause in the code: which part of the code was wrong and why, not only what the user saw. If you found no bugs, explain in the code how your app handles the input from your riskiest test. |
 | Changes along the way | Explain one change you made to how you prompted Copilot after it got something wrong, and what happened after that change. If Copilot never got anything wrong, explain one change you made to how you prompted it as the app grew, and why. |
-| Delivery | Practise until your demo and answers run without restarts, long pauses or anyone looking down to read. Each member, at least once, builds on a teammate's answer by connecting it to another part of the app or to a course concept. Handing the next question to a teammate does not count. |
+| Delivery | Practise until your demo and answers run without restarts, long pauses or anyone looking down to read. Each member, at least once, adds to a teammate's answer by connecting it to another part of the app or to a course concept. Handing the next question to a teammate does not count. |
 
 ---
 
 ## Grading criteria
 
-Use this rubric to prepare for your viva voce. It is marked out of 100 points across five
-criteria, the same way as [Part B](project-2b.md#grading-criteria), and that score is 90% of Part C.
-Design decisions and testing are worth the most points, so give them the most time. The Exceeds
-Expectations row of each table summarizes that criterion's [Going further](#going-further) items.
-
-The other 10% of Part C is your stand-ups 5 to 9 (5%) and the Project 2 retrospective (5%), and
-your peer evaluation multiplier applies to all of Part C. The
-[grade breakdown](project.md#your-individual-part-c-mark) shows how the pieces add up.
+Use this rubric to prepare for your viva voce. Your viva voce score is based on five criteria, out
+of 100 points:
 
 | Criterion | Points |
 | :-- | :--: |
@@ -175,8 +179,26 @@ your peer evaluation multiplier applies to all of Part C. The
 | 5. Delivery | 20 |
 | Total | 100 |
 
-Every criterion is marked from what happens in the viva voce. If a member reads an answer word for
-word, both Delivery and the criterion that answer belongs to drop to Approaches Expectations.
+How your TA marks each criterion:
+
+- Every criterion is marked from what happens in the viva voce
+- Your TA places each criterion in one of the four bands described in
+  [How this is graded](project-2.md#how-this-is-graded)
+- Your TA starts at that band's Starts at score, in the tables under [Grading scale](#grading-scale),
+  and takes points off for mistakes within the band
+- If a member reads an answer word for word, both Delivery and the criterion that answer belongs to
+  drop to Approaches Expectations
+
+Design decisions and testing are worth the most points, so give them the most time. The Exceeds
+Expectations row of each table summarizes that criterion's [Going further](#going-further) items.
+
+Your viva voce score is 90% of your Part C mark. The other 10% is:
+
+- your stand-ups 5 to 9 (5%)
+- the Project 2 retrospective (5%)
+
+Your peer evaluation multiplier applies to all of Part C. The
+[grade breakdown](project.md#your-individual-part-c-mark) shows how the pieces add up.
 
 ---
 
@@ -208,24 +230,24 @@ TA uses the lowest one that applies.
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
 | Exceeds Expectations (A+) | 25 | Everything in Meets Expectations, plus one bug explained at the level of the code that caused it. If you found no bugs, the code that handles your riskiest test explained instead. |
-| Meets Expectations (A-, A) | 22 | You explain how you decided what to test and which methods you used. You walk through one bug you found: how you found it, and how you fixed it. If you found no bugs, you say so and explain which test was most likely to find one, and why. |
-| Approaches Expectations (B- to B+) | 19.5 | Testing is described only in general terms, such as "we tried everything", the bug walk-through leaves out how you found it or how you fixed it, or you found no bugs and do not say which test was most likely to find one. |
+| Meets Expectations (A-, A) | 22 | You explain how you decided what to test and which methods you used. You explain one bug you found, step by step: how you found it, and how you fixed it. If you found no bugs, you say so and explain which test was most likely to find one, and why. |
+| Approaches Expectations (B- to B+) | 19.5 | Testing is described only in general terms, such as "we tried everything", the bug explanation leaves out how you found it or how you fixed it, or you found no bugs and do not say which test was most likely to find one. |
 | Not Within Expectations (C+ and below) | 16.5 | Your group cannot describe a test you ran or a bug you found. |
 
 ### 4. Changes along the way (15 points) <!-- {docsify-ignore} -->
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one change in how you prompted Copilot after it went wrong, and what happened next. If it never went wrong, one change in how you prompted it as the app grew, and why. |
-| Meets Expectations (A-, A) | 13 | You explain what changed from your design requirements document and why. You describe at least one place where Copilot got it wrong, and how you noticed. If Copilot never got anything wrong, you say so and explain how you checked its code. |
+| Exceeds Expectations (A+) | 15 | Everything in Meets Expectations, plus one change in how you prompted Copilot after it got something wrong, and what happened next. If it never got anything wrong, one change in how you prompted it as the app grew, and why. |
+| Meets Expectations (A-, A) | 13 | You explain what changed from your design requirements document and why. You describe at least one place where Copilot got something wrong, and how you noticed. If Copilot never got anything wrong, you say so and explain how you checked its code. |
 | Approaches Expectations (B- to B+) | 11.5 | Changes are listed without reasons, or the Copilot example does not say how you noticed. |
-| Not Within Expectations (C+ and below) | 10 | Your group cannot name a change, or a place where Copilot got it wrong. |
+| Not Within Expectations (C+ and below) | 10 | Your group cannot name a change, or a place where Copilot got something wrong. |
 
 ### 5. Delivery (20 points) <!-- {docsify-ignore} -->
 
 | Band | Starts at | What your work shows |
 | :-- | :--: | :-- |
-| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a well-practised session: no restarts, long pauses or anyone looking down to read, and every member building on a teammate's answer at least once. |
+| Exceeds Expectations (A+) | 20 | Everything in Meets Expectations, plus a well-practised session: no restarts, long pauses or anyone looking down to read, and every member adding to a teammate's answer at least once. |
 | Meets Expectations (A-, A) | 17.5 | Every member answers questions, including about parts of the app they did not build. Each member answers in their own words, from a few words of notes at most, without AI, within the [AI Policy](ai-policy.md#independent-assessments-have-strict-boundaries). |
 | Approaches Expectations (B- to B+) | 15.5 | At least one of these happens: a member does not answer; members can answer only about the parts they built; or a member reads an answer word for word from a script, notes or slides. |
 | Not Within Expectations (C+ and below) | 13 | One or two members give almost every answer, or most answers are read aloud. |

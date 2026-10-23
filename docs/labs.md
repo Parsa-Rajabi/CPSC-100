@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Oct 22 | Pre-lab 8 is now your Project 2 proposal, on Canvas. |
+| Oct 22 | Pre-lab 8 is now your Project 2 proposal, on Canvas. Lab 6 now goes from Snap! to Python. |
 | Oct 13 | Pre-labs are marked for completion, and Pre-lab 5 is due early. Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
 
@@ -57,7 +57,7 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 |  5   |   3    | Oct 7 / 8   | [Project 1A](project-1.md#part-a-your-digital-footprint)      |
 |  6   |   4    | Oct 14 / 15 | [Project 1B](project-1.md#part-b-the-ai-detector-experiment)  |
 |  7   |   5    | Oct 21 / 22 | [Project 1C](project-1.md#part-c-algorithmic-bias-case-study) |
-|  8   |   6    | Oct 28 / 29 | [Project 2](project-2.md) intro: debugging practice in Snap!   |
+|  8   |   6    | Oct 28 / 29 | [Project 2](project-2.md) intro: from Snap! to Python          |
 |  9   |   7    | Nov 4 / 5   | Python, and [Project 2A](project-2a.md) |
 |  10  | *none* |             | *No lab. Midterm Break.*                                      |
 |  11  |   8    | Nov 18 / 19 | [Project 2B](project-2b.md): building with an AI coding assistant |

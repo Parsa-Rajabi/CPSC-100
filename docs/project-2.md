@@ -1,10 +1,10 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> This page is not finished yet, but everything below is solid enough to plan around. Please read
-> it now. A few things are still to come:
+> This page is not finished yet, but everything below is ready for you to plan with. Please read it
+> now. A few things are still to come:
 >
-> - The viva voce format: how long each session is, how to book your slot, where it takes place,
+> - The viva voce format: how long each session is, how to book your session, where it takes place,
 >   and what you may bring
 > - Rough time estimates for each part
 >
@@ -12,7 +12,7 @@
 > [Part B](project-2b.md#grading-criteria) and [Part C](project-2c.md#grading-criteria). Read
 > [How this is graded](#how-this-is-graded) before you start Part B or Part C.
 >
-> The schedule below may still change. Anything that moves gets recorded in the changelog.
+> The schedule below may still change. If anything changes, we record it in the changelog.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -27,7 +27,7 @@
 
 ## Overview
 
-Project 2 takes you from reading code to building with it, and then to explaining what you built.
+Project 2 is where you fix code, build with code, and explain what you built.
 
 - [Part A](project-2a.md). You fix a Python program that does not work, and explain each bug in
   course terms. Finding a bug and explaining it are separate skills, and Part A marks the
@@ -37,12 +37,12 @@ Project 2 takes you from reading code to building with it, and then to explainin
 - [Part C](project-2c.md). In the viva voce, your group demonstrates the app and answers our
   questions about the decisions behind it, in person.
 
+The goal of all three parts is the same. You are responsible for any code you hand in, whether you
+wrote it, fixed it or asked an AI tool to write it. Each part asks you to show that you understand
+what your code does, and why.
+
 Each part has its own page, with the same sections in the same order: Overview, Submission, AI
 disclosure, Late policy, Details, Grading criteria, Grading scale and Regrading criteria.
-
-One idea runs through all three parts. Code you hand in is code you take responsibility for, whether
-you wrote it, fixed it or prompted an AI tool to write it. Each part asks you to show that you
-understand what your code does and why.
 
 | Part | What it is | Who does it | Weight | Due |
 | :--: | :--------- | :---------- | :----: | :-- |
@@ -50,14 +50,14 @@ understand what your code does and why.
 | B | Vibe coding: building a web app with Copilot | Group | 4% | Tue Nov 24, 11:59pm |
 | C | Viva voce | Group, with an individual multiplier from [peer evaluation](#peer-evaluation) | 10% | Your session, between Wed Dec 2 and Fri Dec 4 |
 
-Those weights are percentages of your final course grade, not shares of this project. Together
-they come to 15%, and Project 1 is the other 15%. See
-[Course Evaluation](syllabus.md#course-evaluation) for the full picture.
+These weights are percentages of your final course grade, not shares of this project. Together they
+are 15% of your grade, and Project 1 is the other 15%. All course weights are in
+[Course Evaluation](syllabus.md#course-evaluation).
 
 > [!WARNING]
-> Part C is worth more than Parts A and B combined, and it cannot be prepared at the last minute.
-> Every member must be able to explain every part of your app, so build that understanding while
-> you build the app.
+> Part C is worth more than Parts A and B together. You cannot prepare for it in the last few days.
+> Every member must be able to explain every part of your app, so learn how each part works while
+> you build it.
 
 > [!ATTENTION]
 > To pass this course you need at least 50% on the course project overall, counting Project 1 and
@@ -68,9 +68,9 @@ they come to 15%, and Project 1 is the other 15%. See
 
 ## What you hand in
 
-Check each deadline on its assignment page in [Canvas](https://canvas.ubc.ca/courses/190791/assignments), which is also where
-you hand in your work. The table lists every Project 2 deadline so you can plan. All times are
-Pacific time.
+You hand in your work on [Canvas](https://canvas.ubc.ca/courses/190791/assignments). Each assignment
+page on Canvas shows its deadline, so check the deadline there. The table lists every Project 2
+deadline so you can plan. All times are Pacific time.
 
 | What you hand in | Who | Due | Where |
 | :--------------- | :-- | :-- | :---- |
@@ -95,8 +95,8 @@ own page once the Project 2A, Pre-lab 8, Project 2B and retrospective assignment
 
 | Week | Lab | What happens | Due that week |
 | :--: | :-: | :----------- | :------------ |
-| 8 | Lab 6 | Project 2 begins. Debugging practice in Snap!, on a program we give everyone. | Project 1 deadlines. See [Project 1](project-1.md#the-flow) |
-| 9 | Lab 7 | Part A runs in lab, start to finish. | Part A, the day after your lab<br>Stand-up 5, Fri Nov 6 |
+| 8 | Lab 6 | Project 2 begins. You go from Snap! to Python. | Project 1 deadlines. See [Project 1](project-1.md#the-flow) |
+| 9 | Lab 7 | Part A runs during the lab. | Part A, the day after your lab<br>Stand-up 5, Fri Nov 6 |
 | 10 | *no lab* | Midterm Break. Your group agrees on its app and writes its proposal. | Pre-lab 8, your proposal and sketch, Thu Nov 12<br>Stand-up 6, Fri Nov 13 |
 | 11 | Lab 8 | Working with an AI coding assistant. Feedback on your proposal, then time to work on Part B. | Stand-up 7, Fri Nov 20 |
 | 12 | Lab 9 | Work session to prepare for the viva voce. | Part B, Tue Nov 24<br>Stand-up 8, Fri Nov 27 |
@@ -104,22 +104,22 @@ own page once the Project 2A, Pre-lab 8, Project 2B and retrospective assignment
 
 Three things to notice:
 
-- Lab 6 is practice. The Snap! program builds the skill that Part A uses, and it is marked like
-  any other lab, not as part of your project grade.
-- Week 10 has no lab, but Pre-lab 8 is due that week. Part A fills Lab 7, so arrange a time for
-  your group to meet before Pre-lab 8 is due.
-- Part B is due the day before Lab 9. Lab 8 is your only lab for building the app, so most of Part
-  B happens outside lab. Lab 9, and the project work day in lecture that week, are for preparing
-  your viva voce.
+- Lab 6 is practice. Going from Snap! to Python prepares you for the Python program in Part A.
+  Lab 6 is marked like any other lab, not as part of your project grade.
+- Week 10 has no lab, but Pre-lab 8 is due that week. Part A takes all of Lab 7, so arrange a time
+  for your group to meet before Pre-lab 8 is due.
+- Part B is due before Lab 9. Lab 8 is your only lab for building the app, so most of Part B
+  happens outside lab. Lab 9, and the project work day in lecture that week, are for preparing your
+  viva voce.
 
 ---
 
 ## Working as a group
 
-Three things run alongside Project 2, the same way as in Project 1: weekly stand-ups, a
-retrospective and peer evaluation. All three affect your individual Part C mark. The full rules
-and worked examples are under [Working as a group](project-1.md#working-as-a-group) on the
-Project 1 page and on the [Project](project.md#group-process) page.
+Three group activities continue during Project 2, as in Project 1: weekly stand-ups, a
+retrospective and peer evaluation. All three affect your individual Part C mark. The full rules and
+worked examples are under [Working as a group](project-1.md#working-as-a-group) on the Project 1
+page and on the [Project](project.md#group-process) page.
 
 ### Weekly stand-ups <!-- {docsify-ignore} -->
 
@@ -134,48 +134,59 @@ toward Project 2:
 | 8 | Fri Nov 27 |
 | 9 | Fri Dec 4  |
 
-Each one is marked complete, partial or incomplete, and together they are 5% of your Part C mark.
-A late stand-up costs 0.5% of your individual Part C mark for every 12 hours it is late. Part of
-12 hours counts as a full 12 hours. Your one free late stand-up for the term covers the first one
-you post late, up to 72 hours. See
-[Late and missing stand-ups](project-1.md#late-and-missing-stand-ups).
+How stand-ups are marked:
+
+- Each one is marked complete, partial or incomplete
+- Together they are 5% of your Part C mark
+- A late stand-up costs 0.5% of your individual Part C mark for every 12 hours it is late. Part of
+  12 hours counts as a full 12 hours
+- Your one free late stand-up for the term covers the first one you post late, up to 72 hours. See
+  [Late and missing stand-ups](project-1.md#late-and-missing-stand-ups)
 
 ### Retrospective <!-- {docsify-ignore} -->
 
 Your group's second retrospective covers teamwork during Project 2, and lessons for future groups.
-It is 5% of your Part C mark, and its deadline is in [What you hand in](#what-you-hand-in).
 
-A late retrospective costs your group 1% of its Part C grade for every 12 hours it is late. Part of
-12 hours counts as a full 12 hours. See [Retrospectives](project.md#retrospectives).
+- It is 5% of your Part C mark
+- Its deadline is in [What you hand in](#what-you-hand-in)
+- A late retrospective costs your group 1% of its Part C grade for every 12 hours it is late. Part
+  of 12 hours counts as a full 12 hours. See [Retrospectives](project.md#retrospectives)
 
 ### Peer evaluation <!-- {docsify-ignore} -->
 
 Your teammates rate your contribution to Parts B and C, so how you work with your group in Part B
-counts too. Their ratings become a multiplier on your whole Part C mark, the heaviest part of each
-project. Parts A and B are not multiplied. See [Project Peer Evaluation](project-peer-evaluation.md).
+counts too.
+
+- Their ratings become a multiplier on your whole Part C mark, the part of each project that is
+  worth the most
+- Parts A and B are not multiplied
+- The details are on [Project Peer Evaluation](project-peer-evaluation.md)
 
 iPeer turns your ratings into part of each teammate's grade. Rate them on what they did, with the
 same care you would want from them.
 
 ### If contribution is uneven <!-- {docsify-ignore} -->
 
-Raise problems early, with your group first and then with your TA. If you need us to step in,
-contact us at least 12 days before the deadline, and set up a meeting with everyone present at least
-9 days before it:
+Raise problems early, with your group first and then with your TA. If you need the teaching team to
+help:
+
+- Contact us at least 12 days before the deadline
+- Arrange a meeting with everyone present at least 9 days before the deadline
 
 | Deadline | Contact us by | Meet with us by |
 | :------- | :------------ | :-------------- |
 | Part B, Tue Nov 24 | Thu Nov 12 | Sun Nov 15 |
 | Viva voce, from Wed Dec 2 | Fri Nov 20 | Mon Nov 23 |
 
-The full process is under
-[If contribution is uneven](project.md#if-contribution-is-uneven) on the Project page.
+The full process is under [If contribution is uneven](project.md#if-contribution-is-uneven) on the
+Project page.
 
 ---
 
 ## Academic integrity
 
-Fabrication means presenting something as true when it is not. In this project that includes:
+Fabrication means presenting something as true when it is not. In this project, fabrication
+includes:
 
 - Reporting a test you did not run, or a result you did not get
 - Handing in a screenshot that was edited, or that shows a different version of the app than the
@@ -192,8 +203,8 @@ fabrication.
 > Your individual Part A is not affected by a fabrication finding in a group part.
 
 AI use is covered by the [AI Policy](ai-policy.md). Whatever tools you use, you are responsible for
-the accuracy of what you hand in, and you should be able to explain anything submitted under your
-name. In the viva voce, we will ask you to.
+the accuracy of what you hand in. You must be able to explain anything submitted under your name.
+In the viva voce, we will ask you to.
 
 <!-- TODO: instructor decision required. The fabrication policy mirrors Project 1's, including its
 two open items: who gets the project-level zero when the responsible member cannot be identified,
@@ -204,13 +215,16 @@ integrity process. -->
 
 ## How this is graded
 
-Read this section before you start Part B or Part C. Part A has its own
-[rubric](project-2a.md#grading-criteria), marked complete, partial or incomplete. Parts B and C use
-the [Part B rubric](project-2b.md#grading-criteria) and the
-[Part C rubric](project-2c.md#grading-criteria). Every criterion in them matches something its
-part's page already asks for, so there are no hidden requirements. The only additions are the
-optional Going further items in [Part B](project-2b.md#going-further) and
-[Part C](project-2c.md#going-further), for groups aiming for an A+.
+Read this section before you start Part B or Part C.
+
+- Part A has its own [rubric](project-2a.md#grading-criteria), marked complete, partial or
+  incomplete
+- Parts B and C use the [Part B rubric](project-2b.md#grading-criteria) and the
+  [Part C rubric](project-2c.md#grading-criteria)
+- Every criterion in these rubrics matches something its part's page already asks for, so there are
+  no hidden requirements
+- The only additions are the optional Going further items in [Part B](project-2b.md#going-further)
+  and [Part C](project-2c.md#going-further), for groups aiming for an A+
 
 ### The four bands <!-- {docsify-ignore} -->
 
@@ -220,7 +234,7 @@ band sets the share of those points you can earn.
 | Band | What it means | UBC letter grades | Share of the criterion's points |
 | :-- | :-- | :-- | :--: |
 | Exceeds Expectations | Everything in Meets Expectations, plus every Going further item for that criterion | A+ | 90% to 100% |
-| Meets Expectations | The required work is complete and matches the description. Small slips cost points within the band | A-, A | 80% to 89% |
+| Meets Expectations | The required work is complete and matches the description. Small mistakes lower the score within the band | A-, A | 80% to 89% |
 | Approaches Expectations | The work is mostly there, but something important is unclear, incomplete or missing | B-, B, B+ | 68% to 79% |
 | Not Within Expectations | Important parts are missing, or there is not yet enough evidence of the work | C+ and below | 0% to 67% |
 
@@ -232,10 +246,10 @@ Three things to know:
 - Meets Expectations is the expected result. Doing everything the part's page asks for, and doing
   it well, earns an A- or an A on that criterion.
 - Exceeds Expectations is optional and defined in advance. Complete everything at Meets
-  Expectations first, because Going further work does not make up for a missing requirement.
-  Doing only some of a criterion's Going further items keeps it in Meets Expectations.
-- Your TA picks the band first and starts at the top of it, the Starts at number in each rubric
-  table. Small mistakes take points off within the band, and your feedback names each one.
+  Expectations first, because Going further work does not replace a missing requirement. Doing only
+  some of a criterion's Going further items keeps it in Meets Expectations.
+- Your TA picks the band first, then starts at that band's Starts at score in the rubric table.
+  Small mistakes take points off within the band, and your feedback names each one.
 
 ### What is already decided <!-- {docsify-ignore} -->
 
@@ -250,16 +264,15 @@ Three things to know:
 > [!ATTENTION]
 > Late work is not accepted on the project. Nothing submitted after a deadline is marked.
 >
-> Some submissions are exceptions: a late one is still required, and it costs marks instead. These
-> are [stand-ups](#weekly-stand-ups), [retrospectives](project.md#retrospectives) and
+> Some submissions are exceptions. A late one is still required, and lateness lowers your mark
+> instead. These are [stand-ups](#weekly-stand-ups), [retrospectives](project.md#retrospectives) and
 > [peer evaluations](project-peer-evaluation.md#late-peer-evaluations).
 >
-> If you are running out of time, submit a partial document rather than nothing. An incomplete
-> submission earns some marks; a missing one earns none.
+> If you cannot finish in time, submit what you have. An incomplete submission earns some marks. A
+> missing one earns none.
 >
 > If something serious or ongoing is happening, use the
-> [academic concession](syllabus.md#academic-concessions) process and tell us early rather than
-> afterwards.
+> [academic concession](syllabus.md#academic-concessions) process. Tell us early, not afterwards.
 
 ---
 
