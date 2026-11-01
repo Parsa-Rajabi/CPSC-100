@@ -1,15 +1,15 @@
 # Final Exam
 
 > [!NOTE]
-> This page is still in development. Final exam dates are set by the university and
-> are published partway through the term. This page will be updated as soon as the date,
-> time, and room are announced.
+> This page is still in development. The room is set by the university and has not been
+> announced yet. We will add it here as soon as it is.
 
 <details class="changelog">
 <summary>Changelog</summary>
 
 | Date | Update |
 | :--: | :----- |
+| Nov 1 | Added the final exam date and time. The room is still to be confirmed. |
 | Sep 24 | Reworded for readability. |
 
 </details>
@@ -18,9 +18,9 @@
 
 | Item | Details |
 | :--- | :------ |
-| Date | *to be confirmed* |
-| Time | *to be confirmed* |
-| Location | *to be confirmed* |
+| Date | Saturday, Dec 19, 2026 |
+| Time | 8:30am |
+| Location | *to be confirmed by the university* |
 | Format | In person, on paper |
 | Required ID | UBC student ID |
 | Handwritten cheat sheet | *to be confirmed* |

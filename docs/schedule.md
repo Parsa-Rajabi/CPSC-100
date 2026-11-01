@@ -12,6 +12,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 1 | Added the final exam, Sat Dec 19 at 8:30am. The project work day moved to Mon Nov 23, with no class, and Artificial Intelligence 4 to Wed Nov 25. |
 | Oct 23 | Added Pre-lab 8, the Project 2 proposal, due Thu Nov 12. |
 | Oct 13 | Added the Project 2 dates and Pre-lab 5, due Mon Oct 19. |
 | Oct 11 | Corrected the Project 1A due date in Week 5: the day after your lab, Thu Oct 8 or Fri Oct 9, not the end of the lab hour. |
@@ -40,10 +41,10 @@ Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and 
 | 9 | Nov 2 - 6 | W9A: Programming 3<br>W9B: Programming 4<br>W9C: Python 3, putting it together | Quiz 4 continues to Wed Nov 4 | [Lab 7](labs.md#schedule) | [Project 2A](project-2a.md), the day after your lab, Thu Nov 5 or Fri Nov 6<br>Stand-up 5, Fri Nov 6, 4:00pm |
 | 10 | Nov 9 - 13 | W10A: no class, Midterm Break<br>W10B: no class, Midterm Break<br>W10C: Digital Adolescence consolidation | *No quiz* | *No lab this week* | [Pre-lab 8](project-2b.md#pre-lab-8-your-ideas-sketches-and-proposal), your group's Project 2 ideas, sketches and proposal (one submission per group), Thu Nov 12<br>Stand-up 6, Fri Nov 13, 4:00pm |
 | 11 | Nov 16 - 20 | W11A: Artificial Intelligence 1<br>W11B: Artificial Intelligence 2<br>W11C: Artificial Intelligence 3 | [Quiz 5](quizzes.md#schedule), Wed Nov 18 to Wed Nov 25 | [Lab 8](labs.md#schedule) | Stand-up 7, Fri Nov 20, 4:00pm |
-| 12 | Nov 23 - 27 | W12A: Artificial Intelligence 4<br>W12B: Project work day<br>W12C: Digital Consent | Quiz 5 continues to Wed Nov 25 | [Lab 9](labs.md#schedule) | [Project 2B](project-2b.md), Tue Nov 24<br>Stand-up 8, Fri Nov 27, 4:00pm |
+| 12 | Nov 23 - 27 | W12A: no class, project work day<br>W12B: Artificial Intelligence 4<br>W12C: Digital Consent | Quiz 5 continues to Wed Nov 25 | [Lab 9](labs.md#schedule) | [Project 2B](project-2b.md), Tue Nov 24<br>Stand-up 8, Fri Nov 27, 4:00pm |
 | 13 | Nov 30 - Dec 4 | W13A: Digital Traces<br>W13B: Computers and Society<br>W13C: Digital Adulthood consolidation | *No quiz* | [Lab 10](labs.md#schedule) | [Project 2C](project-2c.md), the viva voce, Wed Dec 2 to Fri Dec 4<br>Project 2 [retrospective](project.md#retrospectives) + [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, the last one, Fri Dec 4, 4:00pm |
 | 14 | Dec 7 | W14A: Course wrap-up. Last day of class. | | | |
-| - | see [important dates](syllabus.md#important-dates) | Final Exam Period | | | [Final Exam](final.md) |
+| - | see [important dates](syllabus.md#important-dates) | Final Exam Period | | | [Final Exam](final.md), Sat Dec 19, 8:30am |
 
 Labs run as a Wednesday/Thursday pair. When a pair is cancelled, both halves are cancelled. So L1E doesn't meet on Thursday Oct 1 or Thursday Nov 12, even though those aren't holidays. All five sections have the same number of labs, which is what the 7-of-9 attendance requirement assumes.
 
@@ -51,7 +52,7 @@ Labs run as a Wednesday/Thursday pair. When a pair is cancelled, both halves are
 
 Term dates, the drop deadline, Midterm Break, and the final exam period are on the [syllabus](syllabus.md#important-dates). The AI policy activity date will be added to the weekly table above once it is scheduled.
 
-There is no class on September 7 (Labour Day), September 30 (Truth and Reconciliation Day), October 12 (Thanksgiving), and November 9 and 11 (Midterm Break).
+There is no class on September 7 (Labour Day), September 30 (Truth and Reconciliation Day), October 12 (Thanksgiving), November 9 and 11 (Midterm Break), and November 23 (project work day).
 
 There is no lab in Week 4 or Week 10. Lab dates, grading, and attendance rules are on the [Labs](labs.md) page.
 
