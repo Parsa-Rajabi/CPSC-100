@@ -10,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 1 | The project work day moved to Mon Nov 23, with no class. |
 | Sep 24 | Clarified: one free lab late arrival per semester. Reworded for readability. |
 
 </details>
@@ -41,7 +42,7 @@ There is no cost to you. You do not need a paid iClicker subscription for this c
 
 Participation is recorded at every lecture, three times a week. Lecture times and the room are on the [syllabus](syllabus.md#lectures). Which sessions actually run, including holiday cancellations, is on the [Schedule](schedule.md).
 
-Two sessions are not graded. The first is Wednesday Sep 9, the opening day, which is used to test iClicker. The second is the project work day on Wednesday Nov 25, which is set aside for group work rather than an activity. Every other session counts, including Monday Dec 7, the course wrap-up and last day of class.
+Two sessions are not graded. The first is Wednesday Sep 9, the opening day, which is used to test iClicker. The second is the project work day on Monday Nov 23, which has no class and is set aside for group work. Every other session counts, including Monday Dec 7, the course wrap-up and last day of class.
 
 ## Checking your record
 

@@ -11,6 +11,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 1 | The project work day moved to Mon Nov 23, with no class. Use it to finish Part B. |
 | Oct 23 | Added the Project 2 overview and dates. Parts A, B and C each have their own page. |
 
 </details>
@@ -96,8 +97,8 @@ Three things to notice:
 - Week 10 has no lab, but Pre-lab 8 is due that week. Part A takes all of Lab 7, so arrange a time
   for your group to meet before Pre-lab 8 is due.
 - Part B is due before Lab 9. Lab 8 is your only lab for building the app, so most of Part B
-  happens outside lab. Lab 9, and the project work day in lecture that week, are for preparing your
-  viva voce.
+  happens outside lab. Use the project work day, Mon Nov 23, to finish Part B as a group. There is
+  no class that day. Lab 9 is for preparing your viva voce.
 
 ---
 

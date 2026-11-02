@@ -87,7 +87,7 @@ Each component has its own page with the full details. Click through for format,
 | [Labs](labs.md)                          |     8%     | Wednesdays + Thursdays |
 | [Project](project.md)                    |    30%     |  Throughout Semester   |
 | [Quizzes](quizzes.md)                    |    40%     | Wednesdays + Thursdays |
-| [Final Exam](final.md)                   |    20%     |          TBD           |
+| [Final Exam](final.md)                   |    20%     |  Sat Dec 19, 8:30am   |
 
 *Note: the course evaluation is subject to change until the end of the first week of classes. After this date, the evaluation will be considered final. Any changes will be communicated using a changelog.*
 
@@ -162,6 +162,7 @@ Source: https://vancouver.calendar.ubc.ca/dates-and-deadlines
 |           Last lab           | Dec 2 (Wed) / Dec 3 (Thu) |
 |         Last lecture         |    Monday, Dec 7, 2026    |
 |      Final exam period       |      Dec 11-22, 2026      |
+|   [Final exam](final.md)     | Saturday, Dec 19, 2026, 8:30am |
 
 A week-by-week view of lecture topics, labs, and deliverables is on the [Schedule](schedule.md) page.
 
