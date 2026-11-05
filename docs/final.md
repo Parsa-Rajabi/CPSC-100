@@ -2,13 +2,15 @@
 
 > [!NOTE]
 > This page is still in development. The room is set by the university and has not been
-> announced yet. We will add it here as soon as it is.
+> announced yet. The exam format will be announced closer to the date. We will add both here as
+> soon as they are.
 
 <details class="changelog">
 <summary>Changelog</summary>
 
 | Date | Update |
 | :--: | :----- |
+| Nov 5 | Removed the line saying the exam runs in ORCA. The format will be announced closer to the date. |
 | Nov 1 | Added the final exam date and time. The room is still to be confirmed. |
 | Sep 24 | Reworded for readability. |
 
@@ -21,7 +23,7 @@
 | Date | Saturday, Dec 19, 2026 |
 | Time | 8:30am |
 | Location | *to be confirmed by the university* |
-| Format | In person, on paper |
+| Format | *to be announced closer to the date* |
 | Required ID | UBC student ID |
 | Handwritten cheat sheet | *to be confirmed* |
 
@@ -68,7 +70,7 @@ Registration, Letters of Accommodation, and the Centre's own booking deadlines a
 Specific to this exam:
 
 - Confirm your arrangement with us 10 days before the final exam, by emailing the course admin address listed on [Course Communication](communication.md).
-- This exam runs in ORCA, and ORCA hosts most accommodations itself, so you book a session the normal way and your accommodations are applied there. Check ORCA's [CfA accommodations page](https://orca.ubc.ca/students/cfa-accommodations/) to see whether yours are on the supported list. If they are, do not also book with the Centre for Accessibility, since the Centre will cancel that booking.
+- How you book an accommodated sitting depends on the exam format, which will be announced closer to the date. We will add the steps here when it is.
 
 If you do not make and confirm arrangements, we will assume you are writing the final exam with the rest of the class, and no special accommodations will be in place.
 

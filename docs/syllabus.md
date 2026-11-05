@@ -105,7 +105,7 @@ There is no midterm this term. Refer to [Final Exam](final.md) and [Quizzes](qui
 
 ### Self-Scheduled Assessments in ORCA
 
-In this course, quizzes and the final exam will be held in UBC's ORCA (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
+In this course, quizzes will be held in UBC's ORCA (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
 
 Your assessments in this course will be self-scheduled in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available from around 11 AM until roughly 6 PM, Monday to Sunday, with reduced availability on Saturdays and Sundays. These hours are set by ORCA according to its operational needs and may change without notice, so check what is actually on offer when you book.
 
@@ -276,11 +276,11 @@ Start early. Registration with the Centre is a multi-step process and can take s
 1. Register with the Centre for Accessibility. You must be registered before you can request accommodations.
 2. Send your Letter of Accommodation (LOA). Once registered, you send your LOA to your instructors through [Clockwork](https://students.ubc.ca/about-student-services/centre-for-accessibility/after-registering-with-the-centre-for-accessibility), the Centre's online portal. Do this as soon as possible, and preferably within the first two weeks of class. Sending your LOA is also what unlocks exam booking and note-taker services.
 3. Upload a copy of your LOA to Canvas, using [this assignment](https://canvas.ubc.ca/courses/190791/assignments/2578823). Clockwork delivers your letter to the instructor, but a copy on Canvas keeps it on file for the teaching team, who arrange the day-to-day accommodations in lab.
-4. Book your own accommodated sittings. For quizzes and the final exam this happens in ORCA, described below.
+4. Book your own accommodated sittings. For quizzes this happens in ORCA, described below. For the final exam, the steps will be announced with its format on the [Final Exam](final.md) page.
 
 #### Accommodated sittings in ORCA
 
-Our quizzes and final exam run in [ORCA](#self-scheduled-assessments-in-orca), and ORCA hosts most accommodations itself. If your accommodations are on ORCA's supported list, you book an ORCA session the same way everyone else does, and your accommodations are applied there.
+Our quizzes run in [ORCA](#self-scheduled-assessments-in-orca), and ORCA hosts most accommodations itself. If your accommodations are on ORCA's supported list, you book an ORCA session the same way everyone else does, and your accommodations are applied there.
 
 The guidance below is quoted from ORCA's [CfA Accommodations page](https://orca.ubc.ca/students/cfa-accommodations/), last updated September 7, 2026. Check that page for any changes since.
 
