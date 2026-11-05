@@ -13,6 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 5 | Added the two original Part A programs, with 10 bugs each. |
 | Oct 23 | Added the Part A instructions and rubric. |
 
 </details>
@@ -163,6 +164,228 @@ was doing, why that was wrong, and why the fix works.
 > [!WARNING]
 > Fix the bugs, and leave the rest of the program as it is. Do not write a new program. Part A is
 > about explaining what was wrong with this code, and a new program has nothing to explain.
+
+### The original programs <!-- {docsify-ignore} -->
+
+The two original programs are shown below. Each program has 10 bugs.
+
+<details>
+<summary>Grade Calculator, original program</summary>
+
+```python
+# The Grade Calculator: one student's final grade in CPSC 100
+
+# ----- The student's scores -----
+student_name = "Sam"
+student_number = 40718
+quiz_scores = [62, 45, 88, 70, 39, 81, 74, 90]
+project_scores = [86, 92]
+lab_scores = [10, 8, 10, 10, 6, 10, 9, 10]
+final_exam = 55
+participation = 95
+
+
+# ----- Functions -----
+def average(scores):
+    # Add up every score, then divide by how many scores there are
+    total = 0
+    for i in range(1, len(scores)):
+        total = total + scores[i]
+    return total // len(scores)
+
+
+def drop_lowest(scores):
+    # Give back a new list with one copy of the lowest score taken out
+    lowest = scores[0]
+    for score in scores:
+        if score < lowest:
+            lowest = score
+    kept = []
+    dropped = False
+    for score in scores:
+        if score == lowest and not dropped:
+            dropped = True
+        else:
+            kept.append(score)
+    return kept
+
+
+def percent_of(points, out_of):
+    # Turn a score out of some number into a percentage
+    return points
+    points = points * 100 // out_of
+
+
+def weighted(score, weight):
+    # The points this part adds to the final grade
+    print(score * weight // 100)
+
+
+def letter_grade(percent):
+    if percent >= 90:
+        return "A"
+    elif percent >= 80:
+        return "B"
+    elif percent >= 70:
+        return "C"
+    elif percent >= 50:
+        return "D"
+    else:
+        return "F"
+
+
+# ----- The report -----
+print("Grade report for", student_name)
+
+# Students with an even student number write the final exam in Room A.
+# Students with an odd student number write it in Room B.
+if student_number % 2 == 1:
+    print("Exam room: Room A")
+else:
+    print("Exam room: Room B")
+
+# The first three quizzes were warm-ups. Show them on their own.
+print("Warm-up quizzes:")
+for i in range(3, len(quiz_scores)):
+    print("Quiz", i + 1, "score:", quiz_scores[i])
+
+# The two lowest quiz scores are dropped.
+kept_quizzes = drop_lowest(quiz_scores)
+kept_quizzes = drop_lowest(kept_quizzes)
+quiz_average = average(kept_quizzes)
+print("Quizzes counted:", len(kept_quizzes))
+print("Quiz average:", quiz_average)
+
+project_average = average(project_scores)
+print("Project average:", project_average)
+
+# Labs are marked out of 10.
+lab_percent = percent_of(average(lab_scores), 10)
+print("Lab average:", lab_percent, "%")
+
+# Count the labs with full marks.
+perfect_labs = 0
+for score in lab_scores:
+    if score = 10:
+        perfect_labs = perfect_labs + 1
+    print("Perfect labs:", perfect_labs)
+
+# The points each part adds to the final grade
+quiz_points = weighted(quiz_average, 40)
+final_points = weighted(final_exam, 20)
+project_points = weighted(project_average, 25)
+lab_points = weighted(lab_percent, 7)
+participation_points = weighted(participation, 8)
+
+part_names = ["quizzes", "the final exam", "projects", "labs", "participation"]
+part_points = []
+part_points.append(final_points)
+part_points.append(quiz_points)
+part_points.append(project_points)
+part_points.append(lab_points)
+part_points.append(participation_points)
+for i in range(len(part_names)):
+    print("Points from", part_names[i] + ":", part_points[i])
+
+final_grade = quiz_points + final_points + project_points + lab_points + participation_points
+print("Final grade: " + final_grade)
+print("Letter grade:", letter_grade(final_grade))
+
+# A student checks in with their TA if the final exam is under 60
+# or the quiz average is under 60.
+if final_exam < 60 and quiz_average < 60:
+    print("Check in with your TA: Yes")
+else:
+    print("Check in with your TA: No")
+```
+
+</details>
+
+<details>
+<summary>Guessing Game, original program</summary>
+
+```python
+# The Guessing Game: three games, played from lists of guesses
+
+# ----- The games -----
+# Each list holds the guesses a player typed, in order.
+game1_guesses = [50, 25, 37, 40]
+game2_guesses = [50, 75, 88, 80, 85, 83, 81, 82]
+game3_guesses = [70, 64]
+max_guesses = 6
+
+
+# ----- Functions -----
+def give_feedback(guess, secret):
+    # Say whether the guess is too low, too high or correct
+    if guess < secret:
+        print(guess, "is too low.")
+    elif guess > secret:
+        print(guess, "is too high.")
+    else:
+        print(guess, "is correct!")
+
+
+def parity(number):
+    # Give back "even" or "odd"
+    if number % 2 == 1:
+        return "even"
+    return "odd"
+
+
+def points_for(guesses_used):
+    # A win is worth 10 points, minus 1 for every guess after the first
+    points = 10 - (guesses_used - 1)
+
+
+def play(secret, guesses):
+    # Play one game. Give back the points the player won.
+    print("New game. Hint: the secret number is", parity(secret))
+    turn = 0
+    won = False
+    while turn < len(guesses) or turn < max_guesses:
+        guess = guesses[turn]
+        turn = turn + 1
+        give_feedback(guess, secret)
+        if guess = secret:
+            won = True
+            break
+
+    print("Your guesses this game:")
+    for i in range(turn, len(guesses)):
+        print(guesses[i])
+
+    if won:
+        return points_for(turn)
+        print("You got it in", turn, "guesses!")
+    print("Out of guesses! The number was " + secret)
+    return 0
+
+
+# ----- The games are played -----
+points1 = play(37, game1_guesses)
+points2 = play(82, game2_guesses)
+points3 = play(64, game3_guesses)
+
+scores = []
+scores.append(points1)
+scores.append(points3)
+scores.append(points2)
+
+print("Scoreboard")
+game_number = 1
+for points in scores:
+    print("Game", game_number, "points:", points)
+    game_number = game_number + 1
+
+# Add up the points from every game.
+total = 0
+for i in range(1, len(scores)):
+    total = total + scores[i]
+    print("Total points:", total)
+```
+
+</details>
 
 ---
 
