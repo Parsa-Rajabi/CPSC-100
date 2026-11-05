@@ -13,7 +13,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 5 | Moved the original Part A programs up the page, with a copy button and Python colours. |
 | Nov 5 | Added the two original Part A programs, with 10 bugs each. |
 | Oct 23 | Added the Part A instructions and rubric. |
 
