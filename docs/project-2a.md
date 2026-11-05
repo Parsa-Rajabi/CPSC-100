@@ -167,11 +167,7 @@ was doing, why that was wrong, and why the fix works.
 
 ### The original programs <!-- {docsify-ignore} -->
 
-Use the original programs below to compare your notebook with the code you started from. Every
-difference between them must be a bug fix or one of your comments.
-
-Your notebook holds one of these two programs, chosen at random by PrairieLearn. Each program has
-10 bugs.
+The two original programs are shown below. Each program has 10 bugs.
 
 <details>
 <summary>Grade Calculator, original program</summary>
