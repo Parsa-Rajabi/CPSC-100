@@ -192,6 +192,44 @@
   word-break: break-all!important;
 }
 
+/* Copy button on code blocks: always shown, since phones and tablets have no hover. */
+.markdown-section .docsify-copy-code-button {
+  opacity: 1;
+  background: #57606a;
+}
+
+/* Room above the code for the button, so it never covers the first line. */
+.markdown-section pre[data-lang] > code {
+  padding-top: 48px!important;
+}
+
+/* Code colours that are easy to read: 4.5:1 contrast or more on the code background.
+   The theme's own comment, string and punctuation colours were too faint. */
+@media (prefers-color-scheme: light) {
+  :root {
+    --code-theme-comment: #57606a;
+    --code-theme-keyword: #0550ae;
+    --code-theme-selector: #116329;
+    --code-theme-function: #6f42c1;
+    --code-theme-operator: #953800;
+    --code-theme-punctuation: #333;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --code-theme-comment: #9fb3bd;
+  }
+}
+
+/* Python: keep each line whole and scroll sideways. A wrapped line looks like a new line
+   with the wrong indentation. */
+.markdown-section pre[data-lang="python"] code {
+  white-space: pre!important;
+  word-break: normal!important;
+  overflow-x: auto;
+}
+
 .markdown-section .fa-fw {
   text-align: left;
 }

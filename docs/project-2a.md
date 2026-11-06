@@ -54,117 +54,6 @@ wrong, and why your fix works. Your TA marks your explanations, not only your fi
 - How you test your fixes
 - How you word your comments, as long as each comment names the kind of error and explains it
 
----
-
-## Submission
-
-- Submission of the project is on PrairieLearn itself. Submit your Part A notebook there
-- The first cell starts with your AI use line, as a comment. The lines to copy are under
-  [AI disclosure](#ai-disclosure)
-- The rest of the notebook is your fixed program, with a comment at each fix
-- All of the work must be your own
-
-Submit it on PrairieLearn by your section's deadline:
-
-| Your lab | Lab 7 | Part A due |
-| :------- | :---- | :--------- |
-| Wednesday, L1A to L1D | Wed Nov 4 | Thu Nov 5, 11:59pm |
-| Thursday, L1E | Thu Nov 5 | Fri Nov 6, 11:59pm |
-
----
-
-## AI disclosure
-
-We strongly encourage you to fix the program and write your comments without AI. An AI tool can fix
-this program in seconds. But Part A is practice at explaining code in your own words, and that
-practice only works if the thinking is yours. You build with AI in [Part B](project-2b.md).
-
-Copy the one line below that is true for you. Paste it as a comment at the top of the first cell,
-exactly as it is written.
-
-| | Line to copy |
-| :-: | :----------- |
-| 🟢 | `# AI use: Green. I did not use AI to find, fix or explain the bugs.` |
-| 🟡 | `# AI use: Yellow. I used AI to understand an error message or a Python feature, but I found and fixed the bugs myself, and every comment is in my own words.` |
-| 🔴 | `# AI use: Red. AI found or fixed some of the bugs, or wrote some of my comments.` |
-
-The line you choose does not change your mark. Your work is marked with the
-[rubric](#grading-criteria), whichever line you choose. The
-[AI Policy](ai-policy.md#be-transparent-about-ai-use) asks you to choose the line that is true.
-
----
-
-## Late policy
-
-- Late work is not accepted on the project. Nothing submitted after a deadline is marked
-- If something serious or ongoing is happening, use the
-  [academic concession](syllabus.md#academic-concessions) process. Tell us early, not afterwards
-
-<details>
-<summary>If you miss Lab 7</summary>
-
-We will post the Part A notebook after the lab, so you can do Part A on your own. You lose the lab
-mark for that week, but you can still do Part A.
-
-Your deadline does not change. Submit your notebook on PrairieLearn by your section's deadline under
-[Submission](#submission).
-
-</details>
-
----
-
-## Details
-
-### Your fixed program and your comments <!-- {docsify-ignore} -->
-
-Each comment must include three things, in your own words:
-
-1. The kind of error, using one of the three names from lecture in the table below
-2. What was wrong
-3. Why your fix works
-
-| Kind of error | What you see |
-| :------------ | :----------- |
-| Syntax error | Python cannot read the code, so the program does not start at all |
-| Runtime error | The program starts, then stops partway through with an error message |
-| Logic error | The program runs to the end, but the result is wrong |
-
-A sequencing error (steps in the wrong order) and an initialization error (a variable that is not
-given a starting value) are both kinds of logic error. If you learned these names in Snap!, call
-them logic errors in your comments.
-
-Where to put your comments:
-
-- Put each comment on the line directly above the code it explains
-- If one fix changes several lines, one comment above the first line is enough
-
-Compare these two comments for the same fix.
-
-Weaker:
-
-```python
-# fixed this line
-total = 0
-```
-
-Stronger:
-
-```python
-# Logic error: total was set to 0 inside the loop, so it went back to 0 every time
-# the loop ran and only kept the last price. Setting it once, before the loop, lets
-# it add every price to the total.
-total = 0
-for price in prices:
-    total = total + price
-```
-
-The first comment only tells your TA that something changed. The second shows what the program
-was doing, why that was wrong, and why the fix works.
-
-> [!WARNING]
-> Fix the bugs, and leave the rest of the program as it is. Do not write a new program. Part A is
-> about explaining what was wrong with this code, and a new program has nothing to explain.
-
 ### The original programs <!-- {docsify-ignore} -->
 
 The two original programs are shown below. Each program has 10 bugs.
@@ -386,6 +275,117 @@ for i in range(1, len(scores)):
 ```
 
 </details>
+
+---
+
+## Submission
+
+- Submission of the project is on PrairieLearn itself. Submit your Part A notebook there
+- The first cell starts with your AI use line, as a comment. The lines to copy are under
+  [AI disclosure](#ai-disclosure)
+- The rest of the notebook is your fixed program, with a comment at each fix
+- All of the work must be your own
+
+Submit it on PrairieLearn by your section's deadline:
+
+| Your lab | Lab 7 | Part A due |
+| :------- | :---- | :--------- |
+| Wednesday, L1A to L1D | Wed Nov 4 | Thu Nov 5, 11:59pm |
+| Thursday, L1E | Thu Nov 5 | Fri Nov 6, 11:59pm |
+
+---
+
+## AI disclosure
+
+We strongly encourage you to fix the program and write your comments without AI. An AI tool can fix
+this program in seconds. But Part A is practice at explaining code in your own words, and that
+practice only works if the thinking is yours. You build with AI in [Part B](project-2b.md).
+
+Copy the one line below that is true for you. Paste it as a comment at the top of the first cell,
+exactly as it is written.
+
+| | Line to copy |
+| :-: | :----------- |
+| 🟢 | `# AI use: Green. I did not use AI to find, fix or explain the bugs.` |
+| 🟡 | `# AI use: Yellow. I used AI to understand an error message or a Python feature, but I found and fixed the bugs myself, and every comment is in my own words.` |
+| 🔴 | `# AI use: Red. AI found or fixed some of the bugs, or wrote some of my comments.` |
+
+The line you choose does not change your mark. Your work is marked with the
+[rubric](#grading-criteria), whichever line you choose. The
+[AI Policy](ai-policy.md#be-transparent-about-ai-use) asks you to choose the line that is true.
+
+---
+
+## Late policy
+
+- Late work is not accepted on the project. Nothing submitted after a deadline is marked
+- If something serious or ongoing is happening, use the
+  [academic concession](syllabus.md#academic-concessions) process. Tell us early, not afterwards
+
+<details>
+<summary>If you miss Lab 7</summary>
+
+We will post the Part A notebook after the lab, so you can do Part A on your own. You lose the lab
+mark for that week, but you can still do Part A.
+
+Your deadline does not change. Submit your notebook on PrairieLearn by your section's deadline under
+[Submission](#submission).
+
+</details>
+
+---
+
+## Details
+
+### Your fixed program and your comments <!-- {docsify-ignore} -->
+
+Each comment must include three things, in your own words:
+
+1. The kind of error, using one of the three names from lecture in the table below
+2. What was wrong
+3. Why your fix works
+
+| Kind of error | What you see |
+| :------------ | :----------- |
+| Syntax error | Python cannot read the code, so the program does not start at all |
+| Runtime error | The program starts, then stops partway through with an error message |
+| Logic error | The program runs to the end, but the result is wrong |
+
+A sequencing error (steps in the wrong order) and an initialization error (a variable that is not
+given a starting value) are both kinds of logic error. If you learned these names in Snap!, call
+them logic errors in your comments.
+
+Where to put your comments:
+
+- Put each comment on the line directly above the code it explains
+- If one fix changes several lines, one comment above the first line is enough
+
+Compare these two comments for the same fix.
+
+Weaker:
+
+```python
+# fixed this line
+total = 0
+```
+
+Stronger:
+
+```python
+# Logic error: total was set to 0 inside the loop, so it went back to 0 every time
+# the loop ran and only kept the last price. Setting it once, before the loop, lets
+# it add every price to the total.
+total = 0
+for price in prices:
+    total = total + price
+```
+
+The first comment only tells your TA that something changed. The second shows what the program
+was doing, why that was wrong, and why the fix works.
+
+> [!WARNING]
+> Fix the bugs, and leave the rest of the program as it is. Do not write a new program. Part A is
+> about explaining what was wrong with this code, and a new program has nothing to explain.
 
 ---
 

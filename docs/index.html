@@ -199,6 +199,11 @@
         style: 'flat'
       },
 
+      copyCode: {
+        buttonText: 'Copy',
+        successText: 'Copied',
+      },
+
       search: {
         placeholder: 'Search the course site',
         noData: 'No results found.',
@@ -565,6 +570,12 @@
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- Python colours for ```python code blocks. The Prism inside docsify has no Python. -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+
+  <!-- Copy button on code blocks. Its label is set in copyCode above. -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@3.0.2/dist/docsify-copy-code.min.js"></script>
 
   <!-- Adjust Page Margins When Standalone or Embedded -->
   <script>
