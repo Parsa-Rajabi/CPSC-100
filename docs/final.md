@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 5 | Removed the line saying the exam runs in ORCA. The format will be announced closer to the date. |
+| Nov 5 | Removed the mentions of ORCA and of a pencil and eraser. The format will be announced closer to the date. |
 | Nov 1 | Added the final exam date and time. The room is still to be confirmed. |
 | Sep 24 | Reworded for readability. |
 
@@ -49,7 +49,7 @@ The final exam assesses your understanding of course ideas and your ability to r
 |      Practice explaining concepts in your own words       |             Many questions require explanation, not recognition of terms.             |
 |                  Sleep the night before                   |            Rest improves attention, memory, and judgment during the exam.             |
 |             Eat, hydrate, and plan your route             |                Do not make the exam harder with preventable stressors.                |
-|   Pack your UBC ID, pencil, and eraser the night before   |            These are required, and packing early reduces day-of friction.             |
+|            Pack your UBC ID the night before             |               It is required, and packing early reduces day-of friction.               |
 
 Useful UBC support links:
 
