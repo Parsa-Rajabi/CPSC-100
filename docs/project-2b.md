@@ -13,6 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 6 | Added the Pre-lab 8 rubric and what Pre-lab 8 is worth in Lab 8. |
 | Oct 23 | Added the Part B instructions, Pre-lab 8 and the rubric. |
 
 </details>
@@ -231,6 +232,29 @@ The late penalty for Pre-lab 8:
 | By Thu Nov 12, 11:59pm | Nothing |
 | Up to 24 hours late, by Fri Nov 13, 11:59pm | 25% of your Pre-lab 8 mark |
 | More than 24 hours late | Not accepted, and it scores 0 |
+
+#### Pre-lab 8 rubric <!-- {docsify-ignore} -->
+
+Before you hand in Pre-lab 8, check that your PDF has every part listed above. Your TA marks it for
+completion, like the other pre-labs:
+
+| Criterion | Complete (1) | Incomplete or absent (0) |
+| :-- | :-- | :-- |
+| Pre-lab 8: your ideas, sketches and proposal | At least three ideas, each with its one or two sentences and a sketch, and a proposal that covers all six parts listed above. | A part is missing, or nothing is handed in. |
+
+Your TA does not mark the quality of your ideas or your proposal. Your proposal becomes your
+[design requirements document](#design-requirements-document), and its content is marked there,
+in the [Part B rubric](#_1-design-requirements-document-30-points). Your TA gives your group
+feedback on it in Lab 8, so you can improve it before you build.
+
+Pre-lab 8 is worth 0.25 points of your Lab 8 grade, the same as the other pre-labs:
+
+| Pre-lab 8 mark | Cost to your Lab 8 grade |
+| :------------- | :----------------------- |
+| Complete (1) | Nothing |
+| Incomplete or absent (0) | 0.25 points |
+
+If you hand in Pre-lab 8 late, the late penalty comes off your Pre-lab 8 mark first.
 
 ### Design requirements document <!-- {docsify-ignore} -->
 
