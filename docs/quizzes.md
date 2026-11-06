@@ -7,6 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 5 | Removed the line saying the final exam is in ORCA. No quiz details changed. |
 | Oct 23 | Linked the viva voce to the Project 2 page. |
 | Oct 21 | Confirmed the new material for Quizzes 4 and 5. W7C moved from Quiz 4 to Quiz 5. |
 | Oct 13 | Corrected the viva voce description: it is a group presentation. |
@@ -86,7 +87,7 @@ To enrol in the PrairieTest course, follow the steps on ORCA's [Getting Started 
 <details>
 <summary>ORCA's statement on self-scheduled assessments</summary>
 
-In this course, quizzes and the final exam will be held in UBC's ORCA (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
+In this course, quizzes will be held in UBC's ORCA (Open Resource Centre for Assessments), a facility designed for digital assessments to be completed safely, securely, and equitably. There are several ORCA rooms spread out over campus; the current list of rooms is [available here](https://orca.ubc.ca/about/rooms/). To ensure fairness, ORCA has very specific policies and procedures, [linked here](https://orca.ubc.ca/students/policies/). Please read these policies carefully, as breaches of these policies will constitute academic (or in some cases, non-academic) misconduct.
 
 Your assessments in this course will be self-scheduled in the ORCA. This means that for each assessment, students will be able to schedule a time to write in the ORCA in an available session within an assessment window (typically a few days). Sessions are typically available from around 11 AM until roughly 6 PM, Monday to Sunday, with reduced availability on Saturdays and Sundays. These hours are set by ORCA according to its operational needs and may change without notice, so check what is actually on offer when you book.
 
@@ -159,7 +160,7 @@ If you are registered with the Centre for Accessibility, ORCA provides most acco
 
 - [Schedule](schedule.md) - week by week view
 - [Labs](labs.md) - also PrairieLearn, but in person in ICCS X050
-- [Final Exam](final.md) - end of term, also in ORCA
+- [Final Exam](final.md) - Sat Dec 19, room and format to be announced
 - [Self-Scheduled Assessments in ORCA](syllabus.md#self-scheduled-assessments-in-orca) - the full facility statement
 - [Course Evaluation](syllabus.md#course-evaluation) - the whole grade breakdown
 - [AI Policy](ai-policy.md) - what is permitted on individual assessments
