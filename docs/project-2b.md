@@ -13,7 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 3 | Added the Pre-lab 8 rubric and what Pre-lab 8 is worth in Lab 8. |
+| Nov 6 | Added the Pre-lab 8 rubric and what Pre-lab 8 is worth in Lab 8. |
 | Oct 23 | Added the Part B instructions, Pre-lab 8 and the rubric. |
 
 </details>
@@ -235,22 +235,23 @@ The late penalty for Pre-lab 8:
 
 #### Pre-lab 8 rubric <!-- {docsify-ignore} -->
 
-Check your PDF against this rubric before you hand it in. Your TA marks Pre-lab 8 as one criterion,
-using the whole PDF.
+Before you hand in Pre-lab 8, check that your PDF has every part listed above. Your TA marks it for
+completion, like the other pre-labs:
 
-| Criterion | Complete (1) | Partial (0.5) | Incomplete or absent (0) |
-| :-- | :-- | :-- | :-- |
-| Pre-lab 8: your ideas, sketches and proposal | At least three different ideas. Each idea has one or two sentences on who it is for and how it uses data, and a sketch of its main screen. The proposal covers all six parts: the idea you chose and why, your user, the problem your app solves for them, how your app uses data and could benefit people or society, your features numbered F1, F2 and so on with at least one for each group member, and three or more course concepts. | The ideas and the proposal are both present, but at least one falls short. For example, there are fewer than three different ideas, an idea is missing its sentences or its sketch, the proposal is missing one of its six parts, there are fewer features than group members, or there are fewer than three course concepts. | Your ideas or your proposal is missing entirely. |
+| Criterion | Complete (1) | Incomplete or absent (0) |
+| :-- | :-- | :-- |
+| Pre-lab 8: your ideas, sketches and proposal | At least three ideas, each with its one or two sentences and a sketch, and a proposal that covers all six parts listed above. | A part is missing, or nothing is handed in. |
 
-Your ideas do not need to be polished, and your sketches are not marked on how well they are drawn.
+Your TA does not mark the quality of your ideas or your proposal. Your proposal becomes your
+[design requirements document](#design-requirements-document), and its content is marked there,
+in the [Part B rubric](#_1-design-requirements-document-30-points). Your TA gives your group
+feedback on it in Lab 8, so you can improve it before you build.
 
-Pre-lab 8 is worth 0.25 points of your Lab 8 grade, the same as the other pre-labs. How much of it
-you lose depends on your Pre-lab 8 mark:
+Pre-lab 8 is worth 0.25 points of your Lab 8 grade, the same as the other pre-labs:
 
 | Pre-lab 8 mark | Cost to your Lab 8 grade |
 | :------------- | :----------------------- |
 | Complete (1) | Nothing |
-| Partial (0.5) | 0.125 points |
 | Incomplete or absent (0) | 0.25 points |
 
 If you hand in Pre-lab 8 late, the late penalty comes off your Pre-lab 8 mark first.
