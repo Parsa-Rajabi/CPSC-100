@@ -2,14 +2,14 @@
 
 > [!NOTE]
 > This page is still in development. The room is set by the university and has not been
-> announced yet. The exam format will be announced closer to the date. We will add both here as
-> soon as they are.
+> announced yet. We will add it here as soon as it is.
 
 <details class="changelog">
 <summary>Changelog</summary>
 
 | Date | Update |
 | :--: | :----- |
+| Nov 23 | The final exam is in person, on PrairieLearn in LockDown Browser, on your own Windows or Mac laptop. Have your laptop ready by Mon Dec 7. |
 | Nov 5 | Removed the mentions of ORCA and of a pencil and eraser. The format will be announced closer to the date. |
 | Nov 1 | Added the final exam date and time. The room is still to be confirmed. |
 | Sep 24 | Reworded for readability. |
@@ -23,7 +23,8 @@
 | Date | Saturday, Dec 19, 2026 |
 | Time | 8:30am |
 | Location | *to be confirmed by the university* |
-| Format | *to be announced closer to the date* |
+| Format | In person, on PrairieLearn in LockDown Browser, on your own Windows or Mac laptop |
+| Laptop ready by | Mon Dec 7, 2026. See [Your laptop and LockDown Browser](#your-laptop-and-lockdown-browser) |
 | Required ID | UBC student ID |
 | Handwritten cheat sheet | *to be confirmed* |
 
@@ -33,6 +34,33 @@ Check the latest information via UBC's exam page: https://tools.students.ubc.ca/
 
 > [!WARNING]
 > Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.
+
+## Your laptop and LockDown Browser
+
+You write the final exam on your own laptop, in LockDown Browser. You must have your laptop set up
+and tested by Mon Dec 7.
+
+- Use a Windows or Mac laptop. LockDown Browser does not run on Chromebooks, iPads, phones or Linux
+- Install LockDown Browser from the [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser).
+  Install it from that page even if you already have LockDown Browser from another course
+- Test it. [Pre-lab 9 (Part 2)](labs.md#the-pre-lab) is your first check, and Lab 9 runs in
+  LockDown Browser too
+- On exam day, restart your laptop before the exam and bring it fully charged
+
+### Borrowing a laptop <!-- {docsify-ignore} -->
+
+If you do not have a Windows or Mac laptop, borrow one from UBC Library. Current UBC students can
+borrow laptops at:
+
+- Irving K. Barber Learning Centre, Chapman Learning Commons Help Desk, Level 3
+- Koerner Library, Circulation Desk, Entrance Level
+- Woodward Library, Information Desk, Entrance Level
+- David Lam Library, Circulation Desk, Entrance Level
+
+Loan periods vary by branch, and you sign the Laptop Borrower Agreement. Ask the desk how long you
+can keep the laptop and whether you can install LockDown Browser on it. Details are on the
+library's [Technology Borrowing](https://services.library.ubc.ca/computers-technology/technology-borrowing/)
+page.
 
 ## Passing Requirement
 
@@ -62,6 +90,7 @@ Useful UBC support links:
 | Bring | Why |
 | :---- | :-- |
 | UBC student ID | Required for identity verification. |
+| A Windows or Mac laptop with LockDown Browser installed, fully charged | You write the exam on it. |
 
 ## Centre for Accessibility Arrangements
 
@@ -70,7 +99,7 @@ Registration, Letters of Accommodation, and the Centre's own booking deadlines a
 Specific to this exam:
 
 - Confirm your arrangement with us 10 days before the final exam, by emailing the course admin address listed on [Course Communication](communication.md).
-- How you book an accommodated sitting depends on the exam format, which will be announced closer to the date. We will add the steps here when it is.
+- If you write with the Centre for Accessibility, you write on the Centre's computers, not your own laptop. Book your sitting with the Centre, as the syllabus describes.
 
 If you do not make and confirm arrangements, we will assume you are writing the final exam with the rest of the class, and no special accommodations will be in place.
 
