@@ -95,7 +95,7 @@ practice session.
 | Windows will not install LockDown Browser and only allows apps from the Microsoft Store | Your laptop is in S mode. [Switch out of S mode](https://support.microsoft.com/en-us/windows/experience/platform-variants/switching-out-of-s-mode-in-windows). It is free, but you cannot switch back. Or borrow a laptop. |
 | The Mac installer fails or asks for a password you do not have | Log in to your Mac with an account that can install apps. On a borrowed laptop, ask the desk. |
 | Your Wi-Fi drops during the exam | Tell a proctor right away. |
-| Still stuck before the exam | Post on Ed Discussion or bring your laptop to [drop-in hours](drop-in-hours.md), before Mon Dec 7. |
+| Still stuck before the exam | Email [help@cs.ubc.ca](mailto:help@cs.ubc.ca) before Mon Dec 7. |
 
 ### FAQ <!-- {docsify-ignore} -->
 
