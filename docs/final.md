@@ -93,7 +93,8 @@ Restart your laptop and bring it fully charged, with its charger. Every seat has
 room, open your reservation on PrairieTest and click Open in LockDown Browser, as you did in your
 practice session.
 
-### Common problems and fixes <!-- {docsify-ignore} -->
+<details>
+<summary>Common problems and fixes</summary>
 
 | Problem | Fix |
 | :------ | :-- |
@@ -104,6 +105,8 @@ practice session.
 | The Mac installer fails or asks for a password you do not have | Log in to your Mac with an account that can install apps. On a borrowed laptop, ask the desk. |
 | Your Wi-Fi drops during the exam | Tell a proctor right away. |
 | Still stuck before the exam | Email [help@cs.ubc.ca](mailto:help@cs.ubc.ca) before Mon Dec 7. |
+
+</details>
 
 ### FAQ <!-- {docsify-ignore} -->
 
