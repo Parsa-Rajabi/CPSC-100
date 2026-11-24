@@ -1,10 +1,7 @@
 # Project 2C: Viva Voce
 
 > [!NOTE]
-> This is the first release of the Part C instructions. The teaching team is still reviewing them,
-> and some parts, including the rubric, may change before Lab 9. The final version will be ready
-> by the day of Lab 9, and we aim to finish sooner. We do not expect large changes. Every change
-> will be listed in the changelog. We will remove this note when this page is final.
+> The rubric is to be announced.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -13,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 24 | Added the schedule, what to bring and the regrade rule. |
 | Oct 23 | Added the Part C instructions. The grading criteria will be released later. |
 
 </details>
@@ -29,8 +27,8 @@ The goal is that every member can explain any part of your app: what it does, wh
 that way, and how you tested it.
 
 - Part C is group work, worth 10% of your course grade
-- Your group presents in person, in one session in Week 13. The dates are in
-  [What you hand in](project-2.md#what-you-hand-in) on the Project 2 page
+- Your group presents in person, in one 15-minute session on Wed Dec 2 or Thu Dec 3. Find your
+  session in the [schedule](#your-session)
 - Attending is mandatory, and it is a [passing requirement](syllabus.md#passing-criteria)
 
 ### Before you start <!-- {docsify-ignore} -->
@@ -57,16 +55,33 @@ work.
 - Questions. The teaching team asks questions. Any member may be asked about any part of the app,
   not only the part they built
 
-We will announce these details closer to the date:
+### Your session <!-- {docsify-ignore} -->
 
-- how long each session is
-- how to book your session
-- where it takes place
-- what you may bring
+Find your group in the schedule below. If your group is listed in your regular lab time, your
+session is confirmed, even if your TA has not contacted you. You do not need to do anything. The
+groups in the three office hours sessions have already confirmed their times with their TA.
 
-<!-- TODO: instructor decision required. Session length and split between demo and questions,
-booking, room, and permitted materials (the AI Policy says "Any prepared materials must follow the
-presentation instructions", so this page must eventually say what is allowed). -->
+Each group has 15 minutes:
+
+- A 5-minute demo, with every member presenting for the same amount of time: 1 minute each in a
+  group of 5, or 1 minute 15 seconds each in a group of 4
+- 10 minutes of questions from members of the teaching team
+
+| Day | Time | Session | Groups | Room |
+| :-- | :--- | :------ | :----- | :--- |
+| Wed Dec 2 | 10:00-11:00am | Lab time | A1, A2, A3 | ICCS X050 |
+| Wed Dec 2 | 11:00am-12:00pm | Lab time | B1, B3, B5 | ICCS X050 |
+| Wed Dec 2 | 12:00-1:00pm | Lab time | C1, C2, C4 | ICCS X050 |
+| Wed Dec 2 | 3:00-4:00pm | Office hours | C5, D4, D5 | [SWING 110](drop-in-hours.md#swing-110) |
+| Wed Dec 2 | 4:00-5:00pm | Lab time | D1, D2, D3 | ICCS X351 |
+| Wed Dec 2 | 5:00-6:00pm | Office hours | B2, B6, C6 | [ICICS X241](drop-in-hours.md#icics-x241-and-x341) |
+| Thu Dec 3 | 1:00-2:00pm | Office hours | B4, C3, E3 | [ICICS X241](drop-in-hours.md#icics-x241-and-x341) |
+| Thu Dec 3 | 2:00-3:00pm | Lab time | E1, E2, E4 | ICCS X050 |
+
+You may bring notes, cue cards or slide notes. Slides are not required.
+
+We consider a regrading request for the viva voce only if your group recorded the session with
+video and audio. See [Regrading criteria](#regrading-criteria).
 
 ---
 
@@ -154,7 +169,7 @@ We ask about the changes you made while building:
 
 ## Grading criteria
 
-The grading criteria for the viva voce will be released later.
+The rubric is to be announced.
 
 Your viva voce score is 90% of your Part C mark. The other 10% is:
 
@@ -180,21 +195,19 @@ LockDown Browser, for the best, second best and third best project in their sect
 
 ## Grading scale
 
-The grading scale for the viva voce will be released later, with the grading criteria.
+The grading scale is to be announced, with the rubric.
 
 ---
 
 ## Regrading criteria
 
-Because the viva voce is a live presentation, regrading is inherently difficult and may not be
-possible without supporting evidence. If your group believes there is a chance you may wish to
-pursue a regrading request for the viva voce, you are responsible for recording your presentation
-using one of your group members' laptops (for example, by recording via Zoom).
+Because the viva voce is a live presentation, we consider a regrading request only if your group
+recorded the session with video and audio. If your group may want to request a regrade, record
+your presentation on one of your group members' laptops (for example, in Zoom).
 
 Having a recording provides the teaching team with a concrete reference to review the presentation
-again and determine whether the grading criteria were applied correctly. Without a recording, the
-teaching team may be unable to reassess the presentation, and a regrading request may not be
-considered. Any regrading requests must still follow the course regrading policy and timelines
+again and determine whether the grading criteria were applied correctly. Without a recording, a
+regrading request will not be considered. Any regrading requests must still follow the course regrading policy and timelines
 outlined in the [remarking policy](syllabus.md#remarking-policy).
 
 The teaching team agrees on how to mark before the sessions, so every group is marked to the same

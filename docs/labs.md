@@ -62,7 +62,7 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 |  10  | *none* |             | *No lab. Midterm Break.*                                      |
 |  11  |   8    | Nov 18 / 19 | [Project 2B](project-2b.md): building with an AI coding assistant |
 |  12  |   9    | Nov 25 / 26 | [Project 2](project-2.md) demos, the [best project vote](project-2c.md#best-project-bonus) in LockDown Browser, and viva voce practice |
-|  13  |   10   | Dec 2 / 3   | [Viva voce](project-2c.md), which runs Wed Dec 2 to Fri Dec 4. Details announced closer to the date |
+|  13  |   10   | Dec 2 / 3   | [Viva voce](project-2c.md). Some groups present outside their lab time, so check the [schedule](project-2c.md#your-session) |
 
 Need to reach your TA? Start with Ed Discussion, which is where lab questions belong. Email addresses and which kind of question goes where are on [Course Communication](communication.md). If you would rather ask in person, see [Drop-in Hours](drop-in-hours.md).
 
