@@ -11,7 +11,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 23 | Lab 9 now starts with group demos and a best project vote, then viva voce practice. |
 | Nov 1 | The project work day moved to Mon Nov 23, with no class. Use it to finish Part B. |
 | Oct 23 | Added the Project 2 overview and dates. Parts A, B and C each have their own page. |
 

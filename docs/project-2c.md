@@ -13,7 +13,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 23 | Added the best project vote in Lab 9. The top group in each lab section gets 3% added to its Part C mark. |
 | Oct 23 | Added the Part C instructions. The grading criteria will be released later. |
 
 </details>

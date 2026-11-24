@@ -7,7 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 23 | The final exam is in PHRM 1101, on PrairieLearn in LockDown Browser. Bring your own Windows or Mac laptop, ready by Mon Dec 7. |
+| Nov 23 | Added the room and LockDown Browser details. |
 | Nov 5 | Removed the mentions of ORCA and of a pencil and eraser. The format will be announced closer to the date. |
 | Nov 1 | Added the final exam date and time. The room is still to be confirmed. |
 | Sep 24 | Reworded for readability. |
