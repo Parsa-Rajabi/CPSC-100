@@ -52,6 +52,14 @@ does not run on Chromebooks, iPads, phones or Linux. If you do not have one,
 Install it from the PrairieTest page, even if you already have LockDown Browser from another
 course. Other copies may not open your exam.
 
+> [!TIP]
+> We recommend creating a new user account on your laptop and using it to install LockDown Browser,
+> practise and write the exam. A new account has no other apps that open when you log in, so
+> LockDown Browser has nothing else to close. See how on
+> [Windows](https://support.microsoft.com/en-us/windows/create-a-local-user-or-administrator-account-in-windows-20de74e0-ac7f-3502-a866-32915af2a34d)
+> or [Mac](https://support.apple.com/guide/mac-help/add-a-user-or-group-mchl3e281fc9/mac). This is a
+> suggestion, not a requirement.
+
 1. Go to the
    [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser).
 2. Click Download for Windows or Download for Mac.
