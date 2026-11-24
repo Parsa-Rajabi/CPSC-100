@@ -7,7 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 24 | Added steps to install LockDown Browser, common fixes and an FAQ. You must complete one LockDown Browser practice session to write the exam. |
+| Nov 24 | Added LockDown Browser setup steps and a required practice session. |
 | Nov 23 | Added the room and LockDown Browser details. |
 | Nov 5 | Removed the mentions of ORCA and of a pencil and eraser. The format will be announced closer to the date. |
 | Nov 1 | Added the final exam date and time. The room is still to be confirmed. |
