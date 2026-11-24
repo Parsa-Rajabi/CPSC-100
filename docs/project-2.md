@@ -1,7 +1,7 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> Still to come: the viva voce grading criteria and what you may bring.
+> The viva voce rubric is to be announced.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -207,8 +207,8 @@ integrity process. -->
 
 - Part A has its own [rubric](project-2a.md#grading-criteria), marked complete, partial or
   incomplete
-- Part B uses the [Part B rubric](project-2b.md#grading-criteria). The Part C rubric will be
-  released later
+- Part B uses the [Part B rubric](project-2b.md#grading-criteria). The Part C rubric is to be
+  announced
 - The rubrics ask only for what each part's page asks for, plus the optional Exceeds Expectations
   items listed under each criterion in [Part B](project-2b.md#grading-scale)
 

@@ -1,10 +1,7 @@
 # Project 2C: Viva Voce
 
 > [!NOTE]
-> This is the first release of the Part C instructions. The teaching team is still reviewing them,
-> and some parts, including the rubric, may change before Lab 9. The final version will be ready
-> by the day of Lab 9, and we aim to finish sooner. We do not expect large changes. Every change
-> will be listed in the changelog. We will remove this note when this page is final.
+> The rubric is to be announced.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -13,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 24 | Added the viva voce schedule. |
+| Nov 24 | Added the schedule, what to bring and the regrade rule. |
 | Oct 23 | Added the Part C instructions. The grading criteria will be released later. |
 
 </details>
@@ -81,11 +78,10 @@ Each group has 15 minutes:
 | Thu Dec 3 | 1:00-2:00pm | Office hours | B4, C3, E3 | [ICICS X241](drop-in-hours.md#icics-x241-and-x341) |
 | Thu Dec 3 | 2:00-3:00pm | Lab time | E1, E2, E4 | ICCS X050 |
 
-We will announce what you may bring closer to the date.
+You may bring notes, cue cards or slide notes. Slides are not required.
 
-<!-- TODO: instructor decision required. Permitted materials (the AI Policy says "Any prepared
-materials must follow the presentation instructions", so this page must eventually say what is
-allowed). -->
+We consider a regrading request for the viva voce only if your group recorded the session with
+video and audio. See [Regrading criteria](#regrading-criteria).
 
 ---
 
@@ -173,7 +169,7 @@ We ask about the changes you made while building:
 
 ## Grading criteria
 
-The grading criteria for the viva voce will be released later.
+The rubric is to be announced.
 
 Your viva voce score is 90% of your Part C mark. The other 10% is:
 
@@ -199,21 +195,19 @@ LockDown Browser, for the best, second best and third best project in their sect
 
 ## Grading scale
 
-The grading scale for the viva voce will be released later, with the grading criteria.
+The grading scale is to be announced, with the rubric.
 
 ---
 
 ## Regrading criteria
 
-Because the viva voce is a live presentation, regrading is inherently difficult and may not be
-possible without supporting evidence. If your group believes there is a chance you may wish to
-pursue a regrading request for the viva voce, you are responsible for recording your presentation
-using one of your group members' laptops (for example, by recording via Zoom).
+Because the viva voce is a live presentation, we consider a regrading request only if your group
+recorded the session with video and audio. If your group may want to request a regrade, record
+your presentation on one of your group members' laptops (for example, in Zoom).
 
 Having a recording provides the teaching team with a concrete reference to review the presentation
-again and determine whether the grading criteria were applied correctly. Without a recording, the
-teaching team may be unable to reassess the presentation, and a regrading request may not be
-considered. Any regrading requests must still follow the course regrading policy and timelines
+again and determine whether the grading criteria were applied correctly. Without a recording, a
+regrading request will not be considered. Any regrading requests must still follow the course regrading policy and timelines
 outlined in the [remarking policy](syllabus.md#remarking-policy).
 
 The teaching team agrees on how to mark before the sessions, so every group is marked to the same
