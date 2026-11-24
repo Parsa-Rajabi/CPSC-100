@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 24 | The viva voce is on Wed Dec 2 and Thu Dec 3, not Fri Dec 4. Find your session on the Part C page. |
+| Nov 24 | The viva voce is now on Dec 2 and 3. |
 | Nov 1 | The project work day moved to Mon Nov 23, with no class. Use it to finish Part B. |
 | Oct 23 | Added the Project 2 overview and dates. Parts A, B and C each have their own page. |
 

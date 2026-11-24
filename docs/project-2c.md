@@ -13,7 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 24 | Added the viva voce schedule. Each group has 15 minutes: a 5-minute demo, then 10 minutes of questions. |
+| Nov 24 | Added the viva voce schedule. |
 | Oct 23 | Added the Part C instructions. The grading criteria will be released later. |
 
 </details>
