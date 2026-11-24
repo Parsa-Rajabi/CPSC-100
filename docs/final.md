@@ -1,11 +1,13 @@
 # Final Exam
 
 > [!NOTE]
-> This page is still in development. The room is set by the university and has not been
-> announced yet. We will add it here as soon as it is.
+> Still to come: the room, which the university sets, and whether you may bring a handwritten
+> cheat sheet. We will add both here as soon as they are confirmed.
 
 <details class="changelog">
 <summary>Changelog</summary>
+
+<!-- Add a dated entry every time this page changes. Newest first. -->
 
 | Date | Update |
 | :--: | :----- |
@@ -16,130 +18,177 @@
 
 </details>
 
-## Quick Facts
+## Overview
+
+The final exam is in person, on PrairieLearn in LockDown Browser. You write it on your own Windows
+or Mac laptop, so set up your laptop and test it before the date in this table.
 
 | Item | Details |
 | :--- | :------ |
-| Date | Saturday, Dec 19, 2026 |
+| Date | Sat Dec 19, 2026 |
 | Time | 8:30am |
-| Location | *to be confirmed by the university* |
+| Room | *to be confirmed by the university* |
 | Format | In person, on PrairieLearn in LockDown Browser, on your own Windows or Mac laptop |
-| Laptop ready by | Mon Dec 7, 2026. See [Your laptop and LockDown Browser](#your-laptop-and-lockdown-browser) |
-| Required ID | UBC student ID |
+| Laptop set up and tested by | Mon Dec 7, 2026. See [Your laptop and LockDown Browser](#your-laptop-and-lockdown-browser) |
+| Bring | Your UBC student ID and your laptop. See [What to bring](#what-to-bring) |
 | Handwritten cheat sheet | *to be confirmed* |
 
-The exam period is listed under [important dates](syllabus.md#important-dates), and the exam weight is in the [course evaluation table](syllabus.md#course-evaluation).
-
-Check the latest information via UBC's exam page: https://tools.students.ubc.ca/exam-schedule/
+The exam period is in [Important dates](syllabus.md#important-dates), and the exam weight is in
+[Course Evaluation](syllabus.md#course-evaluation). Check UBC's
+[exam schedule](https://tools.students.ubc.ca/exam-schedule/) for the latest information.
 
 > [!WARNING]
-> Do not schedule travel or other commitments during the final exam period. Final exam dates are set by the university and are not flexible.
+> Do not schedule travel or other commitments during the final exam period. The university sets
+> final exam dates, and they cannot be changed.
+
+> [!ATTENTION]
+> To pass this course you need more than 50% on the final exam, separate from your overall course
+> grade. The full list is in [Passing Criteria](syllabus.md#passing-criteria).
+
+---
 
 ## Your laptop and LockDown Browser
 
-You write the final exam on your own laptop, in LockDown Browser. You must have your laptop set up
-and tested by Mon Dec 7.
+You write the final exam on your own laptop, in LockDown Browser. Set it up and test it by the date
+in the [Overview](#overview):
 
-- Use a Windows or Mac laptop. LockDown Browser does not run on Chromebooks, iPads, phones or Linux
-- Install LockDown Browser from the [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser).
-  Install it from that page even if you already have LockDown Browser from another course
-- Test it with the optional [Pre-lab 9 LockDown Browser check](labs.md#the-pre-lab). Lab 9 runs in
-  LockDown Browser too
-- On exam day, restart your laptop before the exam and bring it fully charged
+1. Use a Windows or Mac laptop. LockDown Browser does not run on Chromebooks, iPads, phones or
+   Linux. If you do not have one, [borrow a laptop](#borrowing-a-laptop) from UBC Library.
+2. Install LockDown Browser from the
+   [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser).
+   Install it from that page even if you already have LockDown Browser from another course.
+3. Test it with the optional [Pre-lab 9 LockDown Browser check](labs.md#the-pre-lab). Lab 9 runs
+   in LockDown Browser too.
+
+On exam day, restart your laptop before the exam and bring it fully charged.
 
 ### Borrowing a laptop <!-- {docsify-ignore} -->
 
 If you do not have a Windows or Mac laptop, borrow one from UBC Library. Current UBC students can
-borrow laptops at:
+borrow laptops at these desks:
 
 - Irving K. Barber Learning Centre, Chapman Learning Commons Help Desk, Level 3
 - Koerner Library, Circulation Desk, Entrance Level
 - Woodward Library, Information Desk, Entrance Level
 - David Lam Library, Circulation Desk, Entrance Level
 
-Loan periods vary by branch, and you sign the Laptop Borrower Agreement. Ask the desk how long you
-can keep the laptop and whether you can install LockDown Browser on it. Details are on the
-library's [Technology Borrowing](https://services.library.ubc.ca/computers-technology/technology-borrowing/)
+Before you borrow one, ask the desk:
+
+- How long you can keep it. Loan periods are different at each branch
+- Whether you can install LockDown Browser on it
+
+You sign the Laptop Borrower Agreement when you borrow a laptop. The details are on the library's
+[Technology Borrowing](https://services.library.ubc.ca/computers-technology/technology-borrowing/)
 page.
 
-## Passing Requirement
+---
 
-The [syllabus passing criteria](syllabus.md#passing-criteria) include a minimum grade on the final exam, separate from your overall course grade.
+## How to prepare
 
-## How to Prepare Well
+Plan both your studying and your rest. The final exam asks you to explain course ideas and reason
+with them, not only to recognise terms.
 
-The final exam assesses your understanding of course ideas and your ability to reason with them. A good preparation plan includes both studying and taking care of yourself.
+| What to do | Why |
+| :--------- | :-- |
+| Review all three parts of the course | The final connects topics from across the whole term |
+| Revisit your project work | Ideas are easier to explain when you connect them to decisions you made and defended |
+| Practise explaining ideas in your own words | Many questions ask you to explain, not to recognise a term |
+| Sleep the night before | Rest helps your attention, memory and judgment during the exam |
+| Eat, drink water and plan your route | Hunger, thirst or a late arrival make the exam harder |
+| Pack your UBC student ID and your laptop the night before | You need both, and packing early leaves less to do that morning |
 
-|                        What to do                         |                                     Why it helps                                      |
-| :-------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
-|        Review the full course arc, all three parts        |            The final draws connections across topics from the whole term.             |
-|                 Revisit your project work                 | Many ideas become clearer when connected to decisions you actually made and defended. |
-|      Practice explaining concepts in your own words       |             Many questions require explanation, not recognition of terms.             |
-|                  Sleep the night before                   |            Rest improves attention, memory, and judgment during the exam.             |
-|             Eat, hydrate, and plan your route             |                Do not make the exam harder with preventable stressors.                |
-|            Pack your UBC ID the night before             |               It is required, and packing early reduces day-of friction.               |
-
-Useful UBC support links:
+UBC support while you prepare:
 
 - [UBC sleep resources](https://students.ubc.ca/health/health-topics/sleep-success)
 - [UBC stress resources](https://students.ubc.ca/health/health-topics/understanding-stress/)
 - [UBC Health and Wellbeing](https://students.ubc.ca/health/)
 
-## What to Bring
+---
+
+## What to bring
+
+Bring both of these to the exam room:
 
 | Bring | Why |
 | :---- | :-- |
-| UBC student ID | Required for identity verification. |
-| A Windows or Mac laptop with LockDown Browser installed, fully charged | You write the exam on it. |
+| Your UBC student ID | We use it to confirm who you are |
+| A Windows or Mac laptop with LockDown Browser installed, fully charged | You write the exam on it |
 
-## Centre for Accessibility Arrangements
+---
 
-Registration, Letters of Accommodation, and the Centre's own booking deadlines are covered in the syllabus: [Academic Accommodations and the Centre for Accessibility](syllabus.md#academic-accommodations-and-the-centre-for-accessibility).
+## Centre for Accessibility arrangements
 
-Specific to this exam:
+If you write the final exam with the Centre for Accessibility:
 
-- Confirm your arrangement with us 10 days before the final exam, by emailing the course admin address listed on [Course Communication](communication.md).
-- If you write with the Centre for Accessibility, you write on the Centre's computers, not your own laptop. Book your sitting with the Centre, as the syllabus describes.
+- Book your sitting with the Centre, as the syllabus describes. Registration, Letters of
+  Accommodation and the Centre's own booking deadlines are in
+  [Academic Accommodations and the Centre for Accessibility](syllabus.md#academic-accommodations-and-the-centre-for-accessibility)
+- Confirm your arrangement with us 10 days before the final exam. Email the course admin address
+  on [Course Communication](communication.md)
+- You write on the Centre's computers, not your own laptop
 
-If you do not make and confirm arrangements, we will assume you are writing the final exam with the rest of the class, and no special accommodations will be in place.
+If you do not make and confirm arrangements, we will assume you are writing the final exam with the
+rest of the class, with no accommodations in place.
 
-## Exam Viewing and Regrading
+---
 
-Students may request an in-person viewing of their final exam. The exact date and time will be announced.
+## Exam viewing and regrading
 
-During an exam viewing, students may review their exam with a member of the teaching team. Students may not take photos, make copies, or otherwise reproduce any part of the exam.
+You can ask to view your final exam in person. We will announce the date and time.
+
+At the viewing, you go through your exam with a member of the teaching team. You must not take
+photos, make copies or reproduce any part of the exam in any other way.
 
 <details>
 <summary>Regrading requests</summary>
 
-Regrade requests will only be available during the announced request window. After that window closes, and in line with the course grading policy, grades will be considered final and further grade changes or grade discussions will not be available.
+You can ask for a regrade only during the request window we announce. After the window closes, your
+grade is final, as the course grading policy says. We cannot change or discuss it after that.
 
-Refer to the [syllabus remarking policy](syllabus.md#remarking-policy) for the course-level process.
+The course-level process is in the [syllabus remarking policy](syllabus.md#remarking-policy).
 
 </details>
 
 <details>
 <summary>Review of Assigned Standing (RAS)</summary>
 
-If you are not satisfied with your assigned standing, you are encouraged to first discuss your standing with your course instructor, when possible.
+If you disagree with your assigned standing, your final grade in the course, talk to your
+instructor first, if you can.
 
-If you still believe that your assigned standing has not been correctly evaluated, you may apply for a [Review of Assigned Standing (RAS)](https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations/review-assigned-standing) through the university student services.
-
-More details are available on the [UBC grades page](https://students.ubc.ca/enrolment/courses/grades/).
+If you still think your standing was not assessed correctly, you can apply for a
+[Review of Assigned Standing (RAS)](https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations/review-assigned-standing)
+through the university's student services. The
+[UBC grades page](https://students.ubc.ca/enrolment/courses/grades/) has more details.
 
 </details>
 
-## If You Cannot Attend
+---
 
-If an emergency or serious unexpected situation stops you taking the final exam, contact your faculty advising office as soon as you can. Then follow the university's academic concession process. You should also inform the teaching team, but students are expected to follow the university process for concessions.
+## If you cannot attend
 
-You must contact [UBC Science](https://science.ubc.ca/students/advising) within 48 hours of a missed final exam to apply for a deferred exam.
+If an emergency or a serious, unexpected situation stops you from writing the final exam:
 
-Email the course staff address if you cannot attend, might be running late, or are dealing with an emergency that affects the exam. The address is on the [Course Communication](communication.md) page. Include your full name, student number, what is happening, and whether you have already contacted your faculty advising office.
+1. Contact your faculty advising office as soon as you can.
+2. Follow the university's
+   [academic concession](https://students.ubc.ca/enrolment/academic-learning-resources/academic-concessions/)
+   process.
+3. Email the course staff address on [Course Communication](communication.md). Telling us does not
+   replace the university's process.
 
-The sooner you reach out, the more options may be available, within reason and depending on the situation.
+> [!ATTENTION]
+> To apply for a deferred exam, you must contact
+> [UBC Science](https://science.ubc.ca/students/advising) within 48 hours of the missed final exam.
 
-Important links:
+Also email us if you might be late, or if an emergency affects the exam. In every email, include:
+
+- Your full name
+- Your student number
+- What is happening
+- Whether you have already contacted your faculty advising office
+
+The sooner you contact us, the more options there may be, depending on the situation.
+
+Links for academic concessions:
 
 - [Academic concessions](https://students.ubc.ca/enrolment/academic-learning-resources/academic-concessions/)
 - [Science academic concession FAQ](https://science.ubc.ca/students/concession)
@@ -147,17 +196,31 @@ Important links:
 - [Student Declaration of Academic Concession Form](https://parsa-rajabi.github.io/CPSC-100/assets/academic-concession.pdf)
 - [Syllabus: Academic Concessions](syllabus.md#academic-concessions)
 
-## Help and Mental Health Support
+---
 
-Exams and deadlines can be stressful. If you are feeling overwhelmed, distressed, unwell, or unsafe, use the support resources below. You do not need to wait until things are severe before asking for help.
+## Help and mental health support
 
-| Resource                                                                                            | When to use it                                                                                    |
-| :-------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
-| [UBC Counselling Services](https://students.ubc.ca/health/counselling-services/)                    | Mental health support, stress, anxiety, test anxiety, or help deciding what support you need.     |
-| [Here2Talk](https://here2talk.ca/)                                                                  | Free 24/7 mental health counselling by phone, app, or online chat for BC post-secondary students. |
-| [UBC Student Assistance Program](https://students.ubc.ca/health/ubc-student-assistance-program-sap) | Free 24/7 wellness support for UBC students.                                                      |
-| [UBC Student Health Service](https://students.ubc.ca/health/student-health-service)                 | Medical or health concerns.                                                                       |
-| [UBC Health and Wellbeing](https://students.ubc.ca/health/)                                         | Starting point for health, wellbeing, peer support, and self-help resources.                      |
-| [Syllabus: Wellness and Mental Health](syllabus.md#wellness-and-mental-health)                      | Course-level list of wellness and mental health resources.                                        |
+If you feel overwhelmed, distressed, unwell or unsafe, use the support below. You do not need to
+wait until things are severe to ask for help.
 
-If you or someone else is in immediate danger, call 911 or go to the nearest emergency room.
+| Resource | When to use it |
+| :------- | :------------- |
+| [UBC Counselling Services](https://students.ubc.ca/health/counselling-services/) | Mental health support, stress, anxiety, test anxiety, or help deciding what support you need |
+| [Here2Talk](https://here2talk.ca/) | Free 24/7 mental health counselling by phone, app or online chat for B.C. post-secondary students |
+| [UBC Student Assistance Program](https://students.ubc.ca/health/ubc-student-assistance-program-sap) | Free 24/7 wellness support for UBC students |
+| [UBC Student Health Service](https://students.ubc.ca/health/student-health-service) | Medical or health concerns |
+| [UBC Health and Wellbeing](https://students.ubc.ca/health/) | A starting point for health, wellbeing, peer support and self-help resources |
+| [Syllabus: Wellness and Mental Health](syllabus.md#wellness-and-mental-health) | The course list of wellness and mental health resources |
+
+> [!WARNING]
+> If you or someone else is in immediate danger, call 911 or go to the nearest emergency room.
+
+---
+
+## Related pages
+
+- [Syllabus](syllabus.md): passing criteria, course evaluation, accommodations and academic
+  concessions
+- [Labs](labs.md): the optional Pre-lab 9 LockDown Browser check, and Lab 9 in LockDown Browser
+- [Course Communication](communication.md): the course staff and course admin email addresses
+- [Schedule](schedule.md): the whole term, week by week
