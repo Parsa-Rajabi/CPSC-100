@@ -1,8 +1,5 @@
 # Final Exam
 
-> [!NOTE]
-> Still to come: whether you may bring a handwritten cheat sheet.
-
 <details class="changelog">
 <summary>Changelog</summary>
 
@@ -25,17 +22,12 @@
 | Time | 8:30am |
 | Room | [PHRM 1101](https://learningspaces.ubc.ca/classrooms/phrm-1101/), Pharmaceutical Sciences Building |
 | Format | In person, on PrairieLearn in LockDown Browser |
+| Weight | 20% of your course grade |
 | Bring | Your UBC student ID, your Windows or Mac laptop, and its charger |
 | Laptop ready by | Mon Dec 7, 2026. See [Your laptop](#your-laptop-and-lockdown-browser) |
 | Handwritten cheat sheet | *to be confirmed* |
 
-The exam weight is in [Course Evaluation](syllabus.md#course-evaluation). UBC's
-[exam schedule](https://tools.students.ubc.ca/exam-schedule/) has the latest date and room.
-
-> [!WARNING]
-> Do not book travel or other commitments during the
-> [final exam period](syllabus.md#important-dates). The university sets exam
-> dates, and they cannot be changed.
+UBC's [exam schedule](https://tools.students.ubc.ca/exam-schedule/) has the latest date and room.
 
 > [!ATTENTION]
 > To pass the course, you need more than 50% on the final exam. See
@@ -97,20 +89,6 @@ accommodations.
 
 ---
 
-## Exam viewing and regrading
-
-You can view your exam in person with a member of the teaching team, on a date we will announce. Do
-not take photos or copies of any part of it.
-
-Regrade requests are open only during a window we announce. After it closes, your grade is final.
-See the [remarking policy](syllabus.md#remarking-policy).
-
-To dispute your final standing in the course, talk to your instructor first. You can then apply for
-a [Review of Assigned Standing](https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations/review-assigned-standing).
-Details are on the [UBC grades page](https://students.ubc.ca/enrolment/courses/grades/).
-
----
-
 ## If you cannot attend
 
 If an emergency or a serious, unexpected situation stops you from writing the exam:
@@ -132,6 +110,20 @@ More: [Science concession FAQ](https://science.ubc.ca/students/concession),
 [Science exam FAQ](https://science.ubc.ca/students/advising/exams),
 [concession form](https://parsa-rajabi.github.io/CPSC-100/assets/academic-concession.pdf),
 [syllabus](syllabus.md#academic-concessions).
+
+---
+
+## Exam viewing and regrading
+
+You can view your exam in person with a member of the teaching team, on a date we will announce. Do
+not take photos or copies of any part of it.
+
+Regrade requests are open only during a window we announce. After it closes, your grade is final.
+See the [remarking policy](syllabus.md#remarking-policy).
+
+To dispute your final standing in the course, talk to your instructor first. You can then apply for
+a [Review of Assigned Standing](https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations/review-assigned-standing).
+Details are on the [UBC grades page](https://students.ubc.ca/enrolment/courses/grades/).
 
 ---
 
