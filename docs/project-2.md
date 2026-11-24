@@ -1,8 +1,7 @@
 # Project 2: From Blocks to Code
 
 > [!NOTE]
-> Still to come: the viva voce grading criteria, how long each session is, how to book your session,
-> where it takes place, and what you may bring.
+> Still to come: the viva voce grading criteria and what you may bring.
 
 <details class="changelog">
 <summary>Changelog</summary>
@@ -11,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 24 | The viva voce is on Wed Dec 2 and Thu Dec 3, not Fri Dec 4. Find your session on the Part C page. |
 | Nov 1 | The project work day moved to Mon Nov 23, with no class. Use it to finish Part B. |
 | Oct 23 | Added the Project 2 overview and dates. Parts A, B and C each have their own page. |
 
@@ -36,7 +36,7 @@ what your code does, and why.
 | :--: | :--------- | :---------- | :----: | :-- |
 | A | Learning to communicate: debugging a Python program | Individual, in Lab 7 | 1% | The day after your Lab 7, Thu Nov 5 or Fri Nov 6, 11:59pm |
 | B | Vibe coding: building a web app with Copilot | Group | 4% | Tue Nov 24, 11:59pm |
-| C | Viva voce | Group, with an individual multiplier from [peer evaluation](#peer-evaluation) | 10% | Your session, between Wed Dec 2 and Fri Dec 4 |
+| C | Viva voce | Group, with an individual multiplier from [peer evaluation](#peer-evaluation) | 10% | Your [session](project-2c.md#your-session), Wed Dec 2 or Thu Dec 3 |
 
 These weights are percentages of your final course grade, not shares of this project. Together they
 are 15% of your grade, and Project 1 is the other 15%. All course weights are in
@@ -65,7 +65,7 @@ All times are Pacific time.
 | [Part A](project-2a.md#submission): your fixed Python notebook, with a comment at each fix | Individual | The day after your Lab 7: Thu Nov 5 (L1A to L1D) or Fri Nov 6 (L1E), 11:59pm | PrairieLearn |
 | [Pre-lab 8](project-2b.md#pre-lab-8-your-ideas-sketches-and-proposal): your project ideas, sketches and proposal | Group | Thu Nov 12, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [Part B](project-2b.md#submission): your design requirements document, your app as one .html file, your testing report, and your AI transcripts | Group | Tue Nov 24, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
-| [Part C](project-2c.md): nothing to hand in. Your group presents its app in person | Group | Your session, between Wed Dec 2 and Fri Dec 4 | In person |
+| [Part C](project-2c.md): nothing to hand in. Your group presents its app in person | Group | Your [session](project-2c.md#your-session), Wed Dec 2 or Thu Dec 3 | In person |
 | [Stand-ups](#weekly-stand-ups) 5 to 9 | Individual | Every Friday from Nov 6 to Dec 4, 4:00pm | Ed Discussion |
 | [Retrospective](#retrospective) 2 | Group | Thu Dec 3, 11:59pm | [Canvas](https://canvas.ubc.ca/courses/190791/assignments) |
 | [iPeer 2](#peer-evaluation) | Individual | Thu Dec 3, 11:59pm | iPeer |
@@ -88,7 +88,7 @@ own page once the Pre-lab 8, Project 2B and retrospective assignments exist. -->
 | 10 | *no lab* | Midterm Break. Your group agrees on its app and writes its proposal. | Pre-lab 8, your group's ideas, sketches and proposal (one submission per group), Thu Nov 12<br>Stand-up 6, Fri Nov 13 |
 | 11 | Lab 8 | Working with an AI coding assistant. Feedback on your proposal, then time to work on Part B. | Stand-up 7, Fri Nov 20 |
 | 12 | Lab 9 | Each group demos its app, your section votes for the best project, then you practise for the viva voce. | Part B, Tue Nov 24<br>Stand-up 8, Fri Nov 27 |
-| 13 | Lab 10 | Viva voce, held from Wed Dec 2 to Fri Dec 4. | Your viva voce<br>Retrospective and [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, Fri Dec 4 |
+| 13 | Lab 10 | Viva voce, held on Wed Dec 2 and Thu Dec 3. Some groups present outside their lab time, so check the [schedule](project-2c.md#your-session). | Your viva voce<br>Retrospective and [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, Fri Dec 4 |
 
 Three things to notice:
 

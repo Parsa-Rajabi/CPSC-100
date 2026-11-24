@@ -10,6 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 24 | The viva voce is on Wed Dec 2 and Thu Dec 3, not Fri Dec 4. Some groups present outside their lab time. |
 | Oct 23 | Pre-lab 8 is now your Project 2 proposal, on Canvas. Lab 6 now goes from Snap! to Python. |
 | Oct 13 | Pre-labs are marked for completion, and Pre-lab 5 is due early. Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
@@ -62,7 +63,7 @@ Labs begin in Week 2 and there is no lab in Week 4, for Truth and Reconciliation
 |  10  | *none* |             | *No lab. Midterm Break.*                                      |
 |  11  |   8    | Nov 18 / 19 | [Project 2B](project-2b.md): building with an AI coding assistant |
 |  12  |   9    | Nov 25 / 26 | [Project 2](project-2.md) demos, the [best project vote](project-2c.md#best-project-bonus) in LockDown Browser, and viva voce practice |
-|  13  |   10   | Dec 2 / 3   | [Viva voce](project-2c.md), which runs Wed Dec 2 to Fri Dec 4. Details announced closer to the date |
+|  13  |   10   | Dec 2 / 3   | [Viva voce](project-2c.md). Some groups present outside their lab time, so check the [schedule](project-2c.md#your-session) |
 
 Need to reach your TA? Start with Ed Discussion, which is where lab questions belong. Email addresses and which kind of question goes where are on [Course Communication](communication.md). If you would rather ask in person, see [Drop-in Hours](drop-in-hours.md).
 
