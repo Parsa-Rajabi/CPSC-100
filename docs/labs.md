@@ -10,7 +10,6 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 24 | The viva voce is now on Dec 2 and 3. |
 | Oct 23 | Pre-lab 8 is now your Project 2 proposal, on Canvas. Lab 6 now goes from Snap! to Python. |
 | Oct 13 | Pre-labs are marked for completion, and Pre-lab 5 is due early. Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
