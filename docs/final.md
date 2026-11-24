@@ -7,6 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 24 | Added LockDown Browser setup steps and a required practice session. |
 | Nov 23 | Added the room and LockDown Browser details. |
 | Nov 5 | Removed the mentions of ORCA and of a pencil and eraser. The format will be announced closer to the date. |
 | Nov 1 | Added the final exam date and time. The room is still to be confirmed. |
@@ -33,20 +34,126 @@ UBC's [exam schedule](https://tools.students.ubc.ca/exam-schedule/) has the late
 > To pass the course, you need more than 50% on the final exam. See
 > [Passing Criteria](syllabus.md#passing-criteria).
 
+> [!WARNING]
+> You will not be allowed to write the final exam unless you complete at least one LockDown Browser
+> [practice session](#practise-in-lockdown-browser): the Pre-lab 9 LockDown Browser check, the
+> Lab 9 best project vote, or another practice session we announce.
+
 ---
 
 ## Your laptop and LockDown Browser
 
-Set up your laptop by the date in the [Overview](#overview):
+Set up and test your laptop by Mon Dec 7, 2026. You need a Windows or Mac laptop. LockDown Browser
+does not run on Chromebooks, iPads, phones or Linux. If you do not have one,
+[borrow a laptop](#borrowing-a-laptop) first.
 
-1. Use a Windows or Mac laptop. LockDown Browser does not run on Chromebooks, iPads, phones or
-   Linux.
-2. Install LockDown Browser from the
-   [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser),
-   even if you have it from another course.
-3. Test it with the optional [Pre-lab 9 LockDown Browser check](labs.md#the-pre-lab).
+### Install LockDown Browser <!-- {docsify-ignore} -->
 
-On exam day, restart your laptop and bring it fully charged, with its charger. Every seat has power.
+Install it from the PrairieTest page, even if you already have LockDown Browser from another
+course. Other copies may not open your exam.
+
+> [!TIP]
+> We recommend creating a new user account on your laptop and using it to install LockDown Browser,
+> practise and write the exam. A new account has no other apps that open when you log in, so
+> LockDown Browser has nothing else to close. See how on
+> [Windows](https://support.microsoft.com/en-us/windows/create-a-local-user-or-administrator-account-in-windows-20de74e0-ac7f-3502-a866-32915af2a34d)
+> or [Mac](https://support.apple.com/guide/mac-help/add-a-user-or-group-mchl3e281fc9/mac). This is a
+> suggestion, not a requirement.
+
+1. Go to the
+   [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser).
+2. Click Download for Windows or Download for Mac.
+3. Open the file you downloaded. On a Mac, double-click the zip file to unzip it, then open the
+   installer inside.
+4. Follow the installer. If it asks for a password, enter the one you use to log in to your laptop.
+5. Back on the download page, click Test installation. LockDown Browser opens, which can take up to
+   30 seconds. Close it.
+
+### Practise in LockDown Browser <!-- {docsify-ignore} -->
+
+Complete one practice session on the laptop you will bring to the exam. You must do this to write
+the final exam.
+
+| Practice session | When |
+| :--------------- | :--- |
+| [Pre-lab 9 LockDown Browser check](labs.md#the-pre-lab) | Online, on your own, until Thu Nov 26, 2:00pm |
+| [Lab 9 best project vote](project-2c.md#best-project-bonus) | In your Lab 9, Nov 25 / 26 |
+
+1. Restart your laptop.
+2. Open your usual web browser, and nothing else.
+3. Go to [PrairieTest](https://us.prairietest.com) and open your reservation. For the Pre-lab 9
+   check, reserve it first.
+4. Click Open in LockDown Browser. If your browser asks to open LockDown Browser, allow it.
+5. If LockDown Browser asks you to close other apps, let it.
+6. Answer the questions and submit.
+
+### On exam day <!-- {docsify-ignore} -->
+
+Restart your laptop and bring it fully charged, with its charger. Every seat has power. In the exam
+room, open your reservation on PrairieTest and click Open in LockDown Browser, as you did in your
+practice session.
+
+### Common problems and fixes <!-- {docsify-ignore} -->
+
+| Problem | Fix |
+| :------ | :-- |
+| Open in LockDown Browser does nothing | Install LockDown Browser from the PrairieTest download page, even if you already have it. Then refresh your reservation page and click again. |
+| The page says the link has expired | Refresh your reservation page and click Open in LockDown Browser again. |
+| LockDown Browser will not start, or an app will not close | Save your work and restart your laptop. Open only your web browser and try again. |
+| Windows will not install LockDown Browser and only allows apps from the Microsoft Store | Your laptop is in S mode. [Switch out of S mode](https://support.microsoft.com/en-us/windows/experience/platform-variants/switching-out-of-s-mode-in-windows). It is free, but you cannot switch back. Or borrow a laptop. |
+| The Mac installer fails or asks for a password you do not have | Log in to your Mac with an account that can install apps. On a borrowed laptop, ask the desk. |
+| Your Wi-Fi drops during the exam | Tell a proctor right away. |
+| Still stuck before the exam | Email [help@cs.ubc.ca](mailto:help@cs.ubc.ca) before Mon Dec 7. |
+
+### FAQ <!-- {docsify-ignore} -->
+
+<details>
+<summary>I already have LockDown Browser from another course. Do I need to install it again?</summary>
+
+Yes. Install it from the PrairieTest download page. Copies from other courses or schools may not
+open your exam. You can keep both.
+
+</details>
+
+<details>
+<summary>Do I open LockDown Browser myself?</summary>
+
+No. Open your reservation on PrairieTest in your usual web browser and click Open in LockDown
+Browser. It opens LockDown Browser for you.
+
+</details>
+
+<details>
+<summary>What does LockDown Browser do to my laptop?</summary>
+
+While it is open, you can only use the exam. You cannot switch to other apps or websites. When you
+finish, it closes and your laptop works as usual.
+
+</details>
+
+<details>
+<summary>Can I use a different laptop on exam day?</summary>
+
+Use the laptop you practised on. If you must change, install LockDown Browser on the new laptop and
+click Test installation before Mon Dec 7.
+
+</details>
+
+<details>
+<summary>What if LockDown Browser does not open on exam day?</summary>
+
+Restart your laptop, open only your web browser, and click Open in LockDown Browser from your
+PrairieTest reservation again. If it still does not open, tell a proctor right away. Do not open the
+exam directly in PrairieLearn.
+
+</details>
+
+<details>
+<summary>Can I remove LockDown Browser after the exam?</summary>
+
+Yes. Remove it like any other app.
+
+</details>
 
 ### Borrowing a laptop <!-- {docsify-ignore} -->
 
