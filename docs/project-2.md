@@ -87,7 +87,7 @@ own page once the Pre-lab 8, Project 2B and retrospective assignments exist. -->
 | 9 | Lab 7 | Part A runs during the lab. | Part A, the day after your lab<br>Stand-up 5, Fri Nov 6 |
 | 10 | *no lab* | Midterm Break. Your group agrees on its app and writes its proposal. | Pre-lab 8, your group's ideas, sketches and proposal (one submission per group), Thu Nov 12<br>Stand-up 6, Fri Nov 13 |
 | 11 | Lab 8 | Working with an AI coding assistant. Feedback on your proposal, then time to work on Part B. | Stand-up 7, Fri Nov 20 |
-| 12 | Lab 9 | Work session to prepare for the viva voce. | Part B, Tue Nov 24<br>Stand-up 8, Fri Nov 27 |
+| 12 | Lab 9 | Each group demos its app, your section votes for the best project, then you practise for the viva voce. | Part B, Tue Nov 24<br>Stand-up 8, Fri Nov 27 |
 | 13 | Lab 10 | Viva voce, held from Wed Dec 2 to Fri Dec 4. | Your viva voce<br>Retrospective and [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, Fri Dec 4 |
 
 Three things to notice:
@@ -98,7 +98,9 @@ Three things to notice:
   for your group to meet before Pre-lab 8 is due.
 - Part B is due before Lab 9. Lab 8 is your only lab for building the app, so most of Part B
   happens outside lab. Use the project work day, Mon Nov 23, to finish Part B as a group. There is
-  no class that day. Lab 9 is for preparing your viva voce.
+  no class that day. Lab 9 starts with demos and the
+  [best project vote](project-2c.md#best-project-bonus), then your group practises for the viva
+  voce.
 
 ---
 

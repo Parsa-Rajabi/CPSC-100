@@ -164,6 +164,18 @@ Your viva voce score is 90% of your Part C mark. The other 10% is:
 Your peer evaluation multiplier applies to all of Part C. The
 [grade breakdown](project.md#your-individual-part-c-mark) shows how the parts are combined.
 
+### Best project bonus <!-- {docsify-ignore} -->
+
+In Lab 9, each group demos its app to its lab section. Then every student votes on PrairieLearn, in
+LockDown Browser, for the best, second best and third best project in their section.
+
+- In each lab section, every member of the group with the most votes for best project gets 3% added
+  to their Part C mark, after the peer evaluation multiplier
+- Only the votes for best project decide the bonus
+- Your Part C mark cannot go above 100%
+- You may vote for your own group, but vote as objectively as you can
+- If groups tie for the most votes, your TA runs a tie-break vote in the lab
+
 ---
 
 ## Grading scale
