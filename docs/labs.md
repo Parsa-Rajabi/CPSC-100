@@ -10,7 +10,7 @@
 
 | Date | Update |
 | :--: | :----- |
-| Nov 23 | Pre-lab 9 now has two parts. Part 2 checks LockDown Browser on your laptop, and Lab 9 runs in LockDown Browser. |
+| Nov 23 | Lab 9 runs in LockDown Browser, and an optional Pre-lab 9 check lets you test it on your laptop first. |
 | Oct 23 | Pre-lab 8 is now your Project 2 proposal, on Canvas. Lab 6 now goes from Snap! to Python. |
 | Oct 13 | Pre-labs are marked for completion, and Pre-lab 5 is due early. Lab 7 now includes Project 2A, and the viva voce runs Dec 2 to 4. |
 | Sep 24 | Clarified: one free late arrival per semester, not per lab. |
@@ -71,7 +71,7 @@ Need to reach your TA? Start with Ed Discussion, which is where lab questions be
 
 All lab content runs on [PrairieLearn](https://us.prairielearn.com/pl/course_instance/222208/), including the pre-labs. Most of the programming happens in Snap! at [snap.berkeley.edu](https://snap.berkeley.edu), which runs in your browser with nothing to install, and moves to Jupyter notebooks for Python later in the term. Course discussion, including your weekly project stand-ups, lives on Ed Discussion.
 
-Bring a laptop. The room has CS computers as a backup if you forget yours or something goes wrong. You log in to them with your CS account. Lab 9 runs in LockDown Browser, so for that lab bring the Windows or Mac laptop you used for Pre-lab 9 (Part 2).
+Bring a laptop. The room has CS computers as a backup if you forget yours or something goes wrong. You log in to them with your CS account. Lab 9 runs in LockDown Browser, so for that lab bring a Windows or Mac laptop with LockDown Browser installed.
 
 <details>
 <summary>Your CS account, and what to do if it does not work</summary>
@@ -107,7 +107,9 @@ Your pre-lab is due the moment your section starts: 10:00am Wednesday for L1A, 2
 
 Pre-lab 8 is also an exception. It is a group submission: one member hands in your group's [Project 2 ideas, sketches and proposal](project-2b.md#pre-lab-8-your-ideas-sketches-and-proposal) on Canvas, the week before Lab 8, so your TA has time to read it and give your group feedback in the lab. Because it is not due at the start of a lab, the course's default [late penalty](syllabus.md#late-deliverables) applies to it instead of the deductions above. Its deadline and late window are in the table on [the Project 2B page](project-2b.md#pre-lab-8-your-ideas-sketches-and-proposal), and on Canvas.
 
-Pre-lab 9 has two parts, and it is done when both show 100% on PrairieLearn. Part 1 covers [Part C](project-2c.md) and your viva voce booking. Part 2 checks that LockDown Browser works on the laptop you will use for Lab 9 and the [final exam](final.md#your-laptop-and-lockdown-browser). Install LockDown Browser from the [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser), then open Part 2 from your reservation on [PrairieTest](https://us.prairietest.com). LockDown Browser runs only on Windows and Mac. If you do not have one, you must borrow a laptop from UBC Library before Lab 9 and do Part 2 on it. Where to borrow one is under [Borrowing a laptop](final.md#borrowing-a-laptop).
+Before Lab 9, test LockDown Browser with the optional Pre-lab 9 LockDown Browser check on PrairieLearn. It does not affect your Lab 9 mark, but we highly recommend it, because Lab 9 runs in LockDown Browser.
+
+Install LockDown Browser from the [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser), then open the check from your reservation on [PrairieTest](https://us.prairietest.com). Use the laptop you will bring to Lab 9 and the [final exam](final.md#your-laptop-and-lockdown-browser). LockDown Browser runs only on Windows and Mac. If you do not have one, you must borrow a laptop from UBC Library before Lab 9. Where to borrow one is under [Borrowing a laptop](final.md#borrowing-a-laptop).
 
 <details>
 <summary>Lab 0, the setup homework from Week 1</summary>

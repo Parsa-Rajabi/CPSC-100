@@ -43,7 +43,7 @@ and tested by Mon Dec 7.
 - Use a Windows or Mac laptop. LockDown Browser does not run on Chromebooks, iPads, phones or Linux
 - Install LockDown Browser from the [PrairieTest download page](https://us.prairietest.com/pt/docs/students/respondus-lockdown-browser).
   Install it from that page even if you already have LockDown Browser from another course
-- Test it. [Pre-lab 9 (Part 2)](labs.md#the-pre-lab) is your first check, and Lab 9 runs in
+- Test it with the optional [Pre-lab 9 LockDown Browser check](labs.md#the-pre-lab). Lab 9 runs in
   LockDown Browser too
 - On exam day, restart your laptop before the exam and bring it fully charged
 
