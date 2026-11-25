@@ -82,7 +82,7 @@ the final exam.
 1. Restart your laptop.
 2. Open your usual web browser, and nothing else.
 3. Go to [PrairieTest](https://us.prairietest.com) and open your reservation. For the Pre-lab 9
-   check, reserve it first.
+   check, we reserve a session for you, and PrairieTest emails you about it.
 4. Click Open in LockDown Browser. If your browser asks to open LockDown Browser, allow it.
 5. If LockDown Browser asks you to close other apps, let it.
 6. Answer the questions and submit.

@@ -13,6 +13,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 24 | Groups that used UBC Copilot can put shareable links to their conversations in the transcripts PDF. |
 | Oct 23 | Added the Part B instructions, Pre-lab 8 and the rubric. |
 
 </details>
@@ -71,7 +72,7 @@ work.
 2. Write your design requirements document before you prompt Copilot
 3. Build the app with Copilot, one feature at a time, working from your design document
 4. Test every feature, record what you find, and fix what fails
-5. Keep every AI conversation, and export them all as one PDF
+5. Keep every AI conversation, and put them all in one PDF
 6. Hand in your four files on Canvas, as one submission for your group
 
 ### Where you have a choice <!-- {docsify-ignore} -->
@@ -100,7 +101,7 @@ The four files:
 | Design requirements document, a PDF of 1 to 2 pages | `CPSC100-2B-Design-[Section]-[GroupNumber].pdf` | The six sections in [Design requirements document](#design-requirements-document), updated to match your final app |
 | Your app, one .html file | `CPSC100-2B-App-[Section]-[GroupNumber].html` | The final version. It must open and run in a web browser, with nothing else to install. It must not save any data |
 | Testing report, a PDF of 2 to 4 pages, plus an appendix | `CPSC100-2B-Testing-[Section]-[GroupNumber].pdf` | Your AI use statement, at the top<br>How you decided what to test, and why<br>Your test table, with every test linked to a feature<br>Where anyone changed the code without Copilot<br>An appendix with one labelled screenshot for each test. The appendix does not count toward the page limit |
-| AI transcripts, one PDF | `CPSC100-2B-Transcripts-[Section]-[GroupNumber].pdf` | Every AI conversation your group used to build the app, in Copilot or any other AI tool, in order, from the first prompt to the final code |
+| AI transcripts, one PDF | `CPSC100-2B-Transcripts-[Section]-[GroupNumber].pdf` | Every AI conversation your group used to build the app, in Copilot or any other AI tool, in order, from the first prompt to the final code<br>If you used UBC Copilot, we prefer a shareable link to each Copilot conversation in this PDF instead of the printed conversation. Check that the teaching team can open every link |
 
 ---
 
@@ -286,6 +287,9 @@ transcripts PDF:
 
 1. Open each conversation and print the page to PDF
 2. Combine all the PDFs into one file, in the order you had the conversations
+
+If you used UBC Copilot, we prefer a shareable link to each Copilot conversation in your transcripts
+PDF instead of the printed page. Check that the teaching team can open every link.
 
 If anyone in your group changes the code without Copilot, say where in your testing report.
 
