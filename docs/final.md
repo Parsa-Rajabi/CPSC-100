@@ -26,7 +26,7 @@
 | Weight | 20% of your course grade |
 | Bring | Your UBC student ID, your Windows or Mac laptop, and its charger |
 | Laptop ready by | Mon Dec 7, 2026. See [Your laptop](#your-laptop-and-lockdown-browser) |
-| Handwritten cheat sheet | *to be confirmed* |
+| Handwritten cheat sheet | One sheet, handwritten, single or double sided, letter size (8.5x11 inches). Can be handwritten on paper or iPad |
 
 UBC's [exam schedule](https://tools.students.ubc.ca/exam-schedule/) has the latest date and room.
 
