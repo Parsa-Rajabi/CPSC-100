@@ -12,11 +12,92 @@
   <!-- Themeable Simple theme -->
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
 
-  <!-- Themeable Simple light + dark theme (uncomment to use, and comment out the above loading of Simple theme) -->
-  <link rel="stylesheet" media="(prefers-color-scheme: light)"
+  <!-- Themeable Simple light + dark theme. The script below turns on one of the two. -->
+  <link rel="stylesheet" id="theme-light" media="(prefers-color-scheme: light)"
     href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <link rel="stylesheet" media="(prefers-color-scheme: dark)"
+  <link rel="stylesheet" id="theme-dark" media="(prefers-color-scheme: dark)"
     href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+
+  <!-- Light or dark. A student's choice from the Dark mode switch in the sidebar wins, and is
+       remembered in this browser. Otherwise the site follows the device setting, and changes
+       with it. This runs before the page is drawn, so the wrong theme never flashes. It sets
+       data-theme on <html>, which every dark rule in theme.css and custom.css depends on, and
+       turns on the matching stylesheet above. tests/unit/theme.test.js runs it. -->
+  <script>
+    var siteTheme = (function () {
+      var KEY = 'cpsc100.theme';
+      var device = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+      var listeners = [];
+
+      // Storage can be blocked (a private window, some school computers). Then a choice
+      // still works, until the page is reloaded.
+      function read() {
+        try {
+          var value = window.localStorage.getItem(KEY);
+          return value === 'light' || value === 'dark' ? value : null;
+        } catch (err) {
+          return null;
+        }
+      }
+
+      function write(value) {
+        try {
+          if (value) window.localStorage.setItem(KEY, value);
+          else window.localStorage.removeItem(KEY);
+        } catch (err) { /* blocked */ }
+      }
+
+      var choice = read(); // 'light', 'dark', or null to follow the device
+
+      function deviceTheme() {
+        return device && device.matches ? 'dark' : 'light';
+      }
+
+      function current() {
+        return choice || deviceTheme();
+      }
+
+      function apply() {
+        var theme = current();
+        var root = document.documentElement;
+        root.setAttribute('data-theme', theme);
+        root.style.colorScheme = theme;
+        var light = document.getElementById('theme-light');
+        var dark = document.getElementById('theme-dark');
+        if (light) light.media = theme === 'light' ? 'all' : 'not all';
+        if (dark) dark.media = theme === 'dark' ? 'all' : 'not all';
+        listeners.forEach(function (listener) { listener(theme); });
+      }
+
+      // Picking the theme the device already uses clears the saved choice, so the site goes
+      // back to following the device (for example, a laptop that turns dark in the evening).
+      function choose(theme) {
+        choice = theme === deviceTheme() ? null : theme;
+        write(choice);
+        apply();
+      }
+
+      if (device) {
+        if (device.addEventListener) device.addEventListener('change', apply);
+        else if (device.addListener) device.addListener(apply);
+      }
+      // A choice made in another tab of the site applies here too.
+      window.addEventListener('storage', function (event) {
+        if (event.key === KEY || event.key === null) {
+          choice = read();
+          apply();
+        }
+      });
+
+      apply();
+
+      return {
+        current: current,
+        choose: choose,
+        onChange: function (listener) { listeners.push(listener); }
+      };
+    })();
+  </script>
 
   <link rel="stylesheet" href="assets/css/theme.css">
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -383,6 +464,7 @@
 
           // Invoked on each page load after new HTML has been appended to the DOM
           hook.doneEach(function () {
+            addThemeSwitch();
             renderMermaid();
 
             var hasEmbedly = document.getElementsByClassName('embedly-card');
@@ -530,7 +612,7 @@
         .filter(function (el) { return el.dataset.src; });
       if (!nodes.length) return;
 
-      var dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var dark = siteTheme.current() === 'dark';
 
       nodes.forEach(function (el) {
         // Clear Mermaid's "already rendered" marker and restore the pristine
@@ -557,15 +639,35 @@
         .then(function () { mermaidRendering = false; });
     }
 
-    // Re-render on OS light/dark change so the diagram never desyncs from the page
-    if (window.matchMedia) {
-      var schemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
-      var onSchemeChange = function () { renderMermaid(); };
-      if (schemeQuery.addEventListener) {
-        schemeQuery.addEventListener('change', onSchemeChange);
-      } else if (schemeQuery.addListener) {
-        schemeQuery.addListener(onSchemeChange);
-      }
+    // Re-render when the theme changes (the switch, or the device setting) so the diagram
+    // never desyncs from the page
+    siteTheme.onChange(function () { renderMermaid(); });
+
+    // The Dark mode switch, under the search box in the sidebar. It is a real button with
+    // role="switch", so screen readers announce "Dark mode, switch, on" or "off", and Space
+    // and Enter work. docsify builds the sidebar after this script runs, so the doneEach hook
+    // calls this on every page, and it adds the switch only once.
+    function addThemeSwitch() {
+      var sidebar = document.querySelector('.sidebar');
+      if (!sidebar || sidebar.querySelector('.theme-switch')) return;
+
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'theme-switch';
+      button.setAttribute('role', 'switch');
+      button.innerHTML = '<span class="theme-switch-label">Dark mode</span>' +
+        '<span class="theme-switch-track" aria-hidden="true"><span class="theme-switch-thumb"></span></span>';
+
+      function sync(theme) { button.setAttribute('aria-checked', String(theme === 'dark')); }
+      sync(siteTheme.current());
+      siteTheme.onChange(sync);
+      button.addEventListener('click', function () {
+        siteTheme.choose(siteTheme.current() === 'dark' ? 'light' : 'dark');
+      });
+
+      var after = sidebar.querySelector('.search') || sidebar.querySelector('.app-name');
+      if (after) after.insertAdjacentElement('afterend', button);
+      else sidebar.insertBefore(button, sidebar.firstChild);
     }
   </script>
 
