@@ -163,8 +163,10 @@ body .markdown-section {
         outline-color: #6FB1E7;
     }
 
+    /* Regular-weight white headings look thin on the dark page, so the weeks get more weight. */
     .markdown-section .copy-section h3 {
         border-top-color: #4A5560;
+        font-weight: 600;
     }
 
     .markdown-section .copy-section h4 {
