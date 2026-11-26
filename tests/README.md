@@ -1,8 +1,8 @@
 # Site tests
 
 Tests for the Card Demos page (`docs/demos/`), the parts of the course site around it, and
-the site's light and dark themes: links must look like links, and the Dark mode switch must
-work. Nothing in this folder is published: GitHub Pages serves `docs/` only.
+the site's light and dark themes: links must look like links, the Dark mode switch must
+work, and every note must have a working Hide button. Nothing in this folder is published: GitHub Pages serves `docs/` only.
 
 ## Running them
 
@@ -18,8 +18,8 @@ npm run test:browsers # Chromium, Firefox and WebKit (about 8 minutes)
 The first browser run may ask for `npx playwright install chromium`.
 
 Run `npm test` before merging any change to `docs/demos/`. After a change to
-`docs/index.html` or `docs/assets/css/`, run at least the unit tests and
-`npx playwright test browser/site.spec.js browser/theme.spec.js`.
+`docs/index.html`, `docs/assets/css/` or `docs/assets/js/`, run at least the unit tests and
+`npx playwright test browser/site.spec.js browser/theme.spec.js browser/notes.spec.js`.
 
 ## On GitHub
 
@@ -29,8 +29,9 @@ Card Demos line in `docs/_sidebar.md` and the lines around it. Edits to other co
 and the rest of the sidebar do not run it. To run it anyway, for example after updating
 docsify, start it by hand from the Actions tab.
 
-A pull request that changes `docs/index.html` or `docs/assets/css/` (and nothing above) runs
-one smaller job instead: the unit tests, then `site.spec.js` and `theme.spec.js` in Chromium.
+A pull request that changes `docs/index.html`, `docs/assets/css/` or `docs/assets/js/` (and
+nothing above) runs one smaller job instead: the unit tests, then `site.spec.js`,
+`theme.spec.js` and `notes.spec.js` in Chromium.
 It never runs on a push to `main`.
 
 It runs inside Playwright's own Linux image, the same version as `package.json`, with one
@@ -63,6 +64,11 @@ When a run fails, its screenshots, traces and error details are attached to the 
   against a stand-in browser: it follows the device until a student picks a theme, a pick is
   saved and outlasts device changes, picking the device's own theme again clears it, and it
   still works with storage blocked or a pick made in another tab.
+- `notes.test.js`: runs `docs/assets/js/notes.js`, which adds Hide and Show to the Note, Tip,
+  Warning and Attention boxes. A box is known by its text, so rewrapping keeps it hidden and
+  editing it opens it again. Hidden boxes are saved per page, shown ones and stale ones are
+  forgotten, two tabs do not undo each other, a damaged saved value is replaced, and blocked
+  storage still works for the visit.
 
 **Browser tests** (`browser/`, Playwright)
 
@@ -94,6 +100,12 @@ When a run fails, its screenshots, traces and error details are attached to the 
   works with Space and Enter, shows keyboard focus, appears once, works with storage blocked,
   and redraws the Communication flowchart. These read computed styles, so they also catch a
   change to the docsify theme on its CDN. Like `site.spec.js`, they need the network.
+- `notes.spec.js`: every box on every sidebar page has a Hide button and starts open. Hiding
+  shrinks a box to one line with the start of its text, and it stays hidden after a reload and
+  a page change until Show. A box we edited opens again. The whole title line, at least 44px
+  tall, takes the click; Enter, Space and visible focus work; every kind of box reads at 4.5:1
+  open and hidden in both themes; titles never wrap on a phone; printing shows every box; and
+  it works with storage blocked. These need the network too.
 - `visual.spec.js`: screenshots of 20 key states, including the tour, a tooltip and the
   first-visit banner, compared with the saved images in `browser/visual.spec.js-snapshots/`.
 

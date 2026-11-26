@@ -6,38 +6,11 @@
 'use strict';
 
 const { test, expect } = require('@playwright/test');
-const { useLocalFonts } = require('./helpers');
+const { openSite, goTo } = require('./helpers');
 
 test.describe.configure({ retries: 1 }); // a slow CDN should not fail the run
 
 const LINK = { light: 'rgb(0, 85, 183)', dark: 'rgb(111, 177, 231)' }; // #0055B7, #6FB1E7
-
-async function openSite(page, { device = 'light', hash = '#/', init } = {}) {
-  const errors = [];
-  page.on('pageerror', (err) => errors.push(err.message));
-  await useLocalFonts(page);
-  await page.emulateMedia({ colorScheme: device });
-  if (init) await page.addInitScript(init);
-  await page.goto('/' + hash);
-  await expect(page.locator('.markdown-section h1').first()).toBeVisible({ timeout: 20000 });
-  return errors;
-}
-
-// Move to another page in the same document, and wait until docsify has drawn it.
-async function goTo(page, route) {
-  const same = await page.evaluate((r) => {
-    if (location.hash === r) return true;
-    const first = document.querySelector('.markdown-section > *');
-    if (first) first.setAttribute('data-stale', '');
-    location.hash = r;
-    return false;
-  }, route);
-  if (same) return;
-  await page.waitForFunction(() => {
-    const section = document.querySelector('.markdown-section');
-    return section && !section.querySelector('[data-stale]') && section.querySelector('h1');
-  }, null, { timeout: 20000 });
-}
 
 const theme = (page) => page.evaluate(() => document.documentElement.getAttribute('data-theme'));
 const stored = (page) => page.evaluate(() => localStorage.getItem('cpsc100.theme'));

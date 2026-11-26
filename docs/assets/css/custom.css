@@ -145,29 +145,28 @@ body .markdown-section {
     outline-offset: 3px;
 }
 
-@media (prefers-color-scheme: dark) {
-    .markdown-section .copy-section-button {
-        border-color: #6FB1E7;
-        background-color: #6FB1E7;
-        color: #0B1F33;
-    }
+/* Dark colours follow the Dark mode switch (data-theme on <html>), not the device setting. */
+:root[data-theme="dark"] .markdown-section .copy-section-button {
+    border-color: #6FB1E7;
+    background-color: #6FB1E7;
+    color: #0B1F33;
+}
 
-    .markdown-section .copy-section-button:hover {
-        border-color: #8CC2EE;
-        background-color: #8CC2EE;
-    }
+:root[data-theme="dark"] .markdown-section .copy-section-button:hover {
+    border-color: #8CC2EE;
+    background-color: #8CC2EE;
+}
 
-    .markdown-section .copy-section-button:focus-visible {
-        outline-color: #6FB1E7;
-    }
+:root[data-theme="dark"] .markdown-section .copy-section-button:focus-visible {
+    outline-color: #6FB1E7;
+}
 
-    .markdown-section .copy-section h3 {
-        border-top-color: #4A5560;
-    }
+:root[data-theme="dark"] .markdown-section .copy-section h3 {
+    border-top-color: #4A5560;
+}
 
-    .markdown-section .copy-section h4 {
-        color: #C9CED2;
-    }
+:root[data-theme="dark"] .markdown-section .copy-section h4 {
+    color: #C9CED2;
 }
 
 
@@ -531,5 +530,95 @@ body .markdown-section {
     .sidebar .theme-switch-track,
     .sidebar .theme-switch-thumb {
         transition: none;
+    }
+}
+
+/* Hide and Show on the Note, Tip, Warning and Attention boxes (assets/js/notes.js). The title
+   line is the button. Its negative margins stretch it over the box's padding (.75rem 1.25rem,
+   set by docsify-plugin-flexible-alerts), so the whole top band, about 48px tall, takes the
+   click without moving anything. Checked by tests/browser/notes.spec.js. */
+.markdown-section .alert .note-toggle {
+    display: flex;
+    align-items: center;
+    width: calc(100% + 2.5rem);
+    margin: -0.75rem -1.25rem;
+    padding: 0.75rem 1.25rem;
+    border: 0;
+    border-radius: inherit;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.markdown-section .alert .note-toggle .icon,
+.markdown-section .alert .note-label {
+    flex: none;
+    white-space: nowrap;
+}
+
+.markdown-section .alert .note-toggle:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: -4px;
+}
+
+.markdown-section .alert .note-preview {
+    display: none;
+    flex: 1 1 auto;
+    min-width: 0;
+    margin-left: 0.75rem;
+    overflow: hidden;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.markdown-section .alert.is-minimized .note-preview {
+    display: block;
+}
+
+.markdown-section .alert .note-action {
+    display: flex;
+    flex: none;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: auto;
+    padding-left: 0.75rem;
+    font-size: 0.875em;
+    font-weight: 400;
+}
+
+.markdown-section .alert .note-toggle:hover .note-action {
+    text-decoration: underline;
+}
+
+/* A chevron after Hide or Show: up while open, down while minimized */
+.markdown-section .alert .note-action::after {
+    content: '';
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: translateY(0.15em) rotate(-135deg);
+}
+
+.markdown-section .alert.is-minimized .note-action::after {
+    transform: translateY(-0.1em) rotate(45deg);
+}
+
+.markdown-section .alert .note-body > :last-child {
+    margin-bottom: 0;
+}
+
+/* A printed page shows every box in full */
+@media print {
+    .markdown-section .alert .note-body[hidden] {
+        display: block !important;
+    }
+
+    .markdown-section .alert .note-preview,
+    .markdown-section .alert .note-action {
+        display: none !important;
     }
 }

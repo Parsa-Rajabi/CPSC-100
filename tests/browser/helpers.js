@@ -306,8 +306,37 @@ async function lowContrast(page) {
   });
 }
 
+// Open a course site page with the device set to light or dark, and wait until docsify has
+// drawn it. Returns the page errors seen from then on. The site loads docsify from CDNs.
+async function openSite(page, { device = 'light', hash = '#/', init } = {}) {
+  const errors = [];
+  page.on('pageerror', (err) => errors.push(err.message));
+  await useLocalFonts(page);
+  await page.emulateMedia({ colorScheme: device });
+  if (init) await page.addInitScript(init);
+  await page.goto('/' + hash);
+  await expect(page.locator('.markdown-section h1').first()).toBeVisible({ timeout: 20000 });
+  return errors;
+}
+
+// Move to another page in the same document, and wait until docsify has drawn it.
+async function goTo(page, route) {
+  const same = await page.evaluate((r) => {
+    if (location.hash === r) return true;
+    const first = document.querySelector('.markdown-section > *');
+    if (first) first.setAttribute('data-stale', '');
+    location.hash = r;
+    return false;
+  }, route);
+  if (same) return;
+  await page.waitForFunction(() => {
+    const section = document.querySelector('.markdown-section');
+    return section && !section.querySelector('[data-stale]') && section.querySelector('h1');
+  }, null, { timeout: 20000 });
+}
+
 module.exports = {
-  lowContrast,
+  lowContrast, openSite, goTo,
   ALGOS, NAMES, SPEED_STEPS, BASE_MS, useLocalFonts, openDemo, tick, tabKey, relayout, settleAnimations, chooseAlgo, chooseMode, chooseDeal, chooseSpeed, readTable,
   engineSteps, expectTableMatches, untilWaiting, answerWith, answerWrong, playTry
 };
