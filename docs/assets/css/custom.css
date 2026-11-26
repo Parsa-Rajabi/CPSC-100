@@ -145,29 +145,28 @@ body .markdown-section {
     outline-offset: 3px;
 }
 
-@media (prefers-color-scheme: dark) {
-    .markdown-section .copy-section-button {
-        border-color: #6FB1E7;
-        background-color: #6FB1E7;
-        color: #0B1F33;
-    }
+/* Dark colours follow the Dark mode switch (data-theme on <html>), not the device setting. */
+:root[data-theme="dark"] .markdown-section .copy-section-button {
+    border-color: #6FB1E7;
+    background-color: #6FB1E7;
+    color: #0B1F33;
+}
 
-    .markdown-section .copy-section-button:hover {
-        border-color: #8CC2EE;
-        background-color: #8CC2EE;
-    }
+:root[data-theme="dark"] .markdown-section .copy-section-button:hover {
+    border-color: #8CC2EE;
+    background-color: #8CC2EE;
+}
 
-    .markdown-section .copy-section-button:focus-visible {
-        outline-color: #6FB1E7;
-    }
+:root[data-theme="dark"] .markdown-section .copy-section-button:focus-visible {
+    outline-color: #6FB1E7;
+}
 
-    .markdown-section .copy-section h3 {
-        border-top-color: #4A5560;
-    }
+:root[data-theme="dark"] .markdown-section .copy-section h3 {
+    border-top-color: #4A5560;
+}
 
-    .markdown-section .copy-section h4 {
-        color: #C9CED2;
-    }
+:root[data-theme="dark"] .markdown-section .copy-section h4 {
+    color: #C9CED2;
 }
 
 
