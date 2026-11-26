@@ -1,8 +1,9 @@
 # Tests for the Card Demos page (docs/demos/). They run only when the page, its tests or this
 # workflow change, or when a sidebar edit touches the Card Demos link or the lines around it.
-# A pull request that changes the site shell (docs/index.html) or its CSS runs a smaller job
-# instead: the unit tests and the site and theme browser tests in Chromium, so a style change
-# cannot hide links or break the Dark mode switch. Edits to other course pages skip both.
+# A pull request that changes the site shell (docs/index.html), its CSS or its scripts runs a
+# smaller job instead: the unit tests and the site, theme and notes browser tests in Chromium,
+# so a style change cannot hide links or break the Dark mode switch or the Hide buttons on
+# notes. Edits to other course pages skip both.
 name: Card demo tests
 
 on:
@@ -12,6 +13,7 @@ on:
       - 'docs/_sidebar.md'
       - 'docs/index.html'
       - 'docs/assets/css/**'
+      - 'docs/assets/js/**'
       - 'tests/**'
       - '.github/workflows/card-demos.yml'
   push:
@@ -63,7 +65,7 @@ jobs:
           [ "$cards" = true ] || echo "No Card Demos change; skipping the card tests."
           echo "cards=$cards" >> "$GITHUB_OUTPUT"
           # The site shell and its CSS: links must stay visible, in light and dark.
-          theme=$(jq 'any(.files[]; .filename == "docs/index.html" or (.filename | startswith("docs/assets/css/")))' compare.json)
+          theme=$(jq 'any(.files[]; .filename == "docs/index.html" or (.filename | startswith("docs/assets/css/")) or (.filename | startswith("docs/assets/js/")))' compare.json)
           echo "theme=$theme" >> "$GITHUB_OUTPUT"
 
   test:
@@ -112,7 +114,7 @@ jobs:
             tests/browser/visual.spec.js-snapshots/
           retention-days: 14
 
-  # A change to docs/index.html or the site CSS, with no card change: Chromium only, a few
+  # A change to docs/index.html or the site CSS or scripts, with no card change: Chromium only, a few
   # minutes. When the card tests run, they already include these, in all three browsers.
   theme:
     name: Site and theme (chromium)
@@ -138,7 +140,7 @@ jobs:
         run: npm run test:unit
 
       - name: Browser tests
-        run: npx playwright test browser/site.spec.js browser/theme.spec.js --project=chromium
+        run: npx playwright test browser/site.spec.js browser/theme.spec.js browser/notes.spec.js --project=chromium
         env:
           CI: 'true'
 

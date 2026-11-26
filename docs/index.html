@@ -465,6 +465,7 @@
           // Invoked on each page load after new HTML has been appended to the DOM
           hook.doneEach(function () {
             addThemeSwitch();
+            siteNotes.enhance(document.querySelector('.markdown-section'), vm.route.path);
             renderMermaid();
 
             var hasEmbedly = document.getElementsByClassName('embedly-card');
@@ -754,6 +755,9 @@
       else sidebar.insertBefore(button, sidebar.firstChild);
     }
   </script>
+
+  <!-- Hide and Show buttons on the Note, Tip, Warning and Attention boxes -->
+  <script src="assets/js/notes.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
