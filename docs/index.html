@@ -477,6 +477,90 @@
               scrollToTarget(target);
             }
           });
+        },
+        // Copy button for a block of a page, such as the learning goals on the Final Exam page.
+        // In Markdown, wrap the block in
+        // <div class="copy-section" data-copy-title="..." data-copy-label="...">.
+        // The button copies the block as Markdown (headings as #, list items as -), so it pastes
+        // into notes, a document or an AI chat with its weeks and lectures intact.
+        function (hook) {
+          function blockAsMarkdown(root) {
+            var lines = [];
+            if (root.dataset.copyTitle) lines.push('# ' + root.dataset.copyTitle);
+            root.querySelectorAll('h2, h3, h4, h5, h6, p, li').forEach(function (el) {
+              // A paragraph inside a list item is already part of that item's text.
+              if (el.tagName === 'P' && el.closest('li')) return;
+              // Nested lists are written as their own items, so leave them out of this one.
+              var own = el.cloneNode(true);
+              own.querySelectorAll('ul, ol').forEach(function (list) { list.remove(); });
+              own.querySelectorAll('code').forEach(function (code) {
+                code.textContent = '`' + code.textContent + '`';
+              });
+              var text = own.textContent.replace(/\s+/g, ' ').trim();
+              if (!text) return;
+              if (el.tagName === 'LI') {
+                var depth = 0;
+                for (var up = el.parentElement; up && up !== root; up = up.parentElement) {
+                  if (up.tagName === 'UL' || up.tagName === 'OL') depth++;
+                }
+                lines.push('  '.repeat(Math.max(depth - 1, 0)) + '- ' + text);
+              } else if (el.tagName === 'P') {
+                lines.push('', text);
+              } else {
+                // The title is the only # heading, so the block's own headings start at ##.
+                lines.push('', '#'.repeat(Math.max(Number(el.tagName[1]) - 1, 2)) + ' ' + text);
+              }
+            });
+            return lines.join('\n').trim() + '\n';
+          }
+
+          // Inside the Canvas iframe the clipboard API can be blocked, so fall back to
+          // copying a hidden selection.
+          function copyWithSelection(text) {
+            var area = document.createElement('textarea');
+            area.value = text;
+            area.setAttribute('readonly', '');
+            area.style.position = 'fixed';
+            area.style.opacity = '0';
+            document.body.appendChild(area);
+            area.select();
+            var copied = false;
+            try { copied = document.execCommand('copy'); } catch (e) { copied = false; }
+            area.remove();
+            return copied;
+          }
+
+          function copyText(text) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              return navigator.clipboard.writeText(text).catch(function () {
+                if (!copyWithSelection(text)) throw new Error('Copy failed');
+              });
+            }
+            return copyWithSelection(text) ? Promise.resolve() : Promise.reject(new Error('Copy failed'));
+          }
+
+          hook.doneEach(function () {
+            document.querySelectorAll('.markdown-section .copy-section').forEach(function (section) {
+              if (section.querySelector('.copy-section-button')) return;
+              var label = section.dataset.copyLabel || 'Copy';
+              var button = document.createElement('button');
+              button.type = 'button';
+              button.className = 'copy-section-button';
+              button.setAttribute('aria-live', 'polite');
+              button.textContent = label;
+              var reset;
+              button.addEventListener('click', function () {
+                copyText(blockAsMarkdown(section)).then(function () {
+                  button.textContent = 'Copied';
+                }, function () {
+                  button.textContent = 'Could not copy. Select the text instead.';
+                });
+                clearTimeout(reset);
+                reset = setTimeout(function () { button.textContent = label; }, 3000);
+              });
+              section.insertBefore(button, section.firstChild);
+            });
+          });
         }
       ]
     }

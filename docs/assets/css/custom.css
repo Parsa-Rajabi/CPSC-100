@@ -106,6 +106,73 @@ body .markdown-section {
 }
 
 
+/* Copy button at the top of a copy-section block, such as the learning goals on the Final
+   Exam page, added by index.html. It reuses the filled badge colours above, so label
+   contrast is 7.0:1 or more in both themes. The focus ring is the same blue as the fill,
+   offset so it reads against the page (above the 3:1 required for non-text contrast). */
+.markdown-section .copy-section-button {
+    display: inline-block;
+    margin: 1.25rem 0 0.25rem;
+    padding: 0.45em 1.1em;
+    border: 1px solid #0055B7;
+    border-radius: 6px;
+    background-color: #0055B7;
+    color: #FFFFFF;
+    font: inherit;
+    font-size: 0.95em;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.markdown-section .copy-section-button:hover {
+    border-color: #00438F;
+    background-color: #00438F;
+}
+
+/* The theme sizes h3 and h4 almost the same, so inside a copy-section a rule above each h3
+   (a week of learning goals) keeps the weeks apart, and h4 (a lecture) sits smaller. */
+.markdown-section .copy-section h3 {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #C9CED2;
+}
+
+.markdown-section .copy-section h4 {
+    font-size: 1.05rem;
+    color: #4A5560;
+}
+
+.markdown-section .copy-section-button:focus-visible {
+    outline: 3px solid #0055B7;
+    outline-offset: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .markdown-section .copy-section-button {
+        border-color: #6FB1E7;
+        background-color: #6FB1E7;
+        color: #0B1F33;
+    }
+
+    .markdown-section .copy-section-button:hover {
+        border-color: #8CC2EE;
+        background-color: #8CC2EE;
+    }
+
+    .markdown-section .copy-section-button:focus-visible {
+        outline-color: #6FB1E7;
+    }
+
+    .markdown-section .copy-section h3 {
+        border-top-color: #4A5560;
+    }
+
+    .markdown-section .copy-section h4 {
+        color: #C9CED2;
+    }
+}
+
+
 /* Role flags for the two people named Parsa. Parsa Rajabi is the instructor and Parsa
    Seyfourian is a TA, so on the Drop-in Hours schedule those two names carry a flag and
    nobody else does. The flag is there to tell the two apart, not to label the whole

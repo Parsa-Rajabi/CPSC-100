@@ -262,8 +262,9 @@ until things are severe.
 Use the learning goals from each lecture to plan your review. For each goal, check that you can do
 it with an example you have not seen before.
 
-<details>
-<summary>Week 1</summary>
+<div class="copy-section" data-copy-title="CPSC 100 learning goals" data-copy-label="Copy all learning goals">
+
+### Week 1 <!-- {docsify-ignore} -->
 
 #### Lecture B
 
@@ -283,10 +284,7 @@ it with an example you have not seen before.
 - Translate numbers between decimal and binary without a calculator.
 - Understand the importance of AI in teaching and learning for CPSC 100.
 
-</details>
-
-<details>
-<summary>Week 2</summary>
+### Week 2 <!-- {docsify-ignore} -->
 
 #### Lecture A
 
@@ -327,10 +325,7 @@ Take-home video:
 - Apply mathematical operators (+, −, ×, ÷) to mutate variable values in Snap (e.g., incrementing a
   counter, scaling a value).
 
-</details>
-
-<details>
-<summary>Week 3</summary>
+### Week 3 <!-- {docsify-ignore} -->
 
 #### Lecture A
 
@@ -369,10 +364,7 @@ Take-home video:
 - Describe the concept of loops and iteration in programming.
   - Differentiate between finite loops (repeat N times) and condition-based loops (repeat until).
 
-</details>
-
-<details>
-<summary>Week 4</summary>
+### Week 4 <!-- {docsify-ignore} -->
 
 #### Lecture A
 
@@ -398,10 +390,7 @@ Take-home video:
   range or list, and identify when each is the better choice.
   - Differentiate between finite loops (repeat N times) and condition-based loops (repeat until).
 
-</details>
-
-<details>
-<summary>Week 5</summary>
+### Week 5 <!-- {docsify-ignore} -->
 
 #### Lecture A
 
@@ -442,10 +431,7 @@ Take-home video:
 - Build a decision tree from a table of examples, and choose the best attribute to split on by
   comparing how "mixed" (entropy) each split leaves the groups.
 
-</details>
-
-<details>
-<summary>Week 6</summary>
+### Week 6 <!-- {docsify-ignore} -->
 
 #### Lecture B
 
@@ -475,10 +461,7 @@ Take-home video:
   - Identify any bugs associated with a given code block.
 - Take-home slides: Explain in plain English what needs to be changed to resolve bugs.
 
-</details>
-
-<details>
-<summary>Week 7</summary>
+### Week 7 <!-- {docsify-ignore} -->
 
 #### Lecture A (Clustering: K-means)
 
@@ -518,10 +501,7 @@ Take-home video:
 - Evaluate a design using Benjamin's categories.
 - Connect prediction to the coming AI unit.
 
-</details>
-
-<details>
-<summary>Week 8</summary>
+### Week 8 <!-- {docsify-ignore} -->
 
 #### Lecture A
 
@@ -549,10 +529,7 @@ Take-home video:
 - Write a for loop that goes through every item in a list.
 - Translate Snap's forever block into `while True` with break.
 
-</details>
-
-<details>
-<summary>Week 9</summary>
+### Week 9 <!-- {docsify-ignore} -->
 
 #### Lecture A
 
@@ -581,10 +558,7 @@ Take-home video:
 - Write a prompt for one feature that names the element, action and result.
 - Design your app's main screen with each part labelled.
 
-</details>
-
-<details>
-<summary>Week 10</summary>
+### Week 10 <!-- {docsify-ignore} -->
 
 #### Lecture C
 
@@ -594,10 +568,7 @@ Take-home video:
 - Explain why the values in your code are judgments.
 - Explain why some systems learn their rules from data.
 
-</details>
-
-<details>
-<summary>Week 11</summary>
+### Week 11 <!-- {docsify-ignore} -->
 
 #### Lecture B
 
@@ -616,10 +587,7 @@ Take-home video:
 - Compare answers with and without step-by-step reasoning.
 - Explain why AI agents need a human in the loop for high-stakes actions.
 
-</details>
-
-<details>
-<summary>Week 12</summary>
+### Week 12 <!-- {docsify-ignore} -->
 
 #### Lecture B
 
@@ -630,4 +598,4 @@ Take-home video:
 - Check AI explanations against course materials.
 - Apply the course AI policy to your own learning.
 
-</details>
+</div>
