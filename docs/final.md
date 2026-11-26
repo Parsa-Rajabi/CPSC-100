@@ -7,6 +7,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 25 | Added the learning goals for the whole course. |
 | Nov 24 | Added LockDown Browser setup steps and a required practice session. |
 | Nov 23 | Added the room and LockDown Browser details. |
 | Nov 5 | Removed the mentions of ORCA and of a pencil and eraser. The format will be announced closer to the date. |
@@ -253,3 +254,380 @@ until things are severe.
 
 > [!WARNING]
 > If you or someone else is in immediate danger, call 911 or go to the nearest emergency room.
+
+---
+
+## Learning goals
+
+Use the learning goals from each lecture to plan your review. For each goal, check that you can do
+it with an example you have not seen before.
+
+<details>
+<summary>Week 1</summary>
+
+#### Lecture B
+
+- Understand Machines: Explain how computers process data.
+- Trace Data: Track personal data lifecycle.
+- Evaluate Impact: Analyze societal impacts of tech.
+- Practise Agency: Reflect on your role as creator and user.
+- Ethical Decision-Making: Apply ethics during design.
+- Programming: Program using blocks and Python.
+
+#### Lecture C
+
+- Understand the usage of data before and after computers.
+- Recognize hexadecimal numbers and their role in data representation.
+- Recognize the difference between binary and ternary numbers.
+- Count in different standard number bases (i.e. 2, 10, 16).
+- Translate numbers between decimal and binary without a calculator.
+- Understand the importance of AI in teaching and learning for CPSC 100.
+
+</details>
+
+<details>
+<summary>Week 2</summary>
+
+#### Lecture A
+
+- Understand the usage of data before and after computers.
+- Recognize hexadecimal numbers and their role in data representation.
+- Count in different standard number bases (i.e. 2, 10, 16).
+- Translate numbers between binary, hexadecimal, and decimal without a calculator.
+- Understand how colours are represented in the RGB model.
+- Describe how RGB colours are stored and represented in computing.
+  - Recognize that each colour (R, G, B) has 256 intensity levels (0-255).
+- Convert between different RGB representations: Decimal, Binary, & Hex.
+
+Take-home video:
+
+- Recognize the difference between binary and ternary numbers.
+- Translate numbers between binary, hexadecimal, decimal and ternary.
+- Analyze how RGB colours mix to produce new colours.
+- Explain and apply colour theory concepts to digital designs.
+
+#### Lecture B
+
+- Explain what ASCII and Unicode are, including their historical context, purpose, and
+  significance in computing.
+- Decode an ASCII representation of a short text document (with a list of ASCII codes provided).
+- Articulate why Unicode was created and how it solved the problems of earlier encoding systems like
+  ASCII.
+- Compare and contrast Unicode with ASCII in terms of character range, encoding length, and use
+  cases.
+
+#### Lecture C
+
+- Learn about Snap! and its interface.
+- Trace through Snap code that uses control, motion, pen, and variable blocks.
+- Describe the purpose of a variable.
+- Use variables in Snap to store and update different types of data (numbers, text).
+- Distinguish between setting a variable (set) and updating it (change), and use both appropriately
+  in a Snap program.
+- Apply mathematical operators (+, −, ×, ÷) to mutate variable values in Snap (e.g., incrementing a
+  counter, scaling a value).
+
+</details>
+
+<details>
+<summary>Week 3</summary>
+
+#### Lecture A
+
+- Distinguish between hardware, applications, and the operating system.
+- Differentiate between the different forms of computer memory.
+  - Describe how local storage on a computer works: directories, folders.
+  - Compare and contrast local storage, cloud storage, and database storage.
+- Explain where personal data resides when using cloud services.
+  - Describe the basics of how databases organize and retrieve information.
+- Understand data centres and distributed storage concepts.
+- Explain data sovereignty and why institutions like UBC require data to be stored in specific
+  jurisdictions.
+- Understand the difference between what is shown and how something is stored.
+
+#### Lecture B
+
+- Explain the difference between paper vs. electronic documents privacy.
+- Define personal data and explain what counts as "your data".
+  - Explain, at a high level, why jurisdiction matters for personal data.
+  - Describe the common ways apps and websites collect personal data.
+- Understand the issues on data ownership once released online.
+  - Distinguish privacy vs. security of data in a digital context.
+- Differentiate between the different types of cookies and their implications.
+  - Understand and apply self-protection habits for data privacy.
+- List and explain the different laws/regulations in Canada for privacy.
+  - Explain FIPPA and how it relates to student life at UBC.
+
+#### Lecture C
+
+- Explain/define the concept of Algorithms.
+  - Describe its relevance to Computational Thinking (CT) and where it originated from.
+- Use logical reasoning to determine the output of given code.
+- Apply CT to trace and evaluate code snippets.
+- Define boolean expressions and their role in Snap! programming.
+- Apply boolean operations to control flow in programming.
+- Describe the concept of loops and iteration in programming.
+  - Differentiate between finite loops (repeat N times) and condition-based loops (repeat until).
+
+</details>
+
+<details>
+<summary>Week 4</summary>
+
+#### Lecture A
+
+- Explain how the Digital Birth topics connect, using a real-life example.
+  - Follow a photo from pixels and binary, to storage, to metadata and privacy.
+  - Explain why a photo, a caption, and an emoji all end up stored as 0s and 1s.
+- Define computational thinking and name its six core skills.
+  - Decomposition, pattern recognition, abstraction, modelling & simulation, algorithms, and
+    evaluation.
+  - Identify which skills we have already used in Digital Birth.
+- Describe what is coming in Digital Adolescence and how it builds on Digital Birth.
+- Explain how retrospectives, peer evaluations, and stand-ups work in the project.
+- Explain how your peer evaluation average affects your individual project grade.
+
+#### Lecture C
+
+- Trace through a Snap program containing a for loop to predict its behaviour/output for different
+  starting values (Apply Computational Thinking).
+- Describe the concept of loops and iteration in programming.
+- Use logical reasoning to determine the output of given code.
+  - Apply Computational Thinking (CT) to trace and evaluate code snippets.
+- Differentiate between a fixed repeat loop (repeat N times) and a for loop that iterates over a
+  range or list, and identify when each is the better choice.
+  - Differentiate between finite loops (repeat N times) and condition-based loops (repeat until).
+
+</details>
+
+<details>
+<summary>Week 5</summary>
+
+#### Lecture A
+
+- Describe a problem (e.g., searching or sorting) solvable by multiple algorithms, and explain how
+  two of them reach the same result differently.
+- Distinguish linear search, binary search, selection sort, and insertion sort by tracing each on a
+  small list.
+- Predict which algorithm does less work on a given input (sorted vs. unsorted, nearly sorted vs.
+  shuffled), and justify it by counting comparisons.
+- Recommend an algorithm for a real-world scenario by weighing speed, setup cost, data size,
+  frequency of use, and simplicity.
+- Identify sequencing, selection, and iteration in a Snap script or pseudocode, and explain each
+  one's role.
+
+#### Lecture B
+
+- Explain how a threshold rule (surge pricing) and a weighted score (TikTok's feed) turn data into a
+  decision.
+- Explain why choosing the input is a design decision with consequences.
+- Trace a feedback loop, where an algorithm's output becomes its next input.
+- Define a classifier, tell training data from test data, and build a one-rule classifier from
+  labelled data.
+- Take-home activity: Evaluate an algorithm's design from more than one perspective, e.g., the
+  company vs. its riders.
+
+#### Lecture C
+
+- Trace bubble sort and insertion sort step by step on a small set of values, and compare how each
+  one builds its sorted portion.
+- Define a classifier as an algorithm that maps input data to a category, and give real-world
+  examples (loans, medical diagnosis, image recognition).
+- Explain the difference between training data and test data, and why some labelled data is held
+  back.
+- Apply the steps of classification (start with the data, split it, find a pattern, test it, check
+  accuracy) to a small dataset.
+- Identify the parts of a tree (root, children, parent, leaf, edge) and describe a decision tree as
+  one whose nodes are attributes and whose edges are conditions.
+- Build a decision tree from a table of examples, and choose the best attribute to split on by
+  comparing how "mixed" (entropy) each split leaves the groups.
+
+</details>
+
+<details>
+<summary>Week 6</summary>
+
+#### Lecture B
+
+- Continued: Build a decision tree from a table of examples, and choose the best attribute to split
+  on by comparing how "mixed" (entropy) each split leaves the groups.
+- Describe the steps a decision tree follows to build itself: try each attribute, score each split,
+  pick the lowest, and repeat until every group is pure.
+- Explain why a decision tree trained on past decisions can reproduce the bias in those decisions
+  while appearing objective.
+- Describe Ruha Benjamin's four categories (engineered inequity, default discrimination, coded
+  exposure, technological benevolence) and her core claim that technology can encode inequality
+  while looking neutral.
+- Classify a real-world case using at least one of Benjamin's categories, and name a plausible
+  alternative classification.
+
+#### Lecture C
+
+- Understand and explain the modulo (mod) operator. Apply mod operator in Snap! programming.
+  - Bonus: understand AM/PM acronym in the clock system.
+- Define a custom block (procedure) in Snap that takes inputs and performs a sequence of actions.
+- Combine a custom block, a list, and a loop in a single Snap program (e.g., a block that processes
+  each item in a list).
+- Use list blocks in Snap (create a list, add an item, access an item by position, get the length)
+  to store and retrieve multiple related pieces of data.
+- Take-home activity: Apply conditional programming to develop decision trees in Snap!
+- Take-home slides: Evaluate if a given Snap code block correctly implements an algorithm.
+  - Identify any bugs associated with a given code block.
+- Take-home slides: Explain in plain English what needs to be changed to resolve bugs.
+
+</details>
+
+<details>
+<summary>Week 7</summary>
+
+#### Lecture A (Clustering: K-means)
+
+- Explain how K-means clustering differs from the surge-pricing and decision-tree algorithms from
+  Week 5: it discovers groups in a dataset without direct human input.
+- Explain how the K-means algorithm works.
+- Trace the basic steps of K-means on a small dataset (assign each point to the nearest centre,
+  recompute the centres, repeat), and identify when it stops.
+- Define and identify the measures of quality for a clustering.
+- List the strengths and limitations of K-means.
+
+#### Lecture B
+
+- Explain what a recommender system predicts, and what TikTok, Instagram Reels, Amazon, and Google
+  Ads are likely optimizing for.
+- Distinguish explicit from implicit feedback, and explain why implicit feedback raises privacy
+  concerns.
+- Make a recommendation using content-based filtering (matching features).
+- Make a recommendation using collaborative filtering (finding your nearest neighbour).
+- Explain cold start, feedback loops, and proxy optimization, and who bears the cost.
+- Argue who should decide whether a feed is personalized.
+
+#### Lecture C
+
+- Describe how high-level code, assembly, and machine code differ.
+- Open a Jupyter notebook and run Python in a cell.
+- Translate a short Snap script into Python.
+- Variables, math operators and `print()`.
+- Spot the syntax differences between Snap and Python.
+
+#### Recommender Systems
+
+- Explain objectives and feedback data.
+- Distinguish content-based and collaborative filtering.
+- Compute similarity and trace a recommendation.
+- Explain cold start, popularity, and feedback loops.
+- Evaluate a design using Benjamin's categories.
+- Connect prediction to the coming AI unit.
+
+</details>
+
+<details>
+<summary>Week 8</summary>
+
+#### Lecture A
+
+- Write a condition in Python that compares two values (e.g., `age < 13`, `choice == "yes"`).
+- Translate Snap's `if` and `if / else` blocks into Python.
+- Use `elif` to choose between more than two options.
+- Combine conditions with `and`, `or`, and `not`.
+- Spot the syntax differences between Snap and Python (colon, indent, `==` vs `=`).
+- Identify the default in a program and who it affects.
+
+#### Lecture B
+
+- Translate a Snap repeat until script into a Python while loop.
+- Rewrite a stop condition as a keep-going condition (e.g., `=` becomes `!=`).
+- Trace a while loop to predict its output and spot an infinite loop.
+- Choose a while or a `for` loop for a task, and justify the choice.
+- Use break to exit a loop early, and predict what the code prints.
+
+#### Lecture C
+
+- Translate Snap's repeat and for blocks into Python `for` loops.
+- Predict the numbers a `range()` call gives.
+- Create a list, read an item by index, and add one with `.append()`.
+- Convert Snap's `item (n) of` into a Python index (e.g., `feed[0]`).
+- Write a for loop that goes through every item in a list.
+- Translate Snap's forever block into `while True` with break.
+
+</details>
+
+<details>
+<summary>Week 9</summary>
+
+#### Lecture A
+
+- Define and call a Python function with parameters.
+- Translate Snap's command, reporter and predicate blocks into Python functions.
+- Distinguish return from print by predicting a function's result.
+- Write a function that returns True or False.
+- Check if an item is in a list with in.
+- Build a small recommender from functions, lists, loops and if.
+
+#### Lecture B
+
+- Compare HTML, CSS and JavaScript with Snap and Python.
+- Classify a change to a web page as HTML, CSS or JavaScript.
+- Use Inspect to find the HTML and CSS behind part of a page.
+- Explain vibe coding and why its code must be tested.
+- Define a feature in Project 2B.
+- Use Copilot and CodePen to change a web page.
+
+#### Lecture C
+
+- Trace one task from the text box to the page.
+- Diagnose a bug using Inspect and the Console.
+- Evaluate whether Copilot's code matches your feature.
+- Write a testable feature for your app idea.
+- Write a prompt for one feature that names the element, action and result.
+- Design your app's main screen with each part labelled.
+
+</details>
+
+<details>
+<summary>Week 10</summary>
+
+#### Lecture C
+
+- Trace how data grew this term, from bits to your own code.
+- Connect this term's topics to computational thinking.
+- Assemble and trace a Python decision rule.
+- Explain why the values in your code are judgments.
+- Explain why some systems learn their rules from data.
+
+</details>
+
+<details>
+<summary>Week 11</summary>
+
+#### Lecture B
+
+- Identify where AI training data comes from, including your own data.
+- Explain how gaps in training data lead to uneven accuracy.
+- Explain why a fluent AI answer can still be false.
+- Compare AI answers with and without a web search.
+- Evaluate when to check an AI answer, based on the cost of a mistake.
+- Apply UBC's safe-use practices when using ChatGPT.
+
+#### Lecture C
+
+- Explain why AI detectors are unreliable.
+- Describe the Turing test and one of its limits.
+- Explain how an AI agent combines a language model with tools, memory and goals.
+- Compare answers with and without step-by-step reasoning.
+- Explain why AI agents need a human in the loop for high-stakes actions.
+
+</details>
+
+<details>
+<summary>Week 12</summary>
+
+#### Lecture B
+
+- Distinguish AI use that builds understanding from use that replaces it.
+- Use AI as a tutor that explains ideas at your level.
+- Write prompts that make AI quiz you instead of giving answers.
+- Use AI feedback to improve your own explanation.
+- Check AI explanations against course materials.
+- Apply the course AI policy to your own learning.
+
+</details>
