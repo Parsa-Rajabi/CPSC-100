@@ -1,7 +1,8 @@
 # Site tests
 
-Tests for the Card Demos page (`docs/demos/`) and the parts of the course site around it.
-Nothing in this folder is published: GitHub Pages serves `docs/` only.
+Tests for the Card Demos page (`docs/demos/`), the parts of the course site around it, and
+the site's light and dark themes: links must look like links, and the Dark mode switch must
+work. Nothing in this folder is published: GitHub Pages serves `docs/` only.
 
 ## Running them
 
@@ -16,15 +17,21 @@ npm run test:browsers # Chromium, Firefox and WebKit (about 8 minutes)
 
 The first browser run may ask for `npx playwright install chromium`.
 
-Run `npm test` before merging any change to `docs/demos/`.
+Run `npm test` before merging any change to `docs/demos/`. After a change to
+`docs/index.html` or `docs/assets/css/`, run at least the unit tests and
+`npx playwright test browser/site.spec.js browser/theme.spec.js`.
 
 ## On GitHub
 
 `.github/workflows/card-demos.yml` runs every test on pull requests and pushes to `main`,
 but only when one of these changes: `docs/demos/`, `tests/`, the workflow itself, or the
-Card Demos line in `docs/_sidebar.md` and the lines around it. Edits to other course pages,
-the rest of the sidebar, or `docs/index.html` do not run it. To run it anyway, for example
-after updating docsify, start it by hand from the Actions tab.
+Card Demos line in `docs/_sidebar.md` and the lines around it. Edits to other course pages
+and the rest of the sidebar do not run it. To run it anyway, for example after updating
+docsify, start it by hand from the Actions tab.
+
+A pull request that changes `docs/index.html` or `docs/assets/css/` (and nothing above) runs
+one smaller job instead: the unit tests, then `site.spec.js` and `theme.spec.js` in Chromium.
+It never runs on a push to `main`.
 
 It runs inside Playwright's own Linux image, the same version as `package.json`, with one
 job each for Chromium, Firefox and WebKit (the engine behind Safari on iPhones).
@@ -50,6 +57,12 @@ When a run fails, its screenshots, traces and error details are attached to the 
     (the narration is a live region, so a repeated sentence would not be read out).
 - `page.test.js`: the handover's rules for the page. No libraries, the lecture colours,
   reduced motion, real buttons, the sidebar line, and no mention of AI tools.
+- `theme.test.js`: links in `custom.css` are underlined in both themes, blue (not navy, black
+  or grey) and at least 4.5:1 against the page. No CSS rule reads the device setting
+  directly, so the switch can override it. It also runs the theme script from `index.html`
+  against a stand-in browser: it follows the device until a student picks a theme, a pick is
+  saved and outlasts device changes, picking the device's own theme again clears it, and it
+  still works with storage blocked or a pick made in another tab.
 
 **Browser tests** (`browser/`, Playwright)
 
@@ -74,6 +87,13 @@ When a run fails, its screenshots, traces and error details are attached to the 
 - `site.spec.js`: docsify still renders every sidebar page. The link opens the demo in the
   same tab, and Back to course site returns. This one needs the network, because docsify
   loads from public CDNs.
+- `theme.spec.js`: on every sidebar page, in light and in dark, every link in the text is
+  underlined, blue (links in notes and tips take the box's colour instead) and at least 4.5:1
+  against what is actually behind it. Sidebar and top menu links are 4.5:1 too. The Dark mode
+  switch sits under the search box, changes the theme at once, is remembered after a reload,
+  works with Space and Enter, shows keyboard focus, appears once, works with storage blocked,
+  and redraws the Communication flowchart. These read computed styles, so they also catch a
+  change to the docsify theme on its CDN. Like `site.spec.js`, they need the network.
 - `visual.spec.js`: screenshots of 20 key states, including the tour, a tooltip and the
   first-visit banner, compared with the saved images in `browser/visual.spec.js-snapshots/`.
 

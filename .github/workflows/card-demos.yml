@@ -1,6 +1,8 @@
 # Tests for the Card Demos page (docs/demos/). They run only when the page, its tests or this
 # workflow change, or when a sidebar edit touches the Card Demos link or the lines around it.
-# Edits to other course pages, the rest of the sidebar, or the site shell skip them.
+# A pull request that changes the site shell (docs/index.html) or its CSS runs a smaller job
+# instead: the unit tests and the site and theme browser tests in Chromium, so a style change
+# cannot hide links or break the Dark mode switch. Edits to other course pages skip both.
 name: Card demo tests
 
 on:
@@ -8,6 +10,8 @@ on:
     paths:
       - 'docs/demos/**'
       - 'docs/_sidebar.md'
+      - 'docs/index.html'
+      - 'docs/assets/css/**'
       - 'tests/**'
       - '.github/workflows/card-demos.yml'
   push:
@@ -36,6 +40,7 @@ jobs:
     timeout-minutes: 5
     outputs:
       cards: ${{ steps.check.outputs.cards }}
+      theme: ${{ steps.check.outputs.theme }}
     steps:
       - id: check
         env:
@@ -45,6 +50,7 @@ jobs:
         run: |
           if [ "$GITHUB_EVENT_NAME" = workflow_dispatch ]; then
             echo cards=true >> "$GITHUB_OUTPUT"
+            echo theme=false >> "$GITHUB_OUTPUT"
             exit 0
           fi
           gh api "repos/$GITHUB_REPOSITORY/compare/$BASE...$HEAD" > compare.json
@@ -54,8 +60,11 @@ jobs:
             or .filename == ".github/workflows/card-demos.yml"
             or (.filename == "docs/_sidebar.md"
                 and ((.patch // "demos/cards.html") | contains("demos/cards.html"))))' compare.json)
-          [ "$cards" = true ] || echo "Only sidebar lines away from the Card Demos link changed; skipping the tests."
+          [ "$cards" = true ] || echo "No Card Demos change; skipping the card tests."
           echo "cards=$cards" >> "$GITHUB_OUTPUT"
+          # The site shell and its CSS: links must stay visible, in light and dark.
+          theme=$(jq 'any(.files[]; .filename == "docs/index.html" or (.filename | startswith("docs/assets/css/")))' compare.json)
+          echo "theme=$theme" >> "$GITHUB_OUTPUT"
 
   test:
     name: ${{ matrix.browser }}
@@ -101,4 +110,42 @@ jobs:
           path: |
             tests/test-results/
             tests/browser/visual.spec.js-snapshots/
+          retention-days: 14
+
+  # A change to docs/index.html or the site CSS, with no card change: Chromium only, a few
+  # minutes. When the card tests run, they already include these, in all three browsers.
+  theme:
+    name: Site and theme (chromium)
+    needs: changes
+    if: needs.changes.outputs.theme == 'true' && needs.changes.outputs.cards != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: mcr.microsoft.com/playwright:v1.61.1-noble
+      options: --user 1001
+    defaults:
+      run:
+        working-directory: tests
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install
+        run: npm ci --no-audit --no-fund
+
+      - name: Unit tests
+        run: npm run test:unit
+
+      - name: Browser tests
+        run: npx playwright test browser/site.spec.js browser/theme.spec.js --project=chromium
+        env:
+          CI: 'true'
+
+      - name: Upload results
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: test-results-theme
+          path: tests/test-results/
           retention-days: 14

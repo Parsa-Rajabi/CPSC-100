@@ -205,21 +205,17 @@
 
 /* Code colours that are easy to read: 4.5:1 contrast or more on the code background.
    The theme's own comment, string and punctuation colours were too faint. */
-@media (prefers-color-scheme: light) {
-  :root {
-    --code-theme-comment: #57606a;
-    --code-theme-keyword: #0550ae;
-    --code-theme-selector: #116329;
-    --code-theme-function: #6f42c1;
-    --code-theme-operator: #953800;
-    --code-theme-punctuation: #333;
-  }
+:root[data-theme="light"] {
+  --code-theme-comment: #57606a;
+  --code-theme-keyword: #0550ae;
+  --code-theme-selector: #116329;
+  --code-theme-function: #6f42c1;
+  --code-theme-operator: #953800;
+  --code-theme-punctuation: #333;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --code-theme-comment: #9fb3bd;
-  }
+:root[data-theme="dark"] {
+  --code-theme-comment: #9fb3bd;
 }
 
 /* Python: keep each line whole and scroll sideways. A wrapped line looks like a new line
@@ -526,37 +522,35 @@ body .docsify-pagination-container {
 
 }
 
-/* Dark mode colours for use with Simple light + dark theme (uncomment to use) */
-@media (prefers-color-scheme: dark) {
+/* Dark mode colours for use with Simple light + dark theme. custom.css overrides the link
+   colours. data-theme on <html> follows the Dark mode switch (see index.html). */
+:root[data-theme="dark"] {
+  --link-color: #1BA1EE!important;
 
-  :root {
-    --link-color: #1BA1EE!important;
+  --sidebar-name-color: #1BA1EE!important;
+  --sidebar-nav-link-color--active: #1BA1EE!important;
+  --sidebar-nav-link-border-color--active: #1BA1EE!important;
 
-    --sidebar-name-color: #1BA1EE!important;
-    --sidebar-nav-link-color--active: #1BA1EE!important;
-    --sidebar-nav-link-border-color--active: #1BA1EE!important;
+  --sidebar-nav-pagelink-background--active:
+      no-repeat 0px center / 5px 6px
+      linear-gradient(225deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4.25px),
+      no-repeat 5px center / 5px 6px
+      linear-gradient(135deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4.25px)!important;
+  --sidebar-nav-pagelink-background--collapse:
+      no-repeat 2px calc(50% - 2.5px) / 6px 5px
+      linear-gradient(45deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4px),
+      no-repeat 2px calc(50% + 2.5px) / 6px 5px
+      linear-gradient(135deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4px)!important;
+  --sidebar-nav-pagelink-background--loaded:
+      no-repeat 0px center / 5px 6px
+      linear-gradient(225deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4.25px),
+      no-repeat 5px center / 5px 6px
+      linear-gradient(135deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4.25px)!important;
 
-    --sidebar-nav-pagelink-background--active:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4.25px)!important;
-    --sidebar-nav-pagelink-background--collapse:
-        no-repeat 2px calc(50% - 2.5px) / 6px 5px
-        linear-gradient(45deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4px),
-        no-repeat 2px calc(50% + 2.5px) / 6px 5px
-        linear-gradient(135deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4px)!important;
-    --sidebar-nav-pagelink-background--loaded:
-        no-repeat 0px center / 5px 6px
-        linear-gradient(225deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4.25px),
-        no-repeat 5px center / 5px 6px
-        linear-gradient(135deg, transparent 2.75px, #1BA1EE 2.75px 4.25px, transparent 4.25px)!important;
+  --navbar-root-color--active: #1BA1EE!important;
+  --navbar-root-color--active: #1BA1EE!important;
 
-    --navbar-root-color--active: #1BA1EE!important;
-    --navbar-root-color--active: #1BA1EE!important;
-
-    --blockquote-border-color: #1BA1EE!important;
-    
-    --pagination-title-color: #1BA1EE!important;
-  }
+  --blockquote-border-color: #1BA1EE!important;
+  
+  --pagination-title-color: #1BA1EE!important;
 }

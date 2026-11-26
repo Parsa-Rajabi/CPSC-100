@@ -92,17 +92,15 @@ body .markdown-section {
     color: #FFFFFF;
 }
 
-@media (prefers-color-scheme: dark) {
-    .markdown-section .changelog-badge {
-        border-color: #7D878E;
-        color: #C9CED2;
-    }
+:root[data-theme="dark"] .markdown-section .changelog-badge {
+    border-color: #7D878E;
+    color: #C9CED2;
+}
 
-    .markdown-section .changelog-badge-recent {
-        border-color: #6FB1E7;
-        background-color: #6FB1E7;
-        color: #0B1F33;
-    }
+:root[data-theme="dark"] .markdown-section .changelog-badge-recent {
+    border-color: #6FB1E7;
+    background-color: #6FB1E7;
+    color: #0B1F33;
 }
 
 
@@ -149,17 +147,15 @@ body .markdown-section {
     color: #553900;
 }
 
-@media (prefers-color-scheme: dark) {
-    /* Pale fills glare against the dark page, so invert: deep fill, light label. */
-    .markdown-section .role-instructor {
-        background-color: #123A5E;
-        color: #BDDCF5;
-    }
+/* Pale fills glare against the dark page, so invert: deep fill, light label. */
+:root[data-theme="dark"] .markdown-section .role-instructor {
+    background-color: #123A5E;
+    color: #BDDCF5;
+}
 
-    .markdown-section .role-ta {
-        background-color: #4A3A12;
-        color: #F0D9A0;
-    }
+:root[data-theme="dark"] .markdown-section .role-ta {
+    background-color: #4A3A12;
+    color: #F0D9A0;
 }
 
 /* Teaching Team cards. auto-fill picks the column count from the page width, so the
@@ -226,33 +222,38 @@ body .markdown-section {
     background: #2F6F4E;
 }
 
-@media (prefers-color-scheme: dark) {
-    .markdown-section .team-card img.team-photo {
-        border-color: rgba(178, 180, 180, 0.3);
-        background: #20262C;
-    }
+:root[data-theme="dark"] .markdown-section .team-card img.team-photo {
+    border-color: rgba(178, 180, 180, 0.3);
+    background: #20262C;
+}
 
-    .markdown-section .team-card .team-pronouns {
-        color: #B2B4B4;
-    }
+:root[data-theme="dark"] .markdown-section .team-card .team-pronouns {
+    color: #B2B4B4;
+}
 
-    .markdown-section .team-lab {
-        color: #061018;
-        background: #6FB1E7;
-    }
+:root[data-theme="dark"] .markdown-section .team-lab {
+    color: #061018;
+    background: #6FB1E7;
+}
 
-    .markdown-section .team-lab-support {
-        background: #8ED1A6;
-    }
+:root[data-theme="dark"] .markdown-section .team-lab-support {
+    background: #8ED1A6;
 }
 
 
-/* Link colors to match UBC branding visual styling */
+/* Link colors to match UBC branding visual styling.
+
+   Links in the page are UBC Blue (#0055B7) and underlined. They used to be UBC navy
+   (#002145) with no underline, which is almost the colour of the body text, so students
+   could not tell a link from plain text. No blue can be 4.5:1 against the white page and
+   also 3:1 against the grey body text, so the underline is what marks a link, and the colour
+   is a second cue (WCAG 1.4.1, Use of Color). Contrast on the page: 7.0:1 light, 5.6:1 dark.
+   tests/unit/theme.test.js and tests/browser/theme.spec.js check all of this. */
 
 :root {
     /* UBC brand colors: primary blue and supporting accents */
-    --link-color: #002145!important;
-    --link-text-decoration: none!important;
+    --link-color: #0055B7!important;
+    --link-text-decoration: underline!important;
     --link-text-decoration--hover: underline!important;
 
     --sidebar-name-color: #002145!important;
@@ -285,14 +286,15 @@ body .markdown-section {
 }
 
 
-/* Dark mode colours to match UBC branding visual styling for use with light + dark theme */
+/* Dark mode colours to match UBC branding visual styling for use with light + dark theme.
+   Every dark rule hangs off data-theme="dark" on <html>, not the device setting, so the
+   Dark mode switch in the sidebar can override it. index.html sets the attribute. */
 
-@media (prefers-color-scheme: dark) {
-:root {
+:root[data-theme="dark"] {
 
     /* Dark-mode UBC palette: lighter blue for contrast on dark backgrounds */
     --link-color: #6FB1E7!important;
-    --link-text-decoration: none!important;
+    --link-text-decoration: underline!important;
     --link-text-decoration--hover: underline!important;
 
     --sidebar-name-color: #6FB1E7!important;
@@ -313,7 +315,6 @@ body .markdown-section {
     --blockquote-border-color: #757B7F!important;
 
     --pagination-title-color: #6FB1E7!important;
-    }
 }
 
 
@@ -391,4 +392,77 @@ body .markdown-section {
     font-family: "Open Sans",sans-serif;
     line-height: 1.3;
     font-size: 14px;
+}
+
+
+/* Dark mode switch, under the search box in the sidebar (index.html adds it). It is a
+   switch, not a sun or moon icon, so its state is never ambiguous: the label says what it
+   controls and the knob shows whether it is on. The whole row is the click target, at least
+   44px tall for a finger. The off track is 5.6:1 (light) and 7.6:1 (dark) against the
+   sidebar, above the 3:1 required for controls. */
+.sidebar .theme-switch {
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 100%;
+    min-height: 44px;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--sidebar-nav-link-color);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sidebar .theme-switch:hover {
+    color: var(--sidebar-nav-link-color--active);
+}
+
+.sidebar .theme-switch:focus-visible {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+.sidebar .theme-switch-track {
+    position: relative;
+    flex: none;
+    width: 2.5rem;
+    height: 1.4rem;
+    border: 2px solid currentColor;
+    border-radius: 999px;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+.sidebar .theme-switch-thumb {
+    position: absolute;
+    top: 50%;
+    left: 0.2rem;
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    background: currentColor;
+    transform: translateY(-50%);
+    transition: left 0.15s, background-color 0.15s;
+}
+
+.sidebar .theme-switch[aria-checked="true"] .theme-switch-track {
+    border-color: var(--link-color);
+    background: var(--link-color);
+}
+
+.sidebar .theme-switch[aria-checked="true"] .theme-switch-thumb {
+    left: calc(100% - 1.05rem);
+    background: var(--sidebar-background);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sidebar .theme-switch-track,
+    .sidebar .theme-switch-thumb {
+        transition: none;
+    }
 }
