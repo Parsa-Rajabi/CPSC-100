@@ -12,6 +12,7 @@
 
 | Date | Update |
 | :--: | :----- |
+| Nov 27 | Computers and Society moved to Mon Nov 30, Digital Adulthood consolidation to Wed Dec 2, and Digital Traces was removed. Fri Dec 4 is a guest speaker from Open WebUI, and Mon Dec 7 a final exam review session. |
 | Nov 1 | Added the final exam, Sat Dec 19 at 8:30am. The project work day moved to Mon Nov 23, with no class, and Artificial Intelligence 4 to Wed Nov 25. |
 | Oct 23 | Added Pre-lab 8, the Project 2 proposal, due Thu Nov 12. |
 | Oct 13 | Added the Project 2 dates and Pre-lab 5, due Mon Oct 19. |
@@ -42,8 +43,8 @@ Lecture and lab times and rooms are on the [syllabus](syllabus.md#lectures) and 
 | 10 | Nov 9 - 13 | W10A: no class, Midterm Break<br>W10B: no class, Midterm Break<br>W10C: Digital Adolescence consolidation | *No quiz* | *No lab this week* | [Pre-lab 8](project-2b.md#pre-lab-8-your-ideas-sketches-and-proposal), your group's Project 2 ideas, sketches and proposal (one submission per group), Thu Nov 12<br>Stand-up 6, Fri Nov 13, 4:00pm |
 | 11 | Nov 16 - 20 | W11A: Artificial Intelligence 1<br>W11B: Artificial Intelligence 2<br>W11C: Artificial Intelligence 3 | [Quiz 5](quizzes.md#schedule), Wed Nov 18 to Wed Nov 25 | [Lab 8](labs.md#schedule) | Stand-up 7, Fri Nov 20, 4:00pm |
 | 12 | Nov 23 - 27 | W12A: no class, project work day<br>W12B: Artificial Intelligence 4<br>W12C: Digital Consent | Quiz 5 continues to Wed Nov 25 | [Lab 9](labs.md#schedule) | [Project 2B](project-2b.md), Tue Nov 24<br>Stand-up 8, Fri Nov 27, 4:00pm |
-| 13 | Nov 30 - Dec 4 | W13A: Digital Traces<br>W13B: Computers and Society<br>W13C: Digital Adulthood consolidation | *No quiz* | [Lab 10](labs.md#schedule) | [Project 2C](project-2c.md), the viva voce, Wed Dec 2 to Fri Dec 4<br>Project 2 [retrospective](project.md#retrospectives) + [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, the last one, Fri Dec 4, 4:00pm |
-| 14 | Dec 7 | W14A: Course wrap-up. Last day of class. | | | |
+| 13 | Nov 30 - Dec 4 | W13A: Computers and Society<br>W13B: Digital Adulthood consolidation<br>W13C: Guest speaker from Open WebUI | *No quiz* | [Lab 10](labs.md#schedule) | [Project 2C](project-2c.md), the viva voce, Wed Dec 2 to Fri Dec 4<br>Project 2 [retrospective](project.md#retrospectives) + [iPeer 2](project-peer-evaluation.md), Thu Dec 3<br>Stand-up 9, the last one, Fri Dec 4, 4:00pm |
+| 14 | Dec 7 | W14A: Final exam review session. Last day of class. | | | |
 | - | see [important dates](syllabus.md#important-dates) | Final Exam Period | | | [Final Exam](final.md), Sat Dec 19, 8:30am |
 
 Labs run as a Wednesday/Thursday pair. When a pair is cancelled, both halves are cancelled. So L1E doesn't meet on Thursday Oct 1 or Thursday Nov 12, even though those aren't holidays. All five sections have the same number of labs, which is what the 7-of-9 attendance requirement assumes.
